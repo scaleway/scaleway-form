@@ -1,0 +1,59 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": ["@scaleway/react", "plugin:mdx/recommended"],
+  "plugins": ["@emotion"],
+  "rules": {
+    // Import
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/__stories__/**/*",
+          "**/*.spec.ts",
+          "**/*.spec.tsx",
+          "**/__tests__/*",
+          "rollup.config.mjs"
+        ]
+      }
+    ],
+
+    // emotion
+    "@emotion/styled-import": "error",
+    "@emotion/no-vanilla": "error",
+    "@emotion/import-from-emotion": "error",
+    "@emotion/syntax-preference": ["error", "string"],
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["tsconfig.json"]
+      },
+      "extends": ["@scaleway/react/typescript"],
+      "rules": {
+        "react/require-default-props": "off"
+      }
+    },
+    {
+      "files": ["**/__stories__/*", "**/__tests__/*"],
+      "rules": {
+        "no-console": "off",
+        "no-alert": "off",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx", ".d.ts"]
+      }
+    }
+  }
+}

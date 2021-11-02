@@ -11,9 +11,11 @@
     "jsx": "preserve",
   },
   "include": [
+    "./storybook/**/*.ts",
+    "./storybook/**/*.tsx",
     "**/*.ts",
     "**/*.tsx",
-    "emotion.d.ts"
+    "emotion.d.ts",
   ],
   "exclude": [
     "node_modules",

@@ -1,12 +1,12 @@
 import { Meta, Story } from '@storybook/react'
 import React from 'react'
-import Exemple from '..'
+import Example from '..'
 
 export default {
-  component: Exemple,
-  title: 'Components/Exemple',
+  component: Example,
+  title: 'Components/Example',
 } as Meta
 
-const Template: Story = () => <Exemple />
+const Template: Story = () => <Example />
 
 export const Default = Template.bind({})

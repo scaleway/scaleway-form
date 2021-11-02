@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Exemple renders correctly  1`] = `
+exports[`Example renders correctly  1`] = `
 <DocumentFragment>
   <div>
     This is a test

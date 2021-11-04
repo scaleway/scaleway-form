@@ -1,3 +1,13 @@
+### [1.0.2](https://github.com/scaleway/scaleway-form/compare/v1.0.1...v1.0.2) (2021-11-04)
+
+
+### :package: Chore
+
+* **deps:** update node.js ([#7](https://github.com/scaleway/scaleway-form/issues/7)) ([1ec1481](https://github.com/scaleway/scaleway-form/commit/1ec1481741b08aad2b2b9d1da73d256e46fdad98))
+* **devdeps:** update dependency @types/react-dom to v17.0.11 ([2c1d5da](https://github.com/scaleway/scaleway-form/commit/2c1d5dab641d2b26921b6b70831144079949a876))
+* **devdeps:** update dependency @types/react-dom to v17.0.11 ([e8dd6c8](https://github.com/scaleway/scaleway-form/commit/e8dd6c822636617232e54c560e16e189d02a2a2e))
+* **devdeps:** update dependency lint-staged to v11.2.6 ([7310fbe](https://github.com/scaleway/scaleway-form/commit/7310fbebff018c1ee2ff54b2c29d97ab25bab01e))
+
 ### [1.0.1](https://github.com/scaleway/scaleway-form/compare/v1.0.0...v1.0.1) (2021-11-04)
 
 

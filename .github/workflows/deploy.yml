@@ -5,14 +5,14 @@ on:
     types: ['opened', 'edited', 'reopened', 'synchronize']
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
     env:
-      IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/scaleway-from
-      # REMOTE_SSH_SERVER: ssh://root@ui.scaleway.com
+      IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/scaleway-form
+      REMOTE_SSH_SERVER: ssh://root@form.ui.scaleway.com
     steps:
       - uses: actions/checkout@v2.3.5
       - name: Cache Docker layers
@@ -28,8 +28,8 @@ jobs:
       - name: Export custom variables
         run: |
           SAFE_GITHUB_HEAD_REF_SLUG_URL=$(echo $GITHUB_HEAD_REF_SLUG_URL | rev | cut -c-37 | rev)
-          ([[ $GITHUB_REF == 'refs/heads/master' ]] && echo "BRANCH_SLUG=master" || echo "BRANCH_SLUG=$SAFE_GITHUB_HEAD_REF_SLUG_URL") >> $GITHUB_ENV
-          ([[ $GITHUB_REF == 'refs/heads/master' ]] && echo "HOST=react.ui.scaleway.com" || echo "HOST=$SAFE_GITHUB_HEAD_REF_SLUG_URL.react.ui.scaleway.com") >> $GITHUB_ENV
+          ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "BRANCH_SLUG=main" || echo "BRANCH_SLUG=$SAFE_GITHUB_HEAD_REF_SLUG_URL") >> $GITHUB_ENV
+          ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "HOST=form.ui.scaleway.com" || echo "HOST=$SAFE_GITHUB_HEAD_REF_SLUG_URL.form.ui.scaleway.com") >> $GITHUB_ENV
 
       - name: Start deployment
         uses: bobheadxi/deployments@v0.6.0
@@ -39,7 +39,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           env: ${{ env.BRANCH_SLUG }}
           ref: ${{ github.head_ref }}
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1.6.0
       - name: Login to GHCR
@@ -58,17 +57,17 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
-      # - name: Set Docker context
-      #   uses: arwynfr/actions-docker-context@98fc92878d0b856c1112c79b8d0f45353206e186
-      #   with:
-      #     docker_host: ${{ env.REMOTE_SSH_SERVER }}
-      #     context_name: v-${{ env.BRANCH_SLUG }}
-      #     ssh_cert: ${{ secrets.SSH_CERT }}
-      #     ssh_key: ${{ secrets.SSH_KEY }}
-      # - name: Deploy docker
-      #   env:
-      #     VERSION: v-${{ env.BRANCH_SLUG }}
-      #   run: docker-compose --context ${VERSION} pull && docker-compose -p ${VERSION} --context ${VERSION} up -d --force-recreate
+      - name: Set Docker context
+        uses: arwynfr/actions-docker-context@98fc92878d0b856c1112c79b8d0f45353206e186
+        with:
+          docker_host: ${{ env.REMOTE_SSH_SERVER }}
+          context_name: form-v-${{ env.BRANCH_SLUG }}
+          ssh_cert: ${{ secrets.SSH_CERT }}
+          ssh_key: ${{ secrets.SSH_KEY }}
+      - name: Deploy docker
+        env:
+          VERSION: v-${{ env.BRANCH_SLUG }}
+        run: docker-compose --context form-${VERSION} pull && docker-compose -p form-${VERSION} --context form-${VERSION} up -d --force-recreate
 
       - name: Update deployment status
         uses: bobheadxi/deployments@v0.6.0

@@ -2255,7 +2255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^27.2.4, @jest/core@npm:^27.3.1":
+"@jest/core@npm:^27.3.1":
   version: 27.3.1
   resolution: "@jest/core@npm:27.3.1"
   dependencies:
@@ -3364,7 +3364,7 @@ __metadata:
     eslint: 7.32.0
     eslint-plugin-mdx: 1.16.0
     husky: 7.0.4
-    jest: 27.2.4
+    jest: 27.3.1
     jest-junit: 13.0.0
     lint-staged: 11.2.6
     prettier: 2.4.1
@@ -13193,7 +13193,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^27.2.4":
+"jest-cli@npm:^27.3.1":
   version: 27.3.1
   resolution: "jest-cli@npm:27.3.1"
   dependencies:
@@ -13710,13 +13710,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest@npm:27.2.4":
-  version: 27.2.4
-  resolution: "jest@npm:27.2.4"
+"jest@npm:27.3.1":
+  version: 27.3.1
+  resolution: "jest@npm:27.3.1"
   dependencies:
-    "@jest/core": ^27.2.4
+    "@jest/core": ^27.3.1
     import-local: ^3.0.2
-    jest-cli: ^27.2.4
+    jest-cli: ^27.3.1
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -13724,7 +13724,7 @@ fsevents@^1.2.7:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 49538c7b16ee98ec0d2143e1970c9c4792511bc9e0cafc8f3de7e64f690f13ade3841340700186081484e48324a98931ce858bb3d7ae2efec7beeb8914339fbe
+  checksum: ae4f0c83fb1c87d7a6f440a8d6288f06a2a2fb1e3539bc048918572cded3e1dc10497ce4362a9a4a91f986eb3438f481e733a65581c5d5b08c00f7b4760ff21d
   languageName: node
   linkType: hard
 

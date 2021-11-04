@@ -1,3 +1,11 @@
+### [1.0.1](https://github.com/scaleway/scaleway-form/compare/v1.0.0...v1.0.1) (2021-11-04)
+
+
+### :package: Chore
+
+* **deps:** pin dependencies ([9877da3](https://github.com/scaleway/scaleway-form/commit/9877da35c5bd5103c297cc312487db27214a810d))
+* **deps:** pin dependencies ([a6232c1](https://github.com/scaleway/scaleway-form/commit/a6232c133379bd5329c1c5be36f8607d606005ff))
+
 ## 1.0.0 (2021-11-04)
 
 

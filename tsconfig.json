@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+  },
+  "include": [
+    "./storybook/**/*.ts",
+    "./storybook/**/*.tsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "emotion.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ]
+}

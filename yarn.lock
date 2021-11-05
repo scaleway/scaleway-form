@@ -3373,7 +3373,7 @@ __metadata:
     react-router-dom: 5.3.0
     read-pkg: 7.0.0
     regenerator-runtime: 0.13.9
-    rollup: 2.58.0
+    rollup: 2.59.0
     rollup-plugin-dts: 4.0.1
     rollup-plugin-visualizer: 5.5.2
     semantic-release: 18.0.0
@@ -18590,9 +18590,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.58.0":
-  version: 2.58.0
-  resolution: "rollup@npm:2.58.0"
+"rollup@npm:2.59.0":
+  version: 2.59.0
+  resolution: "rollup@npm:2.59.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -18600,7 +18600,7 @@ resolve@^2.0.0-next.3:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: a5e5642f2b1e239e3698eeee93b19d905e55e3012c63978cebc71e76c0a4eb2de5cff06a2a80d68bf87fe6869c57647cccc335daba280a5449a9214abdeca247
+  checksum: 9fbaa72b8ff840b366f4da3ba35379a3d115fd52e1dced1693995005a9ff7e1699829ff16d8eb65c0a9eff26b57b4914dca7511f22e4d900af8c757d7129124d
   languageName: node
   linkType: hard
 

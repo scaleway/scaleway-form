@@ -157,7 +157,7 @@
     "read-pkg": "7.0.0",
     "regenerator-runtime": "0.13.9",
     "rollup": "2.58.0",
-    "rollup-plugin-dts": "4.0.0",
+    "rollup-plugin-dts": "4.0.1",
     "rollup-plugin-visualizer": "5.5.2",
     "semantic-release": "18.0.0",
     "typescript": "4.4.4",

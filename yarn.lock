@@ -3385,6 +3385,9 @@ __metadata:
     "@scaleway/ui": 0.118.2
     react: 17.0.2
     react-dom: 17.0.2
+  dependenciesMeta:
+    "@react-spring/core":
+      built: false
   languageName: unknown
   linkType: soft
 
@@ -3444,7 +3447,6 @@ __metadata:
     "@emotion/styled": 11.3.0
     react: 17.0.2
     react-dom: 17.0.2
-  checksum: 5e0180f114cbe94a8dc76511327e38f56bfa99b9c28c1339e337e5578ba13b92f3cc4a4097c2309670435d1afb9152cf3379dca72071c20fec8cbcf6bea71be0
   conditions: (os=darwin | os=linux)
   languageName: node
   linkType: hard

@@ -168,6 +168,11 @@
     "@scaleway/ui": "0.118.0",
     "@storybook/react": "6.3.12"
   },
+  "dependenciesMeta": {
+    "@react-spring/core": {
+      "built": false
+    }
+  },
   "contributors": [
     {
       "name": "Alexandre Philibeaux",

@@ -1,3 +1,14 @@
+### [1.0.4](https://github.com/scaleway/scaleway-form/compare/v1.0.3...v1.0.4) (2021-11-23)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.123.0 ([#3](https://github.com/scaleway/scaleway-form/issues/3)) ([c1adec6](https://github.com/scaleway/scaleway-form/commit/c1adec63f059196b510a259a471a7a6b66c5926c))
+* **devdeps:** remove react-router-dom ([#14](https://github.com/scaleway/scaleway-form/issues/14)) ([7c48034](https://github.com/scaleway/scaleway-form/commit/7c48034464650496b965b6a704f3543239d6621c))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3 ([#19](https://github.com/scaleway/scaleway-form/issues/19)) ([170b0c0](https://github.com/scaleway/scaleway-form/commit/170b0c0a6bb599736ebdf90dd7631527859f4e19))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.1.4 ([#18](https://github.com/scaleway/scaleway-form/issues/18)) ([228334f](https://github.com/scaleway/scaleway-form/commit/228334f0c19014c329c34a5afb912aad05b1c843))
+* **devdeps:** update dependency lint-staged to v12 ([#16](https://github.com/scaleway/scaleway-form/issues/16)) ([af2a79c](https://github.com/scaleway/scaleway-form/commit/af2a79c6aa0e30196fc6fad16782142d213ae873))
+
 ### [1.0.3](https://github.com/scaleway/scaleway-form/compare/v1.0.2...v1.0.3) (2021-11-23)
 
 

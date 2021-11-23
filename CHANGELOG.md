@@ -1,3 +1,25 @@
+### [1.0.3](https://github.com/scaleway/scaleway-form/compare/v1.0.2...v1.0.3) (2021-11-23)
+
+
+### :package: Chore
+
+* **deps:** update yarn to v3.1.0 ([#8](https://github.com/scaleway/scaleway-form/issues/8)) ([a2a72d9](https://github.com/scaleway/scaleway-form/commit/a2a72d98e99621058673e9a9955567d1f2081b40))
+* **devdeps:** update babel monorepo ([#15](https://github.com/scaleway/scaleway-form/issues/15)) ([23a4373](https://github.com/scaleway/scaleway-form/commit/23a4373188858e3923e273bff76d096765f86a0e))
+* **devdeps:** update babel monorepo to v7.16.0 ([#9](https://github.com/scaleway/scaleway-form/issues/9)) ([5d97e67](https://github.com/scaleway/scaleway-form/commit/5d97e67ccef19483e9059e6c08333ee842f7208b))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v2.3.2 ([#10](https://github.com/scaleway/scaleway-form/issues/10)) ([e0b2e75](https://github.com/scaleway/scaleway-form/commit/e0b2e75cd70b8c035ce22283e51db4add31a3ba7))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.15.0 ([58bc663](https://github.com/scaleway/scaleway-form/commit/58bc663413c20fc3d5a4280ae8db9569d1eee457))
+* **devdeps:** update dependency @testing-library/user-event to v13.5.0 ([d7a67d8](https://github.com/scaleway/scaleway-form/commit/d7a67d805f7a765bc66e40a8c1e218edb3350f32))
+* **devdeps:** update dependency eslint to v8 ([#13](https://github.com/scaleway/scaleway-form/issues/13)) ([0d25023](https://github.com/scaleway/scaleway-form/commit/0d250230136d02e366599b6689ea57942573e0a9))
+* **devdeps:** update dependency jest to v27.3.1 ([a42807f](https://github.com/scaleway/scaleway-form/commit/a42807f878e41662cc74c9d40c745e23846090d5))
+* **devdeps:** update dependency rollup to v2.59.0 ([261e05a](https://github.com/scaleway/scaleway-form/commit/261e05a92c63fdc01113d76ebad2aaa65d9191e9))
+* **devdeps:** update dependency rollup to v2.60.0 ([d60f856](https://github.com/scaleway/scaleway-form/commit/d60f856fcc3f1f755a6e8ddb7ff7991da1880d96))
+* **devdeps:** update dependency rollup to v2.60.1 ([b675d64](https://github.com/scaleway/scaleway-form/commit/b675d64cc2aeb5a329e480836fc84d77cb8d222b))
+* **devdeps:** update dependency rollup-plugin-dts to v4.0.1 ([d4800c8](https://github.com/scaleway/scaleway-form/commit/d4800c806dd64d9157966f20b05de1bb8eecc08d))
+* **devdeps:** update dependency typescript to v4.5.2 ([1556689](https://github.com/scaleway/scaleway-form/commit/15566890d2a5c74c1f815cd734211728c9578d2a))
+* **devdeps:** update dependency webpack to v5.61.0 ([e6f87c5](https://github.com/scaleway/scaleway-form/commit/e6f87c56dddfd3412b645f356bf5ad16f0897113))
+* **devdeps:** update emotion monorepo to v11.6.0 ([#17](https://github.com/scaleway/scaleway-form/issues/17)) ([050fc5a](https://github.com/scaleway/scaleway-form/commit/050fc5a0f3e32aaeb8648b6189a71f222b5bc966))
+* **devdeps:** update semantic-release monorepo ([b5336e8](https://github.com/scaleway/scaleway-form/commit/b5336e820cbd33d0f7c4970bd64eed9b6611c539))
+
 ### [1.0.2](https://github.com/scaleway/scaleway-form/compare/v1.0.1...v1.0.2) (2021-11-04)
 
 

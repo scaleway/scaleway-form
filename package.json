@@ -96,7 +96,7 @@
   "peerDependencies": {
     "@emotion/react": "11.6.0",
     "@emotion/styled": "11.6.0",
-    "@scaleway/ui": "0.118.2",
+    "@scaleway/ui": "0.123.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -164,7 +164,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.3",
-    "@scaleway/ui": "0.118.0",
+    "@scaleway/ui": "0.123.0",
     "@storybook/react": "6.3.12"
   },
   "dependenciesMeta": {

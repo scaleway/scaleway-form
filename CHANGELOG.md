@@ -1,3 +1,15 @@
+### [1.0.5](https://github.com/scaleway/scaleway-form/compare/v1.0.4...v1.0.5) (2021-11-30)
+
+
+### :package: Chore
+
+* **deps:** update yarn to v3.1.1 ([#22](https://github.com/scaleway/scaleway-form/issues/22)) ([7aadd1e](https://github.com/scaleway/scaleway-form/commit/7aadd1e94c3e6db06bf2a11b73b6eaea2fbea180))
+* **devdeps:** update commitlint monorepo to v15 ([#12](https://github.com/scaleway/scaleway-form/issues/12)) ([c61e1c0](https://github.com/scaleway/scaleway-form/commit/c61e1c0a3911a867277bee691a050e5689a53a88))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.1.5 ([#21](https://github.com/scaleway/scaleway-form/issues/21)) ([5ae408a](https://github.com/scaleway/scaleway-form/commit/5ae408ab5d8cc466f5f10b2615f76f456b125ebe))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.15.1 ([65efa9b](https://github.com/scaleway/scaleway-form/commit/65efa9ba8f62045f3e4c802b7188b044440bb495))
+* **devdeps:** update dependency date-fns to v2.26.0 ([37379d1](https://github.com/scaleway/scaleway-form/commit/37379d17938e9a8a9f83cebf95ce8ea8cfa32272))
+* **devdeps:** update semantic-release monorepo ([b760778](https://github.com/scaleway/scaleway-form/commit/b760778974186cfb205a0d52800805040ed0820b))
+
 ### [1.0.4](https://github.com/scaleway/scaleway-form/compare/v1.0.3...v1.0.4) (2021-11-23)
 
 

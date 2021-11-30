@@ -1,2 +1,2 @@
-// eslint-disable-next-line import/prefer-default-export
-export { default as Example } from './components/Example'
+export { default as Form } from './components/Form'
+export { default as Submit } from './components/Submit'

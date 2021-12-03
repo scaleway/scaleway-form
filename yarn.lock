@@ -3331,10 +3331,10 @@ __metadata:
     "@storybook/react": 6.3.12
     "@storybook/theming": 6.3.12
     "@svgr/rollup": 5.5.0
-    "@testing-library/dom": ^8.11.1
+    "@testing-library/dom": 8.11.1
     "@testing-library/jest-dom": 5.15.1
     "@testing-library/react": 12.1.2
-    "@testing-library/user-event": ^13.5.0
+    "@testing-library/user-event": 13.5.0
     "@types/react-dom": 17.0.11
     babel-loader: 8.2.3
     babel-plugin-annotate-pure-calls: 0.4.0
@@ -3343,7 +3343,7 @@ __metadata:
     date-fns: 2.26.0
     eslint: 8.3.0
     eslint-plugin-mdx: 1.16.0
-    final-form: ^4.20.4
+    final-form: 4.20.4
     husky: 7.0.4
     jest: 27.3.1
     jest-junit: 13.0.0
@@ -3351,7 +3351,7 @@ __metadata:
     prettier: 2.5.0
     react: 17.0.2
     react-dom: 17.0.2
-    react-final-form: ^6.5.7
+    react-final-form: 6.5.7
     read-pkg: 7.0.0
     regenerator-runtime: 0.13.9
     rollup: 2.60.2
@@ -3364,10 +3364,10 @@ __metadata:
     "@emotion/react": 11.6.0
     "@emotion/styled": 11.6.0
     "@scaleway/ui": 0.123.0
-    final-form: ^4.20.4
+    final-form: 4.20.4
     react: 17.0.2
     react-dom: 17.0.2
-    react-final-form: ^6.5.7
+    react-final-form: 6.5.7
   dependenciesMeta:
     "@react-spring/core":
       built: false
@@ -4846,23 +4846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.0.0":
-  version: 8.10.1
-  resolution: "@testing-library/dom@npm:8.10.1"
-  dependencies:
-    "@babel/code-frame": ^7.10.4
-    "@babel/runtime": ^7.12.5
-    "@types/aria-query": ^4.2.0
-    aria-query: ^5.0.0
-    chalk: ^4.1.0
-    dom-accessibility-api: ^0.5.9
-    lz-string: ^1.4.4
-    pretty-format: ^27.0.2
-  checksum: c11da16d981d4479fa18b2e90a62d2c19871da414016a4f80136394cf35e833ca4de4b56a64225f6bd5d3a13842176236d3508d217e3858c5e2ef35a3f391d5b
-  languageName: node
-  linkType: hard
-
-"@testing-library/dom@npm:^8.11.1":
+"@testing-library/dom@npm:8.11.1, @testing-library/dom@npm:^8.0.0":
   version: 8.11.1
   resolution: "@testing-library/dom@npm:8.11.1"
   dependencies:
@@ -4908,7 +4892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:^13.5.0":
+"@testing-library/user-event@npm:13.5.0":
   version: 13.5.0
   resolution: "@testing-library/user-event@npm:13.5.0"
   dependencies:
@@ -10700,7 +10684,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:^4.20.4":
+"final-form@npm:4.20.4":
   version: 4.20.4
   resolution: "final-form@npm:4.20.4"
   dependencies:
@@ -17532,7 +17516,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-final-form@npm:^6.5.7":
+"react-final-form@npm:6.5.7":
   version: 6.5.7
   resolution: "react-final-form@npm:6.5.7"
   dependencies:

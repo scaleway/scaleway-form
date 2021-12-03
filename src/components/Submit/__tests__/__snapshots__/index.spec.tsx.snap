@@ -2,7 +2,7 @@
 
 exports[`Submit form is invalid 1`] = `
 <DocumentFragment>
-  .cache-1xu2kb7-StyledBox-StyledButton {
+  .css-1xu2kb7-StyledBox-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -45,23 +45,23 @@ exports[`Submit form is invalid 1`] = `
   box-shadow: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:hover,
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:hover,
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
-.cache-m245rk-StyledContent {
+.css-m245rk-StyledContent {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -82,12 +82,12 @@ exports[`Submit form is invalid 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 css-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="css-m245rk-StyledContent em6gco81"
       >
         Test
       </div>
@@ -114,7 +114,7 @@ exports[`Submit form is submitting 1`] = `
   }
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton {
+.css-1xu2kb7-StyledBox-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -157,23 +157,23 @@ exports[`Submit form is submitting 1`] = `
   box-shadow: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:hover,
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:hover,
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.css-1xu2kb7-StyledBox-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
-.cache-i4evwh-StyledIconContainer {
+.css-i4evwh-StyledIconContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -182,14 +182,14 @@ exports[`Submit form is submitting 1`] = `
   pointer-events: none;
 }
 
-.cache-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar {
+.css-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar {
   height: 1em;
   width: 1em;
   -webkit-animation: animation-0 0.75s linear infinite;
   animation: animation-0 0.75s linear infinite;
 }
 
-.cache-m245rk-StyledContent {
+.css-m245rk-StyledContent {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -210,15 +210,15 @@ exports[`Submit form is submitting 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 css-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-i4evwh-StyledIconContainer em6gco82"
+        class="css-i4evwh-StyledIconContainer em6gco82"
       >
         <svg
-          class="CircularProgressbar  cache-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar e7dhm9i0"
+          class="CircularProgressbar  css-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar e7dhm9i0"
           data-test-id="CircularProgressbar"
           viewBox="0 0 100 100"
         >
@@ -249,7 +249,7 @@ exports[`Submit form is submitting 1`] = `
         </svg>
       </div>
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="css-m245rk-StyledContent em6gco81"
       >
         Test
       </div>
@@ -260,7 +260,7 @@ exports[`Submit form is submitting 1`] = `
 
 exports[`Submit renders correctly  1`] = `
 <DocumentFragment>
-  .cache-6wwsys-StyledBox-StyledButton {
+  .css-6wwsys-StyledBox-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -297,23 +297,23 @@ exports[`Submit renders correctly  1`] = `
   padding: 8px 16px;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:hover,
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.css-6wwsys-StyledBox-StyledButton:hover,
+.css-6wwsys-StyledBox-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:hover,
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.css-6wwsys-StyledBox-StyledButton:hover,
+.css-6wwsys-StyledBox-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.css-6wwsys-StyledBox-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
-.cache-m245rk-StyledContent {
+.css-m245rk-StyledContent {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -334,11 +334,11 @@ exports[`Submit renders correctly  1`] = `
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-6wwsys-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 css-6wwsys-StyledBox-StyledButton e7ah3bn0"
       type="submit"
     >
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="css-m245rk-StyledContent em6gco81"
       >
         Test
       </div>

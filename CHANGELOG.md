@@ -1,3 +1,17 @@
+## [1.1.0](https://github.com/scaleway/scaleway-form/compare/v1.0.5...v1.1.0) (2021-12-03)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency prettier to v2.5.0 ([3afbc61](https://github.com/scaleway/scaleway-form/commit/3afbc6167865710d2887e95b4a1f2aa021a62bc6))
+* **devdeps:** update dependency rollup to v2.60.2 ([19df6ab](https://github.com/scaleway/scaleway-form/commit/19df6ab5f8fe8ec26f5724f15568fb7d07ca0d18))
+* **devdeps:** update dependency webpack to v5.64.4 ([401e0e1](https://github.com/scaleway/scaleway-form/commit/401e0e153f16e8c9f74b9d0663ce79f7e3e243b5))
+
+
+### :gear: Features
+
+* add form ([#26](https://github.com/scaleway/scaleway-form/issues/26)) ([6d3a894](https://github.com/scaleway/scaleway-form/commit/6d3a894581a9eae158c65f698fe01bfbc2fcad74))
+
 ### [1.0.5](https://github.com/scaleway/scaleway-form/compare/v1.0.4...v1.0.5) (2021-11-30)
 
 

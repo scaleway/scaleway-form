@@ -11,7 +11,7 @@ import {
 } from '../../types'
 
 export type FormProps = {
-  children: (props: FormRenderProps) => ReactNode
+  children: ((props: FormRenderProps) => ReactNode) | ReactNode
   errors: FormErrors
   onSubmit?: OnSubmitFn
   onSubmitSuccess?: OnSubmitSucccessFn
@@ -52,13 +52,12 @@ const Form = ({
           await onSubmitError?.(submitError)
         }
       }}
-    >
-      {props => (
+      render={props => (
         <form noValidate name={name} onSubmit={props.handleSubmit}>
-          {children(props)}
+          {typeof children === 'function' ? children(props) : children}
         </form>
       )}
-    </ReactFinalForm>
+    />
   </ErrorProvider>
 )
 

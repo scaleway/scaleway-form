@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchField should render correctly 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="false"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="false"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="false"
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly checked 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="true"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="true"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="true"
+            checked=""
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly disabled 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-l72xnd-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.cache-1etx9wf-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #dce1eb;
+  border: none;
+  border-radius: 34px;
+  cursor: not-allowed;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 0.5;
+}
+
+.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="false"
+        class="cache-l72xnd-StyledLabel e1x48wse0"
+        disabled=""
+      >
+        <span
+          aria-checked="false"
+          class="cache-1etx9wf-StyledSwitch-buildVariants e1x48wse2"
+          disabled=""
+        >
+          <input
+            aria-checked="false"
+            aria-disabled="true"
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            disabled=""
+            id="test"
+            name="test"
+            style="pointer-events: none;"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly with label and checked 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles {
+  color: #4a4f62;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #4f0599;
+}
+
+.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles {
+  margin-left: 8px;
+  color: #4f0599;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="true"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="true"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="true"
+            checked=""
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+      <div
+        class="e1g1zfwd0 cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+      >
+        test
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly with offLabel 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="false"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="false"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="false"
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly with onLabel 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="false"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="false"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="false"
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SwitchField should render correctly without onLabel and offLabel but has label 1`] = `
+<DocumentFragment>
+  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cache-1oshk27-StyledLabel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants {
+  overflow: hidden;
+  outline: none;
+  width: 40px;
+  height: 24px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #b2b6c3;
+  border: none;
+  border-radius: 34px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+  background-color: #4f0599;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -moz-transform: translateX(
+              28px
+            ) translateX(-100%);
+  -ms-transform: translateX(
+              28px
+            ) translateX(-100%);
+  transform: translateX(
+              28px
+            ) translateX(-100%);
+  background-color: #f6f5f7;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+  color: #4a4f62;
+  right: 0;
+}
+
+.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
+  color: #f6f5f7;
+  left: 0;
+}
+
+.cache-16qhhwn-StyledCheckbox {
+  position: absolute;
+  opacity: 0.01;
+}
+
+.cache-1kh0bkm-SwitchBall {
+  display: block;
+  position: relative;
+  border-radius: 34px;
+  pointer-events: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  width: 12px;
+  height: 12px;
+  background-color: #f6f5f7;
+}
+
+.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles {
+  color: #4a4f62;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #151a2d;
+}
+
+.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles {
+  margin-left: 8px;
+  color: #151a2d;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-ta1bd3-StyledBox e7ah3bn0"
+    >
+      <label
+        aria-checked="false"
+        class="cache-1oshk27-StyledLabel e1x48wse0"
+      >
+        <span
+          aria-checked="false"
+          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+        >
+          <input
+            aria-checked="false"
+            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            id="test"
+            name="test"
+            type="checkbox"
+          />
+          <span
+            class="cache-1kh0bkm-SwitchBall e1x48wse4"
+          />
+        </span>
+      </label>
+      <div
+        class="e1g1zfwd0 cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+      >
+        test
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

@@ -2,7 +2,10 @@ import { ThemeProvider } from '@emotion/react'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import makeHelpers from '@scaleway/jest-helpers'
 import { theme as scwuiTheme } from '@scaleway/ui'
-import React, { FC } from 'react'
+import { RenderResult } from '@testing-library/react'
+import React, { FC, ReactNode } from 'react'
+import Form from '../components/Form'
+import mockErrors from '../mocks/mockErrors'
 
 interface WrapperProps {
   theme?: typeof scwuiTheme
@@ -17,3 +20,14 @@ export const {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotWithPortal,
 } = makeHelpers(Wrapper, { classNameReplacer: className => className })
+
+export const shouldMatchEmotionSnapshotFormWrapper = (
+  children: ReactNode,
+  options?: {
+    transform: (node: RenderResult) => Promise<void> | void
+  },
+) =>
+  shouldMatchEmotionSnapshot(
+    <Form errors={mockErrors}>{() => children}</Form>,
+    options,
+  )

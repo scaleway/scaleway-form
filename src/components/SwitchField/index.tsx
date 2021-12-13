@@ -2,6 +2,8 @@ import { Box, Switch, Typography } from '@scaleway/ui'
 import React, { ReactNode } from 'react'
 import { useField } from 'react-final-form'
 import pickUseFieldProps from '../../helpers/pickUseFieldProps'
+import pickValidators from '../../helpers/pickValidators'
+import useValidation from '../../hooks/useValidation'
 import { AnyValue, BaseFieldProps } from '../../types'
 
 export type SwitchFieldProps<T = AnyValue, K = AnyValue> = BaseFieldProps<
@@ -21,7 +23,6 @@ export type SwitchFieldProps<T = AnyValue, K = AnyValue> = BaseFieldProps<
   disabled?: boolean
 }
 const SwitchField = ({
-  required,
   label,
   variant,
   size = 'small',
@@ -33,11 +34,15 @@ const SwitchField = ({
   name,
   defaultValue,
   disabled,
+  validate,
   ...props
 }: SwitchFieldProps) => {
+  const validateFn = useValidation(pickValidators(props))
+
   const { input } = useField(name, {
     ...pickUseFieldProps(props),
     type: 'checkbox',
+    validate: validateFn,
   })
 
   return (

@@ -58,6 +58,19 @@ export type FormatFn<FieldValue, InputValue = AnyValue> = (
   name: string,
 ) => InputValue
 
+export type ValidatorProps = {
+  required?: boolean
+  min?: number
+  minLength?: number
+  max?: number
+  maxLength?: number
+}
+
+export type ValidatorObject<InputValue = AnyValue> = {
+  validate: (value: InputValue, allValues: AnyObject) => boolean
+  error: keyof RequiredErrors
+}
+
 export type BaseFieldProps<FieldValue, InputValue = AnyValue> = {
   parse?: ParseFn<FieldValue, InputValue>
   format?: FormatFn<FieldValue, InputValue>
@@ -74,4 +87,4 @@ export type BaseFieldProps<FieldValue, InputValue = AnyValue> = {
   afterSubmit?: () => void
   beforeSubmit?: () => void | boolean
   value?: FieldValue
-}
+} & ValidatorProps

@@ -8,6 +8,8 @@ import mockErrors from '../../../mocks/mockErrors'
 describe('Form', () => {
   test('renders correctly ', () =>
     shouldMatchEmotionSnapshot(<Form errors={mockErrors}>{() => 'Test'}</Form>))
+  test('renders correctly with node children', () =>
+    shouldMatchEmotionSnapshot(<Form errors={mockErrors}>Test</Form>))
 
   test('renders correctly with validate', () =>
     shouldMatchEmotionSnapshot(

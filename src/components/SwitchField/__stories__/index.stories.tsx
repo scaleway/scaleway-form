@@ -3,6 +3,7 @@ import React from 'react'
 import SwitchField, { SwitchFieldProps } from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
+import Submit from '../../Submit'
 
 export default {
   component: SwitchField,
@@ -50,4 +51,18 @@ Disabled.args = {
   ...Template.args,
   disabled: true,
   name: 'disabled',
+}
+
+export const Required: Story<SwitchFieldProps> = args => (
+  <>
+    <SwitchField {...args} />
+    <div style={{ marginTop: 8 }}>
+      <Submit>Submit</Submit>
+    </div>
+  </>
+)
+
+Required.args = {
+  name: 'required',
+  required: true,
 }

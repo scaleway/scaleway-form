@@ -5,8 +5,6 @@ import {
   ValidationErrors,
 } from 'final-form'
 
-export type AnyValue = unknown
-
 export type FormValues = AnyObject
 
 /**
@@ -48,12 +46,12 @@ type AdditionalErrors = {
 
 export type FormErrors = RequiredErrors & AdditionalErrors
 
-export type ParseFn<FieldValue, InputValue = AnyValue> = (
+export type ParseFn<FieldValue, InputValue = unknown> = (
   value: InputValue,
   name: string,
 ) => FieldValue
 
-export type FormatFn<FieldValue, InputValue = AnyValue> = (
+export type FormatFn<FieldValue, InputValue = unknown> = (
   value: FieldValue,
   name: string,
 ) => InputValue
@@ -66,12 +64,12 @@ export type ValidatorProps = {
   maxLength?: number
 }
 
-export type ValidatorObject<InputValue = AnyValue> = {
+export type ValidatorObject<InputValue = unknown> = {
   validate: (value: InputValue, allValues: AnyObject) => boolean
   error: keyof RequiredErrors
 }
 
-export type BaseFieldProps<FieldValue, InputValue = AnyValue> = {
+export type BaseFieldProps<FieldValue, InputValue = unknown> = {
   parse?: ParseFn<FieldValue, InputValue>
   format?: FormatFn<FieldValue, InputValue>
   formatOnBlur?: boolean
@@ -87,4 +85,4 @@ export type BaseFieldProps<FieldValue, InputValue = AnyValue> = {
   afterSubmit?: () => void
   beforeSubmit?: () => void | boolean
   value?: FieldValue
-} & ValidatorProps
+}

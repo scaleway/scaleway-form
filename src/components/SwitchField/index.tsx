@@ -4,9 +4,9 @@ import { useField } from 'react-final-form'
 import pickUseFieldProps from '../../helpers/pickUseFieldProps'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
-import { AnyValue, BaseFieldProps } from '../../types'
+import { BaseFieldProps } from '../../types'
 
-export type SwitchFieldProps<T = AnyValue, K = AnyValue> = BaseFieldProps<
+export type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
   T,
   K
 > & {
@@ -35,9 +35,10 @@ const SwitchField = ({
   defaultValue,
   disabled,
   validate,
+  required,
   ...props
 }: SwitchFieldProps) => {
-  const validateFn = useValidation(pickValidators(props))
+  const validateFn = useValidation(pickValidators({ required }))
 
   const { input } = useField(name, {
     ...pickUseFieldProps(props),

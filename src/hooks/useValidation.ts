@@ -1,9 +1,9 @@
 import { AnyObject } from 'final-form'
 import { useCallback } from 'react'
-import { AnyValue, ValidatorObject } from '../types'
+import { ValidatorObject } from '../types'
 
 type UseValidationResult = (
-  value: AnyValue,
+  value: unknown,
   allValues: AnyObject,
 ) => Array<string>
 
@@ -11,7 +11,7 @@ const useValidation = (
   arrayOfValidator: ValidatorObject[],
 ): UseValidationResult => {
   const fn = useCallback(
-    (value: AnyValue, allValues: AnyObject): Array<string> =>
+    (value: unknown, allValues: AnyObject): Array<string> =>
       arrayOfValidator
         .filter(validator => !validator.validate(value, allValues))
         .map(({ error }) => error),

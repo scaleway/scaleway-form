@@ -1,9 +1,8 @@
-import { AnyValue } from '../types'
 import { ValidatorFn } from './types'
 
 const requiredValidator: ValidatorFn = () => ({
   error: 'REQUIRED',
-  validate: (value: AnyValue) => !!value,
+  validate: (value: unknown) => !!value,
 })
 
 export default requiredValidator

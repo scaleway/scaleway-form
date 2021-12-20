@@ -1,3 +1,28 @@
+### [1.1.1](https://github.com/scaleway/scaleway-form/compare/v1.1.0...v1.1.1) (2021-12-20)
+
+
+### :package: Chore
+
+* **deps:** update dependency final-form to v4.20.6 ([#29](https://github.com/scaleway/scaleway-form/issues/29)) ([ef406ae](https://github.com/scaleway/scaleway-form/commit/ef406aefe7e3361b77dbd9c7ed7e043c3be8bd4b))
+* **devdeps:** pin dependencies ([#28](https://github.com/scaleway/scaleway-form/issues/28)) ([e76d9dd](https://github.com/scaleway/scaleway-form/commit/e76d9dd98314c3efbc85d3ec2e88d7498f85ab64))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.1.1 ([65df7f0](https://github.com/scaleway/scaleway-form/commit/65df7f0c51bcaed9a6289af4e3e2652538ca4c8d))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.1.6 ([#34](https://github.com/scaleway/scaleway-form/issues/34)) ([9f8a2e0](https://github.com/scaleway/scaleway-form/commit/9f8a2e04661143ecd3fb4320edef8f6ac8860d89))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.16.1 ([22c95ee](https://github.com/scaleway/scaleway-form/commit/22c95eec0cfb034b7865974cd8fa049bf565c239))
+* **devdeps:** update dependency date-fns to v2.27.0 ([126a0f3](https://github.com/scaleway/scaleway-form/commit/126a0f39abd9cc998ea0f1d534ffe757ee0a28da))
+* **devdeps:** update dependency eslint to v8.4.1 ([e75c50c](https://github.com/scaleway/scaleway-form/commit/e75c50c29a692644e0c4a97df08c7f2736b33525))
+* **devdeps:** update dependency jest to v27.4.3 ([deb1b1a](https://github.com/scaleway/scaleway-form/commit/deb1b1ada285682761025ed852d82c018c90f025))
+* **devdeps:** update dependency jest to v27.4.4 ([9b7db6e](https://github.com/scaleway/scaleway-form/commit/9b7db6e832a1e1865ef1fe09c9ada6a8c1e12df3))
+* **devdeps:** update dependency jest to v27.4.5 ([dddd1b5](https://github.com/scaleway/scaleway-form/commit/dddd1b595b2ccaa9b2f60819095e08030efeb2ea))
+* **devdeps:** update dependency lint-staged to v12.1.3 ([7ee0c4b](https://github.com/scaleway/scaleway-form/commit/7ee0c4b5f8edc3b508d9cac2c42ac6dbebfa0368))
+* **devdeps:** update dependency prettier to v2.5.1 ([57e711e](https://github.com/scaleway/scaleway-form/commit/57e711ebab30bc47d4850e5196817fa7746502dd))
+* **devdeps:** update dependency rollup to v2.61.1 ([c81f9d9](https://github.com/scaleway/scaleway-form/commit/c81f9d9b00719958b53f9d7af64c0a5dec4aa25a))
+* **devdeps:** update dependency typescript to v4.5.3 ([48dfacf](https://github.com/scaleway/scaleway-form/commit/48dfacff0cafa54e3d1b504b0a99cacefb6c0b2a))
+* **devdeps:** update dependency typescript to v4.5.4 ([b9ef3a6](https://github.com/scaleway/scaleway-form/commit/b9ef3a6fe35a1b796ccad56d6ae6ee3d16c3c76a))
+* **devdeps:** update dependency webpack to v5.65.0 ([daf7656](https://github.com/scaleway/scaleway-form/commit/daf76569233595dd821e86cececf61673acb0696))
+* **devdeps:** update emotion monorepo to v11.7.0 ([#20](https://github.com/scaleway/scaleway-form/issues/20)) ([e6e440d](https://github.com/scaleway/scaleway-form/commit/e6e440d975e8df7e853d2a39371c37300ba872ce))
+* **devdeps:** update emotion monorepo to v11.7.1 ([#31](https://github.com/scaleway/scaleway-form/issues/31)) ([5e0f97e](https://github.com/scaleway/scaleway-form/commit/5e0f97ed811168aaad71f27816dbf9a8cc8f4ca9))
+* **devdeps:** update storybook monorepo to v6.4.9 ([e1328be](https://github.com/scaleway/scaleway-form/commit/e1328beb7eb18a570548970b6d0abd2be0b4575f))
+
 ## [1.1.0](https://github.com/scaleway/scaleway-form/compare/v1.0.5...v1.1.0) (2021-12-03)
 
 

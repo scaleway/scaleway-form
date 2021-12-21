@@ -1,4 +1,4 @@
-import { Box, Switch, Typography } from '@scaleway/ui'
+import { FlexBox, Switch, Typography } from '@scaleway/ui'
 import React, { ReactNode } from 'react'
 import { useField } from 'react-final-form'
 import pickUseFieldProps from '../../helpers/pickUseFieldProps'
@@ -22,6 +22,7 @@ export type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
   name: string
   disabled?: boolean
 }
+
 const SwitchField = ({
   label,
   variant,
@@ -47,7 +48,7 @@ const SwitchField = ({
   })
 
   return (
-    <Box display="flex" alignItems="center">
+    <FlexBox alignItems="center">
       <Switch
         checked={input.checked}
         variant={variant}
@@ -66,7 +67,7 @@ const SwitchField = ({
           {label}
         </Typography>
       )}
-    </Box>
+    </FlexBox>
   )
 }
 

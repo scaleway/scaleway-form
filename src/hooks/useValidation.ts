@@ -23,7 +23,7 @@ const useValidation = <T = unknown>({
       allValues: AnyObject,
       meta?: FieldState<T>,
     ): Array<string | unknown> | undefined => {
-      const errors = (validators ?? [])
+      const errors = validators
         .filter(validator => !validator.validate(value, allValues, meta))
         .map(({ error }) => error) as Array<string | unknown>
 
@@ -31,7 +31,8 @@ const useValidation = <T = unknown>({
         const validateErr = validate(value, allValues, meta) as
           | unknown
           | undefined
-        if (validateErr) errors.push(validateErr)
+        if (validateErr !== undefined && validateErr !== true)
+          errors.push(validateErr)
       }
 
       return errors.length > 0 ? errors : undefined

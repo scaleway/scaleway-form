@@ -97,7 +97,7 @@ const SwitchField = ({
         disabled={disabled}
       />
       {label && (
-        <Typography color={input.checked ? 'primary' : 'gray950'}>
+        <Typography color={input.checked ? 'primary' : 'neutral'}>
           {label}
         </Typography>
       )}

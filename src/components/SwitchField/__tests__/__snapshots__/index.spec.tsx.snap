@@ -889,16 +889,16 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   background-color: #f6f5f7;
 }
 
-.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles {
+.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0;
-  color: #151a2d;
+  color: neutral;
 }
 
-.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles {
-  color: #151a2d;
+.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles {
+  color: neutral;
 }
 
 <form
@@ -928,7 +928,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
         </span>
       </label>
       <div
-        class="e1g1zfwd0 cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+        class="e1g1zfwd0 cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
       >
         test
       </div>

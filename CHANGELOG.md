@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/scaleway/scaleway-form/compare/v1.2.0...v1.2.1) (2021-12-21)
+
+
+### :bug: Bug Fixes
+
+* **package:** based on a babel bug, no src directory is created ([#37](https://github.com/scaleway/scaleway-form/issues/37)) ([e54f6ef](https://github.com/scaleway/scaleway-form/commit/e54f6ef8a66c1919c09008b0d77d93acd7836a50))
+
 ## [1.2.0](https://github.com/scaleway/scaleway-form/compare/v1.1.1...v1.2.0) (2021-12-21)
 
 

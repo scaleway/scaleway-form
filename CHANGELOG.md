@@ -1,3 +1,18 @@
+## [1.2.0](https://github.com/scaleway/scaleway-form/compare/v1.1.1...v1.2.0) (2021-12-21)
+
+
+### :package: Chore
+
+* **devdeps:** remove dependency @svgr/rollup ([#25](https://github.com/scaleway/scaleway-form/issues/25)) ([7d112f5](https://github.com/scaleway/scaleway-form/commit/7d112f510a42bfb15971ac57ff6e4da79cf1408c))
+* **devdeps:** update babel monorepo to v7.16.5 ([#33](https://github.com/scaleway/scaleway-form/issues/33)) ([8ab857f](https://github.com/scaleway/scaleway-form/commit/8ab857ffd324fef2349dd4f570009eafafe535b2))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.1.2 ([#30](https://github.com/scaleway/scaleway-form/issues/30)) ([667f911](https://github.com/scaleway/scaleway-form/commit/667f911c51921952cc742ae7891f5b538f6dfd6c))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.2.0 ([#35](https://github.com/scaleway/scaleway-form/issues/35)) ([157cff3](https://github.com/scaleway/scaleway-form/commit/157cff35c8a867cc6aca5684b7943f5a053c020d))
+
+
+### :gear: Features
+
+* add useValidation and switchfield ([#32](https://github.com/scaleway/scaleway-form/issues/32)) ([1987c9d](https://github.com/scaleway/scaleway-form/commit/1987c9d6442374a45106ce33ff849ebcee2a112e))
+
 ### [1.1.1](https://github.com/scaleway/scaleway-form/compare/v1.1.0...v1.1.1) (2021-12-20)
 
 

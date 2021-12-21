@@ -1,7 +1,6 @@
 import { babel } from '@rollup/plugin-babel'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import url from '@rollup/plugin-url'
-import svgr from '@svgr/rollup'
 import { readPackage } from 'read-pkg'
 import dts from 'rollup-plugin-dts'
 import { visualizer } from 'rollup-plugin-visualizer'
@@ -59,7 +58,6 @@ export default [
       url({
         limit: 63488,
       }),
-      svgr.default({ memo: true }),
       PROFILE &&
         visualizer({
           brotliSize: true,

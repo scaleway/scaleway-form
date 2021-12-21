@@ -2,34 +2,35 @@ import { renderHook } from '@testing-library/react-hooks'
 import { ValidatorObject } from '../../types'
 import useValidation from '../useValidation'
 
-const fakeValidator = (success?: boolean) => ({
-  error: 'fake',
-  validate: () => success,
-})
+const fakeValidator = (success?: boolean) =>
+  ({
+    error: 'REQUIRED',
+    validate: () => success,
+  } as ValidatorObject<boolean>)
+
 describe('useValidation', () => {
   test('should render correctly', () => {
-    const { result } = renderHook(() => useValidation([] as ValidatorObject[]))
+    const { result } = renderHook(() => useValidation({ validators: [] }))
     expect(result.current).toBeDefined()
   })
   test('should call validation', () => {
-    const { result } = renderHook(() => useValidation([] as ValidatorObject[]))
-    expect(result.current(undefined, {})).toStrictEqual([])
+    const { result } = renderHook(() => useValidation({ validators: [] }))
+    expect(result.current(false, {})).toStrictEqual(undefined)
   })
 
   test('should have one error', () => {
     const { result } = renderHook(() =>
-      useValidation([
-        fakeValidator(false),
-        fakeValidator(true),
-      ] as ValidatorObject[]),
+      useValidation({
+        validators: [fakeValidator(false), fakeValidator(true)],
+      }),
     )
-    expect(result.current(undefined, {})).toStrictEqual(['fake'])
+    expect(result.current(false, {})).toStrictEqual(['REQUIRED'])
   })
 
   test('should have all success', () => {
     const { result } = renderHook(() =>
-      useValidation([fakeValidator(true)] as ValidatorObject[]),
+      useValidation({ validators: [fakeValidator(true)] }),
     )
-    expect(result.current(undefined, {})).toStrictEqual([])
+    expect(result.current(false, {})).toStrictEqual(undefined)
   })
 })

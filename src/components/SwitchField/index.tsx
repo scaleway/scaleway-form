@@ -1,7 +1,6 @@
 import { FlexBox, Switch, Typography } from '@scaleway/ui'
 import React, { ReactNode } from 'react'
 import { useField } from 'react-final-form'
-import pickUseFieldProps from '../../helpers/pickUseFieldProps'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { BaseFieldProps } from '../../types'
@@ -37,14 +36,42 @@ const SwitchField = ({
   disabled,
   validate,
   required,
-  ...props
+  afterSubmit,
+  allowNull,
+  beforeSubmit,
+  data,
+  format,
+  formatOnBlur,
+  initialValue,
+  isEqual,
+  multiple,
+  parse,
+  subscription,
+  validateFields,
+  value,
 }: SwitchFieldProps) => {
-  const validateFn = useValidation(pickValidators({ required }))
+  const validateFn = useValidation({
+    validate,
+    validators: pickValidators({ required }),
+  })
 
   const { input } = useField(name, {
-    ...pickUseFieldProps(props),
+    afterSubmit,
+    allowNull,
+    beforeSubmit,
+    data,
+    defaultValue,
+    format,
+    formatOnBlur,
+    initialValue,
+    isEqual,
+    multiple,
+    parse,
+    subscription,
     type: 'checkbox',
     validate: validateFn,
+    validateFields,
+    value,
   })
 
   return (

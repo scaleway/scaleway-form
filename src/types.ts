@@ -1,34 +1,36 @@
 import {
   AnyObject,
+  FieldState,
   FieldSubscription,
   FieldValidator,
   ValidationErrors,
 } from 'final-form'
-
-export type FormValues = AnyObject
+import { UseFieldConfig } from 'react-final-form'
 
 /**
  * Return undefined if all is ok
  */
-export type OnSubmitFn = (
-  values: FormValues,
+export type OnSubmitFn<T = AnyObject> = (
+  values: T,
 ) => Promise<undefined | unknown> | (undefined | void)
 
-export type OnSubmitSucccessFn = (values: FormValues) => Promise<void> | void
+export type OnSubmitSucccessFn<T = AnyObject> = (
+  values: T,
+) => Promise<void> | void
 export type OnSubmitErrorFn = (error: Error | unknown) => Promise<void> | void
 
 /**
  * Return {} or undefined when form is valid
  */
-export type FormValidateFn = (
-  values: FormValues,
+export type FormValidateFn<T = AnyObject> = (
+  values: T,
 ) => ValidationErrors | Promise<ValidationErrors>
 
-export type FormErrorFunctionParams = {
+export type FormErrorFunctionParams<T = AnyObject> = {
   label: string
   name: string
   value: string
-  allValues: FormValues
+  allValues: T
 }
 
 type RequiredErrors = {
@@ -46,16 +48,6 @@ type AdditionalErrors = {
 
 export type FormErrors = RequiredErrors & AdditionalErrors
 
-export type ParseFn<FieldValue, InputValue = unknown> = (
-  value: InputValue,
-  name: string,
-) => FieldValue
-
-export type FormatFn<FieldValue, InputValue = unknown> = (
-  value: FieldValue,
-  name: string,
-) => InputValue
-
 export type ValidatorProps = {
   required?: boolean
   min?: number
@@ -65,13 +57,17 @@ export type ValidatorProps = {
 }
 
 export type ValidatorObject<InputValue = unknown> = {
-  validate: (value: InputValue, allValues: AnyObject) => boolean
+  validate: (
+    value: InputValue,
+    allValues: AnyObject,
+    meta?: FieldState<InputValue>,
+  ) => boolean
   error: keyof RequiredErrors
 }
 
 export type BaseFieldProps<FieldValue, InputValue = unknown> = {
-  parse?: ParseFn<FieldValue, InputValue>
-  format?: FormatFn<FieldValue, InputValue>
+  parse?: UseFieldConfig<FieldValue, InputValue>['parse']
+  format?: UseFieldConfig<FieldValue, InputValue>['format']
   formatOnBlur?: boolean
   subscription?: FieldSubscription
   validateFields?: string[]

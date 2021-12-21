@@ -1,21 +1,42 @@
-import { AnyObject } from 'final-form'
+import { AnyObject, FieldState, FieldValidator } from 'final-form'
 import { useCallback } from 'react'
 import { ValidatorObject } from '../types'
 
-type UseValidationResult = (
-  value: unknown,
-  allValues: AnyObject,
-) => Array<string>
+type UseValidationParams<FieldValue = unknown> = {
+  validators: ValidatorObject<FieldValue>[]
+  validate?: FieldValidator<FieldValue>
+}
 
-const useValidation = (
-  arrayOfValidator: ValidatorObject[],
-): UseValidationResult => {
+type UseValidationResult<FieldValue = unknown> = (
+  value: FieldValue,
+  allValues: AnyObject,
+  meta?: FieldState<FieldValue>,
+) => Array<string> | undefined | unknown
+
+const useValidation = <T = unknown>({
+  validators,
+  validate,
+}: UseValidationParams<T>): UseValidationResult<T> => {
   const fn = useCallback(
-    (value: unknown, allValues: AnyObject): Array<string> =>
-      arrayOfValidator
-        .filter(validator => !validator.validate(value, allValues))
-        .map(({ error }) => error),
-    [arrayOfValidator],
+    (
+      value: T,
+      allValues: AnyObject,
+      meta?: FieldState<T>,
+    ): Array<string | unknown> | undefined => {
+      const errors = (validators ?? [])
+        .filter(validator => !validator.validate(value, allValues, meta))
+        .map(({ error }) => error) as Array<string | unknown>
+
+      if (validate) {
+        const validateErr = validate(value, allValues, meta) as
+          | unknown
+          | undefined
+        if (validateErr) errors.push(validateErr)
+      }
+
+      return errors.length > 0 ? errors : undefined
+    },
+    [validators, validate],
   )
 
   return fn

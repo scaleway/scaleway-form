@@ -1,24 +1,20 @@
+import { Config } from 'final-form'
 import React, { ReactNode } from 'react'
 import { FormRenderProps, Form as ReactFinalForm } from 'react-final-form'
 import ErrorProvider from '../../providers/ErrorContext'
-import {
-  FormErrors,
-  FormValidateFn,
-  FormValues,
-  OnSubmitErrorFn,
-  OnSubmitFn,
-  OnSubmitSucccessFn,
-} from '../../types'
+import { FormErrors, OnSubmitErrorFn, OnSubmitSucccessFn } from '../../types'
 
-export type FormProps = {
-  children: ((props: FormRenderProps) => ReactNode) | ReactNode
+export type FormProps<FormValues = unknown> = {
+  children:
+    | ((props: FormRenderProps<FormValues, Partial<FormValues>>) => ReactNode)
+    | ReactNode
   errors: FormErrors
-  onSubmit?: OnSubmitFn
-  onSubmitSuccess?: OnSubmitSucccessFn
+  onSubmit?: Config<FormValues, Partial<FormValues>>['onSubmit']
+  onSubmitSuccess?: OnSubmitSucccessFn<FormValues>
   onSubmitError?: OnSubmitErrorFn
-  initialValues?: FormValues
-  validateOnBlur?: boolean
-  validate?: FormValidateFn
+  initialValues?: Partial<FormValues>
+  validateOnBlur?: Config<FormValues, Partial<FormValues>>['validateOnBlur']
+  validate?: Config<FormValues, Partial<FormValues>>['validate']
   /**
    * The form name attribute
    */
@@ -40,9 +36,9 @@ const Form = ({
       initialValues={initialValues}
       validateOnBlur={validateOnBlur}
       validate={validate}
-      onSubmit={async (values: FormValues) => {
+      onSubmit={async (values, form, callback) => {
         try {
-          const res = await onSubmit?.(values)
+          const res = await onSubmit?.(values, form, callback)
           if (res !== undefined) {
             await onSubmitError?.(res)
           } else {

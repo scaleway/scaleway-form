@@ -1,5 +1,4 @@
 import { ThemeProvider } from '@emotion/react'
-// eslint-disable-next-line import/no-extraneous-dependencies
 import makeHelpers from '@scaleway/jest-helpers'
 import { theme as scwuiTheme } from '@scaleway/ui'
 import { RenderResult } from '@testing-library/react'

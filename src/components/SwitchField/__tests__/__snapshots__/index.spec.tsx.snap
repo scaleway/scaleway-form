@@ -2,7 +2,7 @@
 
 exports[`SwitchField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11,6 +11,7 @@ exports[`SwitchField should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -100,7 +101,7 @@ exports[`SwitchField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="false"
@@ -129,7 +130,7 @@ exports[`SwitchField should render correctly 1`] = `
 
 exports[`SwitchField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -138,6 +139,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -227,7 +229,7 @@ exports[`SwitchField should render correctly checked 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="true"
@@ -257,7 +259,7 @@ exports[`SwitchField should render correctly checked 1`] = `
 
 exports[`SwitchField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -266,6 +268,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-l72xnd-StyledLabel {
@@ -355,7 +358,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="false"
@@ -389,7 +392,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
 
 exports[`SwitchField should render correctly with label and checked 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -398,6 +401,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -483,7 +487,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   background-color: #f6f5f7;
 }
 
-.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles {
+.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -491,8 +495,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   color: #4f0599;
 }
 
-.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles.cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles {
-  margin-left: 8px;
+.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles {
   color: #4f0599;
 }
 
@@ -500,7 +503,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="true"
@@ -524,7 +527,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
         </span>
       </label>
       <div
-        class="e1g1zfwd0 cache-hdrjkf-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+        class="e1g1zfwd0 cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
       >
         test
       </div>
@@ -535,7 +538,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
 
 exports[`SwitchField should render correctly with offLabel 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -544,6 +547,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -633,7 +637,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="false"
@@ -662,7 +666,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
 
 exports[`SwitchField should render correctly with onLabel 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -671,6 +675,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -760,7 +765,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="false"
@@ -789,7 +794,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
 
 exports[`SwitchField should render correctly without onLabel and offLabel but has label 1`] = `
 <DocumentFragment>
-  .cache-iunkli-StyledChild-StyledFlexBox {
+  .cache-axw7ok {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -798,6 +803,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 8px;
 }
 
 .cache-1oshk27-StyledLabel {
@@ -883,7 +889,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   background-color: #f6f5f7;
 }
 
-.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles {
+.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -891,8 +897,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   color: #151a2d;
 }
 
-.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles.cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles {
-  margin-left: 8px;
+.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles.cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles {
   color: #151a2d;
 }
 
@@ -900,7 +905,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
     novalidate=""
   >
     <div
-      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
+      class="cache-axw7ok e1fcp5360"
     >
       <label
         aria-checked="false"
@@ -923,7 +928,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
         </span>
       </label>
       <div
-        class="e1g1zfwd0 cache-1glv34g-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+        class="e1g1zfwd0 cache-1f81ejt-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
       >
         test
       </div>

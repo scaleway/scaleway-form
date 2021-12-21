@@ -1,9 +1,16 @@
-import { FlexBox, Switch, Typography } from '@scaleway/ui'
+import styled from '@emotion/styled'
+import { Switch, Typography } from '@scaleway/ui'
 import React, { ReactNode } from 'react'
 import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { BaseFieldProps } from '../../types'
+
+const StyledSwitchFieldContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: ${({ theme }) => theme.space[1]};
+`
 
 export type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
   T,
@@ -75,7 +82,7 @@ const SwitchField = ({
   })
 
   return (
-    <FlexBox alignItems="center">
+    <StyledSwitchFieldContainer>
       <Switch
         checked={input.checked}
         variant={variant}
@@ -90,11 +97,11 @@ const SwitchField = ({
         disabled={disabled}
       />
       {label && (
-        <Typography ml={1} color={input.checked ? 'primary' : 'gray950'}>
+        <Typography color={input.checked ? 'primary' : 'gray950'}>
           {label}
         </Typography>
       )}
-    </FlexBox>
+    </StyledSwitchFieldContainer>
   )
 }
 

@@ -10,6 +10,16 @@ exports[`Form renders correctly  1`] = `
 </DocumentFragment>
 `;
 
+exports[`Form renders correctly with node children 1`] = `
+<DocumentFragment>
+  <form
+    novalidate=""
+  >
+    Test
+  </form>
+</DocumentFragment>
+`;
+
 exports[`Form renders correctly with onSubmit that return {} 1`] = `
 <DocumentFragment>
   <form

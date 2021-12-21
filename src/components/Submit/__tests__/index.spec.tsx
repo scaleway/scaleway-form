@@ -19,8 +19,10 @@ describe('Submit', () => {
       </Form>,
     ))
 
-  test('form is submitting', () =>
-    shouldMatchEmotionSnapshot(
+  test('form is submitting', async () => {
+    jest.spyOn(global.Math, 'random').mockReturnValue(0.4155913669444804)
+
+    await shouldMatchEmotionSnapshot(
       <Form
         onSubmit={() =>
           new Promise(resolve => {
@@ -41,5 +43,8 @@ describe('Submit', () => {
           ).toBeDisabled()
         },
       },
-    ))
+    )
+
+    jest.spyOn(global.Math, 'random').mockRestore()
+  })
 })

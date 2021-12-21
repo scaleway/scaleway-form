@@ -22,6 +22,7 @@
         "devDependencies": [
           "**/__stories__/**/*",
           "**/__tests__/**/*",
+          "**/jestHelpers.tsx",
           "rollup.config.mjs"
         ]
       }

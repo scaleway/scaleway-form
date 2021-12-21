@@ -2,7 +2,7 @@
 
 exports[`SwitchField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -100,7 +100,7 @@ exports[`SwitchField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="false"
@@ -129,7 +129,7 @@ exports[`SwitchField should render correctly 1`] = `
 
 exports[`SwitchField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -227,7 +227,7 @@ exports[`SwitchField should render correctly checked 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="true"
@@ -257,7 +257,7 @@ exports[`SwitchField should render correctly checked 1`] = `
 
 exports[`SwitchField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -355,7 +355,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="false"
@@ -389,7 +389,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
 
 exports[`SwitchField should render correctly with label and checked 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -500,7 +500,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="true"
@@ -535,7 +535,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
 
 exports[`SwitchField should render correctly with offLabel 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -633,7 +633,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="false"
@@ -662,7 +662,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
 
 exports[`SwitchField should render correctly with onLabel 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -760,7 +760,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="false"
@@ -789,7 +789,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
 
 exports[`SwitchField should render correctly without onLabel and offLabel but has label 1`] = `
 <DocumentFragment>
-  .cache-ta1bd3-StyledBox.cache-ta1bd3-StyledBox {
+  .cache-iunkli-StyledChild-StyledFlexBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -900,7 +900,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
     novalidate=""
   >
     <div
-      class="cache-ta1bd3-StyledBox e7ah3bn0"
+      class="e1l6meh00 cache-iunkli-StyledChild-StyledFlexBox e1l6meh01"
     >
       <label
         aria-checked="false"

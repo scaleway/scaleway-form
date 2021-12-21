@@ -1,3 +1,10 @@
+### [1.2.2](https://github.com/scaleway/scaleway-form/compare/v1.2.1...v1.2.2) (2021-12-21)
+
+
+### :package: Chore
+
+* **deps:** pin dependency @testing-library/react-hooks to 7.0.2 ([#38](https://github.com/scaleway/scaleway-form/issues/38)) ([61f493d](https://github.com/scaleway/scaleway-form/commit/61f493df9a7b2f7f3347a29198aa182829e11c03))
+
 ### [1.2.1](https://github.com/scaleway/scaleway-form/compare/v1.2.0...v1.2.1) (2021-12-21)
 
 

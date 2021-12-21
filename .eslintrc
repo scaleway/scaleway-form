@@ -1,12 +1,19 @@
 {
   "root": true,
   "env": {
-    "browser": true,
-    "jest": true
+    "browser": true
   },
-  "parser": "@babel/eslint-parser",
-  "extends": ["@scaleway/react", "plugin:mdx/recommended"],
-  "plugins": ["@emotion"],
+  "extends": [
+    "@scaleway/react/typescript"
+  ],
+  "parserOptions": {
+    "project": [
+      "tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "@emotion"
+  ],
   "rules": {
     // Import
     "import/no-extraneous-dependencies": [
@@ -14,47 +21,35 @@
       {
         "devDependencies": [
           "**/__stories__/**/*",
-          "**/*.spec.ts",
-          "**/*.spec.tsx",
-          "**/__tests__/*",
+          "**/__tests__/**/*",
           "rollup.config.mjs"
         ]
       }
     ],
-
     // emotion
     "@emotion/styled-import": "error",
     "@emotion/no-vanilla": "error",
     "@emotion/import-from-emotion": "error",
-    "@emotion/syntax-preference": ["error", "string"],
+    "@emotion/syntax-preference": [
+      "error",
+      "string"
+    ]
   },
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
-      "parserOptions": {
-        "project": ["tsconfig.json"]
+      "env": {
+        "jest": true
       },
-      "extends": ["@scaleway/react/typescript"],
-      "rules": {
-        "react/require-default-props": "off",
-      }
-    },
-    {
-      "files": ["**/__stories__/*", "**/__tests__/*"],
+      "files": [
+        "**/__stories__/**/*.{ts,tsx}",
+        "**/__tests__/**/*.{ts,tsx}"
+      ],
       "rules": {
         "no-console": "off",
         "no-alert": "off",
         "react/prop-types": "off",
-        "react/jsx-props-no-spreading": "off",
-        "import/no-extraneous-dependencies": "off"
+        "react/jsx-props-no-spreading": "off"
       }
     }
-  ],
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".ts", ".tsx", ".d.ts"]
-      }
-    }
-  }
+  ]
 }

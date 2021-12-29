@@ -168,6 +168,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.7",
+    "@scaleway/regex": "^2.1.0",
     "@scaleway/ui": "0.123.0",
     "final-form": "4.20.6",
     "react-final-form": "6.5.7"

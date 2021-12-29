@@ -3358,6 +3358,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.3.1
     "@scaleway/jest-helpers": 1.1.6
+    "@scaleway/regex": ^2.1.0
     "@scaleway/ui": 0.123.0
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
@@ -3436,6 +3437,13 @@ __metadata:
   version: 3.0.0
   resolution: "@scaleway/random-name@npm:3.0.0"
   checksum: 86c599af6701575eff8d453c57f475fd834acbaf0d08279a9fba9555674ca054828e6892717431fd3f14682736b2252a3e21dfd91e73dd8b46ac5a40c56660df
+  languageName: node
+  linkType: hard
+
+"@scaleway/regex@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@scaleway/regex@npm:2.1.0"
+  checksum: 9509a1d493211db291220075fbb4d69b64cf4b6485b92c185883228a110120f4baacc13bd7fcfa9a0e5a1329798b46840b33434edd0a53533b0864251089e9e1
   languageName: node
   linkType: hard
 

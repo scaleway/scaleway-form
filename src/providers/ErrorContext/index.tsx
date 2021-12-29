@@ -66,6 +66,6 @@ const ErrorProvider = ({
   return <ErrorContext.Provider value={value}>{children}</ErrorContext.Provider>
 }
 
-export const useErrors = () => useContext(ErrorContext)
+export const useErrors = (): ErrorContextValue => useContext(ErrorContext)
 
 export default ErrorProvider

@@ -2,7 +2,7 @@ import { ValidatorFn } from './types'
 
 const maxLengthValidator: ValidatorFn<string, number> = maxLength => {
   if (typeof maxLength !== 'number') {
-    throw new Error('max length validator should receive a number')
+    throw new Error('maxLength validator should receive a number')
   }
 
   return {

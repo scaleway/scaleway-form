@@ -2,7 +2,7 @@ import { ValidatorFn } from './types'
 
 const minLengthValidator: ValidatorFn<string, number> = minLength => {
   if (typeof minLength !== 'number') {
-    throw new Error('min length validator should receive a number')
+    throw new Error('minLength validator should receive a number')
   }
 
   return {

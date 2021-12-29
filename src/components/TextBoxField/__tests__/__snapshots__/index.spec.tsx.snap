@@ -265,3 +265,152 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   </form>
 </DocumentFragment>
 `;
+
+exports[`TextBoxField should render correctly with minLength 1`] = `
+<DocumentFragment>
+  .cache-1c6wzf2-StyledBox.cache-1c6wzf2-StyledBox {
+  position: relative;
+}
+
+.cache-1qe1r5b-StyledInput {
+  -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
+  transition: border-color 0.2s ease,box-shadow 0.2s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d4dae7;
+  border-radius: 4px;
+  color: #4a4f62;
+  display: block;
+  max-width: 100%;
+  outline: none;
+  position: relative;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 14px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px;
+  padding-left: 8px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding: 8px;
+  border-color: #ef5774;
+}
+
+.cache-1qe1r5b-StyledInput::-webkit-input-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-1qe1r5b-StyledInput::-moz-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-1qe1r5b-StyledInput:-ms-input-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-1qe1r5b-StyledInput::placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-1qe1r5b-StyledInput:hover,
+.cache-1qe1r5b-StyledInput:focus {
+  border-color: #dbdbdf;
+}
+
+.cache-1qe1r5b-StyledInput:focus {
+  box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
+  border-color: #4f0599;
+}
+
+.cache-1qe1r5b-StyledInput::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.cache-1qe1r5b-StyledInput::-moz-placeholder {
+  opacity: 1;
+}
+
+.cache-1qe1r5b-StyledInput:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.cache-1qe1r5b-StyledInput::placeholder {
+  opacity: 1;
+}
+
+.cache-1qe1r5b-StyledInput:hover,
+.cache-1qe1r5b-StyledInput:focus {
+  border-color: #ef5774;
+}
+
+.cache-1qe1r5b-StyledInput:focus {
+  box-shadow: 0 0 0 2px rgba(239,87,116,0.25);
+  border-color: #ef5774;
+}
+
+.cache-6aoku3-StyledBox-StyledExpandable {
+  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: auto;
+  margin-top: 0;
+  -webkit-transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  max-height: 56px;
+  opacity: 1;
+  overflow: visible;
+}
+
+.cache-6aoku3-StyledBox-StyledExpandable.cache-6aoku3-StyledBox-StyledExpandable {
+  overflow: hidden;
+}
+
+.cache-8s7x1q-StyledBox.cache-8s7x1q-StyledBox {
+  font-size: 12px;
+  color: #ef5774;
+  padding-top: 2px;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-o2l7i9-StyledBox e7ah3bn0"
+      minlength="13"
+    >
+      <div
+        class="cache-1c6wzf2-StyledBox e7ah3bn0"
+      >
+        <input
+          autocomplete="on"
+          class="cache-1qe1r5b-StyledInput e18bmnpq0"
+          name="test"
+          type="text"
+          value="test"
+        />
+      </div>
+      <div
+        class="e14o3tsk0 cache-6aoku3-StyledBox-StyledExpandable e7ah3bn0"
+      >
+        <div
+          class="cache-8s7x1q-StyledBox e7ah3bn0"
+        >
+          This field should have a length greater than 13
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

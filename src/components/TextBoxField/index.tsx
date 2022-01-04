@@ -1,4 +1,3 @@
-import type * as SCWRegexType from '@scaleway/regex'
 import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { Ref, forwardRef, useMemo } from 'react'
@@ -20,7 +19,7 @@ export type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
   max?: number
   minLength?: number
   maxLength?: number
-  regex?: keyof typeof SCWRegexType
+  regex?: RegExp[]
   readOnly?: boolean
   disabled?: boolean
   id?: string

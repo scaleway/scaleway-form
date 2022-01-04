@@ -7,13 +7,6 @@ describe('max validator', () => {
     expect(validator.error).toBe('TOO_HIGH')
   })
 
-  test('should throw error', () => {
-    // @ts-expect-error It should throw an error
-    expect(() => max('test')).toThrowError(
-      'max validator should receive a number',
-    )
-  })
-
   test('should success', () => {
     const validator = max(1)
     expect(validator.validate(2, {})).toBe(false)

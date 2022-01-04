@@ -9,13 +9,6 @@ describe('maxLength validator', () => {
     expect(validator.error).toBe('MAX_LENGTH')
   })
 
-  test('should throw error', () => {
-    // @ts-expect-error It should throw an error
-    expect(() => maxLength('test')).toThrowError(
-      'maxLength validator should receive a number',
-    )
-  })
-
   test('should success', () => {
     const validator = maxLength(1)
     expect(validator.validate(fakeString(2), {})).toBe(false)

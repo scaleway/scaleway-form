@@ -9,13 +9,6 @@ describe('minlength validator', () => {
     expect(validator.error).toBe('MIN_LENGTH')
   })
 
-  test('should throw error', () => {
-    // @ts-expect-error It should throw an error
-    expect(() => minlength('test')).toThrowError(
-      'minLength validator should receive a number',
-    )
-  })
-
   test('should success', () => {
     const validator = minlength(1)
     expect(validator.validate(fakeString(2), {})).toBe(true)

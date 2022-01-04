@@ -7,13 +7,6 @@ describe('min validator', () => {
     expect(validator.error).toBe('TOO_LOW')
   })
 
-  test('should throw error', () => {
-    // @ts-expect-error It should throw an error
-    expect(() => min('test')).toThrowError(
-      'min validator should receive a number',
-    )
-  })
-
   test('should success', () => {
     const validator = min(1)
     expect(validator.validate(2, {})).toBe(true)

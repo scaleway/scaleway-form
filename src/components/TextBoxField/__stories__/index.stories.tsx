@@ -78,5 +78,5 @@ export const Regex: Story<TextBoxFieldProps> = args => (
 
 Regex.args = {
   name: 'Regex',
-  regex: 'alpha',
+  regex: [/^[a-zA-Z]*$/],
 }

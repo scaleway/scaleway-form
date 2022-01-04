@@ -1,4 +1,4 @@
-import minlength from '../minlength'
+import minlength from '../minLength'
 
 const fakeString = (size: number) => 'a'.repeat(size)
 

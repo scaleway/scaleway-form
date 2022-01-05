@@ -1,3 +1,28 @@
+## [1.3.0](https://github.com/scaleway/scaleway-form/compare/v1.2.2...v1.3.0) (2022-01-05)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo to v7.16.7 ([#45](https://github.com/scaleway/scaleway-form/issues/45)) ([567631a](https://github.com/scaleway/scaleway-form/commit/567631a18ddf0c405f4071ad953ae31522cbbe32))
+* **devdeps:** update commitlint monorepo to v16 ([#40](https://github.com/scaleway/scaleway-form/issues/40)) ([c6135ae](https://github.com/scaleway/scaleway-form/commit/c6135ae6dfef6ea8eb971cb7b7e35d8e3d1bf130))
+* **devdeps:** update dependency @commitlint/cli to v16.0.1 ([a52d23a](https://github.com/scaleway/scaleway-form/commit/a52d23a9580bee1002fa341dd0c5e4178cb0acb9))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.1.2 ([9c3e30f](https://github.com/scaleway/scaleway-form/commit/9c3e30f5f987e82bda43d8a5a454f9ce5264d8c2))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.2.1 ([#39](https://github.com/scaleway/scaleway-form/issues/39)) ([8415d7c](https://github.com/scaleway/scaleway-form/commit/8415d7c541d1b4e9d61d5fdf417aa50bba2e543c))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.0 ([#43](https://github.com/scaleway/scaleway-form/issues/43)) ([ef974f5](https://github.com/scaleway/scaleway-form/commit/ef974f5f435338e3317e6123c60ac52bbf5d4a8e))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.1 ([#46](https://github.com/scaleway/scaleway-form/issues/46)) ([874ad60](https://github.com/scaleway/scaleway-form/commit/874ad60f0f0f95e79085f4431bc18daf083e2091))
+* **devdeps:** update dependency date-fns to v2.28.0 ([2685021](https://github.com/scaleway/scaleway-form/commit/2685021fb935b95f0f62db3a7d409c9dc355f223))
+* **devdeps:** update dependency eslint to v8.5.0 ([ab51b28](https://github.com/scaleway/scaleway-form/commit/ab51b28dd369214331b5d44470bfc80eb42f064a))
+* **devdeps:** update dependency lint-staged to v12.1.4 ([06881a2](https://github.com/scaleway/scaleway-form/commit/06881a2e391b91b8743442dbe3ab4c18d59b14a0))
+* **devdeps:** update dependency lint-staged to v12.1.5 ([6456d7e](https://github.com/scaleway/scaleway-form/commit/6456d7e630c8cc71a132926f509ac75d700e0bee))
+* **devdeps:** update dependency rollup to v2.62.0 ([28e2ae5](https://github.com/scaleway/scaleway-form/commit/28e2ae5df3bb83b8782aabbbb5e4afc175d988c5))
+* **devdeps:** update dependency rollup-plugin-dts to v4.1.0 ([5292e62](https://github.com/scaleway/scaleway-form/commit/5292e62ab0e900033bbf6fa4a1d12d0668fa2e3c))
+* **renovate:** change reviewers config ([#42](https://github.com/scaleway/scaleway-form/issues/42)) ([4d953a3](https://github.com/scaleway/scaleway-form/commit/4d953a333a31520a2caf78d974baae83b7d359ce))
+
+
+### :gear: Features
+
+* add textbox field ([#44](https://github.com/scaleway/scaleway-form/issues/44)) ([79335b6](https://github.com/scaleway/scaleway-form/commit/79335b6e3be9456b4b9a2b49bea5d533b489d244))
+
 ### [1.2.2](https://github.com/scaleway/scaleway-form/compare/v1.2.1...v1.2.2) (2021-12-21)
 
 

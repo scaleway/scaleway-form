@@ -26,16 +26,29 @@ export type FormValidateFn<T = AnyObject> = (
   values: T,
 ) => ValidationErrors | Promise<ValidationErrors>
 
-export type FormErrorFunctionParams<T = AnyObject> = {
+export type FormErrorFunctionParams<InputValue = unknown> = {
   label: string
   name: string
-  value: string
-  allValues: T
+  value: InputValue
+  allValues: AnyObject
+  meta?: FieldState<InputValue>
 }
 
 type RequiredErrors = {
   TOO_LOW:
-    | ((params: FormErrorFunctionParams & { min: string }) => string)
+    | ((params: FormErrorFunctionParams & { min: number }) => string)
+    | string
+  TOO_HIGH:
+    | ((params: FormErrorFunctionParams & { max: number }) => string)
+    | string
+  MIN_LENGTH:
+    | ((params: FormErrorFunctionParams & { minLength: number }) => string)
+    | string
+  MAX_LENGTH:
+    | ((params: FormErrorFunctionParams & { maxLength: number }) => string)
+    | string
+  REGEX:
+    | ((params: FormErrorFunctionParams & { regex: RegExp[] }) => string)
     | string
   REQUIRED: ((params: FormErrorFunctionParams) => string) | string
 }
@@ -54,6 +67,7 @@ export type ValidatorProps = {
   minLength?: number
   max?: number
   maxLength?: number
+  regex?: RegExp[]
 }
 
 export type ValidatorObject<InputValue = unknown> = {

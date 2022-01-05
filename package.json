@@ -69,6 +69,7 @@
     "testEnvironment": "jsdom",
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
+      "!src/mocks/*.{ts,tsx}",
       "!src/**/__stories__/**/*.{ts,tsx}",
       "!src/**/__tests__/**/*.{ts,tsx}"
     ],

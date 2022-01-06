@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/scaleway/scaleway-form/compare/v1.3.0...v1.4.0) (2022-01-06)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency eslint to v8.6.0 ([21f4ac2](https://github.com/scaleway/scaleway-form/commit/21f4ac2109c7cf41535c6ba4a990d5db83b660a2))
+
+
+### :gear: Features
+
+* add classnames, custom render and custom error strings ([#48](https://github.com/scaleway/scaleway-form/issues/48)) ([ac1bfce](https://github.com/scaleway/scaleway-form/commit/ac1bfce4949e013102c1864a0e38af2f88c236ee))
+
 ## [1.3.0](https://github.com/scaleway/scaleway-form/compare/v1.2.2...v1.3.0) (2022-01-05)
 
 

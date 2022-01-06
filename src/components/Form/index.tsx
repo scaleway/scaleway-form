@@ -1,11 +1,15 @@
 import { Config } from 'final-form'
 import React, { ReactNode } from 'react'
-import { FormRenderProps, Form as ReactFinalForm } from 'react-final-form'
+import {
+  FormRenderProps,
+  Form as ReactFinalForm,
+  RenderableProps,
+} from 'react-final-form'
 import ErrorProvider from '../../providers/ErrorContext'
 import { FormErrors, OnSubmitErrorFn, OnSubmitSucccessFn } from '../../types'
 
 export type FormProps<FormValues = unknown> = {
-  children:
+  children?:
     | ((props: FormRenderProps<FormValues, Partial<FormValues>>) => ReactNode)
     | ReactNode
   errors: FormErrors
@@ -19,8 +23,11 @@ export type FormProps<FormValues = unknown> = {
    * The form name attribute
    */
   name?: string
+  render?: RenderableProps<
+    FormRenderProps<FormValues, Partial<FormValues>>
+  >['render']
 }
-const Form = ({
+const Form = <T,>({
   children,
   onSubmit,
   onSubmitError,
@@ -30,7 +37,8 @@ const Form = ({
   validateOnBlur,
   validate,
   name,
-}: FormProps): JSX.Element => (
+  render,
+}: FormProps<T>): JSX.Element => (
   <ErrorProvider errors={errors}>
     <ReactFinalForm
       initialValues={initialValues}
@@ -48,11 +56,14 @@ const Form = ({
           await onSubmitError?.(submitError)
         }
       }}
-      render={props => (
-        <form noValidate name={name} onSubmit={props.handleSubmit}>
-          {typeof children === 'function' ? children(props) : children}
-        </form>
-      )}
+      render={
+        render ??
+        (props => (
+          <form noValidate name={name} onSubmit={props.handleSubmit}>
+            {typeof children === 'function' ? children(props) : children}
+          </form>
+        ))
+      }
     />
   </ErrorProvider>
 )

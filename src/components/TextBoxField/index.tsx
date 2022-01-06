@@ -31,6 +31,8 @@ export type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
   autoFocus?: boolean
   multiline?: boolean
   autoSave?: string
+  type?: string
+  className?: string
 }
 
 const TextBoxField = forwardRef(
@@ -71,9 +73,11 @@ const TextBoxField = forwardRef(
       autoFocus,
       autoSave,
       multiline,
+      type,
+      className,
     }: TextBoxFieldProps,
     ref: Ref<HTMLInputElement>,
-  ) => {
+  ): JSX.Element => {
     const { values } = useFormState()
     const { getFirstError } = useErrors()
 
@@ -102,6 +106,7 @@ const TextBoxField = forwardRef(
       multiple,
       parse,
       subscription,
+      type,
       validate: validateFn,
       validateFields,
       value,
@@ -166,6 +171,7 @@ const TextBoxField = forwardRef(
         id={id}
         error={error}
         ref={ref}
+        className={className}
       />
     )
   },

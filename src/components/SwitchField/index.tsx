@@ -27,6 +27,7 @@ export type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
   onLabel?: ReactNode
   name: string
   disabled?: boolean
+  className?: string
 }
 
 const SwitchField = ({
@@ -56,6 +57,7 @@ const SwitchField = ({
   subscription,
   validateFields,
   value,
+  className,
 }: SwitchFieldProps) => {
   const validateFn = useValidation({
     validate,
@@ -82,7 +84,7 @@ const SwitchField = ({
   })
 
   return (
-    <StyledSwitchFieldContainer>
+    <StyledSwitchFieldContainer className={className}>
       <Switch
         checked={input.checked}
         variant={variant}

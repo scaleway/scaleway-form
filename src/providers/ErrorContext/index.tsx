@@ -48,6 +48,8 @@ const ErrorProvider = ({
 
         return errors[key]
       }
+      // With a custom validate function the user may return a string directly
+      if (meta?.error && typeof meta?.error === 'string') return meta?.error
 
       return ''
     },

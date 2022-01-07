@@ -1,4 +1,5 @@
 import { Config } from 'final-form'
+import arrayMutators from 'final-form-arrays'
 import React, { ReactNode } from 'react'
 import {
   FormRenderProps,
@@ -26,6 +27,8 @@ export type FormProps<FormValues = unknown> = {
   render?: RenderableProps<
     FormRenderProps<FormValues, Partial<FormValues>>
   >['render']
+  mutators?: Config<FormValues, Partial<FormValues>>['mutators']
+  keepDirtyOnReinitialize?: boolean
 }
 const Form = <T,>({
   children,
@@ -38,12 +41,18 @@ const Form = <T,>({
   validate,
   name,
   render,
+  mutators,
+  keepDirtyOnReinitialize,
 }: FormProps<T>): JSX.Element => (
   <ErrorProvider errors={errors}>
     <ReactFinalForm
       initialValues={initialValues}
       validateOnBlur={validateOnBlur}
       validate={validate}
+      mutators={{
+        ...arrayMutators,
+        ...mutators,
+      }}
       onSubmit={async (values, form, callback) => {
         try {
           const res = await onSubmit?.(values, form, callback)
@@ -64,6 +73,7 @@ const Form = <T,>({
           </form>
         ))
       }
+      keepDirtyOnReinitialize={keepDirtyOnReinitialize}
     />
   </ErrorProvider>
 )

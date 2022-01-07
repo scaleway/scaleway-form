@@ -3388,6 +3388,7 @@ __metadata:
     eslint: 8.6.0
     eslint-plugin-mdx: 1.16.0
     final-form: 4.20.6
+    final-form-arrays: ^3.0.2
     husky: 7.0.4
     jest: 27.4.7
     jest-junit: 13.0.0
@@ -3409,6 +3410,7 @@ __metadata:
     "@emotion/styled": 11.6.0
     "@scaleway/ui": 0.123.0
     final-form: 4.20.6
+    final-form-arrays: ^3.0.2
     react: 17.0.2
     react-dom: 17.0.2
     react-final-form: 6.5.7
@@ -11355,6 +11357,15 @@ __metadata:
   dependencies:
     to-regex-range: ^5.0.1
   checksum: cc283f4e65b504259e64fd969bcf4def4eb08d85565e906b7d36516e87819db52029a76b6363d0f02d0d532f0033c9603b9e2d943d56ee3b0d4f7ad3328ff917
+  languageName: node
+  linkType: hard
+
+"final-form-arrays@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "final-form-arrays@npm:3.0.2"
+  peerDependencies:
+    final-form: ^4.18.2
+  checksum: bed684815967fa3e5b2cc91eb69e5d88e1048a5dbe421e2eb61b90434c634a09fec877ce52c85add8d009c20c052b6f2a884277d7ca80e9a628944a012d20205
   languageName: node
   linkType: hard
 

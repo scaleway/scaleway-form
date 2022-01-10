@@ -1,3 +1,10 @@
+### [1.5.1](https://github.com/scaleway/scaleway-form/compare/v1.5.0...v1.5.1) (2022-01-10)
+
+
+### :package: Chore
+
+* **deps:** pin dependency final-form-arrays to 3.0.2 ([#51](https://github.com/scaleway/scaleway-form/issues/51)) ([86066b3](https://github.com/scaleway/scaleway-form/commit/86066b3032548fc079c00a4387acbe9a88acbcef))
+
 ## [1.5.0](https://github.com/scaleway/scaleway-form/compare/v1.4.0...v1.5.0) (2022-01-10)
 
 

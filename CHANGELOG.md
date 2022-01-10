@@ -1,3 +1,25 @@
+## [1.5.0](https://github.com/scaleway/scaleway-form/compare/v1.4.0...v1.5.0) (2022-01-10)
+
+
+### :repeat: CI
+
+* add typescript check job ([#47](https://github.com/scaleway/scaleway-form/issues/47)) ([184a178](https://github.com/scaleway/scaleway-form/commit/184a178f1c85f0703898b780b91f1649660ebe0a))
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @commitlint/cli to v16.0.2 ([e3736f1](https://github.com/scaleway/scaleway-form/commit/e3736f1a912adb355988a4d520b94272a9577a58))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.1.3 ([92e03fd](https://github.com/scaleway/scaleway-form/commit/92e03fdcd928e36653a73c2684941e897d37e715))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.2 ([#50](https://github.com/scaleway/scaleway-form/issues/50)) ([6f57b77](https://github.com/scaleway/scaleway-form/commit/6f57b77a3f0adf992fb42b448aae3345dbd53c7d))
+* **devdeps:** update dependency jest to v27.4.7 ([f870b89](https://github.com/scaleway/scaleway-form/commit/f870b8918de4773213de967061cd29863f266c41))
+* **devdeps:** update dependency lint-staged to v12.1.7 ([3053553](https://github.com/scaleway/scaleway-form/commit/305355322499b120208d5853d20f610e779a50db))
+* **devdeps:** update dependency rollup to v2.63.0 ([a1d0658](https://github.com/scaleway/scaleway-form/commit/a1d06581dd46753d8a7119048d631b78b86e4bd3))
+
+
+### :gear: Features
+
+* handle when multiple errors, get first valid string ([#49](https://github.com/scaleway/scaleway-form/issues/49)) ([2f662df](https://github.com/scaleway/scaleway-form/commit/2f662df2cf654b83b2582b56a4163893ee91cf5f))
+
 ## [1.4.0](https://github.com/scaleway/scaleway-form/compare/v1.3.0...v1.4.0) (2022-01-06)
 
 

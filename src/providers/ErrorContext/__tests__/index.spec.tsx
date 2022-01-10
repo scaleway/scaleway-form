@@ -33,7 +33,7 @@ describe('ErrorProvider', () => {
         meta: {
           blur: () => {},
           change: () => {},
-          error: 'REQUIRED',
+          error: ['REQUIRED'],
           focus: () => {},
           name: 'test',
         },
@@ -49,7 +49,7 @@ describe('ErrorProvider', () => {
         meta: {
           blur: () => {},
           change: () => {},
-          error: 'MIN_LENGTH',
+          error: ['MIN_LENGTH'],
           focus: () => {},
           name: 'test',
         },

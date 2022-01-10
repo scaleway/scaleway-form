@@ -45,6 +45,6 @@ describe('useValidation', () => {
     const { result } = renderHook(() =>
       useValidation({ validate: () => false, validators: [] }),
     )
-    expect(result.current(false, {})).toStrictEqual([false])
+    expect(result.current(false, {})).toStrictEqual(false)
   })
 })

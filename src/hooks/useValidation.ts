@@ -22,18 +22,18 @@ const useValidation = <T = unknown>({
       value: T,
       allValues: AnyObject,
       meta?: FieldState<T>,
-    ): Array<string | unknown> | undefined => {
-      const errors = validators
-        .filter(validator => !validator.validate(value, allValues, meta))
-        .map(({ error }) => error) as Array<string | unknown>
-
+    ): Array<string | unknown> | unknown | undefined => {
       if (validate) {
         const validateErr = validate(value, allValues, meta) as
           | unknown
           | undefined
         if (validateErr !== undefined && validateErr !== true)
-          errors.push(validateErr)
+          return validateErr
       }
+
+      const errors = validators
+        .filter(validator => !validator.validate(value, allValues, meta))
+        .map(({ error }) => error) as Array<string | unknown>
 
       return errors.length > 0 ? errors : undefined
     },

@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/scaleway/scaleway-form/compare/v1.5.1...v1.6.0) (2022-01-10)
+
+
+### :gear: Features
+
+* add focus error decorator ([#52](https://github.com/scaleway/scaleway-form/issues/52)) ([7fc5a73](https://github.com/scaleway/scaleway-form/commit/7fc5a73e895c032c2b8e61e95dab80722dc111fe))
+
 ### [1.5.1](https://github.com/scaleway/scaleway-form/compare/v1.5.0...v1.5.1) (2022-01-10)
 
 

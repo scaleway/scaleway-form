@@ -1,33 +1,41 @@
-import { Config } from 'final-form'
+import type { Decorator } from 'final-form'
 import arrayMutators from 'final-form-arrays'
+import createDecorator from 'final-form-focus'
 import React, { ReactNode } from 'react'
 import {
   FormRenderProps,
   Form as ReactFinalForm,
-  RenderableProps,
+  FormProps as ReactFinalFormProps,
 } from 'react-final-form'
 import ErrorProvider from '../../providers/ErrorContext'
 import { FormErrors, OnSubmitErrorFn, OnSubmitSucccessFn } from '../../types'
+
+const focusOnErrors = createDecorator()
 
 export type FormProps<FormValues = unknown> = {
   children?:
     | ((props: FormRenderProps<FormValues, Partial<FormValues>>) => ReactNode)
     | ReactNode
   errors: FormErrors
-  onSubmit?: Config<FormValues, Partial<FormValues>>['onSubmit']
+  onSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
   onSubmitSuccess?: OnSubmitSucccessFn<FormValues>
   onSubmitError?: OnSubmitErrorFn
   initialValues?: Partial<FormValues>
-  validateOnBlur?: Config<FormValues, Partial<FormValues>>['validateOnBlur']
-  validate?: Config<FormValues, Partial<FormValues>>['validate']
+  validateOnBlur?: ReactFinalFormProps<
+    FormValues,
+    Partial<FormValues>
+  >['validateOnBlur']
+  validate?: ReactFinalFormProps<FormValues, Partial<FormValues>>['validate']
   /**
    * The form name attribute
    */
   name?: string
-  render?: RenderableProps<
-    FormRenderProps<FormValues, Partial<FormValues>>
-  >['render']
-  mutators?: Config<FormValues, Partial<FormValues>>['mutators']
+  render?: ReactFinalFormProps<FormValues, Partial<FormValues>>['render']
+  decorators?: ReactFinalFormProps<
+    FormValues,
+    Partial<FormValues>
+  >['decorators']
+  mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
 }
 const Form = <T,>({
@@ -49,6 +57,7 @@ const Form = <T,>({
       initialValues={initialValues}
       validateOnBlur={validateOnBlur}
       validate={validate}
+      decorators={[focusOnErrors as unknown as Decorator<T, Partial<T>>]}
       mutators={{
         ...arrayMutators,
         ...mutators,

@@ -100,6 +100,7 @@
     "@scaleway/ui": "0.123.0",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",
+    "final-form-focus": "1.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-final-form": "6.5.7"
@@ -144,6 +145,7 @@
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "@testing-library/user-event": "13.5.0",
+    "@types/final-form-focus": "^1.1.1",
     "@types/react-dom": "17.0.11",
     "babel-loader": "8.2.3",
     "babel-plugin-annotate-pure-calls": "0.4.0",
@@ -173,6 +175,7 @@
     "@scaleway/ui": "0.123.0",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",
+    "final-form-focus": "1.1.2",
     "react-final-form": "6.5.7"
   },
   "dependenciesMeta": {

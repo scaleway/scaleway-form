@@ -145,7 +145,7 @@
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "@testing-library/user-event": "13.5.0",
-    "@types/final-form-focus": "^1.1.1",
+    "@types/final-form-focus": "1.1.2",
     "@types/react-dom": "17.0.11",
     "babel-loader": "8.2.3",
     "babel-plugin-annotate-pure-calls": "0.4.0",

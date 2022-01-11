@@ -3379,7 +3379,7 @@ __metadata:
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@testing-library/user-event": 13.5.0
-    "@types/final-form-focus": ^1.1.1
+    "@types/final-form-focus": 1.1.2
     "@types/react-dom": 17.0.11
     babel-loader: 8.2.3
     babel-plugin-annotate-pure-calls: 0.4.0
@@ -5749,12 +5749,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/final-form-focus@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@types/final-form-focus@npm:1.1.1"
+"@types/final-form-focus@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@types/final-form-focus@npm:1.1.2"
   dependencies:
     final-form: 4.x.x
-  checksum: f21dafa79423148f1102ac7da4994d83fdfd6a1d371f520608c5df015cf85a22c20384b476ba252f0136778f21221736f01f8e1a7721c049ab82c7aca9608ccc
+  checksum: 6a85496104c2a73325ea3a6bfc15def67b7aa98c063798805801b5694e8f99457f9880c0dd2c46e010676227f2c0802f1f8757ea12c8b0bc58a039f43fafc672
   languageName: node
   linkType: hard
 

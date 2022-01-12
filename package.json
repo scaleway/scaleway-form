@@ -17,8 +17,8 @@
     "access": "public"
   },
   "engines": {
-    "node": "16.13.2",
-    "yarn": "3.1.1"
+    "node": ">=14.x",
+    "yarn": ">=3.x"
   },
   "os": [
     "darwin",

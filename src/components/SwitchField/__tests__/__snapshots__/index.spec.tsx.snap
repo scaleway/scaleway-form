@@ -14,7 +14,7 @@ exports[`SwitchField should render correctly 1`] = `
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -24,77 +24,168 @@ exports[`SwitchField should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
 <form
@@ -105,23 +196,29 @@ exports[`SwitchField should render correctly 1`] = `
     >
       <label
         aria-checked="false"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="false"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="false"
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
     </div>
   </form>
@@ -142,7 +239,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -152,77 +249,168 @@ exports[`SwitchField should render correctly checked 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
 <form
@@ -233,24 +421,30 @@ exports[`SwitchField should render correctly checked 1`] = `
     >
       <label
         aria-checked="true"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="true"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="true"
             checked=""
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
     </div>
   </form>
@@ -271,7 +465,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   gap: 8px;
 }
 
-.cache-l72xnd-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -280,78 +474,169 @@ exports[`SwitchField should render correctly disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  cursor: not-allowed;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1etx9wf-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #dce1eb;
   border: none;
   border-radius: 34px;
-  cursor: not-allowed;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 0.5;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1etx9wf-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
 <form
@@ -362,28 +647,30 @@ exports[`SwitchField should render correctly disabled 1`] = `
     >
       <label
         aria-checked="false"
-        class="cache-l72xnd-StyledLabel e1x48wse0"
-        disabled=""
+        aria-disabled="true"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="false"
-          class="cache-1etx9wf-StyledSwitch-buildVariants e1x48wse2"
-          disabled=""
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="false"
-            aria-disabled="true"
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             disabled=""
             id="test"
             name="test"
-            style="pointer-events: none;"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
     </div>
   </form>
@@ -404,7 +691,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -414,88 +701,175 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
-.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles {
+.cache-1y8ssf7-StyledText-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0;
-  color: #4f0599;
-}
-
-.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles.cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles {
   color: #4f0599;
 }
 
@@ -507,27 +881,33 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
     >
       <label
         aria-checked="true"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="true"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="true"
             checked=""
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
       <div
-        class="e1g1zfwd0 cache-16o8nhl-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+        class="e1g1zfwd0 cache-1y8ssf7-StyledText-variantStyles-colorStyles"
       >
         test
       </div>
@@ -550,7 +930,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -560,77 +940,168 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
 <form
@@ -641,23 +1112,29 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
     >
       <label
         aria-checked="false"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="false"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="false"
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
     </div>
   </form>
@@ -678,7 +1155,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -688,77 +1165,168 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
 <form
@@ -769,23 +1337,29 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
     >
       <label
         aria-checked="false"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="false"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="false"
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
     </div>
   </form>
@@ -806,7 +1380,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   gap: 8px;
 }
 
-.cache-1oshk27-StyledLabel {
+.cache-1c3gp4t-StyledLabel {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -816,89 +1390,176 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants {
-  overflow: hidden;
+.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch {
+  box-sizing: content-box;
   outline: none;
-  width: 40px;
-  height: 24px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #b2b6c3;
   border: none;
   border-radius: 34px;
-  cursor: pointer;
   position: relative;
   -webkit-transition: all 250ms;
   transition: all 250ms;
-  padding: 0 6px;
-  opacity: 1;
+  padding: 4px;
+  height: 24px;
+  background-color: #d4dae7;
+  min-width: 48px;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true'] {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #d4dae7;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse4 {
+  position: absolute;
+  margin-left: 4px;
+  margin-right: 4px;
+  left: 0;
+  right: 24px;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  top: 4px;
+  bottom: 0;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch .e1x48wse5 {
+  display: block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true']>.e1x48wse4 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: 32px;
+  margin-right: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[aria-checked='true'] .e1x48wse3 {
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] {
+  padding: 4px;
+  height: 16px;
+  min-width: 32px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse4 {
+  right: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'] .e1x48wse5 {
+  width: 16px;
+  height: 16px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse3 {
+  margin-left: calc(
+          16px + 4px
+        );
+  margin-right: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse3 {
+  margin-right: calc(
+          16px + 4px
+        );
+  margin-left: 4px;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+  color: #fff;
   background-color: #4f0599;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse4 {
-  -webkit-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -moz-transform: translateX(
-              28px
-            ) translateX(-100%);
-  -ms-transform: translateX(
-              28px
-            ) translateX(-100%);
-  transform: translateX(
-              28px
-            ) translateX(-100%);
-  background-color: #f6f5f7;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='false']>.e1x48wse3 {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #4f0599;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
-  right: 0;
+  background-color: #d4dae7;
+  font-weight: bold;
 }
 
-.cache-1axmni8-StyledSwitch-buildVariants[aria-checked='true']>.e1x48wse3 {
-  color: #f6f5f7;
-  left: 0;
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'] .e1x48wse5 {
+  background-color: #4a4f62;
 }
 
-.cache-16qhhwn-StyledCheckbox {
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] {
+  color: #45d6b5;
+  background-color: #cdfcf1;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse5 {
+  background-color: #45d6b5;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse3 {
+  color: #fff;
+}
+
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+  box-shadow: 0 0 1px 2px #fff,0 0 1px 3px #45d6b5;
+}
+
+.cache-322r38-StyledCheckbox {
   position: absolute;
   opacity: 0.01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.cache-1kh0bkm-SwitchBall {
-  display: block;
-  position: relative;
-  border-radius: 34px;
-  pointer-events: none;
-  -webkit-transition: all 250ms;
-  transition: all 250ms;
-  width: 12px;
-  height: 12px;
-  background-color: #f6f5f7;
+.cache-322r38-StyledCheckbox[disabled] {
+  cursor: not-allowed;
 }
 
-.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles {
+.cache-1mct6ue-StyledText-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0;
-  color: neutral;
-}
-
-.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles.cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles {
-  color: neutral;
+  color: #4a4f62;
 }
 
 <form
@@ -909,26 +1570,32 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
     >
       <label
         aria-checked="false"
-        class="cache-1oshk27-StyledLabel e1x48wse0"
+        aria-disabled="false"
+        class="cache-1c3gp4t-StyledLabel e1x48wse0"
       >
-        <span
+        <div
           aria-checked="false"
-          class="cache-1axmni8-StyledSwitch-buildVariants e1x48wse2"
+          class="cache-73g22c-StyledSwitch-SwitchVariantsStyles-StyledSwitch-SwitchVariantsStyles-StyledSwitch e1x48wse2"
+          data-size="small"
+          data-variant="primary"
         >
+          <div
+            class="cache-24p4j6-SwitchBallContainer e1x48wse4"
+          >
+            <span
+              class="cache-hol3kh-SwitchBall e1x48wse5"
+            />
+          </div>
           <input
-            aria-checked="false"
-            class="cache-16qhhwn-StyledCheckbox e1x48wse1"
+            class="cache-322r38-StyledCheckbox e1x48wse1"
             id="test"
             name="test"
             type="checkbox"
           />
-          <span
-            class="cache-1kh0bkm-SwitchBall e1x48wse4"
-          />
-        </span>
+        </div>
       </label>
       <div
-        class="e1g1zfwd0 cache-dvv4sj-StyledBox-StyledText-variantStyles-colorStyles e7ah3bn0"
+        class="e1g1zfwd0 cache-1mct6ue-StyledText-variantStyles-colorStyles"
       >
         test
       </div>

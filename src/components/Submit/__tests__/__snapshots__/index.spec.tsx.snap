@@ -2,7 +2,7 @@
 
 exports[`Submit form is invalid 1`] = `
 <DocumentFragment>
-  .cache-1xu2kb7-StyledBox-StyledButton {
+  .cache-1czz0m3-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -45,19 +45,19 @@ exports[`Submit form is invalid 1`] = `
   box-shadow: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:hover,
+.cache-1czz0m3-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:hover,
+.cache-1czz0m3-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
@@ -82,7 +82,7 @@ exports[`Submit form is invalid 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 cache-1czz0m3-StyledButton"
       disabled=""
       type="submit"
     >
@@ -114,7 +114,7 @@ exports[`Submit form is submitting 1`] = `
   }
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton {
+.cache-1czz0m3-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -157,19 +157,19 @@ exports[`Submit form is submitting 1`] = `
   box-shadow: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:hover,
+.cache-1czz0m3-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:hover,
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:hover,
+.cache-1czz0m3-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-1xu2kb7-StyledBox-StyledButton:focus {
+.cache-1czz0m3-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
@@ -182,11 +182,14 @@ exports[`Submit form is submitting 1`] = `
   pointer-events: none;
 }
 
-.cache-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar {
-  height: 1em;
-  width: 1em;
+.cache-1mntgth-ActivityIndicator {
   -webkit-animation: animation-0 0.75s linear infinite;
   animation: animation-0 0.75s linear infinite;
+}
+
+.cache-wxrv4d-ActivityIndicator {
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
 }
 
 .cache-m245rk-StyledContent {
@@ -210,7 +213,7 @@ exports[`Submit form is submitting 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-1xu2kb7-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 cache-1czz0m3-StyledButton"
       disabled=""
       type="submit"
     >
@@ -218,33 +221,35 @@ exports[`Submit form is submitting 1`] = `
         class="cache-i4evwh-StyledIconContainer em6gco82"
       >
         <svg
-          class="CircularProgressbar  cache-chj27i-StyledProgressbar-StyledProgressbar-StyledProgressbar e7dhm9i0"
-          data-test-id="CircularProgressbar"
+          aria-label="Loading"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="20"
+          aria-valuetext="20%"
+          class="cache-1mntgth-ActivityIndicator"
+          role="progressbar"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 100 100"
         >
-          <path
-            class="CircularProgressbar-trail"
-            d="
-      M 50,50
-      m 0,-42
-      a 42,42 0 1 1 0,84
-      a 42,42 0 1 1 0,-84
-    "
-            fill-opacity="0"
+          <circle
+            cx="50"
+            cy="50"
+            fill="none"
+            r="42"
+            stroke="transparent"
             stroke-width="16"
-            style="stroke: transparent; stroke-linecap: round; stroke-dasharray: 263.89378290154264px 263.89378290154264px; stroke-dashoffset: 0px;"
           />
-          <path
-            class="CircularProgressbar-path"
-            d="
-      M 50,50
-      m 0,-42
-      a 42,42 0 1 1 0,84
-      a 42,42 0 1 1 0,-84
-    "
-            fill-opacity="0"
+          <circle
+            class="cache-wxrv4d-ActivityIndicator"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="42"
+            stroke="currentColor"
+            stroke-dasharray="263.89378290154264"
+            stroke-dashoffset="211.11502632123413"
+            stroke-linecap="round"
             stroke-width="16"
-            style="stroke: currentColor; stroke-linecap: round; stroke-dasharray: 263.89378290154264px 263.89378290154264px; stroke-dashoffset: 211.11502632123413px;"
           />
         </svg>
       </div>
@@ -260,7 +265,7 @@ exports[`Submit form is submitting 1`] = `
 
 exports[`Submit renders correctly  1`] = `
 <DocumentFragment>
-  .cache-6wwsys-StyledBox-StyledButton {
+  .cache-1em91nt-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -297,19 +302,19 @@ exports[`Submit renders correctly  1`] = `
   padding: 8px 16px;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:hover,
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.cache-1em91nt-StyledButton:hover,
+.cache-1em91nt-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:hover,
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.cache-1em91nt-StyledButton:hover,
+.cache-1em91nt-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-6wwsys-StyledBox-StyledButton:focus {
+.cache-1em91nt-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
@@ -334,7 +339,7 @@ exports[`Submit renders correctly  1`] = `
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-6wwsys-StyledBox-StyledButton e7ah3bn0"
+      class="em6gco80 cache-1em91nt-StyledButton"
       type="submit"
     >
       <div

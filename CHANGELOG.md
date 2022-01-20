@@ -1,3 +1,23 @@
+### [1.6.1](https://github.com/scaleway/scaleway-form/compare/v1.6.0...v1.6.1) (2022-01-20)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.134.7 ([#23](https://github.com/scaleway/scaleway-form/issues/23)) ([f580fcc](https://github.com/scaleway/scaleway-form/commit/f580fcca99f89b0160ba70a6cf0b00baf3d6f890))
+* **devdeps:** correct node range ([#54](https://github.com/scaleway/scaleway-form/issues/54)) ([55a3036](https://github.com/scaleway/scaleway-form/commit/55a30361be26997a1015ecd6354d6289ec472fe4))
+* **devdeps:** update babel monorepo to v7.16.8 ([0c38137](https://github.com/scaleway/scaleway-form/commit/0c381377247e85d8e54773504d301eca0e0b572e))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.3 ([#55](https://github.com/scaleway/scaleway-form/issues/55)) ([3fadec5](https://github.com/scaleway/scaleway-form/commit/3fadec5da2ba8cffaf4eeb8d5c3b80a0bf02e1db))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.4 ([#58](https://github.com/scaleway/scaleway-form/issues/58)) ([7677605](https://github.com/scaleway/scaleway-form/commit/76776055aef6cdfcc19b9f44540ab38ab19f1395))
+* **devdeps:** update dependency @testing-library/dom to v8.11.2 ([6ab8659](https://github.com/scaleway/scaleway-form/commit/6ab8659d854ebe3d5dc0517a64f6a0e5feb42d8d))
+* **devdeps:** update dependency @types/final-form-focus to v1.1.2 ([e5d872b](https://github.com/scaleway/scaleway-form/commit/e5d872bc69993f2805e16833e0a02b1c55e239ee))
+* **devdeps:** update dependency rollup to v2.64.0 ([443c17d](https://github.com/scaleway/scaleway-form/commit/443c17d0963d46da7712fd024aaa1323e73508a2))
+* **devdeps:** update dependency rollup-plugin-visualizer to v5.5.4 ([3fd37b2](https://github.com/scaleway/scaleway-form/commit/3fd37b2cb20b4c352b893dbbe7d68ce29c4b0aa0))
+* **devdeps:** update dependency webpack to v5.66.0 ([987ba2f](https://github.com/scaleway/scaleway-form/commit/987ba2f592390b92fc53db34487b0c60c3c59add))
+* **devdeps:** update semantic-release monorepo ([#57](https://github.com/scaleway/scaleway-form/issues/57)) ([9627bee](https://github.com/scaleway/scaleway-form/commit/9627beea8962ca47753c8763ddaae24a1fec35f8))
+* **devdeps:** update storybook monorepo to v6.4.10 ([14a1dc4](https://github.com/scaleway/scaleway-form/commit/14a1dc4be03a89db1278b387a16c2e1191f4e4a9))
+* **devdeps:** update storybook monorepo to v6.4.12 ([eb6a5f1](https://github.com/scaleway/scaleway-form/commit/eb6a5f185ebbcfd0f6ab9589efa29ca03c5a6f97))
+* **devdeps:** update storybook monorepo to v6.4.13 ([0e01edb](https://github.com/scaleway/scaleway-form/commit/0e01edbdd03ddb894382b0e6d2836e1f20a55b01))
+
 ## [1.6.0](https://github.com/scaleway/scaleway-form/compare/v1.5.1...v1.6.0) (2022-01-10)
 
 

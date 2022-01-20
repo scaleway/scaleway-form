@@ -2,11 +2,11 @@
 
 exports[`TextBoxField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-1c6wzf2-StyledBox.cache-1c6wzf2-StyledBox {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-1pygai5-StyledInput {
+.cache-dlxryd-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -35,53 +35,53 @@ exports[`TextBoxField should render correctly 1`] = `
   padding: 8px;
 }
 
-.cache-1pygai5-StyledInput::-webkit-input-placeholder {
+.cache-dlxryd-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1pygai5-StyledInput::-moz-placeholder {
+.cache-dlxryd-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1pygai5-StyledInput:-ms-input-placeholder {
+.cache-dlxryd-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1pygai5-StyledInput::placeholder {
+.cache-dlxryd-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1pygai5-StyledInput:hover,
-.cache-1pygai5-StyledInput:focus {
-  border-color: #dbdbdf;
+.cache-dlxryd-StyledInput:hover,
+.cache-dlxryd-StyledInput:focus {
+  border-color: #4f0599;
 }
 
-.cache-1pygai5-StyledInput:focus {
+.cache-dlxryd-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-1pygai5-StyledInput::-webkit-input-placeholder {
+.cache-dlxryd-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1pygai5-StyledInput::-moz-placeholder {
+.cache-dlxryd-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1pygai5-StyledInput:-ms-input-placeholder {
+.cache-dlxryd-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1pygai5-StyledInput::placeholder {
+.cache-dlxryd-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-1auyvgb-StyledBox-StyledExpandable {
+.cache-3dfrrx-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -91,11 +91,11 @@ exports[`TextBoxField should render correctly 1`] = `
   margin-top: 0;
 }
 
-.cache-1auyvgb-StyledBox-StyledExpandable.cache-1auyvgb-StyledBox-StyledExpandable {
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-8s7x1q-StyledBox.cache-8s7x1q-StyledBox {
+.cache-1a1ow6k-StyledError {
   font-size: 12px;
   color: #ef5774;
   padding-top: 2px;
@@ -105,24 +105,24 @@ exports[`TextBoxField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-o2l7i9-StyledBox e7ah3bn0"
+      class="cache-3svqc9"
     >
       <div
-        class="cache-1c6wzf2-StyledBox e7ah3bn0"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-1pygai5-StyledInput e18bmnpq0"
+          class="cache-dlxryd-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value=""
         />
       </div>
       <div
-        class="e14o3tsk0 cache-1auyvgb-StyledBox-StyledExpandable e7ah3bn0"
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-8s7x1q-StyledBox e7ah3bn0"
+          class="cache-1a1ow6k-StyledError e18bmnpq1"
         />
       </div>
     </div>
@@ -132,11 +132,11 @@ exports[`TextBoxField should render correctly 1`] = `
 
 exports[`TextBoxField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-1c6wzf2-StyledBox.cache-1c6wzf2-StyledBox {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-yvs5ve-StyledInput {
+.cache-1ooi1vt-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -160,8 +160,8 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   line-height: 24px;
   cursor: default;
   pointer-events: none;
-  background-color: #fafafb;
-  border-color: #fafafb;
+  background-color: #f6f6f8;
+  border-color: #fcfcfd;
   color: #d4dae7;
   height: 48px;
   padding-left: 8px;
@@ -170,53 +170,53 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   padding: 8px;
 }
 
-.cache-yvs5ve-StyledInput::-webkit-input-placeholder {
+.cache-1ooi1vt-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-yvs5ve-StyledInput::-moz-placeholder {
+.cache-1ooi1vt-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-yvs5ve-StyledInput:-ms-input-placeholder {
+.cache-1ooi1vt-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-yvs5ve-StyledInput::placeholder {
+.cache-1ooi1vt-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-yvs5ve-StyledInput:hover,
-.cache-yvs5ve-StyledInput:focus {
-  border-color: #dbdbdf;
+.cache-1ooi1vt-StyledInput:hover,
+.cache-1ooi1vt-StyledInput:focus {
+  border-color: #4f0599;
 }
 
-.cache-yvs5ve-StyledInput:focus {
+.cache-1ooi1vt-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-yvs5ve-StyledInput::-webkit-input-placeholder {
+.cache-1ooi1vt-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-yvs5ve-StyledInput::-moz-placeholder {
+.cache-1ooi1vt-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-yvs5ve-StyledInput:-ms-input-placeholder {
+.cache-1ooi1vt-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-yvs5ve-StyledInput::placeholder {
+.cache-1ooi1vt-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-1auyvgb-StyledBox-StyledExpandable {
+.cache-3dfrrx-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -226,11 +226,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   margin-top: 0;
 }
 
-.cache-1auyvgb-StyledBox-StyledExpandable.cache-1auyvgb-StyledBox-StyledExpandable {
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-8s7x1q-StyledBox.cache-8s7x1q-StyledBox {
+.cache-1a1ow6k-StyledError {
   font-size: 12px;
   color: #ef5774;
   padding-top: 2px;
@@ -240,14 +240,14 @@ exports[`TextBoxField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-o2l7i9-StyledBox e7ah3bn0"
+      class="cache-3svqc9"
     >
       <div
-        class="cache-1c6wzf2-StyledBox e7ah3bn0"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-yvs5ve-StyledInput e18bmnpq0"
+          class="cache-1ooi1vt-StyledInput e18bmnpq0"
           disabled=""
           name="test"
           type="text"
@@ -255,10 +255,10 @@ exports[`TextBoxField should render correctly disabled 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-1auyvgb-StyledBox-StyledExpandable e7ah3bn0"
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-8s7x1q-StyledBox e7ah3bn0"
+          class="cache-1a1ow6k-StyledError e18bmnpq1"
         />
       </div>
     </div>
@@ -268,11 +268,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
 
 exports[`TextBoxField should render correctly with minLength 1`] = `
 <DocumentFragment>
-  .cache-1c6wzf2-StyledBox.cache-1c6wzf2-StyledBox {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-1qe1r5b-StyledInput {
+.cache-1nbbnea-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -302,63 +302,63 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   border-color: #ef5774;
 }
 
-.cache-1qe1r5b-StyledInput::-webkit-input-placeholder {
+.cache-1nbbnea-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1qe1r5b-StyledInput::-moz-placeholder {
+.cache-1nbbnea-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1qe1r5b-StyledInput:-ms-input-placeholder {
+.cache-1nbbnea-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1qe1r5b-StyledInput::placeholder {
+.cache-1nbbnea-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1qe1r5b-StyledInput:hover,
-.cache-1qe1r5b-StyledInput:focus {
-  border-color: #dbdbdf;
+.cache-1nbbnea-StyledInput:hover,
+.cache-1nbbnea-StyledInput:focus {
+  border-color: #4f0599;
 }
 
-.cache-1qe1r5b-StyledInput:focus {
+.cache-1nbbnea-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-1qe1r5b-StyledInput::-webkit-input-placeholder {
+.cache-1nbbnea-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1qe1r5b-StyledInput::-moz-placeholder {
+.cache-1nbbnea-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1qe1r5b-StyledInput:-ms-input-placeholder {
+.cache-1nbbnea-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1qe1r5b-StyledInput::placeholder {
+.cache-1nbbnea-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-1qe1r5b-StyledInput:hover,
-.cache-1qe1r5b-StyledInput:focus {
-  border-color: #ef5774;
+.cache-1nbbnea-StyledInput:hover,
+.cache-1nbbnea-StyledInput:focus {
+  border-color: #cf0f34;
 }
 
-.cache-1qe1r5b-StyledInput:focus {
+.cache-1nbbnea-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(239,87,116,0.25);
   border-color: #ef5774;
 }
 
-.cache-6aoku3-StyledBox-StyledExpandable {
+.cache-12czo5r-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -373,11 +373,11 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   overflow: visible;
 }
 
-.cache-6aoku3-StyledBox-StyledExpandable.cache-6aoku3-StyledBox-StyledExpandable {
+.cache-12czo5r-StyledExpandable.cache-12czo5r-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-8s7x1q-StyledBox.cache-8s7x1q-StyledBox {
+.cache-1a1ow6k-StyledError {
   font-size: 12px;
   color: #ef5774;
   padding-top: 2px;
@@ -387,25 +387,25 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
     novalidate=""
   >
     <div
-      class="cache-o2l7i9-StyledBox e7ah3bn0"
+      class="cache-3svqc9"
       minlength="13"
     >
       <div
-        class="cache-1c6wzf2-StyledBox e7ah3bn0"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-1qe1r5b-StyledInput e18bmnpq0"
+          class="cache-1nbbnea-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value="test"
         />
       </div>
       <div
-        class="e14o3tsk0 cache-6aoku3-StyledBox-StyledExpandable e7ah3bn0"
+        class="e14o3tsk0 cache-12czo5r-StyledExpandable"
       >
         <div
-          class="cache-8s7x1q-StyledBox e7ah3bn0"
+          class="cache-1a1ow6k-StyledError e18bmnpq1"
         >
           This field should have a length greater than 13
         </div>

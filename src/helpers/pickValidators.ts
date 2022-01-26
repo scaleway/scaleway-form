@@ -2,7 +2,7 @@ import { ValidatorObject, ValidatorProps } from '../types'
 import validators from '../validators'
 import { ValidatorFn } from '../validators/types'
 
-const pickValidators = (args: ValidatorProps) =>
+const pickValidators = <InputValue = unknown>(args: ValidatorProps) =>
   Object.entries(args)
     .map(([key, value]) =>
       value !== undefined
@@ -11,6 +11,6 @@ const pickValidators = (args: ValidatorProps) =>
           ]?.(value)
         : undefined,
     )
-    .filter(validator => !!validator) as ValidatorObject[]
+    .filter(validator => !!validator) as ValidatorObject<InputValue>[]
 
 export default pickValidators

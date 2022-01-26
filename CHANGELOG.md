@@ -1,3 +1,20 @@
+## [1.7.0](https://github.com/scaleway/scaleway-form/compare/v1.6.1...v1.7.0) (2022-01-26)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo ([a549441](https://github.com/scaleway/scaleway-form/commit/a54944151973ca9ea916594074bfe27298f2552a))
+* **devdeps:** update dependency @babel/core to v7.16.12 ([2bddac4](https://github.com/scaleway/scaleway-form/commit/2bddac42591a9ab922eb6e37b60b9d70f77c728b))
+* **devdeps:** update dependency @commitlint/cli to v16.1.0 ([792ca53](https://github.com/scaleway/scaleway-form/commit/792ca535402776333c23a85632d5ec54b74941da))
+* **devdeps:** update dependency eslint to v8.7.0 ([6d6131e](https://github.com/scaleway/scaleway-form/commit/6d6131ee2c89868b2be8ac8bb3af4361b01b4fae))
+* **devdeps:** update dependency typescript to v4.5.5 ([ea44b7e](https://github.com/scaleway/scaleway-form/commit/ea44b7e3dc2ae78ca25f9f151f28406e023ae605))
+* **devdeps:** update storybook monorepo to v6.4.14 ([a423e89](https://github.com/scaleway/scaleway-form/commit/a423e8937eff77eca63ec9ebaa34a5bc51b69a8b))
+
+
+### :gear: Features
+
+* add CheckboxField ([#61](https://github.com/scaleway/scaleway-form/issues/61)) ([1b56b84](https://github.com/scaleway/scaleway-form/commit/1b56b848dd95770db32f40ebb862e9ee005c8ed7))
+
 ### [1.6.1](https://github.com/scaleway/scaleway-form/compare/v1.6.0...v1.6.1) (2022-01-20)
 
 

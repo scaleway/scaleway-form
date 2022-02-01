@@ -1,3 +1,17 @@
+### [1.7.1](https://github.com/scaleway/scaleway-form/compare/v1.7.0...v1.7.1) (2022-02-01)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.134.10 ([#64](https://github.com/scaleway/scaleway-form/issues/64)) ([0544b0d](https://github.com/scaleway/scaleway-form/commit/0544b0d3c4aac7a6090c058ec158a68e7ab1299d))
+* **deps:** update dependency react-final-form to v6.5.8 ([#66](https://github.com/scaleway/scaleway-form/issues/66)) ([4dd58a0](https://github.com/scaleway/scaleway-form/commit/4dd58a06fd63b25b1f27fd097a4c378d0c0fc618))
+* **devdeps:** update dependency @testing-library/dom to v8.11.3 ([e86d545](https://github.com/scaleway/scaleway-form/commit/e86d5457c33f78a801e4dd618969be61e86b7ed9))
+* **devdeps:** update dependency lint-staged to v12.3.2 ([8a97e5e](https://github.com/scaleway/scaleway-form/commit/8a97e5e19bb622d644757e3ec6b3dfd255e11f7c))
+* **devdeps:** update dependency rollup to v2.66.1 ([a17b6d0](https://github.com/scaleway/scaleway-form/commit/a17b6d053a4be6b1330440c8a0858a9724546a2d))
+* **devdeps:** update dependency webpack to v5.67.0 ([49a79ee](https://github.com/scaleway/scaleway-form/commit/49a79ee7debb9c584c3760a6dac59d250fabef95))
+* **devdeps:** update storybook monorepo to v6.4.16 ([3c9de4f](https://github.com/scaleway/scaleway-form/commit/3c9de4f1215b8929c6fe1c193740a7c2a015190e))
+* **devdeps:** update storybook monorepo to v6.4.17 ([e610c65](https://github.com/scaleway/scaleway-form/commit/e610c6519c5ea5aea47be3bc2a3eafc7c83b4e3f))
+
 ## [1.7.0](https://github.com/scaleway/scaleway-form/compare/v1.6.1...v1.7.0) (2022-01-26)
 
 

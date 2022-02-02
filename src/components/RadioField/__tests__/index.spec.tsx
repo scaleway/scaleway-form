@@ -1,6 +1,8 @@
 import React from 'react'
 import RadioField from '..'
 import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelpers'
+import mockErrors from '../../../mocks/mockErrors'
+import Form from '../../Form'
 
 describe('RadioField', () => {
   test('should render correctly', () =>
@@ -19,6 +21,21 @@ describe('RadioField', () => {
         transform: node => {
           const input = node.getByRole('radio')
           expect(input).toBeDisabled()
+        },
+      },
+    ))
+
+  test('should render correctly checked', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <Form errors={mockErrors} initialValues={{ test: 'checked' }}>
+        <RadioField name="test" value="checked">
+          Radio field checked
+        </RadioField>
+      </Form>,
+      {
+        transform: node => {
+          const input = node.getByRole('radio')
+          expect(input).toBeChecked()
         },
       },
     ))

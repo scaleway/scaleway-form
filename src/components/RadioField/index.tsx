@@ -14,7 +14,6 @@ import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
-type RadioChecked = NonNullable<ComponentProps<typeof Radio>['checked']>
 type RadioValue = NonNullable<ComponentProps<typeof Radio>['value']>
 
 export type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
@@ -28,7 +27,6 @@ export type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
   progress?: boolean
   disabled?: boolean
   required?: boolean
-  checked?: RadioChecked | undefined
   value: RadioValue
   id?: string
   className?: string
@@ -77,10 +75,10 @@ const RadioField = ({
             allValues: values,
             label,
             name,
-            value: input.checked,
+            value: input.value,
           })
         : undefined,
-    [getFirstError, input.checked, label, meta, name, values],
+    [getFirstError, input.value, label, meta, name, values],
   )
 
   return (

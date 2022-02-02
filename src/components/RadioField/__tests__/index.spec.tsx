@@ -18,15 +18,4 @@ describe('RadioField', () => {
         },
       },
     ))
-
-  test('should render correctly checked', () =>
-    shouldMatchEmotionSnapshotFormWrapper(
-      <RadioField value="checked" name="checked" checked />,
-      {
-        transform: node => {
-          const input = node.getByRole('radio')
-          expect(input).toBeChecked()
-        },
-      },
-    ))
 })

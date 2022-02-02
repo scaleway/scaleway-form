@@ -5,12 +5,16 @@ import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelp
 describe('RadioField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <RadioField name="test" value="test" />,
+      <RadioField name="test" value="test">
+        Radio field
+      </RadioField>,
     ))
 
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <RadioField name="test" value="disabled" disabled />,
+      <RadioField name="test" value="disabled" disabled>
+        Radio field disabled
+      </RadioField>,
       {
         transform: node => {
           const input = node.getByRole('radio')

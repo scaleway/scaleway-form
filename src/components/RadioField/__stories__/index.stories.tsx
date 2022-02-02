@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react'
 import React from 'react'
 import RadioField, { RadioFieldProps } from '..'
 import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import Form, { FormProps } from '../../Form'
 import Submit from '../../Submit'
 
 export default {
@@ -28,12 +28,13 @@ Default.args = {
   name: 'default',
 }
 
-export const Checked = Template.bind({})
-
-Checked.args = {
-  checked: true,
-  name: 'checked',
-}
+export const Checked: Story<FormProps> = ({ errors }) => (
+  <Form errors={errors} initialValues={{ foo: 'bar' }}>
+    <RadioField name="foo" value="bar">
+      Checked Radio
+    </RadioField>
+  </Form>
+)
 
 export const Disabled = Template.bind({})
 

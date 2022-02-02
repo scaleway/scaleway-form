@@ -63,9 +63,9 @@ const RadioField = ({
   })
 
   const { input, meta } = useField(name, {
-    initialValue: value,
     type: 'radio',
     validate: validateFn,
+    value,
   })
 
   const error = useMemo(

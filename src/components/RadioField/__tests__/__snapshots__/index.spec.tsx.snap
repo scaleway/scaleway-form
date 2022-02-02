@@ -92,7 +92,7 @@ exports[`RadioField should render correctly 1`] = `
     >
       <label
         class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
-        for="test-undefined"
+        for="test-test"
       >
         <div
           class="cache-1p2voni-IconContainer e1duuirp3"
@@ -106,14 +106,17 @@ exports[`RadioField should render correctly 1`] = `
             />
           </svg>
         </div>
-        <div />
+        <div>
+          Radio field
+        </div>
         <input
           aria-checked="false"
           class="cache-18s3dma-StyledRadio e1duuirp1"
-          id="test-undefined"
+          id="test-test"
           name="test"
           tabindex="0"
           type="radio"
+          value="test"
         />
       </label>
       <div
@@ -212,7 +215,7 @@ exports[`RadioField should render correctly disabled 1`] = `
       <label
         class="e1duuirp2 e1g1zfwd0 cache-17wwrut-StyledText-variantStyles-StyledRadioContainer-disabledClass"
         disabled=""
-        for="test-undefined"
+        for="test-disabled"
       >
         <div
           class="cache-1p2voni-IconContainer e1duuirp3"
@@ -226,16 +229,19 @@ exports[`RadioField should render correctly disabled 1`] = `
             />
           </svg>
         </div>
-        <div />
+        <div>
+          Radio field disabled
+        </div>
         <input
           aria-checked="false"
           aria-disabled="true"
           class="cache-18s3dma-StyledRadio e1duuirp1"
           disabled=""
-          id="test-undefined"
+          id="test-disabled"
           name="test"
           style="pointer-events: none;"
           type="radio"
+          value="disabled"
         />
       </label>
       <div

@@ -78,15 +78,4 @@ describe('CheckboxField', () => {
         },
       },
     ))
-
-  test('should render correctly checked', () =>
-    shouldMatchEmotionSnapshotFormWrapper(
-      <CheckboxField name="checked" checked />,
-      {
-        transform: node => {
-          const input = node.getByRole('checkbox')
-          expect(input).toBeChecked()
-        },
-      },
-    ))
 })

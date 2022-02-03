@@ -1,3 +1,23 @@
+### [1.7.2](https://github.com/scaleway/scaleway-form/compare/v1.7.1...v1.7.2) (2022-02-03)
+
+
+### :repeat: CI
+
+* **renovate:** widen engine ([#70](https://github.com/scaleway/scaleway-form/issues/70)) ([19beb94](https://github.com/scaleway/scaleway-form/commit/19beb947ef832c56f3372d826b18b54e8b4ff6ee))
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo to v7.17.0 ([#71](https://github.com/scaleway/scaleway-form/issues/71)) ([0be6ae2](https://github.com/scaleway/scaleway-form/commit/0be6ae2a498b4ce5d1144c3e2aa8e6b0efe9be30))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.6 ([#69](https://github.com/scaleway/scaleway-form/issues/69)) ([3b2ffa7](https://github.com/scaleway/scaleway-form/commit/3b2ffa724e1161b6783a56a0e5ddf5e099b2d1bb))
+* **devdeps:** update dependency eslint to v8.8.0 ([b759128](https://github.com/scaleway/scaleway-form/commit/b7591285ce40770cb620c65f910ef3a0b0d0f00a))
+* **devdeps:** update dependency lint-staged to v12.3.3 ([d494305](https://github.com/scaleway/scaleway-form/commit/d4943057c3ea250e06230adc9a36feb49971be05))
+
+
+### :bug: Bug Fixes
+
+* improves coverage for checkbox field ([#72](https://github.com/scaleway/scaleway-form/issues/72)) ([722205d](https://github.com/scaleway/scaleway-form/commit/722205d94a18c1d5154329ef440a1894a0f6413a))
+
 ### [1.7.1](https://github.com/scaleway/scaleway-form/compare/v1.7.0...v1.7.1) (2022-02-01)
 
 

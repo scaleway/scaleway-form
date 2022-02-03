@@ -1,4 +1,5 @@
 import { Radio } from '@scaleway/ui'
+import { FieldState } from 'final-form'
 import React, {
   ComponentProps,
   FocusEvent,
@@ -74,6 +75,7 @@ const RadioField = ({
         ? getFirstError({
             allValues: values,
             label,
+            meta: meta as FieldState<string | number>,
             name,
             value: input.value,
           })

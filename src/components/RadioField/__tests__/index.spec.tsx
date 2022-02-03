@@ -1,3 +1,4 @@
+import userEvent from '@testing-library/user-event'
 import React from 'react'
 import RadioField from '..'
 import {
@@ -39,6 +40,52 @@ describe('RadioField', () => {
         transform: node => {
           const input = node.getByRole('radio')
           expect(input).toBeChecked()
+        },
+      },
+    ))
+
+  test('should trigger events correctly', () => {
+    const onFocus = jest.fn(() => {})
+    const onChange = jest.fn(() => {})
+    const onBlur = jest.fn(() => {})
+
+    return shouldMatchEmotionSnapshotFormWrapper(
+      <RadioField
+        name="test"
+        value="events"
+        onChange={onChange}
+        onFocus={onFocus}
+        onBlur={onBlur}
+      >
+        Radio field events
+      </RadioField>,
+      {
+        transform: node => {
+          const input = node.getByRole('radio')
+          input.focus()
+          expect(onFocus).toBeCalledTimes(1)
+          input.click()
+          expect(onChange).toBeCalledTimes(1)
+          input.blur()
+          expect(onBlur).toBeCalledTimes(1)
+        },
+      },
+    )
+  })
+
+  test('should render correctly with errors', () =>
+    shouldMatchEmotionSnapshot(
+      <Form errors={mockErrors}>
+        <RadioField name="test" value="checked" required>
+          Radio field error
+        </RadioField>
+        <button type="submit">Submit</button>
+      </Form>,
+      {
+        transform: node => {
+          userEvent.click(node.getByRole('button'))
+          const error = node.getByText(mockErrors.REQUIRED as string)
+          expect(error).toBeVisible()
         },
       },
     ))

@@ -76,5 +76,23 @@ describe('ErrorProvider', () => {
         value: '',
       }),
     ).toEqual(customErrorString)
+
+    // to cover all code branches and default values
+    expect(
+      result.current.getFirstError({
+        allValues: {},
+        label: 'test',
+        meta: {
+          blur: () => {},
+          change: () => {},
+          error: [],
+          focus: () => {},
+          name: 'test',
+        },
+        minLength: 3,
+        name: 'test',
+        value: '',
+      }),
+    ).toEqual('')
   })
 })

@@ -58,5 +58,23 @@ describe('ErrorProvider', () => {
         value: '',
       }),
     ).toEqual('This field should have a length greater than 3')
+
+    const customErrorString = 'This is an error'
+    expect(
+      result.current.getFirstError({
+        allValues: {},
+        label: 'test',
+        meta: {
+          blur: () => {},
+          change: () => {},
+          error: customErrorString,
+          focus: () => {},
+          name: 'test',
+        },
+        minLength: 3,
+        name: 'test',
+        value: '',
+      }),
+    ).toEqual(customErrorString)
   })
 })

@@ -106,10 +106,10 @@
     "react-final-form": "6.5.8"
   },
   "devDependencies": {
-    "@babel/core": "7.16.12",
-    "@babel/eslint-parser": "7.16.5",
+    "@babel/core": "7.17.0",
+    "@babel/eslint-parser": "7.17.0",
     "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@babel/plugin-transform-runtime": "7.16.10",
+    "@babel/plugin-transform-runtime": "7.17.0",
     "@babel/preset-env": "7.16.11",
     "@babel/preset-react": "7.16.7",
     "@babel/preset-typescript": "7.16.7",
@@ -171,7 +171,7 @@
     "webpack": "5.67.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.16.7",
+    "@babel/runtime": "7.17.0",
     "@scaleway/ui": "0.134.10",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",

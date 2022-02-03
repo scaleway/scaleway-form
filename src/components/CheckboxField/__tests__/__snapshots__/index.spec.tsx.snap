@@ -82,13 +82,14 @@ exports[`CheckboxField should render correctly 1`] = `
   >
     <div
       class="cache-3svqc9"
+      type="checkbox"
     >
       <label
         aria-disabled="false"
         class="eu28k4m5 e1g1zfwd0 cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer"
       >
         <input
-          aria-checked=""
+          aria-checked="false"
           class="cache-wg8t1p-StyledReakitCheckbox eu28k4m4"
           name="test"
           type="checkbox"
@@ -99,6 +100,122 @@ exports[`CheckboxField should render correctly 1`] = `
         >
           <path
             d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"
+          />
+        </svg>
+      </label>
+      <div
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
+      >
+        <div
+          class="cache-16v2aqw-StyledError eu28k4m0"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`CheckboxField should render correctly checked 1`] = `
+<DocumentFragment>
+  .cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer {
+  color: #4a4f62;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-wg8t1p-StyledReakitCheckbox {
+  opacity: 0.01;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  cursor: pointer;
+  margin-right: 0;
+  padding: 2px;
+  pointer-events: auto;
+}
+
+.cache-wg8t1p-StyledReakitCheckbox:hover svg {
+  border-radius: 4px;
+  background-color: #d4dae7;
+  fill: #4f0599;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+}
+
+.cache-wg8t1p-StyledReakitCheckbox:focus+svg {
+  outline: 1px #b2b6c3 dotted;
+}
+
+.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
+  fill: #4f0599;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  box-sizing: content-box;
+}
+
+.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
+  vertical-align: middle;
+  margin-right: 0;
+  padding: 2px;
+}
+
+.cache-3dfrrx-StyledExpandable {
+  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: auto;
+  margin-top: 0;
+}
+
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
+  overflow: hidden;
+}
+
+.cache-16v2aqw-StyledError {
+  font-size: 12px;
+  color: #ef5774;
+  padding: 0 4px;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-3svqc9"
+      type="checkbox"
+    >
+      <label
+        aria-disabled="false"
+        class="eu28k4m5 e1g1zfwd0 cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer"
+      >
+        <input
+          aria-checked="true"
+          checked=""
+          class="cache-wg8t1p-StyledReakitCheckbox eu28k4m4"
+          name="checked"
+          type="checkbox"
+        />
+        <svg
+          class="eu28k4m3 etwatq50 cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19,19H5V5H15V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V11H19M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
           />
         </svg>
       </label>
@@ -194,13 +311,14 @@ exports[`CheckboxField should render correctly disabled 1`] = `
   >
     <div
       class="cache-3svqc9"
+      type="checkbox"
     >
       <label
         aria-disabled="true"
         class="eu28k4m5 e1g1zfwd0 cache-lqmxup-StyledText-variantStyles-StyledCheckBoxContainer"
       >
         <input
-          aria-checked=""
+          aria-checked="false"
           aria-disabled="true"
           class="cache-1365xkx-StyledReakitCheckbox eu28k4m4"
           disabled=""
@@ -216,6 +334,259 @@ exports[`CheckboxField should render correctly disabled 1`] = `
             d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"
           />
         </svg>
+      </label>
+      <div
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
+      >
+        <div
+          class="cache-16v2aqw-StyledError eu28k4m0"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`CheckboxField should render correctly with errors 1`] = `
+<DocumentFragment>
+  .cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer {
+  color: #4a4f62;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox {
+  opacity: 0.01;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 2px;
+  pointer-events: auto;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox:hover svg {
+  border-radius: 4px;
+  background-color: #d4dae7;
+  fill: #4f0599;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox:focus+svg {
+  outline: 1px #b2b6c3 dotted;
+}
+
+.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon {
+  fill: #ef5774;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  box-sizing: content-box;
+}
+
+.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon {
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.cache-12czo5r-StyledExpandable {
+  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: auto;
+  margin-top: 0;
+  -webkit-transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  max-height: 56px;
+  opacity: 1;
+  overflow: visible;
+}
+
+.cache-12czo5r-StyledExpandable.cache-12czo5r-StyledExpandable {
+  overflow: hidden;
+}
+
+.cache-16v2aqw-StyledError {
+  font-size: 12px;
+  color: #ef5774;
+  padding: 0 4px;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-3svqc9"
+      required=""
+      type="checkbox"
+    >
+      <label
+        aria-disabled="false"
+        class="eu28k4m5 e1g1zfwd0 cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer"
+      >
+        <input
+          aria-checked="false"
+          class="cache-rqgqp9-StyledReakitCheckbox eu28k4m4"
+          name="test"
+          type="checkbox"
+        />
+        <svg
+          class="eu28k4m3 etwatq50 cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"
+          />
+        </svg>
+        <div
+          class="cache-egzmkg-StyledChildrenContainer eu28k4m2"
+        >
+          Radio field error
+        </div>
+      </label>
+      <div
+        class="e14o3tsk0 cache-12czo5r-StyledExpandable"
+      >
+        <div
+          class="cache-16v2aqw-StyledError eu28k4m0"
+        >
+          This field is required
+        </div>
+      </div>
+    </div>
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`CheckboxField should trigger events correctly 1`] = `
+<DocumentFragment>
+  .cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer {
+  color: #4a4f62;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox {
+  opacity: 0.01;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 2px;
+  pointer-events: auto;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox:hover svg {
+  border-radius: 4px;
+  background-color: #d4dae7;
+  fill: #4f0599;
+  -webkit-transition: fill 300ms;
+  transition: fill 300ms;
+}
+
+.cache-rqgqp9-StyledReakitCheckbox:focus+svg {
+  outline: 1px #b2b6c3 dotted;
+}
+
+.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon {
+  fill: #4f0599;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  box-sizing: content-box;
+}
+
+.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon {
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.cache-3dfrrx-StyledExpandable {
+  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: auto;
+  margin-top: 0;
+}
+
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
+  overflow: hidden;
+}
+
+.cache-16v2aqw-StyledError {
+  font-size: 12px;
+  color: #ef5774;
+  padding: 0 4px;
+}
+
+<form
+    novalidate=""
+  >
+    <div
+      class="cache-3svqc9"
+      type="checkbox"
+    >
+      <label
+        aria-disabled="false"
+        class="eu28k4m5 e1g1zfwd0 cache-1yhe2tz-StyledText-variantStyles-StyledCheckBoxContainer"
+      >
+        <input
+          aria-checked="true"
+          class="cache-rqgqp9-StyledReakitCheckbox eu28k4m4"
+          name="test"
+          type="checkbox"
+        />
+        <svg
+          class="eu28k4m3 etwatq50 cache-148h4m4-StyledIcon-sizeStyles-StyledIcon"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19,19H5V5H15V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V11H19M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+          />
+        </svg>
+        <div
+          class="cache-egzmkg-StyledChildrenContainer eu28k4m2"
+        >
+          Checkbox field events
+        </div>
       </label>
       <div
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"

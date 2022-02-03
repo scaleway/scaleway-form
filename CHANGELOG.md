@@ -1,3 +1,15 @@
+## [1.8.0](https://github.com/scaleway/scaleway-form/compare/v1.7.2...v1.8.0) (2022-02-03)
+
+
+### :package: Chore
+
+* **devdeps:** update storybook monorepo to v6.4.18 ([25e7107](https://github.com/scaleway/scaleway-form/commit/25e7107b542d461498e5c9e74be9285846b78097))
+
+
+### :gear: Features
+
+* adds radio field component ([#67](https://github.com/scaleway/scaleway-form/issues/67)) ([0591a56](https://github.com/scaleway/scaleway-form/commit/0591a56f91b3adb01d6f9d047d442828085811c9))
+
 ### [1.7.2](https://github.com/scaleway/scaleway-form/compare/v1.7.1...v1.7.2) (2022-02-03)
 
 

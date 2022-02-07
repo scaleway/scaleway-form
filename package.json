@@ -97,7 +97,7 @@
   "peerDependencies": {
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
-    "@scaleway/ui": "0.135.1",
+    "@scaleway/ui": "0.135.2",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",
@@ -172,7 +172,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.17.0",
-    "@scaleway/ui": "0.135.1",
+    "@scaleway/ui": "0.135.2",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

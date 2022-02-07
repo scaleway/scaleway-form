@@ -1,3 +1,12 @@
+### [1.8.1](https://github.com/scaleway/scaleway-form/compare/v1.8.0...v1.8.1) (2022-02-07)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.135.2 ([#68](https://github.com/scaleway/scaleway-form/issues/68)) ([8804f22](https://github.com/scaleway/scaleway-form/commit/8804f224ad36da0c56d1febaf6f46e22f7753c99))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.16.2 ([57058ca](https://github.com/scaleway/scaleway-form/commit/57058ca4987bdaf4f15f6046bacba408b04b91c4))
+* **devdeps:** update dependency webpack to v5.68.0 ([6332122](https://github.com/scaleway/scaleway-form/commit/6332122ec173e4dc52222dfe5b2052614f808307))
+
 ## [1.8.0](https://github.com/scaleway/scaleway-form/compare/v1.7.2...v1.8.0) (2022-02-03)
 
 

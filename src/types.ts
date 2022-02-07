@@ -53,13 +53,7 @@ type RequiredErrors = {
   REQUIRED: ((params: FormErrorFunctionParams) => string) | string
 }
 
-type AdditionalErrors = {
-  [x: string]:
-    | ((params: FormErrorFunctionParams & { [x: string]: unknown }) => string)
-    | string
-}
-
-export type FormErrors = RequiredErrors & AdditionalErrors
+export type FormErrors = RequiredErrors
 
 export type ValidatorProps = {
   required?: boolean

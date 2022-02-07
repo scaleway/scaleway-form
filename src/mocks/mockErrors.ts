@@ -1,6 +1,6 @@
 import { FormErrors } from '../types'
 
-const mockErrors = {
+const mockErrors: FormErrors = {
   MAX_LENGTH: ({ maxLength }) =>
     `This field should have a length lower than ${maxLength}`,
   MIN_LENGTH: ({ minLength }) =>
@@ -12,6 +12,6 @@ const mockErrors = {
   REQUIRED: 'This field is required',
   TOO_HIGH: ({ max }) => `This field is too high (maximum is : ${max})`,
   TOO_LOW: 'This field is too low',
-} as FormErrors
+}
 
 export default mockErrors

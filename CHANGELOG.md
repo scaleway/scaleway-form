@@ -1,3 +1,10 @@
+### [1.8.2](https://github.com/scaleway/scaleway-form/compare/v1.8.1...v1.8.2) (2022-02-07)
+
+
+### :bug: Bug Fixes
+
+* export CheckboxField ([a490076](https://github.com/scaleway/scaleway-form/commit/a490076027bba416dc0924240ed53aa3f837187f))
+
 ### [1.8.1](https://github.com/scaleway/scaleway-form/compare/v1.8.0...v1.8.1) (2022-02-07)
 
 

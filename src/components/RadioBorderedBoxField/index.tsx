@@ -23,10 +23,12 @@ export type RadioBorderedBoxFieldProps<
   T = RadioBorderedBoxValue,
   K = string,
 > = BaseFieldProps<T, K> &
-Partial<Pick<
-  ComponentProps<typeof RadioBorderedBox>,
-    'labelDescription' | 'badgeSize' | 'badgeText' | 'badgeVariant' | 'size'
-  >> & {
+  Partial<
+    Pick<
+      ComponentProps<typeof RadioBorderedBox>,
+      'labelDescription' | 'badgeSize' | 'badgeText' | 'badgeVariant' | 'size'
+    >
+  > & {
     label: string
     name: string
     valid?: boolean

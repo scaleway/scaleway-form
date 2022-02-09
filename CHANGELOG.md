@@ -1,3 +1,10 @@
+### [1.9.1](https://github.com/scaleway/scaleway-form/compare/v1.9.0...v1.9.1) (2022-02-09)
+
+
+### :package: Chore
+
+* **deps:** update node.js to v16.14 ([#78](https://github.com/scaleway/scaleway-form/issues/78)) ([698e010](https://github.com/scaleway/scaleway-form/commit/698e010e100153b27db734c5d49dd56999a46a36))
+
 ## [1.9.0](https://github.com/scaleway/scaleway-form/compare/v1.8.2...v1.9.0) (2022-02-09)
 
 

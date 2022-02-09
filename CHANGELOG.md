@@ -1,3 +1,16 @@
+## [1.9.0](https://github.com/scaleway/scaleway-form/compare/v1.8.2...v1.9.0) (2022-02-09)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo to v7.17.2 ([#77](https://github.com/scaleway/scaleway-form/issues/77)) ([98aa478](https://github.com/scaleway/scaleway-form/commit/98aa478a5420ca1199b5245bbff3e59dfbbf7fbb))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.3.7 ([#76](https://github.com/scaleway/scaleway-form/issues/76)) ([18617d9](https://github.com/scaleway/scaleway-form/commit/18617d9188ca5d2d0707a47592217cec4314ea0c))
+
+
+### :gear: Features
+
+* add RadioBorderedBoxField ([#75](https://github.com/scaleway/scaleway-form/issues/75)) ([2d5ad43](https://github.com/scaleway/scaleway-form/commit/2d5ad43970342d4c3dcbc091f1f833839e9bd550))
+
 ### [1.8.2](https://github.com/scaleway/scaleway-form/compare/v1.8.1...v1.8.2) (2022-02-07)
 
 

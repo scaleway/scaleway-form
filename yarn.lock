@@ -1540,15 +1540,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.17.0":
-  version: 7.17.0
-  resolution: "@babel/runtime@npm:7.17.0"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: 1864ac3c6aa061798c706ce858af311f06f6ad6efafc20cca7029fdaa9786c58ccaf5bdb8bd133cb505f27bed7659b65f1503b8da58adbd1eb88f7333644e6ed
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:7.17.2, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.17.2
   resolution: "@babel/runtime@npm:7.17.2"
@@ -3313,7 +3304,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.3.7
     "@scaleway/jest-helpers": 1.1.6
-    "@scaleway/ui": 0.135.2
+    "@scaleway/ui": 0.135.5
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3399,11 +3390,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.135.2":
-  version: 0.135.2
-  resolution: "@scaleway/ui@npm:0.135.2"
+"@scaleway/ui@npm:0.135.5":
+  version: 0.135.5
+  resolution: "@scaleway/ui@npm:0.135.5"
   dependencies:
-    "@babel/runtime": 7.17.0
+    "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2
     "@nivo/bar": 0.79.1
     "@nivo/core": 0.79.0

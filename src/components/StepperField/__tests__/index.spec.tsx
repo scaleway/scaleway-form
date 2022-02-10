@@ -1,0 +1,103 @@
+import { waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import React from 'react'
+import StepperField from '..'
+import {
+  shouldMatchEmotionSnapshot,
+  shouldMatchEmotionSnapshotFormWrapper,
+} from '../../../helpers/jestHelpers'
+import mockErrors from '../../../mocks/mockErrors'
+import Form from '../../Form'
+
+describe('StepperField', () => {
+  test('should render correctly', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <StepperField name="test" value={0} />,
+    ))
+
+  test('should render correctly disabled', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <StepperField name="test" value={10} disabled />,
+      {
+        transform: ({ getByLabelText }) => {
+          const input = getByLabelText('Input')
+          expect(input).toBeDisabled()
+
+          const inputMinus = getByLabelText('Minus')
+          expect(inputMinus).toBeDisabled()
+
+          const inputPlus = getByLabelText('Plus')
+          expect(inputPlus).toBeDisabled()
+        },
+      },
+    ))
+
+  test('should trigger events correctly', () => {
+    const onFocus = jest.fn(() => {})
+    const onChange = jest.fn(() => {})
+    const onBlur = jest.fn(() => {})
+
+    return shouldMatchEmotionSnapshotFormWrapper(
+      <StepperField
+        name="test"
+        value={10}
+        onChange={onChange}
+        onFocus={onFocus}
+        onBlur={onBlur}
+      />,
+      {
+        transform: ({ getByLabelText }) => {
+          const input = getByLabelText('Input')
+          input.focus()
+          expect(onFocus).toBeCalledTimes(1)
+          input.click()
+          expect(onChange).toBeCalledTimes(2)
+          input.blur()
+          expect(onBlur).toBeCalledTimes(1)
+        },
+      },
+    )
+  })
+
+  test('should trigger event onMinCrossed & onMaxCrossed', () => {
+    const onMinCrossed = jest.fn(() => {})
+    const onMaxCrossed = jest.fn(() => {})
+    const minValue = 5
+    const maxValue = 20
+
+    return shouldMatchEmotionSnapshot(
+      <Form errors={mockErrors}>
+        <StepperField
+          maxValue={maxValue}
+          minValue={minValue}
+          name="test"
+          onMinCrossed={onMinCrossed}
+          onMaxCrossed={onMaxCrossed}
+          value={10}
+        />
+      </Form>,
+      {
+        transform: async ({ getByLabelText }) => {
+          const input = getByLabelText('Input') as HTMLTextAreaElement
+          if (input.parentElement) userEvent.click(input.parentElement)
+
+          // trigger onMinCrossed
+          userEvent.clear(input)
+          userEvent.type(input, '1')
+          await waitFor(() => expect(input.value).toBe('1'))
+          input.blur()
+          await waitFor(() => expect(input.value).toBe('5'))
+          expect(onMinCrossed).toBeCalledTimes(1)
+
+          // trigger onMaxCrossed
+          userEvent.clear(input)
+          userEvent.type(input, '100')
+          await waitFor(() => expect(input.value).toBe('100'))
+          input.blur()
+          await waitFor(() => expect(input.value).toBe('20'))
+          expect(onMinCrossed).toBeCalledTimes(1)
+        },
+      },
+    )
+  })
+})

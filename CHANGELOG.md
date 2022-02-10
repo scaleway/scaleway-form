@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/scaleway/scaleway-form/compare/v1.9.2...v1.10.0) (2022-02-10)
+
+
+### :gear: Features
+
+* allow Submit customization and fix form error cascade ([#81](https://github.com/scaleway/scaleway-form/issues/81)) ([b2da96e](https://github.com/scaleway/scaleway-form/commit/b2da96e52271aadf2c5aec71abc44a3d86093d9f))
+
 ### [1.9.2](https://github.com/scaleway/scaleway-form/compare/v1.9.1...v1.9.2) (2022-02-10)
 
 

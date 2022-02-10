@@ -22,11 +22,9 @@ export const Default: Story<ComponentProps<typeof SubmitErrorAlert>> = ({
   className,
 }) => (
   <Form errors={mockErrors} onSubmit={() => ({ [FORM_ERROR]: 'Not Good' })}>
-    {() => (
-      <Container>
-        <SubmitErrorAlert className={className} />
-        <Submit>Click Me</Submit>
-      </Container>
-    )}
+    <Container>
+      <SubmitErrorAlert className={className} />
+      <Submit>Click Me</Submit>
+    </Container>
   </Form>
 )

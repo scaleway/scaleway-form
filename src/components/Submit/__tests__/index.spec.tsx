@@ -14,7 +14,7 @@ describe('Submit', () => {
   test('form is invalid', () =>
     shouldMatchEmotionSnapshot(
       <Form validate={() => ({ test: 'test' })} errors={mockErrors}>
-        {() => <Submit>Test</Submit>}
+        <Submit>Test</Submit>
       </Form>,
     ))
 
@@ -30,7 +30,7 @@ describe('Submit', () => {
         }
         errors={mockErrors}
       >
-        {() => <Submit>Test</Submit>}
+        <Submit>Test</Submit>
       </Form>,
       {
         transform: ({ getByText }) => {

@@ -2,7 +2,7 @@ import { Alert } from '@scaleway/ui'
 import React from 'react'
 import { FormSpy } from 'react-final-form'
 
-const FormErrorAlert = <FormValues, >({ className }: { className?: string }) => (
+const SubmitErrorAlert = <FormValues, >({ className }: { className?: string }) => (
   <FormSpy<FormValues> subscription={{ submitError: true }}>
     {({ submitError }) =>
       submitError ? (
@@ -14,4 +14,4 @@ const FormErrorAlert = <FormValues, >({ className }: { className?: string }) => 
   </FormSpy>
 )
 
-export default FormErrorAlert
+export default SubmitErrorAlert

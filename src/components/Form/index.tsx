@@ -1,4 +1,4 @@
-import type { Decorator } from 'final-form'
+import { Decorator, FORM_ERROR } from 'final-form'
 import arrayMutators from 'final-form-arrays'
 import createDecorator from 'final-form-focus'
 import React, { ReactNode } from 'react'
@@ -38,7 +38,7 @@ export type FormProps<FormValues = unknown> = {
   mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
 }
-const Form = <T,>({
+const Form = <FormValues,>({
   children,
   onSubmit,
   onSubmitError,
@@ -51,13 +51,13 @@ const Form = <T,>({
   render,
   mutators,
   keepDirtyOnReinitialize,
-}: FormProps<T>): JSX.Element => (
+}: FormProps<FormValues>): JSX.Element => (
   <ErrorProvider errors={errors}>
     <ReactFinalForm
       initialValues={initialValues}
       validateOnBlur={validateOnBlur}
       validate={validate}
-      decorators={[focusOnErrors as unknown as Decorator<T, Partial<T>>]}
+      decorators={[focusOnErrors as unknown as Decorator<FormValues, Partial<FormValues>>]}
       mutators={{
         ...arrayMutators,
         ...mutators,
@@ -70,8 +70,12 @@ const Form = <T,>({
           } else {
             await onSubmitSuccess?.(values)
           }
+
+          return res
         } catch (submitError) {
           await onSubmitError?.(submitError)
+
+          return { [FORM_ERROR]: submitError }
         }
       }}
       render={

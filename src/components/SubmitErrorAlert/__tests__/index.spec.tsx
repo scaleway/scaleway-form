@@ -37,7 +37,7 @@ describe('SubmitErrorAlert', () => {
       {
         transform: async ({ getByText }) => {
           userEvent.click(
-            getByText('Submit').closest('button'),
+            getByText('Submit').closest('button') as HTMLButtonElement,
           )
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           await waitFor(() => expect(getByText('hello')).toBeInTheDocument())

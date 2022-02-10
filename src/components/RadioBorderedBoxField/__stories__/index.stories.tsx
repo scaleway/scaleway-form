@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import RadioBorderedBoxField, { RadioBorderedBoxFieldProps } from '..'
+import React, { ComponentProps } from 'react'
+import RadioBorderedBoxField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form, { FormProps } from '../../Form'
 import Submit from '../../Submit'
@@ -15,10 +15,10 @@ export default {
       },
     },
   },
-  title: 'Components/RadioBorderedBoxField',
+  title: 'Components/Fields/RadioBorderedBoxField',
 } as Meta
 
-const Template: Story<RadioBorderedBoxFieldProps> = args => (
+const Template: Story<ComponentProps<typeof RadioBorderedBoxField>> = args => (
   <RadioBorderedBoxField {...args}>Radio</RadioBorderedBoxField>
 )
 
@@ -46,7 +46,7 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<RadioBorderedBoxFieldProps> = args => (
+export const Required: Story<ComponentProps<typeof RadioBorderedBoxField>> = args => (
   <>
     <RadioBorderedBoxField {...args} />
     <div style={{ marginTop: 8 }}>

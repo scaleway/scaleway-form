@@ -1,4 +1,3 @@
-import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import Submit from '..'
@@ -34,12 +33,12 @@ describe('Submit', () => {
         {() => <Submit>Test</Submit>}
       </Form>,
       {
-        transform: () => {
+        transform: ({ getByText }) => {
           userEvent.click(
-            screen.getByText('Test').closest('button') as HTMLButtonElement,
+            getByText('Test').closest('button') as HTMLButtonElement,
           )
           expect(
-            screen.getByText('Test').closest('button') as HTMLButtonElement,
+            getByText('Test').closest('button') as HTMLButtonElement,
           ).toBeDisabled()
         },
       },

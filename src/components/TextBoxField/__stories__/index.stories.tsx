@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import TextBoxField, { TextBoxFieldProps } from '..'
+import React, { ComponentProps } from 'react'
+import TextBoxField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import Submit from '../../Submit'
@@ -15,10 +15,10 @@ export default {
       },
     },
   },
-  title: 'Components/TextBoxField',
+  title: 'Components/Fields/TextBoxField',
 } as Meta
 
-const Template: Story<TextBoxFieldProps> = args => <TextBoxField {...args} />
+const Template: Story<ComponentProps<typeof TextBoxField>> = args => <TextBoxField {...args} />
 
 Template.args = {
   name: 'template',
@@ -38,7 +38,7 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<TextBoxFieldProps> = args => (
+export const Required: Story<ComponentProps<typeof TextBoxField>> = args => (
   <>
     <TextBoxField {...args} />
     <div style={{ marginTop: 8 }}>
@@ -52,7 +52,7 @@ Required.args = {
   required: true,
 }
 
-export const MinMaxLength: Story<TextBoxFieldProps> = args => (
+export const MinMaxLength: Story<ComponentProps<typeof TextBoxField>> = args => (
   <>
     <TextBoxField {...args} />
     <div style={{ marginTop: 8 }}>
@@ -67,7 +67,7 @@ MinMaxLength.args = {
   name: 'Min/max length',
 }
 
-export const Regex: Story<TextBoxFieldProps> = args => (
+export const Regex: Story<ComponentProps<typeof TextBoxField>> = args => (
   <>
     <TextBoxField {...args} />
     <div style={{ marginTop: 8 }}>

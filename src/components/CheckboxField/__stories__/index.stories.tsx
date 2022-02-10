@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import CheckboxField, { CheckboxFieldProps } from '..'
+import React, { ComponentProps } from 'react'
+import CheckboxField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import Submit from '../../Submit'
@@ -15,10 +15,10 @@ export default {
       },
     },
   },
-  title: 'Components/CheckboxField',
+  title: 'Components/Fields/CheckboxField',
 } as Meta
 
-const Template: Story<CheckboxFieldProps> = args => (
+const Template: Story<ComponentProps<typeof CheckboxField>> = args => (
   <CheckboxField {...args}>
     Checkbox
   </CheckboxField>
@@ -45,7 +45,7 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<CheckboxFieldProps> = args => (
+export const Required: Story<ComponentProps<typeof CheckboxField>> = args => (
   <>
     <CheckboxField {...args} />
     <div style={{ marginTop: 8 }}>

@@ -17,7 +17,7 @@ import { BaseFieldProps } from '../../types'
 
 type RadioValue = NonNullable<ComponentProps<typeof Radio>['value']>
 
-export type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
+type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
   T,
   K
 > & {
@@ -25,7 +25,6 @@ export type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
   label?: string
   size?: number
   valid?: boolean
-  progress?: boolean
   disabled?: boolean
   required?: boolean
   value: RadioValue

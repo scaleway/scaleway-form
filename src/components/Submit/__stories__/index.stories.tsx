@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import Submit, { SubmitProps } from '..'
+import React, { ComponentProps } from 'react'
+import Submit from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 
@@ -16,7 +16,7 @@ export default {
   title: 'Components/Submit',
 } as Meta
 
-export const Default: Story<SubmitProps> = ({ children }) => (
+export const Default: Story<ComponentProps<typeof Submit>> = ({ children }) => (
   <Form errors={mockErrors}>{() => <Submit>{children}</Submit>}</Form>
 )
 
@@ -24,7 +24,7 @@ Default.args = {
   children: 'This form is ready to submit',
 }
 
-export const Invalid: Story<SubmitProps> = ({ children }) => (
+export const Invalid: Story<ComponentProps<typeof Submit>> = ({ children }) => (
   <Form errors={mockErrors} validate={() => ({ fake: 'error' })}>
     {() => <Submit>{children}</Submit>}
   </Form>

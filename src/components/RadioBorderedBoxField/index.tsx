@@ -19,7 +19,7 @@ type RadioBorderedBoxValue = NonNullable<
   ComponentProps<typeof RadioBorderedBox>['value']
 >
 
-export type RadioBorderedBoxFieldProps<
+type RadioBorderedBoxFieldProps<
   T = RadioBorderedBoxValue,
   K = string,
 > = BaseFieldProps<T, K> &
@@ -32,7 +32,6 @@ export type RadioBorderedBoxFieldProps<
     label: string
     name: string
     valid?: boolean
-    progress?: boolean
     disabled?: boolean
     required?: boolean
     value: RadioBorderedBoxValue

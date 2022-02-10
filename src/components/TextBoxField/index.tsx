@@ -7,7 +7,7 @@ import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
-export type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
+type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
   T,
   K
 > & {

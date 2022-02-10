@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import RadioField, { RadioFieldProps } from '..'
+import React, { ComponentProps } from 'react'
+import RadioField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form, { FormProps } from '../../Form'
 import Submit from '../../Submit'
@@ -15,10 +15,10 @@ export default {
       },
     },
   },
-  title: 'Components/RadioField',
+  title: 'Components/Fields/RadioField',
 } as Meta
 
-const Template: Story<RadioFieldProps> = args => (
+const Template: Story<ComponentProps<typeof RadioField>> = args => (
   <RadioField {...args}>Radio</RadioField>
 )
 
@@ -44,7 +44,7 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<RadioFieldProps> = args => (
+export const Required: Story<ComponentProps<typeof RadioField>> = args => (
   <>
     <RadioField {...args} />
     <div style={{ marginTop: 8 }}>

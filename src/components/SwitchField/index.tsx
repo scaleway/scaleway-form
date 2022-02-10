@@ -12,7 +12,7 @@ const StyledSwitchFieldContainer = styled.div`
   gap: ${({ theme }) => theme.space[1]};
 `
 
-export type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
+type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
   T,
   K
 > & {

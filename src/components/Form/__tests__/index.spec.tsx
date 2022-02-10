@@ -14,7 +14,7 @@ describe('Form', () => {
   test('renders correctly with validate', () =>
     shouldMatchEmotionSnapshot(
       <Form errors={mockErrors} validate={() => ({ test: 'test' })}>
-        {() => 'Test'}
+        Test
       </Form>,
     ))
 
@@ -30,7 +30,7 @@ describe('Form', () => {
         onSubmit={onSubmit}
         onSubmitError={onSubmitError}
       >
-        {() => <button type="submit">Submit</button>}
+        <button type="submit">Submit</button>
       </Form>,
       {
         transform: async ({ getByText }) => {
@@ -55,7 +55,7 @@ describe('Form', () => {
         onSubmit={onSubmit}
         onSubmitError={onSubmitError}
       >
-        {() => <button type="submit">Submit</button>}
+        <button type="submit">Submit</button>
       </Form>,
       {
         transform: async ({ getByText }) => {
@@ -80,7 +80,7 @@ describe('Form', () => {
         onSubmit={onSubmit}
         onSubmitError={onSubmitError}
       >
-        {() => <button type="submit">Submit</button>}
+        <button type="submit">Submit</button>
       </Form>,
       {
         transform: async ({ getByText }) => {

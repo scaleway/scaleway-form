@@ -19,7 +19,7 @@ import { BaseFieldProps } from '../../types'
 
 type CheckboxValue = NonNullable<ComponentProps<typeof Checkbox>['checked']>
 
-export type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<
+type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<
   T,
   K
 > & {

@@ -1,6 +1,6 @@
-import { SCWUITheme, theme } from '@scaleway/ui'
+import { SCWUITheme, normalize, theme } from '@scaleway/ui'
 import React from 'react'
-import { ThemeProvider } from '@emotion/react'
+import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
 const STORY_SORT = {
   order: ['Introduction', 'Components', 'Labs'],
@@ -53,9 +53,18 @@ const adjustedTheme = ancestorTheme =>
     ),
   } as SCWUITheme)
 
+export const globalStyles = (theme: Theme) => css`
+  ${normalize()}
+
+  body {
+    font-family: ${theme.fonts.sansSerif};
+  }
+`
+
 export const decorators = [
   Story => (
     <ThemeProvider theme={adjustedTheme}>
+      <Global styles={[globalStyles]} />
       <Story />
     </ThemeProvider>
   ),

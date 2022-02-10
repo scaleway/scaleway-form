@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
-import SwitchField, { SwitchFieldProps } from '..'
+import React, { ComponentProps } from 'react'
+import SwitchField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import Submit from '../../Submit'
@@ -15,10 +15,10 @@ export default {
       },
     },
   },
-  title: 'Components/SwitchField',
+  title: 'Components/Fields/SwitchField',
 } as Meta
 
-const Template: Story<SwitchFieldProps> = args => <SwitchField {...args} />
+const Template: Story<ComponentProps<typeof SwitchField>> = args => <SwitchField {...args} />
 
 Template.args = {
   name: 'template',
@@ -53,7 +53,7 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<SwitchFieldProps> = args => (
+export const Required: Story<ComponentProps<typeof SwitchField>> = args => (
   <>
     <SwitchField {...args} />
     <div style={{ marginTop: 8 }}>

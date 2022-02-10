@@ -1,4 +1,4 @@
-import { screen, waitFor } from '@testing-library/react'
+import { waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import Form from '..'
@@ -33,8 +33,8 @@ describe('Form', () => {
         {() => <button type="submit">Submit</button>}
       </Form>,
       {
-        transform: async () => {
-          userEvent.click(screen.getByText('Submit'))
+        transform: async ({ getByText }) => {
+          userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitSuccess).toBeCalledTimes(1))
           expect(onSubmitError).toBeCalledTimes(0)
@@ -58,8 +58,8 @@ describe('Form', () => {
         {() => <button type="submit">Submit</button>}
       </Form>,
       {
-        transform: async () => {
-          userEvent.click(screen.getByText('Submit'))
+        transform: async ({ getByText }) => {
+          userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           expect(onSubmitSuccess).toBeCalledTimes(0)
@@ -83,8 +83,8 @@ describe('Form', () => {
         {() => <button type="submit">Submit</button>}
       </Form>,
       {
-        transform: async () => {
-          userEvent.click(screen.getByText('Submit'))
+        transform: async ({ getByText }) => {
+          userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           expect(onSubmitSuccess).toBeCalledTimes(0)

@@ -1,3 +1,15 @@
+### [1.9.2](https://github.com/scaleway/scaleway-form/compare/v1.9.1...v1.9.2) (2022-02-10)
+
+
+### :package: Chore
+
+* code cleanup ([#80](https://github.com/scaleway/scaleway-form/issues/80)) ([f9a17d2](https://github.com/scaleway/scaleway-form/commit/f9a17d222b099f9c2836ab9e1ad39cc671ac96d5))
+
+
+### :bug: Bug Fixes
+
+* remove custom error handling ([#74](https://github.com/scaleway/scaleway-form/issues/74)) ([4c7bbb4](https://github.com/scaleway/scaleway-form/commit/4c7bbb47929a632ea156fa303e3b89cd5efdd2fa))
+
 ### [1.9.1](https://github.com/scaleway/scaleway-form/compare/v1.9.0...v1.9.1) (2022-02-09)
 
 

@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/scaleway/scaleway-form/compare/v1.10.0...v1.11.0) (2022-02-10)
+
+
+### :gear: Features
+
+* new SubmitErrorAlert ([#82](https://github.com/scaleway/scaleway-form/issues/82)) ([de535a4](https://github.com/scaleway/scaleway-form/commit/de535a4a111cbeea51ff84b7e29a4861a8523ed0))
+
 ## [1.10.0](https://github.com/scaleway/scaleway-form/compare/v1.9.2...v1.10.0) (2022-02-10)
 
 

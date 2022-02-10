@@ -1,3 +1,10 @@
+### [1.11.1](https://github.com/scaleway/scaleway-form/compare/v1.11.0...v1.11.1) (2022-02-10)
+
+
+### :bug: Bug Fixes
+
+* correct SubmitErrorAlert export ([2fc1efa](https://github.com/scaleway/scaleway-form/commit/2fc1efa816b587bcb45c327e4884138d6694d862))
+
 ## [1.11.0](https://github.com/scaleway/scaleway-form/compare/v1.10.0...v1.11.0) (2022-02-10)
 
 

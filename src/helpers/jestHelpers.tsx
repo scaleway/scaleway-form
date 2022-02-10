@@ -30,3 +30,9 @@ export const shouldMatchEmotionSnapshotFormWrapper = (
     <Form errors={mockErrors}>{() => children}</Form>,
     options,
   )
+
+export const mockRandom = () =>
+  jest.spyOn(global.Math, 'random').mockReturnValue(0.4155913669444804)
+
+export const restoreRandom = () =>
+  jest.spyOn(global.Math, 'random').mockRestore()

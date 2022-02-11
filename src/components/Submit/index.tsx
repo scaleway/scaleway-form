@@ -27,7 +27,7 @@ const Submit = ({
   return (
     <Button
       progress={submitting}
-      disabled={disabled || submitting || (invalid && hasValidationErrors && dirtySinceLastSubmit)}
+      disabled={disabled || submitting || (invalid && hasValidationErrors && !dirtySinceLastSubmit)}
       variant={variant}
       type="submit"
       className={className}

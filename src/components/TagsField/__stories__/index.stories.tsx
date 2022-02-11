@@ -1,8 +1,9 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
+import React, { ComponentProps } from 'react'
 import TagsField, { TagsFieldProps } from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
+import Submit from '../../Submit'
 
 export default {
   component: TagsField,
@@ -47,4 +48,18 @@ DefaultTags.args = {
   ...Template.args,
   name: 'defaultTags',
   tags: ['tag1', 'tag2'],
+}
+
+export const Required: Story<ComponentProps<typeof TagsField>> = args => (
+  <>
+    <TagsField {...args} />
+    <div style={{ marginTop: 8 }}>
+      <Submit>Submit</Submit>
+    </div>
+  </>
+)
+
+Required.args = {
+  name: 'required',
+  required: true,
 }

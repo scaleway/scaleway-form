@@ -1,14 +1,6 @@
 import { RadioBorderedBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, {
-  ComponentProps,
-  FocusEvent,
-  FocusEventHandler,
-  FormEvent,
-  FormEventHandler,
-  ReactNode,
-  useMemo,
-} from 'react'
+import React, { ComponentProps, ReactNode, useMemo } from 'react'
 import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
@@ -26,38 +18,42 @@ type RadioBorderedBoxFieldProps<
   Partial<
     Pick<
       ComponentProps<typeof RadioBorderedBox>,
-      'labelDescription' | 'badgeSize' | 'badgeText' | 'badgeVariant' | 'size'
+      | 'badgeSize'
+      | 'badgeText'
+      | 'badgeVariant'
+      | 'disabled'
+      | 'labelDescription'
+      | 'size'
+      | 'valid'
+      | 'value'
+      | 'onChange'
+      | 'onBlur'
+      | 'onFocus'
     >
   > & {
+    children?: ReactNode
     label: string
     name: string
-    valid?: boolean
-    disabled?: boolean
     required?: boolean
-    value: RadioBorderedBoxValue
-    children?: ReactNode
-    onChange?: FormEventHandler<HTMLInputElement>
-    onBlur?: FocusEventHandler<HTMLInputElement>
-    onFocus?: FocusEventHandler<HTMLInputElement>
   }
 
 const RadioBorderedBoxField = ({
-  validate,
-  name,
-  valid,
-  label,
-  labelDescription,
   badgeSize,
   badgeText,
   badgeVariant,
-  size,
-  disabled,
-  required,
-  value,
   children,
-  onChange,
+  disabled,
+  label,
+  labelDescription,
+  name,
   onBlur,
+  onChange,
   onFocus,
+  required,
+  size,
+  valid,
+  validate,
+  value,
 }: RadioBorderedBoxFieldProps): JSX.Element => {
   const { values } = useFormState()
   const { getFirstError } = useErrors()
@@ -97,15 +93,15 @@ const RadioBorderedBoxField = ({
       badgeText={badgeText}
       badgeVariant={badgeVariant}
       name={input.name}
-      onChange={(event: FormEvent<HTMLInputElement>) => {
+      onChange={event => {
         input.onChange(event)
         onChange?.(event)
       }}
-      onBlur={(event: FocusEvent<HTMLInputElement>) => {
+      onBlur={event => {
         input.onBlur(event)
         onBlur?.(event)
       }}
-      onFocus={(event: FocusEvent<HTMLInputElement>) => {
+      onFocus={event => {
         input.onFocus(event)
         onFocus?.(event)
       }}

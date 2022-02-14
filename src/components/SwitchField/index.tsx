@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { Switch, Typography } from '@scaleway/ui'
-import React, { ReactNode } from 'react'
+import React, { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
@@ -12,52 +12,56 @@ const StyledSwitchFieldContainer = styled.div`
   gap: ${({ theme }) => theme.space[1]};
 `
 
-type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<
-  T,
-  K
-> & {
-  required?: boolean
-  label?: string
-  variant?: 'primary' | 'success'
-  size?: 'small' | 'medium'
-  tooltip?: string
-  width?: number
-  labeled?: 'inside' | 'left' | 'right' | boolean
-  offLabel?: ReactNode
-  onLabel?: ReactNode
-  name: string
-  disabled?: boolean
-  className?: string
-}
+type SwitchFieldProps<T = unknown, K = unknown> = BaseFieldProps<T, K> &
+  Partial<
+    Pick<
+      ComponentProps<typeof Switch>,
+      | 'disabled'
+      | 'labeled'
+      | 'offLabel'
+      | 'onChange'
+      | 'onLabel'
+      | 'size'
+      | 'tooltip'
+      | 'variant'
+      | 'width'
+    >
+  > & {
+    className?: string
+    label?: string
+    name: string
+    required?: boolean
+  }
 
 const SwitchField = ({
-  label,
-  variant,
-  size = 'small',
-  tooltip,
-  width,
-  onLabel = 'ON',
-  offLabel = 'OFF',
-  labeled,
-  name,
-  defaultValue,
-  disabled,
-  validate,
-  required,
   afterSubmit,
   allowNull,
   beforeSubmit,
+  className,
   data,
+  defaultValue,
+  disabled,
   format,
   formatOnBlur,
   initialValue,
   isEqual,
+  label,
+  labeled,
   multiple,
+  name,
+  offLabel = 'OFF',
+  onChange,
+  onLabel = 'ON',
   parse,
+  required,
+  size = 'small',
   subscription,
+  tooltip,
+  validate,
   validateFields,
   value,
-  className,
+  variant,
+  width,
 }: SwitchFieldProps) => {
   const validateFn = useValidation({
     validate,
@@ -90,7 +94,10 @@ const SwitchField = ({
         variant={variant}
         width={width}
         tooltip={tooltip}
-        onChange={input.onChange}
+        onChange={event => {
+          input.onChange(event)
+          onChange?.(event)
+        }}
         onLabel={onLabel}
         offLabel={offLabel}
         labeled={labeled}

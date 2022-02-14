@@ -4,6 +4,9 @@ import Submit from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
+import TextBoxField from '../../TextBoxField'
+
+const alpha = /^[a-zA-Z]*$/
 
 describe('Submit', () => {
   test('renders correctly ', () =>
@@ -13,7 +16,8 @@ describe('Submit', () => {
 
   test('form is invalid', () =>
     shouldMatchEmotionSnapshot(
-      <Form validate={() => ({ test: 'test' })} errors={mockErrors}>
+      <Form initialValues={{ toto: '4' }} errors={mockErrors}>
+        <TextBoxField name="toto" regex={[alpha]}/>
         <Submit>Test</Submit>
       </Form>,
     ))

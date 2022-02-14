@@ -2,7 +2,106 @@
 
 exports[`Submit form is invalid 1`] = `
 <DocumentFragment>
-  .cache-1czz0m3-StyledButton {
+  .cache-1txlkbl-StyledRelativeDiv {
+  position: relative;
+}
+
+.cache-dlxryd-StyledInput {
+  -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
+  transition: border-color 0.2s ease,box-shadow 0.2s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d4dae7;
+  border-radius: 4px;
+  color: #4a4f62;
+  display: block;
+  max-width: 100%;
+  outline: none;
+  position: relative;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 14px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px;
+  padding-left: 8px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding: 8px;
+}
+
+.cache-dlxryd-StyledInput::-webkit-input-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-dlxryd-StyledInput::-moz-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-dlxryd-StyledInput:-ms-input-placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-dlxryd-StyledInput::placeholder {
+  color: #b2b6c3;
+  opacity: 0;
+}
+
+.cache-dlxryd-StyledInput:hover,
+.cache-dlxryd-StyledInput:focus {
+  border-color: #4f0599;
+}
+
+.cache-dlxryd-StyledInput:focus {
+  box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
+  border-color: #4f0599;
+}
+
+.cache-dlxryd-StyledInput::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.cache-dlxryd-StyledInput::-moz-placeholder {
+  opacity: 1;
+}
+
+.cache-dlxryd-StyledInput:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.cache-dlxryd-StyledInput::placeholder {
+  opacity: 1;
+}
+
+.cache-3dfrrx-StyledExpandable {
+  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  transition: max-height 300ms ease-out,opacity 300ms ease-out;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  height: auto;
+  margin-top: 0;
+}
+
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
+  overflow: hidden;
+}
+
+.cache-1a1ow6k-StyledError {
+  font-size: 12px;
+  color: #ef5774;
+  padding-top: 2px;
+}
+
+.cache-1czz0m3-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -80,6 +179,28 @@ exports[`Submit form is invalid 1`] = `
 <form
     novalidate=""
   >
+    <div
+      class="cache-3svqc9"
+    >
+      <div
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
+      >
+        <input
+          autocomplete="on"
+          class="cache-dlxryd-StyledInput e18bmnpq0"
+          name="toto"
+          type="text"
+          value="4"
+        />
+      </div>
+      <div
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
+      >
+        <div
+          class="cache-1a1ow6k-StyledError e18bmnpq1"
+        />
+      </div>
+    </div>
     <button
       aria-disabled="true"
       class="em6gco80 cache-1czz0m3-StyledButton"

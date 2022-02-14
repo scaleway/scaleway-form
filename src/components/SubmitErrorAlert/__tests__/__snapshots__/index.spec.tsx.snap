@@ -2,7 +2,7 @@
 
 exports[`SubmitErrorAlert should display an alert when submitError is present 1`] = `
 <DocumentFragment>
-  .cache-1czz0m3-StyledButton {
+  .cache-1em91nt-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -37,27 +37,21 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   line-height: 32px;
   font-weight: 500;
   padding: 8px 16px;
-  cursor: default;
-  pointer-events: none;
-  color: #d4dae7;
-  background-color: #fafafb;
-  border-color: #fafafb;
-  box-shadow: none;
 }
 
-.cache-1czz0m3-StyledButton:hover,
-.cache-1czz0m3-StyledButton:focus {
+.cache-1em91nt-StyledButton:hover,
+.cache-1em91nt-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1czz0m3-StyledButton:hover,
-.cache-1czz0m3-StyledButton:focus {
+.cache-1em91nt-StyledButton:hover,
+.cache-1em91nt-StyledButton:focus {
   color: #fff;
   background-color: #30d1ad;
 }
 
-.cache-1czz0m3-StyledButton:focus {
+.cache-1em91nt-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
 }
 
@@ -137,9 +131,8 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
     novalidate=""
   >
     <button
-      aria-disabled="true"
-      class="em6gco80 cache-1czz0m3-StyledButton"
-      disabled=""
+      aria-disabled="false"
+      class="em6gco80 cache-1em91nt-StyledButton"
       type="submit"
     >
       <div

@@ -61,7 +61,7 @@ export type ValidatorProps = {
   minLength?: number
   max?: number
   maxLength?: number
-  regex?: RegExp[]
+  regex?: (RegExp | RegExp[])[]
 }
 
 export type ValidatorObject<InputValue = unknown> = {

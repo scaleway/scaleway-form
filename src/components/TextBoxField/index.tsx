@@ -19,7 +19,7 @@ type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
   max?: number
   minLength?: number
   maxLength?: number
-  regex?: RegExp[]
+  regex?: (RegExp | RegExp[])[]
   readOnly?: boolean
   disabled?: boolean
   id?: string

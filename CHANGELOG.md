@@ -1,3 +1,17 @@
+### [1.11.2](https://github.com/scaleway/scaleway-form/compare/v1.11.1...v1.11.2) (2022-02-14)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency jest to v27.5.1 ([38fcc99](https://github.com/scaleway/scaleway-form/commit/38fcc999e4d9a72b61e429dbe77f7b2594462954))
+* **devdeps:** update dependency read-pkg to v7.1.0 ([047f8f5](https://github.com/scaleway/scaleway-form/commit/047f8f52767d44cb602757865e4c9866db374d4d))
+* **devdeps:** update storybook monorepo to v6.4.19 ([98237e2](https://github.com/scaleway/scaleway-form/commit/98237e25f06786e06381c6482d71f8485259b70b))
+
+
+### :bug: Bug Fixes
+
+* allow to resubmit if submitError is not related to validation ([#85](https://github.com/scaleway/scaleway-form/issues/85)) ([08e1b13](https://github.com/scaleway/scaleway-form/commit/08e1b13fa3f41f96abdfc169a13ed66cc9169e06))
+
 ### [1.11.1](https://github.com/scaleway/scaleway-form/compare/v1.11.0...v1.11.1) (2022-02-10)
 
 

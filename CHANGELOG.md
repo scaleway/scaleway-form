@@ -1,3 +1,11 @@
+## [1.13.0](https://github.com/scaleway/scaleway-form/compare/v1.12.0...v1.13.0) (2022-02-14)
+
+
+### :gear: Features
+
+* **stepper:** add stepper field ([#83](https://github.com/scaleway/scaleway-form/issues/83)) ([4342cab](https://github.com/scaleway/scaleway-form/commit/4342cab17e5688ae3f8054b2c3dc037427bf2195))
+* **tags:** add Tags Field ([#79](https://github.com/scaleway/scaleway-form/issues/79)) ([d9813ec](https://github.com/scaleway/scaleway-form/commit/d9813ec101db8e9200e9a4125d11284c44f3ae2a))
+
 ## [1.12.0](https://github.com/scaleway/scaleway-form/compare/v1.11.2...v1.12.0) (2022-02-14)
 
 

@@ -1,3 +1,10 @@
+### [1.13.1](https://github.com/scaleway/scaleway-form/compare/v1.13.0...v1.13.1) (2022-02-14)
+
+
+### :bug: Bug Fixes
+
+* correct Stepper and Tags export ([36a2dee](https://github.com/scaleway/scaleway-form/commit/36a2dee529cd1c9946f108fd6e5e00070940157e))
+
 ## [1.13.0](https://github.com/scaleway/scaleway-form/compare/v1.12.0...v1.13.0) (2022-02-14)
 
 

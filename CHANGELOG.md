@@ -1,3 +1,10 @@
+## [1.12.0](https://github.com/scaleway/scaleway-form/compare/v1.11.2...v1.12.0) (2022-02-14)
+
+
+### :gear: Features
+
+* support Or regex syntax ([#84](https://github.com/scaleway/scaleway-form/issues/84)) ([8e14c05](https://github.com/scaleway/scaleway-form/commit/8e14c051e2d5c39af83d7c9c0e24f84d2fc36897))
+
 ### [1.11.2](https://github.com/scaleway/scaleway-form/compare/v1.11.1...v1.11.2) (2022-02-14)
 
 

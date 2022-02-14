@@ -3310,7 +3310,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.4.0
     "@scaleway/jest-helpers": 1.1.7
-    "@scaleway/ui": 0.136.1
+    "@scaleway/ui": 0.136.3
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3396,9 +3396,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.136.1":
-  version: 0.136.1
-  resolution: "@scaleway/ui@npm:0.136.1"
+"@scaleway/ui@npm:0.136.3":
+  version: 0.136.3
+  resolution: "@scaleway/ui@npm:0.136.3"
   dependencies:
     "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2

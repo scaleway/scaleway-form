@@ -116,7 +116,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   flex: 1;
 }
 
-.cache-1vtfjnf-StyledText-styles-variantStyles-colorStyles {
+.cache-26whco-StyledText-bodyA-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -157,7 +157,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
         class="cache-db05j6-AlertContainer eenhiht0"
       >
         <p
-          class="e1g1zfwd0 cache-1vtfjnf-StyledText-styles-variantStyles-colorStyles"
+          class="e1g1zfwd0 cache-26whco-StyledText-bodyA-variantStyles-colorStyles"
         >
           hello
         </p>

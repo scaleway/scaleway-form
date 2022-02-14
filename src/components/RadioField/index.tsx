@@ -1,14 +1,6 @@
 import { Radio } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, {
-  ComponentProps,
-  FocusEvent,
-  FocusEventHandler,
-  FormEvent,
-  FormEventHandler,
-  ReactNode,
-  useMemo,
-} from 'react'
+import React, { ComponentProps, ReactNode, useMemo } from 'react'
 import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
@@ -17,40 +9,42 @@ import { BaseFieldProps } from '../../types'
 
 type RadioValue = NonNullable<ComponentProps<typeof Radio>['value']>
 
-type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<
-  T,
-  K
-> & {
-  name: string
-  label?: string
-  size?: number
-  valid?: boolean
-  disabled?: boolean
-  required?: boolean
-  value: RadioValue
-  id?: string
-  className?: string
-  children?: ReactNode
-  onChange?: FormEventHandler<HTMLInputElement>
-  onBlur?: FocusEventHandler<HTMLInputElement>
-  onFocus?: FocusEventHandler<HTMLInputElement>
-}
+type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<T, K> &
+  Partial<
+    Pick<
+      ComponentProps<typeof Radio>,
+      | 'disabled'
+      | 'id'
+      | 'onBlur'
+      | 'onChange'
+      | 'onFocus'
+      | 'size'
+      | 'valid'
+      | 'value'
+    >
+  > & {
+    children?: ReactNode
+    className?: string
+    label?: string
+    name: string
+    required?: boolean
+  }
 
 const RadioField = ({
-  validate,
-  name,
-  valid,
-  label = '',
-  size,
-  disabled,
-  required,
-  id,
-  value,
-  className,
   children,
-  onChange,
+  className,
+  disabled,
+  id,
+  label = '',
+  name,
   onBlur,
+  onChange,
   onFocus,
+  required,
+  size,
+  valid,
+  validate,
+  value,
 }: RadioFieldProps): JSX.Element => {
   const { values } = useFormState()
   const { getFirstError } = useErrors()
@@ -84,29 +78,29 @@ const RadioField = ({
 
   return (
     <Radio
+      checked={input.checked}
+      className={className}
+      disabled={disabled}
+      error={error}
+      id={id}
       name={input.name}
-      onChange={(event: FormEvent<HTMLInputElement>) => {
+      onChange={event => {
         input.onChange(event)
         onChange?.(event)
       }}
-      onBlur={(event: FocusEvent<HTMLInputElement>) => {
+      onBlur={event => {
         input.onBlur(event)
         onBlur?.(event)
       }}
-      onFocus={(event: FocusEvent<HTMLInputElement>) => {
+      onFocus={event => {
         input.onFocus(event)
         onFocus?.(event)
       }}
-      type={input.type}
-      size={size}
-      disabled={disabled}
       required={required}
-      checked={input.checked}
-      value={input.value}
-      id={id}
-      error={error}
+      size={size}
+      type={input.type}
       valid={valid}
-      className={className}
+      value={input.value}
     >
       {children}
     </Radio>

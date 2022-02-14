@@ -128,7 +128,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   margin: 6px;
 }
 
-.cache-qyzvzr-StyledContainer-variantsContainer {
+.cache-1bpmvef-StyledContainer-base {
   border-radius: 4px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -245,7 +245,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
       class="cache-qibkhh"
     >
       <div
-        class="e1vt8sjg2 cache-qyzvzr-StyledContainer-variantsContainer"
+        class="e1vt8sjg2 cache-1bpmvef-StyledContainer-base"
       >
         <span
           aria-disabled="false"
@@ -270,7 +270,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
         </button>
       </div>
       <div
-        class="e1vt8sjg2 cache-qyzvzr-StyledContainer-variantsContainer"
+        class="e1vt8sjg2 cache-1bpmvef-StyledContainer-base"
       >
         <span
           aria-disabled="false"

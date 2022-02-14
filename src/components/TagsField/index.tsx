@@ -5,27 +5,29 @@ import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { BaseFieldProps } from '../../types'
 
-export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> & {
-  className?: string
-  disabled?: boolean
-  id?: string
-  name: string
-  placeholder: string
-  required?: boolean
-  tags?: ComponentProps<typeof Tags>['tags']
-  variant?: ComponentProps<typeof Tags>['variant']
-}
+export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> &
+  Partial<
+    Pick<ComponentProps<typeof Tags>, 'tags' | 'variant' | 'onChange'>
+  > & {
+    className?: string
+    disabled?: boolean
+    id?: string
+    name: string
+    placeholder: string
+    required?: boolean
+  }
 
 const TagsField = ({
   className,
   disabled,
   id,
   name,
+  onChange,
   placeholder,
   required,
-  variant,
-  validate,
   tags,
+  validate,
+  variant,
 }: TagsFieldProps): JSX.Element => {
   const validateFn = useValidation({
     validate,
@@ -45,7 +47,10 @@ const TagsField = ({
       disabled={disabled}
       id={id}
       name={name}
-      onChange={input.onChange}
+      onChange={event => {
+        onChange?.(event)
+        input.onChange(event)
+      }}
       placeholder={placeholder}
       variant={variant}
       tags={tags}

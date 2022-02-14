@@ -51,12 +51,10 @@ DefaultTags.args = {
 }
 
 export const Required: Story<ComponentProps<typeof TagsField>> = args => (
-  <>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
     <TagsField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
+    <Submit>Submit</Submit>
+  </div>
 )
 
 Required.args = {

@@ -1,7 +1,13 @@
 import { RichSelect } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { Children, ComponentProps, ReactElement, useMemo } from 'react'
-import { useField } from 'react-final-form'
+import React, {
+  Children,
+  ComponentProps,
+  ReactElement,
+  useCallback,
+  useMemo,
+} from 'react'
+import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -28,8 +34,8 @@ export type RichSelectFieldProps<
   requiredMessage?: string
   children?: RichSelectOptionElement | RichSelectOptionElement[]
   placeholder?: string
-  error?: boolean | string
-  onChange?: (newValue: RichSelectOption | RichSelectOption[]) => void
+  error?: string
+  onChange?: RichSelectProps['onChange']
   onBlur?: RichSelectProps['onBlur']
   onFocus?: RichSelectProps['onFocus']
   options?: RichSelectOptions
@@ -59,6 +65,7 @@ const RichSelectField = <
   required,
   value,
 }: RichSelectFieldProps<T>) => {
+  const { values } = useFormState()
   const validate = useValidation({
     validators: pickValidators<T>({
       maxLength,
@@ -90,25 +97,36 @@ const RichSelectField = <
     [multiple, parseProp, name],
   )
 
-  const format = useMemo(() => {
-    const find = (opts: RichSelectOptionOrGroup[], val: string) =>
-      opts?.find(option => (option as RichSelectOption).value === val)
+  const format = useCallback(
+    (val: T) => {
+      if (multiple) return formatProp(val, name) as RichSelectOption
 
-    return multiple
-      ? formatProp
-      : (val: T) =>
-          formatProp(
-            val && options
-              ? find(options, val) ||
-                  options.reduce(
-                    (acc, curr) =>
-                      find(curr.options as RichSelectOption[], val) || acc,
-                    '',
-                  )
-              : '',
-            name,
-          )
-  }, [formatProp, multiple, name, options])
+      const find = (opts: RichSelectOptionOrGroup[], valueToFind: string) =>
+        opts?.find(option => (option as RichSelectOption).value === valueToFind)
+
+      let selected: unknown = ''
+      if (val && options) {
+        selected = find(
+          options as unknown as RichSelectOptionOrGroup[],
+          val as unknown as string,
+        )
+
+        if (!selected) {
+          selected =
+            options.find(curr =>
+              find(
+                (curr as unknown as { options: RichSelectOptionOrGroup[] })
+                  .options,
+                val as unknown as string,
+              ),
+            ) ?? ''
+        }
+      }
+
+      return formatProp(selected as T, name) as RichSelectOption
+    },
+    [formatProp, multiple, name, options],
+  )
 
   const { input, meta } = useField<T, HTMLElement, RichSelectOption>(name, {
     format,
@@ -124,28 +142,27 @@ const RichSelectField = <
 
     return meta.error
       ? getFirstError({
-          allValues: value,
+          allValues: values,
           label,
           meta: meta as FieldState<T | undefined>,
           name,
           value,
         })
       : undefined
-  }, [getFirstError, label, meta, name, value, errorProp])
+  }, [getFirstError, label, meta, name, value, errorProp, values])
 
   return (
     <RichSelect
       className={className}
       error={error}
       id={id}
-      label={label}
       isMulti={input.multiple}
       onBlur={event => {
         onBlur?.(event)
         input.onBlur(event)
       }}
-      onChange={event => {
-        onChange?.(event)
+      onChange={(event, action) => {
+        onChange?.(event, action)
         input.onChange(event)
       }}
       onFocus={event => {

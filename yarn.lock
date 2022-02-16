@@ -3309,7 +3309,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.3.8
     "@scaleway/jest-helpers": 1.1.7
-    "@scaleway/ui": 0.135.7
+    "@scaleway/ui": 0.136.1
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3361,7 +3361,7 @@ __metadata:
   peerDependencies:
     "@emotion/react": 11.7.1
     "@emotion/styled": 11.6.0
-    "@scaleway/ui": 0.135.2
+    "@scaleway/ui": 0.136.1
     final-form: 4.20.6
     final-form-arrays: 3.0.2
     final-form-focus: 1.1.2
@@ -3395,9 +3395,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.135.7":
-  version: 0.135.7
-  resolution: "@scaleway/ui@npm:0.135.7"
+"@scaleway/ui@npm:0.136.1":
+  version: 0.136.1
+  resolution: "@scaleway/ui@npm:0.136.1"
   dependencies:
     "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2
@@ -4889,19 +4889,6 @@ __metadata:
     react-test-renderer:
       optional: true
   checksum: 27c6169b5c9832bd02dcea232e6a0a3cd8d4504e13ecb49d57eb5ab6bea5e2f1bff65f3102068b7e57eec3cbd671326dc0b277335014b0edfbdedf11a1fe6db5
-  languageName: node
-  linkType: hard
-
-"@testing-library/react@npm:12.1.2":
-  version: 12.1.2
-  resolution: "@testing-library/react@npm:12.1.2"
-  dependencies:
-    "@babel/runtime": ^7.12.5
-    "@testing-library/dom": ^8.0.0
-  peerDependencies:
-    react: "*"
-    react-dom: "*"
-  checksum: 70b0f7f27c83fe1a33e7df01b1e64850fbab4050c403848d611d852cadaa25ccde58518773002ae569a1350b2282c2ccbcbe5eb6af8b29ab377ab2a8ab573b3b
   languageName: node
   linkType: hard
 

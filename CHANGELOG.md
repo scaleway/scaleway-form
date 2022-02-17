@@ -1,3 +1,19 @@
+### [1.13.3](https://github.com/scaleway/scaleway-form/compare/v1.13.2...v1.13.3) (2022-02-17)
+
+
+### :package: Chore
+
+* **deps:** update actions/cache action to v2.1.7 ([#93](https://github.com/scaleway/scaleway-form/issues/93)) ([6353a10](https://github.com/scaleway/scaleway-form/commit/6353a1048a0852eaee9225b8b8d88443c43aa71d))
+* **deps:** update actions/checkout action to v2.4.0 ([#95](https://github.com/scaleway/scaleway-form/issues/95)) ([cbd38e2](https://github.com/scaleway/scaleway-form/commit/cbd38e226ad1a56b8357bfaa8cf450021f2fc056))
+* **deps:** update actions/setup-node action to v2.5.1 ([#96](https://github.com/scaleway/scaleway-form/issues/96)) ([d5fe0a1](https://github.com/scaleway/scaleway-form/commit/d5fe0a18750759d358b7150d35d75ba63b65ddc4))
+* **devdeps:** update arwynfr/actions-docker-context commit hash to bf078c0 ([#92](https://github.com/scaleway/scaleway-form/issues/92)) ([7554930](https://github.com/scaleway/scaleway-form/commit/75549305115218e21afeeea0d6ac663d47d30f09))
+* **devdeps:** update bobheadxi/deployments action to v0.6.2 ([#94](https://github.com/scaleway/scaleway-form/issues/94)) ([d13f3f7](https://github.com/scaleway/scaleway-form/commit/d13f3f7f73cedb3b2261023d43cf71c50b11aa34))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.0 ([#90](https://github.com/scaleway/scaleway-form/issues/90)) ([f89ea04](https://github.com/scaleway/scaleway-form/commit/f89ea047a6b8df77878dd5b18eb2f3d5d8045661))
+* **devdeps:** update docker/build-push-action action to v2.9.0 ([#97](https://github.com/scaleway/scaleway-form/issues/97)) ([8b69bde](https://github.com/scaleway/scaleway-form/commit/8b69bdefb3cac4955daa499efad3c97cc10e8580))
+* **devdeps:** update docker/login-action action to v1.13.0 ([#98](https://github.com/scaleway/scaleway-form/issues/98)) ([f65891d](https://github.com/scaleway/scaleway-form/commit/f65891d2662984bcd84f91bd466d98a61c38c07f))
+* **renovate:** consider dockerfile and github actions as devDeps ([e234a51](https://github.com/scaleway/scaleway-form/commit/e234a51676a2e021baee7589d17009114172e6e6))
+* **renovate:** upgrade renovate config managers ([#91](https://github.com/scaleway/scaleway-form/issues/91)) ([2ddaf81](https://github.com/scaleway/scaleway-form/commit/2ddaf8143e306bd5d9789deab3a815cd3cc54cc1))
+
 ### [1.13.2](https://github.com/scaleway/scaleway-form/compare/v1.13.1...v1.13.2) (2022-02-17)
 
 

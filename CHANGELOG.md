@@ -1,3 +1,17 @@
+### [1.13.4](https://github.com/scaleway/scaleway-form/compare/v1.13.3...v1.13.4) (2022-02-18)
+
+
+### :package: Chore
+
+* **devdeps:** update commitlint monorepo to v16.2.1 ([54c3392](https://github.com/scaleway/scaleway-form/commit/54c3392724bceafc5c1183a2fbcde92216ddfff0))
+* **devdeps:** update node.js to v17 ([#99](https://github.com/scaleway/scaleway-form/issues/99)) ([d71c529](https://github.com/scaleway/scaleway-form/commit/d71c5295fe2e2384e441beb712fae238b4dc87ff))
+* **devdeps:** update rlespinasse/github-slug-action action to v4 ([#100](https://github.com/scaleway/scaleway-form/issues/100)) ([2544acb](https://github.com/scaleway/scaleway-form/commit/2544acbb22c3fb813ef8fc1beb8b78f94d85a19b))
+
+
+### :bug: Bug Fixes
+
+* **components:** add default handler props and sort props & type ([#86](https://github.com/scaleway/scaleway-form/issues/86)) ([99f313b](https://github.com/scaleway/scaleway-form/commit/99f313ba90504e45b947864b96fd24febca82c18))
+
 ### [1.13.3](https://github.com/scaleway/scaleway-form/compare/v1.13.2...v1.13.3) (2022-02-17)
 
 

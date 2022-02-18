@@ -1,87 +1,104 @@
 import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { Ref, forwardRef, useMemo } from 'react'
+import React, {
+  ComponentProps,
+  FocusEvent,
+  Ref,
+  forwardRef,
+  useMemo,
+} from 'react'
 import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
-type TextBoxFieldProps<T = unknown, K = string> = BaseFieldProps<
-  T,
-  K
-> & {
-  label?: string
-  name: string
-  placeholder?: string
-  required?: boolean
-  min?: number
-  max?: number
-  minLength?: number
-  maxLength?: number
-  regex?: (RegExp | RegExp[])[]
-  readOnly?: boolean
-  disabled?: boolean
-  id?: string
-  rows?: number
-  cols?: number
-  autoComplete?: string
-  autoCorrect?: string
-  autoCapitalize?: string
-  autoFocus?: boolean
-  multiline?: boolean
-  autoSave?: string
-  type?: string
-  className?: string
-}
+type TextBoxValue = NonNullable<ComponentProps<typeof TextBox>['value']>
+
+type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
+  Partial<
+    Pick<
+      ComponentProps<typeof TextBox>,
+      | 'autoCapitalize'
+      | 'autoComplete'
+      | 'autoCorrect'
+      | 'autoFocus'
+      | 'autoSave'
+      | 'cols'
+      | 'disabled'
+      | 'id'
+      | 'label'
+      | 'maxLength'
+      | 'minLength'
+      | 'multiline'
+      | 'onBlur'
+      | 'onChange'
+      | 'onFocus'
+      | 'placeholder'
+      | 'readOnly'
+      | 'required'
+      | 'rows'
+      | 'type'
+      | 'value'
+    >
+  > & {
+    name: string
+    className?: string
+    max?: number
+    min?: number
+    regex?: RegExp[]
+  }
 
 const TextBoxField = forwardRef(
   (
     {
-      validate,
-      label = '',
-      name,
       afterSubmit,
       allowNull,
+      autoCapitalize,
+      autoComplete,
+      autoCorrect,
+      autoFocus,
+      autoSave,
       beforeSubmit,
+      className,
+      cols,
       data,
       defaultValue,
+      disabled,
       format,
       formatOnBlur,
+      id,
       initialValue,
       isEqual,
-      multiple,
-      parse,
-      placeholder,
-      subscription,
-      validateFields,
-      value,
+      label = '',
       max,
       maxLength,
       min,
       minLength,
-      regex,
-      disabled,
-      required,
-      readOnly,
-      id,
-      autoCapitalize,
-      autoComplete,
-      autoCorrect,
-      cols,
-      rows,
-      autoFocus,
-      autoSave,
       multiline,
+      multiple,
+      name,
+      onBlur,
+      onChange,
+      onFocus,
+      parse,
+      placeholder,
+      readOnly,
+      regex,
+      required,
+      rows,
+      subscription,
       type,
-      className,
+      validate,
+      validateFields,
+      value,
     }: TextBoxFieldProps,
     ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
     const { values } = useFormState()
     const { getFirstError } = useErrors()
 
-    const validateFn = useValidation({
+    const validateFn = useValidation<TextBoxValue>({
       validate,
       validators: pickValidators({
         max,
@@ -146,9 +163,18 @@ const TextBoxField = forwardRef(
     return (
       <TextBox
         name={input.name}
-        onChange={input.onChange}
-        onBlur={input.onBlur}
-        onFocus={input.onFocus}
+        onChange={event => {
+          input.onChange(event)
+          onChange?.(event)
+        }}
+        onBlur={(event: FocusEvent<HTMLInputElement>) => {
+          input.onBlur(event)
+          onBlur?.(event)
+        }}
+        onFocus={(event: FocusEvent<HTMLInputElement>) => {
+          input.onFocus(event)
+          onFocus?.(event)
+        }}
         type={input.type}
         value={input.value}
         maxLength={maxLength}

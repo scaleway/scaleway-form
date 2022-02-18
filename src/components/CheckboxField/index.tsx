@@ -2,10 +2,6 @@ import { Checkbox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, {
   ComponentProps,
-  FocusEvent,
-  FocusEventHandler,
-  FormEvent,
-  FormEventHandler,
   ReactNode,
   Ref,
   forwardRef,
@@ -19,26 +15,29 @@ import { BaseFieldProps } from '../../types'
 
 type CheckboxValue = NonNullable<ComponentProps<typeof Checkbox>['checked']>
 
-type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<
-  T,
-  K
-> & {
-  name: string
-  label?: string
-  valid?: boolean
-  size?: number
-  progress?: boolean
-  disabled?: boolean
-  required?: boolean
-  typographyVariant?: string
-  checked?: CheckboxValue | undefined
-  id?: string
-  className?: string
-  children?: ReactNode
-  onChange?: FormEventHandler<HTMLInputElement>
-  onBlur?: FocusEventHandler<HTMLInputElement>
-  onFocus?: FocusEventHandler<HTMLInputElement>
-}
+type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
+  Partial<
+    Pick<
+      ComponentProps<typeof Checkbox>,
+      | 'checked'
+      | 'disabled'
+      | 'id'
+      | 'onBlur'
+      | 'onChange'
+      | 'onFocus'
+      | 'progress'
+      | 'readOnly'
+      | 'required'
+      | 'size'
+      | 'typographyVariant'
+      | 'valid'
+    >
+  > & {
+    name: string
+    label?: string
+    className?: string
+    children?: ReactNode
+  }
 
 const CheckboxField = forwardRef(
   (
@@ -95,15 +94,15 @@ const CheckboxField = forwardRef(
     return (
       <Checkbox
         name={input.name}
-        onChange={(event: FormEvent<HTMLInputElement>) => {
+        onChange={event => {
           input.onChange(event)
           onChange?.(event)
         }}
-        onBlur={(event: FocusEvent<HTMLInputElement>) => {
+        onBlur={event => {
           input.onBlur(event)
           onBlur?.(event)
         }}
-        onFocus={(event: FocusEvent<HTMLInputElement>) => {
+        onFocus={event => {
           input.onFocus(event)
           onFocus?.(event)
         }}

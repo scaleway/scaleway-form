@@ -22,24 +22,26 @@ type RichSelectOption = { value: string; label: string }
 
 export type RichSelectFieldProps<
   T extends RichSelectOptionOrGroup = RichSelectOptionOrGroup,
-> = BaseFieldProps<T> & {
-  className?: string
-  disabled?: boolean
-  id?: string
-  label?: string
-  maxLength?: number
-  minLength?: number
-  name: string
-  required?: boolean
-  requiredMessage?: string
-  children?: RichSelectOptionElement | RichSelectOptionElement[]
-  placeholder?: string
-  error?: string
-  onChange?: RichSelectProps['onChange']
-  onBlur?: RichSelectProps['onBlur']
-  onFocus?: RichSelectProps['onFocus']
-  options?: RichSelectOptions
-}
+> = BaseFieldProps<T> &
+  Pick<
+    RichSelectProps,
+    | 'children'
+    | 'className'
+    | 'disabled'
+    | 'error'
+    | 'id'
+    | 'onChange'
+    | 'onBlur'
+    | 'onFocus'
+    | 'options'
+    | 'placeholder'
+    | 'required'
+  > & {
+    label?: string
+    maxLength?: number
+    minLength?: number
+    name: string
+  }
 
 const identity = <T,>(x: T) => x
 

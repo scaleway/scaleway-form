@@ -32,11 +32,11 @@ jobs:
           ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "HOST=form.ui.scaleway.com" || echo "HOST=$SAFE_GITHUB_HEAD_REF_SLUG_URL.form.ui.scaleway.com") >> $GITHUB_ENV
 
       - name: Start deployment
-        uses: bobheadxi/deployments@v0.6.2
+        uses: bobheadxi/deployments@v1.0.1
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           env: ${{ env.BRANCH_SLUG }}
           ref: ${{ github.head_ref }}
       - name: Set up Docker Buildx
@@ -70,11 +70,12 @@ jobs:
         run: docker-compose --context form-${VERSION} pull && docker-compose -p form-${VERSION} --context form-${VERSION} up -d --force-recreate
 
       - name: Update deployment status
-        uses: bobheadxi/deployments@v0.6.2
+        uses: bobheadxi/deployments@v1.0.1
         if: always()
         with:
           step: finish
-          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ env.BRANCH_SLUG }}
+          token: ${{ secrets.GH_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: https://${{ env.HOST }}

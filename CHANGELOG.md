@@ -1,3 +1,27 @@
+### [1.13.5](https://github.com/scaleway/scaleway-form/compare/v1.13.4...v1.13.5) (2022-02-22)
+
+
+### :repeat: CI
+
+* correctly remove image ([#109](https://github.com/scaleway/scaleway-form/issues/109)) ([7e54fe3](https://github.com/scaleway/scaleway-form/commit/7e54fe3a7011d45bc2b74fb0004c9494657a4c42))
+
+
+### :bug: Bug Fixes
+
+* correct overwritten regex type ([#106](https://github.com/scaleway/scaleway-form/issues/106)) ([a8ef933](https://github.com/scaleway/scaleway-form/commit/a8ef9332735f4a52cd1858a9389f933739cfedbe))
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.137.0 ([#101](https://github.com/scaleway/scaleway-form/issues/101)) ([061975b](https://github.com/scaleway/scaleway-form/commit/061975b069d7cb321516fd8fc1f775915236ad31))
+* **devdeps:** update bobheadxi/deployments action to v1 ([#107](https://github.com/scaleway/scaleway-form/issues/107)) ([159addc](https://github.com/scaleway/scaleway-form/commit/159addc2ffe27600e2984fd44db7a784fa091bc1))
+* **devdeps:** update dependency @babel/core to v7.17.5 ([32e1575](https://github.com/scaleway/scaleway-form/commit/32e1575a9a399b6a4445f0dd7918fc34a58c1637))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.1 ([#103](https://github.com/scaleway/scaleway-form/issues/103)) ([099425f](https://github.com/scaleway/scaleway-form/commit/099425f71ba069748a35e9036e2c12b1bb8dc332))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.2 ([#108](https://github.com/scaleway/scaleway-form/issues/108)) ([cf1514a](https://github.com/scaleway/scaleway-form/commit/cf1514a6383e03cdac735ca74420a02643dac95d))
+* **devdeps:** update dependency rollup to v2.67.3 ([40b7111](https://github.com/scaleway/scaleway-form/commit/40b711150128b50d6b1e4d98843aa9901be617e5))
+* **devdeps:** update emotion monorepo ([#102](https://github.com/scaleway/scaleway-form/issues/102)) ([489083a](https://github.com/scaleway/scaleway-form/commit/489083afe92f83b6c8768059c6e1cc054612ced8))
+* **devdeps:** update yarn to v3.2.0 ([#105](https://github.com/scaleway/scaleway-form/issues/105)) ([cb36cca](https://github.com/scaleway/scaleway-form/commit/cb36cca47e6f80feb0297c3c551649a0686f01cb))
+
 ### [1.13.4](https://github.com/scaleway/scaleway-form/compare/v1.13.3...v1.13.4) (2022-02-18)
 
 

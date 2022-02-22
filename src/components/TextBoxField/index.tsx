@@ -46,7 +46,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
     className?: string
     max?: number
     min?: number
-    regex?: RegExp[]
+    regex?: (RegExp | RegExp[])[]
   }
 
 const TextBoxField = forwardRef(

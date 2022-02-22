@@ -7,7 +7,7 @@ const mockErrors: FormErrors = {
     `This field should have a length greater than ${minLength}`,
   REGEX: ({ regex }) =>
     `This field should match the regex ${regex
-      .map(r => r.source)
+      .map(r => Array.isArray(r) ? r.map(nestedRegex => nestedRegex.source).join(' or ') : r.source )
       .join(' and ')}`,
   REQUIRED: 'This field is required',
   TOO_HIGH: ({ max }) => `This field is too high (maximum is : ${max})`,

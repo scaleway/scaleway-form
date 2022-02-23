@@ -3311,7 +3311,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.4.2
     "@scaleway/jest-helpers": 1.1.8
-    "@scaleway/ui": 0.137.0
+    "@scaleway/ui": 0.137.1
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3363,7 +3363,7 @@ __metadata:
   peerDependencies:
     "@emotion/react": 11.8.1
     "@emotion/styled": 11.8.1
-    "@scaleway/ui": 0.137.0
+    "@scaleway/ui": 0.137.1
     final-form: 4.20.6
     final-form-arrays: 3.0.2
     final-form-focus: 1.1.2
@@ -3397,9 +3397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.137.0":
-  version: 0.137.0
-  resolution: "@scaleway/ui@npm:0.137.0"
+"@scaleway/ui@npm:0.137.1":
+  version: 0.137.1
+  resolution: "@scaleway/ui@npm:0.137.1"
   dependencies:
     "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2

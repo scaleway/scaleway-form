@@ -19,17 +19,18 @@ jobs:
           SAFE_GITHUB_HEAD_REF_SLUG_URL=$(echo $GITHUB_HEAD_REF_SLUG_URL | rev | cut -c-37 | rev)
           ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "BRANCH_SLUG=main" || echo "BRANCH_SLUG=$SAFE_GITHUB_HEAD_REF_SLUG_URL") >> $GITHUB_ENV
 
-      - name: Set Docker context
-        uses: arwynfr/actions-docker-context@v2
+
+      - name: Delete Serverless Container Scaleway
+        uses: philibea/scaleway-containers-deploy@v1.0.4
+        id: teardown
         with:
-          docker_host: ${{ env.REMOTE_SSH_SERVER }}
-          context_name: form-v-${{ env.BRANCH_SLUG }}
-          ssh_cert: ${{ secrets.SSH_CERT }}
-          ssh_key: ${{ secrets.SSH_KEY }}
-      - name: Remove deployment
-        env:
-          VERSION: v-${{ env.BRANCH_SLUG }}
-        run: docker-compose -p form-${VERSION} --context form-${VERSION} down --rmi all
+          type: "teardown"
+          scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
+          scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
+          scw_project_id: ${{ secrets.SCW_PROJECT_ID }}
+          scw_dns: "form.ui.scaleway.com"
+          scw_containers_namespace_id: "58096e1c-c903-4fa5-af46-f721f2574a2f"
+          scw_registry: ${{ env.IMAGE_NAME }}:v-${{ env.BRANCH_SLUG }}
 
       - name: Update deployment status
         uses: bobheadxi/deployments@v1.0.1

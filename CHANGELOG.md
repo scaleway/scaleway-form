@@ -1,3 +1,17 @@
+### [1.13.6](https://github.com/scaleway/scaleway-form/compare/v1.13.5...v1.13.6) (2022-02-25)
+
+
+### :bug: Bug Fixes
+
+* correct StepperField and RadioField mismatch export ([e4e9e32](https://github.com/scaleway/scaleway-form/commit/e4e9e32d20a0ed6ea200c8b0ab0bb62dbf010e75))
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.137.1 ([#110](https://github.com/scaleway/scaleway-form/issues/110)) ([ea9a189](https://github.com/scaleway/scaleway-form/commit/ea9a1890533d4a37ca249767cc6c2446b8a6dd31))
+* **devdeps:** update actions/setup-node action to v3 ([#112](https://github.com/scaleway/scaleway-form/issues/112)) ([e032825](https://github.com/scaleway/scaleway-form/commit/e0328254718b174a35f21108e611b52bf619e431))
+* **devdeps:** update node.js to v17.6 ([#111](https://github.com/scaleway/scaleway-form/issues/111)) ([fe530e3](https://github.com/scaleway/scaleway-form/commit/fe530e36ea69df6f5a5a40b6c1081f090eb583fe))
+
 ### [1.13.5](https://github.com/scaleway/scaleway-form/compare/v1.13.4...v1.13.5) (2022-02-22)
 
 

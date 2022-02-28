@@ -8,8 +8,7 @@ jobs:
   teardown:
     runs-on: ubuntu-20.04
     env:
-      IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/scaleway-form
-      REMOTE_SSH_SERVER: ssh://root@form.ui.scaleway.com
+      IMAGE_NAME: rg.fr-par.scw.cloud/consolescw/scaleway-form
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Inject slug/short variables

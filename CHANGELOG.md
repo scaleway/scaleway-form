@@ -1,3 +1,24 @@
+### [1.13.7](https://github.com/scaleway/scaleway-form/compare/v1.13.6...v1.13.7) (2022-03-03)
+
+
+### :repeat: CI
+
+* **teardown:** fix image name ([#115](https://github.com/scaleway/scaleway-form/issues/115)) ([b151c9d](https://github.com/scaleway/scaleway-form/commit/b151c9d7cae8778573e05bb7a0106c14a4134753))
+
+
+### :package: Chore
+
+* **deploy:** serverless containers ([#113](https://github.com/scaleway/scaleway-form/issues/113)) ([94037f3](https://github.com/scaleway/scaleway-form/commit/94037f3f52f6d4637e99d222b26522793235d568))
+* **devdeps:** update actions/checkout action to v3 ([#117](https://github.com/scaleway/scaleway-form/issues/117)) ([cc6a8f4](https://github.com/scaleway/scaleway-form/commit/cc6a8f4d996116919a03bde36bbe0329e9c44d8c))
+* **devdeps:** update bobheadxi/deployments action to v1.1.0 ([#116](https://github.com/scaleway/scaleway-form/issues/116)) ([901a5ff](https://github.com/scaleway/scaleway-form/commit/901a5ff9c254476adf58a561ce1b18b464b76452))
+* **devdeps:** update docker/login-action action to v1.14.0 ([#114](https://github.com/scaleway/scaleway-form/issues/114)) ([216bdd4](https://github.com/scaleway/scaleway-form/commit/216bdd43de5e4b5e0808cdc5345024ee4e7d1389))
+* **devdeps:** update docker/login-action action to v1.14.1 ([#118](https://github.com/scaleway/scaleway-form/issues/118)) ([720bcf5](https://github.com/scaleway/scaleway-form/commit/720bcf549770452bb1cd9f691b172dee8b1e3add))
+
+
+### :bug: Bug Fixes
+
+* **deploy:** prefix ([#121](https://github.com/scaleway/scaleway-form/issues/121)) ([7192f69](https://github.com/scaleway/scaleway-form/commit/7192f6973d3fdd009775c725d7c05a1c96643a00))
+
 ### [1.13.6](https://github.com/scaleway/scaleway-form/compare/v1.13.5...v1.13.6) (2022-02-25)
 
 

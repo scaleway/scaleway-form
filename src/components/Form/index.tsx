@@ -31,10 +31,6 @@ export type FormProps<FormValues = unknown> = {
    */
   name?: string
   render?: ReactFinalFormProps<FormValues, Partial<FormValues>>['render']
-  decorators?: ReactFinalFormProps<
-    FormValues,
-    Partial<FormValues>
-  >['decorators']
   mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
 }
@@ -80,9 +76,9 @@ const Form = <FormValues,>({
       }}
       render={
         render ??
-        (props => (
-          <form noValidate name={name} onSubmit={props.handleSubmit}>
-            {typeof children === 'function' ? children(props) : children}
+        (renderProps => (
+          <form noValidate name={name} onSubmit={renderProps.handleSubmit}>
+            {typeof children === 'function' ? children(renderProps) : children}
           </form>
         ))
       }

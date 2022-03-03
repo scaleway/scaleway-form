@@ -3311,7 +3311,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.4.2
     "@scaleway/jest-helpers": 1.1.8
-    "@scaleway/ui": 0.137.1
+    "@scaleway/ui": 0.138.2
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3363,7 +3363,7 @@ __metadata:
   peerDependencies:
     "@emotion/react": 11.8.1
     "@emotion/styled": 11.8.1
-    "@scaleway/ui": 0.137.1
+    "@scaleway/ui": 0.138.2
     final-form: 4.20.6
     final-form-arrays: 3.0.2
     final-form-focus: 1.1.2
@@ -3397,9 +3397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.137.1":
-  version: 0.137.1
-  resolution: "@scaleway/ui@npm:0.137.1"
+"@scaleway/ui@npm:0.138.2":
+  version: 0.138.2
+  resolution: "@scaleway/ui@npm:0.138.2"
   dependencies:
     "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2
@@ -3415,7 +3415,7 @@ __metadata:
     polished: 4.1.4
     prop-types: 15.8.1
     react-countup: 6.1.1
-    react-datepicker: 4.6.0
+    react-datepicker: 4.7.0
     react-flatten-children: 1.1.2
     react-markdown: 5.0.3
     react-select: 5.2.2
@@ -16779,9 +16779,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-datepicker@npm:4.6.0":
-  version: 4.6.0
-  resolution: "react-datepicker@npm:4.6.0"
+"react-datepicker@npm:4.7.0":
+  version: 4.7.0
+  resolution: "react-datepicker@npm:4.7.0"
   dependencies:
     "@popperjs/core": ^2.9.2
     classnames: ^2.2.6
@@ -16792,7 +16792,7 @@ __metadata:
   peerDependencies:
     react: ^16.9.0 || ^17
     react-dom: ^16.9.0 || ^17
-  checksum: 30c9f04d4223326572ed9399b39834e1e7e3fcda52e4433adc5dc81e84d8d5cf9699bf728889a80098aea76637a7ff759f0a79ec053ccd61b707de0662612adf
+  checksum: e79d9c0c4832f061499296643b8ded4d5ecde3ceca0b3fff1d69669227fcd6418ce7c1c657ab672f76412507c1d47237bb327ed9d3e9b1c38b98c58c81be7aec
   languageName: node
   linkType: hard
 

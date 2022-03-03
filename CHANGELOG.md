@@ -1,3 +1,10 @@
+### [1.13.8](https://github.com/scaleway/scaleway-form/compare/v1.13.7...v1.13.8) (2022-03-03)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.138.2 ([#119](https://github.com/scaleway/scaleway-form/issues/119)) ([41e26eb](https://github.com/scaleway/scaleway-form/commit/41e26ebc571cd6eb4ff7cca95a7e4a112a744818))
+
 ### [1.13.7](https://github.com/scaleway/scaleway-form/compare/v1.13.6...v1.13.7) (2022-03-03)
 
 

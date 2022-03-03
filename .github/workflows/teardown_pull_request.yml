@@ -20,16 +20,15 @@ jobs:
 
 
       - name: Delete Serverless Container Scaleway
-        uses: philibea/scaleway-containers-deploy@v1.0.4
+        uses: philibea/scaleway-containers-deploy@v1.0.5
         id: teardown
         with:
           type: "teardown"
+          scw_dns: "form.ui.scaleway.com"
           scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
           scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
-          scw_project_id: ${{ secrets.SCW_PROJECT_ID }}
-          scw_dns: "form.ui.scaleway.com"
-          scw_containers_namespace_id: "58096e1c-c903-4fa5-af46-f721f2574a2f"
-          scw_registry: ${{ env.IMAGE_NAME }}:v-${{ env.BRANCH_SLUG }}
+          scw_containers_namespace_id: ${{ secrets.SCW_CONTAINERS_NAMESPACE_ID }}
+          scw_registry: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
 
       - name: Update deployment status
         uses: bobheadxi/deployments@v1.1.0

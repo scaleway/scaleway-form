@@ -29,7 +29,6 @@ jobs:
         run: |
           SAFE_GITHUB_HEAD_REF_SLUG_URL=$(echo $GITHUB_HEAD_REF_SLUG_URL | rev | cut -c-37 | rev)
           ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "BRANCH_SLUG=main" || echo "BRANCH_SLUG=$SAFE_GITHUB_HEAD_REF_SLUG_URL") >> $GITHUB_ENV
-          ([[ $GITHUB_REF == 'refs/heads/main' ]] && echo "HOST=form.ui.scaleway.com" || echo "HOST=$SAFE_GITHUB_HEAD_REF_SLUG_URL.form.ui.scaleway.com") >> $GITHUB_ENV
 
       - name: Start deployment
         uses: bobheadxi/deployments@v1.1.0
@@ -50,7 +49,7 @@ jobs:
       - name: Build
         uses: docker/build-push-action@v2.9.0
         env:
-          IMAGE: ${{ env.IMAGE_NAME }}:v-${{ env.BRANCH_SLUG }}
+          IMAGE: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
         with:
           push: true
           tags: ${{ env.IMAGE }}
@@ -58,17 +57,15 @@ jobs:
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
       - name: Deploy Serverless Container Scaleway
-        uses: philibea/scaleway-containers-deploy@v1.0.4
+        uses: philibea/scaleway-containers-deploy@v1.0.5
         id: deploy
         with:
           type: "deploy"
+          scw_dns: "form.ui.scaleway.com"
           scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
           scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
-          scw_project_id: ${{ secrets.SCW_PROJECT_ID }}
-          scw_dns: "form.ui.scaleway.com"
-          scw_containers_namespace_id: "58096e1c-c903-4fa5-af46-f721f2574a2f"
-          scw_registry: ${{ env.IMAGE_NAME }}:v-${{ env.BRANCH_SLUG }}
-          scw_container_port: "80"
+          scw_containers_namespace_id: ${{ secrets.SCW_CONTAINERS_NAMESPACE_ID }}
+          scw_registry: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
           
 
       - name: Update deployment status
@@ -80,7 +77,6 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          # env_url: https://${{ env.HOST }}
           env_url: ${{ steps.deploy.outputs.url }}
 
       - name: Move cache

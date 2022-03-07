@@ -3311,7 +3311,7 @@ __metadata:
     "@rollup/plugin-url": 6.1.0
     "@scaleway/eslint-config-react": 3.4.4
     "@scaleway/jest-helpers": 1.1.8
-    "@scaleway/ui": 0.138.2
+    "@scaleway/ui": 0.139.0
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.2
     "@semantic-release/git": 10.0.1
@@ -3363,7 +3363,7 @@ __metadata:
   peerDependencies:
     "@emotion/react": 11.8.1
     "@emotion/styled": 11.8.1
-    "@scaleway/ui": 0.138.2
+    "@scaleway/ui": 0.139.0
     final-form: 4.20.6
     final-form-arrays: 3.0.2
     final-form-focus: 1.1.2
@@ -3397,9 +3397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scaleway/ui@npm:0.138.2":
-  version: 0.138.2
-  resolution: "@scaleway/ui@npm:0.138.2"
+"@scaleway/ui@npm:0.139.0":
+  version: 0.139.0
+  resolution: "@scaleway/ui@npm:0.139.0"
   dependencies:
     "@babel/runtime": 7.17.2
     "@emotion/serialize": 1.0.2
@@ -3411,6 +3411,7 @@ __metadata:
     "@types/intl-tel-input": 17.0.4
     "@types/react-datepicker": 4.3.4
     "@xstyled/emotion": 2.5.0
+    deepmerge: 4.2.2
     intl-tel-input: 17.0.15
     polished: 4.1.4
     prop-types: 15.8.1
@@ -8922,7 +8923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge@npm:^4.2.2":
+"deepmerge@npm:4.2.2, deepmerge@npm:^4.2.2":
   version: 4.2.2
   resolution: "deepmerge@npm:4.2.2"
   checksum: a8c43a1ed8d6d1ed2b5bf569fa4c8eb9f0924034baf75d5d406e47e157a451075c4db353efea7b6bcc56ec48116a8ce72fccf867b6e078e7c561904b5897530b

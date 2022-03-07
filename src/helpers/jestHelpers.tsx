@@ -1,8 +1,8 @@
 import { ThemeProvider } from '@emotion/react'
 import makeHelpers from '@scaleway/jest-helpers'
 import { theme as scwuiTheme } from '@scaleway/ui'
-import { RenderResult } from '@testing-library/react'
-import React, { FC, ReactNode } from 'react'
+import { RenderResult, render } from '@testing-library/react'
+import React, { FC, ReactElement, ReactNode } from 'react'
 import Form from '../components/Form'
 import mockErrors from '../mocks/mockErrors'
 
@@ -30,6 +30,15 @@ export const shouldMatchEmotionSnapshotFormWrapper = (
     <Form errors={mockErrors}>{() => children}</Form>,
     options,
   )
+
+export const renderWithWrapper = (children: ReactElement) =>
+  render(children, {
+    wrapper: () => (
+      <ThemeProvider theme={scwuiTheme}>
+        <Form errors={mockErrors}>{children}</Form>
+      </ThemeProvider>
+    ),
+  })
 
 export const mockRandom = () =>
   jest.spyOn(global.Math, 'random').mockReturnValue(0.4155913669444804)

@@ -52,6 +52,7 @@ const RichSelectField = <
   className,
   error: errorProp,
   format: formatProp = identity as NonNullable<BaseFieldProps<T>['format']>,
+  formatOnBlur,
   id,
   label = '',
   maxLength,
@@ -132,6 +133,7 @@ const RichSelectField = <
 
   const { input, meta } = useField<T, HTMLElement, RichSelectOption>(name, {
     format,
+    formatOnBlur,
     multiple,
     parse,
     validate,
@@ -155,6 +157,7 @@ const RichSelectField = <
 
   return (
     <RichSelect
+      name={name}
       className={className}
       error={error}
       id={id}

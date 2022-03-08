@@ -1,3 +1,18 @@
+### [1.13.9](https://github.com/scaleway/scaleway-form/compare/v1.13.8...v1.13.9) (2022-03-08)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.139.0 ([#130](https://github.com/scaleway/scaleway-form/issues/130)) ([21bce7b](https://github.com/scaleway/scaleway-form/commit/21bce7b19a80222f3337967e9f0e0d279631c439))
+* **devdeps:** update dependency @rollup/plugin-babel to v5.3.1 ([#124](https://github.com/scaleway/scaleway-form/issues/124)) ([4eaf548](https://github.com/scaleway/scaleway-form/commit/4eaf5482bff19177d4f10f99eca0707be2a2a796))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.3 ([#122](https://github.com/scaleway/scaleway-form/issues/122)) ([a0738d6](https://github.com/scaleway/scaleway-form/commit/a0738d65a0374409dbf0cc05447452d6e0ba8b46))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.4 ([#123](https://github.com/scaleway/scaleway-form/issues/123)) ([077fc4b](https://github.com/scaleway/scaleway-form/commit/077fc4b28ae55e1e692cffb9b9df0c4f475812c5))
+* **devdeps:** update dependency @types/react-dom to v17.0.13 ([#125](https://github.com/scaleway/scaleway-form/issues/125)) ([115c7dc](https://github.com/scaleway/scaleway-form/commit/115c7dcffc8a53c66967e71a5743386601043e8c))
+* **devdeps:** update dependency eslint to v8.10.0 ([#126](https://github.com/scaleway/scaleway-form/issues/126)) ([7d15961](https://github.com/scaleway/scaleway-form/commit/7d15961439023579caa1703e2595095b2c441fd3))
+* **devdeps:** update dependency lint-staged to v12.3.5 ([#129](https://github.com/scaleway/scaleway-form/issues/129)) ([a3a338b](https://github.com/scaleway/scaleway-form/commit/a3a338b5adc97ab80ca44c94ea7c8f803e0a8418))
+* **devdeps:** update dependency rollup-plugin-visualizer to v5.6.0 ([#127](https://github.com/scaleway/scaleway-form/issues/127)) ([84b6f1f](https://github.com/scaleway/scaleway-form/commit/84b6f1fbf41c3cb9061f9f31e08ba499870815d0))
+* **devdeps:** update dependency typescript to v4.6.2 ([#128](https://github.com/scaleway/scaleway-form/issues/128)) ([f7ecfc4](https://github.com/scaleway/scaleway-form/commit/f7ecfc4ef68e12c3e6cee61a993db0f8eb77f9c5))
+
 ### [1.13.8](https://github.com/scaleway/scaleway-form/compare/v1.13.7...v1.13.8) (2022-03-03)
 
 

@@ -57,7 +57,7 @@ jobs:
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
       - name: Deploy Serverless Container Scaleway
-        uses: philibea/scaleway-containers-deploy@v1.0.5
+        uses: philibea/scaleway-containers-deploy@v1.0.6
         id: deploy
         with:
           type: "deploy"
@@ -66,7 +66,6 @@ jobs:
           scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
           scw_containers_namespace_id: ${{ secrets.SCW_CONTAINERS_NAMESPACE_ID }}
           scw_registry: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
-          
 
       - name: Update deployment status
         uses: bobheadxi/deployments@v1.1.0

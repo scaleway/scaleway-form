@@ -1,7 +1,11 @@
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import Submit from '..'
-import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
+import {
+  mockRandom,
+  restoreRandom,
+  shouldMatchEmotionSnapshot,
+} from '../../../helpers/jestHelpers'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import TextBoxField from '../../TextBoxField'
@@ -23,7 +27,7 @@ describe('Submit', () => {
     ))
 
   test('form is submitting', async () => {
-    jest.spyOn(global.Math, 'random').mockReturnValue(0.4155913669444804)
+    mockRandom()
 
     await shouldMatchEmotionSnapshot(
       <Form
@@ -48,6 +52,6 @@ describe('Submit', () => {
       },
     )
 
-    jest.spyOn(global.Math, 'random').mockRestore()
+    restoreRandom()
   })
 })

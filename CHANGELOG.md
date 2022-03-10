@@ -1,3 +1,17 @@
+## [1.14.0](https://github.com/scaleway/scaleway-form/compare/v1.13.9...v1.14.0) (2022-03-10)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency rollup-plugin-dts to v4.2.0 ([#133](https://github.com/scaleway/scaleway-form/issues/133)) ([87d4fd0](https://github.com/scaleway/scaleway-form/commit/87d4fd01f61803c7ecea7c4e92e06d96d54577fd))
+* **devdeps:** update dependency webpack to v5.70.0 ([#134](https://github.com/scaleway/scaleway-form/issues/134)) ([8cc6c90](https://github.com/scaleway/scaleway-form/commit/8cc6c902777afc4f9398ac0b9048c5f452f3ca36))
+* **devdeps:** update philibea/scaleway-containers-deploy action to v1.0.6 ([#120](https://github.com/scaleway/scaleway-form/issues/120)) ([2257e73](https://github.com/scaleway/scaleway-form/commit/2257e731c599f230e5cb1360716aae481d9a294c))
+
+
+### :gear: Features
+
+* **fields:** add RichSelectField ([#87](https://github.com/scaleway/scaleway-form/issues/87)) ([320227d](https://github.com/scaleway/scaleway-form/commit/320227dfdb1d71eb9aa214bdf54b411a82444234))
+
 ### [1.13.9](https://github.com/scaleway/scaleway-form/compare/v1.13.8...v1.13.9) (2022-03-08)
 
 

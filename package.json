@@ -42,7 +42,7 @@
     "lint:fix": "pnpm run lint -- --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
-    "test:unit:coverage": "pnpm run test:unit -- --coverage",
+    "test:unit:coverage": "pnpm run test -- --coverage",
     "test:watch": "pnpm run test -- --watch",
     "test:update": "pnpm run test -- --updateSnapshot",
     "test": "LC_ALL=en_US.UTF-8 jest",

@@ -3354,7 +3354,7 @@ __metadata:
     react-final-form: 6.5.8
     read-pkg: 7.1.0
     regenerator-runtime: 0.13.9
-    rollup: 2.67.3
+    rollup: 2.70.0
     rollup-plugin-dts: 4.2.0
     rollup-plugin-visualizer: 5.6.0
     semantic-release: 18.0.1
@@ -17866,9 +17866,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.67.3":
-  version: 2.67.3
-  resolution: "rollup@npm:2.67.3"
+"rollup@npm:2.70.0":
+  version: 2.70.0
+  resolution: "rollup@npm:2.70.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -17876,7 +17876,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: c4013a2ceef6918375fd07a6548e05d0f3df1db9f0a0281aebe6e993a45c0e667c5a06f53b55c0ffaf72f72266c1879bc181b13199aace97d93f0fc47691d4a9
+  checksum: 95075049f7a2c727a7bdd78c4a6fb4a468561b3de853c010d34fdd693d7c761d5838bcfaf4e49a441b34abbc22cceaa01af47f69f622cbd725678792b5f1acfb
   languageName: node
   linkType: hard
 

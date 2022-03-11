@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@emotion/react'
 import makeHelpers from '@scaleway/jest-helpers'
 import { theme as scwuiTheme } from '@scaleway/ui'
-import { RenderResult, render } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import React, { FC, ReactElement, ReactNode } from 'react'
 import Form from '../components/Form'
 import mockErrors from '../mocks/mockErrors'
@@ -22,9 +22,7 @@ export const {
 
 export const shouldMatchEmotionSnapshotFormWrapper = (
   children: ReactNode,
-  options?: {
-    transform: (node: RenderResult) => Promise<void> | void
-  },
+  options?: Parameters<typeof shouldMatchEmotionSnapshot>[1],
 ) =>
   shouldMatchEmotionSnapshot(
     <Form errors={mockErrors}>{() => children}</Form>,

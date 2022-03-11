@@ -13,8 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3.0.0
     - uses: pnpm/action-setup@v2.2.1
-      with:
-        version: 6.16.0
     - name: Use Node.js
       uses: actions/setup-node@v3.0.0
       with:
@@ -22,14 +20,12 @@ jobs:
         cache: 'pnpm'
     - run: pnpm install
     - run: pnpm run build
-    - run: pnpm tsc --noEmit || true
+    - run: pnpm tsc --noEmit
   lint:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3.0.0
     - uses: pnpm/action-setup@v2.2.1
-      with:
-        version: 6.16.0
     - name: Use Node.js
       uses: actions/setup-node@v3.0.0
       with:
@@ -47,8 +43,6 @@ jobs:
       with:
         fetch-depth: "0"
     - uses: pnpm/action-setup@v2.2.1
-      with:
-        version: 6.16.0
     - name: Use Node.js
       uses: actions/setup-node@v3.0.0
       with:
@@ -66,8 +60,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3.0.0
     - uses: pnpm/action-setup@v2.2.1
-      with:
-        version: 6.16.0
     - name: Use Node.js
       uses: actions/setup-node@v3.0.0
       with:
@@ -87,8 +79,6 @@ jobs:
         fetch-depth: 0
         persist-credentials: false
     - uses: pnpm/action-setup@v2.2.1
-      with:
-        version: 6.16.0
     - name: Use Node.js
       uses: actions/setup-node@v3.0.0
       with:

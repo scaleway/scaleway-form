@@ -82,7 +82,7 @@ exports[`RichSelectField should render correctly 1`] = `
   fill: #4f0599;
 }
 
-.cache-evyzo2-ValueContainer {
+.cache-oxkbbn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -104,7 +104,7 @@ exports[`RichSelectField should render correctly 1`] = `
   padding-top: 0;
 }
 
-.cache-evyzo2-ValueContainer label {
+.cache-oxkbbn-Component label {
   display: initial;
 }
 
@@ -166,7 +166,7 @@ exports[`RichSelectField should render correctly 1`] = `
   padding: 0;
 }
 
-.cache-ralm3g-IndicatorsContainer {
+.cache-1b81bwn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -267,7 +267,7 @@ exports[`RichSelectField should render correctly 1`] = `
         class=" cache-1mxal29-control"
       >
         <div
-          class=" cache-evyzo2-ValueContainer"
+          class=" cache-oxkbbn-Component"
         >
           <label
             aria-live="assertive"
@@ -308,7 +308,7 @@ exports[`RichSelectField should render correctly 1`] = `
           </div>
         </div>
         <div
-          class=" cache-ralm3g-IndicatorsContainer"
+          class=" cache-1b81bwn-Component"
         >
           <span
             class=" cache-27txfv-indicatorSeparator"
@@ -427,7 +427,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   fill: #4f0599;
 }
 
-.cache-evyzo2-ValueContainer {
+.cache-oxkbbn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -449,7 +449,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   padding-top: 0;
 }
 
-.cache-evyzo2-ValueContainer label {
+.cache-oxkbbn-Component label {
   display: initial;
 }
 
@@ -511,7 +511,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   padding: 0;
 }
 
-.cache-ralm3g-IndicatorsContainer {
+.cache-1b81bwn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -612,7 +612,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
         class=" cache-1mxal29-control"
       >
         <div
-          class=" cache-evyzo2-ValueContainer"
+          class=" cache-oxkbbn-Component"
         >
           <label
             aria-live="assertive"
@@ -653,7 +653,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
           </div>
         </div>
         <div
-          class=" cache-ralm3g-IndicatorsContainer"
+          class=" cache-1b81bwn-Component"
         >
           <span
             class=" cache-27txfv-indicatorSeparator"
@@ -772,7 +772,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   fill: #4f0599;
 }
 
-.cache-evyzo2-ValueContainer {
+.cache-oxkbbn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -794,7 +794,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   padding-top: 0;
 }
 
-.cache-evyzo2-ValueContainer label {
+.cache-oxkbbn-Component label {
   display: initial;
 }
 
@@ -855,7 +855,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   padding: 0;
 }
 
-.cache-ralm3g-IndicatorsContainer {
+.cache-1b81bwn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -956,7 +956,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
         class=" cache-1mxal29-control"
       >
         <div
-          class=" cache-evyzo2-ValueContainer"
+          class=" cache-oxkbbn-Component"
         >
           <label
             aria-live="assertive"
@@ -997,7 +997,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
           </div>
         </div>
         <div
-          class=" cache-ralm3g-IndicatorsContainer"
+          class=" cache-1b81bwn-Component"
         >
           <span
             class=" cache-27txfv-indicatorSeparator"
@@ -1117,7 +1117,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   fill: #4f0599;
 }
 
-.cache-evyzo2-ValueContainer {
+.cache-oxkbbn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1139,7 +1139,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   padding-top: 0;
 }
 
-.cache-evyzo2-ValueContainer label {
+.cache-oxkbbn-Component label {
   display: initial;
 }
 
@@ -1201,7 +1201,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   padding: 0;
 }
 
-.cache-ralm3g-IndicatorsContainer {
+.cache-1b81bwn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1302,7 +1302,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
         class=" cache-1mxal29-control"
       >
         <div
-          class=" cache-evyzo2-ValueContainer"
+          class=" cache-oxkbbn-Component"
         >
           <label
             aria-live="assertive"
@@ -1343,7 +1343,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
           </div>
         </div>
         <div
-          class=" cache-ralm3g-IndicatorsContainer"
+          class=" cache-1b81bwn-Component"
         >
           <span
             class=" cache-27txfv-indicatorSeparator"
@@ -1462,7 +1462,7 @@ exports[`RichSelectField should trigger events 1`] = `
   fill: #4f0599;
 }
 
-.cache-evyzo2-ValueContainer {
+.cache-oxkbbn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1484,7 +1484,7 @@ exports[`RichSelectField should trigger events 1`] = `
   padding-top: 0;
 }
 
-.cache-evyzo2-ValueContainer label {
+.cache-oxkbbn-Component label {
   display: initial;
 }
 
@@ -1561,7 +1561,7 @@ exports[`RichSelectField should trigger events 1`] = `
   padding: 0;
 }
 
-.cache-ralm3g-IndicatorsContainer {
+.cache-1b81bwn-Component {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1662,7 +1662,7 @@ exports[`RichSelectField should trigger events 1`] = `
         class=" cache-1mxal29-control"
       >
         <div
-          class=" cache-evyzo2-ValueContainer"
+          class=" cache-oxkbbn-Component"
         >
           <label
             aria-live="assertive"
@@ -1701,7 +1701,7 @@ exports[`RichSelectField should trigger events 1`] = `
           </div>
         </div>
         <div
-          class=" cache-ralm3g-IndicatorsContainer"
+          class=" cache-1b81bwn-Component"
         >
           <span
             class=" cache-27txfv-indicatorSeparator"

@@ -18,13 +18,13 @@
   },
   "engines": {
     "node": ">=14.x",
-    "yarn": ">=3.x"
+    "pnpm": ">=6.x"
   },
   "os": [
     "darwin",
     "linux"
   ],
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "pnpm@6.16.0",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -32,21 +32,21 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "build:profile": "cross-env PROFILE=true yarn run build",
+    "build:profile": "cross-env PROFILE=true pnpm run build",
     "build:storybook": "STORYBOOK_ENVIRONMENT=production build-storybook",
     "check:deps": "npx depcheck . --skip-missing=true --ignores='bin,eslint,webpack,jest,husky,@semantic-release/*,@commitlint/*,@babel/*,babel-*'",
     "commit": "npx git-cz -a",
     "start": "STORYBOOK_ENVIRONMENT=development start-storybook -p 6006",
     "start:production": "STORYBOOK_ENVIRONMENT=production start-storybook -p 6006",
     "format": "prettier --write '**/*.{ts,tsx}'",
-    "lint:fix": "yarn run lint --fix",
+    "lint:fix": "pnpm run lint -- --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
-    "test:unit:coverage": "yarn run test:unit --coverage",
-    "test:watch": "yarn run test --watch",
-    "test:update": "yarn run test --updateSnapshot",
+    "test:unit:coverage": "pnpm run test:unit -- --coverage",
+    "test:watch": "pnpm run test -- --watch",
+    "test:update": "pnpm run test -- --updateSnapshot",
     "test": "LC_ALL=en_US.UTF-8 jest",
-    "test:unit": "yarn test",
+    "test:unit": "pnpm test",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -88,7 +88,7 @@
       ]
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!@scaleway)"
+      "node_modules/(?!@scaleway)/"
     ],
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom"

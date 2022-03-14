@@ -1,3 +1,10 @@
+### [1.14.4](https://github.com/scaleway/scaleway-form/compare/v1.14.3...v1.14.4) (2022-03-14)
+
+
+### :bug: Bug Fixes
+
+* **rich-select:** add missing type ([#145](https://github.com/scaleway/scaleway-form/issues/145)) ([0df7be8](https://github.com/scaleway/scaleway-form/commit/0df7be80104d1b93cf12eca78260790278d19c8f))
+
 ### [1.14.3](https://github.com/scaleway/scaleway-form/compare/v1.14.2...v1.14.3) (2022-03-14)
 
 

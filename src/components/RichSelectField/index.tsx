@@ -25,17 +25,26 @@ export type RichSelectFieldProps<
 > = BaseFieldProps<T> &
   Pick<
     RichSelectProps,
+    | 'animation'
+    | 'animationDuration'
+    | 'animationOnChange'
     | 'children'
     | 'className'
     | 'disabled'
     | 'error'
     | 'id'
-    | 'onChange'
+    | 'inputId'
+    | 'isClearable'
+    | 'isMulti'
+    | 'isSearchable'
     | 'onBlur'
+    | 'onChange'
     | 'onFocus'
     | 'options'
     | 'placeholder'
+    | 'readOnly'
     | 'required'
+    | 'value'
   > & {
     label?: string
     maxLength?: number
@@ -48,12 +57,18 @@ const identity = <T,>(x: T) => x
 const RichSelectField = <
   T extends RichSelectOptionOrGroup = RichSelectOptionOrGroup,
 >({
+  animation,
+  animationDuration,
+  animationOnChange,
   children,
   className,
   error: errorProp,
   format: formatProp = identity as NonNullable<BaseFieldProps<T>['format']>,
   formatOnBlur,
   id,
+  inputId,
+  isClearable,
+  isSearchable,
   label = '',
   maxLength,
   minLength,
@@ -65,6 +80,7 @@ const RichSelectField = <
   options: optionsProp,
   parse: parseProp = identity as NonNullable<BaseFieldProps<T>['parse']>,
   placeholder,
+  readOnly,
   required,
   value,
 }: RichSelectFieldProps<T>) => {
@@ -157,11 +173,17 @@ const RichSelectField = <
 
   return (
     <RichSelect
-      name={name}
+      animation={animation}
+      animationDuration={animationDuration}
+      animationOnChange={animationOnChange}
       className={className}
       error={error}
       id={id}
+      inputId={inputId}
+      isClearable={isClearable}
       isMulti={input.multiple}
+      isSearchable={isSearchable}
+      name={name}
       onBlur={event => {
         onBlur?.(event)
         input.onBlur(event)
@@ -176,6 +198,7 @@ const RichSelectField = <
       }}
       options={options}
       placeholder={placeholder}
+      readOnly={readOnly}
       value={input.value}
     >
       {children}

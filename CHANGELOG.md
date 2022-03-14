@@ -1,3 +1,10 @@
+### [1.14.3](https://github.com/scaleway/scaleway-form/compare/v1.14.2...v1.14.3) (2022-03-14)
+
+
+### :bug: Bug Fixes
+
+* **export:** rich select field ([#142](https://github.com/scaleway/scaleway-form/issues/142)) ([90c7f7b](https://github.com/scaleway/scaleway-form/commit/90c7f7ba8a4e4af3506b5818d20eab980c54f699))
+
 ### [1.14.2](https://github.com/scaleway/scaleway-form/compare/v1.14.1...v1.14.2) (2022-03-14)
 
 

@@ -172,7 +172,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.17.2",
-    "@scaleway/ui": "0.139.3",
+    "@scaleway/ui": "0.139.6",
     "final-form": "4.20.6",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

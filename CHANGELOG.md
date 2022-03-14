@@ -1,3 +1,15 @@
+### [1.14.2](https://github.com/scaleway/scaleway-form/compare/v1.14.1...v1.14.2) (2022-03-14)
+
+
+### :package: Chore
+
+* **deps:** update dependency @emotion/react to v11.8.2 ([#135](https://github.com/scaleway/scaleway-form/issues/135)) ([7f6371c](https://github.com/scaleway/scaleway-form/commit/7f6371cc04d674d61acce40bbb59cee42dbe86aa))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.8 ([#141](https://github.com/scaleway/scaleway-form/issues/141)) ([4685d98](https://github.com/scaleway/scaleway-form/commit/4685d98696e4937800c644ac7fb12beba47b875d))
+* **devdeps:** update dependency @testing-library/react to v12.1.4 ([#136](https://github.com/scaleway/scaleway-form/issues/136)) ([7db80e4](https://github.com/scaleway/scaleway-form/commit/7db80e42713f14118785c1f61552012e3cbb73ed))
+* **devdeps:** update dependency rollup to v2.70.0 ([#140](https://github.com/scaleway/scaleway-form/issues/140)) ([46ee9da](https://github.com/scaleway/scaleway-form/commit/46ee9da60af0912f00a1c4a55aed704e68122e88))
+* **devdeps:** update node.js to v17.7 ([#139](https://github.com/scaleway/scaleway-form/issues/139)) ([ae478dd](https://github.com/scaleway/scaleway-form/commit/ae478dd01dda967dcc974bc477fefb820bd14f04))
+* **devdeps:** update philibea/scaleway-containers-deploy action to v1.0.7 ([#138](https://github.com/scaleway/scaleway-form/issues/138)) ([d60f83d](https://github.com/scaleway/scaleway-form/commit/d60f83d60dd4b24a7ec3cdfe8d467da9e9a1df26))
+
 ### [1.14.1](https://github.com/scaleway/scaleway-form/compare/v1.14.0...v1.14.1) (2022-03-10)
 
 

@@ -1,3 +1,13 @@
+### [1.14.5](https://github.com/scaleway/scaleway-form/compare/v1.14.4...v1.14.5) (2022-03-15)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.139.6 ([#143](https://github.com/scaleway/scaleway-form/issues/143)) ([c291c80](https://github.com/scaleway/scaleway-form/commit/c291c8014ee923d858f5eaed359ab5ec075be75c))
+* **devdeps:** update babel monorepo to v7.17.7 ([#146](https://github.com/scaleway/scaleway-form/issues/146)) ([f09490b](https://github.com/scaleway/scaleway-form/commit/f09490b9af481e0af4a50c59134639080175de0f))
+* **devdeps:** update dependency rollup to v2.70.1 ([#148](https://github.com/scaleway/scaleway-form/issues/148)) ([591228e](https://github.com/scaleway/scaleway-form/commit/591228e581accf4f169b50c669f9ac17ed91440f))
+* **devdeps:** update docker/build-push-action action to v2.10.0 ([#147](https://github.com/scaleway/scaleway-form/issues/147)) ([732f1b8](https://github.com/scaleway/scaleway-form/commit/732f1b8f8dde7fd504c7f9ac4a1565c50605c1fd))
+
 ### [1.14.4](https://github.com/scaleway/scaleway-form/compare/v1.14.3...v1.14.4) (2022-03-14)
 
 

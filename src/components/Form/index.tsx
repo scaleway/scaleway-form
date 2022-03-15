@@ -17,6 +17,7 @@ export type FormProps<FormValues = unknown> = {
     | ((props: FormRenderProps<FormValues, Partial<FormValues>>) => ReactNode)
     | ReactNode
   errors: FormErrors
+  onRawSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
   onSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
   onSubmitSuccess?: OnSubmitSucccessFn<FormValues>
   onSubmitError?: OnSubmitErrorFn
@@ -33,9 +34,11 @@ export type FormProps<FormValues = unknown> = {
   render?: ReactFinalFormProps<FormValues, Partial<FormValues>>['render']
   mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
+  parseSubmitException?: (error: unknown) => string | undefined
 }
 const Form = <FormValues,>({
   children,
+  onRawSubmit,
   onSubmit,
   onSubmitError,
   onSubmitSuccess,
@@ -47,18 +50,25 @@ const Form = <FormValues,>({
   render,
   mutators,
   keepDirtyOnReinitialize,
+  parseSubmitException,
 }: FormProps<FormValues>): JSX.Element => (
   <ErrorProvider errors={errors}>
     <ReactFinalForm
       initialValues={initialValues}
       validateOnBlur={validateOnBlur}
       validate={validate}
-      decorators={[focusOnErrors as unknown as Decorator<FormValues, Partial<FormValues>>]}
+      decorators={[
+        focusOnErrors as unknown as Decorator<FormValues, Partial<FormValues>>,
+      ]}
       mutators={{
         ...arrayMutators,
         ...mutators,
       }}
       onSubmit={async (values, form, callback) => {
+        if (onRawSubmit) {
+          return onRawSubmit(values, form, callback)
+        }
+
         try {
           const res = await onSubmit?.(values, form, callback)
           if (res !== undefined) {
@@ -71,7 +81,11 @@ const Form = <FormValues,>({
         } catch (submitError) {
           await onSubmitError?.(submitError)
 
-          return { [FORM_ERROR]: submitError }
+          return {
+            [FORM_ERROR]: parseSubmitException
+              ? parseSubmitException(submitError)
+              : submitError,
+          }
         }
       }}
       render={

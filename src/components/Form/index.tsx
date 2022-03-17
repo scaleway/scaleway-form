@@ -17,10 +17,24 @@ export type FormProps<FormValues = unknown> = {
     | ((props: FormRenderProps<FormValues, Partial<FormValues>>) => ReactNode)
     | ReactNode
   errors: FormErrors
+  /**
+   * onRawSubmit is the base onSubmit from final-form
+   */
   onRawSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
+  /**
+   * onSubmit acts as onRawSubmit but will call onSubmitSuccess/Error lifecycles
+   * and will parse eexception with parseSubmitException if provided
+   * @deprecated its behavior is inconsistent, favor onRawSubmit
+   */
   onSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
   onSubmitSuccess?: OnSubmitSucccessFn<FormValues>
   onSubmitError?: OnSubmitErrorFn
+  /**
+   * parseSubmitException will be invoked on onSubmit throw
+   * It will take the error and must return a readable string or undefined
+   * @deprecated its behavior is inconsistent, favor onRawSubmit
+   */
+  parseSubmitException?: (error: unknown) => string | undefined
   initialValues?: Partial<FormValues>
   validateOnBlur?: ReactFinalFormProps<
     FormValues,
@@ -34,7 +48,6 @@ export type FormProps<FormValues = unknown> = {
   render?: ReactFinalFormProps<FormValues, Partial<FormValues>>['render']
   mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
-  parseSubmitException?: (error: unknown) => string | undefined
 }
 const Form = <FormValues,>({
   children,

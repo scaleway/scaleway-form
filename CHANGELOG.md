@@ -1,3 +1,24 @@
+### [1.14.6](https://github.com/scaleway/scaleway-form/compare/v1.14.5...v1.14.6) (2022-03-18)
+
+
+### :repeat: CI
+
+* correct deploy step ([d57c330](https://github.com/scaleway/scaleway-form/commit/d57c330d96e024947a750c25c366804c7cb61f65))
+* update renovate config ([9c188c6](https://github.com/scaleway/scaleway-form/commit/9c188c6d848c8a54f77598acfa17ec28edf13db9))
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.140.3 ([#149](https://github.com/scaleway/scaleway-form/issues/149)) ([ba1afbd](https://github.com/scaleway/scaleway-form/commit/ba1afbde1566334c7c75dd22e414972e10758b97))
+* **devdeps:** update dependency @commitlint/cli to v16.2.3 ([#152](https://github.com/scaleway/scaleway-form/issues/152)) ([a8d3001](https://github.com/scaleway/scaleway-form/commit/a8d3001a61958a5f559d23aada6595b9e635646a))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.9 ([#154](https://github.com/scaleway/scaleway-form/issues/154)) ([041a89d](https://github.com/scaleway/scaleway-form/commit/041a89dd46b1a986d287403b27cbf17eec60e7b5))
+* **devdeps:** update dependency eslint to v8.11.0 ([#151](https://github.com/scaleway/scaleway-form/issues/151)) ([6cdb201](https://github.com/scaleway/scaleway-form/commit/6cdb2017c3a4fc5329041574d4d859a2c641ad38))
+* **devdeps:** update dependency lint-staged to v12.3.6 ([#153](https://github.com/scaleway/scaleway-form/issues/153)) ([52137e6](https://github.com/scaleway/scaleway-form/commit/52137e661d9db0de42944ce55ab190a9bbf481a0))
+* **devdeps:** update dependency lint-staged to v12.3.7 ([#155](https://github.com/scaleway/scaleway-form/issues/155)) ([0d8c1e8](https://github.com/scaleway/scaleway-form/commit/0d8c1e8ddfb86360425b4d83b5efc6132720446c))
+* **devdeps:** update pnpm to v6.32.3 ([#156](https://github.com/scaleway/scaleway-form/issues/156)) ([2867935](https://github.com/scaleway/scaleway-form/commit/28679353b6057172ed4e13bb43a4764a5a00b4f3))
+* **devdeps:** update semantic-release monorepo ([#65](https://github.com/scaleway/scaleway-form/issues/65)) ([1fec9d9](https://github.com/scaleway/scaleway-form/commit/1fec9d998845aae5776c42eea7fad272e85b7140))
+* migrate to pnpm ([#137](https://github.com/scaleway/scaleway-form/issues/137)) ([41504ff](https://github.com/scaleway/scaleway-form/commit/41504ff4b1a5131efd81a012dc9cc986f36ecd4c))
+
 ### [1.14.5](https://github.com/scaleway/scaleway-form/compare/v1.14.4...v1.14.5) (2022-03-15)
 
 

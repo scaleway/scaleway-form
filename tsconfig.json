@@ -10,6 +10,7 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "jsx": "preserve",
+    "preserveSymlinks": false
   },
   "include": [
     "./storybook/**/*.ts",

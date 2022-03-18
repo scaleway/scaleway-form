@@ -1,16 +1,16 @@
 import { ThemeProvider } from '@emotion/react'
 import makeHelpers from '@scaleway/jest-helpers'
-import { theme as scwuiTheme } from '@scaleway/ui'
+import { lightTheme } from '@scaleway/ui'
 import { render } from '@testing-library/react'
 import React, { FC, ReactElement, ReactNode } from 'react'
 import Form from '../components/Form'
 import mockErrors from '../mocks/mockErrors'
 
 interface WrapperProps {
-  theme?: typeof scwuiTheme
+  theme?: typeof lightTheme
 }
 
-const Wrapper: FC<WrapperProps> = ({ theme = scwuiTheme, children }) => (
+const Wrapper: FC<WrapperProps> = ({ theme = lightTheme, children }) => (
   <ThemeProvider theme={theme}>{children}</ThemeProvider>
 )
 
@@ -32,7 +32,7 @@ export const shouldMatchEmotionSnapshotFormWrapper = (
 export const renderWithWrapper = (children: ReactElement) =>
   render(children, {
     wrapper: () => (
-      <ThemeProvider theme={scwuiTheme}>
+      <ThemeProvider theme={lightTheme}>
         <Form errors={mockErrors}>{children}</Form>
       </ThemeProvider>
     ),

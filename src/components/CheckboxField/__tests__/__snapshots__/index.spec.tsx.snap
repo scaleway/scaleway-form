@@ -19,7 +19,7 @@ exports[`CheckboxField should render correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox {
+.cache-v17sm8-StyledReakitCheckbox {
   opacity: 0.01;
   width: 24px;
   height: 24px;
@@ -30,16 +30,16 @@ exports[`CheckboxField should render correctly 1`] = `
   pointer-events: auto;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox:hover svg {
+.cache-v17sm8-StyledReakitCheckbox:hover svg {
   border-radius: 4px;
-  background-color: #d4dae7;
+  background-color: #f6f6f8;
   fill: #4f0599;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox:focus+svg {
-  outline: 1px #b2b6c3 dotted;
+.cache-v17sm8-StyledReakitCheckbox:focus+svg {
+  outline: 1px #c4c9d6 dotted;
 }
 
 .cache-199gkqe-StyledIcon-sizeStyles-StyledIcon {
@@ -71,9 +71,9 @@ exports[`CheckboxField should render correctly 1`] = `
   overflow: hidden;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -90,7 +90,7 @@ exports[`CheckboxField should render correctly 1`] = `
       >
         <input
           aria-checked="false"
-          class="cache-wg8t1p-StyledReakitCheckbox eu28k4m4"
+          class="cache-v17sm8-StyledReakitCheckbox eu28k4m4"
           name="test"
           type="checkbox"
         />
@@ -107,7 +107,7 @@ exports[`CheckboxField should render correctly 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError eu28k4m0"
+          class="cache-1ihvynt-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -134,7 +134,7 @@ exports[`CheckboxField should render correctly checked 1`] = `
   cursor: pointer;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox {
+.cache-v17sm8-StyledReakitCheckbox {
   opacity: 0.01;
   width: 24px;
   height: 24px;
@@ -145,16 +145,16 @@ exports[`CheckboxField should render correctly checked 1`] = `
   pointer-events: auto;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox:hover svg {
+.cache-v17sm8-StyledReakitCheckbox:hover svg {
   border-radius: 4px;
-  background-color: #d4dae7;
+  background-color: #f6f6f8;
   fill: #4f0599;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
 }
 
-.cache-wg8t1p-StyledReakitCheckbox:focus+svg {
-  outline: 1px #b2b6c3 dotted;
+.cache-v17sm8-StyledReakitCheckbox:focus+svg {
+  outline: 1px #c4c9d6 dotted;
 }
 
 .cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
@@ -186,9 +186,9 @@ exports[`CheckboxField should render correctly checked 1`] = `
   overflow: hidden;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -206,7 +206,7 @@ exports[`CheckboxField should render correctly checked 1`] = `
         <input
           aria-checked="true"
           checked=""
-          class="cache-wg8t1p-StyledReakitCheckbox eu28k4m4"
+          class="cache-v17sm8-StyledReakitCheckbox eu28k4m4"
           name="checked"
           type="checkbox"
         />
@@ -223,7 +223,7 @@ exports[`CheckboxField should render correctly checked 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError eu28k4m0"
+          class="cache-1ihvynt-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -250,7 +250,7 @@ exports[`CheckboxField should render correctly disabled 1`] = `
   cursor: not-allowed;
 }
 
-.cache-1365xkx-StyledReakitCheckbox {
+.cache-1xtnvcf-StyledReakitCheckbox {
   opacity: 0.01;
   width: 24px;
   height: 24px;
@@ -261,14 +261,14 @@ exports[`CheckboxField should render correctly disabled 1`] = `
   pointer-events: auto;
 }
 
-.cache-1365xkx-StyledReakitCheckbox:hover svg {
+.cache-1xtnvcf-StyledReakitCheckbox:hover svg {
   border-radius: 4px;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
 }
 
-.cache-1365xkx-StyledReakitCheckbox:focus+svg {
-  outline: 1px #b2b6c3 dotted;
+.cache-1xtnvcf-StyledReakitCheckbox:focus+svg {
+  outline: 1px #c4c9d6 dotted;
 }
 
 .cache-1diw4ha-StyledIcon-sizeStyles-StyledIcon {
@@ -300,9 +300,9 @@ exports[`CheckboxField should render correctly disabled 1`] = `
   overflow: hidden;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -320,7 +320,7 @@ exports[`CheckboxField should render correctly disabled 1`] = `
         <input
           aria-checked="false"
           aria-disabled="true"
-          class="cache-1365xkx-StyledReakitCheckbox eu28k4m4"
+          class="cache-1xtnvcf-StyledReakitCheckbox eu28k4m4"
           disabled=""
           name="test"
           style="pointer-events: none;"
@@ -339,7 +339,7 @@ exports[`CheckboxField should render correctly disabled 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError eu28k4m0"
+          class="cache-1ihvynt-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -366,7 +366,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   cursor: pointer;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox {
+.cache-13urrpd-StyledReakitCheckbox {
   opacity: 0.01;
   width: 24px;
   height: 24px;
@@ -377,16 +377,16 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   pointer-events: auto;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox:hover svg {
+.cache-13urrpd-StyledReakitCheckbox:hover svg {
   border-radius: 4px;
-  background-color: #d4dae7;
+  background-color: #f6f6f8;
   fill: #4f0599;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox:focus+svg {
-  outline: 1px #b2b6c3 dotted;
+.cache-13urrpd-StyledReakitCheckbox:focus+svg {
+  outline: 1px #c4c9d6 dotted;
 }
 
 .cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon {
@@ -423,9 +423,9 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   overflow: hidden;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -443,7 +443,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
       >
         <input
           aria-checked="false"
-          class="cache-rqgqp9-StyledReakitCheckbox eu28k4m4"
+          class="cache-13urrpd-StyledReakitCheckbox eu28k4m4"
           name="test"
           type="checkbox"
         />
@@ -465,7 +465,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
         class="e14o3tsk0 cache-12czo5r-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError eu28k4m0"
+          class="cache-1ihvynt-StyledError eu28k4m0"
         >
           This field is required
         </div>
@@ -499,7 +499,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox {
+.cache-13urrpd-StyledReakitCheckbox {
   opacity: 0.01;
   width: 24px;
   height: 24px;
@@ -510,16 +510,16 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   pointer-events: auto;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox:hover svg {
+.cache-13urrpd-StyledReakitCheckbox:hover svg {
   border-radius: 4px;
-  background-color: #d4dae7;
+  background-color: #f6f6f8;
   fill: #4f0599;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
 }
 
-.cache-rqgqp9-StyledReakitCheckbox:focus+svg {
-  outline: 1px #b2b6c3 dotted;
+.cache-13urrpd-StyledReakitCheckbox:focus+svg {
+  outline: 1px #c4c9d6 dotted;
 }
 
 .cache-148h4m4-StyledIcon-sizeStyles-StyledIcon {
@@ -551,9 +551,9 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   overflow: hidden;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -570,7 +570,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
       >
         <input
           aria-checked="true"
-          class="cache-rqgqp9-StyledReakitCheckbox eu28k4m4"
+          class="cache-13urrpd-StyledReakitCheckbox eu28k4m4"
           name="test"
           type="checkbox"
         />
@@ -592,7 +592,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError eu28k4m0"
+          class="cache-1ihvynt-StyledError eu28k4m0"
         />
       </div>
     </div>

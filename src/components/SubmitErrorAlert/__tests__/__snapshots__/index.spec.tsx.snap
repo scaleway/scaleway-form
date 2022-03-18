@@ -2,7 +2,7 @@
 
 exports[`SubmitErrorAlert should display an alert when submitError is present 1`] = `
 <DocumentFragment>
-  .cache-1em91nt-StyledButton {
+  .cache-um0kwk-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -31,28 +31,28 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   font-weight: 500;
   -webkit-transition: color 150ms ease-in-out,background-color 150ms ease-in-out,border-color 150ms ease-in-out;
   transition: color 150ms ease-in-out,background-color 150ms ease-in-out,border-color 150ms ease-in-out;
-  background-color: #45d6b5;
-  color: #fff;
+  background-color: #22c8a2;
+  color: #ffffff;
   font-size: 16px;
   line-height: 32px;
   font-weight: 500;
   padding: 8px 16px;
 }
 
-.cache-1em91nt-StyledButton:hover,
-.cache-1em91nt-StyledButton:focus {
+.cache-um0kwk-StyledButton:hover,
+.cache-um0kwk-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1em91nt-StyledButton:hover,
-.cache-1em91nt-StyledButton:focus {
-  color: #fff;
-  background-color: #30d1ad;
+.cache-um0kwk-StyledButton:hover,
+.cache-um0kwk-StyledButton:focus {
+  color: #ffffff;
+  background-color: #1eb290;
 }
 
-.cache-1em91nt-StyledButton:focus {
-  box-shadow: 0 0 0 2px rgba(69,214,181,0.25);
+.cache-um0kwk-StyledButton:focus {
+  box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
 }
 
 .cache-m245rk-StyledContent {
@@ -71,7 +71,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   pointer-events: none;
 }
 
-.cache-18hq5l0-StyledContainer-alertStyles {
+.cache-1dp9zxe-StyledContainer-alertStyles {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -86,7 +86,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   border-radius: 4px;
   padding: 12px;
   background-color: #ffe1e7;
-  color: #ef5774;
+  color: #dd3252;
 }
 
 .cache-zpmnud-StyledIcon-sizeStyles-StyledIcon {
@@ -132,7 +132,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-1em91nt-StyledButton"
+      class="em6gco80 cache-um0kwk-StyledButton"
       type="submit"
     >
       <div
@@ -142,7 +142,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       </div>
     </button>
     <div
-      class="eenhiht2 cache-18hq5l0-StyledContainer-alertStyles"
+      class="eenhiht2 cache-1dp9zxe-StyledContainer-alertStyles"
     >
       <svg
         aria-hidden="true"

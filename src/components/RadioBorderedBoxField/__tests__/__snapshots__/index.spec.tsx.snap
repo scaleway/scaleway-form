@@ -25,7 +25,7 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   margin-right: 4px;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -43,15 +43,15 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -109,9 +109,9 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -128,7 +128,7 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
           class="cache-1dp0kf7"
         >
           <label
-            class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+            class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
             for="test-test"
           >
             <div
@@ -168,7 +168,7 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-16v2aqw-StyledError e13z6rra1"
+        class="cache-1ihvynt-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -202,7 +202,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   margin-right: 4px;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -220,15 +220,15 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -286,9 +286,9 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -305,7 +305,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
           class="cache-1dp0kf7"
         >
           <label
-            class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+            class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
             for="test-checked"
           >
             <div
@@ -346,7 +346,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-16v2aqw-StyledError e13z6rra1"
+        class="cache-1ihvynt-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -355,13 +355,13 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
 
 exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-hvjhwn-BorderedBox-StyledBox {
+  .cache-18iq4fs-BorderedBox-StyledBox {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
   display: block;
   cursor: not-allowed!important;
-  color: #b2b6c3;
+  color: #c4c9d6;
 }
 
 .cache-zdyabc-StyledRadioContainer {
@@ -380,7 +380,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   margin-right: 4px;
 }
 
-.cache-17wwrut-StyledText-variantStyles-StyledRadioContainer-disabledClass {
+.cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -396,7 +396,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   align-items: center;
   height: 32px;
   cursor: pointer;
-  color: #b2b6c3;
+  color: #c4c9d6;
   cursor: not-allowed;
 }
 
@@ -455,9 +455,9 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -465,7 +465,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-hvjhwn-BorderedBox-StyledBox e13z6rra3"
+      class="cache-18iq4fs-BorderedBox-StyledBox e13z6rra3"
       disabled=""
     >
       <div
@@ -475,7 +475,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
           class="cache-1dp0kf7"
         >
           <label
-            class="e1duuirp2 e1g1zfwd0 cache-17wwrut-StyledText-variantStyles-StyledRadioContainer-disabledClass"
+            class="e1duuirp2 e1g1zfwd0 cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass"
             disabled=""
             for="test-disabled"
           >
@@ -518,7 +518,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-16v2aqw-StyledError e13z6rra1"
+        class="cache-1ihvynt-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -527,13 +527,13 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
 
 exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-saitdr-BorderedBox-StyledBox {
+  .cache-404zjn-BorderedBox-StyledBox {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
   display: block;
-  border: 1px solid #ef5774!important;
-  box-shadow: 0 0 0 2px rgba(239,87,116,0.25);
+  border: 1px solid #dd3252!important;
+  box-shadow: 0 0 0 2px rgba(221,50,82,0.25);
 }
 
 .cache-zdyabc-StyledRadioContainer {
@@ -552,7 +552,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   margin-right: 4px;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -570,15 +570,15 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -641,9 +641,9 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -651,7 +651,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
     novalidate=""
   >
     <div
-      class="cache-saitdr-BorderedBox-StyledBox e13z6rra3"
+      class="cache-404zjn-BorderedBox-StyledBox e13z6rra3"
     >
       <div
         class="cache-zdyabc-StyledRadioContainer e13z6rra2"
@@ -660,7 +660,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
           class="cache-1dp0kf7"
         >
           <label
-            class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+            class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
             for="test-checked"
           >
             <div
@@ -700,7 +700,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-o1jcxj-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-16v2aqw-StyledError e13z6rra1"
+        class="cache-1ihvynt-StyledError e13z6rra1"
       >
         This field is required
       </div>
@@ -741,7 +741,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   margin-right: 4px;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -759,15 +759,15 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -825,9 +825,9 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -844,7 +844,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
           class="cache-1dp0kf7"
         >
           <label
-            class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+            class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
             for="test-events"
           >
             <div
@@ -884,7 +884,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-16v2aqw-StyledError e13z6rra1"
+        class="cache-1ihvynt-StyledError e13z6rra1"
       />
     </div>
   </form>

@@ -2,7 +2,7 @@
 
 exports[`RadioField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -20,15 +20,15 @@ exports[`RadioField should render correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -77,9 +77,9 @@ exports[`RadioField should render correctly 1`] = `
   margin-top: 0;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -91,7 +91,7 @@ exports[`RadioField should render correctly 1`] = `
       type="radio"
     >
       <label
-        class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
         for="test-test"
       >
         <div
@@ -123,7 +123,7 @@ exports[`RadioField should render correctly 1`] = `
         class="e14o3tsk0 cache-1sztoev-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError e1duuirp0"
+          class="cache-1ihvynt-StyledError e1duuirp0"
         />
       </div>
     </div>
@@ -133,7 +133,7 @@ exports[`RadioField should render correctly 1`] = `
 
 exports[`RadioField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -151,15 +151,15 @@ exports[`RadioField should render correctly checked 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -208,9 +208,9 @@ exports[`RadioField should render correctly checked 1`] = `
   margin-top: 0;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -222,7 +222,7 @@ exports[`RadioField should render correctly checked 1`] = `
       type="radio"
     >
       <label
-        class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
         for="test-checked"
       >
         <div
@@ -255,7 +255,7 @@ exports[`RadioField should render correctly checked 1`] = `
         class="e14o3tsk0 cache-1sztoev-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError e1duuirp0"
+          class="cache-1ihvynt-StyledError e1duuirp0"
         />
       </div>
     </div>
@@ -265,7 +265,7 @@ exports[`RadioField should render correctly checked 1`] = `
 
 exports[`RadioField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-17wwrut-StyledText-variantStyles-StyledRadioContainer-disabledClass {
+  .cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -281,7 +281,7 @@ exports[`RadioField should render correctly disabled 1`] = `
   align-items: center;
   height: 32px;
   cursor: pointer;
-  color: #b2b6c3;
+  color: #c4c9d6;
   cursor: not-allowed;
 }
 
@@ -331,9 +331,9 @@ exports[`RadioField should render correctly disabled 1`] = `
   margin-top: 0;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -345,7 +345,7 @@ exports[`RadioField should render correctly disabled 1`] = `
       type="radio"
     >
       <label
-        class="e1duuirp2 e1g1zfwd0 cache-17wwrut-StyledText-variantStyles-StyledRadioContainer-disabledClass"
+        class="e1duuirp2 e1g1zfwd0 cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass"
         disabled=""
         for="test-disabled"
       >
@@ -380,7 +380,7 @@ exports[`RadioField should render correctly disabled 1`] = `
         class="e14o3tsk0 cache-1sztoev-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError e1duuirp0"
+          class="cache-1ihvynt-StyledError e1duuirp0"
         />
       </div>
     </div>
@@ -390,7 +390,7 @@ exports[`RadioField should render correctly disabled 1`] = `
 
 exports[`RadioField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -408,15 +408,15 @@ exports[`RadioField should render correctly with errors 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -470,9 +470,9 @@ exports[`RadioField should render correctly with errors 1`] = `
   overflow: visible;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -485,7 +485,7 @@ exports[`RadioField should render correctly with errors 1`] = `
       type="radio"
     >
       <label
-        class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
         for="test-checked"
       >
         <div
@@ -517,7 +517,7 @@ exports[`RadioField should render correctly with errors 1`] = `
         class="e14o3tsk0 cache-1gfilw2-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError e1duuirp0"
+          class="cache-1ihvynt-StyledError e1duuirp0"
         >
           This field is required
         </div>
@@ -534,7 +534,7 @@ exports[`RadioField should render correctly with errors 1`] = `
 
 exports[`RadioField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -552,15 +552,15 @@ exports[`RadioField should trigger events correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(212,218,231,0.25);
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
+  background-color: rgba(215,204,240,0.25);
   border-radius: 50%;
 }
 
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
-  fill: #4f0599;
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
+.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+  fill: #390171;
 }
 
 .cache-1p2voni-IconContainer {
@@ -609,9 +609,9 @@ exports[`RadioField should trigger events correctly 1`] = `
   margin-top: 0;
 }
 
-.cache-16v2aqw-StyledError {
+.cache-1ihvynt-StyledError {
   font-size: 12px;
-  color: #ef5774;
+  color: #dd3252;
   padding: 0 4px;
 }
 
@@ -623,7 +623,7 @@ exports[`RadioField should trigger events correctly 1`] = `
       type="radio"
     >
       <label
-        class="e1duuirp2 e1g1zfwd0 cache-1v0zvha-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
+        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
         for="test-events"
       >
         <div
@@ -655,7 +655,7 @@ exports[`RadioField should trigger events correctly 1`] = `
         class="e14o3tsk0 cache-1sztoev-StyledExpandable"
       >
         <div
-          class="cache-16v2aqw-StyledError e1duuirp0"
+          class="cache-1ihvynt-StyledError e1duuirp0"
         />
       </div>
     </div>

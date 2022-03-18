@@ -85,7 +85,7 @@ jobs:
         node-version: 16
     - run: pnpm install
     - run: pnpm run build
-    - run: pnpm run semantic-release
+    - run: pnpm semantic-release
       env:
         HUSKY: 0
         NPM_TOKEN: ${{secrets.NPM_TOKEN}}

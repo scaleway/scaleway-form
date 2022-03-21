@@ -58,7 +58,7 @@ specifiers:
   jest: 27.5.1
   jest-junit: 13.0.0
   lint-staged: 12.3.7
-  prettier: 2.5.1
+  prettier: 2.6.0
   react: 17.0.2
   react-dom: 17.0.2
   react-final-form: 6.5.8
@@ -132,7 +132,7 @@ devDependencies:
   jest: 27.5.1
   jest-junit: 13.0.0
   lint-staged: 12.3.7
-  prettier: 2.5.1
+  prettier: 2.6.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   read-pkg: 7.1.0
@@ -13026,8 +13026,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.0:
+    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

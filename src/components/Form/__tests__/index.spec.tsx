@@ -92,4 +92,63 @@ describe('Form', () => {
       },
     )
   })
+
+  test('renders correctly with parseSubmitException', () => {
+    const onSubmit = jest.fn(() => Promise.reject(new Error('error')))
+    const onSubmitSuccess = jest.fn(() => {})
+    const onSubmitError = jest.fn(() => {})
+    const parseSubmitException = jest.fn(() => 'parsed error')
+
+    return shouldMatchEmotionSnapshot(
+      <Form
+        errors={mockErrors}
+        onSubmitSuccess={onSubmitSuccess}
+        onSubmit={onSubmit}
+        onSubmitError={onSubmitError}
+        parseSubmitException={parseSubmitException}
+      >
+        <button type="submit">Submit</button>
+      </Form>,
+      {
+        transform: async ({ getByText }) => {
+          userEvent.click(getByText('Submit'))
+          expect(onSubmit).toBeCalledTimes(1)
+          await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
+          await waitFor(() => expect(parseSubmitException).toBeCalledTimes(1))
+          expect(parseSubmitException).toBeCalledWith(new Error('error'))
+          expect(onSubmitSuccess).toBeCalledTimes(0)
+        },
+      },
+    )
+  })
+
+  test('renders correctly with onRawSubmit which should take precedence', () => {
+    const onSubmit = jest.fn(() => Promise.reject(new Error('error')))
+    const onSubmitSuccess = jest.fn(() => {})
+    const onRawSubmit = jest.fn(() => {})
+    const onSubmitError = jest.fn(() => {})
+    const parseSubmitException = jest.fn(() => 'parsed error')
+
+    return shouldMatchEmotionSnapshot(
+      <Form
+        errors={mockErrors}
+        onSubmitSuccess={onSubmitSuccess}
+        onSubmit={onSubmit}
+        onSubmitError={onSubmitError}
+        parseSubmitException={parseSubmitException}
+        onRawSubmit={onRawSubmit}
+      >
+        <button type="submit">Submit</button>
+      </Form>,
+      {
+        transform: async ({ getByText }) => {
+          userEvent.click(getByText('Submit'))
+          await waitFor(() => expect(onRawSubmit).toBeCalledTimes(1))
+          expect(onSubmit).toBeCalledTimes(0)
+          expect(onSubmitError).toBeCalledTimes(0)
+          expect(parseSubmitException).toBeCalledTimes(0)
+        },
+      },
+    )
+  })
 })

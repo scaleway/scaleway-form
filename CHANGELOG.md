@@ -1,3 +1,19 @@
+## [1.15.0](https://github.com/scaleway/scaleway-form/compare/v1.14.6...v1.15.0) (2022-03-21)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3 ([#161](https://github.com/scaleway/scaleway-form/issues/161)) ([d195070](https://github.com/scaleway/scaleway-form/commit/d195070d68d08df346f79aba2e8631eff0e4ab1c))
+* **devdeps:** update babel monorepo to v7.17.8 ([#157](https://github.com/scaleway/scaleway-form/issues/157)) ([7a5d239](https://github.com/scaleway/scaleway-form/commit/7a5d239c409545dbfc7f354933b56dd0051e4271))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.10 ([#160](https://github.com/scaleway/scaleway-form/issues/160)) ([fbb91b4](https://github.com/scaleway/scaleway-form/commit/fbb91b4b58631dcc925c574d2e84d3a830c2f1c1))
+* **devdeps:** update dependency @types/react-dom to v17.0.14 ([#158](https://github.com/scaleway/scaleway-form/issues/158)) ([1110bd2](https://github.com/scaleway/scaleway-form/commit/1110bd29a1244582798f777c536faf18c50080f1))
+* **devdeps:** update dependency prettier to v2.6.0 ([#159](https://github.com/scaleway/scaleway-form/issues/159)) ([8cbdcbe](https://github.com/scaleway/scaleway-form/commit/8cbdcbec05aeae4588a6426a969ea870d839bae6))
+
+
+### :gear: Features
+
+* introduce onRawSubmit and parseSubmitException ([#150](https://github.com/scaleway/scaleway-form/issues/150)) ([9459d6b](https://github.com/scaleway/scaleway-form/commit/9459d6bfb7096a48f7193c2195b4f47ea0191cfc))
+
 ### [1.14.6](https://github.com/scaleway/scaleway-form/compare/v1.14.5...v1.14.6) (2022-03-18)
 
 

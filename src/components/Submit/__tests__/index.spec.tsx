@@ -21,7 +21,7 @@ describe('Submit', () => {
   test('form is invalid', () =>
     shouldMatchEmotionSnapshot(
       <Form initialValues={{ toto: '4' }} errors={mockErrors}>
-        <TextBoxField name="toto" regex={[alpha]}/>
+        <TextBoxField name="toto" regex={[alpha]} />
         <Submit>Test</Submit>
       </Form>,
     ))

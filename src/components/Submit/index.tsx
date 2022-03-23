@@ -15,19 +15,24 @@ const Submit = ({
   variant = 'success',
   className,
 }: SubmitProps): JSX.Element => {
-  const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } = useFormState({
-    subscription: {
-      dirtySinceLastSubmit: true,
-      hasValidationErrors: true,
-      invalid: true,
-      submitting: true,
-    },
-  })
+  const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } =
+    useFormState({
+      subscription: {
+        dirtySinceLastSubmit: true,
+        hasValidationErrors: true,
+        invalid: true,
+        submitting: true,
+      },
+    })
 
   return (
     <Button
       progress={submitting}
-      disabled={disabled || submitting || (invalid && hasValidationErrors && !dirtySinceLastSubmit)}
+      disabled={
+        disabled ||
+        submitting ||
+        (invalid && hasValidationErrors && !dirtySinceLastSubmit)
+      }
       variant={variant}
       type="submit"
       className={className}

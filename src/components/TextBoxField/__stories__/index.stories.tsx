@@ -18,7 +18,9 @@ export default {
   title: 'Components/Fields/TextBoxField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof TextBoxField>> = args => <TextBoxField {...args} />
+const Template: Story<ComponentProps<typeof TextBoxField>> = args => (
+  <TextBoxField {...args} />
+)
 
 Template.args = {
   name: 'template',
@@ -52,7 +54,9 @@ Required.args = {
   required: true,
 }
 
-export const MinMaxLength: Story<ComponentProps<typeof TextBoxField>> = args => (
+export const MinMaxLength: Story<
+  ComponentProps<typeof TextBoxField>
+> = args => (
   <>
     <TextBoxField {...args} />
     <div style={{ marginTop: 8 }}>

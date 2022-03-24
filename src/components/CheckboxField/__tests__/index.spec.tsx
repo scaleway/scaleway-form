@@ -1,3 +1,4 @@
+import { waitFor } from '@testing-library/dom'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import CheckboxField from '..'
@@ -23,13 +24,39 @@ describe('CheckboxField', () => {
       },
     ))
 
-  test('should render correctly checked', () =>
+  test('should render correctly checked without value', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <CheckboxField name="checked" checked />,
+      <CheckboxField name="checked" />,
+      {
+        transform: async node => {
+          const input = node.getByRole('checkbox')
+          await waitFor(() => expect(input).toBeChecked())
+        },
+      },
+      {
+        initialValues: {
+          checked: true,
+        },
+      },
+    ))
+
+  test('should render correctly with a value', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <>
+        <CheckboxField name="value" value="foo" />
+        <CheckboxField name="value" value="bar" />
+      </>,
       {
         transform: node => {
-          const input = node.getByRole('checkbox')
-          expect(input).toBeChecked()
+          const inputChecked = node.getByRole('checkbox', { checked: true })
+          expect(inputChecked).toBeDefined()
+          const inputNotChecked = node.getByRole('checkbox', { checked: false })
+          expect(inputNotChecked).toBeDefined()
+        },
+      },
+      {
+        initialValues: {
+          value: ['bar'],
         },
       },
     ))

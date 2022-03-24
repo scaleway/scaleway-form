@@ -82,7 +82,12 @@ describe('RadioBorderedBoxField', () => {
   test('should render correctly with errors', () =>
     shouldMatchEmotionSnapshot(
       <Form errors={mockErrors}>
-        <RadioBorderedBoxField name="test" value="checked" label="Choice 1" required>
+        <RadioBorderedBoxField
+          name="test"
+          value="checked"
+          label="Choice 1"
+          required
+        >
           Radio field error
         </RadioBorderedBoxField>
         <button type="submit">Submit</button>

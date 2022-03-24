@@ -46,7 +46,9 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<ComponentProps<typeof RadioBorderedBoxField>> = args => (
+export const Required: Story<
+  ComponentProps<typeof RadioBorderedBoxField>
+> = args => (
   <>
     <RadioBorderedBoxField {...args} />
     <div style={{ marginTop: 8 }}>

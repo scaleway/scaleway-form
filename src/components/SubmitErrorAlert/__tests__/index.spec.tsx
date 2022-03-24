@@ -21,16 +21,18 @@ describe('SubmitErrorAlert', () => {
   })
 
   test('should render nothing if no error', () =>
-    shouldMatchEmotionSnapshotFormWrapper(
-      <SubmitErrorAlert />,
-    ))
+    shouldMatchEmotionSnapshotFormWrapper(<SubmitErrorAlert />))
 
   test('should display an alert when submitError is present', async () => {
     const onSubmit = jest.fn(() => ({ [FORM_ERROR]: 'hello' }))
     const onSubmitError = jest.fn(() => {})
 
     await shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors} onSubmit={onSubmit} onSubmitError={onSubmitError}>
+      <Form
+        errors={mockErrors}
+        onSubmit={onSubmit}
+        onSubmitError={onSubmitError}
+      >
         <Submit>Submit</Submit>
         <SubmitErrorAlert />,
       </Form>,

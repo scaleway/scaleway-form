@@ -2,8 +2,8 @@
 
 exports[`StepperField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-18r7qvq-StyledContainer {
-  background-color: #fcfcfd;
+  .cache-jglfj7-StyledContainer {
+  background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -185,7 +185,7 @@ exports[`StepperField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-18r7qvq-StyledContainer"
+      class="etyrq8m0 cache-jglfj7-StyledContainer"
     >
       <button
         aria-disabled="true"
@@ -443,8 +443,8 @@ exports[`StepperField should render correctly disabled 1`] = `
 
 exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 <DocumentFragment>
-  .cache-18r7qvq-StyledContainer {
-  background-color: #fcfcfd;
+  .cache-jglfj7-StyledContainer {
+  background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -626,7 +626,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-18r7qvq-StyledContainer"
+      class="etyrq8m0 cache-jglfj7-StyledContainer"
     >
       <button
         aria-disabled="false"
@@ -680,8 +680,8 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 
 exports[`StepperField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-18r7qvq-StyledContainer {
-  background-color: #fcfcfd;
+  .cache-jglfj7-StyledContainer {
+  background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -863,7 +863,7 @@ exports[`StepperField should trigger events correctly 1`] = `
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-18r7qvq-StyledContainer"
+      class="etyrq8m0 cache-jglfj7-StyledContainer"
     >
       <button
         aria-disabled="true"

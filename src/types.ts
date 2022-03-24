@@ -48,7 +48,9 @@ type RequiredErrors = {
     | ((params: FormErrorFunctionParams & { maxLength: number }) => string)
     | string
   REGEX:
-    | ((params: FormErrorFunctionParams & { regex: (RegExp | RegExp[])[] }) => string)
+    | ((
+        params: FormErrorFunctionParams & { regex: (RegExp | RegExp[])[] },
+      ) => string)
     | string
   REQUIRED: ((params: FormErrorFunctionParams) => string) | string
 }

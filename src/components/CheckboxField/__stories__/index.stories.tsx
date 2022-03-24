@@ -19,9 +19,7 @@ export default {
 } as Meta
 
 const Template: Story<ComponentProps<typeof CheckboxField>> = args => (
-  <CheckboxField {...args}>
-    Checkbox
-  </CheckboxField>
+  <CheckboxField {...args}>Checkbox</CheckboxField>
 )
 
 export const Default = Template.bind({})

@@ -16,8 +16,13 @@ export default {
   title: 'Components/Submit',
 } as Meta
 
-export const Default: Story<ComponentProps<typeof Submit>> = ({ children, ...props }) => (
-  <Form errors={mockErrors}><Submit {...props}>{children}</Submit></Form>
+export const Default: Story<ComponentProps<typeof Submit>> = ({
+  children,
+  ...props
+}) => (
+  <Form errors={mockErrors}>
+    <Submit {...props}>{children}</Submit>
+  </Form>
 )
 
 Default.args = {

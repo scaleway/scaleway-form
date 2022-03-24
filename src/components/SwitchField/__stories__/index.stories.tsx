@@ -18,7 +18,9 @@ export default {
   title: 'Components/Fields/SwitchField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof SwitchField>> = args => <SwitchField {...args} />
+const Template: Story<ComponentProps<typeof SwitchField>> = args => (
+  <SwitchField {...args} />
+)
 
 Template.args = {
   name: 'template',

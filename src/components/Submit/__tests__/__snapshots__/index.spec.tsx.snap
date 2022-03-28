@@ -6,14 +6,14 @@ exports[`Submit form is invalid 1`] = `
   position: relative;
 }
 
-.cache-1q7nrzy-StyledInput {
+.cache-r05oyn-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: #fcfcfd;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #d4dae7;
   border-radius: 4px;
@@ -35,49 +35,49 @@ exports[`Submit form is invalid 1`] = `
   padding: 8px;
 }
 
-.cache-1q7nrzy-StyledInput::-webkit-input-placeholder {
+.cache-r05oyn-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput::-moz-placeholder {
+.cache-r05oyn-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput:-ms-input-placeholder {
+.cache-r05oyn-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput::placeholder {
+.cache-r05oyn-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput:hover,
-.cache-1q7nrzy-StyledInput:focus {
+.cache-r05oyn-StyledInput:hover,
+.cache-r05oyn-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-1q7nrzy-StyledInput:focus {
+.cache-r05oyn-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-1q7nrzy-StyledInput::-webkit-input-placeholder {
+.cache-r05oyn-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput::-moz-placeholder {
+.cache-r05oyn-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput:-ms-input-placeholder {
+.cache-r05oyn-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput::placeholder {
+.cache-r05oyn-StyledInput::placeholder {
   opacity: 1;
 }
 
@@ -187,7 +187,7 @@ exports[`Submit form is invalid 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-1q7nrzy-StyledInput e18bmnpq0"
+          class="cache-r05oyn-StyledInput e18bmnpq0"
           name="toto"
           type="text"
           value="4"

@@ -6,14 +6,14 @@ exports[`TextBoxField should render correctly 1`] = `
   position: relative;
 }
 
-.cache-1q7nrzy-StyledInput {
+.cache-r05oyn-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: #fcfcfd;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #d4dae7;
   border-radius: 4px;
@@ -35,49 +35,49 @@ exports[`TextBoxField should render correctly 1`] = `
   padding: 8px;
 }
 
-.cache-1q7nrzy-StyledInput::-webkit-input-placeholder {
+.cache-r05oyn-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput::-moz-placeholder {
+.cache-r05oyn-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput:-ms-input-placeholder {
+.cache-r05oyn-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput::placeholder {
+.cache-r05oyn-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1q7nrzy-StyledInput:hover,
-.cache-1q7nrzy-StyledInput:focus {
+.cache-r05oyn-StyledInput:hover,
+.cache-r05oyn-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-1q7nrzy-StyledInput:focus {
+.cache-r05oyn-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-1q7nrzy-StyledInput::-webkit-input-placeholder {
+.cache-r05oyn-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput::-moz-placeholder {
+.cache-r05oyn-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput:-ms-input-placeholder {
+.cache-r05oyn-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1q7nrzy-StyledInput::placeholder {
+.cache-r05oyn-StyledInput::placeholder {
   opacity: 1;
 }
 
@@ -112,7 +112,7 @@ exports[`TextBoxField should render correctly 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-1q7nrzy-StyledInput e18bmnpq0"
+          class="cache-r05oyn-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value=""
@@ -136,14 +136,14 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   position: relative;
 }
 
-.cache-qdi7w8-StyledInput {
+.cache-fs23h7-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: #fcfcfd;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #d4dae7;
   border-radius: 4px;
@@ -170,49 +170,49 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   padding: 8px;
 }
 
-.cache-qdi7w8-StyledInput::-webkit-input-placeholder {
+.cache-fs23h7-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-qdi7w8-StyledInput::-moz-placeholder {
+.cache-fs23h7-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-qdi7w8-StyledInput:-ms-input-placeholder {
+.cache-fs23h7-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-qdi7w8-StyledInput::placeholder {
+.cache-fs23h7-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-qdi7w8-StyledInput:hover,
-.cache-qdi7w8-StyledInput:focus {
+.cache-fs23h7-StyledInput:hover,
+.cache-fs23h7-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-qdi7w8-StyledInput:focus {
+.cache-fs23h7-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-qdi7w8-StyledInput::-webkit-input-placeholder {
+.cache-fs23h7-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-qdi7w8-StyledInput::-moz-placeholder {
+.cache-fs23h7-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-qdi7w8-StyledInput:-ms-input-placeholder {
+.cache-fs23h7-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-qdi7w8-StyledInput::placeholder {
+.cache-fs23h7-StyledInput::placeholder {
   opacity: 1;
 }
 
@@ -247,7 +247,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-qdi7w8-StyledInput e18bmnpq0"
+          class="cache-fs23h7-StyledInput e18bmnpq0"
           disabled=""
           name="test"
           type="text"
@@ -272,14 +272,14 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   position: relative;
 }
 
-.cache-udr7pk-StyledInput {
+.cache-be48p9-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: #fcfcfd;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #d4dae7;
   border-radius: 4px;
@@ -302,58 +302,58 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   border-color: #dd3252;
 }
 
-.cache-udr7pk-StyledInput::-webkit-input-placeholder {
+.cache-be48p9-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-udr7pk-StyledInput::-moz-placeholder {
+.cache-be48p9-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-udr7pk-StyledInput:-ms-input-placeholder {
+.cache-be48p9-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-udr7pk-StyledInput::placeholder {
+.cache-be48p9-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-udr7pk-StyledInput:hover,
-.cache-udr7pk-StyledInput:focus {
+.cache-be48p9-StyledInput:hover,
+.cache-be48p9-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-udr7pk-StyledInput:focus {
+.cache-be48p9-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(79,5,153,0.25);
   border-color: #4f0599;
 }
 
-.cache-udr7pk-StyledInput::-webkit-input-placeholder {
+.cache-be48p9-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-udr7pk-StyledInput::-moz-placeholder {
+.cache-be48p9-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-udr7pk-StyledInput:-ms-input-placeholder {
+.cache-be48p9-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-udr7pk-StyledInput::placeholder {
+.cache-be48p9-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-udr7pk-StyledInput:hover,
-.cache-udr7pk-StyledInput:focus {
+.cache-be48p9-StyledInput:hover,
+.cache-be48p9-StyledInput:focus {
   border-color: #a6102d;
 }
 
-.cache-udr7pk-StyledInput:focus {
+.cache-be48p9-StyledInput:focus {
   box-shadow: 0 0 0 2px rgba(221,50,82,0.25);
   border-color: #dd3252;
 }
@@ -395,7 +395,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-udr7pk-StyledInput e18bmnpq0"
+          class="cache-be48p9-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value="test"

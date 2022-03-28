@@ -1,3 +1,10 @@
+### [1.15.3](https://github.com/scaleway/scaleway-form/compare/v1.15.2...v1.15.3) (2022-03-28)
+
+
+### :bug: Bug Fixes
+
+* checkbox needs to be touched before error message ([#173](https://github.com/scaleway/scaleway-form/issues/173)) ([e932d1a](https://github.com/scaleway/scaleway-form/commit/e932d1ad9434219a0d852e2d7e7fb0af3962b755))
+
 ### [1.15.2](https://github.com/scaleway/scaleway-form/compare/v1.15.1...v1.15.2) (2022-03-28)
 
 

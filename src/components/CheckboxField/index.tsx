@@ -79,7 +79,7 @@ const CheckboxField = forwardRef(
 
     const error = useMemo(
       () =>
-        meta.error && meta.touched
+        meta.error && meta.dirty
           ? getFirstError({
               allValues: values,
               label,

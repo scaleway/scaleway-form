@@ -39,6 +39,12 @@ export const Checked: Story<FormProps> = ({ errors }) => (
   </Form>
 )
 
+export const BooleanChecked: Story<FormProps> = ({ errors }) => (
+  <Form errors={errors} initialValues={{ foo: true }}>
+    <CheckboxField name="foo">Default Checked Boolean Item</CheckboxField>
+  </Form>
+)
+
 export const Disabled = Template.bind({})
 
 Disabled.args = {

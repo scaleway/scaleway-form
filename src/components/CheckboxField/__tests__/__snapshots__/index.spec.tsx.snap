@@ -622,7 +622,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
         <div
           class="cache-egzmkg-StyledChildrenContainer eu28k4m2"
         >
-          Radio field error
+          Checkbox field error
         </div>
       </label>
       <div
@@ -635,11 +635,6 @@ exports[`CheckboxField should render correctly with errors 1`] = `
         </div>
       </div>
     </div>
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
   </form>
 </DocumentFragment>
 `;

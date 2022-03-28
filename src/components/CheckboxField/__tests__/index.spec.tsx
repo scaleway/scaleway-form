@@ -93,13 +93,14 @@ describe('CheckboxField', () => {
     shouldMatchEmotionSnapshot(
       <Form errors={mockErrors}>
         <CheckboxField name="test" required>
-          Radio field error
+          Checkbox field error
         </CheckboxField>
-        <button type="submit">Submit</button>
       </Form>,
       {
         transform: node => {
-          userEvent.click(node.getByRole('button'))
+          userEvent.click(node.getByRole('checkbox'))
+          // to trigger error
+          userEvent.click(node.getByRole('checkbox'))
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

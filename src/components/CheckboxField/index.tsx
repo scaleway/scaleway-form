@@ -13,13 +13,12 @@ import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
-type CheckboxValue = NonNullable<ComponentProps<typeof Checkbox>['checked']>
+type CheckboxValue = string
 
 type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
   Partial<
     Pick<
       ComponentProps<typeof Checkbox>,
-      | 'checked'
       | 'disabled'
       | 'id'
       | 'onBlur'
@@ -31,6 +30,7 @@ type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
       | 'size'
       | 'typographyVariant'
       | 'valid'
+      | 'value'
     >
   > & {
     name: string
@@ -51,13 +51,13 @@ const CheckboxField = forwardRef(
       disabled,
       required,
       typographyVariant,
-      checked,
       id,
       className,
       children,
       onChange,
       onBlur,
       onFocus,
+      value,
     }: CheckboxFieldProps,
     ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
@@ -74,7 +74,7 @@ const CheckboxField = forwardRef(
     const { input, meta } = useField(name, {
       type: 'checkbox',
       validate: validateFn,
-      value: checked,
+      value,
     })
 
     const error = useMemo(
@@ -83,12 +83,12 @@ const CheckboxField = forwardRef(
           ? getFirstError({
               allValues: values,
               label,
-              meta: meta as FieldState<boolean | undefined>,
+              meta: meta as FieldState<string | boolean | undefined>,
               name,
-              value: input.checked,
+              value: input.value ?? input.checked,
             })
           : undefined,
-      [getFirstError, input.checked, label, meta, name, values],
+      [getFirstError, input.checked, label, meta, name, values, input.value],
     )
 
     return (
@@ -113,11 +113,12 @@ const CheckboxField = forwardRef(
         disabled={disabled}
         required={required}
         typographyVariant={typographyVariant}
-        checked={input.value}
+        checked={input.checked}
         id={id}
         error={error}
         ref={ref}
         className={className}
+        value={input.value}
       >
         {children}
       </Checkbox>

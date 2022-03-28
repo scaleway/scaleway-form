@@ -2,7 +2,7 @@ import { ThemeProvider } from '@emotion/react'
 import makeHelpers from '@scaleway/jest-helpers'
 import { lightTheme } from '@scaleway/ui'
 import { render } from '@testing-library/react'
-import React, { FC, ReactElement, ReactNode } from 'react'
+import React, { ComponentProps, FC, ReactElement, ReactNode } from 'react'
 import Form from '../components/Form'
 import mockErrors from '../mocks/mockErrors'
 
@@ -23,11 +23,17 @@ export const {
 export const shouldMatchEmotionSnapshotFormWrapper = (
   children: ReactNode,
   options?: Parameters<typeof shouldMatchEmotionSnapshot>[1],
-) =>
-  shouldMatchEmotionSnapshot(
-    <Form errors={mockErrors}>{() => children}</Form>,
+  formOptions?: Partial<ComponentProps<typeof Form>>,
+) => {
+  const { initialValues } = formOptions ?? {}
+
+  return shouldMatchEmotionSnapshot(
+    <Form errors={mockErrors} initialValues={initialValues}>
+      {() => children}
+    </Form>,
     options,
   )
+}
 
 export const renderWithWrapper = (children: ReactElement) =>
   render(children, {

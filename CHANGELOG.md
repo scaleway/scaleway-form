@@ -1,3 +1,18 @@
+### [1.15.2](https://github.com/scaleway/scaleway-form/compare/v1.15.1...v1.15.2) (2022-03-28)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @testing-library/jest-dom to v5.16.3 ([#169](https://github.com/scaleway/scaleway-form/issues/169)) ([7bcf61c](https://github.com/scaleway/scaleway-form/commit/7bcf61c3da3cae5a7eea86deee94706841223517))
+* **devdeps:** update dependency eslint-plugin-mdx to v1.17.0 ([#172](https://github.com/scaleway/scaleway-form/issues/172)) ([01e5e5a](https://github.com/scaleway/scaleway-form/commit/01e5e5ad2be533a4a1c0cca750f4860c9a86e864))
+* **devdeps:** update dependency prettier to v2.6.1 ([#171](https://github.com/scaleway/scaleway-form/issues/171)) ([c455e0d](https://github.com/scaleway/scaleway-form/commit/c455e0d457f36426e7a0f73d28a3ff0f0bf2c270))
+* **devdeps:** update dependency typescript to v4.6.3 ([#170](https://github.com/scaleway/scaleway-form/issues/170)) ([ab7c3af](https://github.com/scaleway/scaleway-form/commit/ab7c3af3271cdb85d9bd45f43140b26efeacffec))
+
+
+### :bug: Bug Fixes
+
+* checkbox multiselect ([#167](https://github.com/scaleway/scaleway-form/issues/167)) ([f65292f](https://github.com/scaleway/scaleway-form/commit/f65292f910c00f8013f5c76193532b9ee41c0902))
+
 ### [1.15.1](https://github.com/scaleway/scaleway-form/compare/v1.15.0...v1.15.1) (2022-03-28)
 
 

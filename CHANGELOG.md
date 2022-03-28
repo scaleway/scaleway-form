@@ -1,3 +1,19 @@
+### [1.15.1](https://github.com/scaleway/scaleway-form/compare/v1.15.0...v1.15.1) (2022-03-28)
+
+
+### :lipstick: Style
+
+* **format:** format all project ([#164](https://github.com/scaleway/scaleway-form/issues/164)) ([bd034dc](https://github.com/scaleway/scaleway-form/commit/bd034dcac4a86b9f6fa637c48d488c7c7ddde727))
+
+
+### :package: Chore
+
+* correct theme in storybook ([#166](https://github.com/scaleway/scaleway-form/issues/166)) ([7180a2e](https://github.com/scaleway/scaleway-form/commit/7180a2ebcf53ea80bb22fbed3d55952f80c1dd02))
+* **deps:** update dependency @scaleway/ui to v0.141.4 ([#162](https://github.com/scaleway/scaleway-form/issues/162)) ([bb0a1d0](https://github.com/scaleway/scaleway-form/commit/bb0a1d0a3b838dc7189e4e5187ae3075919223ba))
+* **devdeps:** update dependency @testing-library/dom to v8.11.4 ([#168](https://github.com/scaleway/scaleway-form/issues/168)) ([14aa666](https://github.com/scaleway/scaleway-form/commit/14aa6660e7315986d279be0459ed57385ea771be))
+* **devdeps:** update dependency babel-loader to v8.2.4 ([#165](https://github.com/scaleway/scaleway-form/issues/165)) ([8c2e827](https://github.com/scaleway/scaleway-form/commit/8c2e827fb999219b3dfd21bd9eb6bc78e9e4bf20))
+* **devdeps:** update node.js to v17.8 ([#163](https://github.com/scaleway/scaleway-form/issues/163)) ([fcb869f](https://github.com/scaleway/scaleway-form/commit/fcb869f73c99ebd1acc40f3d5cd9f4f271bd8e37))
+
 ## [1.15.0](https://github.com/scaleway/scaleway-form/compare/v1.14.6...v1.15.0) (2022-03-21)
 
 

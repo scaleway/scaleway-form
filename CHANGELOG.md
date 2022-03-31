@@ -1,3 +1,18 @@
+### [1.15.4](https://github.com/scaleway/scaleway-form/compare/v1.15.3...v1.15.4) (2022-03-31)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.1 ([#176](https://github.com/scaleway/scaleway-form/issues/176)) ([2a07421](https://github.com/scaleway/scaleway-form/commit/2a07421abc7370be03e0690f2eeedaf5167676bb))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.11 ([#177](https://github.com/scaleway/scaleway-form/issues/177)) ([7626d79](https://github.com/scaleway/scaleway-form/commit/7626d79b955eef4967dbcd621e82d1827fcb6bfc))
+* **devdeps:** update dependency @semantic-release/github to v8.0.4 ([#178](https://github.com/scaleway/scaleway-form/issues/178)) ([70d6e3c](https://github.com/scaleway/scaleway-form/commit/70d6e3c8831e0838ed790331239bc1e6db19de0d))
+* **devdeps:** update dependency eslint to v8.12.0 ([#179](https://github.com/scaleway/scaleway-form/issues/179)) ([20f4d34](https://github.com/scaleway/scaleway-form/commit/20f4d3401ccc3242b17df418b3af346b78f1ddec))
+
+
+### :bug: Bug Fixes
+
+* touched instead of dirty ([#181](https://github.com/scaleway/scaleway-form/issues/181)) ([836b1ae](https://github.com/scaleway/scaleway-form/commit/836b1ae2b9871170eb0ba5e06a7413348439e902))
+
 ### [1.15.3](https://github.com/scaleway/scaleway-form/compare/v1.15.2...v1.15.3) (2022-03-28)
 
 

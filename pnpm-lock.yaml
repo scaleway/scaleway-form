@@ -37,7 +37,7 @@ specifiers:
   '@storybook/manager-webpack5': 6.4.19
   '@storybook/react': 6.4.19
   '@storybook/theming': 6.4.19
-  '@testing-library/dom': 8.11.4
+  '@testing-library/dom': 8.12.0
   '@testing-library/jest-dom': 5.16.3
   '@testing-library/react': 12.1.4
   '@testing-library/react-hooks': 7.0.2
@@ -116,11 +116,11 @@ devDependencies:
   '@storybook/manager-webpack5': 6.4.19_f20e6186fe6af3f477ab127b79656e9d
   '@storybook/react': 6.4.19_a86da6113551fce822dc47447b9ab9a7
   '@storybook/theming': 6.4.19_react-dom@17.0.2+react@17.0.2
-  '@testing-library/dom': 8.11.4
+  '@testing-library/dom': 8.12.0
   '@testing-library/jest-dom': 5.16.3
   '@testing-library/react': 12.1.4_react-dom@17.0.2+react@17.0.2
   '@testing-library/react-hooks': 7.0.2_react-dom@17.0.2+react@17.0.2
-  '@testing-library/user-event': 13.5.0_@testing-library+dom@8.11.4
+  '@testing-library/user-event': 13.5.0_@testing-library+dom@8.12.0
   '@types/final-form-focus': 1.1.2
   '@types/react-dom': 17.0.14
   babel-loader: 8.2.4_fa907c5a4f16ccc493e21649ccc59574
@@ -4829,8 +4829,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@testing-library/dom/8.11.4:
-    resolution: {integrity: sha512-7vZ6ZoBEbr6bfEM89W1nzl0vHbuI0g0kRrI0hwSXH3epnuqGO3KulFLQCKfmmW+60t7e4sevAkJPASSMmnNCRw==}
+  /@testing-library/dom/8.12.0:
+    resolution: {integrity: sha512-rBrJk5WjI02X1edtiUcZhgyhgBhiut96r5Jp8J5qktKdcvLcZpKDW8i2hkGMMItxrghjXuQ5AM6aE0imnFawaw==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
@@ -4888,20 +4888,20 @@ packages:
       react-dom: '*'
     dependencies:
       '@babel/runtime': 7.17.8
-      '@testing-library/dom': 8.11.4
+      '@testing-library/dom': 8.12.0
       '@types/react-dom': 17.0.14
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /@testing-library/user-event/13.5.0_@testing-library+dom@8.11.4:
+  /@testing-library/user-event/13.5.0_@testing-library+dom@8.12.0:
     resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==}
     engines: {node: '>=10', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
       '@babel/runtime': 7.17.8
-      '@testing-library/dom': 8.11.4
+      '@testing-library/dom': 8.12.0
     dev: true
 
   /@tootallnate/once/1.1.2:

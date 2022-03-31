@@ -635,6 +635,9 @@ exports[`CheckboxField should render correctly with errors 1`] = `
         </div>
       </div>
     </div>
+    <div>
+      Focus
+    </div>
   </form>
 </DocumentFragment>
 `;

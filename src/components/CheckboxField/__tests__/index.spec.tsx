@@ -95,12 +95,14 @@ describe('CheckboxField', () => {
         <CheckboxField name="test" required>
           Checkbox field error
         </CheckboxField>
+        <div>Focus</div>
       </Form>,
       {
         transform: node => {
           userEvent.click(node.getByRole('checkbox'))
           // to trigger error
           userEvent.click(node.getByRole('checkbox'))
+          userEvent.click(node.getByText('Focus'))
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

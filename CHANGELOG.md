@@ -1,3 +1,12 @@
+### [1.15.5](https://github.com/scaleway/scaleway-form/compare/v1.15.4...v1.15.5) (2022-04-01)
+
+
+### :package: Chore
+
+* **deps:** update dependency react-final-form to v6.5.9 ([#183](https://github.com/scaleway/scaleway-form/issues/183)) ([d0aba40](https://github.com/scaleway/scaleway-form/commit/d0aba40142957a3d8a99a3daa3b48416ab412c9e))
+* **devdeps:** update actions/setup-node action to v3.1.0 ([#184](https://github.com/scaleway/scaleway-form/issues/184)) ([47b3327](https://github.com/scaleway/scaleway-form/commit/47b33276fb2054f29c52941a636b5517941d5e24))
+* **devdeps:** update dependency @testing-library/dom to v8.12.0 ([#182](https://github.com/scaleway/scaleway-form/issues/182)) ([aa23a33](https://github.com/scaleway/scaleway-form/commit/aa23a33013e15d612069c24a8798da8e697f099a))
+
 ### [1.15.4](https://github.com/scaleway/scaleway-form/compare/v1.15.3...v1.15.4) (2022-03-31)
 
 

@@ -61,7 +61,7 @@ specifiers:
   prettier: 2.6.1
   react: 17.0.2
   react-dom: 17.0.2
-  react-final-form: 6.5.8
+  react-final-form: 6.5.9
   react-final-form-arrays: 3.1.3
   read-pkg: 7.1.0
   regenerator-runtime: 0.13.9
@@ -78,8 +78,8 @@ dependencies:
   final-form: 4.20.6
   final-form-arrays: 3.0.2_final-form@4.20.6
   final-form-focus: 1.1.2_final-form@4.20.6
-  react-final-form: 6.5.8_final-form@4.20.6+react@17.0.2
-  react-final-form-arrays: 3.1.3_c7183b9072c7bd54d3217d8aa3483ba0
+  react-final-form: 6.5.9_final-form@4.20.6+react@17.0.2
+  react-final-form-arrays: 3.1.3_fd5fdd335e5a135d158aacc1f9712887
 
 devDependencies:
   '@babel/core': 7.17.8
@@ -13405,7 +13405,7 @@ packages:
   /react-fast-compare/3.2.0:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
 
-  /react-final-form-arrays/3.1.3_c7183b9072c7bd54d3217d8aa3483ba0:
+  /react-final-form-arrays/3.1.3_fd5fdd335e5a135d158aacc1f9712887:
     resolution: {integrity: sha512-dzBiLfbr9l1YRExARBpJ8uA/djBenCvFrbrsXjd362joDl3vT+WhmMKKr6HDQMJffjA8T4gZ3n5+G9M59yZfuQ==}
     peerDependencies:
       final-form: ^4.15.0
@@ -13417,14 +13417,14 @@ packages:
       final-form: 4.20.6
       final-form-arrays: 3.0.2_final-form@4.20.6
       react: 17.0.2
-      react-final-form: 6.5.8_final-form@4.20.6+react@17.0.2
+      react-final-form: 6.5.9_final-form@4.20.6+react@17.0.2
     dev: false
 
-  /react-final-form/6.5.8_final-form@4.20.6+react@17.0.2:
-    resolution: {integrity: sha512-j8Rmr5zAaMliNbh+CPnY734exHfk7MjQ8I6ZcykcChmPDFPV2aF40PFAcmQ/KreA10AI8ew0tff6q0gVqwFaGA==}
+  /react-final-form/6.5.9_final-form@4.20.6+react@17.0.2:
+    resolution: {integrity: sha512-x3XYvozolECp3nIjly+4QqxdjSSWfcnpGEL5K8OBT6xmGrq5kBqbA6+/tOqoom9NwqIPPbxPNsOViFlbKgowbA==}
     peerDependencies:
       final-form: ^4.20.4
-      react: ^16.8.0 || ^17.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.17.8
       final-form: 4.20.6

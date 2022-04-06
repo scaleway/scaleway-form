@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-url': 6.1.0
   '@scaleway/eslint-config-react': 3.4.12
   '@scaleway/jest-helpers': 1.2.0
-  '@scaleway/ui': 0.141.4
+  '@scaleway/ui': 0.141.7
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -74,7 +74,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.8
-  '@scaleway/ui': 0.141.4_bdd5fe2b4134ed97a6a9f5376dac0f23
+  '@scaleway/ui': 0.141.7_bdd5fe2b4134ed97a6a9f5376dac0f23
   final-form: 4.20.6
   final-form-arrays: 3.0.2_final-form@4.20.6
   final-form-focus: 1.1.2_final-form@4.20.6
@@ -2962,8 +2962,8 @@ packages:
     resolution: {integrity: sha512-ml6Cd+OJxUb4NjGMsBLaEUDSYLXIb8c9jBEK7vjLvtgwwaDVT+LdKEwWxiwMcI5vaedfkgTIGhooiTgBxwqijA==}
     dev: false
 
-  /@scaleway/ui/0.141.4_bdd5fe2b4134ed97a6a9f5376dac0f23:
-    resolution: {integrity: sha512-J2Y+g74OOWRGijbRStkSppTBq6bkZmUQ4gh4P+Zwnl9r9+c+AuFa89L50NDYtm/qPhqAEHKau4TswdsCwc6HpQ==}
+  /@scaleway/ui/0.141.7_bdd5fe2b4134ed97a6a9f5376dac0f23:
+    resolution: {integrity: sha512-U6EtuoYZTsnr8jOqnvXj3yAqV4mDYm27lu+lAxhoZPDM6i/kiCmYZbEOtrcBGpdRqI5R3G7dvDCsHQVvPAfwgw==}
     engines: {node: '>=14.x', pnpm: '>=6'}
     os: [darwin, linux]
     peerDependencies:
@@ -2986,10 +2986,10 @@ packages:
       '@xstyled/emotion': 2.5.0_e50f5a09913de50d44ea40d74496bf6e
       deepmerge: 4.2.2
       intl-tel-input: 17.0.16
-      polished: 4.1.4
+      polished: 4.2.1
       prop-types: 15.8.1
       react: 17.0.2
-      react-countup: 6.1.1_react@17.0.2
+      react-countup: 6.2.0_react@17.0.2
       react-datepicker: 4.7.0_react-dom@17.0.2+react@17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-flatten-children: 1.1.2
@@ -3960,7 +3960,7 @@ packages:
       markdown-to-jsx: 7.1.6_react@17.0.2
       memoizerific: 1.11.3
       overlayscrollbars: 1.13.1
-      polished: 4.1.4
+      polished: 4.2.1
       prop-types: 15.8.1
       react: 17.0.2
       react-colorful: 5.5.1_react-dom@17.0.2+react@17.0.2
@@ -12882,6 +12882,13 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/runtime': 7.17.8
+    dev: true
+
+  /polished/4.2.1:
+    resolution: {integrity: sha512-vRkUnHBwVX7kIeCzCghcLCWoDenV+sV7lkItnmTc7bb6Uzbe8ogU1FxqEW8+dXCxUX8YW8vusQ0HTk2yES7bfQ==}
+    engines: {node: '>=10'}
+    dependencies:
+      '@babel/runtime': 7.17.8
 
   /posix-character-classes/0.1.1:
     resolution: {integrity: sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=}
@@ -13298,8 +13305,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /react-countup/6.1.1_react@17.0.2:
-    resolution: {integrity: sha512-9mYlnk/yCFg3g2/65pCTex6mr9h0eYdDMIL4T5nfLj/RzoiqY03wlPxZglzbJ6OzXvU37OmYApwQ4WMZNFr8Aw==}
+  /react-countup/6.2.0_react@17.0.2:
+    resolution: {integrity: sha512-3WOKAQpWgjyFoH231SHEpIpHhDGb5g5EkTppM6T7vLa3X+8WMdw6750vVcY0wxysKiY00gTFhDwSB5qLU+xPZA==}
     peerDependencies:
       react: '>= 16.3.0'
     dependencies:

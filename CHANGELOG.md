@@ -1,3 +1,17 @@
+### [1.15.6](https://github.com/scaleway/scaleway-form/compare/v1.15.5...v1.15.6) (2022-04-06)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.141.7 ([#189](https://github.com/scaleway/scaleway-form/issues/189)) ([8214d5d](https://github.com/scaleway/scaleway-form/commit/8214d5d826bf29095d153d0f51fb8a1086360a0e))
+* **devdeps:** update codecov/codecov-action action to v3 ([#193](https://github.com/scaleway/scaleway-form/issues/193)) ([d91a71e](https://github.com/scaleway/scaleway-form/commit/d91a71e99c656e4cddaaef2e96b7fa9f8ddcb397))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.12 ([#185](https://github.com/scaleway/scaleway-form/issues/185)) ([87831b7](https://github.com/scaleway/scaleway-form/commit/87831b77ef9633b3f9b9593655db0a905e43aa13))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.1.13 ([#191](https://github.com/scaleway/scaleway-form/issues/191)) ([2a5b894](https://github.com/scaleway/scaleway-form/commit/2a5b894ed933eb1dc8ed4f92156339fd85e80224))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.2.0 ([#192](https://github.com/scaleway/scaleway-form/issues/192)) ([756bfa3](https://github.com/scaleway/scaleway-form/commit/756bfa32f8c2c8f2bbd5e8fa66edc9eb7ac079a7))
+* **devdeps:** update dependency prettier to v2.6.2 ([#188](https://github.com/scaleway/scaleway-form/issues/188)) ([337fc04](https://github.com/scaleway/scaleway-form/commit/337fc04fcc11b220ce90b142a7a6cc7fad2ff578))
+* **devdeps:** update pnpm to v6.32.4 ([#186](https://github.com/scaleway/scaleway-form/issues/186)) ([6ad980a](https://github.com/scaleway/scaleway-form/commit/6ad980abe152e5de6075bad9710ac1a307aa51c3))
+* **devdeps:** update storybook monorepo to v6.4.20 ([#187](https://github.com/scaleway/scaleway-form/issues/187)) ([0487102](https://github.com/scaleway/scaleway-form/commit/048710245e08092a6db4b48e406f612b5dc84561))
+
 ### [1.15.5](https://github.com/scaleway/scaleway-form/compare/v1.15.4...v1.15.5) (2022-04-01)
 
 

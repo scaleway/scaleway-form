@@ -38,7 +38,7 @@ specifiers:
   '@storybook/react': 6.4.20
   '@storybook/theming': 6.4.20
   '@testing-library/dom': 8.12.0
-  '@testing-library/jest-dom': 5.16.3
+  '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.4
   '@testing-library/react-hooks': 7.0.2
   '@testing-library/user-event': 13.5.0
@@ -117,7 +117,7 @@ devDependencies:
   '@storybook/react': 6.4.20_edd5bf720a41f083cd1709604dea6701
   '@storybook/theming': 6.4.20_react-dom@17.0.2+react@17.0.2
   '@testing-library/dom': 8.12.0
-  '@testing-library/jest-dom': 5.16.3
+  '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.4_react-dom@17.0.2+react@17.0.2
   '@testing-library/react-hooks': 7.0.2_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 13.5.0_@testing-library+dom@8.12.0
@@ -4837,8 +4837,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom/5.16.3:
-    resolution: {integrity: sha512-u5DfKj4wfSt6akfndfu1eG06jsdyA/IUrlX2n3pyq5UXgXMhXY+NJb8eNK/7pqPWAhCKsCGWDdDO0zKMKAYkEA==}
+  /@testing-library/jest-dom/5.16.4:
+    resolution: {integrity: sha512-Gy+IoFutbMQcky0k+bqqumXZ1cTGswLsFqmNLzNdSKkU9KGV2u9oXhukCbbJ9/LRPKiqwxEE8VpV/+YZlfkPUA==}
     engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
     dependencies:
       '@babel/runtime': 7.17.8

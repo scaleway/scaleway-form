@@ -104,6 +104,7 @@ const Form = <FormValues,>({
       render={
         render ??
         (renderProps => (
+          // eslint-disable-next-line @typescript-eslint/no-misused-promises
           <form noValidate name={name} onSubmit={renderProps.handleSubmit}>
             {typeof children === 'function' ? children(renderProps) : children}
           </form>

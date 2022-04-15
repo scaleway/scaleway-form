@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-url': 6.1.0
   '@scaleway/eslint-config-react': 3.4.16
   '@scaleway/jest-helpers': 1.2.4
-  '@scaleway/ui': 0.141.7
+  '@scaleway/ui': 0.144.2
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -74,7 +74,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.9
-  '@scaleway/ui': 0.141.7_3782ad821661fd4316bcd740d95f80f1
+  '@scaleway/ui': 0.144.2_3782ad821661fd4316bcd740d95f80f1
   final-form: 4.20.6
   final-form-arrays: 3.0.2_final-form@4.20.6
   final-form-focus: 1.1.2_final-form@4.20.6
@@ -1586,13 +1586,6 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/runtime/7.17.8:
-    resolution: {integrity: sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: false
-
   /@babel/runtime/7.17.9:
     resolution: {integrity: sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==}
     engines: {node: '>=6.9.0'}
@@ -2002,6 +1995,7 @@ packages:
       '@emotion/unitless': 0.7.5
       '@emotion/utils': 1.1.0
       csstype: 3.0.10
+    dev: true
 
   /@emotion/serialize/1.0.3:
     resolution: {integrity: sha512-2mSSvgLfyV3q+iVh3YWgNlUc2a9ZlDU7DjuP5MjK3AXRR0dYigCrP99aeFtaB2L/hjfEZdSThn5dsZ0ufqbvsA==}
@@ -2982,35 +2976,36 @@ packages:
       - react-dom
     dev: true
 
-  /@scaleway/random-name/3.0.0:
-    resolution: {integrity: sha512-ml6Cd+OJxUb4NjGMsBLaEUDSYLXIb8c9jBEK7vjLvtgwwaDVT+LdKEwWxiwMcI5vaedfkgTIGhooiTgBxwqijA==}
+  /@scaleway/random-name/3.0.2:
+    resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.141.7_3782ad821661fd4316bcd740d95f80f1:
-    resolution: {integrity: sha512-U6EtuoYZTsnr8jOqnvXj3yAqV4mDYm27lu+lAxhoZPDM6i/kiCmYZbEOtrcBGpdRqI5R3G7dvDCsHQVvPAfwgw==}
+  /@scaleway/ui/0.144.2_3782ad821661fd4316bcd740d95f80f1:
+    resolution: {integrity: sha512-rURXzn9CNRgsMz0r74np4X10TVMtHCxJjdnBLeCm9TdckMCZnbaLmYuylCGwOQUON8SP6ouI7KKAXruSAA13PA==}
     engines: {node: '>=14.x', pnpm: '>=6'}
     os: [darwin, linux]
     peerDependencies:
-      '@emotion/react': 11.8.2
+      '@emotion/react': 11.9.0
       '@emotion/styled': 11.8.1
       react: 17.0.2
       react-dom: 17.0.2
     dependencies:
-      '@babel/runtime': 7.17.8
+      '@babel/runtime': 7.17.9
       '@emotion/react': 11.9.0_@babel+core@7.17.9+react@17.0.2
-      '@emotion/serialize': 1.0.2
+      '@emotion/serialize': 1.0.3
       '@emotion/styled': 11.8.1_3ce471551e6e06bcaecec3488aa5ccb5
       '@nivo/bar': 0.79.1_d6b911f291990e4ea501d615c4dd6f55
       '@nivo/core': 0.79.0_75cb922c19ee1b7939faae9b4d1f4cf7
       '@nivo/line': 0.79.1_d6b911f291990e4ea501d615c4dd6f55
       '@nivo/pie': 0.79.1_d6b911f291990e4ea501d615c4dd6f55
-      '@scaleway/random-name': 3.0.0
+      '@nivo/scales': 0.79.0
+      '@scaleway/random-name': 3.0.2
       '@types/intl-tel-input': 17.0.4
       '@types/react-datepicker': 4.3.4_react@17.0.2
       '@xstyled/emotion': 2.5.0_f4211c0e3b1e72bd8df03648eda816c7
       deepmerge: 4.2.2
       intl-tel-input: 17.0.16
-      polished: 4.2.1
+      polished: 4.2.2
       prop-types: 15.8.1
       react: 17.0.2
       react-countup: 6.2.0_react@17.0.2
@@ -3018,9 +3013,9 @@ packages:
       react-dom: 17.0.2_react@17.0.2
       react-flatten-children: 1.1.2
       react-markdown: 5.0.3_react@17.0.2
-      react-select: 5.2.2_f370f735164a03a12cea0cc89593cbee
+      react-select: 5.3.0_f370f735164a03a12cea0cc89593cbee
       react-toastify: 8.2.0_react-dom@17.0.2+react@17.0.2
-      react-use-clipboard: 1.0.7_react-dom@17.0.2+react@17.0.2
+      react-use-clipboard: 1.0.8_react-dom@17.0.2+react@17.0.2
       reakit: 1.3.11_react-dom@17.0.2+react@17.0.2
       use-media: 1.4.0_react@17.0.2
     transitivePeerDependencies:
@@ -3984,7 +3979,7 @@ packages:
       markdown-to-jsx: 7.1.6_react@17.0.2
       memoizerific: 1.11.3
       overlayscrollbars: 1.13.1
-      polished: 4.2.1
+      polished: 4.2.2
       prop-types: 15.8.1
       react: 17.0.2
       react-colorful: 5.5.1_react-dom@17.0.2+react@17.0.2
@@ -4833,7 +4828,7 @@ packages:
       lodash: 4.17.21
       markdown-to-jsx: 7.1.6_react@17.0.2
       memoizerific: 1.11.3
-      polished: 4.2.1
+      polished: 4.2.2
       qs: 6.10.3
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -12908,6 +12903,13 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       '@babel/runtime': 7.17.9
+    dev: true
+
+  /polished/4.2.2:
+    resolution: {integrity: sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==}
+    engines: {node: '>=10'}
+    dependencies:
+      '@babel/runtime': 7.17.9
 
   /posix-character-classes/0.1.1:
     resolution: {integrity: sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=}
@@ -13573,11 +13575,11 @@ packages:
       react: 17.0.2
     dev: true
 
-  /react-select/5.2.2_f370f735164a03a12cea0cc89593cbee:
-    resolution: {integrity: sha512-miGS2rT1XbFNjduMZT+V73xbJEeMzVkJOz727F6MeAr2hKE0uUSA8Ff7vD44H32x2PD3SRB6OXTY/L+fTV3z9w==}
+  /react-select/5.3.0_f370f735164a03a12cea0cc89593cbee:
+    resolution: {integrity: sha512-GM6Fbv1+X+kb3e5Fc4oNeyOJkCIesY/D4NBiReKlGY4RxoeztFYm3J0KREgwMaIKQqwTiuLqTlpUBY3SYw5goQ==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.17.9
       '@emotion/cache': 11.7.1
@@ -13654,11 +13656,11 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /react-use-clipboard/1.0.7_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-blIprqARyITp0uVw/2Rh87mcujqXdH6vZ5NrcuXEhI5EmjBGxcGnwt/79+vdN7rwM6OliGj481lOj6ZCcsiYEQ==}
+  /react-use-clipboard/1.0.8_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-QbN2kFl9uWEsELU4ONpAM98WASllAUWPSGBocbEVzRlcl1PbSa9EIdgADm6XlrcjYw9g1YQBfnCUb/5HGTOY+w==}
     peerDependencies:
-      react: ^16.8.0 || ^17
-      react-dom: ^16.8.0 || ^17
+      react: ^16.8.0 || ^17 || ^18
+      react-dom: ^16.8.0 || ^17 || ^18
     dependencies:
       copy-to-clipboard: 3.3.1
       react: 17.0.2

@@ -553,8 +553,8 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   outline: 1px #c4c9d6 dotted;
 }
 
-.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon {
-  fill: #ef5774;
+.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon {
+  fill: #ff8c69;
   height: 24px;
   width: 24px;
   min-width: 24px;
@@ -562,7 +562,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   box-sizing: content-box;
 }
 
-.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon.cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon {
+.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
   margin-right: 10px;
   padding: 2px;
@@ -612,7 +612,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
           type="checkbox"
         />
         <svg
-          class="eu28k4m3 etwatq50 cache-1s0pypy-StyledIcon-sizeStyles-StyledIcon"
+          class="eu28k4m3 etwatq50 cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path

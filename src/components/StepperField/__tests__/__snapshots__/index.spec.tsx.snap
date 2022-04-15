@@ -76,7 +76,7 @@ exports[`StepperField should render correctly 1`] = `
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zu3ai1-StyledCenterBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,12 +102,12 @@ exports[`StepperField should render correctly 1`] = `
   max-width: calc(100% - 96px);
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zu3ai1-StyledCenterBox:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zu3ai1-StyledCenterBox:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
@@ -205,7 +205,7 @@ exports[`StepperField should render correctly 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zu3ai1-StyledCenterBox etyrq8m3"
         role="status"
       >
         <input
@@ -322,7 +322,7 @@ exports[`StepperField should render correctly disabled 1`] = `
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zu3ai1-StyledCenterBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -348,12 +348,12 @@ exports[`StepperField should render correctly disabled 1`] = `
   max-width: calc(100% - 96px);
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zu3ai1-StyledCenterBox:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zu3ai1-StyledCenterBox:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
@@ -408,7 +408,7 @@ exports[`StepperField should render correctly disabled 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zu3ai1-StyledCenterBox etyrq8m3"
         role="status"
       >
         <input
@@ -521,7 +521,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zu3ai1-StyledCenterBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -547,12 +547,12 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   max-width: calc(100% - 96px);
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zu3ai1-StyledCenterBox:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zu3ai1-StyledCenterBox:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
@@ -645,7 +645,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zu3ai1-StyledCenterBox etyrq8m3"
         role="status"
       >
         <input
@@ -754,7 +754,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zu3ai1-StyledCenterBox {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -780,12 +780,12 @@ exports[`StepperField should trigger events correctly 1`] = `
   max-width: calc(100% - 96px);
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zu3ai1-StyledCenterBox:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zu3ai1-StyledCenterBox:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
@@ -883,7 +883,7 @@ exports[`StepperField should trigger events correctly 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zu3ai1-StyledCenterBox etyrq8m3"
         role="status"
       >
         <input

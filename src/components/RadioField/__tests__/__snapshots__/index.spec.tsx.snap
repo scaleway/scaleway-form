@@ -438,15 +438,15 @@ exports[`RadioField should render correctly with errors 1`] = `
   margin-right: 8px;
 }
 
-.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon {
-  fill: #ef5774;
+.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon {
+  fill: #ff8c69;
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
 }
 
-.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon {
+.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
@@ -492,7 +492,7 @@ exports[`RadioField should render correctly with errors 1`] = `
           class="cache-1p2voni-IconContainer e1duuirp3"
         >
           <svg
-            class="e1duuirp4 etwatq50 cache-cuzpql-StyledIcon-sizeStyles-StyledIcon"
+            class="e1duuirp4 etwatq50 cache-1asq98u-StyledIcon-sizeStyles-StyledIcon"
             viewBox="0 0 24 24"
           >
             <path

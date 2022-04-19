@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-url': 6.1.0
   '@scaleway/eslint-config-react': 3.4.16
   '@scaleway/jest-helpers': 1.2.4
-  '@scaleway/ui': 0.144.2
+  '@scaleway/ui': 0.144.4
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -74,7 +74,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.9
-  '@scaleway/ui': 0.144.2_3782ad821661fd4316bcd740d95f80f1
+  '@scaleway/ui': 0.144.4_3782ad821661fd4316bcd740d95f80f1
   final-form: 4.20.6
   final-form-arrays: 3.0.2_final-form@4.20.6
   final-form-focus: 1.1.2_final-form@4.20.6
@@ -2980,8 +2980,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.144.2_3782ad821661fd4316bcd740d95f80f1:
-    resolution: {integrity: sha512-rURXzn9CNRgsMz0r74np4X10TVMtHCxJjdnBLeCm9TdckMCZnbaLmYuylCGwOQUON8SP6ouI7KKAXruSAA13PA==}
+  /@scaleway/ui/0.144.4_3782ad821661fd4316bcd740d95f80f1:
+    resolution: {integrity: sha512-P+URc5oiYipKLnFo4xsSsB+c5dMX5veUleVJiJkRuzzb3lyi4+t2FVr6Pcs0QbyiF0H+bqywBTRdDtvb3Wkybg==}
     engines: {node: '>=14.x', pnpm: '>=6'}
     os: [darwin, linux]
     peerDependencies:
@@ -3001,7 +3001,7 @@ packages:
       '@nivo/scales': 0.79.0
       '@scaleway/random-name': 3.0.2
       '@types/intl-tel-input': 17.0.4
-      '@types/react-datepicker': 4.3.4_react@17.0.2
+      '@types/react-datepicker': 4.4.0_react@17.0.2
       '@xstyled/emotion': 2.5.0_f4211c0e3b1e72bd8df03648eda816c7
       deepmerge: 4.2.2
       intl-tel-input: 17.0.16
@@ -5150,8 +5150,8 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
 
-  /@types/react-datepicker/4.3.4_react@17.0.2:
-    resolution: {integrity: sha512-5nTTz37KdTUgMZ1AAxztMWNtEnIMVRo8oCAEhIv0a6uUqDjvSKaMyPRpBV+8chi6f/A8wlTKJIpojpXca2dx3A==}
+  /@types/react-datepicker/4.4.0_react@17.0.2:
+    resolution: {integrity: sha512-wzmevaO51rLFwSZd5HSqBU0aAvZlRRkj6QhHqj0jfRDSKnN3y5IKXyhgxPS8R0LOWOtjdpirI1DBryjnIp/7gA==}
     dependencies:
       '@popperjs/core': 2.11.2
       '@types/react': 17.0.38

@@ -109,9 +109,9 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -168,7 +168,7 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-1ihvynt-StyledError e13z6rra1"
+        class="cache-1hzw3uf-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -250,15 +250,15 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   margin-right: 8px;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon {
+  fill: #390171;
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
+.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
@@ -286,9 +286,9 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -312,7 +312,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
               class="cache-1p2voni-IconContainer e1duuirp3"
             >
               <svg
-                class="e1duuirp4 etwatq50 cache-1yojixf-StyledIcon-sizeStyles-StyledIcon"
+                class="e1duuirp4 etwatq50 cache-1auc76i-StyledIcon-sizeStyles-StyledIcon"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -346,7 +346,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-1ihvynt-StyledError e13z6rra1"
+        class="cache-1hzw3uf-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -455,9 +455,9 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -518,7 +518,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-1ihvynt-StyledError e13z6rra1"
+        class="cache-1hzw3uf-StyledError e13z6rra1"
       />
     </div>
   </form>
@@ -600,15 +600,15 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   margin-right: 8px;
 }
 
-.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon {
-  fill: #ff8c69;
+.cache-9sn9fn-StyledIcon-sizeStyles-StyledIcon {
+  fill: #cc4e18;
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
 }
 
-.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon.cache-1asq98u-StyledIcon-sizeStyles-StyledIcon {
+.cache-9sn9fn-StyledIcon-sizeStyles-StyledIcon.cache-9sn9fn-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
@@ -641,9 +641,9 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -667,7 +667,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
               class="cache-1p2voni-IconContainer e1duuirp3"
             >
               <svg
-                class="e1duuirp4 etwatq50 cache-1asq98u-StyledIcon-sizeStyles-StyledIcon"
+                class="e1duuirp4 etwatq50 cache-9sn9fn-StyledIcon-sizeStyles-StyledIcon"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -700,7 +700,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-o1jcxj-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-1ihvynt-StyledError e13z6rra1"
+        class="cache-1hzw3uf-StyledError e13z6rra1"
       >
         This field is required
       </div>
@@ -789,15 +789,15 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   margin-right: 8px;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon {
+  fill: #390171;
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
+.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon.cache-1auc76i-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
@@ -825,9 +825,9 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   margin-bottom: 8px;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -851,7 +851,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
               class="cache-1p2voni-IconContainer e1duuirp3"
             >
               <svg
-                class="e1duuirp4 etwatq50 cache-1yojixf-StyledIcon-sizeStyles-StyledIcon"
+                class="e1duuirp4 etwatq50 cache-1auc76i-StyledIcon-sizeStyles-StyledIcon"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -884,7 +884,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
       class="e13z6rra0 e14o3tsk0 cache-18bdq20-StyledExpandable-StyledExpandable"
     >
       <div
-        class="cache-1ihvynt-StyledError e13z6rra1"
+        class="cache-1hzw3uf-StyledError e13z6rra1"
       />
     </div>
   </form>

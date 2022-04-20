@@ -156,7 +156,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   text-overflow: ellipsis;
 }
 
-.cache-hjksp-StyledTouchable-StyledTouchable {
+.cache-79dopx-StyledTouchable-StyledTouchable {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -182,24 +182,24 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   justify-content: center;
 }
 
-.cache-hjksp-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-79dopx-StyledTouchable-StyledTouchable[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-hjksp-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-79dopx-StyledTouchable-StyledTouchable[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-hjksp-StyledTouchable-StyledTouchable:hover,
-.cache-hjksp-StyledTouchable-StyledTouchable:focus {
+.cache-79dopx-StyledTouchable-StyledTouchable:hover,
+.cache-79dopx-StyledTouchable-StyledTouchable:focus {
   background-color: #d7ccf0;
 }
 
-.cache-hjksp-StyledTouchable-StyledTouchable:hover svg,
-.cache-hjksp-StyledTouchable-StyledTouchable:focus svg {
-  fill: #4f0599;
+.cache-79dopx-StyledTouchable-StyledTouchable:hover svg,
+.cache-79dopx-StyledTouchable-StyledTouchable:focus svg {
+  fill: #390171;
 }
 
 .cache-1vsf6gj-StyledIcon-sizeStyles {
@@ -256,7 +256,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 e1kgqxfn0 cache-hjksp-StyledTouchable-StyledTouchable"
+          class="e1vt8sjg0 e1kgqxfn0 cache-79dopx-StyledTouchable-StyledTouchable"
           type="button"
         >
           <svg
@@ -281,7 +281,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 e1kgqxfn0 cache-hjksp-StyledTouchable-StyledTouchable"
+          class="e1vt8sjg0 e1kgqxfn0 cache-79dopx-StyledTouchable-StyledTouchable"
           type="button"
         >
           <svg

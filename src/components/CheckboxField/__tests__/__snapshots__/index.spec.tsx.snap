@@ -71,9 +71,9 @@ exports[`CheckboxField should render correctly 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -107,7 +107,7 @@ exports[`CheckboxField should render correctly 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -157,8 +157,8 @@ exports[`CheckboxField should render correctly checked without value 1`] = `
   outline: 1px #c4c9d6 dotted;
 }
 
-.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-21vav6-StyledIcon-sizeStyles-StyledIcon {
+  fill: #390171;
   height: 24px;
   width: 24px;
   min-width: 24px;
@@ -166,7 +166,7 @@ exports[`CheckboxField should render correctly checked without value 1`] = `
   box-sizing: content-box;
 }
 
-.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
+.cache-21vav6-StyledIcon-sizeStyles-StyledIcon.cache-21vav6-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
   margin-right: 0;
   padding: 2px;
@@ -186,9 +186,9 @@ exports[`CheckboxField should render correctly checked without value 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -211,7 +211,7 @@ exports[`CheckboxField should render correctly checked without value 1`] = `
           type="checkbox"
         />
         <svg
-          class="eu28k4m3 etwatq50 cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon"
+          class="eu28k4m3 etwatq50 cache-21vav6-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path
@@ -223,7 +223,7 @@ exports[`CheckboxField should render correctly checked without value 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -300,9 +300,9 @@ exports[`CheckboxField should render correctly disabled 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -339,7 +339,7 @@ exports[`CheckboxField should render correctly disabled 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -418,14 +418,14 @@ exports[`CheckboxField should render correctly with a value 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
-.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-21vav6-StyledIcon-sizeStyles-StyledIcon {
+  fill: #390171;
   height: 24px;
   width: 24px;
   min-width: 24px;
@@ -433,7 +433,7 @@ exports[`CheckboxField should render correctly with a value 1`] = `
   box-sizing: content-box;
 }
 
-.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon.cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon {
+.cache-21vav6-StyledIcon-sizeStyles-StyledIcon.cache-21vav6-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
   margin-right: 0;
   padding: 2px;
@@ -470,7 +470,7 @@ exports[`CheckboxField should render correctly with a value 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -491,7 +491,7 @@ exports[`CheckboxField should render correctly with a value 1`] = `
           value="bar"
         />
         <svg
-          class="eu28k4m3 etwatq50 cache-1ht0hnx-StyledIcon-sizeStyles-StyledIcon"
+          class="eu28k4m3 etwatq50 cache-21vav6-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path
@@ -503,7 +503,7 @@ exports[`CheckboxField should render correctly with a value 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>
@@ -553,8 +553,8 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   outline: 1px #c4c9d6 dotted;
 }
 
-.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon {
-  fill: #ff8c69;
+.cache-i3vfhu-StyledIcon-sizeStyles-StyledIcon {
+  fill: #cc4e18;
   height: 24px;
   width: 24px;
   min-width: 24px;
@@ -562,7 +562,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   box-sizing: content-box;
 }
 
-.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon.cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon {
+.cache-i3vfhu-StyledIcon-sizeStyles-StyledIcon.cache-i3vfhu-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
   margin-right: 10px;
   padding: 2px;
@@ -587,9 +587,9 @@ exports[`CheckboxField should render correctly with errors 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -612,7 +612,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
           type="checkbox"
         />
         <svg
-          class="eu28k4m3 etwatq50 cache-1fsoyqr-StyledIcon-sizeStyles-StyledIcon"
+          class="eu28k4m3 etwatq50 cache-i3vfhu-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path
@@ -629,7 +629,7 @@ exports[`CheckboxField should render correctly with errors 1`] = `
         class="e14o3tsk0 cache-12czo5r-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         >
           This field is required
         </div>
@@ -684,8 +684,8 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   outline: 1px #c4c9d6 dotted;
 }
 
-.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-wdbqu6-StyledIcon-sizeStyles-StyledIcon {
+  fill: #390171;
   height: 24px;
   width: 24px;
   min-width: 24px;
@@ -693,7 +693,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   box-sizing: content-box;
 }
 
-.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon.cache-148h4m4-StyledIcon-sizeStyles-StyledIcon {
+.cache-wdbqu6-StyledIcon-sizeStyles-StyledIcon.cache-wdbqu6-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
   margin-right: 10px;
   padding: 2px;
@@ -713,9 +713,9 @@ exports[`CheckboxField should trigger events correctly 1`] = `
   overflow: hidden;
 }
 
-.cache-1ihvynt-StyledError {
+.cache-1hzw3uf-StyledError {
   font-size: 12px;
-  color: #dd3252;
+  color: #a6102d;
   padding: 0 4px;
 }
 
@@ -737,7 +737,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
           type="checkbox"
         />
         <svg
-          class="eu28k4m3 etwatq50 cache-148h4m4-StyledIcon-sizeStyles-StyledIcon"
+          class="eu28k4m3 etwatq50 cache-wdbqu6-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path
@@ -754,7 +754,7 @@ exports[`CheckboxField should trigger events correctly 1`] = `
         class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1ihvynt-StyledError eu28k4m0"
+          class="cache-1hzw3uf-StyledError eu28k4m0"
         />
       </div>
     </div>

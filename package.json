@@ -38,7 +38,7 @@
     "commit": "npx git-cz -a",
     "start": "STORYBOOK_ENVIRONMENT=development start-storybook -p 6006",
     "start:production": "STORYBOOK_ENVIRONMENT=production start-storybook -p 6006",
-    "format": "prettier --write '**/*.{ts,tsx}'",
+    "format": "prettier --write '**/*.{ts,tsx,y?(a)ml}'",
     "lint:fix": "pnpm run lint -- --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
@@ -53,7 +53,18 @@
     "*.ts?(x)": [
       "prettier --write",
       "eslint --fix --ext ts,tsx"
+    ],
+    "*.mdx": [
+      "prettier --write",
+      "eslint --cache --cache-strategy content --fix --ext mdx"
+    ],
+    "*.y?(a)ml": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
     ]
+
   },
   "config": {
     "commitizen": {

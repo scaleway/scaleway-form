@@ -1,3 +1,12 @@
+### [1.15.9](https://github.com/scaleway/scaleway-form/compare/v1.15.8...v1.15.9) (2022-04-21)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.145.0 ([#224](https://github.com/scaleway/scaleway-form/issues/224)) ([f3675f9](https://github.com/scaleway/scaleway-form/commit/f3675f9954d8fbd70bc080532c0dcd76afe1300c))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.2.1 ([#226](https://github.com/scaleway/scaleway-form/issues/226)) ([32f616a](https://github.com/scaleway/scaleway-form/commit/32f616a4424be35fd2229bc362275fa8a785f6f2))
+* **devdeps:** update pnpm to v6.32.9 ([#225](https://github.com/scaleway/scaleway-form/issues/225)) ([4bf6b65](https://github.com/scaleway/scaleway-form/commit/4bf6b6595154732e3837f629cd2e4820946871df))
+
 ### [1.15.8](https://github.com/scaleway/scaleway-form/compare/v1.15.7...v1.15.8) (2022-04-19)
 
 

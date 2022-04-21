@@ -125,7 +125,7 @@ exports[`StepperField should render correctly 1`] = `
   text-align: center;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1nta09j-StyledTouchable-StyledTouchable {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -151,21 +151,21 @@ exports[`StepperField should render correctly 1`] = `
   margin: 0 4px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
+.cache-1nta09j-StyledTouchable-StyledTouchable>.etyrq8m5 {
+  fill: #390171;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1nta09j-StyledTouchable-StyledTouchable:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -219,7 +219,7 @@ exports[`StepperField should render correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-1nta09j-StyledTouchable-StyledTouchable"
         type="button"
       >
         <svg
@@ -465,7 +465,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   border-radius: 4px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1nta09j-StyledTouchable-StyledTouchable {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -491,21 +491,21 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   margin: 0 4px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
+.cache-1nta09j-StyledTouchable-StyledTouchable>.etyrq8m5 {
+  fill: #390171;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1nta09j-StyledTouchable-StyledTouchable:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -631,7 +631,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
       <button
         aria-disabled="false"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-1nta09j-StyledTouchable-StyledTouchable"
         type="button"
       >
         <svg
@@ -803,7 +803,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   text-align: center;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1nta09j-StyledTouchable-StyledTouchable {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -829,21 +829,21 @@ exports[`StepperField should trigger events correctly 1`] = `
   margin: 0 4px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
+.cache-1nta09j-StyledTouchable-StyledTouchable>.etyrq8m5 {
+  fill: #390171;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1nta09j-StyledTouchable-StyledTouchable:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -897,7 +897,7 @@ exports[`StepperField should trigger events correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-1nta09j-StyledTouchable-StyledTouchable"
         type="button"
       >
         <svg

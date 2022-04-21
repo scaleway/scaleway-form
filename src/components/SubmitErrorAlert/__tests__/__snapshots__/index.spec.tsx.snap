@@ -71,7 +71,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   pointer-events: none;
 }
 
-.cache-1dp9zxe-StyledContainer-alertStyles {
+.cache-9stt1f-StyledContainer-alertStyles {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -86,7 +86,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   border-radius: 4px;
   padding: 12px;
   background-color: #ffe1e7;
-  color: #dd3252;
+  color: #a6102d;
 }
 
 .cache-zpmnud-StyledIcon-sizeStyles-StyledIcon {
@@ -142,7 +142,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       </div>
     </button>
     <div
-      class="eenhiht2 cache-1dp9zxe-StyledContainer-alertStyles"
+      class="eenhiht2 cache-9stt1f-StyledContainer-alertStyles"
     >
       <svg
         aria-hidden="true"

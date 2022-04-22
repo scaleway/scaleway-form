@@ -43,7 +43,7 @@ specifiers:
   '@testing-library/react-hooks': 8.0.0
   '@testing-library/user-event': 13.5.0
   '@types/final-form-focus': 1.1.2
-  '@types/react-dom': 18.0.1
+  '@types/react-dom': 18.0.2
   babel-loader: 8.2.5
   babel-plugin-annotate-pure-calls: 0.4.0
   cross-env: 7.0.3
@@ -122,7 +122,7 @@ devDependencies:
   '@testing-library/react-hooks': 8.0.0_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 13.5.0_@testing-library+dom@8.13.0
   '@types/final-form-focus': 1.1.2
-  '@types/react-dom': 18.0.1
+  '@types/react-dom': 18.0.2
   babel-loader: 8.2.5_acba72ea4bf9d339cdfcd8f55cdb7006
   babel-plugin-annotate-pure-calls: 0.4.0_@babel+core@7.17.9
   cross-env: 7.0.3
@@ -5167,8 +5167,8 @@ packages:
       '@types/react': 17.0.38
     dev: true
 
-  /@types/react-dom/18.0.1:
-    resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
+  /@types/react-dom/18.0.2:
+    resolution: {integrity: sha512-UxeS+Wtj5bvLRREz9tIgsK4ntCuLDo0EcAcACgw3E+9wE8ePDr9uQpq53MfcyxyIS55xJ+0B6mDS8c4qkkHLBg==}
     dependencies:
       '@types/react': 17.0.38
     dev: true

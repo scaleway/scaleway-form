@@ -60,8 +60,8 @@ jobs:
         uses: philibea/scaleway-containers-deploy@v1.0.7
         id: deploy
         with:
-          type: "deploy"
-          scw_dns: "form.ui.scaleway.com"
+          type: 'deploy'
+          scw_dns: 'form.ui.scaleway.com'
           scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
           scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
           scw_containers_namespace_id: ${{ secrets.SCW_CONTAINERS_NAMESPACE_ID }}

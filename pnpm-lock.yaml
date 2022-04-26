@@ -56,7 +56,7 @@ specifiers:
   final-form-focus: 1.1.2
   husky: 7.0.4
   jest: 27.5.1
-  jest-junit: 13.1.0
+  jest-junit: 13.2.0
   lint-staged: 12.3.8
   prettier: 2.6.2
   react: 17.0.2
@@ -132,7 +132,7 @@ devDependencies:
   eslint-plugin-mdx: 1.17.0_eslint@8.13.0
   husky: 7.0.4
   jest: 27.5.1
-  jest-junit: 13.1.0
+  jest-junit: 13.2.0
   lint-staged: 12.3.8
   prettier: 2.6.2
   react: 17.0.2
@@ -10824,8 +10824,8 @@ packages:
       - supports-color
     dev: true
 
-  /jest-junit/13.1.0:
-    resolution: {integrity: sha512-ECbhzEG3Oe2IH3Mnwcv2vAXM4qTbcObN/gTUzwKPlpaNsf2G/zlj/teEUqRGV17YQiQ4AqzTf3pCO7W59DKVIw==}
+  /jest-junit/13.2.0:
+    resolution: {integrity: sha512-B0XNlotl1rdsvFZkFfoa19mc634+rrd8E4Sskb92Bb8MmSXeWV9XJGUyctunZS1W410uAxcyYuPUGVnbcOH8cg==}
     engines: {node: '>=10.12.0'}
     dependencies:
       mkdirp: 1.0.4

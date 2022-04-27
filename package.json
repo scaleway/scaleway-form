@@ -163,7 +163,7 @@
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "date-fns": "2.28.0",
-    "eslint": "8.13.0",
+    "eslint": "8.14.0",
     "eslint-plugin-mdx": "1.17.0",
     "husky": "7.0.4",
     "jest": "27.5.1",

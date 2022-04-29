@@ -41,8 +41,8 @@ describe('Submit', () => {
         <Submit>Test</Submit>
       </Form>,
       {
-        transform: ({ getByText }) => {
-          userEvent.click(
+        transform: async ({ getByText }) => {
+          await userEvent.click(
             getByText('Test').closest('button') as HTMLButtonElement,
           )
           expect(

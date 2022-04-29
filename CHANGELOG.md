@@ -1,3 +1,10 @@
+### [1.15.12](https://github.com/scaleway/scaleway-form/compare/v1.15.11...v1.15.12) (2022-04-29)
+
+
+### :package: Chore
+
+* **deps:** update dependency final-form to v4.20.7 ([#239](https://github.com/scaleway/scaleway-form/issues/239)) ([5ac1a2f](https://github.com/scaleway/scaleway-form/commit/5ac1a2fa58f5df660a4c757e9c48ed9a4b2301cb))
+
 ### [1.15.11](https://github.com/scaleway/scaleway-form/compare/v1.15.10...v1.15.11) (2022-04-29)
 
 

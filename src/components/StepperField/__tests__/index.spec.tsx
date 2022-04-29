@@ -32,7 +32,7 @@ describe('StepperField', () => {
       },
     ))
 
-  test('should trigger events correctly', () => {
+  test.only('should trigger events correctly', () => {
     const onFocus = jest.fn(() => {})
     const onChange = jest.fn(() => {})
     const onBlur = jest.fn(() => {})
@@ -50,8 +50,9 @@ describe('StepperField', () => {
           const input = getByLabelText('Input')
           input.focus()
           expect(onFocus).toBeCalledTimes(1)
+          // clicking inside field should not trigger any change
           input.click()
-          expect(onChange).toBeCalledTimes(2)
+          expect(onChange).toBeCalledTimes(0)
           input.blur()
           expect(onBlur).toBeCalledTimes(1)
         },

@@ -108,7 +108,7 @@
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@scaleway/ui": "0.145.3",
-    "final-form": "4.20.6",
+    "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",
     "react": "17.0.2",
@@ -184,7 +184,7 @@
   "dependencies": {
     "@babel/runtime": "7.17.9",
     "@scaleway/ui": "0.145.3",
-    "final-form": "4.20.6",
+    "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",
     "react-final-form": "6.5.9",

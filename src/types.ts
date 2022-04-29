@@ -69,7 +69,7 @@ export type ValidatorProps = {
 export type ValidatorObject<InputValue = unknown> = {
   validate: (
     value: InputValue,
-    allValues: AnyObject,
+    allValues?: AnyObject,
     meta?: FieldState<InputValue>,
   ) => boolean
   error: keyof RequiredErrors

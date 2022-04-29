@@ -41,7 +41,7 @@ specifiers:
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5
   '@testing-library/react-hooks': 8.0.0
-  '@testing-library/user-event': 13.5.0
+  '@testing-library/user-event': 14.1.1
   '@types/final-form-focus': 1.1.2
   '@types/react-dom': 18.0.2
   babel-loader: 8.2.5
@@ -121,7 +121,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
   '@testing-library/react-hooks': 8.0.0_react-dom@17.0.2+react@17.0.2
-  '@testing-library/user-event': 13.5.0_@testing-library+dom@8.13.0
+  '@testing-library/user-event': 14.1.1_@testing-library+dom@8.13.0
   '@types/final-form-focus': 1.1.2
   '@types/react-dom': 18.0.2
   babel-loader: 8.2.5_acba72ea4bf9d339cdfcd8f55cdb7006
@@ -4942,13 +4942,12 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /@testing-library/user-event/13.5.0_@testing-library+dom@8.13.0:
-    resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==}
-    engines: {node: '>=10', npm: '>=6'}
+  /@testing-library/user-event/14.1.1_@testing-library+dom@8.13.0:
+    resolution: {integrity: sha512-XrjH/iEUqNl9lF2HX9YhPNV7Amntkcnpw0Bo1KkRzowNDcgSN9i0nm4Q8Oi5wupgdfPaJNMAWa61A+voD6Kmwg==}
+    engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@babel/runtime': 7.17.9
       '@testing-library/dom': 8.13.0
     dev: true
 

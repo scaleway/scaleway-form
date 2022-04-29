@@ -80,19 +80,19 @@ describe('StepperField', () => {
       {
         transform: async ({ getByLabelText }) => {
           const input = getByLabelText('Input') as HTMLTextAreaElement
-          if (input.parentElement) userEvent.click(input.parentElement)
+          if (input.parentElement) await userEvent.click(input.parentElement)
 
           // trigger onMinCrossed
-          userEvent.clear(input)
-          userEvent.type(input, '1')
+          await userEvent.clear(input)
+          await userEvent.type(input, '1')
           await waitFor(() => expect(input.value).toBe('1'))
           input.blur()
           await waitFor(() => expect(input.value).toBe('5'))
           expect(onMinCrossed).toBeCalledTimes(1)
 
           // trigger onMaxCrossed
-          userEvent.clear(input)
-          userEvent.type(input, '100')
+          await userEvent.clear(input)
+          await userEvent.type(input, '100')
           await waitFor(() => expect(input.value).toBe('100'))
           input.blur()
           await waitFor(() => expect(input.value).toBe('20'))

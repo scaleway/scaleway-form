@@ -82,8 +82,8 @@ describe('RadioField', () => {
         <button type="submit">Submit</button>
       </Form>,
       {
-        transform: node => {
-          userEvent.click(node.getByRole('button'))
+        transform: async node => {
+          await userEvent.click(node.getByRole('button'))
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

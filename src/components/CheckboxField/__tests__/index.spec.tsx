@@ -98,11 +98,11 @@ describe('CheckboxField', () => {
         <div>Focus</div>
       </Form>,
       {
-        transform: node => {
-          userEvent.click(node.getByRole('checkbox'))
+        transform: async node => {
+          await userEvent.click(node.getByRole('checkbox'))
           // to trigger error
-          userEvent.click(node.getByRole('checkbox'))
-          userEvent.click(node.getByText('Focus'))
+          await userEvent.click(node.getByRole('checkbox'))
+          await userEvent.click(node.getByText('Focus'))
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

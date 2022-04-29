@@ -23,9 +23,9 @@ describe('TextBoxField', () => {
     shouldMatchEmotionSnapshotFormWrapper(
       <TextBoxField name="test" minLength={13} />,
       {
-        transform: node => {
+        transform: async node => {
           const input = node.getByRole('textbox')
-          userEvent.type(input, 'test')
+          await userEvent.type(input, 'test')
           input.blur()
           expect(
             node.getByText(

@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-url': 6.1.0
   '@scaleway/eslint-config-react': 3.4.19
   '@scaleway/jest-helpers': 1.2.4
-  '@scaleway/ui': 0.145.3
+  '@scaleway/ui': 0.145.4
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -75,7 +75,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.9
-  '@scaleway/ui': 0.145.3_3782ad821661fd4316bcd740d95f80f1
+  '@scaleway/ui': 0.145.4_3782ad821661fd4316bcd740d95f80f1
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3011,8 +3011,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.145.3_3782ad821661fd4316bcd740d95f80f1:
-    resolution: {integrity: sha512-JY+zbBM4c8V9d/3LRzbHbrbxAqWTOOEcrbWiLGPycwIKz7tG1+5ah+0t2jmshu5d1l2clyY2bD63lyMr9pz3xQ==}
+  /@scaleway/ui/0.145.4_3782ad821661fd4316bcd740d95f80f1:
+    resolution: {integrity: sha512-6fiAkfMYDLSylGikJ6NsXRjCBrBvFaduAtVW+8cFSfg19Q6KClx1NcFMjwPPANBcP7WBb+s41nZP+Q4FXYJhEA==}
     engines: {node: '>=14.x', pnpm: '>=6'}
     os: [darwin, linux]
     peerDependencies:
@@ -3044,7 +3044,7 @@ packages:
       react-dom: 17.0.2_react@17.0.2
       react-flatten-children: 1.1.2
       react-markdown: 5.0.3_react@17.0.2
-      react-select: 5.3.0_f370f735164a03a12cea0cc89593cbee
+      react-select: 5.3.1_f370f735164a03a12cea0cc89593cbee
       react-toastify: 8.2.0_react-dom@17.0.2+react@17.0.2
       react-use-clipboard: 1.0.8_react-dom@17.0.2+react@17.0.2
       reakit: 1.3.11_react-dom@17.0.2+react@17.0.2
@@ -13660,8 +13660,8 @@ packages:
       react: 17.0.2
     dev: true
 
-  /react-select/5.3.0_f370f735164a03a12cea0cc89593cbee:
-    resolution: {integrity: sha512-GM6Fbv1+X+kb3e5Fc4oNeyOJkCIesY/D4NBiReKlGY4RxoeztFYm3J0KREgwMaIKQqwTiuLqTlpUBY3SYw5goQ==}
+  /react-select/5.3.1_f370f735164a03a12cea0cc89593cbee:
+    resolution: {integrity: sha512-Y195MmhDoDAj/8gTDyYZU1Raf7tmZd81wxM6RkFko4pqJ4Xv0/ilqUMtSn+GYkwmSlTWeMlzh+e+t7PJgtuXPw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0

@@ -1,3 +1,11 @@
+### [1.15.11](https://github.com/scaleway/scaleway-form/compare/v1.15.10...v1.15.11) (2022-04-29)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.145.3 ([#233](https://github.com/scaleway/scaleway-form/issues/233)) ([7d43ed5](https://github.com/scaleway/scaleway-form/commit/7d43ed5bedebc89a0c5f6b9e3040bf354554d39e))
+* **devdeps:** update commitlint monorepo to v16.2.4 ([#245](https://github.com/scaleway/scaleway-form/issues/245)) ([5646ac1](https://github.com/scaleway/scaleway-form/commit/5646ac10e0aa8664870cb6b136d50ebee5ac70b0))
+
 ### [1.15.10](https://github.com/scaleway/scaleway-form/compare/v1.15.9...v1.15.10) (2022-04-28)
 
 

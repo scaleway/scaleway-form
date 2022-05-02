@@ -24,7 +24,7 @@
     "darwin",
     "linux"
   ],
-  "packageManager": "pnpm@6.32.11",
+  "packageManager": "pnpm@7.0.0",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -42,9 +42,9 @@
     "lint:fix": "pnpm run lint -- --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
-    "test:unit:coverage": "pnpm run test -- --coverage",
-    "test:watch": "pnpm run test -- --watch",
-    "test:update": "pnpm run test -- --updateSnapshot",
+    "test:unit:coverage": "pnpm run test --coverage",
+    "test:watch": "pnpm run test --watch",
+    "test:update": "pnpm run test --updateSnapshot",
     "test": "LC_ALL=en_US.UTF-8 jest",
     "test:unit": "pnpm test",
     "prepare": "husky install"

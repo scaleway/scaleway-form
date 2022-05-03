@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": ">=14.x",
-    "pnpm": ">=6.x"
+    "pnpm": ">=7.0.0"
   },
   "os": [
     "darwin",
@@ -39,7 +39,7 @@
     "start": "STORYBOOK_ENVIRONMENT=development start-storybook -p 6006",
     "start:production": "STORYBOOK_ENVIRONMENT=production start-storybook -p 6006",
     "format": "prettier --write '**/*.{ts,tsx,y?(a)ml}'",
-    "lint:fix": "pnpm run lint -- --fix",
+    "lint:fix": "pnpm run lint --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
     "test:unit:coverage": "pnpm run test --coverage",

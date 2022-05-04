@@ -70,6 +70,14 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react": "17",
+        "acorn": "7"
+      }
+    }
+  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"

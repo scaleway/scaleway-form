@@ -22,7 +22,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.2.1
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.20
-  '@scaleway/jest-helpers': 1.2.4
+  '@scaleway/jest-helpers': 1.2.6
   '@scaleway/ui': 0.145.4
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
@@ -108,7 +108,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.2.1_rollup@2.70.2
   '@rollup/plugin-url': 7.0.0_rollup@2.70.2
   '@scaleway/eslint-config-react': 3.4.20_t725usgvqspm5woeqpaxbfp2qu
-  '@scaleway/jest-helpers': 1.2.4_5gr4uzjhmwe3z4wnt3jvdntp4m
+  '@scaleway/jest-helpers': 1.2.6_5gr4uzjhmwe3z4wnt3jvdntp4m
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.2
   '@semantic-release/git': 10.0.1_semantic-release@19.0.2
@@ -2994,8 +2994,8 @@ packages:
       - typescript
     dev: true
 
-  /@scaleway/jest-helpers/1.2.4_5gr4uzjhmwe3z4wnt3jvdntp4m:
-    resolution: {integrity: sha512-jz8epZfnP1jZGgFIQxvwqmFEr7P3WemhvsuZ1rILtXWF7MJxab598GYXjwYD2rrzRgPUBSYWwj/MRtDmH284/w==}
+  /@scaleway/jest-helpers/1.2.6_5gr4uzjhmwe3z4wnt3jvdntp4m:
+    resolution: {integrity: sha512-JuGhAyhJAdENbAbxhOWd7BXAJhzb6EDhXJycPSMV8yWyuj1C1p87MjNZ4d9V4j7q8BE4hItO/vMf/SiU4BWpIw==}
     peerDependencies:
       react: ^17.0.1 || 17
     dependencies:

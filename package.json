@@ -18,13 +18,13 @@
   },
   "engines": {
     "node": ">=14.x",
-    "pnpm": ">=6.x"
+    "pnpm": ">=7.0.0"
   },
   "os": [
     "darwin",
     "linux"
   ],
-  "packageManager": "pnpm@6.32.11",
+  "packageManager": "pnpm@7.0.0",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -39,12 +39,12 @@
     "start": "STORYBOOK_ENVIRONMENT=development start-storybook -p 6006",
     "start:production": "STORYBOOK_ENVIRONMENT=production start-storybook -p 6006",
     "format": "prettier --write '**/*.{ts,tsx,y?(a)ml}'",
-    "lint:fix": "pnpm run lint -- --fix",
+    "lint:fix": "pnpm run lint --fix",
     "lint": "eslint --cache --ext ts,tsx .",
     "prebuild": "shx rm -rf dist",
-    "test:unit:coverage": "pnpm run test -- --coverage",
-    "test:watch": "pnpm run test -- --watch",
-    "test:update": "pnpm run test -- --updateSnapshot",
+    "test:unit:coverage": "pnpm run test --coverage",
+    "test:watch": "pnpm run test --watch",
+    "test:update": "pnpm run test --updateSnapshot",
     "test": "LC_ALL=en_US.UTF-8 jest",
     "test:unit": "pnpm test",
     "prepare": "husky install"
@@ -68,6 +68,14 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react": "17",
+        "acorn": "7"
+      }
     }
   },
   "commitlint": {
@@ -130,6 +138,8 @@
     "@emotion/jest": "11.9.1",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
+    "@nivo/core": "0.79.0",
+    "@nivo/tooltip": "0.79.0",
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "13.2.1",
     "@rollup/plugin-url": "7.0.0",
@@ -156,7 +166,9 @@
     "@testing-library/react-hooks": "8.0.0",
     "@testing-library/user-event": "14.1.1",
     "@types/final-form-focus": "1.1.2",
-    "@types/react-dom": "18.0.3",
+    "@types/node": "17.0.31",
+    "@types/react": "17.0.44",
+    "@types/react-dom": "17.0.11",
     "babel-loader": "8.2.5",
     "babel-plugin-annotate-pure-calls": "0.4.0",
     "cross-env": "7.0.3",
@@ -170,6 +182,7 @@
     "jest-junit": "13.2.0",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
+    "prop-types": "15.8.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "read-pkg": "7.1.0",

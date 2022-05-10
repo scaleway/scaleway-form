@@ -2,7 +2,7 @@
 
 exports[`SwitchField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-4own23 {
+  .cache-a51a0v {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11,17 +11,18 @@ exports[`SwitchField should render correctly 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  background-color: #ffffff;
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
 }
 
-.cache-4own23:focus-within {
+.cache-a51a0v:focus-within {
   border: 1px solid #4f0599;
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-4own23>* {
+.cache-a51a0v>* {
   margin: 6px;
 }
 
@@ -53,7 +54,7 @@ exports[`SwitchField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-4own23"
+      class="cache-a51a0v"
     >
       <input
         aria-label="test"
@@ -70,7 +71,7 @@ exports[`SwitchField should render correctly 1`] = `
 
 exports[`SwitchField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-4own23 {
+  .cache-a51a0v {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -79,17 +80,18 @@ exports[`SwitchField should render correctly disabled 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  background-color: #ffffff;
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
 }
 
-.cache-4own23:focus-within {
+.cache-a51a0v:focus-within {
   border: 1px solid #4f0599;
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-4own23>* {
+.cache-a51a0v>* {
   margin: 6px;
 }
 
@@ -97,7 +99,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-4own23"
+      class="cache-a51a0v"
     />
   </form>
 </DocumentFragment>
@@ -105,7 +107,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
 
 exports[`SwitchField should render correctly with default tags 1`] = `
 <DocumentFragment>
-  .cache-4own23 {
+  .cache-a51a0v {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -114,17 +116,18 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  background-color: #ffffff;
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
 }
 
-.cache-4own23:focus-within {
+.cache-a51a0v:focus-within {
   border: 1px solid #4f0599;
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-4own23>* {
+.cache-a51a0v>* {
   margin: 6px;
 }
 
@@ -242,7 +245,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
     novalidate=""
   >
     <div
-      class="cache-4own23"
+      class="cache-a51a0v"
     >
       <div
         class="e1vt8sjg2 cache-11aaxx7-StyledContainer-base"

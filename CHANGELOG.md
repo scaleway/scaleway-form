@@ -1,3 +1,11 @@
+### [1.15.15](https://github.com/scaleway/scaleway-form/compare/v1.15.14...v1.15.15) (2022-05-10)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.147.5 ([#270](https://github.com/scaleway/scaleway-form/issues/270)) ([0cf3e84](https://github.com/scaleway/scaleway-form/commit/0cf3e84a8c881248b51fef6d22b07506279ede7c))
+* **devdeps:** update codecov/codecov-action action to v3.1.0 ([#271](https://github.com/scaleway/scaleway-form/issues/271)) ([a878a64](https://github.com/scaleway/scaleway-form/commit/a878a6494635c40e8aa98b7fe2ae492458ec94ea))
+
 ### [1.15.14](https://github.com/scaleway/scaleway-form/compare/v1.15.13...v1.15.14) (2022-05-10)
 
 

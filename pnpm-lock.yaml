@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.23
   '@scaleway/jest-helpers': 1.2.6
-  '@scaleway/ui': 0.147.5
+  '@scaleway/ui': 0.148.0
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.9
-  '@scaleway/ui': 0.147.5_f7rwwkjckbjjl56cuz7ggu7kt4
+  '@scaleway/ui': 0.148.0_f7rwwkjckbjjl56cuz7ggu7kt4
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3146,8 +3146,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.147.5_f7rwwkjckbjjl56cuz7ggu7kt4:
-    resolution: {integrity: sha512-dxKgN4JKBAxlkhR/uyeUfdL0Sfa7bGUlX5d9obUK+tez6CPV68DESI7p5mUxZK1/EowsO9uGz0+mEc2cpReNyQ==}
+  /@scaleway/ui/0.148.0_f7rwwkjckbjjl56cuz7ggu7kt4:
+    resolution: {integrity: sha512-j4/OyzdnltIZpJhrChwP7xMde5DRYkrEvmw+smzKh5Xfl7RsZkrzcwYaWY9IZiVGr9wcky6jy727Q9CRgLeVeg==}
     engines: {node: '>=14.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:

@@ -1,3 +1,11 @@
+### [1.15.16](https://github.com/scaleway/scaleway-form/compare/v1.15.15...v1.15.16) (2022-05-11)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.148.0 ([#273](https://github.com/scaleway/scaleway-form/issues/273)) ([9ac1043](https://github.com/scaleway/scaleway-form/commit/9ac104331675f7da2a701ba5522fa7ae57c4a91a))
+* **devdeps:** update bobheadxi/deployments action to v1.2.0 ([#272](https://github.com/scaleway/scaleway-form/issues/272)) ([029dc86](https://github.com/scaleway/scaleway-form/commit/029dc86891b2034729c708fba3874a21bf3c0a1c))
+
 ### [1.15.15](https://github.com/scaleway/scaleway-form/compare/v1.15.14...v1.15.15) (2022-05-10)
 
 

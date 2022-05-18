@@ -35,6 +35,7 @@ export type RichSelectFieldProps<
     | 'id'
     | 'inputId'
     | 'isClearable'
+    | 'isLoading'
     | 'isMulti'
     | 'isSearchable'
     | 'onBlur'

@@ -28,8 +28,6 @@ type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
       | 'readOnly'
       | 'required'
       | 'size'
-      | 'typographyVariant'
-      | 'valid'
       | 'value'
     >
   > & {
@@ -45,12 +43,10 @@ const CheckboxField = forwardRef(
       validate,
       name,
       label = '',
-      valid,
       size,
       progress,
       disabled,
       required,
-      typographyVariant,
       id,
       className,
       children,
@@ -107,12 +103,10 @@ const CheckboxField = forwardRef(
           onFocus?.(event)
         }}
         type={input.type}
-        valid={valid}
         size={size}
         progress={progress}
         disabled={disabled}
         required={required}
-        typographyVariant={typographyVariant}
         checked={input.checked}
         id={id}
         error={error}

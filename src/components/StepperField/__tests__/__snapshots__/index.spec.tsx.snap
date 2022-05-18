@@ -702,7 +702,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable {
+.cache-lu39b4-StyledTouchable-StyledTouchable {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -728,29 +728,30 @@ exports[`StepperField should trigger events correctly 1`] = `
   margin: 0 4px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-lu39b4-StyledTouchable-StyledTouchable[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-lu39b4-StyledTouchable-StyledTouchable[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-lu39b4-StyledTouchable-StyledTouchable:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-t0um1j-StyledIcon-sizeStyles-StyledIcon {
+  fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
+  color: #390171;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
+.cache-t0um1j-StyledIcon-sizeStyles-StyledIcon.cache-t0um1j-StyledIcon-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
@@ -803,62 +804,6 @@ exports[`StepperField should trigger events correctly 1`] = `
   text-align: center;
 }
 
-.cache-1nta09j-StyledTouchable-StyledTouchable {
-  border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: calc(100% - 8px);
-  position: relative;
-  border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
-}
-
-.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-1nta09j-StyledTouchable-StyledTouchable[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-1nta09j-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #390171;
-}
-
-.cache-1nta09j-StyledTouchable-StyledTouchable:hover:not([disabled]) {
-  background: #eeeeff;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  fill: currentColor;
-  height: 26px;
-  width: 26px;
-  min-width: 26px;
-  min-height: 26px;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
-}
-
 <form
     novalidate=""
   >
@@ -868,12 +813,12 @@ exports[`StepperField should trigger events correctly 1`] = `
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-lu39b4-StyledTouchable-StyledTouchable"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-wo41ov-StyledIcon-sizeStyles-StyledIcon"
+          class="etyrq8m5 etwatq50 cache-t0um1j-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path
@@ -897,11 +842,11 @@ exports[`StepperField should trigger events correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-1nta09j-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-lu39b4-StyledTouchable-StyledTouchable"
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-nqz10n-StyledIcon-sizeStyles-StyledIcon"
+          class="etyrq8m5 etwatq50 cache-t0um1j-StyledIcon-sizeStyles-StyledIcon"
           viewBox="0 0 24 24"
         >
           <path

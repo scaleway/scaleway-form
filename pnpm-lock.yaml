@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.24
   '@scaleway/jest-helpers': 1.2.6
-  '@scaleway/ui': 0.148.0
+  '@scaleway/ui': 0.151.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.17.9
-  '@scaleway/ui': 0.148.0_f7rwwkjckbjjl56cuz7ggu7kt4
+  '@scaleway/ui': 0.151.1_f7rwwkjckbjjl56cuz7ggu7kt4
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3117,9 +3117,9 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.148.0_f7rwwkjckbjjl56cuz7ggu7kt4:
-    resolution: {integrity: sha512-j4/OyzdnltIZpJhrChwP7xMde5DRYkrEvmw+smzKh5Xfl7RsZkrzcwYaWY9IZiVGr9wcky6jy727Q9CRgLeVeg==}
-    engines: {node: '>=14.x', pnpm: '>=7.0.0'}
+  /@scaleway/ui/0.151.1_f7rwwkjckbjjl56cuz7ggu7kt4:
+    resolution: {integrity: sha512-I4ZWd71KdXy7mOGaiounc4zp7PGb/NFfkWy25CYOgevm78IxdfAa6RHeazNvQbQbk3u8uddmGbU+7GIxggX5Jg==}
+    engines: {node: '>=16.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
       '@emotion/react': 11.9.0
@@ -3147,7 +3147,7 @@ packages:
       prop-types: 15.8.1
       react: 17.0.2
       react-countup: 6.2.0_react@17.0.2
-      react-datepicker: 4.7.0_sfoxds7t5ydpegc3knd667wn6m
+      react-datepicker: 4.8.0_sfoxds7t5ydpegc3knd667wn6m
       react-dom: 17.0.2_react@17.0.2
       react-flatten-children: 1.1.2
       react-markdown: 5.0.3_hx2b44akkvgcgvvtmk7ds2qk6q
@@ -13347,11 +13347,11 @@ packages:
       react: 17.0.2
     dev: false
 
-  /react-datepicker/4.7.0_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-FS8KgbwqpxmJBv/bUdA42MYqYZa+fEYcpc746DZiHvVE2nhjrW/dg7c5B5fIUuI8gZET6FOzuDgezNcj568Czw==}
+  /react-datepicker/4.8.0_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-u69zXGHMpxAa4LeYR83vucQoUCJQ6m/WBsSxmUMu/M8ahTSVMMyiyQzauHgZA2NUr9y0FUgOAix71hGYUb6tvg==}
     peerDependencies:
-      react: ^16.9.0 || ^17 || 17
-      react-dom: ^16.9.0 || ^17
+      react: ^16.9.0 || ^17 || ^18 || 17
+      react-dom: ^16.9.0 || ^17 || ^18
     dependencies:
       '@popperjs/core': 2.11.2
       classnames: 2.3.1

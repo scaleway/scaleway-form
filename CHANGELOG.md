@@ -1,3 +1,11 @@
+### [1.15.18](https://github.com/scaleway/scaleway-form/compare/v1.15.17...v1.15.18) (2022-05-18)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.151.1 ([#281](https://github.com/scaleway/scaleway-form/issues/281)) ([92b0c65](https://github.com/scaleway/scaleway-form/commit/92b0c65b3cde774904e4c91bb5c8d1b9ccea390f))
+* **devdeps:** update dependency @testing-library/user-event to v14.2.0 ([#287](https://github.com/scaleway/scaleway-form/issues/287)) ([94802c6](https://github.com/scaleway/scaleway-form/commit/94802c64dc617422ce42a622b02ee8e929a5775b))
+
 ### [1.15.17](https://github.com/scaleway/scaleway-form/compare/v1.15.16...v1.15.17) (2022-05-18)
 
 

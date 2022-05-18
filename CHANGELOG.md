@@ -1,3 +1,23 @@
+### [1.15.17](https://github.com/scaleway/scaleway-form/compare/v1.15.16...v1.15.17) (2022-05-18)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/setup-node action to v3.2.0 ([#285](https://github.com/scaleway/scaleway-form/issues/285)) ([0d43b1d](https://github.com/scaleway/scaleway-form/commit/0d43b1df85cfed81d664f390e8e560ec14263fb0))
+* **devdeps:** update commitlint monorepo to v17 ([#286](https://github.com/scaleway/scaleway-form/issues/286)) ([b8fcf43](https://github.com/scaleway/scaleway-form/commit/b8fcf43af058eab8170b989f8f942131450769a3))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.24 ([#280](https://github.com/scaleway/scaleway-form/issues/280)) ([ce7398b](https://github.com/scaleway/scaleway-form/commit/ce7398bfe86f0843b0bc8225855c2ba548063865))
+* **devdeps:** update dependency @types/react-dom to v17.0.17 ([#284](https://github.com/scaleway/scaleway-form/issues/284)) ([6ee480d](https://github.com/scaleway/scaleway-form/commit/6ee480d231cbf953fdf35f233c0ae2ac41dee28b))
+* **devdeps:** update dependency eslint to v8.15.0 ([#282](https://github.com/scaleway/scaleway-form/issues/282)) ([6beb826](https://github.com/scaleway/scaleway-form/commit/6beb826e72cae86ea47c229a50537f125a5ecad0))
+* **devdeps:** update dependency rollup to v2.73.0 ([#283](https://github.com/scaleway/scaleway-form/issues/283)) ([54173ad](https://github.com/scaleway/scaleway-form/commit/54173ad0f272b12313d2e0cac1e9e255e16673af))
+* **devdeps:** update dependency webpack to v5.72.1 ([#278](https://github.com/scaleway/scaleway-form/issues/278)) ([322f7ca](https://github.com/scaleway/scaleway-form/commit/322f7ca2ea8e4fdf05a63f1094de4f690729b2dd))
+* **devdeps:** update jest monorepo to v28.1.0 ([#279](https://github.com/scaleway/scaleway-form/issues/279)) ([0813452](https://github.com/scaleway/scaleway-form/commit/081345256b4ef6545e8425a6d1c461d79e59c4a9))
+* **devdeps:** update pnpm to v7.1.1 ([#288](https://github.com/scaleway/scaleway-form/issues/288)) ([460ea20](https://github.com/scaleway/scaleway-form/commit/460ea20bba3590e52b8cab99572d9195e8a5c997))
+
+
+### :bug: Bug Fixes
+
+* **rich-select:** add isLoading type props ([#289](https://github.com/scaleway/scaleway-form/issues/289)) ([b30e83f](https://github.com/scaleway/scaleway-form/commit/b30e83f9c76e1673960cd18a23b404da204b00b4))
+
 ### [1.15.16](https://github.com/scaleway/scaleway-form/compare/v1.15.15...v1.15.16) (2022-05-11)
 
 

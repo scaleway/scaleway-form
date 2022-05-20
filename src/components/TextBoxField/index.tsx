@@ -31,6 +31,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'maxLength'
       | 'minLength'
       | 'multiline'
+      | 'notice'
       | 'onBlur'
       | 'onChange'
       | 'onFocus'
@@ -78,6 +79,7 @@ const TextBoxField = forwardRef(
       multiline,
       multiple,
       name,
+      notice,
       onBlur,
       onChange,
       onFocus,
@@ -181,6 +183,7 @@ const TextBoxField = forwardRef(
         minLength={minLength}
         min={min}
         max={max}
+        notice={notice}
         required={required}
         readOnly={readOnly}
         label={label}

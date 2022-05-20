@@ -69,6 +69,7 @@ const RichSelectField = <
   id,
   inputId,
   isClearable,
+  isLoading,
   isSearchable,
   label = '',
   maxLength,
@@ -182,6 +183,7 @@ const RichSelectField = <
       id={id}
       inputId={inputId}
       isClearable={isClearable}
+      isLoading={isLoading}
       isMulti={input.multiple}
       isSearchable={isSearchable}
       name={name}

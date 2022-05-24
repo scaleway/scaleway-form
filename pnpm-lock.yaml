@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.27
   '@scaleway/jest-helpers': 1.2.6
-  '@scaleway/ui': 0.151.2
+  '@scaleway/ui': 0.152.2
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.18.0
-  '@scaleway/ui': 0.151.2_itgkv2z3ywbonapenugu76im2y
+  '@scaleway/ui': 0.152.2_itgkv2z3ywbonapenugu76im2y
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -1775,13 +1775,6 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/runtime/7.17.9:
-    resolution: {integrity: sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: false
-
   /@babel/runtime/7.18.0:
     resolution: {integrity: sha512-YMQvx/6nKEaucl0MY56mwIG483xk8SDNdlUwb2Ts6FUpr7fm85DxEmsY18LXBNhcTz6tO6JwZV8w1W06v8UKeg==}
     engines: {node: '>=6.9.0'}
@@ -3205,8 +3198,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.151.2_itgkv2z3ywbonapenugu76im2y:
-    resolution: {integrity: sha512-YWmowcM9YuYavM/AyilIIT3H24s5SBn/OwXA2W6NWXKle/Z5uAiGhrujpqY41oAYiWAXyQihbH1YItdjhimkAQ==}
+  /@scaleway/ui/0.152.2_itgkv2z3ywbonapenugu76im2y:
+    resolution: {integrity: sha512-ecvQA+jalR6Glwih5SDcih+yAQH06hrDJEPQ2ndfODAx51Mc0yw9Jw9VXXnq/WzwVd4Xptg87xKqxLZyAEHumw==}
     engines: {node: '>=16.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -3215,7 +3208,6 @@ packages:
       react: 17.0.2 || 17
       react-dom: 17.0.2
     dependencies:
-      '@babel/runtime': 7.17.9
       '@emotion/react': 11.9.0_citxzijaigt45he3z6kuy2ivbq
       '@emotion/serialize': 1.0.3
       '@emotion/styled': 11.8.1_3mkbovqfrbpc53bljqhapolzfu

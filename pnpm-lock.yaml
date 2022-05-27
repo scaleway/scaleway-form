@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-babel': 5.3.1
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-url': 7.0.0
-  '@scaleway/eslint-config-react': 3.4.27
+  '@scaleway/eslint-config-react': 3.4.28
   '@scaleway/jest-helpers': 1.2.6
   '@scaleway/ui': 0.152.2
   '@semantic-release/changelog': 6.0.1
@@ -107,7 +107,7 @@ devDependencies:
   '@rollup/plugin-babel': 5.3.1_ykg7cmcqpmn5fbkb5gxs7i3du4
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.74.1
   '@rollup/plugin-url': 7.0.0_rollup@2.74.1
-  '@scaleway/eslint-config-react': 3.4.27_utdtartgf6fqqgkivzeynh76la
+  '@scaleway/eslint-config-react': 3.4.28_utdtartgf6fqqgkivzeynh76la
   '@scaleway/jest-helpers': 1.2.6_lmhfscgx62jidon3fv3k3zx3ui
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.2
@@ -3154,8 +3154,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@scaleway/eslint-config-react/3.4.27_utdtartgf6fqqgkivzeynh76la:
-    resolution: {integrity: sha512-m891XlejdpXB4nZx/BccUh9TBQ6+f9Bch+j/GKS0Ma2lToIqmwYGofA4dxY32ipChW+cp5mo0F0F38uUkpkjfA==}
+  /@scaleway/eslint-config-react/3.4.28_utdtartgf6fqqgkivzeynh76la:
+    resolution: {integrity: sha512-MLBe+YdqPKClGlk3ZxRIuGsUveJBFkYjy4VsRu2AZoNv5u3Wq10Uf56TPsi9+/h1gcpRExWTMUvd0P1aTS86uQ==}
     peerDependencies:
       eslint: '>= 8.5'
     dependencies:

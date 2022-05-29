@@ -2,7 +2,7 @@
 
 exports[`SwitchField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@ exports[`SwitchField should render correctly 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -29,12 +29,12 @@ exports[`SwitchField should render correctly 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -57,12 +57,12 @@ exports[`SwitchField should render correctly 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -74,7 +74,7 @@ exports[`SwitchField should render correctly 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -82,99 +82,99 @@ exports[`SwitchField should render correctly 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -184,7 +184,7 @@ exports[`SwitchField should render correctly 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
@@ -192,28 +192,28 @@ exports[`SwitchField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="false"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="false"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -227,7 +227,7 @@ exports[`SwitchField should render correctly 1`] = `
 
 exports[`SwitchField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -239,7 +239,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -254,12 +254,12 @@ exports[`SwitchField should render correctly checked 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -282,12 +282,12 @@ exports[`SwitchField should render correctly checked 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -299,7 +299,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -307,99 +307,99 @@ exports[`SwitchField should render correctly checked 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -409,7 +409,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
@@ -417,29 +417,29 @@ exports[`SwitchField should render correctly checked 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="true"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="true"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
             checked=""
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -453,7 +453,7 @@ exports[`SwitchField should render correctly checked 1`] = `
 
 exports[`SwitchField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -465,7 +465,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -480,12 +480,12 @@ exports[`SwitchField should render correctly disabled 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -508,12 +508,12 @@ exports[`SwitchField should render correctly disabled 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -525,7 +525,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -533,99 +533,99 @@ exports[`SwitchField should render correctly disabled 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -635,7 +635,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
@@ -643,28 +643,28 @@ exports[`SwitchField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="false"
         aria-disabled="true"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="false"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             disabled=""
             id="test"
             name="test"
@@ -679,7 +679,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
 
 exports[`SwitchField should render correctly with label and checked 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -691,7 +691,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -706,12 +706,12 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -734,12 +734,12 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -751,7 +751,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -759,99 +759,99 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -861,11 +861,11 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
-.cache-rdtd8m-StyledText-variantStyles-colorStyles {
+.cache-158kr7v-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -877,29 +877,29 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="true"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="true"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
             checked=""
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -907,7 +907,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
         </div>
       </label>
       <div
-        class="e1g1zfwd0 cache-rdtd8m-StyledText-variantStyles-colorStyles"
+        class="e1g1zfwd0 cache-158kr7v-variantStyles-colorStyles"
       >
         test
       </div>
@@ -918,7 +918,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
 
 exports[`SwitchField should render correctly with offLabel 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -930,7 +930,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -945,12 +945,12 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -973,12 +973,12 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -990,7 +990,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -998,99 +998,99 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -1100,7 +1100,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
@@ -1108,28 +1108,28 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="false"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="false"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -1143,7 +1143,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
 
 exports[`SwitchField should render correctly with onLabel 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1155,7 +1155,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1170,12 +1170,12 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -1198,12 +1198,12 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -1215,7 +1215,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -1223,99 +1223,99 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -1325,7 +1325,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
@@ -1333,28 +1333,28 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="false"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="false"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -1368,7 +1368,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
 
 exports[`SwitchField should render correctly without onLabel and offLabel but has label 1`] = `
 <DocumentFragment>
-  .cache-axw7ok {
+  .cache-1rm777a-StyledSwitchFieldContainer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1380,7 +1380,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   gap: 8px;
 }
 
-.cache-1c3gp4t-StyledLabel {
+.cache-td742h {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1395,12 +1395,12 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   width: fit-content;
 }
 
-.cache-1c3gp4t-StyledLabel[aria-disabled='true'] {
+.cache-td742h[aria-disabled='true'] {
   cursor: not-allowed;
   opacity: 0.3;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -1423,12 +1423,12 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   min-width: 48px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -1440,7 +1440,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   bottom: 0;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -1448,99 +1448,99 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
+.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
-.cache-322r38-StyledCheckbox {
+.cache-1d95tts {
   position: absolute;
   opacity: 0.01;
   top: 0;
@@ -1550,11 +1550,11 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   cursor: pointer;
 }
 
-.cache-322r38-StyledCheckbox[disabled] {
+.cache-1d95tts[disabled] {
   cursor: not-allowed;
 }
 
-.cache-1mct6ue-StyledText-variantStyles-colorStyles {
+.cache-s7vwv0-variantStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -1566,28 +1566,28 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
     novalidate=""
   >
     <div
-      class="cache-axw7ok e1fcp5360"
+      class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
       <label
         aria-checked="false"
         aria-disabled="false"
-        class="cache-1c3gp4t-StyledLabel e1x48wse1"
+        class="cache-td742h e1x48wse1"
       >
         <div
           aria-checked="false"
-          class="cache-1xz92su-StyledSwitch-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
           data-size="small"
           data-variant="primary"
         >
           <div
-            class="cache-24p4j6-SwitchBallContainer e1x48wse5"
+            class="cache-0 e1x48wse5"
           >
             <span
-              class="cache-hol3kh-SwitchBall e1x48wse6"
+              class="cache-0 e1x48wse6"
             />
           </div>
           <input
-            class="cache-322r38-StyledCheckbox e1x48wse2"
+            class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
@@ -1595,7 +1595,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
         </div>
       </label>
       <div
-        class="e1g1zfwd0 cache-1mct6ue-StyledText-variantStyles-colorStyles"
+        class="e1g1zfwd0 cache-s7vwv0-variantStyles-colorStyles"
       >
         test
       </div>

@@ -1,3 +1,24 @@
+### [1.15.21](https://github.com/scaleway/scaleway-form/compare/v1.15.20...v1.15.21) (2022-05-29)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo ([#303](https://github.com/scaleway/scaleway-form/issues/303)) ([90c295e](https://github.com/scaleway/scaleway-form/commit/90c295e566ee7c5c9863b55dd4b05e17e90f50e4))
+* **devdeps:** update dependency @commitlint/cli to v17.0.1 ([#307](https://github.com/scaleway/scaleway-form/issues/307)) ([023ee87](https://github.com/scaleway/scaleway-form/commit/023ee873b34fb11b2f6672087f3e91c1c80a9baf))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.28 ([#305](https://github.com/scaleway/scaleway-form/issues/305)) ([78e830b](https://github.com/scaleway/scaleway-form/commit/78e830b2553edc14d6ee67125dfc84932b6ff5b8))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.29 ([#309](https://github.com/scaleway/scaleway-form/issues/309)) ([8e9b6a3](https://github.com/scaleway/scaleway-form/commit/8e9b6a35edace8347b0d2c6ce1d068d16ec8c9e2))
+* **devdeps:** update dependency eslint to v8.16.0 ([#306](https://github.com/scaleway/scaleway-form/issues/306)) ([087bcc6](https://github.com/scaleway/scaleway-form/commit/087bcc6a45736ba7a469baee1cf8045cd04da1b3))
+* **devdeps:** update dependency lint-staged to v12.4.2 ([#304](https://github.com/scaleway/scaleway-form/issues/304)) ([300027c](https://github.com/scaleway/scaleway-form/commit/300027ce09894a5b33b73f6da0820923073a8553))
+* **devdeps:** update dependency rollup to v2.74.1 ([#301](https://github.com/scaleway/scaleway-form/issues/301)) ([5f51ea4](https://github.com/scaleway/scaleway-form/commit/5f51ea4b2a41050328689b13dcc8c3d9dd6a6bf8))
+* **devdeps:** update dependency rollup-plugin-dts to v4.2.2 ([#308](https://github.com/scaleway/scaleway-form/issues/308)) ([107c195](https://github.com/scaleway/scaleway-form/commit/107c195561539ed0ce23d1c7dfab088e34249a4d))
+* **devdeps:** update pnpm to v7.1.5 ([#302](https://github.com/scaleway/scaleway-form/issues/302)) ([92385ee](https://github.com/scaleway/scaleway-form/commit/92385eeec25fcdbc075f49ac3364459e4f17977b))
+* **devdeps:** update pnpm/action-setup action to v2.2.2 ([#311](https://github.com/scaleway/scaleway-form/issues/311)) ([d865c78](https://github.com/scaleway/scaleway-form/commit/d865c780b35b08ce39e53ff7e53a563dfefa88ef))
+
+
+### :bug: Bug Fixes
+
+* **props:** missing props on Text & RichSelect ([#297](https://github.com/scaleway/scaleway-form/issues/297)) ([cc22e25](https://github.com/scaleway/scaleway-form/commit/cc22e25fb024e64d88d269486a68b3cd9d396413))
+
 ### [1.15.20](https://github.com/scaleway/scaleway-form/compare/v1.15.19...v1.15.20) (2022-05-24)
 
 

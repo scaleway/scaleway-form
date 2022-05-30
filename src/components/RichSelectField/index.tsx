@@ -63,6 +63,7 @@ const RichSelectField = <
   animationOnChange,
   children,
   className,
+  disabled,
   error: errorProp,
   format: formatProp = identity as NonNullable<BaseFieldProps<T>['format']>,
   formatOnBlur,
@@ -179,6 +180,7 @@ const RichSelectField = <
       animationDuration={animationDuration}
       animationOnChange={animationOnChange}
       className={className}
+      disabled={disabled}
       error={error}
       id={id}
       inputId={inputId}
@@ -188,16 +190,16 @@ const RichSelectField = <
       isSearchable={isSearchable}
       name={name}
       onBlur={event => {
-        onBlur?.(event)
         input.onBlur(event)
+        onBlur?.(event)
       }}
       onChange={(event, action) => {
-        onChange?.(event, action)
         input.onChange(event)
+        onChange?.(event, action)
       }}
       onFocus={event => {
-        onFocus?.(event)
         input.onFocus(event)
+        onFocus?.(event)
       }}
       options={options}
       placeholder={placeholder}

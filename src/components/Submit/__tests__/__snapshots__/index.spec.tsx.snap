@@ -2,11 +2,11 @@
 
 exports[`Submit form is invalid 1`] = `
 <DocumentFragment>
-  .cache-1txlkbl-StyledRelativeDiv {
+  .cache-bjn8wh {
   position: relative;
 }
 
-.cache-17ab1cr-StyledInput {
+.cache-16jruyc {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -35,53 +35,53 @@ exports[`Submit form is invalid 1`] = `
   padding: 8px;
 }
 
-.cache-17ab1cr-StyledInput::-webkit-input-placeholder {
+.cache-16jruyc::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-17ab1cr-StyledInput::-moz-placeholder {
+.cache-16jruyc::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-17ab1cr-StyledInput:-ms-input-placeholder {
+.cache-16jruyc:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-17ab1cr-StyledInput::placeholder {
+.cache-16jruyc::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-17ab1cr-StyledInput:hover,
-.cache-17ab1cr-StyledInput:focus {
+.cache-16jruyc:hover,
+.cache-16jruyc:focus {
   border-color: #4f0599;
 }
 
-.cache-17ab1cr-StyledInput:focus {
+.cache-16jruyc:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-17ab1cr-StyledInput::-webkit-input-placeholder {
+.cache-16jruyc::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-17ab1cr-StyledInput::-moz-placeholder {
+.cache-16jruyc::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-17ab1cr-StyledInput:-ms-input-placeholder {
+.cache-16jruyc:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-17ab1cr-StyledInput::placeholder {
+.cache-16jruyc::placeholder {
   opacity: 1;
 }
 
-.cache-3dfrrx-StyledExpandable {
+.cache-xcx33n {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -91,17 +91,17 @@ exports[`Submit form is invalid 1`] = `
   margin-top: 0;
 }
 
-.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
+.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
-.cache-e84ooj-StyledError {
+.cache-1rshnsu {
   font-size: 12px;
   color: #dd3252;
   padding-top: 2px;
 }
 
-.cache-n5p2iz-StyledButton {
+.cache-kh2w65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -144,23 +144,23 @@ exports[`Submit form is invalid 1`] = `
   box-shadow: none;
 }
 
-.cache-n5p2iz-StyledButton:hover,
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:hover,
+.cache-kh2w65:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-n5p2iz-StyledButton:hover,
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:hover,
+.cache-kh2w65:focus {
   color: #ffffff;
   background-color: #1eb290;
 }
 
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:focus {
   box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
 }
 
-.cache-m245rk-StyledContent {
+.cache-115wth8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -183,32 +183,32 @@ exports[`Submit form is invalid 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-17ab1cr-StyledInput e18bmnpq0"
+          class="cache-16jruyc e18bmnpq0"
           name="toto"
           type="text"
           value="4"
         />
       </div>
       <div
-        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
+        class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-e84ooj-StyledError e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq1"
         />
       </div>
     </div>
     <button
       aria-disabled="true"
-      class="em6gco80 cache-n5p2iz-StyledButton"
+      class="em6gco80 cache-kh2w65"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="cache-115wth8 em6gco81"
       >
         Test
       </div>
@@ -235,7 +235,7 @@ exports[`Submit form is submitting 1`] = `
   }
 }
 
-.cache-n5p2iz-StyledButton {
+.cache-kh2w65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -278,23 +278,23 @@ exports[`Submit form is submitting 1`] = `
   box-shadow: none;
 }
 
-.cache-n5p2iz-StyledButton:hover,
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:hover,
+.cache-kh2w65:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-n5p2iz-StyledButton:hover,
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:hover,
+.cache-kh2w65:focus {
   color: #ffffff;
   background-color: #1eb290;
 }
 
-.cache-n5p2iz-StyledButton:focus {
+.cache-kh2w65:focus {
   box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
 }
 
-.cache-i4evwh-StyledIconContainer {
+.cache-i7e9al {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -303,7 +303,7 @@ exports[`Submit form is submitting 1`] = `
   pointer-events: none;
 }
 
-.cache-1przpdq-Loader-css {
+.cache-1dul7yn-css {
   -webkit-animation: animation-0 0.75s linear infinite;
   animation: animation-0 0.75s linear infinite;
 }
@@ -313,7 +313,7 @@ exports[`Submit form is submitting 1`] = `
   transition: stroke-dashoffset 0.5s ease 0s;
 }
 
-.cache-m245rk-StyledContent {
+.cache-115wth8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -334,12 +334,12 @@ exports[`Submit form is submitting 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-n5p2iz-StyledButton"
+      class="em6gco80 cache-kh2w65"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-i4evwh-StyledIconContainer em6gco82"
+        class="cache-i7e9al em6gco82"
       >
         <svg
           aria-label="Loading"
@@ -347,7 +347,7 @@ exports[`Submit form is submitting 1`] = `
           aria-valuemin="0"
           aria-valuenow="20"
           aria-valuetext="20%"
-          class="cache-1przpdq-Loader-css"
+          class="cache-1dul7yn-css"
           role="progressbar"
           style="height: 1em; width: 1em;"
           viewBox="0 0 100 100"
@@ -375,7 +375,7 @@ exports[`Submit form is submitting 1`] = `
         </svg>
       </div>
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="cache-115wth8 em6gco81"
       >
         Test
       </div>
@@ -386,7 +386,7 @@ exports[`Submit form is submitting 1`] = `
 
 exports[`Submit renders correctly  1`] = `
 <DocumentFragment>
-  .cache-1ec1kwm-StyledButton {
+  .cache-1uz0qex {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -423,23 +423,23 @@ exports[`Submit renders correctly  1`] = `
   color: #ffffff;
 }
 
-.cache-1ec1kwm-StyledButton:hover,
-.cache-1ec1kwm-StyledButton:focus {
+.cache-1uz0qex:hover,
+.cache-1uz0qex:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1ec1kwm-StyledButton:hover,
-.cache-1ec1kwm-StyledButton:focus {
+.cache-1uz0qex:hover,
+.cache-1uz0qex:focus {
   color: #ffffff;
   background-color: #1eb290;
 }
 
-.cache-1ec1kwm-StyledButton:focus {
+.cache-1uz0qex:focus {
   box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
 }
 
-.cache-m245rk-StyledContent {
+.cache-115wth8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -460,11 +460,11 @@ exports[`Submit renders correctly  1`] = `
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-1ec1kwm-StyledButton"
+      class="em6gco80 cache-1uz0qex"
       type="submit"
     >
       <div
-        class="cache-m245rk-StyledContent em6gco81"
+        class="cache-115wth8 em6gco81"
       >
         Test
       </div>

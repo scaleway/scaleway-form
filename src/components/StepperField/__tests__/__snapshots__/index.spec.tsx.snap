@@ -680,7 +680,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 
 exports[`StepperField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-jglfj7-StyledContainer {
+  .cache-1bk0gso {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -702,7 +702,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-lu39b4-StyledTouchable-StyledTouchable {
+.cache-92n8z7 {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -728,21 +728,21 @@ exports[`StepperField should trigger events correctly 1`] = `
   margin: 0 4px;
 }
 
-.cache-lu39b4-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-92n8z7[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-lu39b4-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-92n8z7[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-lu39b4-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-92n8z7:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-x87wlj-StyledIcon-sizeStyles-sizeStyles-StyledIcon {
+.cache-ccc5ql-sizeStyles {
   fill: currentColor;
   height: 26px;
   width: 26px;
@@ -751,11 +751,11 @@ exports[`StepperField should trigger events correctly 1`] = `
   color: #390171;
 }
 
-.cache-x87wlj-StyledIcon-sizeStyles-sizeStyles-StyledIcon.cache-x87wlj-StyledIcon-sizeStyles-sizeStyles-StyledIcon {
+.cache-ccc5ql-sizeStyles.cache-ccc5ql-sizeStyles {
   vertical-align: middle;
 }
 
-.cache-zu3ai1-StyledCenterBox {
+.cache-12hdxul {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -781,16 +781,16 @@ exports[`StepperField should trigger events correctly 1`] = `
   max-width: calc(100% - 96px);
 }
 
-.cache-zu3ai1-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-12hdxul:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-zu3ai1-StyledCenterBox:focus-within:not([disabled]) {
+.cache-12hdxul:focus-within:not([disabled]) {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
-.cache-4fk8vx-StyledInput {
+.cache-wiike2 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -808,17 +808,17 @@ exports[`StepperField should trigger events correctly 1`] = `
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-jglfj7-StyledContainer"
+      class="etyrq8m0 cache-1bk0gso"
     >
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-lu39b4-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-92n8z7"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-x87wlj-StyledIcon-sizeStyles-sizeStyles-StyledIcon"
+          class="etyrq8m5 etwatq50 cache-ccc5ql-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -828,12 +828,12 @@ exports[`StepperField should trigger events correctly 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-zu3ai1-StyledCenterBox etyrq8m3"
+        class="cache-12hdxul etyrq8m3"
         role="status"
       >
         <input
           aria-label="Input"
-          class="cache-4fk8vx-StyledInput etyrq8m2"
+          class="cache-wiike2 etyrq8m2"
           name="test"
           style="width: 25px;"
           value="0"
@@ -842,11 +842,11 @@ exports[`StepperField should trigger events correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-lu39b4-StyledTouchable-StyledTouchable"
+        class="etyrq8m4 e1kgqxfn0 cache-92n8z7"
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-x87wlj-StyledIcon-sizeStyles-sizeStyles-StyledIcon"
+          class="etyrq8m5 etwatq50 cache-ccc5ql-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path

@@ -2,11 +2,11 @@
 
 exports[`TextBoxField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-bjn8wh {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-16jruyc {
+.cache-17ab1cr-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -35,53 +35,53 @@ exports[`TextBoxField should render correctly 1`] = `
   padding: 8px;
 }
 
-.cache-16jruyc::-webkit-input-placeholder {
+.cache-17ab1cr-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc::-moz-placeholder {
+.cache-17ab1cr-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc:-ms-input-placeholder {
+.cache-17ab1cr-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc::placeholder {
+.cache-17ab1cr-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc:hover,
-.cache-16jruyc:focus {
+.cache-17ab1cr-StyledInput:hover,
+.cache-17ab1cr-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-16jruyc:focus {
+.cache-17ab1cr-StyledInput:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-16jruyc::-webkit-input-placeholder {
+.cache-17ab1cr-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc::-moz-placeholder {
+.cache-17ab1cr-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc:-ms-input-placeholder {
+.cache-17ab1cr-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc::placeholder {
+.cache-17ab1cr-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-3dfrrx-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -91,11 +91,11 @@ exports[`TextBoxField should render correctly 1`] = `
   margin-top: 0;
 }
 
-.cache-xcx33n.cache-xcx33n {
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-1rshnsu {
+.cache-e84ooj-StyledError {
   font-size: 12px;
   color: #dd3252;
   padding-top: 2px;
@@ -108,21 +108,21 @@ exports[`TextBoxField should render correctly 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
+          class="cache-17ab1cr-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value=""
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-e84ooj-StyledError e18bmnpq1"
         />
       </div>
     </div>
@@ -132,11 +132,11 @@ exports[`TextBoxField should render correctly 1`] = `
 
 exports[`TextBoxField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-bjn8wh {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-ltnmcq {
+.cache-3p6qfs-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -170,53 +170,53 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   padding: 8px;
 }
 
-.cache-ltnmcq::-webkit-input-placeholder {
+.cache-3p6qfs-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq::-moz-placeholder {
+.cache-3p6qfs-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq:-ms-input-placeholder {
+.cache-3p6qfs-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq::placeholder {
+.cache-3p6qfs-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq:hover,
-.cache-ltnmcq:focus {
+.cache-3p6qfs-StyledInput:hover,
+.cache-3p6qfs-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-ltnmcq:focus {
+.cache-3p6qfs-StyledInput:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-ltnmcq::-webkit-input-placeholder {
+.cache-3p6qfs-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq::-moz-placeholder {
+.cache-3p6qfs-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq:-ms-input-placeholder {
+.cache-3p6qfs-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq::placeholder {
+.cache-3p6qfs-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-3dfrrx-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -226,11 +226,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   margin-top: 0;
 }
 
-.cache-xcx33n.cache-xcx33n {
+.cache-3dfrrx-StyledExpandable.cache-3dfrrx-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-1rshnsu {
+.cache-e84ooj-StyledError {
   font-size: 12px;
   color: #dd3252;
   padding-top: 2px;
@@ -243,11 +243,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-ltnmcq e18bmnpq0"
+          class="cache-3p6qfs-StyledInput e18bmnpq0"
           disabled=""
           name="test"
           type="text"
@@ -255,10 +255,10 @@ exports[`TextBoxField should render correctly disabled 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="e14o3tsk0 cache-3dfrrx-StyledExpandable"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-e84ooj-StyledError e18bmnpq1"
         />
       </div>
     </div>
@@ -268,11 +268,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
 
 exports[`TextBoxField should render correctly with minLength 1`] = `
 <DocumentFragment>
-  .cache-bjn8wh {
+  .cache-1txlkbl-StyledRelativeDiv {
   position: relative;
 }
 
-.cache-1okdc8j {
+.cache-yi76o-StyledInput {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -302,63 +302,63 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   border-color: #dd3252;
 }
 
-.cache-1okdc8j::-webkit-input-placeholder {
+.cache-yi76o-StyledInput::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j::-moz-placeholder {
+.cache-yi76o-StyledInput::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j:-ms-input-placeholder {
+.cache-yi76o-StyledInput:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j::placeholder {
+.cache-yi76o-StyledInput::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j:hover,
-.cache-1okdc8j:focus {
+.cache-yi76o-StyledInput:hover,
+.cache-yi76o-StyledInput:focus {
   border-color: #4f0599;
 }
 
-.cache-1okdc8j:focus {
+.cache-yi76o-StyledInput:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-1okdc8j::-webkit-input-placeholder {
+.cache-yi76o-StyledInput::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j::-moz-placeholder {
+.cache-yi76o-StyledInput::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j:-ms-input-placeholder {
+.cache-yi76o-StyledInput:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j::placeholder {
+.cache-yi76o-StyledInput::placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j:hover,
-.cache-1okdc8j:focus {
+.cache-yi76o-StyledInput:hover,
+.cache-yi76o-StyledInput:focus {
   border-color: #a6102d;
 }
 
-.cache-1okdc8j:focus {
+.cache-yi76o-StyledInput:focus {
   box-shadow: 0px 0px 0px 3px #DD325240;
   border-color: #dd3252;
 }
 
-.cache-9xime5 {
+.cache-12czo5r-StyledExpandable {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -373,11 +373,11 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   overflow: visible;
 }
 
-.cache-9xime5.cache-9xime5 {
+.cache-12czo5r-StyledExpandable.cache-12czo5r-StyledExpandable {
   overflow: hidden;
 }
 
-.cache-1rshnsu {
+.cache-e84ooj-StyledError {
   font-size: 12px;
   color: #dd3252;
   padding-top: 2px;
@@ -391,21 +391,21 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
       minlength="13"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-1txlkbl-StyledRelativeDiv e18bmnpq2"
       >
         <input
           autocomplete="on"
-          class="cache-1okdc8j e18bmnpq0"
+          class="cache-yi76o-StyledInput e18bmnpq0"
           name="test"
           type="text"
           value="test"
         />
       </div>
       <div
-        class="e14o3tsk0 cache-9xime5"
+        class="e14o3tsk0 cache-12czo5r-StyledExpandable"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-e84ooj-StyledError e18bmnpq1"
         >
           This field should have a length greater than 13
         </div>

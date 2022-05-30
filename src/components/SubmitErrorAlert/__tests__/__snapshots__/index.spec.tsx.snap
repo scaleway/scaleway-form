@@ -2,7 +2,7 @@
 
 exports[`SubmitErrorAlert should display an alert when submitError is present 1`] = `
 <DocumentFragment>
-  .cache-1uz0qex {
+  .cache-1ec1kwm-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -39,23 +39,23 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   color: #ffffff;
 }
 
-.cache-1uz0qex:hover,
-.cache-1uz0qex:focus {
+.cache-1ec1kwm-StyledButton:hover,
+.cache-1ec1kwm-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1uz0qex:hover,
-.cache-1uz0qex:focus {
+.cache-1ec1kwm-StyledButton:hover,
+.cache-1ec1kwm-StyledButton:focus {
   color: #ffffff;
   background-color: #1eb290;
 }
 
-.cache-1uz0qex:focus {
+.cache-1ec1kwm-StyledButton:focus {
   box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
 }
 
-.cache-115wth8 {
+.cache-m245rk-StyledContent {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,7 +71,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   pointer-events: none;
 }
 
-.cache-xc74ft-alertStyles {
+.cache-1ry7q1m-StyledContainer-alertStyles-alertStyles {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -89,7 +89,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   color: #a6102d;
 }
 
-.cache-1q6mt23-sizeStyles {
+.cache-czi8r9-StyledIcon-sizeStyles-sizeStyles-StyledIcon {
   fill: currentColor;
   height: 32px;
   width: 32px;
@@ -98,11 +98,11 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   margin-right: 16px;
 }
 
-.cache-1q6mt23-sizeStyles.cache-1q6mt23-sizeStyles {
+.cache-czi8r9-StyledIcon-sizeStyles-sizeStyles-StyledIcon.cache-czi8r9-StyledIcon-sizeStyles-sizeStyles-StyledIcon {
   vertical-align: middle;
 }
 
-.cache-oaar7r {
+.cache-db05j6-AlertContainer {
   color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
@@ -116,7 +116,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   flex: 1;
 }
 
-.cache-o2m43u-bodyA-variantStyles-colorStyles {
+.cache-13ffd02-StyledText-bodyA-bodyA-variantStyles-variantStyles-colorStyles-colorStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -132,21 +132,21 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-1uz0qex"
+      class="em6gco80 cache-1ec1kwm-StyledButton"
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco81"
+        class="cache-m245rk-StyledContent em6gco81"
       >
         Submit
       </div>
     </button>
     <div
-      class="eenhiht2 cache-xc74ft-alertStyles"
+      class="eenhiht2 cache-1ry7q1m-StyledContainer-alertStyles-alertStyles"
     >
       <svg
         aria-hidden="true"
-        class="eenhiht1 etwatq50 cache-1q6mt23-sizeStyles"
+        class="eenhiht1 etwatq50 cache-czi8r9-StyledIcon-sizeStyles-sizeStyles-StyledIcon"
         viewBox="0 0 24 24"
       >
         <path
@@ -154,10 +154,10 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
         />
       </svg>
       <div
-        class="cache-oaar7r eenhiht0"
+        class="cache-db05j6-AlertContainer eenhiht0"
       >
         <p
-          class="e1g1zfwd0 cache-o2m43u-bodyA-variantStyles-colorStyles"
+          class="e1g1zfwd0 cache-13ffd02-StyledText-bodyA-bodyA-variantStyles-variantStyles-colorStyles-colorStyles"
         >
           hello
         </p>

@@ -1,3 +1,16 @@
+### [1.15.22](https://github.com/scaleway/scaleway-form/compare/v1.15.21...v1.15.22) (2022-05-30)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency typescript to v4.7.2 ([#312](https://github.com/scaleway/scaleway-form/issues/312)) ([8f9169e](https://github.com/scaleway/scaleway-form/commit/8f9169e1c11c4e137236f4d724ec7689899df157))
+* **devdeps:** update pnpm to v7.1.7 ([#310](https://github.com/scaleway/scaleway-form/issues/310)) ([9ef3fda](https://github.com/scaleway/scaleway-form/commit/9ef3fda7cc35ddb7b1cd46bd614f5ea5240c529b))
+
+
+### :bug: Bug Fixes
+
+* 🐛 send disabled prop to scw-ui and modify onChange order ([#313](https://github.com/scaleway/scaleway-form/issues/313)) ([f2d6046](https://github.com/scaleway/scaleway-form/commit/f2d6046b1007d306b50cf7ea7876a3c0ef005b3e))
+
 ### [1.15.21](https://github.com/scaleway/scaleway-form/compare/v1.15.20...v1.15.21) (2022-05-29)
 
 

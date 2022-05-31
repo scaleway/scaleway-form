@@ -1,3 +1,12 @@
+### [1.15.23](https://github.com/scaleway/scaleway-form/compare/v1.15.22...v1.15.23) (2022-05-31)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.153.0 ([#317](https://github.com/scaleway/scaleway-form/issues/317)) ([e9b33c9](https://github.com/scaleway/scaleway-form/commit/e9b33c96cb726fcb56c9d0a032c44c1a7da3a33b))
+* **devdeps:** update actions/cache action to v3.0.3 ([#314](https://github.com/scaleway/scaleway-form/issues/314)) ([887398e](https://github.com/scaleway/scaleway-form/commit/887398eec8f6b85ee3bf7f8b75cbbe1a7acbfd47))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.30 ([#315](https://github.com/scaleway/scaleway-form/issues/315)) ([25e7103](https://github.com/scaleway/scaleway-form/commit/25e71038be21f4270c3da464a6ce5d5003571274))
+
 ### [1.15.22](https://github.com/scaleway/scaleway-form/compare/v1.15.21...v1.15.22) (2022-05-30)
 
 

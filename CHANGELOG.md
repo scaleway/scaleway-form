@@ -1,3 +1,15 @@
+## [1.16.0](https://github.com/scaleway/scaleway-form/compare/v1.15.23...v1.16.0) (2022-05-31)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency lint-staged to v12.4.3 ([#316](https://github.com/scaleway/scaleway-form/issues/316)) ([215e2bb](https://github.com/scaleway/scaleway-form/commit/215e2bb28d1be76c349bafe3750fcceada4589af))
+
+
+### :gear: Features
+
+* **textbox:** add random ([#318](https://github.com/scaleway/scaleway-form/issues/318)) ([b94d684](https://github.com/scaleway/scaleway-form/commit/b94d6848ec6f27ea337a12f34dea07b6e953c547))
+
 ### [1.15.23](https://github.com/scaleway/scaleway-form/compare/v1.15.22...v1.15.23) (2022-05-31)
 
 

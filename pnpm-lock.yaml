@@ -62,7 +62,7 @@ specifiers:
   jest: 28.1.0
   jest-environment-jsdom: 28.1.0
   jest-junit: 13.2.0
-  lint-staged: 12.4.2
+  lint-staged: 12.4.3
   prettier: 2.6.2
   prop-types: 15.8.1
   react: 17.0.2
@@ -144,7 +144,7 @@ devDependencies:
   jest: 28.1.0_@types+node@17.0.31
   jest-environment-jsdom: 28.1.0
   jest-junit: 13.2.0
-  lint-staged: 12.4.2
+  lint-staged: 12.4.3
   prettier: 2.6.2
   prop-types: 15.8.1
   react: 17.0.2
@@ -7131,6 +7131,11 @@ packages:
     engines: {node: '>= 12'}
     dev: true
 
+  /commander/9.3.0:
+    resolution: {integrity: sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==}
+    engines: {node: ^12.20.0 || >=14}
+    dev: true
+
   /commitizen/4.2.4:
     resolution: {integrity: sha512-LlZChbDzg3Ir3O2S7jSo/cgWp5/QwylQVr59K4xayVq8S4/RdKzSyJkghAiZZHfhh5t4pxunUoyeg0ml1q/7aw==}
     engines: {node: '>= 10'}
@@ -11440,25 +11445,25 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lilconfig/2.0.4:
-    resolution: {integrity: sha512-bfTIN7lEsiooCocSISTWXkiWJkRqtL9wYtYy+8EK3Y41qh3mpwPU0ycTOgjdY9ErwXCc8QyrQp82bdL0Xkm9yA==}
+  /lilconfig/2.0.5:
+    resolution: {integrity: sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg==}
     engines: {node: '>=10'}
     dev: true
 
   /lines-and-columns/1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged/12.4.2:
-    resolution: {integrity: sha512-JAJGIzY/OioIUtrRePr8go6qUxij//mL+RGGoFKU3VWQRtIHgWoHizSqH0QVn2OwrbXS9Q6CICQjfj+E5qvrXg==}
+  /lint-staged/12.4.3:
+    resolution: {integrity: sha512-eH6SKOmdm/ZwCRMTZAmM3q3dPkpq6vco/BfrOw8iGun4Xs/thYegPD/MLIwKO+iPkzibkLJuQcRhRLXKvaKreg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
       cli-truncate: 3.1.0
       colorette: 2.0.16
-      commander: 8.3.0
+      commander: 9.3.0
       debug: 4.3.4_supports-color@9.2.2
       execa: 5.1.1
-      lilconfig: 2.0.4
+      lilconfig: 2.0.5
       listr2: 4.0.5
       micromatch: 4.0.5
       normalize-path: 3.0.0

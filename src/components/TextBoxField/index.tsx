@@ -36,6 +36,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'onChange'
       | 'onFocus'
       | 'placeholder'
+      | 'random'
       | 'readOnly'
       | 'required'
       | 'rows'
@@ -85,6 +86,7 @@ const TextBoxField = forwardRef(
       onFocus,
       parse,
       placeholder,
+      random,
       readOnly,
       regex,
       required,
@@ -164,43 +166,44 @@ const TextBoxField = forwardRef(
 
     return (
       <TextBox
+        autoCapitalize={autoCapitalize}
+        autoComplete={autoComplete}
+        autoCorrect={autoCorrect}
+        autoFocus={autoFocus}
+        autoSave={autoSave}
+        className={className}
+        cols={cols}
+        disabled={disabled}
+        error={error}
+        id={id}
+        label={label}
+        max={max}
+        maxLength={maxLength}
+        min={min}
+        minLength={minLength}
+        multiline={multiline}
         name={input.name}
-        onChange={event => {
-          input.onChange(event)
-          onChange?.(event)
-        }}
+        notice={notice}
         onBlur={(event: FocusEvent<HTMLInputElement>) => {
           input.onBlur(event)
           onBlur?.(event)
+        }}
+        onChange={event => {
+          input.onChange(event)
+          onChange?.(event)
         }}
         onFocus={(event: FocusEvent<HTMLInputElement>) => {
           input.onFocus(event)
           onFocus?.(event)
         }}
+        placeholder={placeholder}
+        random={random}
+        readOnly={readOnly}
+        ref={ref}
+        required={required}
+        rows={rows}
         type={input.type}
         value={input.value}
-        maxLength={maxLength}
-        minLength={minLength}
-        min={min}
-        max={max}
-        notice={notice}
-        required={required}
-        readOnly={readOnly}
-        label={label}
-        placeholder={placeholder}
-        disabled={disabled}
-        autoComplete={autoComplete}
-        autoCapitalize={autoCapitalize}
-        autoCorrect={autoCorrect}
-        autoFocus={autoFocus}
-        autoSave={autoSave}
-        multiline={multiline}
-        cols={cols}
-        rows={rows}
-        id={id}
-        error={error}
-        ref={ref}
-        className={className}
       />
     )
   },

@@ -1,3 +1,11 @@
+### [1.16.1](https://github.com/scaleway/scaleway-form/compare/v1.16.0...v1.16.1) (2022-06-01)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.153.1 ([#319](https://github.com/scaleway/scaleway-form/issues/319)) ([ad78d1c](https://github.com/scaleway/scaleway-form/commit/ad78d1c7435712a1367e47b4bd481529528f1ef7))
+* **devdeps:** update dependency lint-staged to v13 ([#320](https://github.com/scaleway/scaleway-form/issues/320)) ([13b009b](https://github.com/scaleway/scaleway-form/commit/13b009b9965f13a6bb506630121a8c3810621ab2))
+
 ## [1.16.0](https://github.com/scaleway/scaleway-form/compare/v1.15.23...v1.16.0) (2022-05-31)
 
 

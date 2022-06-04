@@ -42,12 +42,11 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'rows'
       | 'type'
       | 'value'
+      | 'size'
     >
   > & {
     name: string
     className?: string
-    max?: number
-    min?: number
     regex?: (RegExp | RegExp[])[]
   }
 
@@ -73,9 +72,7 @@ const TextBoxField = forwardRef(
       initialValue,
       isEqual,
       label = '',
-      max,
       maxLength,
-      min,
       minLength,
       multiline,
       multiple,
@@ -96,6 +93,7 @@ const TextBoxField = forwardRef(
       validate,
       validateFields,
       value,
+      size,
     }: TextBoxFieldProps,
     ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
@@ -105,9 +103,7 @@ const TextBoxField = forwardRef(
     const validateFn = useValidation<TextBoxValue>({
       validate,
       validators: pickValidators({
-        max,
         maxLength,
-        min,
         minLength,
         regex,
         required,
@@ -139,10 +135,8 @@ const TextBoxField = forwardRef(
           ? getFirstError<string>({
               allValues: values,
               label,
-              max,
               maxLength,
               meta: meta as FieldState<string>,
-              min,
               minLength,
               name,
               regex,
@@ -153,10 +147,8 @@ const TextBoxField = forwardRef(
         getFirstError,
         input.value,
         label,
-        max,
         maxLength,
         meta,
-        min,
         minLength,
         name,
         regex,
@@ -177,14 +169,13 @@ const TextBoxField = forwardRef(
         error={error}
         id={id}
         label={label}
-        max={max}
+        size={size}
         maxLength={maxLength}
-        min={min}
         minLength={minLength}
         multiline={multiline}
         name={input.name}
         notice={notice}
-        onBlur={(event: FocusEvent<HTMLInputElement>) => {
+        onBlur={(event: FocusEvent<HTMLTextAreaElement>) => {
           input.onBlur(event)
           onBlur?.(event)
         }}
@@ -192,7 +183,7 @@ const TextBoxField = forwardRef(
           input.onChange(event)
           onChange?.(event)
         }}
-        onFocus={(event: FocusEvent<HTMLInputElement>) => {
+        onFocus={(event: FocusEvent<HTMLTextAreaElement>) => {
           input.onFocus(event)
           onFocus?.(event)
         }}

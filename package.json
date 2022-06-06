@@ -24,7 +24,7 @@
     "darwin",
     "linux"
   ],
-  "packageManager": "pnpm@7.1.7",
+  "packageManager": "pnpm@7.1.9",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -143,7 +143,7 @@
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-url": "7.0.0",
-    "@scaleway/eslint-config-react": "3.4.30",
+    "@scaleway/eslint-config-react": "3.4.31",
     "@scaleway/jest-helpers": "1.2.6",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
@@ -191,7 +191,7 @@
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-visualizer": "5.6.0",
     "semantic-release": "19.0.2",
-    "typescript": "4.7.2",
+    "typescript": "4.7.3",
     "webpack": "5.72.1"
   },
   "dependencies": {

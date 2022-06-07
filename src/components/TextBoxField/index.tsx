@@ -47,6 +47,8 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
   > & {
     name: string
     className?: string
+    max?: number
+    min?: number
     regex?: (RegExp | RegExp[])[]
   }
 
@@ -72,7 +74,9 @@ const TextBoxField = forwardRef(
       initialValue,
       isEqual,
       label = '',
+      max,
       maxLength,
+      min,
       minLength,
       multiline,
       multiple,
@@ -103,7 +107,9 @@ const TextBoxField = forwardRef(
     const validateFn = useValidation<TextBoxValue>({
       validate,
       validators: pickValidators({
+        max,
         maxLength,
+        min,
         minLength,
         regex,
         required,
@@ -135,8 +141,10 @@ const TextBoxField = forwardRef(
           ? getFirstError<string>({
               allValues: values,
               label,
+              max,
               maxLength,
               meta: meta as FieldState<string>,
+              min,
               minLength,
               name,
               regex,
@@ -147,8 +155,10 @@ const TextBoxField = forwardRef(
         getFirstError,
         input.value,
         label,
+        max,
         maxLength,
         meta,
+        min,
         minLength,
         name,
         regex,
@@ -175,7 +185,9 @@ const TextBoxField = forwardRef(
         multiline={multiline}
         name={input.name}
         notice={notice}
-        onBlur={(event: FocusEvent<HTMLTextAreaElement>) => {
+        max={max}
+        min={min}
+        onBlur={(event: FocusEvent<HTMLInputElement>) => {
           input.onBlur(event)
           onBlur?.(event)
         }}
@@ -183,7 +195,7 @@ const TextBoxField = forwardRef(
           input.onChange(event)
           onChange?.(event)
         }}
-        onFocus={(event: FocusEvent<HTMLTextAreaElement>) => {
+        onFocus={(event: FocusEvent<HTMLInputElement>) => {
           input.onFocus(event)
           onFocus?.(event)
         }}

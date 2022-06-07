@@ -1,4 +1,4 @@
-import { Button, TextBox } from '@scaleway/ui'
+import { Button } from '@scaleway/ui'
 import React, { ComponentProps, ReactNode } from 'react'
 import { useFormState } from 'react-final-form'
 
@@ -6,7 +6,7 @@ type SubmitProps = {
   children?: ReactNode
   disabled?: boolean
   className?: string
-  size?: ComponentProps<typeof TextBox>['size']
+  size?: ComponentProps<typeof Button>['size']
   variant?: ComponentProps<typeof Button>['variant']
 }
 

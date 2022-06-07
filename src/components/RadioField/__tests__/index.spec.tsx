@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event'
 import React from 'react'
 import RadioField from '..'
 import {
@@ -72,21 +71,4 @@ describe('RadioField', () => {
       },
     )
   })
-
-  test('should render correctly with errors', () =>
-    shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors}>
-        <RadioField name="test" value="checked" required>
-          Radio field error
-        </RadioField>
-        <button type="submit">Submit</button>
-      </Form>,
-      {
-        transform: async node => {
-          await userEvent.click(node.getByRole('button'))
-          const error = node.getByText(mockErrors.REQUIRED as string)
-          expect(error).toBeVisible()
-        },
-      },
-    ))
 })

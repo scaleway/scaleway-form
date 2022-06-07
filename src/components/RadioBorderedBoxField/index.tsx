@@ -24,7 +24,6 @@ type RadioBorderedBoxFieldProps<
       | 'disabled'
       | 'labelDescription'
       | 'size'
-      | 'valid'
       | 'value'
       | 'onChange'
       | 'onBlur'
@@ -51,7 +50,6 @@ const RadioBorderedBoxField = ({
   onFocus,
   required,
   size,
-  valid,
   validate,
   value,
 }: RadioBorderedBoxFieldProps): JSX.Element => {
@@ -110,7 +108,6 @@ const RadioBorderedBoxField = ({
       checked={input.checked}
       value={input.value}
       error={error}
-      valid={valid}
     >
       {children}
     </RadioBorderedBox>

@@ -1,3 +1,18 @@
+## [1.16.2](https://github.com/scaleway/scaleway-form/compare/v1.16.1...v1.16.2) (2022-06-06)
+
+
+### :package: Chore
+
+* **devdeps:** update commitlint monorepo to v17.0.2 ([#322](https://github.com/scaleway/scaleway-form/issues/322)) ([820f0f2](https://github.com/scaleway/scaleway-form/commit/820f0f2e7722fc01a3e9024b6988f2be11e71b0d))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.31 ([#327](https://github.com/scaleway/scaleway-form/issues/327)) ([948e411](https://github.com/scaleway/scaleway-form/commit/948e41161e1e90245e6b396008f5f57002e44b0d))
+* **devdeps:** update dependency typescript to v4.7.3 ([#325](https://github.com/scaleway/scaleway-form/issues/325)) ([628cfd0](https://github.com/scaleway/scaleway-form/commit/628cfd0a6b432acbb2a25c4497e5b1f1c551cad3))
+* **devdeps:** update pnpm to v7.1.9 ([#326](https://github.com/scaleway/scaleway-form/issues/326)) ([3af7d06](https://github.com/scaleway/scaleway-form/commit/3af7d06a89f975081fb1d4e41f1236468857ceb9))
+
+
+### :bug: Bug Fixes
+
+* migration to updated Radio from scw-ui ([#323](https://github.com/scaleway/scaleway-form/issues/323)) ([9516fa4](https://github.com/scaleway/scaleway-form/commit/9516fa40aba89de562839912667234592ada5474))
+
 ### [1.16.1](https://github.com/scaleway/scaleway-form/compare/v1.16.0...v1.16.1) (2022-06-01)
 
 

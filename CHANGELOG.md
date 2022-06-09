@@ -1,3 +1,15 @@
+## [1.17.0](https://github.com/scaleway/scaleway-form/compare/v1.16.3...v1.17.0) (2022-06-09)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.33 ([#336](https://github.com/scaleway/scaleway-form/issues/336)) ([180359d](https://github.com/scaleway/scaleway-form/commit/180359dd711bb4ad6c33a1a75d8f8b6dacdb3e0a))
+
+
+### :gear: Features
+
+* **deps:** stepper to SelectNumber ([#338](https://github.com/scaleway/scaleway-form/issues/338)) ([1a06b7a](https://github.com/scaleway/scaleway-form/commit/1a06b7a89109163a77b104dc7ad7243c82cbfa9a))
+
 ## [1.16.3](https://github.com/scaleway/scaleway-form/compare/v1.16.2...v1.16.3) (2022-06-09)
 
 

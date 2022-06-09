@@ -1,7 +1,7 @@
 import { waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import StepperField from '..'
+import SelectNumberField from '..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
@@ -9,15 +9,15 @@ import {
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 
-describe('StepperField', () => {
+describe('SelectNumberField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField name="test" value={0} />,
+      <SelectNumberField name="test" value={0} />,
     ))
 
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField name="test" value={10} disabled />,
+      <SelectNumberField name="test" value={10} disabled />,
       {
         transform: ({ getByLabelText }) => {
           const input = getByLabelText('Input')
@@ -38,7 +38,7 @@ describe('StepperField', () => {
     const onBlur = jest.fn(() => {})
 
     return shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField
+      <SelectNumberField
         name="test"
         value={10}
         onChange={onChange}
@@ -68,7 +68,7 @@ describe('StepperField', () => {
 
     return shouldMatchEmotionSnapshot(
       <Form errors={mockErrors}>
-        <StepperField
+        <SelectNumberField
           maxValue={maxValue}
           minValue={minValue}
           name="test"

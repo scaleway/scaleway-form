@@ -1,19 +1,21 @@
-import { Stepper } from '@scaleway/ui'
+import { SelectNumber } from '@scaleway/ui'
 import React, { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
 import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { BaseFieldProps } from '../../types'
 
-type StepperValue = NonNullable<ComponentProps<typeof Stepper>['value']>
+type SelectNumberValue = NonNullable<
+  ComponentProps<typeof SelectNumber>['value']
+>
 
-type StepperValueFieldProps<T = StepperValue, K = string> = BaseFieldProps<
-  T,
-  K
-> &
+type SelectNumberValueFieldProps<
+  T = SelectNumberValue,
+  K = string,
+> = BaseFieldProps<T, K> &
   Partial<
     Pick<
-      ComponentProps<typeof Stepper>,
+      ComponentProps<typeof SelectNumber>,
       | 'disabled'
       | 'maxValue'
       | 'minValue'
@@ -32,7 +34,7 @@ type StepperValueFieldProps<T = StepperValue, K = string> = BaseFieldProps<
     onFocus?: FocusEventHandler<HTMLInputElement>
   }
 
-const StepperField = ({
+const SelectNumberField = ({
   disabled,
   maxValue,
   minValue,
@@ -48,8 +50,8 @@ const StepperField = ({
   text,
   validate,
   value,
-}: StepperValueFieldProps) => {
-  const validateFn = useValidation<StepperValue>({
+}: SelectNumberValueFieldProps) => {
+  const validateFn = useValidation<SelectNumberValue>({
     validate,
     validators: pickValidators({
       required,
@@ -63,7 +65,7 @@ const StepperField = ({
   })
 
   return (
-    <Stepper
+    <SelectNumber
       name={name}
       disabled={disabled}
       onBlur={(event: FocusEvent<HTMLInputElement>) => {
@@ -90,4 +92,4 @@ const StepperField = ({
   )
 }
 
-export default StepperField
+export default SelectNumberField

@@ -74,7 +74,7 @@ specifiers:
   rollup: 2.75.6
   rollup-plugin-dts: 4.2.2
   rollup-plugin-visualizer: 5.6.0
-  semantic-release: 19.0.2
+  semantic-release: 19.0.3
   typescript: 4.7.3
   webpack: 5.73.0
 
@@ -109,12 +109,12 @@ devDependencies:
   '@rollup/plugin-url': 7.0.0_rollup@2.75.6
   '@scaleway/eslint-config-react': 3.4.33_ud6rd4xtew5bv4yhvkvu24pzm4
   '@scaleway/jest-helpers': 1.2.6_mk7blnrphnoord32peccbqkdtq
-  '@semantic-release/changelog': 6.0.1_semantic-release@19.0.2
-  '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.2
-  '@semantic-release/git': 10.0.1_semantic-release@19.0.2
-  '@semantic-release/github': 8.0.4_semantic-release@19.0.2
-  '@semantic-release/npm': 9.0.1_semantic-release@19.0.2
-  '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.2
+  '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
+  '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.3
+  '@semantic-release/git': 10.0.1_semantic-release@19.0.3
+  '@semantic-release/github': 8.0.4_semantic-release@19.0.3
+  '@semantic-release/npm': 9.0.1_semantic-release@19.0.3
+  '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.3
   '@storybook/addon-actions': 6.4.22_k2mvpji5i2ojml6m4ftklg47pa
   '@storybook/addon-docs': 6.4.22_lc2eo6vxmqltumyppityr5pyyu
   '@storybook/addon-essentials': 6.4.22_52wurt25a5udvgpgrrc6rvd2sq
@@ -154,7 +154,7 @@ devDependencies:
   rollup: 2.75.6
   rollup-plugin-dts: 4.2.2_fgms252lqu3rk7srzpqqayl4ya
   rollup-plugin-visualizer: 5.6.0_rollup@2.75.6
-  semantic-release: 19.0.2
+  semantic-release: 19.0.3
   typescript: 4.7.3
   webpack: 5.73.0
 
@@ -3261,7 +3261,7 @@ packages:
       react: 17.0.2
     dev: false
 
-  /@semantic-release/changelog/6.0.1_semantic-release@19.0.2:
+  /@semantic-release/changelog/6.0.1_semantic-release@19.0.3:
     resolution: {integrity: sha512-FT+tAGdWHr0RCM3EpWegWnvXJ05LQtBkQUaQRIExONoXjVjLuOILNm4DEKNaV+GAQyJjbLRVs57ti//GypH6PA==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -3271,10 +3271,10 @@ packages:
       aggregate-error: 3.1.0
       fs-extra: 9.1.0
       lodash: 4.17.21
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
     dev: true
 
-  /@semantic-release/commit-analyzer/9.0.2_semantic-release@19.0.2:
+  /@semantic-release/commit-analyzer/9.0.2_semantic-release@19.0.3:
     resolution: {integrity: sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -3287,7 +3287,7 @@ packages:
       import-from: 4.0.0
       lodash: 4.17.21
       micromatch: 4.0.4
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3301,7 +3301,7 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/git/10.0.1_semantic-release@19.0.2:
+  /@semantic-release/git/10.0.1_semantic-release@19.0.3:
     resolution: {integrity: sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -3315,12 +3315,12 @@ packages:
       lodash: 4.17.21
       micromatch: 4.0.4
       p-reduce: 2.1.0
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@semantic-release/github/8.0.4_semantic-release@19.0.2:
+  /@semantic-release/github/8.0.4_semantic-release@19.0.3:
     resolution: {integrity: sha512-But4e8oqqP3anZI5tjzZssZc2J6eoUdeeE0s7LVKKwyiAXJiQDWNNvtPOpgG2DsIz4+Exuse7cEQgjGMxwtLmg==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -3341,14 +3341,14 @@ packages:
       mime: 3.0.0
       p-filter: 2.1.0
       p-retry: 4.6.1
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
       url-join: 4.0.1
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@semantic-release/npm/9.0.1_semantic-release@19.0.2:
+  /@semantic-release/npm/9.0.1_semantic-release@19.0.3:
     resolution: {integrity: sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g==}
     engines: {node: '>=16 || ^14.17'}
     peerDependencies:
@@ -3365,12 +3365,12 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.2.1
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
       semver: 7.3.5
       tempy: 1.0.1
     dev: true
 
-  /@semantic-release/release-notes-generator/10.0.3_semantic-release@19.0.2:
+  /@semantic-release/release-notes-generator/10.0.3_semantic-release@19.0.3:
     resolution: {integrity: sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -3386,7 +3386,7 @@ packages:
       into-stream: 6.0.0
       lodash: 4.17.21
       read-pkg-up: 7.0.1
-      semantic-release: 19.0.2
+      semantic-release: 19.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5925,7 +5925,7 @@ packages:
     dev: true
 
   /ansicolors/0.3.2:
-    resolution: {integrity: sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=}
+    resolution: {integrity: sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==}
     dev: true
 
   /anymatch/2.0.0:
@@ -5980,7 +5980,7 @@ packages:
     dev: true
 
   /argv-formatter/1.0.0:
-    resolution: {integrity: sha1-oMoMvCmltz6Dbuvhy/bF4OTrgvk=}
+    resolution: {integrity: sha512-F2+Hkm9xFaRg+GkaNnbwXNDV5O6pnCFEmqyhvfC/Ic5LbgOWjJh3L+mN/s91rxVL3znE7DYVpW0GJFT+4YBgWw==}
     dev: true
 
   /aria-query/4.2.2:
@@ -6815,7 +6815,7 @@ packages:
     dev: true
 
   /cardinal/2.1.1:
-    resolution: {integrity: sha1-fMEFXYItISlU0HsIXeolHMe8VQU=}
+    resolution: {integrity: sha512-JSr5eOgoEymtYHBjNWyjrMqet9Am2miJhlfKNdqLp6zoeAh0KN5dRAcxlecj5mAJrmQomgiOBj35xHLrFjqBpw==}
     hasBin: true
     dependencies:
       ansicolors: 0.3.2
@@ -8088,7 +8088,7 @@ packages:
     dev: true
 
   /duplexer2/0.1.4:
-    resolution: {integrity: sha1-ixLauHjA1p4+eJEFFmKjL8a93ME=}
+    resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
     dependencies:
       readable-stream: 2.3.7
     dev: true
@@ -8973,7 +8973,7 @@ packages:
     dev: true
 
   /figures/2.0.0:
-    resolution: {integrity: sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=}
+    resolution: {integrity: sha512-Oa2M9atig69ZkfwiApY8F2Yy+tzMbazyvqv21R0NsSC8floSOC09BbT1ITWAdoMGQvJ/aZnR1KMwdx9tvHnTNA==}
     engines: {node: '>=4'}
     dependencies:
       escape-string-regexp: 1.0.5
@@ -9492,7 +9492,7 @@ packages:
     dev: true
 
   /git-log-parser/1.2.0:
-    resolution: {integrity: sha1-LmpMGxP8AAKCB7p5WnrDFme5/Uo=}
+    resolution: {integrity: sha512-rnCVNfkTL8tdNryFuaY0fYiBWEBcgF748O6ZI61rslBvr2o7U65c2/6npCRqH40vuAhtgtDiqLTJjBVdrejCzA==}
     dependencies:
       argv-formatter: 1.0.0
       spawn-error-forwarder: 1.0.0
@@ -10151,11 +10151,11 @@ packages:
     dev: true
 
   /inherits/2.0.1:
-    resolution: {integrity: sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=}
+    resolution: {integrity: sha512-8nWq2nLTAwd02jTqJExUYFSD/fKq6VH9Y/oG2accc/kdI0V98Bag8d5a4gi3XHz73rDWa2PvTtvcWYquKqSENA==}
     dev: true
 
   /inherits/2.0.3:
-    resolution: {integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=}
+    resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
     dev: true
 
   /inherits/2.0.4:
@@ -10625,7 +10625,7 @@ packages:
     dev: true
 
   /isarray/1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: true
 
   /isarray/2.0.5:
@@ -11519,7 +11519,7 @@ packages:
     dev: true
 
   /load-json-file/4.0.0:
-    resolution: {integrity: sha1-L19Fq5HjMhYjT9U62rZo607AmTs=}
+    resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
     engines: {node: '>=4'}
     dependencies:
       graceful-fs: 4.2.9
@@ -13000,7 +13000,7 @@ packages:
     dev: true
 
   /pify/3.0.0:
-    resolution: {integrity: sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=}
+    resolution: {integrity: sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==}
     engines: {node: '>=4'}
     dev: true
 
@@ -13015,7 +13015,7 @@ packages:
     dev: true
 
   /pkg-conf/2.1.0:
-    resolution: {integrity: sha1-ISZRTKbyq/69FoWW3xi6V4Z/AFg=}
+    resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
     dependencies:
       find-up: 2.1.0
@@ -13982,7 +13982,7 @@ packages:
     dev: true
 
   /redeyed/2.1.1:
-    resolution: {integrity: sha1-iYS1gV2ZyyIEacme7v/jiRPmzAs=}
+    resolution: {integrity: sha512-FNpGGo1DycYAdnrKFxCMmKYgo/mILAqtRYbkdQD8Ep/Hk2PQ5+aEAEx+IU713RTDmuBaH0c8P5ZozurNu5ObRQ==}
     dependencies:
       esprima: 4.0.1
     dev: true
@@ -14198,7 +14198,7 @@ packages:
     dev: true
 
   /require-directory/2.1.1:
-    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -14474,19 +14474,19 @@ packages:
       ajv-keywords: 3.5.2_ajv@6.12.6
     dev: true
 
-  /semantic-release/19.0.2:
-    resolution: {integrity: sha512-7tPonjZxukKECmClhsfyMKDt0GR38feIC2HxgyYaBi+9tDySBLjK/zYDLhh+m6yjnHIJa9eBTKYE7k63ZQcYbw==}
+  /semantic-release/19.0.3:
+    resolution: {integrity: sha512-HaFbydST1cDKZHuFZxB8DTrBLJVK/AnDExpK0s3EqLIAAUAHUgnd+VSJCUtTYQKkAkauL8G9CucODrVCc7BuAA==}
     engines: {node: '>=16 || ^14.17'}
     hasBin: true
     dependencies:
-      '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.2
+      '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.3
       '@semantic-release/error': 3.0.0
-      '@semantic-release/github': 8.0.4_semantic-release@19.0.2
-      '@semantic-release/npm': 9.0.1_semantic-release@19.0.2
-      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.2
+      '@semantic-release/github': 8.0.4_semantic-release@19.0.3
+      '@semantic-release/npm': 9.0.1_semantic-release@19.0.3
+      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.3
       aggregate-error: 3.1.0
       cosmiconfig: 7.0.1
-      debug: 4.3.3
+      debug: 4.3.4
       env-ci: 5.5.0
       execa: 5.1.1
       figures: 3.2.0
@@ -14498,12 +14498,12 @@ packages:
       lodash: 4.17.21
       marked: 4.0.12
       marked-terminal: 5.1.1_marked@4.0.12
-      micromatch: 4.0.4
+      micromatch: 4.0.5
       p-each-series: 2.2.0
       p-reduce: 2.1.0
       read-pkg-up: 7.0.1
       resolve-from: 5.0.0
-      semver: 7.3.5
+      semver: 7.3.7
       semver-diff: 3.1.1
       signale: 1.4.0
       yargs: 16.2.0
@@ -14844,7 +14844,7 @@ packages:
     dev: true
 
   /spawn-error-forwarder/1.0.0:
-    resolution: {integrity: sha1-Gv2Uc46ZmwNG17n8NzvlXgdXcCk=}
+    resolution: {integrity: sha512-gRjMgK5uFjbCvdibeGJuy3I5OYz6VLoVdsOJdA6wV0WlfQVLFueoqMxwwYD9RODdgb6oUIvlRlsyFSiQkMKu0g==}
     dev: true
 
   /spdx-correct/3.1.1:
@@ -14888,7 +14888,7 @@ packages:
     dev: true
 
   /split2/1.0.0:
-    resolution: {integrity: sha1-UuLiIdiMdfmnP5BVbiY/+WdysxQ=}
+    resolution: {integrity: sha512-NKywug4u4pX/AZBB1FCPzZ6/7O+Xhz1qMVbzTvvKvikjO99oPN87SkK08mEY9P63/5lWjK+wgOOgApnTg5r6qg==}
     dependencies:
       through2: 2.0.5
     dev: true
@@ -14960,7 +14960,7 @@ packages:
     dev: true
 
   /stream-combiner2/1.1.1:
-    resolution: {integrity: sha1-+02KFCDqNidk4hrUeAOXvry0HL4=}
+    resolution: {integrity: sha512-3PnJbYgS56AeWgtKF5jtJRT6uFJe56Z0Hc5Ngg/6sI6rIt8iiMBTa9cvdyFfpMQjaVHr8dusbNeFGIIonxOvKw==}
     dependencies:
       duplexer2: 0.1.4
       readable-stream: 2.3.7
@@ -15094,14 +15094,14 @@ packages:
     dev: true
 
   /strip-ansi/3.0.1:
-    resolution: {integrity: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=}
+    resolution: {integrity: sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       ansi-regex: 2.1.1
     dev: true
 
   /strip-ansi/4.0.0:
-    resolution: {integrity: sha1-qEeQIusaw2iocTibY1JixQXuNo8=}
+    resolution: {integrity: sha512-4XaJ2zQdCzROZDivEVIDPkcQn8LMFSa8kj8Gxb/Lnwzv9A8VctNZ+lfivC/sV3ivW8ElJTERXZoPBRrZKkNKow==}
     engines: {node: '>=4'}
     dependencies:
       ansi-regex: 3.0.0

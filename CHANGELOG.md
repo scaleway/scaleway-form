@@ -1,3 +1,17 @@
+## [1.17.1](https://github.com/scaleway/scaleway-form/compare/v1.17.0...v1.17.1) (2022-06-13)
+
+
+### :repeat: CI
+
+* use serve instead of http-server ([#339](https://github.com/scaleway/scaleway-form/issues/339)) ([b641e46](https://github.com/scaleway/scaleway-form/commit/b641e462cfb1e50679983744eb7f711019251bca))
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.156.1 ([#337](https://github.com/scaleway/scaleway-form/issues/337)) ([0b9324b](https://github.com/scaleway/scaleway-form/commit/0b9324b598d9cb88ae4e0eea6f2431dc36b653e9))
+* **devdeps:** update dependency lint-staged to v13.0.1 ([#340](https://github.com/scaleway/scaleway-form/issues/340)) ([89b2cdb](https://github.com/scaleway/scaleway-form/commit/89b2cdbbe12b1eec0ce9d2283b59212afd3ada77))
+* **devdeps:** update dependency semantic-release to v19.0.3 [security] ([#341](https://github.com/scaleway/scaleway-form/issues/341)) ([7f4573e](https://github.com/scaleway/scaleway-form/commit/7f4573e0a8305df5678cffdce6b1b0ed1d484ca4))
+
 ## [1.17.0](https://github.com/scaleway/scaleway-form/compare/v1.16.3...v1.17.0) (2022-06-09)
 
 

@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.33
   '@scaleway/jest-helpers': 1.2.6
-  '@scaleway/ui': 0.156.0
+  '@scaleway/ui': 0.156.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.18.3
-  '@scaleway/ui': 0.156.0_pq2vg6bwsofv7ijrnxmjkzk4bq
+  '@scaleway/ui': 0.156.1_pq2vg6bwsofv7ijrnxmjkzk4bq
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3208,8 +3208,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.156.0_pq2vg6bwsofv7ijrnxmjkzk4bq:
-    resolution: {integrity: sha512-zXFygZJIjOCQz/7Ns6eQVNYqyBHOLZMqGW+lZu25cEr1lhLByIiSwnGjtPm2SYkQKm9mA+HmD2yk4pn66JzDXQ==}
+  /@scaleway/ui/0.156.1_pq2vg6bwsofv7ijrnxmjkzk4bq:
+    resolution: {integrity: sha512-xyIFjHkST1yID9ySkWkKrvad1y8H6krUVQw+RgsLtfmRQFwHL/eMgJeyJIB1BjHlOa1xvXO2wmpnuuqIn1bV+A==}
     engines: {node: '>=16.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -3228,7 +3228,7 @@ packages:
       '@nivo/pie': 0.79.1_224rd4urtehe5jib2yk4jxlpku
       '@nivo/scales': 0.79.0
       '@scaleway/random-name': 3.0.2
-      '@scaleway/use-media': 1.1.0_react@17.0.2
+      '@scaleway/use-media': 1.1.1_react@17.0.2
       '@types/intl-tel-input': 17.0.4
       '@types/react-datepicker': 4.4.2_react@17.0.2
       '@xstyled/emotion': 2.5.0_6qqrydr3dzzl3dpqgzeo3kawy4
@@ -3253,8 +3253,8 @@ packages:
       - supports-color
     dev: false
 
-  /@scaleway/use-media/1.1.0_react@17.0.2:
-    resolution: {integrity: sha512-EHMblhr2X55GVcrojt2VGmzAVZ28i9SuyrIsbidUlfUWqW6W5RLEPS1NWo6i4/vOKE1KfpslH7Xat7keXbQpPQ==}
+  /@scaleway/use-media/1.1.1_react@17.0.2:
+    resolution: {integrity: sha512-D7hvjB4UfjxjKRIi4/Ahb1IioxovrQshzCG3eKEI3IgHvURWcJXBCjM1lITEexzLz7CIsuN3n7iMcaXhLybIsg==}
     peerDependencies:
       react: 17.x || 18.x || 17
     dependencies:

@@ -1,3 +1,16 @@
+## [1.17.2](https://github.com/scaleway/scaleway-form/compare/v1.17.1...v1.17.2) (2022-06-16)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo to v7.18.5 ([#344](https://github.com/scaleway/scaleway-form/issues/344)) ([1b2c9c2](https://github.com/scaleway/scaleway-form/commit/1b2c9c2bfb5eb85a80dbdade9c8ca7e3825a48c3))
+* **devdeps:** update pnpm to v7.2.1 ([#346](https://github.com/scaleway/scaleway-form/issues/346)) ([b266de2](https://github.com/scaleway/scaleway-form/commit/b266de2de2e210938b14033f2434bb0f170f04b0))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update emotion monorepo, scaleway-ui and jest-helpers ([#342](https://github.com/scaleway/scaleway-form/issues/342)) ([ffb4783](https://github.com/scaleway/scaleway-form/commit/ffb4783fc70d505ef61f2ce15e2a2e0904a5e798))
+
 ## [1.17.1](https://github.com/scaleway/scaleway-form/compare/v1.17.0...v1.17.1) (2022-06-13)
 
 

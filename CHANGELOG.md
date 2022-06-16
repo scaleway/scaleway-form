@@ -1,3 +1,10 @@
+## [1.17.3](https://github.com/scaleway/scaleway-form/compare/v1.17.2...v1.17.3) (2022-06-16)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.158.0 ([#343](https://github.com/scaleway/scaleway-form/issues/343)) ([ceefe19](https://github.com/scaleway/scaleway-form/commit/ceefe19031500298629cc0b6e0b13ef26c1c6d93))
+
 ## [1.17.2](https://github.com/scaleway/scaleway-form/compare/v1.17.1...v1.17.2) (2022-06-16)
 
 

@@ -34,7 +34,7 @@ exports[`SwitchField should render correctly 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -57,12 +57,12 @@ exports[`SwitchField should render correctly 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -74,7 +74,7 @@ exports[`SwitchField should render correctly 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -82,95 +82,95 @@ exports[`SwitchField should render correctly 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -194,14 +194,13 @@ exports[`SwitchField should render correctly 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="false"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="false"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="false"
           data-size="small"
           data-variant="primary"
         >
@@ -213,13 +212,14 @@ exports[`SwitchField should render correctly 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
     </div>
   </form>
 </DocumentFragment>
@@ -259,7 +259,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -282,12 +282,12 @@ exports[`SwitchField should render correctly checked 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -299,7 +299,7 @@ exports[`SwitchField should render correctly checked 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -307,95 +307,95 @@ exports[`SwitchField should render correctly checked 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -419,14 +419,13 @@ exports[`SwitchField should render correctly checked 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="true"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="true"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="true"
           data-size="small"
           data-variant="primary"
         >
@@ -438,6 +437,7 @@ exports[`SwitchField should render correctly checked 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             checked=""
             class="cache-1d95tts e1x48wse2"
             id="test"
@@ -445,7 +445,7 @@ exports[`SwitchField should render correctly checked 1`] = `
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
     </div>
   </form>
 </DocumentFragment>
@@ -485,7 +485,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -508,12 +508,12 @@ exports[`SwitchField should render correctly disabled 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -525,7 +525,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -533,95 +533,95 @@ exports[`SwitchField should render correctly disabled 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -645,14 +645,13 @@ exports[`SwitchField should render correctly disabled 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="false"
+      <div
         aria-disabled="true"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="false"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="false"
           data-size="small"
           data-variant="primary"
         >
@@ -664,6 +663,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             class="cache-1d95tts e1x48wse2"
             disabled=""
             id="test"
@@ -671,7 +671,7 @@ exports[`SwitchField should render correctly disabled 1`] = `
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
     </div>
   </form>
 </DocumentFragment>
@@ -711,7 +711,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -734,12 +734,12 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -751,7 +751,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -759,95 +759,95 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -879,14 +879,13 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="true"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="true"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="true"
           data-size="small"
           data-variant="primary"
         >
@@ -898,6 +897,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             checked=""
             class="cache-1d95tts e1x48wse2"
             id="test"
@@ -905,7 +905,7 @@ exports[`SwitchField should render correctly with label and checked 1`] = `
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
       <div
         class="e1g1zfwd0 cache-158kr7v-variantStyles-colorStyles"
       >
@@ -950,7 +950,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -973,12 +973,12 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -990,7 +990,7 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -998,95 +998,95 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -1110,14 +1110,13 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="false"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="false"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="false"
           data-size="small"
           data-variant="primary"
         >
@@ -1129,13 +1128,14 @@ exports[`SwitchField should render correctly with offLabel 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
     </div>
   </form>
 </DocumentFragment>
@@ -1175,7 +1175,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -1198,12 +1198,12 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -1215,7 +1215,7 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -1223,95 +1223,95 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -1335,14 +1335,13 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="false"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="false"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="false"
           data-size="small"
           data-variant="primary"
         >
@@ -1354,13 +1353,14 @@ exports[`SwitchField should render correctly with onLabel 1`] = `
             />
           </div>
           <input
+            aria-label="test"
             class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
     </div>
   </form>
 </DocumentFragment>
@@ -1400,7 +1400,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   opacity: 0.3;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch {
   box-sizing: content-box;
   outline: none;
   overflow: hidden;
@@ -1423,12 +1423,12 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   min-width: 48px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse5 {
   position: absolute;
   margin-left: 4px;
   margin-right: 4px;
@@ -1440,7 +1440,7 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   bottom: 0;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch .e1x48wse6 {
   display: block;
   border-radius: 50%;
   width: 24px;
@@ -1448,95 +1448,95 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true']>.e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true']>.e1x48wse5 {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%);
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch:not([data-checked='true'])>.e1x48wse4 {
   margin-left: 32px;
   margin-right: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-checked='true'] .e1x48wse4 {
   margin-right: 32px;
   margin-left: 8px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] {
   padding: 4px;
   height: 16px;
   min-width: 32px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse5 {
   right: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'] .e1x48wse6 {
   width: 16px;
   height: 16px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([aria-checked='true'])>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small']:not([data-checked='true'])>.e1x48wse4 {
   margin-left: calc(
           16px + 4px
         );
   margin-right: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-size='small'][aria-checked='true'] .e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-size='small'][data-checked='true'] .e1x48wse4 {
   margin-right: calc(
           16px + 4px
         );
   margin-left: 4px;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true'] {
   color: #151a2d;
   background-color: #4f0599;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']>.e1x48wse4 {
   color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='primary'][data-checked='true']:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] {
   color: #4a4f62;
   background-color: #c4c9d6;
   font-weight: bold;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'] .e1x48wse6 {
   background-color: #ffffff;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] {
   color: #149a7b;
   background-color: #cdfcf1;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true'] .e1x48wse6 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true'] .e1x48wse6 {
   background-color: #22c8a2;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']>.e1x48wse4 {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']>.e1x48wse4 {
   color: #151a2d;
 }
 
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus-within,
-.cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][aria-checked='true']:focus {
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus-within,
+.cache-11d4g19-primary-StyledSwitch-success-StyledSwitch[data-variant='success'][data-checked='true']:focus {
   box-shadow: 0 0 1px 2px #ffffff,0 0 1px 3px #22c8a2;
 }
 
@@ -1568,14 +1568,13 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
     <div
       class="cache-1rm777a-StyledSwitchFieldContainer e1fcp5360"
     >
-      <label
-        aria-checked="false"
+      <div
         aria-disabled="false"
         class="cache-td742h e1x48wse1"
       >
         <div
-          aria-checked="false"
-          class="cache-1vkx8kb-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          class="cache-11d4g19-primary-StyledSwitch-success-StyledSwitch e1x48wse3"
+          data-checked="false"
           data-size="small"
           data-variant="primary"
         >
@@ -1587,13 +1586,14 @@ exports[`SwitchField should render correctly without onLabel and offLabel but ha
             />
           </div>
           <input
+            aria-label="test"
             class="cache-1d95tts e1x48wse2"
             id="test"
             name="test"
             type="checkbox"
           />
         </div>
-      </label>
+      </div>
       <div
         class="e1g1zfwd0 cache-s7vwv0-variantStyles-colorStyles"
       >

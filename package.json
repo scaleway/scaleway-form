@@ -115,7 +115,7 @@
   "peerDependencies": {
     "@emotion/react": "11.9.3",
     "@emotion/styled": "11.9.3",
-    "@scaleway/ui": "0.156.1",
+    "@scaleway/ui": "0.158.0",
     "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

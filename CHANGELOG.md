@@ -1,3 +1,22 @@
+## [1.17.4](https://github.com/scaleway/scaleway-form/compare/v1.17.3...v1.17.4) (2022-06-23)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.161.5 ([#348](https://github.com/scaleway/scaleway-form/issues/348)) ([44502c3](https://github.com/scaleway/scaleway-form/commit/44502c3cb941d092bbfbca4595592cafdcf097dd))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.34 ([#347](https://github.com/scaleway/scaleway-form/issues/347)) ([da0b1c8](https://github.com/scaleway/scaleway-form/commit/da0b1c88d7cf6db7ac28767d0a30b189c28d70e0))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.36 ([#355](https://github.com/scaleway/scaleway-form/issues/355)) ([fb0c5de](https://github.com/scaleway/scaleway-form/commit/fb0c5debd8be367d07b038f9701cbd7fffc22aac))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.37 ([#357](https://github.com/scaleway/scaleway-form/issues/357)) ([cba525c](https://github.com/scaleway/scaleway-form/commit/cba525c519de829bc46ca926a575405d15d045c7))
+* **devdeps:** update dependency @testing-library/react-hooks to v8.0.1 ([#354](https://github.com/scaleway/scaleway-form/issues/354)) ([bf86175](https://github.com/scaleway/scaleway-form/commit/bf861754f92aa425657a1b855a55b2300cb79fac))
+* **devdeps:** update dependency @testing-library/user-event to v14.2.1 ([#352](https://github.com/scaleway/scaleway-form/issues/352)) ([43c47a4](https://github.com/scaleway/scaleway-form/commit/43c47a464ca0726ae993d6d38a24d2c62bc85d51))
+* **devdeps:** update dependency @types/react to v17.0.47 ([#350](https://github.com/scaleway/scaleway-form/issues/350)) ([0a7f73d](https://github.com/scaleway/scaleway-form/commit/0a7f73d4fab0a1fb050b46f99a793f2da90ca9b5))
+* **devdeps:** update dependency eslint-plugin-mdx to v2 ([#356](https://github.com/scaleway/scaleway-form/issues/356)) ([0bba3e0](https://github.com/scaleway/scaleway-form/commit/0bba3e0b3b57e4d6ef8a592df3841854ddf80762))
+* **devdeps:** update dependency lint-staged to v13.0.2 ([#351](https://github.com/scaleway/scaleway-form/issues/351)) ([9fc8118](https://github.com/scaleway/scaleway-form/commit/9fc8118244006b034efc7616c0dd6e9c4ecfee20))
+* **devdeps:** update dependency prettier to v2.7.1 ([#358](https://github.com/scaleway/scaleway-form/issues/358)) ([fb94a01](https://github.com/scaleway/scaleway-form/commit/fb94a01729619f345136d4a72f2656f2441f5643))
+* **devdeps:** update dependency rollup to v2.75.7 ([#359](https://github.com/scaleway/scaleway-form/issues/359)) ([f471795](https://github.com/scaleway/scaleway-form/commit/f47179587bf572072120379faad1159a41fec5a6))
+* **devdeps:** update dependency typescript to v4.7.4 ([#353](https://github.com/scaleway/scaleway-form/issues/353)) ([a8aa602](https://github.com/scaleway/scaleway-form/commit/a8aa602e687b2e5319d48c444e32352be3ee8b40))
+* **devdeps:** update node.js to v18.4 ([#349](https://github.com/scaleway/scaleway-form/issues/349)) ([de85635](https://github.com/scaleway/scaleway-form/commit/de85635a612532d75e74375a9067fe116bea4acd))
+
 ## [1.17.3](https://github.com/scaleway/scaleway-form/compare/v1.17.2...v1.17.3) (2022-06-16)
 
 

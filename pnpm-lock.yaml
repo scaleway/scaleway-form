@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.37
   '@scaleway/jest-helpers': 1.2.7
-  '@scaleway/ui': 0.158.0
+  '@scaleway/ui': 0.161.5
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.18.3
-  '@scaleway/ui': 0.158.0_kn5e76542mgx6i737vfezikiaa
+  '@scaleway/ui': 0.161.5_kn5e76542mgx6i737vfezikiaa
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3230,8 +3230,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.158.0_kn5e76542mgx6i737vfezikiaa:
-    resolution: {integrity: sha512-hez2/CzI3N23kJ0tnPhY2X6No2hOmBCsNw6db3gFyGFfJwae/THF8/PGP37Fdmy/rj5qalcBaoaEVU8DGC1lEA==}
+  /@scaleway/ui/0.161.5_kn5e76542mgx6i737vfezikiaa:
+    resolution: {integrity: sha512-Z4aJx8u3mWdjYQLmEgpWiqXP3Qj3BVZ04MbvUT/xdVT8MnLECeadO2O+zxNBKjcz8gZLviV0iRDMxUYvRPktZw==}
     engines: {node: '>=16.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -3266,7 +3266,7 @@ packages:
       react-flatten-children: 1.1.2
       react-markdown: 5.0.3_sudpmbbyhqtxq6t4xf6jlicdem
       react-select: 5.3.2_aqgnnhsjfekqhuwzshe76rieii
-      react-toastify: 9.0.4_sfoxds7t5ydpegc3knd667wn6m
+      react-toastify: 9.0.5_sfoxds7t5ydpegc3knd667wn6m
       react-use-clipboard: 1.0.8_sfoxds7t5ydpegc3knd667wn6m
       reakit: 1.3.11_sfoxds7t5ydpegc3knd667wn6m
     transitivePeerDependencies:
@@ -4275,7 +4275,7 @@ packages:
       '@babel/register': 7.16.9_@babel+core@7.18.5
       '@storybook/node-logger': 6.4.22
       '@storybook/semver': 7.3.2
-      '@types/node': 14.18.10
+      '@types/node': 14.18.21
       '@types/pretty-hrtime': 1.0.1
       babel-loader: 8.2.5_p4a4vpdmvzvrx3lnpkqvj5nmla
       babel-plugin-macros: 3.1.0
@@ -7767,10 +7767,11 @@ packages:
   /d3-time-format/3.0.0:
     resolution: {integrity: sha512-UXJh6EKsHBTjopVqZBhFysQcoXSv/5yLONZvkQ5Kk3qbwiUYkdX17Xa1PT6U1ZWXGGfB1ey5L8dKMlFq2DO0Ag==}
     dependencies:
-      d3-time: 1.1.0
+      d3-time: 2.1.1
 
   /d3-time/1.1.0:
     resolution: {integrity: sha512-Xh0isrZ5rPYYdqhAVk8VLnMEidhz5aP7htAADH6MfzgmmicPkTo8LhkLxci61/lCB7n7UmE3bN0leRt+qvkLxA==}
+    dev: false
 
   /d3-time/2.1.1:
     resolution: {integrity: sha512-/eIQe/eR4kCQwq7yxi7z4c6qEXf2IYGcjoWB5OOQy4Tq9Uv39/947qlDcN2TLkiTzQWzvnsuYPB9TrWaNfipKQ==}
@@ -14290,8 +14291,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /react-toastify/9.0.4_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-MYmJ1V5F6DEU+TFxBb+pGGsveFPt4tjr4yK+TopXkU3sXPD9F2tFhX+G2HBLZpqObT2O6Z9jbXSg3JpaxuWtWw==}
+  /react-toastify/9.0.5_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-dszPCeQINY+Nm6HmsiAXT/7wsazPqv0S/RuhIYLAW+fTKcd3T1iRjZG0XqrN9nvAzqaE5J6uxMaiBrOevxjY8g==}
     peerDependencies:
       react: '>=16 || 17'
       react-dom: '>=16'

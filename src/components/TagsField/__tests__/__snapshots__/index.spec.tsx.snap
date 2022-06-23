@@ -167,7 +167,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   text-overflow: ellipsis;
 }
 
-.cache-at0lld {
+.cache-1j12h46 {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -188,23 +188,23 @@ exports[`SwitchField should render correctly with default tags 1`] = `
   align-items: center;
 }
 
-.cache-at0lld[aria-disabled='true'] {
+.cache-1j12h46[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-at0lld[aria-disabled='false'] {
+.cache-1j12h46[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-at0lld svg {
+.cache-1j12h46 svg {
   fill: #b2b6c3;
 }
 
-.cache-at0lld:hover:enabled svg,
-.cache-at0lld:focus:enabled svg {
-  fill: #151a2d;
+.cache-1j12h46:hover:enabled svg,
+.cache-1j12h46:focus:enabled svg {
+  fill: #4a4f62;
 }
 
 .cache-3kjmc9-sizeStyles {
@@ -261,7 +261,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 e1kgqxfn0 cache-at0lld"
+          class="e1vt8sjg0 e1kgqxfn0 cache-1j12h46"
           type="button"
         >
           <svg
@@ -286,7 +286,7 @@ exports[`SwitchField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 e1kgqxfn0 cache-at0lld"
+          class="e1vt8sjg0 e1kgqxfn0 cache-1j12h46"
           type="button"
         >
           <svg

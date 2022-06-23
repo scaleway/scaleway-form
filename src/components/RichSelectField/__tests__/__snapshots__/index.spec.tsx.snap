@@ -453,8 +453,8 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   opacity: 0;
 }
 
-.cache-l15ycl-placeholder {
-  color: #d4dae7;
+.cache-wd8d14-placeholder {
+  color: #c4c9d6;
   grid-area: 1/1/2/3;
   margin-left: 2px;
   margin-right: 2px;
@@ -608,7 +608,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
             Select...
           </label>
           <div
-            class=" cache-l15ycl-placeholder"
+            class=" cache-wd8d14-placeholder"
             id="react-select-3-placeholder"
           >
             Select...

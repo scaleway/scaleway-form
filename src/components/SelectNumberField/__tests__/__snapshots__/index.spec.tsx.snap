@@ -24,7 +24,7 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-1ltakss {
+.cache-ydtt7i {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -45,21 +45,21 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   align-items: center;
   position: relative;
   border-radius: 4px;
-  color: #d4dae7;
+  color: #c4c9d6;
   margin: 0 8px;
 }
 
-.cache-1ltakss[aria-disabled='true'] {
+.cache-ydtt7i[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1ltakss[aria-disabled='false'] {
+.cache-ydtt7i[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1ltakss:hover:not([disabled]) {
+.cache-ydtt7i:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -172,7 +172,7 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="ermgxlz4 e1kgqxfn0 cache-1ltakss"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >

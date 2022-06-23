@@ -136,7 +136,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   position: relative;
 }
 
-.cache-ltnmcq {
+.cache-4sr5xp {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -161,8 +161,8 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   cursor: default;
   pointer-events: none;
   background-color: #f6f6f8;
-  border-color: #fcfcfd;
-  color: #d4dae7;
+  border-color: #d4dae7;
+  color: #c4c9d6;
   height: 48px;
   padding-left: 8px;
   padding-right: 20px;
@@ -170,49 +170,49 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   padding: 8px;
 }
 
-.cache-ltnmcq::-webkit-input-placeholder {
+.cache-4sr5xp::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq::-moz-placeholder {
+.cache-4sr5xp::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq:-ms-input-placeholder {
+.cache-4sr5xp:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq::placeholder {
+.cache-4sr5xp::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-ltnmcq:hover,
-.cache-ltnmcq:focus {
+.cache-4sr5xp:hover,
+.cache-4sr5xp:focus {
   border-color: #4f0599;
 }
 
-.cache-ltnmcq:focus {
+.cache-4sr5xp:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-ltnmcq::-webkit-input-placeholder {
+.cache-4sr5xp::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq::-moz-placeholder {
+.cache-4sr5xp::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq:-ms-input-placeholder {
+.cache-4sr5xp:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-ltnmcq::placeholder {
+.cache-4sr5xp::placeholder {
   opacity: 1;
 }
 
@@ -247,7 +247,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-ltnmcq e18bmnpq0"
+          class="cache-4sr5xp e18bmnpq0"
           disabled=""
           name="test"
           type="text"
@@ -272,7 +272,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   position: relative;
 }
 
-.cache-1okdc8j {
+.cache-1l46zoq {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -302,60 +302,60 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   border-color: #dd3252;
 }
 
-.cache-1okdc8j::-webkit-input-placeholder {
+.cache-1l46zoq::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j::-moz-placeholder {
+.cache-1l46zoq::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j:-ms-input-placeholder {
+.cache-1l46zoq:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j::placeholder {
+.cache-1l46zoq::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-1okdc8j:hover,
-.cache-1okdc8j:focus {
+.cache-1l46zoq:hover,
+.cache-1l46zoq:focus {
   border-color: #4f0599;
 }
 
-.cache-1okdc8j:focus {
+.cache-1l46zoq:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-1okdc8j::-webkit-input-placeholder {
+.cache-1l46zoq::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j::-moz-placeholder {
+.cache-1l46zoq::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j:-ms-input-placeholder {
+.cache-1l46zoq:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j::placeholder {
+.cache-1l46zoq::placeholder {
   opacity: 1;
 }
 
-.cache-1okdc8j:hover,
-.cache-1okdc8j:focus {
+.cache-1l46zoq:hover,
+.cache-1l46zoq:focus {
   border-color: #a6102d;
 }
 
-.cache-1okdc8j:focus {
+.cache-1l46zoq:focus {
   box-shadow: 0px 0px 0px 3px #DD325240;
-  border-color: #dd3252;
+  border-color: #a6102d;
 }
 
 .cache-9xime5 {
@@ -395,7 +395,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-1okdc8j e18bmnpq0"
+          class="cache-1l46zoq e18bmnpq0"
           name="test"
           type="text"
           value="test"

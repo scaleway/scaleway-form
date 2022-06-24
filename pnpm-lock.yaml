@@ -39,7 +39,7 @@ specifiers:
   '@storybook/manager-webpack5': 6.4.22
   '@storybook/react': 6.4.22
   '@storybook/theming': 6.4.22
-  '@testing-library/dom': 8.13.0
+  '@testing-library/dom': 8.14.0
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5
   '@testing-library/react-hooks': 8.0.1
@@ -124,11 +124,11 @@ devDependencies:
   '@storybook/manager-webpack5': 6.4.22_hf2w6bp5dn4vsxzqozlwmjwz6m
   '@storybook/react': 6.4.22_htik2fbitqqzyfpiwnt2shudom
   '@storybook/theming': 6.4.22_sfoxds7t5ydpegc3knd667wn6m
-  '@testing-library/dom': 8.13.0
+  '@testing-library/dom': 8.14.0
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5_sfoxds7t5ydpegc3knd667wn6m
   '@testing-library/react-hooks': 8.0.1_nn45z5sr7igu7sfun6tiae5hx4
-  '@testing-library/user-event': 14.2.1_tlwynutqiyp5mns3woioasuxnq
+  '@testing-library/user-event': 14.2.1_ihvo3xlg2d6kwqju3os3zitn3y
   '@types/final-form-focus': 1.1.2
   '@types/node': 17.0.31
   '@types/react': 17.0.47
@@ -4875,8 +4875,8 @@ packages:
       - '@types/react'
     dev: true
 
-  /@testing-library/dom/8.13.0:
-    resolution: {integrity: sha512-9VHgfIatKNXQNaZTtLnalIy0jNZzY35a4S3oi08YAt9Hv1VsfZ/DfA45lM8D/UhtHBGJ4/lGwp0PZkVndRkoOQ==}
+  /@testing-library/dom/8.14.0:
+    resolution: {integrity: sha512-m8FOdUo77iMTwVRCyzWcqxlEIk+GnopbrRI15a0EaLbpZSCinIVI4kSQzWhkShK83GogvEFJSsHF3Ws0z1vrqA==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
@@ -4935,19 +4935,19 @@ packages:
       react-dom: <18.0.0
     dependencies:
       '@babel/runtime': 7.18.3
-      '@testing-library/dom': 8.13.0
+      '@testing-library/dom': 8.14.0
       '@types/react-dom': 17.0.17
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /@testing-library/user-event/14.2.1_tlwynutqiyp5mns3woioasuxnq:
+  /@testing-library/user-event/14.2.1_ihvo3xlg2d6kwqju3os3zitn3y:
     resolution: {integrity: sha512-HOr1QiODrq+0j9lKU5i10y9TbhxMBMRMGimNx10asdmau9cb8Xb1Vyg0GvTwyIL2ziQyh2kAloOtAQFBQVuecA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@testing-library/dom': 8.13.0
+      '@testing-library/dom': 8.14.0
     dev: true
 
   /@tootallnate/once/2.0.0:
@@ -11820,7 +11820,7 @@ packages:
     dev: true
 
   /lz-string/1.4.4:
-    resolution: {integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=}
+    resolution: {integrity: sha512-0ckx7ZHRPqb0oUm8zNr+90mtf9DQB60H1wMCjBtfi62Kl3a7JbHob6gA2bC+xRvZoOL+1hzUK8jeuEIQE8svEQ==}
     hasBin: true
     dev: true
 

@@ -2,7 +2,7 @@
 
 exports[`SubmitErrorAlert should display an alert when submitError is present 1`] = `
 <DocumentFragment>
-  .cache-1uz0qex {
+  .cache-chamjp {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -39,20 +39,20 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   color: #ffffff;
 }
 
-.cache-1uz0qex:hover,
-.cache-1uz0qex:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1uz0qex:hover,
-.cache-1uz0qex:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   color: #ffffff;
-  background-color: #1eb290;
+  background-color: #149a7b;
 }
 
-.cache-1uz0qex:focus {
-  box-shadow: 0 0 0 2px rgba(34,200,162,0.25);
+.cache-chamjp:focus {
+  box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
 .cache-115wth8 {
@@ -132,7 +132,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-1uz0qex"
+      class="em6gco80 cache-chamjp"
       type="submit"
     >
       <div

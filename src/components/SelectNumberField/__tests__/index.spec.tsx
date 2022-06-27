@@ -1,4 +1,4 @@
-import { waitFor } from '@testing-library/react'
+import { act, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import SelectNumberField from '..'
@@ -32,7 +32,7 @@ describe('SelectNumberField', () => {
       },
     ))
 
-  test.only('should trigger events correctly', () => {
+  test('should trigger events correctly', () => {
     const onFocus = jest.fn(() => {})
     const onChange = jest.fn(() => {})
     const onBlur = jest.fn(() => {})
@@ -48,12 +48,17 @@ describe('SelectNumberField', () => {
       {
         transform: ({ getByLabelText }) => {
           const input = getByLabelText('Input')
-          input.focus()
+          act(() => {
+            input.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          // clicking inside field should not trigger any change
-          input.click()
+          act(() => {
+            input.click()
+          })
           expect(onChange).toBeCalledTimes(0)
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },
@@ -80,21 +85,29 @@ describe('SelectNumberField', () => {
       {
         transform: async ({ getByLabelText }) => {
           const input = getByLabelText('Input') as HTMLTextAreaElement
-          if (input.parentElement) await userEvent.click(input.parentElement)
+          await act(async () => {
+            if (input.parentElement) await userEvent.click(input.parentElement)
 
-          // trigger onMinCrossed
-          await userEvent.clear(input)
-          await userEvent.type(input, '1')
+            // trigger onMinCrossed
+            await userEvent.clear(input)
+            await userEvent.type(input, '1')
+          })
           await waitFor(() => expect(input.value).toBe('1'))
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           await waitFor(() => expect(input.value).toBe('5'))
           expect(onMinCrossed).toBeCalledTimes(1)
 
           // trigger onMaxCrossed
-          await userEvent.clear(input)
-          await userEvent.type(input, '100')
+          await act(async () => {
+            await userEvent.clear(input)
+            await userEvent.type(input, '100')
+          })
           await waitFor(() => expect(input.value).toBe('100'))
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           await waitFor(() => expect(input.value).toBe('20'))
           expect(onMinCrossed).toBeCalledTimes(1)
         },

@@ -1,4 +1,5 @@
 import { waitFor } from '@testing-library/dom'
+import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import CheckboxField from '..'
@@ -78,11 +79,17 @@ describe('CheckboxField', () => {
       {
         transform: node => {
           const input = node.getByRole('checkbox')
-          input.focus()
+          act(() => {
+            input.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          input.click()
+          act(() => {
+            input.click()
+          })
           expect(onChange).toBeCalledTimes(1)
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },
@@ -99,10 +106,12 @@ describe('CheckboxField', () => {
       </Form>,
       {
         transform: async node => {
-          await userEvent.click(node.getByRole('checkbox'))
-          // to trigger error
-          await userEvent.click(node.getByRole('checkbox'))
-          await userEvent.click(node.getByText('Focus'))
+          await act(async () => {
+            await userEvent.click(node.getByRole('checkbox'))
+            // to trigger error
+            await userEvent.click(node.getByRole('checkbox'))
+            await userEvent.click(node.getByText('Focus'))
+          })
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

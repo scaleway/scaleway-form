@@ -1,3 +1,4 @@
+import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import RadioBorderedBoxField from '..'
@@ -68,11 +69,17 @@ describe('RadioBorderedBoxField', () => {
       {
         transform: node => {
           const input = node.getByRole('radio')
-          input.focus()
+          act(() => {
+            input.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          input.click()
+          act(() => {
+            input.click()
+          })
           expect(onChange).toBeCalledTimes(1)
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },
@@ -94,7 +101,9 @@ describe('RadioBorderedBoxField', () => {
       </Form>,
       {
         transform: async node => {
-          await userEvent.click(node.getByRole('button'))
+          await act(async () => {
+            await userEvent.click(node.getByRole('button'))
+          })
           const error = node.getByText(mockErrors.REQUIRED as string)
           expect(error).toBeVisible()
         },

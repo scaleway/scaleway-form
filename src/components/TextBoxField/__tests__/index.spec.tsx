@@ -1,3 +1,4 @@
+import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import TextBoxField from '..'
@@ -24,9 +25,11 @@ describe('TextBoxField', () => {
       <TextBoxField name="test" minLength={13} />,
       {
         transform: async node => {
-          const input = node.getByRole('textbox')
-          await userEvent.type(input, 'test')
-          input.blur()
+          await act(async () => {
+            const input = node.getByRole('textbox')
+            await userEvent.type(input, 'test')
+            input.blur()
+          })
           expect(
             node.getByText(
               typeof mockErrors.MIN_LENGTH === 'function'

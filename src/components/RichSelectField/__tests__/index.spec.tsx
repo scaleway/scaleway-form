@@ -1,4 +1,5 @@
 import { fireEvent } from '@testing-library/dom'
+import { act } from '@testing-library/react'
 import React from 'react'
 import RichSelectField from '..'
 import {
@@ -52,8 +53,10 @@ describe('RichSelectField', () => {
         <RichSelectField.Option value="value2" label="Label 2" />
       </RichSelectField>,
     )
-    rendered.getByRole('combobox').focus()
-    rendered.getByRole('combobox').blur()
+    act(() => {
+      rendered.getByRole('combobox').focus()
+      rendered.getByRole('combobox').blur()
+    })
     expect(format).toHaveBeenNthCalledWith(1, '', 'test')
   })
 
@@ -75,8 +78,10 @@ describe('RichSelectField', () => {
         ]}
       />,
     )
-    rendered.getByRole('combobox').focus()
-    rendered.getByRole('combobox').blur()
+    act(() => {
+      rendered.getByRole('combobox').focus()
+      rendered.getByRole('combobox').blur()
+    })
     expect(format).toBeCalledTimes(1)
   })
 
@@ -99,14 +104,22 @@ describe('RichSelectField', () => {
       {
         transform: node => {
           const select = node.getByRole('combobox')
-          select.focus()
+          act(() => {
+            select.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          act(() => {
+            fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          })
           const option = node.getByTestId('option-test-value')
             .firstChild as HTMLElement
-          option.click()
+          act(() => {
+            option.click()
+          })
           expect(onChange).toBeCalledTimes(1)
-          select.blur()
+          act(() => {
+            select.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },

@@ -1,3 +1,4 @@
+import { act } from '@testing-library/react'
 import React from 'react'
 import RadioField from '..'
 import {
@@ -61,11 +62,17 @@ describe('RadioField', () => {
       {
         transform: node => {
           const input = node.getByRole('radio')
-          input.focus()
+          act(() => {
+            input.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          input.click()
+          act(() => {
+            input.click()
+          })
           expect(onChange).toBeCalledTimes(1)
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },

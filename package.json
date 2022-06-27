@@ -167,7 +167,7 @@
     "@testing-library/user-event": "14.2.1",
     "@types/final-form-focus": "1.1.2",
     "@types/node": "17.0.31",
-    "@types/react": "17.0.47",
+    "@types/react": "18.0.14",
     "@types/react-dom": "17.0.17",
     "babel-loader": "8.2.5",
     "babel-plugin-annotate-pure-calls": "0.4.0",

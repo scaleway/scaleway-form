@@ -47,7 +47,7 @@ specifiers:
   '@types/final-form-focus': 1.1.2
   '@types/node': 17.0.31
   '@types/react': 17.0.47
-  '@types/react-dom': 17.0.17
+  '@types/react-dom': 18.0.5
   babel-loader: 8.2.5
   babel-plugin-annotate-pure-calls: 0.4.0
   cross-env: 7.0.3
@@ -132,7 +132,7 @@ devDependencies:
   '@types/final-form-focus': 1.1.2
   '@types/node': 17.0.31
   '@types/react': 17.0.47
-  '@types/react-dom': 17.0.17
+  '@types/react-dom': 18.0.5
   babel-loader: 8.2.5_te6ollfzjcco6mbxjl755ucqke
   babel-plugin-annotate-pure-calls: 0.4.0_@babel+core@7.18.5
   cross-env: 7.0.3
@@ -5222,6 +5222,12 @@ packages:
 
   /@types/react-dom/17.0.17:
     resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
+    dependencies:
+      '@types/react': 17.0.47
+    dev: true
+
+  /@types/react-dom/18.0.5:
+    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
       '@types/react': 17.0.47
     dev: true

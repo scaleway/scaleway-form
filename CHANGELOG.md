@@ -1,3 +1,10 @@
+## [1.18.0](https://github.com/scaleway/scaleway-form/compare/v1.17.5...v1.18.0) (2022-06-27)
+
+
+### :gear: Features
+
+* update react monorepo to v18 (major) ([#175](https://github.com/scaleway/scaleway-form/issues/175)) ([87abcec](https://github.com/scaleway/scaleway-form/commit/87abcec5d77251da6305e714beb9254ed19585c1))
+
 ## [1.17.5](https://github.com/scaleway/scaleway-form/compare/v1.17.4...v1.17.5) (2022-06-27)
 
 

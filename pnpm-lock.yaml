@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.4.39
   '@scaleway/jest-helpers': 1.2.7
-  '@scaleway/ui': 0.161.5
+  '@scaleway/ui': 0.163.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -80,7 +80,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.18.3
-  '@scaleway/ui': 0.161.5_kn5e76542mgx6i737vfezikiaa
+  '@scaleway/ui': 0.163.1_kn5e76542mgx6i737vfezikiaa
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3230,8 +3230,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.161.5_kn5e76542mgx6i737vfezikiaa:
-    resolution: {integrity: sha512-Z4aJx8u3mWdjYQLmEgpWiqXP3Qj3BVZ04MbvUT/xdVT8MnLECeadO2O+zxNBKjcz8gZLviV0iRDMxUYvRPktZw==}
+  /@scaleway/ui/0.163.1_kn5e76542mgx6i737vfezikiaa:
+    resolution: {integrity: sha512-xy59WpqQQVBMDFgB4FaV152ikBZ0OAZCCSQw2xgR0vZIOmhb0AflGBF25pCgmZAVfx3ITku717HBmVZ57oINSg==}
     engines: {node: '>=16.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -3260,7 +3260,7 @@ packages:
       polished: 4.2.2
       prop-types: 15.8.1
       react: 17.0.2
-      react-countup: 6.2.0_react@17.0.2
+      react-countup: 6.3.0_react@17.0.2
       react-datepicker: 4.8.0_sfoxds7t5ydpegc3knd667wn6m
       react-dom: 17.0.2_react@17.0.2
       react-flatten-children: 1.1.2
@@ -4149,7 +4149,7 @@ packages:
       markdown-to-jsx: 7.1.6_react@17.0.2
       memoizerific: 1.11.3
       overlayscrollbars: 1.13.1
-      polished: 4.2.1
+      polished: 4.2.2
       prop-types: 15.8.1
       react: 17.0.2
       react-colorful: 5.5.1_sfoxds7t5ydpegc3knd667wn6m
@@ -13995,8 +13995,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /react-countup/6.2.0_react@17.0.2:
-    resolution: {integrity: sha512-3WOKAQpWgjyFoH231SHEpIpHhDGb5g5EkTppM6T7vLa3X+8WMdw6750vVcY0wxysKiY00gTFhDwSB5qLU+xPZA==}
+  /react-countup/6.3.0_react@17.0.2:
+    resolution: {integrity: sha512-uZsE+kuisXp/3OZeAuq2lzp6sXKmzw331Et5CRy4ueR9VcOp7z7T6/O1F04BC2Pa2frKmIITsghi3Hh933qWXQ==}
     peerDependencies:
       react: '>= 16.3.0 || 17'
     dependencies:

@@ -61,7 +61,7 @@ specifiers:
   husky: 8.0.1
   jest: 28.1.1
   jest-environment-jsdom: 28.1.1
-  jest-junit: 13.2.0
+  jest-junit: 14.0.0
   lint-staged: 13.0.3
   prettier: 2.7.1
   prop-types: 15.8.1
@@ -143,7 +143,7 @@ devDependencies:
   husky: 8.0.1
   jest: 28.1.1_@types+node@17.0.31
   jest-environment-jsdom: 28.1.1
-  jest-junit: 13.2.0
+  jest-junit: 14.0.0
   lint-staged: 13.0.3
   prettier: 2.7.1
   prop-types: 15.8.1
@@ -1884,15 +1884,6 @@ packages:
       conventional-changelog-conventionalcommits: 5.0.0
     dev: true
 
-  /@commitlint/config-validator/17.0.0:
-    resolution: {integrity: sha512-78IQjoZWR4kDHp/U5y17euEWzswJpPkA9TDL5F6oZZZaLIEreWzrDZD5PWtM8MsSRl/K2LDU/UrzYju2bKLMpA==}
-    engines: {node: '>=v14'}
-    dependencies:
-      '@commitlint/types': 17.0.0
-      ajv: 6.12.6
-    dev: true
-    optional: true
-
   /@commitlint/config-validator/17.0.3:
     resolution: {integrity: sha512-3tLRPQJKapksGE7Kee9axv+9z5I2GDHitDH4q63q7NmNA0wkB+DAorJ0RHz2/K00Zb1/MVdHzhCga34FJvDihQ==}
     engines: {node: '>=v14'}
@@ -1940,31 +1931,10 @@ packages:
       '@commitlint/types': 17.0.0
     dev: true
 
-  /@commitlint/load/17.0.0:
-    resolution: {integrity: sha512-XaiHF4yWQOPAI0O6wXvk+NYLtJn/Xb7jgZEeKd4C1ZWd7vR7u8z5h0PkWxSr0uLZGQsElGxv3fiZ32C5+q6M8w==}
-    engines: {node: '>=v14'}
-    requiresBuild: true
-    dependencies:
-      '@commitlint/config-validator': 17.0.0
-      '@commitlint/execute-rule': 17.0.0
-      '@commitlint/resolve-extends': 17.0.0
-      '@commitlint/types': 17.0.0
-      '@types/node': 17.0.31
-      chalk: 4.1.2
-      cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 2.0.0_6bd4jfip3gnofjnkq5lqqdbk4m
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      typescript: 4.7.4
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-    dev: true
-    optional: true
-
   /@commitlint/load/17.0.3:
     resolution: {integrity: sha512-3Dhvr7GcKbKa/ey4QJ5MZH3+J7QFlARohUow6hftQyNjzoXXROm+RwpBes4dDFrXG1xDw9QPXA7uzrOShCd4bw==}
     engines: {node: '>=v14'}
+    requiresBuild: true
     dependencies:
       '@commitlint/config-validator': 17.0.3
       '@commitlint/execute-rule': 17.0.0
@@ -2005,19 +1975,6 @@ packages:
       fs-extra: 10.0.0
       git-raw-commits: 2.0.11
     dev: true
-
-  /@commitlint/resolve-extends/17.0.0:
-    resolution: {integrity: sha512-wi60WiJmwaQ7lzMXK8Vbc18Hq9tE2j/6iv2AFfPUGV7fvfY6Sf1iNKuUHirSqR0fquUyufIXe4y/K9A6LVIIvw==}
-    engines: {node: '>=v14'}
-    dependencies:
-      '@commitlint/config-validator': 17.0.0
-      '@commitlint/types': 17.0.0
-      import-fresh: 3.3.0
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      resolve-global: 1.0.0
-    dev: true
-    optional: true
 
   /@commitlint/resolve-extends/17.0.3:
     resolution: {integrity: sha512-H/RFMvrcBeJCMdnVC4i8I94108UDccIHrTke2tyQEg9nXQnR5/Hd6MhyNWkREvcrxh9Y+33JLb+PiPiaBxCtBA==}
@@ -7762,7 +7719,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 17.0.0
+      '@commitlint/load': 17.0.3
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -11123,8 +11080,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /jest-junit/13.2.0:
-    resolution: {integrity: sha512-B0XNlotl1rdsvFZkFfoa19mc634+rrd8E4Sskb92Bb8MmSXeWV9XJGUyctunZS1W410uAxcyYuPUGVnbcOH8cg==}
+  /jest-junit/14.0.0:
+    resolution: {integrity: sha512-kALvBDegstTROfDGXH71UGD7k5g7593Y1wuX1wpWT+QTYcBbmtuGOA8UlAt56zo/B2eMIOcaOVEON3j0VXVa4g==}
     engines: {node: '>=10.12.0'}
     dependencies:
       mkdirp: 1.0.4
@@ -17117,7 +17074,7 @@ packages:
     dev: true
 
   /xml/1.0.1:
-    resolution: {integrity: sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=}
+    resolution: {integrity: sha512-huCv9IH9Tcf95zuYCsQraZtWnJvBtLVE0QHMOs8bWyZAFZNDcYjsPq1nEx8jKA9y+Beo9v+7OBPRisQTjinQMw==}
     dev: true
 
   /xmlchars/2.2.0:

@@ -42,6 +42,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'rows'
       | 'type'
       | 'value'
+      | 'size'
     >
   > & {
     name: string
@@ -96,6 +97,7 @@ const TextBoxField = forwardRef(
       validate,
       validateFields,
       value,
+      size,
     }: TextBoxFieldProps,
     ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
@@ -177,13 +179,14 @@ const TextBoxField = forwardRef(
         error={error}
         id={id}
         label={label}
-        max={max}
+        size={size}
         maxLength={maxLength}
-        min={min}
         minLength={minLength}
         multiline={multiline}
         name={input.name}
         notice={notice}
+        max={max}
+        min={min}
         onBlur={(event: FocusEvent<HTMLInputElement>) => {
           input.onBlur(event)
           onBlur?.(event)

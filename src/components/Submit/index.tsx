@@ -6,6 +6,7 @@ type SubmitProps = {
   children?: ReactNode
   disabled?: boolean
   className?: string
+  size?: ComponentProps<typeof Button>['size']
   variant?: ComponentProps<typeof Button>['variant']
 }
 
@@ -13,6 +14,7 @@ const Submit = ({
   children,
   disabled = false,
   variant = 'success',
+  size,
   className,
 }: SubmitProps): JSX.Element => {
   const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } =
@@ -36,6 +38,7 @@ const Submit = ({
       variant={variant}
       type="submit"
       className={className}
+      size={size}
     >
       {children}
     </Button>

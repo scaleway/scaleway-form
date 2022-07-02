@@ -3,17 +3,27 @@ import React, { ComponentProps, ReactNode } from 'react'
 import { useFormState } from 'react-final-form'
 
 type SubmitProps = {
+  action?: ComponentProps<typeof Button>['action']
   children?: ReactNode
-  disabled?: boolean
   className?: string
+  disabled?: boolean
+  icon?: ComponentProps<typeof Button>['icon']
+  iconPosition?: ComponentProps<typeof Button>['iconPosition']
+  tooltip?: ComponentProps<typeof Button>['tooltip']
+  tooltipBaseId?: ComponentProps<typeof Button>['tooltipBaseId']
   variant?: ComponentProps<typeof Button>['variant']
 }
 
 const Submit = ({
+  action,
   children,
-  disabled = false,
-  variant = 'success',
   className,
+  disabled = false,
+  icon,
+  iconPosition,
+  tooltip,
+  tooltipBaseId,
+  variant = 'success',
 }: SubmitProps): JSX.Element => {
   const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } =
     useFormState({
@@ -24,18 +34,23 @@ const Submit = ({
         submitting: true,
       },
     })
+  const isDisabled =
+    disabled ||
+    submitting ||
+    (invalid && hasValidationErrors && !dirtySinceLastSubmit)
 
   return (
     <Button
-      progress={submitting}
-      disabled={
-        disabled ||
-        submitting ||
-        (invalid && hasValidationErrors && !dirtySinceLastSubmit)
-      }
-      variant={variant}
-      type="submit"
+      action={action}
       className={className}
+      disabled={isDisabled}
+      icon={icon}
+      iconPosition={iconPosition}
+      progress={submitting}
+      type="submit"
+      tooltip={tooltip}
+      tooltipBaseId={tooltipBaseId}
+      variant={variant}
     >
       {children}
     </Button>

@@ -26,6 +26,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'autoSave'
       | 'cols'
       | 'disabled'
+      | 'generated'
       | 'id'
       | 'label'
       | 'maxLength'
@@ -69,6 +70,7 @@ const TextBoxField = forwardRef(
       disabled,
       format,
       formatOnBlur,
+      generated,
       id,
       initialValue,
       isEqual,
@@ -175,6 +177,7 @@ const TextBoxField = forwardRef(
         cols={cols}
         disabled={disabled}
         error={error}
+        generated={generated}
         id={id}
         label={label}
         max={max}

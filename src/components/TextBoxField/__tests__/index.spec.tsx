@@ -9,6 +9,27 @@ describe('TextBoxField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(<TextBoxField name="test" />))
 
+  test('should render correctly generated', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" generated />,
+    ))
+
+  test('should render correctly random', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" random="random" />,
+    ))
+  test('should render correctly notice', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" notice="notice" />,
+    ))
+
+  test('should render correctly required', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" required />,
+    ))
+  test('should render correctly id', () =>
+    shouldMatchEmotionSnapshotFormWrapper(<TextBoxField name="test" id="id" />))
+
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
       <TextBoxField name="test" disabled />,

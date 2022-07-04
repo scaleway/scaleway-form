@@ -1,3 +1,10 @@
+## [1.19.0](https://github.com/scaleway/scaleway-form/compare/v1.18.1...v1.19.0) (2022-07-04)
+
+
+### :gear: Features
+
+* revert to react 17 ([a52ce4b](https://github.com/scaleway/scaleway-form/commit/a52ce4b6d23e6274474a50dd8fe1ba944973e646))
+
 ## [1.18.1](https://github.com/scaleway/scaleway-form/compare/v1.18.0...v1.18.1) (2022-07-04)
 
 

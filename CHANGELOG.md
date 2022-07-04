@@ -1,3 +1,16 @@
+## [1.18.1](https://github.com/scaleway/scaleway-form/compare/v1.18.0...v1.18.1) (2022-07-04)
+
+
+### :package: Chore
+
+* **devDeps:** update babel monorepo to v7.18.6 ([#373](https://github.com/scaleway/scaleway-form/issues/373)) ([2f14301](https://github.com/scaleway/scaleway-form/commit/2f14301a8497c8097fd01e4c27a88a35470d09b8))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.40 ([#374](https://github.com/scaleway/scaleway-form/issues/374)) ([9f6292e](https://github.com/scaleway/scaleway-form/commit/9f6292e1ba84a1f0fcdc322690701de53f63606f))
+
+
+### :bug: Bug Fixes
+
+* **texbox:** add generated props and tests ([#377](https://github.com/scaleway/scaleway-form/issues/377)) ([6dda1c1](https://github.com/scaleway/scaleway-form/commit/6dda1c14a9d5340dd033bf2afe25965b54559dbe))
+
 ## [1.18.0](https://github.com/scaleway/scaleway-form/compare/v1.17.5...v1.18.0) (2022-06-27)
 
 

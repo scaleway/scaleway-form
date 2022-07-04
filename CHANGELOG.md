@@ -1,3 +1,15 @@
+## [1.20.0](https://github.com/scaleway/scaleway-form/compare/v1.19.0...v1.20.0) (2022-07-04)
+
+
+### :repeat: CI
+
+* correct storybook deployment ([1e8d490](https://github.com/scaleway/scaleway-form/commit/1e8d49078f3c325a8be6f6456a2577b5b8c900e2))
+
+
+### :gear: Features
+
+* **submit:** add somes props to submit and export helpers validators ([#376](https://github.com/scaleway/scaleway-form/issues/376)) ([e9efe44](https://github.com/scaleway/scaleway-form/commit/e9efe4496ddfe8458c559ae365bfa20ca02bc7ac))
+
 ## [1.19.0](https://github.com/scaleway/scaleway-form/compare/v1.18.1...v1.19.0) (2022-07-04)
 
 

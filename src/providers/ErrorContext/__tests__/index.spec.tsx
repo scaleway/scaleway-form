@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react'
+import { renderHook } from '@testing-library/react-hooks'
 import React, { ReactNode } from 'react'
 import ErrorProvider, { useErrors } from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'

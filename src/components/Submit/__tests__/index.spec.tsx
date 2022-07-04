@@ -5,6 +5,7 @@ import {
   mockRandom,
   restoreRandom,
   shouldMatchEmotionSnapshot,
+  shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
@@ -14,8 +15,13 @@ const alpha = /^[a-zA-Z]*$/
 
 describe('Submit', () => {
   test('renders correctly ', () =>
-    shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors}>{() => <Submit>Test</Submit>}</Form>,
+    shouldMatchEmotionSnapshotFormWrapper(<Submit>Test</Submit>))
+
+  test('renders correctly with icon and iconPosition ', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <Submit icon="east" iconPosition="right">
+        Test
+      </Submit>,
     ))
 
   test('form is invalid', () =>

@@ -507,7 +507,7 @@ exports[`Submit form is submitting 1`] = `
 
 exports[`Submit renders correctly  1`] = `
 <DocumentFragment>
-  .cache-37jn2g {
+  .cache-chamjp {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -542,27 +542,21 @@ exports[`Submit renders correctly  1`] = `
   padding: 8px 16px;
   background-color: #22c8a2;
   color: #ffffff;
-  cursor: default;
-  pointer-events: none;
-  color: #c4c9d6;
-  background-color: #f6f6f8;
-  border-color: #d4dae7;
-  box-shadow: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-37jn2g:focus {
+.cache-chamjp:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -586,9 +580,8 @@ exports[`Submit renders correctly  1`] = `
     novalidate=""
   >
     <button
-      aria-disabled="true"
-      class="em6gco80 cache-37jn2g"
-      disabled=""
+      aria-disabled="false"
+      class="em6gco80 cache-chamjp"
       type="submit"
     >
       <div
@@ -603,7 +596,7 @@ exports[`Submit renders correctly  1`] = `
 
 exports[`Submit renders correctly with icon and iconPosition  1`] = `
 <DocumentFragment>
-  .cache-37jn2g {
+  .cache-chamjp {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -638,27 +631,21 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
   padding: 8px 16px;
   background-color: #22c8a2;
   color: #ffffff;
-  cursor: default;
-  pointer-events: none;
-  color: #c4c9d6;
-  background-color: #f6f6f8;
-  border-color: #d4dae7;
-  box-shadow: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-chamjp:hover,
+.cache-chamjp:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-37jn2g:focus {
+.cache-chamjp:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -703,9 +690,8 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
     novalidate=""
   >
     <button
-      aria-disabled="true"
-      class="em6gco80 cache-37jn2g"
-      disabled=""
+      aria-disabled="false"
+      class="em6gco80 cache-chamjp"
       type="submit"
     >
       <div

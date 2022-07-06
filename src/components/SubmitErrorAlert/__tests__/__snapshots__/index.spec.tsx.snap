@@ -2,106 +2,7 @@
 
 exports[`SubmitErrorAlert should display an alert when submitError is present 1`] = `
 <DocumentFragment>
-  .cache-bjn8wh {
-  position: relative;
-}
-
-.cache-16jruyc {
-  -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
-  transition: border-color 0.2s ease,box-shadow 0.2s ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  background-color: #ffffff;
-  background-image: none;
-  border: 1px solid #d4dae7;
-  border-radius: 4px;
-  color: #4a4f62;
-  display: block;
-  max-width: 100%;
-  outline: none;
-  position: relative;
-  width: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 14px;
-  font-size: 16px;
-  line-height: 24px;
-  height: 48px;
-  padding-left: 8px;
-  padding-right: 20px;
-  padding-top: 14px;
-  padding: 8px;
-}
-
-.cache-16jruyc::-webkit-input-placeholder {
-  color: #b2b6c3;
-  opacity: 0;
-}
-
-.cache-16jruyc::-moz-placeholder {
-  color: #b2b6c3;
-  opacity: 0;
-}
-
-.cache-16jruyc:-ms-input-placeholder {
-  color: #b2b6c3;
-  opacity: 0;
-}
-
-.cache-16jruyc::placeholder {
-  color: #b2b6c3;
-  opacity: 0;
-}
-
-.cache-16jruyc:hover,
-.cache-16jruyc:focus {
-  border-color: #4f0599;
-}
-
-.cache-16jruyc:focus {
-  box-shadow: 0px 0px 0px 3px #4F059940;
-  border-color: #4f0599;
-}
-
-.cache-16jruyc::-webkit-input-placeholder {
-  opacity: 1;
-}
-
-.cache-16jruyc::-moz-placeholder {
-  opacity: 1;
-}
-
-.cache-16jruyc:-ms-input-placeholder {
-  opacity: 1;
-}
-
-.cache-16jruyc::placeholder {
-  opacity: 1;
-}
-
-.cache-xcx33n {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
-  overflow: hidden;
-}
-
-.cache-1rshnsu {
-  font-size: 12px;
-  color: #dd3252;
-  padding-top: 2px;
-}
-
-.cache-chamjp {
+  .cache-chamjp {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -229,28 +130,6 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-    >
-      <div
-        class="cache-bjn8wh e18bmnpq2"
-      >
-        <input
-          autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
-          name="toto"
-          type="text"
-          value=""
-        />
-      </div>
-      <div
-        class="e14o3tsk0 cache-xcx33n"
-      >
-        <div
-          class="cache-1rshnsu e18bmnpq1"
-        />
-      </div>
-    </div>
     <button
       aria-disabled="false"
       class="em6gco80 cache-chamjp"

@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/scaleway/scaleway-form/compare/v1.20.0...v1.20.1) (2022-07-06)
+
+
+### :bug: Bug Fixes
+
+* disable submit button while validation is loading ([#378](https://github.com/scaleway/scaleway-form/issues/378)) ([7af7f3c](https://github.com/scaleway/scaleway-form/commit/7af7f3cb4e0dcc74bfa3d01c2d54028afc97a209))
+
 ## [1.20.0](https://github.com/scaleway/scaleway-form/compare/v1.19.0...v1.20.0) (2022-07-04)
 
 

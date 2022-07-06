@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/scaleway/scaleway-form/compare/v1.20.1...v1.20.2) (2022-07-06)
+
+
+### :bug: Bug Fixes
+
+* **types:** export default type from final-form and custom types ([#379](https://github.com/scaleway/scaleway-form/issues/379)) ([4c64d70](https://github.com/scaleway/scaleway-form/commit/4c64d70dbd1294aa57fb63f6960bf8eacda46124))
+
 ## [1.20.1](https://github.com/scaleway/scaleway-form/compare/v1.20.0...v1.20.1) (2022-07-06)
 
 

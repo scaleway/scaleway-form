@@ -25,26 +25,18 @@ const Submit = ({
   tooltipBaseId,
   variant = 'success',
 }: SubmitProps): JSX.Element => {
-  const {
-    invalid,
-    submitting,
-    hasValidationErrors,
-    dirtySinceLastSubmit,
-    touched,
-  } = useFormState({
-    subscription: {
-      dirtySinceLastSubmit: true,
-      hasValidationErrors: true,
-      invalid: true,
-      submitting: true,
-      touched: true,
-    },
-  })
-  const isLoading = !touched || Object.keys(touched).length === 0
+  const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } =
+    useFormState({
+      subscription: {
+        dirtySinceLastSubmit: true,
+        hasValidationErrors: true,
+        invalid: true,
+        submitting: true,
+      },
+    })
   const isDisabled =
     disabled ||
     submitting ||
-    isLoading ||
     (invalid && hasValidationErrors && !dirtySinceLastSubmit)
 
   return (

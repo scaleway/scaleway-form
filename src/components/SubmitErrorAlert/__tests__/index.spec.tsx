@@ -10,7 +10,6 @@ import {
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import Submit from '../../Submit'
-import TextBoxField from '../../TextBoxField'
 
 describe('SubmitErrorAlert', () => {
   beforeAll(() => {
@@ -29,12 +28,11 @@ describe('SubmitErrorAlert', () => {
     const onSubmitError = jest.fn(() => {})
 
     await shouldMatchEmotionSnapshot(
-      <Form<{ toto: string }>
+      <Form
         errors={mockErrors}
         onSubmit={onSubmit}
         onSubmitError={onSubmitError}
       >
-        <TextBoxField name="toto" />
         <Submit>Submit</Submit>
         <SubmitErrorAlert />,
       </Form>,

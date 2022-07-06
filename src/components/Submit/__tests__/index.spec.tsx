@@ -36,7 +36,7 @@ describe('Submit', () => {
     mockRandom()
 
     await shouldMatchEmotionSnapshot(
-      <Form<{ toto: string }>
+      <Form
         onSubmit={() =>
           new Promise(resolve => {
             setTimeout(() => resolve(undefined), 5000)
@@ -44,7 +44,6 @@ describe('Submit', () => {
         }
         errors={mockErrors}
       >
-        <TextBoxField name="toto" />
         <Submit>Test</Submit>
       </Form>,
       {

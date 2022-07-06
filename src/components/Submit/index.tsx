@@ -1,5 +1,5 @@
 import { Button } from '@scaleway/ui'
-import React, { ComponentProps, ReactNode } from 'react'
+import React, { ComponentProps, ReactNode, useEffect, useState } from 'react'
 import { useFormState } from 'react-final-form'
 
 type SubmitProps = {
@@ -25,27 +25,23 @@ const Submit = ({
   tooltipBaseId,
   variant = 'success',
 }: SubmitProps): JSX.Element => {
-  const {
-    invalid,
-    submitting,
-    hasValidationErrors,
-    dirtySinceLastSubmit,
-    touched,
-  } = useFormState({
-    subscription: {
-      dirtySinceLastSubmit: true,
-      hasValidationErrors: true,
-      invalid: true,
-      submitting: true,
-      touched: true,
-    },
-  })
-  const isLoading = !touched || Object.keys(touched).length === 0
+  const { invalid, submitting, hasValidationErrors, dirtySinceLastSubmit } =
+    useFormState({
+      subscription: {
+        dirtySinceLastSubmit: true,
+        hasValidationErrors: true,
+        invalid: true,
+        submitting: true,
+      },
+    })
+  const [isLoading, setIsLoading] = useState(true)
   const isDisabled =
     disabled ||
     submitting ||
     isLoading ||
     (invalid && hasValidationErrors && !dirtySinceLastSubmit)
+
+  useEffect(() => setIsLoading(false), [])
 
   return (
     <Button

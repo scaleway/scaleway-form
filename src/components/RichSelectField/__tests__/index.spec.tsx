@@ -85,6 +85,48 @@ describe('RichSelectField', () => {
     expect(format).toBeCalledTimes(1)
   })
 
+  test('should display right value on grouped options', () => {
+    const selectedOption = { label: 'Group Label', value: 'Group Value' }
+    const options = [
+      {
+        label: 'Group',
+        options: [
+          selectedOption,
+          { label: 'Group Label 2', value: 'Group value2' },
+        ],
+      },
+    ]
+
+    return shouldMatchEmotionSnapshotFormWrapper(
+      <RichSelectField name="test" options={options} />,
+      {
+        transform: ({ getByRole, getByTestId, container }) => {
+          const select = getByRole('combobox') as HTMLInputElement
+          act(() => {
+            select.focus()
+          })
+          act(() => {
+            fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          })
+          const option = getByTestId(`option-test-${selectedOption.value}`)
+            .firstChild as HTMLElement
+
+          act(() => {
+            option.click()
+          })
+
+          // react-select works with a hidden input to handle value.
+          const hiddenSelectInput = container.querySelector(
+            'input[type="hidden"]',
+          ) as HTMLInputElement
+
+          const {value} = hiddenSelectInput
+          expect(value).toBe(selectedOption.value)
+        },
+      },
+    )
+  })
+
   test('should trigger events', () => {
     const onBlur = jest.fn()
     const onChange = jest.fn()
@@ -113,6 +155,7 @@ describe('RichSelectField', () => {
           })
           const option = node.getByTestId('option-test-value')
             .firstChild as HTMLElement
+
           act(() => {
             option.click()
           })

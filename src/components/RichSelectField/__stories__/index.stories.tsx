@@ -30,7 +30,7 @@ Default.args = {
   name: 'default',
 }
 
-const TemplateGroupsOpions: Story<RichSelectFieldProps> = args => (
+const TemplateGroupsOptions: Story<RichSelectFieldProps> = args => (
   <RichSelectField {...args} />
 )
 

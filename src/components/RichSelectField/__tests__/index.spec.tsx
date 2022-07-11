@@ -85,6 +85,39 @@ describe('RichSelectField', () => {
     expect(format).toBeCalledTimes(1)
   })
 
+  test('should display right value on grouped options', () => {
+    const selectedOption = { label: 'Group Label', value: 'Group Value' }
+    const options = [
+      {
+        label: 'Group',
+        options: [
+          selectedOption,
+          { label: 'Group Label 2', value: 'Group value2' },
+        ],
+      },
+    ]
+
+    return shouldMatchEmotionSnapshotFormWrapper(
+      <RichSelectField name="test" options={options} />,
+      {
+        transform: node => {
+          const select = node.getByRole('combobox')
+          act(() => {
+            select.focus()
+          })
+          act(() => {
+            fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          })
+          const option = node.getByTestId(`option-test-${selectedOption.value}`)
+            .firstChild as HTMLElement
+          act(() => {
+            option.click()
+          })
+        },
+      },
+    )
+  })
+
   test('should trigger events', () => {
     const onBlur = jest.fn()
     const onChange = jest.fn()
@@ -113,6 +146,7 @@ describe('RichSelectField', () => {
           })
           const option = node.getByTestId('option-test-value')
             .firstChild as HTMLElement
+
           act(() => {
             option.click()
           })

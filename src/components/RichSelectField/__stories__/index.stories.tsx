@@ -14,7 +14,7 @@ export default {
       },
     },
   },
-  title: 'Components/RichSelectField',
+  title: 'Components/Fields/RichSelectField',
 } as Meta
 
 const Template: Story<RichSelectFieldProps> = args => (
@@ -28,4 +28,50 @@ export const Default = Template.bind({})
 
 Default.args = {
   name: 'default',
+}
+
+const TemplateGroupsOpions: Story<RichSelectFieldProps> = args => (
+  <RichSelectField {...args} />
+)
+
+export const Groups = TemplateGroupsOpions.bind({})
+
+Groups.args = {
+  name: 'options',
+  options: [
+    {
+      label: 'option1',
+      options: [
+        {
+          label: 'AA',
+          value: 'AA',
+        },
+        {
+          label: 'AB',
+          value: 'AB',
+        },
+        {
+          label: 'AC',
+          value: 'AC',
+        },
+      ],
+    },
+    {
+      label: 'option2',
+      options: [
+        {
+          label: 'BA',
+          value: 'BA',
+        },
+        {
+          label: 'BB',
+          value: 'BB',
+        },
+        {
+          label: 'BC',
+          value: 'BC',
+        },
+      ],
+    },
+  ],
 }

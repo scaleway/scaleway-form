@@ -54,7 +54,7 @@ specifiers:
   cz-conventional-changelog: 3.3.0
   date-fns: 2.28.0
   eslint: 8.19.0
-  eslint-plugin-mdx: 2.0.0
+  eslint-plugin-mdx: 2.0.1
   final-form: 4.20.7
   final-form-arrays: 3.0.2
   final-form-focus: 1.1.2
@@ -139,7 +139,7 @@ devDependencies:
   cz-conventional-changelog: 3.3.0
   date-fns: 2.28.0
   eslint: 8.19.0
-  eslint-plugin-mdx: 2.0.0_eslint@8.19.0
+  eslint-plugin-mdx: 2.0.1_eslint@8.19.0
   husky: 8.0.1
   jest: 28.1.2_@types+node@18.0.0
   jest-environment-jsdom: 28.1.2
@@ -8525,8 +8525,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-mdx/2.0.0_eslint@8.19.0:
-    resolution: {integrity: sha512-FqJQCRdS6zY4VYNZhCwGm4O99POUDK/C3mnNug0d4cGF7Lg5GiGYQw9N0CtwTX8d5gDhymM8efpDzKkrRbTZNg==}
+  /eslint-mdx/2.0.1_eslint@8.19.0:
+    resolution: {integrity: sha512-25qjdxWQGDX0zXxnZGfqwEbWjUuY1eCnK7CIq3fNE+5rWSAeleJ/i0nLKcgh6XrvmxKn6ZYcJ9msdeqmL4kPMQ==}
     engines: {node: '>=12.20'}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -8540,6 +8540,8 @@ packages:
       synckit: 0.7.1
       tslib: 2.4.0
       unified: 10.1.2
+      unist-util-visit: 4.1.0
+      vfile: 5.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8646,14 +8648,14 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-mdx/2.0.0_eslint@8.19.0:
-    resolution: {integrity: sha512-EUdaCyngPceMlYTU3tyjywa2E5IP7h0wQ6zFvvr5pcOHu4CFxqmH25ET/Kt3jHtf+9UQOCXlhTQVBLPaSA3kZA==}
+  /eslint-plugin-mdx/2.0.1_eslint@8.19.0:
+    resolution: {integrity: sha512-BKPKX6+KxOkvKe+ASxZJeBGdrWemM8NtgJrzxzS30/hwxcEo86jsQi9SJmSrWLUs0P9KAAnM2/iW5ry/oRos8g==}
     engines: {node: '>=12.20'}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
       eslint: 8.19.0
-      eslint-mdx: 2.0.0_eslint@8.19.0
+      eslint-mdx: 2.0.1_eslint@8.19.0
       eslint-plugin-markdown: 2.2.1_eslint@8.19.0
       remark-mdx: 2.1.2
       remark-parse: 10.0.1

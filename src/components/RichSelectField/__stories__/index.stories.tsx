@@ -1,8 +1,13 @@
+import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
 import React from 'react'
 import RichSelectField, { RichSelectFieldProps } from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
+
+const Container = styled.div`
+  min-height: 300px;
+`
 
 export default {
   component: RichSelectField,
@@ -18,10 +23,12 @@ export default {
 } as Meta
 
 const Template: Story<RichSelectFieldProps> = args => (
-  <RichSelectField {...args}>
-    <RichSelectField.Option value="value">Label</RichSelectField.Option>
-    <RichSelectField.Option value="value2">Label 2</RichSelectField.Option>
-  </RichSelectField>
+  <Container>
+    <RichSelectField {...args}>
+      <RichSelectField.Option value="value">Label</RichSelectField.Option>
+      <RichSelectField.Option value="value2">Label 2</RichSelectField.Option>
+    </RichSelectField>
+  </Container>
 )
 
 export const Default = Template.bind({})
@@ -31,10 +38,12 @@ Default.args = {
 }
 
 const TemplateGroupsOptions: Story<RichSelectFieldProps> = args => (
-  <RichSelectField {...args} />
+  <Container>
+    <RichSelectField {...args} />
+  </Container>
 )
 
-export const Groups = TemplateGroupsOpions.bind({})
+export const Groups = TemplateGroupsOptions.bind({})
 
 Groups.args = {
   name: 'options',

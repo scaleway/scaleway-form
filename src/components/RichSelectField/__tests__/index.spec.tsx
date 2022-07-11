@@ -100,19 +100,28 @@ describe('RichSelectField', () => {
     return shouldMatchEmotionSnapshotFormWrapper(
       <RichSelectField name="test" options={options} />,
       {
-        transform: node => {
-          const select = node.getByRole('combobox')
+        transform: ({ getByRole, getByTestId, container }) => {
+          const select = getByRole('combobox') as HTMLInputElement
           act(() => {
             select.focus()
           })
           act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
-          const option = node.getByTestId(`option-test-${selectedOption.value}`)
+          const option = getByTestId(`option-test-${selectedOption.value}`)
             .firstChild as HTMLElement
+
           act(() => {
             option.click()
           })
+
+          // react-select works with a hidden input to handle value.
+          const hiddenSelectInput = container.querySelector(
+            'input[type="hidden"]',
+          ) as HTMLInputElement
+
+          const {value} = hiddenSelectInput
+          expect(value).toBe(selectedOption.value)
         },
       },
     )

@@ -111,13 +111,11 @@ const DateField = ({
         newDate.setHours(currentDate.getHours(), currentDate.getMinutes())
         input.onChange(newDate)
       }}
-      onBlur={event => {
-        const e = event as React.FocusEvent<HTMLElement, Element>
+      onBlur={(e: React.FocusEvent<HTMLElement, Element>) => {
         input.onBlur(e)
         onBlur?.(e)
       }}
-      onFocus={event => {
-        const e = event as React.FocusEvent<HTMLElement, Element>
+      onFocus={(e: React.FocusEvent<HTMLElement, Element>) => {
         input.onFocus(e)
         onFocus?.(e)
       }}

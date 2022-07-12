@@ -1,8 +1,10 @@
 import { FormErrors } from '../types'
 
 const mockErrors: FormErrors = {
+  MAX_DATE: ({ maxDate }) => `Date must be lower than ${maxDate?.toString()}`,
   MAX_LENGTH: ({ maxLength }) =>
     `This field should have a length lower than ${maxLength}`,
+  MIN_DATE: ({ minDate }) => `Date must be greater than ${minDate?.toString()}`,
   MIN_LENGTH: ({ minLength }) =>
     `This field should have a length greater than ${minLength}`,
   REGEX: ({ regex }) =>

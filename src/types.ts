@@ -53,6 +53,12 @@ type RequiredErrors = {
       ) => string)
     | string
   REQUIRED: ((params: FormErrorFunctionParams) => string) | string
+  MAX_DATE:
+    | ((params: FormErrorFunctionParams & { maxDate: Date }) => string)
+    | string
+  MIN_DATE:
+    | ((params: FormErrorFunctionParams & { minDate: Date }) => string)
+    | string
 }
 
 export type FormErrors = RequiredErrors
@@ -64,6 +70,8 @@ export type ValidatorProps = {
   max?: number
   maxLength?: number
   regex?: (RegExp | RegExp[])[]
+  maxDate?: Date
+  minDate?: Date
 }
 
 export type ValidatorObject<InputValue = unknown> = {

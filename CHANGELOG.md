@@ -1,3 +1,15 @@
+## [1.21.0](https://github.com/scaleway/scaleway-form/compare/v1.20.4...v1.21.0) (2022-07-12)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency eslint-plugin-mdx to v2.0.1 ([#388](https://github.com/scaleway/scaleway-form/issues/388)) ([6392c5e](https://github.com/scaleway/scaleway-form/commit/6392c5ef6f60b92b598e021686837d0f8e6fc8fb))
+
+
+### :gear: Features
+
+* add date and time fields ([#382](https://github.com/scaleway/scaleway-form/issues/382)) ([7c680c4](https://github.com/scaleway/scaleway-form/commit/7c680c45c9a4276bda6c453df93ec8387b0480f4))
+
 ## [1.20.4](https://github.com/scaleway/scaleway-form/compare/v1.20.3...v1.20.4) (2022-07-11)
 
 

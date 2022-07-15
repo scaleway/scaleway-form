@@ -130,7 +130,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "@emotion/babel-preset-css-prop": "11.2.0",
     "@emotion/eslint-plugin": "11.7.0",
-    "@emotion/jest": "11.9.3",
+    "@emotion/jest": "11.9.4",
     "@emotion/react": "11.9.3",
     "@emotion/styled": "11.9.3",
     "@nivo/core": "0.79.0",

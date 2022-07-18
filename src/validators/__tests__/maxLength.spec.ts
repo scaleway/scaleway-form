@@ -19,6 +19,7 @@ describe('maxLength validator', () => {
     const validator = maxLength(10)
     expect(validator.validate(fakeString(1), {})).toBe(true)
     expect(validator.validate(fakeString(9), {})).toBe(true)
-    expect(validator.validate(fakeString(10), {})).toBe(false)
+    expect(validator.validate(fakeString(10), {})).toBe(true)
+    expect(validator.validate(fakeString(11), {})).toBe(false)
   })
 })

@@ -34,7 +34,7 @@ describe('Form', () => {
       </Form>,
       {
         transform: async ({ getByText }) => {
-          userEvent.click(getByText('Submit'))
+          await userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitSuccess).toBeCalledTimes(1))
           expect(onSubmitError).toBeCalledTimes(0)
@@ -59,7 +59,7 @@ describe('Form', () => {
       </Form>,
       {
         transform: async ({ getByText }) => {
-          userEvent.click(getByText('Submit'))
+          await userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           expect(onSubmitSuccess).toBeCalledTimes(0)
@@ -84,7 +84,7 @@ describe('Form', () => {
       </Form>,
       {
         transform: async ({ getByText }) => {
-          userEvent.click(getByText('Submit'))
+          await userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           expect(onSubmitSuccess).toBeCalledTimes(0)
@@ -111,7 +111,7 @@ describe('Form', () => {
       </Form>,
       {
         transform: async ({ getByText }) => {
-          userEvent.click(getByText('Submit'))
+          await userEvent.click(getByText('Submit'))
           expect(onSubmit).toBeCalledTimes(1)
           await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           await waitFor(() => expect(parseSubmitException).toBeCalledTimes(1))
@@ -142,7 +142,7 @@ describe('Form', () => {
       </Form>,
       {
         transform: async ({ getByText }) => {
-          userEvent.click(getByText('Submit'))
+          await userEvent.click(getByText('Submit'))
           await waitFor(() => expect(onRawSubmit).toBeCalledTimes(1))
           expect(onSubmit).toBeCalledTimes(0)
           expect(onSubmitError).toBeCalledTimes(0)

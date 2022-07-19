@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RichSelectField should display right value on grouped options 1`] = `
+exports[`TimeField should render correctly 1`] = `
 <DocumentFragment>
   .cache-124kjsk-container-StyledContainer {
   width: 100%;
@@ -200,7 +200,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   max-height: 48px;
 }
 
-.cache-27txfv-indicatorSeparator {
+.cache-bex08z-indicatorSeparator {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -209,7 +209,10 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   margin-top: 8px;
   width: 1px;
   box-sizing: border-box;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cache-tlfecz-indicatorContainer {
@@ -228,15 +231,15 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles {
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
   vertical-align: middle;
   margin-right: 0;
 }
@@ -266,11 +269,11 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   >
     <div
       class="e1lzna4r2 cache-124kjsk-container-StyledContainer"
-      data-testid="rich-select-test"
+      data-testid="rich-select-"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-8-live-region"
+        id="react-select-2-live-region"
       />
       <span
         aria-atomic="false"
@@ -294,9 +297,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
           </label>
           <div
             class=" cache-fs070l-singleValue"
-          >
-            Group Label
-          </div>
+          />
           <div
             class="cache-1eede0w-inputStyles"
             data-value=""
@@ -312,7 +313,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
               id="input-6c756c756c756c756c756c756c756c75"
               role="combobox"
               spellcheck="false"
-              style="opacity: 0; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+              style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
               tabindex="0"
               type="text"
               value=""
@@ -323,28 +324,23 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
           class=" cache-ralm3g-IndicatorsContainer"
         >
           <span
-            class=" cache-27txfv-indicatorSeparator"
+            class=" cache-bex08z-indicatorSeparator"
           />
           <div
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
             <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
+              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
               viewBox="0 0 24 24"
             >
               <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
               />
             </svg>
           </div>
         </div>
       </div>
-      <input
-        name="test"
-        type="hidden"
-        value="Group Value"
-      />
       <div
         class="e14o3tsk0 cache-xcx33n"
       >
@@ -357,7 +353,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RichSelectField should render correctly 1`] = `
+exports[`TimeField should render correctly checked without value 1`] = `
 <DocumentFragment>
   .cache-124kjsk-container-StyledContainer {
   width: 100%;
@@ -465,7 +461,7 @@ exports[`RichSelectField should render correctly 1`] = `
   display: initial;
 }
 
-.cache-xrmeok {
+.cache-isgbik {
   position: absolute;
   left: 0;
   font-weight: 400;
@@ -478,14 +474,29 @@ exports[`RichSelectField should render correctly 1`] = `
   -webkit-transition: -webkit-transform 250ms ease;
   transition: transform 250ms ease;
   opacity: 0;
+  -webkit-transform: translate(0, -8px) scale(0.8);
+  -moz-transform: translate(0, -8px) scale(0.8);
+  -ms-transform: translate(0, -8px) scale(0.8);
+  transform: translate(0, -8px) scale(0.8);
+  transform-origin: left;
+  padding-left: 8px;
+  left: 0;
+  top: 2px;
+  opacity: 1;
 }
 
-.cache-m44uhw-placeholder {
-  color: #b2b6c3;
+.cache-fs070l-singleValue {
+  color: #4a4f62;
   grid-area: 1/1/2/3;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   box-sizing: border-box;
+  margin-top: 5px;
+  padding-left: 0;
 }
 
 .cache-1eede0w-inputStyles {
@@ -542,7 +553,7 @@ exports[`RichSelectField should render correctly 1`] = `
   max-height: 48px;
 }
 
-.cache-27txfv-indicatorSeparator {
+.cache-bex08z-indicatorSeparator {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -551,7 +562,10 @@ exports[`RichSelectField should render correctly 1`] = `
   margin-top: 8px;
   width: 1px;
   box-sizing: border-box;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cache-tlfecz-indicatorContainer {
@@ -570,15 +584,15 @@ exports[`RichSelectField should render correctly 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles {
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
   vertical-align: middle;
   margin-right: 0;
 }
@@ -608,11 +622,11 @@ exports[`RichSelectField should render correctly 1`] = `
   >
     <div
       class="e1lzna4r2 cache-124kjsk-container-StyledContainer"
-      data-testid="rich-select-test"
+      data-testid="rich-select-"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-2-live-region"
+        id="react-select-4-live-region"
       />
       <span
         aria-atomic="false"
@@ -629,24 +643,20 @@ exports[`RichSelectField should render correctly 1`] = `
           <label
             aria-live="assertive"
             as="label"
-            class="cache-xrmeok e1lzna4r0"
+            class="cache-isgbik e1lzna4r0"
             for="input-6c756c756c756c756c756c756c756c75"
           >
             Select...
           </label>
           <div
-            class=" cache-m44uhw-placeholder"
-            id="react-select-2-placeholder"
-          >
-            Select...
-          </div>
+            class=" cache-fs070l-singleValue"
+          />
           <div
             class="cache-1eede0w-inputStyles"
             data-value=""
           >
             <input
               aria-autocomplete="list"
-              aria-describedby="react-select-2-placeholder"
               aria-expanded="false"
               aria-haspopup="true"
               autocapitalize="none"
@@ -667,28 +677,23 @@ exports[`RichSelectField should render correctly 1`] = `
           class=" cache-ralm3g-IndicatorsContainer"
         >
           <span
-            class=" cache-27txfv-indicatorSeparator"
+            class=" cache-bex08z-indicatorSeparator"
           />
           <div
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
             <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
+              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
               viewBox="0 0 24 24"
             >
               <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
               />
             </svg>
           </div>
         </div>
       </div>
-      <input
-        name="test"
-        type="hidden"
-        value=""
-      />
       <div
         class="e14o3tsk0 cache-xcx33n"
       >
@@ -701,7 +706,7 @@ exports[`RichSelectField should render correctly 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RichSelectField should render correctly disabled 1`] = `
+exports[`TimeField should render correctly disabled 1`] = `
 <DocumentFragment>
   .cache-1c5bozl-container-StyledContainer {
   width: 100%;
@@ -795,7 +800,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   display: initial;
 }
 
-.cache-xrmeok {
+.cache-1c18mpa {
   position: absolute;
   left: 0;
   font-weight: 400;
@@ -808,14 +813,30 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   -webkit-transition: -webkit-transform 250ms ease;
   transition: transform 250ms ease;
   opacity: 0;
+  -webkit-transform: translate(0, -8px) scale(0.8);
+  -moz-transform: translate(0, -8px) scale(0.8);
+  -ms-transform: translate(0, -8px) scale(0.8);
+  transform: translate(0, -8px) scale(0.8);
+  transform-origin: left;
+  padding-left: 8px;
+  left: 0;
+  top: 2px;
+  opacity: 1;
+  opacity: 0.5;
 }
 
-.cache-wd8d14-placeholder {
+.cache-1ci9ux6-singleValue {
   color: #c4c9d6;
   grid-area: 1/1/2/3;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   box-sizing: border-box;
+  margin-top: 5px;
+  padding-left: 0;
 }
 
 .cache-y0rkal-inputStyles {
@@ -872,7 +893,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   max-height: 48px;
 }
 
-.cache-27txfv-indicatorSeparator {
+.cache-bex08z-indicatorSeparator {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -881,7 +902,10 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   margin-top: 8px;
   width: 1px;
   box-sizing: border-box;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cache-tlfecz-indicatorContainer {
@@ -900,15 +924,15 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-24eqa0-sizeStyles {
+.cache-1itukok-sizeStyles {
   fill: #c4c9d6;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
-.cache-24eqa0-sizeStyles.cache-24eqa0-sizeStyles {
+.cache-1itukok-sizeStyles.cache-1itukok-sizeStyles {
   vertical-align: middle;
   margin-right: 0;
 }
@@ -938,7 +962,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   >
     <div
       class="e1lzna4r2 cache-1c5bozl-container-StyledContainer"
-      data-testid="rich-select-test"
+      data-testid="rich-select-"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
@@ -959,24 +983,20 @@ exports[`RichSelectField should render correctly disabled 1`] = `
           <label
             aria-live="assertive"
             as="label"
-            class="cache-xrmeok e1lzna4r0"
+            class="cache-1c18mpa e1lzna4r0"
             for="input-6c756c756c756c756c756c756c756c75"
           >
             Select...
           </label>
           <div
-            class=" cache-wd8d14-placeholder"
-            id="react-select-3-placeholder"
-          >
-            Select...
-          </div>
+            class=" cache-1ci9ux6-singleValue"
+          />
           <div
             class="cache-y0rkal-inputStyles"
             data-value=""
           >
             <input
               aria-autocomplete="list"
-              aria-describedby="react-select-3-placeholder"
               aria-expanded="false"
               aria-haspopup="true"
               autocapitalize="none"
@@ -998,18 +1018,18 @@ exports[`RichSelectField should render correctly disabled 1`] = `
           class=" cache-ralm3g-IndicatorsContainer"
         >
           <span
-            class=" cache-27txfv-indicatorSeparator"
+            class=" cache-bex08z-indicatorSeparator"
           />
           <div
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
             <svg
-              class="sc-ui-icon etwatq50 cache-24eqa0-sizeStyles"
+              class="sc-ui-icon etwatq50 cache-1itukok-sizeStyles"
               viewBox="0 0 24 24"
             >
               <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
               />
             </svg>
           </div>
@@ -1027,695 +1047,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RichSelectField should render correctly multiple 1`] = `
-<DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
-}
-
-.cache-1f43avz-a11yText-A11yText {
-  z-index: 9999;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  padding: 0;
-  white-space: nowrap;
-}
-
-.cache-acm3fg-control {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #ffffff;
-  border-color: #d4dae7;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: none;
-  cursor: default;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  min-height: 48px;
-  outline: 0!important;
-  position: relative;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  box-sizing: border-box;
-  color: #4a4f62;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  -webkit-animation: none;
-  animation: none;
-}
-
-.cache-acm3fg-control:hover {
-  border-color: hsl(0, 0%, 70%);
-}
-
-.cache-acm3fg-control:focus-within {
-  border-color: #390171;
-  box-shadow: 0px 0px 0px 3px #4F059940;
-}
-
-.cache-acm3fg-control:focus-within svg {
-  fill: #390171;
-}
-
-.cache-acm3fg-control:hover {
-  border-color: #390171;
-}
-
-.cache-acm3fg-control:hover svg {
-  fill: #390171;
-}
-
-.cache-evyzo2-ValueContainer {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: grid;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 2px 8px;
-  -webkit-overflow-scrolling: touch;
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-  height: 100%;
-  padding-top: 0;
-}
-
-.cache-evyzo2-ValueContainer label {
-  display: initial;
-}
-
-.cache-xrmeok {
-  position: absolute;
-  left: 0;
-  font-weight: 400;
-  pointer-events: none;
-  color: #4a4f62;
-  white-space: nowrap;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  -webkit-transition: -webkit-transform 250ms ease;
-  transition: transform 250ms ease;
-  opacity: 0;
-}
-
-.cache-m44uhw-placeholder {
-  color: #b2b6c3;
-  grid-area: 1/1/2/3;
-  margin-left: 2px;
-  margin-right: 2px;
-  box-sizing: border-box;
-}
-
-.cache-gjy3q3-inputStyles {
-  margin: 2px;
-  padding-bottom: 2px;
-  padding-top: 11px;
-  visibility: visible;
-  color: hsl(0, 0%, 20%);
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  display: inline-grid;
-  grid-area: 1/1/2/3;
-  grid-template-columns: 0 min-content;
-  box-sizing: border-box;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-left: 0;
-  margin-left: 0px;
-}
-
-.cache-gjy3q3-inputStyles:after {
-  content: attr(data-value) " ";
-  visibility: hidden;
-  white-space: pre;
-  grid-area: 1/2;
-  font: inherit;
-  min-width: 2px;
-  border: 0;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-}
-
-.cache-ralm3g-IndicatorsContainer {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  max-height: 48px;
-}
-
-.cache-27txfv-indicatorSeparator {
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-color: #d4dae7;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  width: 1px;
-  box-sizing: border-box;
-  display: none;
-}
-
-.cache-tlfecz-indicatorContainer {
-  color: hsl(0, 0%, 80%);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 8px;
-  -webkit-transition: color 150ms;
-  transition: color 150ms;
-  box-sizing: border-box;
-}
-
-.cache-tlfecz-indicatorContainer:hover {
-  color: hsl(0, 0%, 60%);
-}
-
-.cache-3wyr3a-sizeStyles {
-  fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
-}
-
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
-  overflow: hidden;
-}
-
-.cache-19pioxy {
-  font-size: 12px;
-  color: #a6102d;
-  padding-top: 2px;
-}
-
-<form
-    novalidate=""
-  >
-    <div
-      class="e1lzna4r2 cache-124kjsk-container-StyledContainer"
-      data-testid="rich-select-test"
-    >
-      <span
-        class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-4-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        class="cache-1f43avz-a11yText-A11yText"
-      />
-      <div
-        class=" cache-acm3fg-control"
-      >
-        <div
-          class=" cache-evyzo2-ValueContainer"
-        >
-          <label
-            aria-live="assertive"
-            as="label"
-            class="cache-xrmeok e1lzna4r0"
-            for="input-6c756c756c756c756c756c756c756c75"
-          >
-            Select...
-          </label>
-          <div
-            class=" cache-m44uhw-placeholder"
-            id="react-select-4-placeholder"
-          >
-            Select...
-          </div>
-          <div
-            class="cache-gjy3q3-inputStyles"
-            data-value=""
-          >
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-4-placeholder"
-              aria-expanded="false"
-              aria-haspopup="true"
-              autocapitalize="none"
-              autocomplete="off"
-              autocorrect="off"
-              class=""
-              id="input-6c756c756c756c756c756c756c756c75"
-              role="combobox"
-              spellcheck="false"
-              style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
-              tabindex="0"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          class=" cache-ralm3g-IndicatorsContainer"
-        >
-          <span
-            class=" cache-27txfv-indicatorSeparator"
-          />
-          <div
-            aria-hidden="true"
-            class=" cache-tlfecz-indicatorContainer"
-          >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-      <div>
-        <input
-          name="test"
-          type="hidden"
-        />
-      </div>
-      <div
-        class="e14o3tsk0 cache-xcx33n"
-      >
-        <div
-          class="cache-19pioxy e1lzna4r1"
-        />
-      </div>
-    </div>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`RichSelectField should render correctly with a disabled option 1`] = `
-<DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
-}
-
-.cache-1f43avz-a11yText-A11yText {
-  z-index: 9999;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  padding: 0;
-  white-space: nowrap;
-}
-
-.cache-acm3fg-control {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #ffffff;
-  border-color: #d4dae7;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: none;
-  cursor: default;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  min-height: 48px;
-  outline: 0!important;
-  position: relative;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  box-sizing: border-box;
-  color: #4a4f62;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  -webkit-animation: none;
-  animation: none;
-}
-
-.cache-acm3fg-control:hover {
-  border-color: hsl(0, 0%, 70%);
-}
-
-.cache-acm3fg-control:focus-within {
-  border-color: #390171;
-  box-shadow: 0px 0px 0px 3px #4F059940;
-}
-
-.cache-acm3fg-control:focus-within svg {
-  fill: #390171;
-}
-
-.cache-acm3fg-control:hover {
-  border-color: #390171;
-}
-
-.cache-acm3fg-control:hover svg {
-  fill: #390171;
-}
-
-.cache-evyzo2-ValueContainer {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: grid;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 2px 8px;
-  -webkit-overflow-scrolling: touch;
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-  height: 100%;
-  padding-top: 0;
-}
-
-.cache-evyzo2-ValueContainer label {
-  display: initial;
-}
-
-.cache-xrmeok {
-  position: absolute;
-  left: 0;
-  font-weight: 400;
-  pointer-events: none;
-  color: #4a4f62;
-  white-space: nowrap;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  -webkit-transition: -webkit-transform 250ms ease;
-  transition: transform 250ms ease;
-  opacity: 0;
-}
-
-.cache-m44uhw-placeholder {
-  color: #b2b6c3;
-  grid-area: 1/1/2/3;
-  margin-left: 2px;
-  margin-right: 2px;
-  box-sizing: border-box;
-}
-
-.cache-1eede0w-inputStyles {
-  margin: 2px;
-  padding-bottom: 2px;
-  padding-top: 11px;
-  visibility: visible;
-  color: hsl(0, 0%, 20%);
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  display: inline-grid;
-  grid-area: 1/1/2/3;
-  grid-template-columns: 0 min-content;
-  box-sizing: border-box;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin-left: 0;
-  margin-left: 0px;
-  caret-color: transparent;
-}
-
-.cache-1eede0w-inputStyles:after {
-  content: attr(data-value) " ";
-  visibility: hidden;
-  white-space: pre;
-  grid-area: 1/2;
-  font: inherit;
-  min-width: 2px;
-  border: 0;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-}
-
-.cache-ralm3g-IndicatorsContainer {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  max-height: 48px;
-}
-
-.cache-27txfv-indicatorSeparator {
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-color: #d4dae7;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  width: 1px;
-  box-sizing: border-box;
-  display: none;
-}
-
-.cache-tlfecz-indicatorContainer {
-  color: hsl(0, 0%, 80%);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 8px;
-  -webkit-transition: color 150ms;
-  transition: color 150ms;
-  box-sizing: border-box;
-}
-
-.cache-tlfecz-indicatorContainer:hover {
-  color: hsl(0, 0%, 60%);
-}
-
-.cache-3wyr3a-sizeStyles {
-  fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
-}
-
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
-  overflow: hidden;
-}
-
-.cache-19pioxy {
-  font-size: 12px;
-  color: #a6102d;
-  padding-top: 2px;
-}
-
-<form
-    novalidate=""
-  >
-    <div
-      class="e1lzna4r2 cache-124kjsk-container-StyledContainer"
-      data-testid="rich-select-test"
-    >
-      <span
-        class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-5-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        class="cache-1f43avz-a11yText-A11yText"
-      />
-      <div
-        class=" cache-acm3fg-control"
-      >
-        <div
-          class=" cache-evyzo2-ValueContainer"
-        >
-          <label
-            aria-live="assertive"
-            as="label"
-            class="cache-xrmeok e1lzna4r0"
-            for="input-6c756c756c756c756c756c756c756c75"
-          >
-            Select...
-          </label>
-          <div
-            class=" cache-m44uhw-placeholder"
-            id="react-select-5-placeholder"
-          >
-            Select...
-          </div>
-          <div
-            class="cache-1eede0w-inputStyles"
-            data-value=""
-          >
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-5-placeholder"
-              aria-expanded="false"
-              aria-haspopup="true"
-              autocapitalize="none"
-              autocomplete="off"
-              autocorrect="off"
-              class=""
-              id="input-6c756c756c756c756c756c756c756c75"
-              role="combobox"
-              spellcheck="false"
-              style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
-              tabindex="0"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          class=" cache-ralm3g-IndicatorsContainer"
-        >
-          <span
-            class=" cache-27txfv-indicatorSeparator"
-          />
-          <div
-            aria-hidden="true"
-            class=" cache-tlfecz-indicatorContainer"
-          >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-      <input
-        name="test"
-        type="hidden"
-        value=""
-      />
-      <div
-        class="e14o3tsk0 cache-xcx33n"
-      >
-        <div
-          class="cache-19pioxy e1lzna4r1"
-        />
-      </div>
-    </div>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`RichSelectField should trigger events 1`] = `
+exports[`TimeField should trigger events 1`] = `
 <DocumentFragment>
   .cache-124kjsk-container-StyledContainer {
   width: 100%;
@@ -1915,7 +1247,7 @@ exports[`RichSelectField should trigger events 1`] = `
   max-height: 48px;
 }
 
-.cache-27txfv-indicatorSeparator {
+.cache-bex08z-indicatorSeparator {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -1924,7 +1256,10 @@ exports[`RichSelectField should trigger events 1`] = `
   margin-top: 8px;
   width: 1px;
   box-sizing: border-box;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cache-tlfecz-indicatorContainer {
@@ -1943,15 +1278,15 @@ exports[`RichSelectField should trigger events 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles {
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
+.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
   vertical-align: middle;
   margin-right: 0;
 }
@@ -1981,11 +1316,11 @@ exports[`RichSelectField should trigger events 1`] = `
   >
     <div
       class="e1lzna4r2 cache-124kjsk-container-StyledContainer"
-      data-testid="rich-select-test"
+      data-testid="rich-select-"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-9-live-region"
+        id="react-select-5-live-region"
       />
       <span
         aria-atomic="false"
@@ -2010,7 +1345,7 @@ exports[`RichSelectField should trigger events 1`] = `
           <div
             class=" cache-fs070l-singleValue"
           >
-            Label
+            1:00:00
           </div>
           <div
             class="cache-1eede0w-inputStyles"
@@ -2038,28 +1373,23 @@ exports[`RichSelectField should trigger events 1`] = `
           class=" cache-ralm3g-IndicatorsContainer"
         >
           <span
-            class=" cache-27txfv-indicatorSeparator"
+            class=" cache-bex08z-indicatorSeparator"
           />
           <div
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
             <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
+              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
               viewBox="0 0 24 24"
             >
               <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
               />
             </svg>
           </div>
         </div>
       </div>
-      <input
-        name="test"
-        type="hidden"
-        value="value"
-      />
       <div
         class="e14o3tsk0 cache-xcx33n"
       >

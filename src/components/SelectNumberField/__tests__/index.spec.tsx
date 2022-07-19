@@ -1,7 +1,7 @@
-import { waitFor } from '@testing-library/react'
+import { act, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import StepperField from '..'
+import SelectNumberField from '..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
@@ -9,15 +9,15 @@ import {
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 
-describe('StepperField', () => {
+describe('SelectNumberField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField name="test" value={0} />,
+      <SelectNumberField name="test" value={0} />,
     ))
 
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField name="test" value={10} disabled />,
+      <SelectNumberField name="test" value={10} disabled />,
       {
         transform: ({ getByLabelText }) => {
           const input = getByLabelText('Input')
@@ -38,7 +38,7 @@ describe('StepperField', () => {
     const onBlur = jest.fn(() => {})
 
     return shouldMatchEmotionSnapshotFormWrapper(
-      <StepperField
+      <SelectNumberField
         name="test"
         value={10}
         onChange={onChange}
@@ -48,11 +48,17 @@ describe('StepperField', () => {
       {
         transform: ({ getByLabelText }) => {
           const input = getByLabelText('Input')
-          input.focus()
+          act(() => {
+            input.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          input.click()
-          expect(onChange).toBeCalledTimes(2)
-          input.blur()
+          act(() => {
+            input.click()
+          })
+          expect(onChange).toBeCalledTimes(0)
+          act(() => {
+            input.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },
@@ -67,7 +73,7 @@ describe('StepperField', () => {
 
     return shouldMatchEmotionSnapshot(
       <Form errors={mockErrors}>
-        <StepperField
+        <SelectNumberField
           maxValue={maxValue}
           minValue={minValue}
           name="test"
@@ -79,21 +85,29 @@ describe('StepperField', () => {
       {
         transform: async ({ getByLabelText }) => {
           const input = getByLabelText('Input') as HTMLTextAreaElement
-          if (input.parentElement) userEvent.click(input.parentElement)
+          await act(async () => {
+            if (input.parentElement) await userEvent.click(input.parentElement)
 
-          // trigger onMinCrossed
-          userEvent.clear(input)
-          userEvent.type(input, '1')
+            // trigger onMinCrossed
+            await userEvent.clear(input)
+            await userEvent.type(input, '1')
+          })
           await waitFor(() => expect(input.value).toBe('1'))
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           await waitFor(() => expect(input.value).toBe('5'))
           expect(onMinCrossed).toBeCalledTimes(1)
 
           // trigger onMaxCrossed
-          userEvent.clear(input)
-          userEvent.type(input, '100')
+          await act(async () => {
+            await userEvent.clear(input)
+            await userEvent.type(input, '100')
+          })
           await waitFor(() => expect(input.value).toBe('100'))
-          input.blur()
+          act(() => {
+            input.blur()
+          })
           await waitFor(() => expect(input.value).toBe('20'))
           expect(onMinCrossed).toBeCalledTimes(1)
         },

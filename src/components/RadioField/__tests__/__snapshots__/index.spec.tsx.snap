@@ -2,7 +2,7 @@
 
 exports[`RadioField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-19tfi5p-variantStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -12,128 +12,170 @@ exports[`RadioField should render correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 32px;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(215,204,240,0.25);
-  border-radius: 50%;
-}
-
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+  background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1p2voni-IconContainer {
-  min-width: 32px;
-  width: 32px;
-  height: 32px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-right: 8px;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
 }
 
-.cache-5ixesp-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] {
+  cursor: not-allowed;
+  color: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 {
+  fill: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+  fill: #f6f6f8;
+}
+
+.cache-dhqfi {
+  opacity: 0.01;
+  width: px;
+  height: px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+  transform-origin: center;
+  -webkit-transition: 200ms -webkit-transform ease-in-out;
+  transition: 200ms transform ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #390171;
+}
+
+.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+  fill: #a6102d;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-jsk10b {
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
+  border-radius: 100%;
+  fill: #b2b6c3;
 }
 
-.cache-5ixesp-StyledIcon-sizeStyles-StyledIcon.cache-5ixesp-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
+.cache-jsk10b .e1duuirp4 {
+  fill: #ffffff;
 }
 
-.cache-18s3dma-StyledRadio {
-  position: absolute;
-  opacity: 0.01;
-}
-
-.cache-1sztoev-StyledExpandable {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-1ihvynt-StyledError {
-  font-size: 12px;
-  color: #dd3252;
-  padding: 0 4px;
+.cache-1e98oqk {
+  fill: #ffffff;
 }
 
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-      type="radio"
+    <label
+      aria-disabled="false"
+      class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-test"
     >
-      <label
-        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
-        for="test-test"
+      <input
+        aria-checked="false"
+        aria-disabled="false"
+        aria-invalid="false"
+        class="cache-dhqfi e1duuirp1"
+        id="test-test"
+        name="test"
+        tabindex="0"
+        type="radio"
+        value="test"
+      />
+      <svg
+        class="cache-jsk10b e1duuirp2"
+        size="24"
+        viewBox="0 0 24 24"
       >
-        <div
-          class="cache-1p2voni-IconContainer e1duuirp3"
-        >
-          <svg
-            class="e1duuirp4 etwatq50 cache-5ixesp-StyledIcon-sizeStyles-StyledIcon"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
-            />
-          </svg>
-        </div>
-        <div>
-          Radio field
-        </div>
-        <input
-          aria-checked="false"
-          class="cache-18s3dma-StyledRadio e1duuirp1"
-          id="test-test"
-          name="test"
-          tabindex="0"
-          type="radio"
-          value="test"
-        />
-      </label>
-      <div
-        class="e14o3tsk0 cache-1sztoev-StyledExpandable"
-      >
-        <div
-          class="cache-1ihvynt-StyledError e1duuirp0"
-        />
-      </div>
-    </div>
+        <g>
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke-width="2"
+          />
+          <circle
+            class="cache-1e98oqk e1duuirp4"
+            cx="12"
+            cy="12"
+            r="6"
+          />
+          <circle
+            class="cache-0 e1duuirp3"
+            cx="12"
+            cy="12"
+            r="4"
+          />
+        </g>
+      </svg>
+      Radio field
+    </label>
   </form>
 </DocumentFragment>
 `;
 
 exports[`RadioField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-19tfi5p-variantStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -143,129 +185,171 @@ exports[`RadioField should render correctly checked 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 32px;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(215,204,240,0.25);
-  border-radius: 50%;
-}
-
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+  background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1p2voni-IconContainer {
-  min-width: 32px;
-  width: 32px;
-  height: 32px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-right: 8px;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] {
+  cursor: not-allowed;
+  color: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 {
+  fill: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+  fill: #f6f6f8;
+}
+
+.cache-dhqfi {
+  opacity: 0.01;
+  width: px;
+  height: px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+  transform-origin: center;
+  -webkit-transition: 200ms -webkit-transform ease-in-out;
+  transition: 200ms transform ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #390171;
+}
+
+.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+  fill: #a6102d;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-jsk10b {
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
+  border-radius: 100%;
+  fill: #b2b6c3;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
+.cache-jsk10b .e1duuirp4 {
+  fill: #ffffff;
 }
 
-.cache-18s3dma-StyledRadio {
-  position: absolute;
-  opacity: 0.01;
-}
-
-.cache-1sztoev-StyledExpandable {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-1ihvynt-StyledError {
-  font-size: 12px;
-  color: #dd3252;
-  padding: 0 4px;
+.cache-1e98oqk {
+  fill: #ffffff;
 }
 
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-      type="radio"
+    <label
+      aria-disabled="false"
+      class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-checked"
     >
-      <label
-        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
-        for="test-checked"
+      <input
+        aria-checked="true"
+        aria-disabled="false"
+        aria-invalid="false"
+        checked=""
+        class="cache-dhqfi e1duuirp1"
+        id="test-checked"
+        name="test"
+        tabindex="0"
+        type="radio"
+        value="checked"
+      />
+      <svg
+        class="cache-jsk10b e1duuirp2"
+        size="24"
+        viewBox="0 0 24 24"
       >
-        <div
-          class="cache-1p2voni-IconContainer e1duuirp3"
-        >
-          <svg
-            class="e1duuirp4 etwatq50 cache-1yojixf-StyledIcon-sizeStyles-StyledIcon"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z"
-            />
-          </svg>
-        </div>
-        <div>
-          Radio field checked
-        </div>
-        <input
-          aria-checked="true"
-          checked=""
-          class="cache-18s3dma-StyledRadio e1duuirp1"
-          id="test-checked"
-          name="test"
-          tabindex="0"
-          type="radio"
-          value="checked"
-        />
-      </label>
-      <div
-        class="e14o3tsk0 cache-1sztoev-StyledExpandable"
-      >
-        <div
-          class="cache-1ihvynt-StyledError e1duuirp0"
-        />
-      </div>
-    </div>
+        <g>
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke-width="2"
+          />
+          <circle
+            class="cache-1e98oqk e1duuirp4"
+            cx="12"
+            cy="12"
+            r="6"
+          />
+          <circle
+            class="cache-0 e1duuirp3"
+            cx="12"
+            cy="12"
+            r="4"
+          />
+        </g>
+      </svg>
+      Radio field checked
+    </label>
   </form>
 </DocumentFragment>
 `;
 
 exports[`RadioField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass {
+  .cache-19tfi5p-variantStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -275,266 +359,171 @@ exports[`RadioField should render correctly disabled 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 32px;
-  cursor: pointer;
-  color: #c4c9d6;
-  cursor: not-allowed;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 8px;
 }
 
-.cache-1p2voni-IconContainer {
-  min-width: 32px;
-  width: 32px;
-  height: 32px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-right: 8px;
-}
-
-.cache-12489do-StyledIcon-sizeStyles-StyledIcon {
-  fill: #f6f5f7;
-  height: 24px;
-  width: 24px;
-  min-width: 24px;
-  min-height: 24px;
-}
-
-.cache-12489do-StyledIcon-sizeStyles-StyledIcon.cache-12489do-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
-}
-
-.cache-18s3dma-StyledRadio {
-  position: absolute;
-  opacity: 0.01;
-}
-
-.cache-1sztoev-StyledExpandable {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-1ihvynt-StyledError {
-  font-size: 12px;
-  color: #dd3252;
-  padding: 0 4px;
-}
-
-<form
-    novalidate=""
-  >
-    <div
-      class="cache-3svqc9"
-      type="radio"
-    >
-      <label
-        class="e1duuirp2 e1g1zfwd0 cache-izgtk0-StyledText-variantStyles-StyledRadioContainer-disabledClass"
-        disabled=""
-        for="test-disabled"
-      >
-        <div
-          class="cache-1p2voni-IconContainer e1duuirp3"
-        >
-          <svg
-            class="e1duuirp4 etwatq50 cache-12489do-StyledIcon-sizeStyles-StyledIcon"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
-            />
-          </svg>
-        </div>
-        <div>
-          Radio field disabled
-        </div>
-        <input
-          aria-checked="false"
-          aria-disabled="true"
-          class="cache-18s3dma-StyledRadio e1duuirp1"
-          disabled=""
-          id="test-disabled"
-          name="test"
-          style="pointer-events: none;"
-          type="radio"
-          value="disabled"
-        />
-      </label>
-      <div
-        class="e14o3tsk0 cache-1sztoev-StyledExpandable"
-      >
-        <div
-          class="cache-1ihvynt-StyledError e1duuirp0"
-        />
-      </div>
-    </div>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`RadioField should render correctly with errors 1`] = `
-<DocumentFragment>
-  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 32px;
+.cache-19tfi5p-variantStyles[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(215,204,240,0.25);
-  border-radius: 50%;
-}
-
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+  background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1p2voni-IconContainer {
-  min-width: 32px;
-  width: 32px;
-  height: 32px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-right: 8px;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
 }
 
-.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon {
-  fill: #ef5774;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] {
+  cursor: not-allowed;
+  color: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 {
+  fill: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+  fill: #f6f6f8;
+}
+
+.cache-dhqfi {
+  opacity: 0.01;
+  width: px;
+  height: px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+  transform-origin: center;
+  -webkit-transition: 200ms -webkit-transform ease-in-out;
+  transition: 200ms transform ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #390171;
+}
+
+.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+  fill: #a6102d;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-jsk10b {
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
+  border-radius: 100%;
+  fill: #b2b6c3;
 }
 
-.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon.cache-cuzpql-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
+.cache-jsk10b .e1duuirp4 {
+  fill: #ffffff;
 }
 
-.cache-18s3dma-StyledRadio {
-  position: absolute;
-  opacity: 0.01;
-}
-
-.cache-1gfilw2-StyledExpandable {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-  -webkit-transition: max-height 300ms ease-in,opacity 300ms ease-in;
-  transition: max-height 300ms ease-in,opacity 300ms ease-in;
-  max-height: 5000px;
-  opacity: 1;
-  overflow: visible;
-}
-
-.cache-1ihvynt-StyledError {
-  font-size: 12px;
-  color: #dd3252;
-  padding: 0 4px;
+.cache-1e98oqk {
+  fill: #ffffff;
 }
 
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-      required=""
-      type="radio"
+    <label
+      aria-disabled="true"
+      class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-disabled"
     >
-      <label
-        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
-        for="test-checked"
+      <input
+        aria-checked="false"
+        aria-disabled="true"
+        aria-invalid="false"
+        class="cache-dhqfi e1duuirp1"
+        disabled=""
+        id="test-disabled"
+        name="test"
+        style="pointer-events: none;"
+        type="radio"
+        value="disabled"
+      />
+      <svg
+        class="cache-jsk10b e1duuirp2"
+        size="24"
+        viewBox="0 0 24 24"
       >
-        <div
-          class="cache-1p2voni-IconContainer e1duuirp3"
-        >
-          <svg
-            class="e1duuirp4 etwatq50 cache-cuzpql-StyledIcon-sizeStyles-StyledIcon"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
-            />
-          </svg>
-        </div>
-        <div>
-          Radio field error
-        </div>
-        <input
-          aria-checked="false"
-          class="cache-18s3dma-StyledRadio e1duuirp1"
-          id="test-checked"
-          name="test"
-          tabindex="0"
-          type="radio"
-          value="checked"
-        />
-      </label>
-      <div
-        class="e14o3tsk0 cache-1gfilw2-StyledExpandable"
-      >
-        <div
-          class="cache-1ihvynt-StyledError e1duuirp0"
-        >
-          This field is required
-        </div>
-      </div>
-    </div>
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
+        <g>
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke-width="2"
+          />
+          <circle
+            class="cache-1e98oqk e1duuirp4"
+            cx="12"
+            cy="12"
+            r="6"
+          />
+          <circle
+            class="cache-0 e1duuirp3"
+            cx="12"
+            cy="12"
+            r="4"
+          />
+        </g>
+      </svg>
+      Radio field disabled
+    </label>
   </form>
 </DocumentFragment>
 `;
 
 exports[`RadioField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass {
+  .cache-19tfi5p-variantStyles {
   color: #4a4f62;
   font-weight: 400;
   margin-bottom: 0;
@@ -544,121 +533,163 @@ exports[`RadioField should trigger events correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 32px;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3 {
-  background-color: rgba(215,204,240,0.25);
-  border-radius: 50%;
-}
-
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:hover .e1duuirp3>.e1duuirp4,
-.cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass:focus .e1duuirp3>.e1duuirp4 {
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+  background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1p2voni-IconContainer {
-  min-width: 32px;
-  width: 32px;
-  height: 32px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  margin-right: 8px;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  fill: #4f0599;
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-19tfi5p-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] {
+  cursor: not-allowed;
+  color: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 {
+  fill: #c4c9d6;
+}
+
+.cache-19tfi5p-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+  fill: #f6f6f8;
+}
+
+.cache-dhqfi {
+  opacity: 0.01;
+  width: px;
+  height: px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+  transform-origin: center;
+  -webkit-transition: 200ms -webkit-transform ease-in-out;
+  transition: 200ms transform ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #390171;
+}
+
+.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+  fill: #a6102d;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-jsk10b {
   height: 24px;
   width: 24px;
   min-width: 24px;
   min-height: 24px;
+  border-radius: 100%;
+  fill: #b2b6c3;
 }
 
-.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon.cache-1yojixf-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
+.cache-jsk10b .e1duuirp4 {
+  fill: #ffffff;
 }
 
-.cache-18s3dma-StyledRadio {
-  position: absolute;
-  opacity: 0.01;
-}
-
-.cache-1sztoev-StyledExpandable {
-  -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  transition: max-height 300ms ease-out,opacity 300ms ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.cache-1ihvynt-StyledError {
-  font-size: 12px;
-  color: #dd3252;
-  padding: 0 4px;
+.cache-1e98oqk {
+  fill: #ffffff;
 }
 
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-      type="radio"
+    <label
+      aria-disabled="false"
+      class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-events"
     >
-      <label
-        class="e1duuirp2 e1g1zfwd0 cache-am0vxe-StyledText-variantStyles-StyledRadioContainer-activeFocusClass"
-        for="test-events"
+      <input
+        aria-checked="true"
+        aria-disabled="false"
+        aria-invalid="false"
+        class="cache-dhqfi e1duuirp1"
+        id="test-events"
+        name="test"
+        tabindex="0"
+        type="radio"
+        value="events"
+      />
+      <svg
+        class="cache-jsk10b e1duuirp2"
+        size="24"
+        viewBox="0 0 24 24"
       >
-        <div
-          class="cache-1p2voni-IconContainer e1duuirp3"
-        >
-          <svg
-            class="e1duuirp4 etwatq50 cache-1yojixf-StyledIcon-sizeStyles-StyledIcon"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7Z"
-            />
-          </svg>
-        </div>
-        <div>
-          Radio field events
-        </div>
-        <input
-          aria-checked="true"
-          class="cache-18s3dma-StyledRadio e1duuirp1"
-          id="test-events"
-          name="test"
-          tabindex="0"
-          type="radio"
-          value="events"
-        />
-      </label>
-      <div
-        class="e14o3tsk0 cache-1sztoev-StyledExpandable"
-      >
-        <div
-          class="cache-1ihvynt-StyledError e1duuirp0"
-        />
-      </div>
-    </div>
+        <g>
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke-width="2"
+          />
+          <circle
+            class="cache-1e98oqk e1duuirp4"
+            cx="12"
+            cy="12"
+            r="6"
+          />
+          <circle
+            class="cache-0 e1duuirp3"
+            cx="12"
+            cy="12"
+            r="4"
+          />
+        </g>
+      </svg>
+      Radio field events
+    </label>
   </form>
 </DocumentFragment>
 `;

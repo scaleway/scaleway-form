@@ -35,6 +35,7 @@ export type RichSelectFieldProps<
     | 'id'
     | 'inputId'
     | 'isClearable'
+    | 'isLoading'
     | 'isMulti'
     | 'isSearchable'
     | 'menuPortalTarget'
@@ -63,12 +64,14 @@ const RichSelectField = <
   animationOnChange,
   children,
   className,
+  disabled,
   error: errorProp,
   format: formatProp = identity as NonNullable<BaseFieldProps<T>['format']>,
   formatOnBlur,
   id,
   inputId,
   isClearable,
+  isLoading,
   isSearchable,
   label = '',
   maxLength,
@@ -125,22 +128,32 @@ const RichSelectField = <
       const find = (opts: RichSelectOptionOrGroup[], valueToFind: string) =>
         opts?.find(option => (option as RichSelectOption).value === valueToFind)
 
-      let selected: unknown = ''
+      let selected:
+        | RichSelectOptionOrGroup
+        | (RichSelectOptionOrGroup | undefined)[]
+        | string
+        | undefined = ''
+
       if (val && options) {
+        // TODO: find a proper way to simplify format with recursive options
         selected = find(
           options as unknown as RichSelectOptionOrGroup[],
           val as unknown as string,
         )
 
         if (!selected) {
-          selected =
-            options.find(curr =>
+          selected = options
+            .map(curr =>
               find(
                 (curr as unknown as { options: RichSelectOptionOrGroup[] })
                   .options,
                 val as unknown as string,
               ),
-            ) ?? ''
+            )
+            .filter(identity)
+          if (selected.length === 0) {
+            selected = ''
+          }
         }
       }
 
@@ -179,25 +192,27 @@ const RichSelectField = <
       animationDuration={animationDuration}
       animationOnChange={animationOnChange}
       className={className}
+      disabled={disabled}
       error={error}
       id={id}
       inputId={inputId}
       isClearable={isClearable}
+      isLoading={isLoading}
       isMulti={input.multiple}
       isSearchable={isSearchable}
       menuPortalTarget={menuPortalTarget}
       name={name}
       onBlur={event => {
-        onBlur?.(event)
         input.onBlur(event)
+        onBlur?.(event)
       }}
       onChange={(event, action) => {
-        onChange?.(event, action)
         input.onChange(event)
+        onChange?.(event, action)
       }}
       onFocus={event => {
-        onFocus?.(event)
         input.onFocus(event)
+        onFocus?.(event)
       }}
       options={options}
       placeholder={placeholder}

@@ -9,7 +9,7 @@ type UseValidationParams<FieldValue = unknown> = {
 
 type UseValidationResult<FieldValue = unknown> = (
   value: FieldValue,
-  allValues: AnyObject,
+  allValues?: AnyObject,
   meta?: FieldState<FieldValue>,
 ) => Array<string> | undefined | unknown
 
@@ -20,7 +20,7 @@ const useValidation = <T = unknown>({
   const fn = useCallback(
     (
       value: T,
-      allValues: AnyObject,
+      allValues?: AnyObject,
       meta?: FieldState<T>,
     ): Array<string | unknown> | unknown | undefined => {
       if (validate) {

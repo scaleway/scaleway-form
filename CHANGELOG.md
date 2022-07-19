@@ -1,3 +1,450 @@
+## [1.21.0](https://github.com/scaleway/scaleway-form/compare/v1.20.4...v1.21.0) (2022-07-12)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency eslint-plugin-mdx to v2.0.1 ([#388](https://github.com/scaleway/scaleway-form/issues/388)) ([6392c5e](https://github.com/scaleway/scaleway-form/commit/6392c5ef6f60b92b598e021686837d0f8e6fc8fb))
+
+
+### :gear: Features
+
+* add date and time fields ([#382](https://github.com/scaleway/scaleway-form/issues/382)) ([7c680c4](https://github.com/scaleway/scaleway-form/commit/7c680c45c9a4276bda6c453df93ec8387b0480f4))
+
+## [1.20.4](https://github.com/scaleway/scaleway-form/compare/v1.20.3...v1.20.4) (2022-07-11)
+
+
+### :package: Chore
+
+* **devdeps:** pin dependency @testing-library/react-hooks to 8.0.1 ([#385](https://github.com/scaleway/scaleway-form/issues/385)) ([17aeb1b](https://github.com/scaleway/scaleway-form/commit/17aeb1bff6fb5900b4808c5b883fef96a4ad6f00))
+* **devdeps:** update actions/setup-node action to v3.4.0 ([#395](https://github.com/scaleway/scaleway-form/issues/395)) ([a0db091](https://github.com/scaleway/scaleway-form/commit/a0db091bf3cb05703048bf59789b49808e62f056))
+* **devdeps:** update dependency @semantic-release/github to v8.0.5 ([#387](https://github.com/scaleway/scaleway-form/issues/387)) ([4f130de](https://github.com/scaleway/scaleway-form/commit/4f130de58f82d586549a0ff8c5dfd93cd233bd91))
+* **devdeps:** update dependency @testing-library/dom to v8.16.0 ([#390](https://github.com/scaleway/scaleway-form/issues/390)) ([f32bda1](https://github.com/scaleway/scaleway-form/commit/f32bda149dcf76689c33e1e536f936ddb686d357))
+* **devdeps:** update dependency eslint to v8.19.0 ([#391](https://github.com/scaleway/scaleway-form/issues/391)) ([cacbcf1](https://github.com/scaleway/scaleway-form/commit/cacbcf1df2372c8709425977e44cd320dbe42253))
+* **devdeps:** update jest monorepo to v28.1.2 ([#389](https://github.com/scaleway/scaleway-form/issues/389)) ([b649bab](https://github.com/scaleway/scaleway-form/commit/b649babab69021a751bc5cd04c15b8fb1f68b055))
+* **devdeps:** update node.js to v18.5 ([#393](https://github.com/scaleway/scaleway-form/issues/393)) ([f168eb7](https://github.com/scaleway/scaleway-form/commit/f168eb793f53f5cc8ec201f0cada91eaff1096c4))
+* **devdeps:** update pnpm to v7.5.0 ([#394](https://github.com/scaleway/scaleway-form/issues/394)) ([6b4cf0d](https://github.com/scaleway/scaleway-form/commit/6b4cf0d701d536e807db5ad90f4f1e9a69c8c18f))
+
+
+### :bug: Bug Fixes
+
+* **rich-select:** find options in groups options ([#384](https://github.com/scaleway/scaleway-form/issues/384)) ([385c08a](https://github.com/scaleway/scaleway-form/commit/385c08aaf85637c76682efa1c95ab322fb1df6d4))
+
+## [1.20.3](https://github.com/scaleway/scaleway-form/compare/v1.20.2...v1.20.3) (2022-07-06)
+
+## [1.20.2](https://github.com/scaleway/scaleway-form/compare/v1.20.1...v1.20.2) (2022-07-06)
+
+
+### :bug: Bug Fixes
+
+* **types:** export default type from final-form and custom types ([#379](https://github.com/scaleway/scaleway-form/issues/379)) ([4c64d70](https://github.com/scaleway/scaleway-form/commit/4c64d70dbd1294aa57fb63f6960bf8eacda46124))
+
+## [1.20.1](https://github.com/scaleway/scaleway-form/compare/v1.20.0...v1.20.1) (2022-07-06)
+
+
+### :bug: Bug Fixes
+
+* disable submit button while validation is loading ([#378](https://github.com/scaleway/scaleway-form/issues/378)) ([7af7f3c](https://github.com/scaleway/scaleway-form/commit/7af7f3cb4e0dcc74bfa3d01c2d54028afc97a209))
+
+## [1.20.0](https://github.com/scaleway/scaleway-form/compare/v1.19.0...v1.20.0) (2022-07-04)
+
+
+### :repeat: CI
+
+* correct storybook deployment ([1e8d490](https://github.com/scaleway/scaleway-form/commit/1e8d49078f3c325a8be6f6456a2577b5b8c900e2))
+
+
+### :gear: Features
+
+* **submit:** add somes props to submit and export helpers validators ([#376](https://github.com/scaleway/scaleway-form/issues/376)) ([e9efe44](https://github.com/scaleway/scaleway-form/commit/e9efe4496ddfe8458c559ae365bfa20ca02bc7ac))
+
+## [1.19.0](https://github.com/scaleway/scaleway-form/compare/v1.18.1...v1.19.0) (2022-07-04)
+
+
+### :gear: Features
+
+* revert to react 17 ([a52ce4b](https://github.com/scaleway/scaleway-form/commit/a52ce4b6d23e6274474a50dd8fe1ba944973e646))
+
+## [1.18.1](https://github.com/scaleway/scaleway-form/compare/v1.18.0...v1.18.1) (2022-07-04)
+
+
+### :package: Chore
+
+* **devDeps:** update babel monorepo to v7.18.6 ([#373](https://github.com/scaleway/scaleway-form/issues/373)) ([2f14301](https://github.com/scaleway/scaleway-form/commit/2f14301a8497c8097fd01e4c27a88a35470d09b8))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.40 ([#374](https://github.com/scaleway/scaleway-form/issues/374)) ([9f6292e](https://github.com/scaleway/scaleway-form/commit/9f6292e1ba84a1f0fcdc322690701de53f63606f))
+
+
+### :bug: Bug Fixes
+
+* **texbox:** add generated props and tests ([#377](https://github.com/scaleway/scaleway-form/issues/377)) ([6dda1c1](https://github.com/scaleway/scaleway-form/commit/6dda1c14a9d5340dd033bf2afe25965b54559dbe))
+
+## [1.18.0](https://github.com/scaleway/scaleway-form/compare/v1.17.5...v1.18.0) (2022-06-27)
+
+
+### :gear: Features
+
+* update react monorepo to v18 (major) ([#175](https://github.com/scaleway/scaleway-form/issues/175)) ([87abcec](https://github.com/scaleway/scaleway-form/commit/87abcec5d77251da6305e714beb9254ed19585c1))
+
+## [1.17.5](https://github.com/scaleway/scaleway-form/compare/v1.17.4...v1.17.5) (2022-06-27)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.163.1 ([#362](https://github.com/scaleway/scaleway-form/issues/362)) ([49b02e3](https://github.com/scaleway/scaleway-form/commit/49b02e3a21873b3f332fa48004435636f10b6278))
+* **devdeps:** update bobheadxi/deployments action to v1.3.0 ([#360](https://github.com/scaleway/scaleway-form/issues/360)) ([44a051b](https://github.com/scaleway/scaleway-form/commit/44a051bdc3a6dd7b4bb42f79835a5985146f1099))
+* **devdeps:** update commitlint monorepo to v17.0.3 ([#368](https://github.com/scaleway/scaleway-form/issues/368)) ([3e44c6b](https://github.com/scaleway/scaleway-form/commit/3e44c6b261393e914d7a0488a3ac50bcb2b13b42))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.39 ([#364](https://github.com/scaleway/scaleway-form/issues/364)) ([fcf127e](https://github.com/scaleway/scaleway-form/commit/fcf127e884dd2f3e3abcdd9979c4d6d39a426c74))
+* **devdeps:** update dependency @testing-library/dom to v8.14.0 ([#366](https://github.com/scaleway/scaleway-form/issues/366)) ([6fcd90d](https://github.com/scaleway/scaleway-form/commit/6fcd90d1bcde0c5f6b5b284892bc28c3a68cff97))
+* **devdeps:** update dependency eslint to v8.18.0 ([#361](https://github.com/scaleway/scaleway-form/issues/361)) ([01ef547](https://github.com/scaleway/scaleway-form/commit/01ef547399cd3ecce0081242c006459e903b4fc9))
+* **devDeps:** update dependency jest-junit to v14 ([#365](https://github.com/scaleway/scaleway-form/issues/365)) ([627fd0b](https://github.com/scaleway/scaleway-form/commit/627fd0b2e8e56fa8f35c9fc1d09a00935dd0cb3d))
+* **devdeps:** update dependency lint-staged to v13.0.3 ([#367](https://github.com/scaleway/scaleway-form/issues/367)) ([b5ac930](https://github.com/scaleway/scaleway-form/commit/b5ac930e046193593626627eae9c83ee32547de6))
+* **devdeps:** update pnpm to v7.3.0 ([#363](https://github.com/scaleway/scaleway-form/issues/363)) ([3a25d58](https://github.com/scaleway/scaleway-form/commit/3a25d58dbde87cd11037084295c6bf81c05ade13))
+
+## [1.17.4](https://github.com/scaleway/scaleway-form/compare/v1.17.3...v1.17.4) (2022-06-23)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.161.5 ([#348](https://github.com/scaleway/scaleway-form/issues/348)) ([44502c3](https://github.com/scaleway/scaleway-form/commit/44502c3cb941d092bbfbca4595592cafdcf097dd))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.34 ([#347](https://github.com/scaleway/scaleway-form/issues/347)) ([da0b1c8](https://github.com/scaleway/scaleway-form/commit/da0b1c88d7cf6db7ac28767d0a30b189c28d70e0))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.36 ([#355](https://github.com/scaleway/scaleway-form/issues/355)) ([fb0c5de](https://github.com/scaleway/scaleway-form/commit/fb0c5debd8be367d07b038f9701cbd7fffc22aac))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.37 ([#357](https://github.com/scaleway/scaleway-form/issues/357)) ([cba525c](https://github.com/scaleway/scaleway-form/commit/cba525c519de829bc46ca926a575405d15d045c7))
+* **devdeps:** update dependency @testing-library/react-hooks to v8.0.1 ([#354](https://github.com/scaleway/scaleway-form/issues/354)) ([bf86175](https://github.com/scaleway/scaleway-form/commit/bf861754f92aa425657a1b855a55b2300cb79fac))
+* **devdeps:** update dependency @testing-library/user-event to v14.2.1 ([#352](https://github.com/scaleway/scaleway-form/issues/352)) ([43c47a4](https://github.com/scaleway/scaleway-form/commit/43c47a464ca0726ae993d6d38a24d2c62bc85d51))
+* **devdeps:** update dependency @types/react to v17.0.47 ([#350](https://github.com/scaleway/scaleway-form/issues/350)) ([0a7f73d](https://github.com/scaleway/scaleway-form/commit/0a7f73d4fab0a1fb050b46f99a793f2da90ca9b5))
+* **devdeps:** update dependency eslint-plugin-mdx to v2 ([#356](https://github.com/scaleway/scaleway-form/issues/356)) ([0bba3e0](https://github.com/scaleway/scaleway-form/commit/0bba3e0b3b57e4d6ef8a592df3841854ddf80762))
+* **devdeps:** update dependency lint-staged to v13.0.2 ([#351](https://github.com/scaleway/scaleway-form/issues/351)) ([9fc8118](https://github.com/scaleway/scaleway-form/commit/9fc8118244006b034efc7616c0dd6e9c4ecfee20))
+* **devdeps:** update dependency prettier to v2.7.1 ([#358](https://github.com/scaleway/scaleway-form/issues/358)) ([fb94a01](https://github.com/scaleway/scaleway-form/commit/fb94a01729619f345136d4a72f2656f2441f5643))
+* **devdeps:** update dependency rollup to v2.75.7 ([#359](https://github.com/scaleway/scaleway-form/issues/359)) ([f471795](https://github.com/scaleway/scaleway-form/commit/f47179587bf572072120379faad1159a41fec5a6))
+* **devdeps:** update dependency typescript to v4.7.4 ([#353](https://github.com/scaleway/scaleway-form/issues/353)) ([a8aa602](https://github.com/scaleway/scaleway-form/commit/a8aa602e687b2e5319d48c444e32352be3ee8b40))
+* **devdeps:** update node.js to v18.4 ([#349](https://github.com/scaleway/scaleway-form/issues/349)) ([de85635](https://github.com/scaleway/scaleway-form/commit/de85635a612532d75e74375a9067fe116bea4acd))
+
+## [1.17.3](https://github.com/scaleway/scaleway-form/compare/v1.17.2...v1.17.3) (2022-06-16)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.158.0 ([#343](https://github.com/scaleway/scaleway-form/issues/343)) ([ceefe19](https://github.com/scaleway/scaleway-form/commit/ceefe19031500298629cc0b6e0b13ef26c1c6d93))
+
+## [1.17.2](https://github.com/scaleway/scaleway-form/compare/v1.17.1...v1.17.2) (2022-06-16)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo to v7.18.5 ([#344](https://github.com/scaleway/scaleway-form/issues/344)) ([1b2c9c2](https://github.com/scaleway/scaleway-form/commit/1b2c9c2bfb5eb85a80dbdade9c8ca7e3825a48c3))
+* **devdeps:** update pnpm to v7.2.1 ([#346](https://github.com/scaleway/scaleway-form/issues/346)) ([b266de2](https://github.com/scaleway/scaleway-form/commit/b266de2de2e210938b14033f2434bb0f170f04b0))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update emotion monorepo, scaleway-ui and jest-helpers ([#342](https://github.com/scaleway/scaleway-form/issues/342)) ([ffb4783](https://github.com/scaleway/scaleway-form/commit/ffb4783fc70d505ef61f2ce15e2a2e0904a5e798))
+
+## [1.17.1](https://github.com/scaleway/scaleway-form/compare/v1.17.0...v1.17.1) (2022-06-13)
+
+
+### :repeat: CI
+
+* use serve instead of http-server ([#339](https://github.com/scaleway/scaleway-form/issues/339)) ([b641e46](https://github.com/scaleway/scaleway-form/commit/b641e462cfb1e50679983744eb7f711019251bca))
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.156.1 ([#337](https://github.com/scaleway/scaleway-form/issues/337)) ([0b9324b](https://github.com/scaleway/scaleway-form/commit/0b9324b598d9cb88ae4e0eea6f2431dc36b653e9))
+* **devdeps:** update dependency lint-staged to v13.0.1 ([#340](https://github.com/scaleway/scaleway-form/issues/340)) ([89b2cdb](https://github.com/scaleway/scaleway-form/commit/89b2cdbbe12b1eec0ce9d2283b59212afd3ada77))
+* **devdeps:** update dependency semantic-release to v19.0.3 [security] ([#341](https://github.com/scaleway/scaleway-form/issues/341)) ([7f4573e](https://github.com/scaleway/scaleway-form/commit/7f4573e0a8305df5678cffdce6b1b0ed1d484ca4))
+
+## [1.17.0](https://github.com/scaleway/scaleway-form/compare/v1.16.3...v1.17.0) (2022-06-09)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.33 ([#336](https://github.com/scaleway/scaleway-form/issues/336)) ([180359d](https://github.com/scaleway/scaleway-form/commit/180359dd711bb4ad6c33a1a75d8f8b6dacdb3e0a))
+
+
+### :gear: Features
+
+* **deps:** stepper to SelectNumber ([#338](https://github.com/scaleway/scaleway-form/issues/338)) ([1a06b7a](https://github.com/scaleway/scaleway-form/commit/1a06b7a89109163a77b104dc7ad7243c82cbfa9a))
+
+## [1.16.3](https://github.com/scaleway/scaleway-form/compare/v1.16.2...v1.16.3) (2022-06-09)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.155.0 ([#321](https://github.com/scaleway/scaleway-form/issues/321)) ([e305fb2](https://github.com/scaleway/scaleway-form/commit/e305fb27b7e6a52d4360374a3ca6d76be2246a40))
+* **devdeps:** update actions/cache action to v3.0.4 ([#332](https://github.com/scaleway/scaleway-form/issues/332)) ([3256a67](https://github.com/scaleway/scaleway-form/commit/3256a6779e174dd5f37d2ea518a4572107837db2))
+* **devdeps:** update actions/setup-node action to v3.3.0 ([#328](https://github.com/scaleway/scaleway-form/issues/328)) ([1a5f255](https://github.com/scaleway/scaleway-form/commit/1a5f25559dbdcb249ff958eaf7eec8bec9019fef))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.32 ([#330](https://github.com/scaleway/scaleway-form/issues/330)) ([8724e8d](https://github.com/scaleway/scaleway-form/commit/8724e8dc5eaa5ce494acfa71333c8c34398ddc3e))
+* **devdeps:** update dependency eslint to v8.17.0 ([#335](https://github.com/scaleway/scaleway-form/issues/335)) ([4e0286e](https://github.com/scaleway/scaleway-form/commit/4e0286e8d463e18516c2ad9e0adc4340660517cd))
+* **devdeps:** update dependency rollup to v2.75.6 ([#329](https://github.com/scaleway/scaleway-form/issues/329)) ([cb73415](https://github.com/scaleway/scaleway-form/commit/cb734157d05a9436e81c7ca58a4bf851a78632f3))
+* **devdeps:** update dependency webpack to v5.73.0 ([#333](https://github.com/scaleway/scaleway-form/issues/333)) ([0276371](https://github.com/scaleway/scaleway-form/commit/02763714e92f035030853df700a738223daf895a))
+* **devdeps:** update jest monorepo to v28.1.1 ([#334](https://github.com/scaleway/scaleway-form/issues/334)) ([f47b221](https://github.com/scaleway/scaleway-form/commit/f47b221b3d2846f5d9d9ea0b0e3396295be19b0d))
+* **devdeps:** update node.js to v18.3 ([#331](https://github.com/scaleway/scaleway-form/issues/331)) ([47a77e9](https://github.com/scaleway/scaleway-form/commit/47a77e90f84836a438805f16c50c87c5ef1f1169))
+
+## [1.16.2](https://github.com/scaleway/scaleway-form/compare/v1.16.1...v1.16.2) (2022-06-06)
+
+
+### :package: Chore
+
+* **devdeps:** update commitlint monorepo to v17.0.2 ([#322](https://github.com/scaleway/scaleway-form/issues/322)) ([820f0f2](https://github.com/scaleway/scaleway-form/commit/820f0f2e7722fc01a3e9024b6988f2be11e71b0d))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.31 ([#327](https://github.com/scaleway/scaleway-form/issues/327)) ([948e411](https://github.com/scaleway/scaleway-form/commit/948e41161e1e90245e6b396008f5f57002e44b0d))
+* **devdeps:** update dependency typescript to v4.7.3 ([#325](https://github.com/scaleway/scaleway-form/issues/325)) ([628cfd0](https://github.com/scaleway/scaleway-form/commit/628cfd0a6b432acbb2a25c4497e5b1f1c551cad3))
+* **devdeps:** update pnpm to v7.1.9 ([#326](https://github.com/scaleway/scaleway-form/issues/326)) ([3af7d06](https://github.com/scaleway/scaleway-form/commit/3af7d06a89f975081fb1d4e41f1236468857ceb9))
+
+
+### :bug: Bug Fixes
+
+* migration to updated Radio from scw-ui ([#323](https://github.com/scaleway/scaleway-form/issues/323)) ([9516fa4](https://github.com/scaleway/scaleway-form/commit/9516fa40aba89de562839912667234592ada5474))
+
+### [1.16.1](https://github.com/scaleway/scaleway-form/compare/v1.16.0...v1.16.1) (2022-06-01)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.153.1 ([#319](https://github.com/scaleway/scaleway-form/issues/319)) ([ad78d1c](https://github.com/scaleway/scaleway-form/commit/ad78d1c7435712a1367e47b4bd481529528f1ef7))
+* **devdeps:** update dependency lint-staged to v13 ([#320](https://github.com/scaleway/scaleway-form/issues/320)) ([13b009b](https://github.com/scaleway/scaleway-form/commit/13b009b9965f13a6bb506630121a8c3810621ab2))
+
+## [1.16.0](https://github.com/scaleway/scaleway-form/compare/v1.15.23...v1.16.0) (2022-05-31)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency lint-staged to v12.4.3 ([#316](https://github.com/scaleway/scaleway-form/issues/316)) ([215e2bb](https://github.com/scaleway/scaleway-form/commit/215e2bb28d1be76c349bafe3750fcceada4589af))
+
+
+### :gear: Features
+
+* **textbox:** add random ([#318](https://github.com/scaleway/scaleway-form/issues/318)) ([b94d684](https://github.com/scaleway/scaleway-form/commit/b94d6848ec6f27ea337a12f34dea07b6e953c547))
+
+### [1.15.23](https://github.com/scaleway/scaleway-form/compare/v1.15.22...v1.15.23) (2022-05-31)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.153.0 ([#317](https://github.com/scaleway/scaleway-form/issues/317)) ([e9b33c9](https://github.com/scaleway/scaleway-form/commit/e9b33c96cb726fcb56c9d0a032c44c1a7da3a33b))
+* **devdeps:** update actions/cache action to v3.0.3 ([#314](https://github.com/scaleway/scaleway-form/issues/314)) ([887398e](https://github.com/scaleway/scaleway-form/commit/887398eec8f6b85ee3bf7f8b75cbbe1a7acbfd47))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.30 ([#315](https://github.com/scaleway/scaleway-form/issues/315)) ([25e7103](https://github.com/scaleway/scaleway-form/commit/25e71038be21f4270c3da464a6ce5d5003571274))
+
+### [1.15.22](https://github.com/scaleway/scaleway-form/compare/v1.15.21...v1.15.22) (2022-05-30)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency typescript to v4.7.2 ([#312](https://github.com/scaleway/scaleway-form/issues/312)) ([8f9169e](https://github.com/scaleway/scaleway-form/commit/8f9169e1c11c4e137236f4d724ec7689899df157))
+* **devdeps:** update pnpm to v7.1.7 ([#310](https://github.com/scaleway/scaleway-form/issues/310)) ([9ef3fda](https://github.com/scaleway/scaleway-form/commit/9ef3fda7cc35ddb7b1cd46bd614f5ea5240c529b))
+
+
+### :bug: Bug Fixes
+
+* 🐛 send disabled prop to scw-ui and modify onChange order ([#313](https://github.com/scaleway/scaleway-form/issues/313)) ([f2d6046](https://github.com/scaleway/scaleway-form/commit/f2d6046b1007d306b50cf7ea7876a3c0ef005b3e))
+
+### [1.15.21](https://github.com/scaleway/scaleway-form/compare/v1.15.20...v1.15.21) (2022-05-29)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo ([#303](https://github.com/scaleway/scaleway-form/issues/303)) ([90c295e](https://github.com/scaleway/scaleway-form/commit/90c295e566ee7c5c9863b55dd4b05e17e90f50e4))
+* **devdeps:** update dependency @commitlint/cli to v17.0.1 ([#307](https://github.com/scaleway/scaleway-form/issues/307)) ([023ee87](https://github.com/scaleway/scaleway-form/commit/023ee873b34fb11b2f6672087f3e91c1c80a9baf))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.28 ([#305](https://github.com/scaleway/scaleway-form/issues/305)) ([78e830b](https://github.com/scaleway/scaleway-form/commit/78e830b2553edc14d6ee67125dfc84932b6ff5b8))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.29 ([#309](https://github.com/scaleway/scaleway-form/issues/309)) ([8e9b6a3](https://github.com/scaleway/scaleway-form/commit/8e9b6a35edace8347b0d2c6ce1d068d16ec8c9e2))
+* **devdeps:** update dependency eslint to v8.16.0 ([#306](https://github.com/scaleway/scaleway-form/issues/306)) ([087bcc6](https://github.com/scaleway/scaleway-form/commit/087bcc6a45736ba7a469baee1cf8045cd04da1b3))
+* **devdeps:** update dependency lint-staged to v12.4.2 ([#304](https://github.com/scaleway/scaleway-form/issues/304)) ([300027c](https://github.com/scaleway/scaleway-form/commit/300027ce09894a5b33b73f6da0820923073a8553))
+* **devdeps:** update dependency rollup to v2.74.1 ([#301](https://github.com/scaleway/scaleway-form/issues/301)) ([5f51ea4](https://github.com/scaleway/scaleway-form/commit/5f51ea4b2a41050328689b13dcc8c3d9dd6a6bf8))
+* **devdeps:** update dependency rollup-plugin-dts to v4.2.2 ([#308](https://github.com/scaleway/scaleway-form/issues/308)) ([107c195](https://github.com/scaleway/scaleway-form/commit/107c195561539ed0ce23d1c7dfab088e34249a4d))
+* **devdeps:** update pnpm to v7.1.5 ([#302](https://github.com/scaleway/scaleway-form/issues/302)) ([92385ee](https://github.com/scaleway/scaleway-form/commit/92385eeec25fcdbc075f49ac3364459e4f17977b))
+* **devdeps:** update pnpm/action-setup action to v2.2.2 ([#311](https://github.com/scaleway/scaleway-form/issues/311)) ([d865c78](https://github.com/scaleway/scaleway-form/commit/d865c780b35b08ce39e53ff7e53a563dfefa88ef))
+
+
+### :bug: Bug Fixes
+
+* **props:** missing props on Text & RichSelect ([#297](https://github.com/scaleway/scaleway-form/issues/297)) ([cc22e25](https://github.com/scaleway/scaleway-form/commit/cc22e25fb024e64d88d269486a68b3cd9d396413))
+
+### [1.15.20](https://github.com/scaleway/scaleway-form/compare/v1.15.19...v1.15.20) (2022-05-24)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.152.2 ([#293](https://github.com/scaleway/scaleway-form/issues/293)) ([8a52ec9](https://github.com/scaleway/scaleway-form/commit/8a52ec99f82e06d0efbae9dea2522d0416c75632))
+* **devdeps:** update babel monorepo ([#294](https://github.com/scaleway/scaleway-form/issues/294)) ([e1bbb06](https://github.com/scaleway/scaleway-form/commit/e1bbb062cab208731df8622422be43f6946c80e3))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.25 ([#295](https://github.com/scaleway/scaleway-form/issues/295)) ([2725562](https://github.com/scaleway/scaleway-form/commit/272556235f4e48ce3ae52da7519dda6fd9d71941))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.26 ([#298](https://github.com/scaleway/scaleway-form/issues/298)) ([92224bd](https://github.com/scaleway/scaleway-form/commit/92224bdd33cd6ae52d0d21f13c04a1379bc08d9f))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.27 ([#300](https://github.com/scaleway/scaleway-form/issues/300)) ([69e2727](https://github.com/scaleway/scaleway-form/commit/69e2727e7099ef704485ee87cab0726fe48baec0))
+* **devdeps:** update node.js to v18.2 ([#292](https://github.com/scaleway/scaleway-form/issues/292)) ([3baf973](https://github.com/scaleway/scaleway-form/commit/3baf9730495eed8d9ffebca8e34c5763754ebe6a))
+* **devdeps:** update pnpm to v7.1.2 ([#296](https://github.com/scaleway/scaleway-form/issues/296)) ([73e8b7a](https://github.com/scaleway/scaleway-form/commit/73e8b7a9bf4b8a8ef8f92969bcdfc19440c802c9))
+* **devdeps:** update pnpm to v7.1.3 ([#299](https://github.com/scaleway/scaleway-form/issues/299)) ([1608a76](https://github.com/scaleway/scaleway-form/commit/1608a76b18d27cfdf1c2fcc0c86971dc529eb897))
+
+### [1.15.19](https://github.com/scaleway/scaleway-form/compare/v1.15.18...v1.15.19) (2022-05-18)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.151.2 ([#290](https://github.com/scaleway/scaleway-form/issues/290)) ([e0faa82](https://github.com/scaleway/scaleway-form/commit/e0faa82f7dd95952badb1bb132cf84df28572eb3))
+
+### [1.15.18](https://github.com/scaleway/scaleway-form/compare/v1.15.17...v1.15.18) (2022-05-18)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.151.1 ([#281](https://github.com/scaleway/scaleway-form/issues/281)) ([92b0c65](https://github.com/scaleway/scaleway-form/commit/92b0c65b3cde774904e4c91bb5c8d1b9ccea390f))
+* **devdeps:** update dependency @testing-library/user-event to v14.2.0 ([#287](https://github.com/scaleway/scaleway-form/issues/287)) ([94802c6](https://github.com/scaleway/scaleway-form/commit/94802c64dc617422ce42a622b02ee8e929a5775b))
+
+### [1.15.17](https://github.com/scaleway/scaleway-form/compare/v1.15.16...v1.15.17) (2022-05-18)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/setup-node action to v3.2.0 ([#285](https://github.com/scaleway/scaleway-form/issues/285)) ([0d43b1d](https://github.com/scaleway/scaleway-form/commit/0d43b1df85cfed81d664f390e8e560ec14263fb0))
+* **devdeps:** update commitlint monorepo to v17 ([#286](https://github.com/scaleway/scaleway-form/issues/286)) ([b8fcf43](https://github.com/scaleway/scaleway-form/commit/b8fcf43af058eab8170b989f8f942131450769a3))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.24 ([#280](https://github.com/scaleway/scaleway-form/issues/280)) ([ce7398b](https://github.com/scaleway/scaleway-form/commit/ce7398bfe86f0843b0bc8225855c2ba548063865))
+* **devdeps:** update dependency @types/react-dom to v17.0.17 ([#284](https://github.com/scaleway/scaleway-form/issues/284)) ([6ee480d](https://github.com/scaleway/scaleway-form/commit/6ee480d231cbf953fdf35f233c0ae2ac41dee28b))
+* **devdeps:** update dependency eslint to v8.15.0 ([#282](https://github.com/scaleway/scaleway-form/issues/282)) ([6beb826](https://github.com/scaleway/scaleway-form/commit/6beb826e72cae86ea47c229a50537f125a5ecad0))
+* **devdeps:** update dependency rollup to v2.73.0 ([#283](https://github.com/scaleway/scaleway-form/issues/283)) ([54173ad](https://github.com/scaleway/scaleway-form/commit/54173ad0f272b12313d2e0cac1e9e255e16673af))
+* **devdeps:** update dependency webpack to v5.72.1 ([#278](https://github.com/scaleway/scaleway-form/issues/278)) ([322f7ca](https://github.com/scaleway/scaleway-form/commit/322f7ca2ea8e4fdf05a63f1094de4f690729b2dd))
+* **devdeps:** update jest monorepo to v28.1.0 ([#279](https://github.com/scaleway/scaleway-form/issues/279)) ([0813452](https://github.com/scaleway/scaleway-form/commit/081345256b4ef6545e8425a6d1c461d79e59c4a9))
+* **devdeps:** update pnpm to v7.1.1 ([#288](https://github.com/scaleway/scaleway-form/issues/288)) ([460ea20](https://github.com/scaleway/scaleway-form/commit/460ea20bba3590e52b8cab99572d9195e8a5c997))
+
+
+### :bug: Bug Fixes
+
+* **rich-select:** add isLoading type props ([#289](https://github.com/scaleway/scaleway-form/issues/289)) ([b30e83f](https://github.com/scaleway/scaleway-form/commit/b30e83f9c76e1673960cd18a23b404da204b00b4))
+
+### [1.15.16](https://github.com/scaleway/scaleway-form/compare/v1.15.15...v1.15.16) (2022-05-11)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.148.0 ([#273](https://github.com/scaleway/scaleway-form/issues/273)) ([9ac1043](https://github.com/scaleway/scaleway-form/commit/9ac104331675f7da2a701ba5522fa7ae57c4a91a))
+* **devdeps:** update bobheadxi/deployments action to v1.2.0 ([#272](https://github.com/scaleway/scaleway-form/issues/272)) ([029dc86](https://github.com/scaleway/scaleway-form/commit/029dc86891b2034729c708fba3874a21bf3c0a1c))
+
+### [1.15.15](https://github.com/scaleway/scaleway-form/compare/v1.15.14...v1.15.15) (2022-05-10)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.147.5 ([#270](https://github.com/scaleway/scaleway-form/issues/270)) ([0cf3e84](https://github.com/scaleway/scaleway-form/commit/0cf3e84a8c881248b51fef6d22b07506279ede7c))
+* **devdeps:** update codecov/codecov-action action to v3.1.0 ([#271](https://github.com/scaleway/scaleway-form/issues/271)) ([a878a64](https://github.com/scaleway/scaleway-form/commit/a878a6494635c40e8aa98b7fe2ae492458ec94ea))
+
+### [1.15.14](https://github.com/scaleway/scaleway-form/compare/v1.15.13...v1.15.14) (2022-05-10)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.147.3 ([#252](https://github.com/scaleway/scaleway-form/issues/252)) ([5785142](https://github.com/scaleway/scaleway-form/commit/578514203037b6093c27c1753396df13a10e0d12))
+* **devdeps:** update babel monorepo to v7.17.10 ([#259](https://github.com/scaleway/scaleway-form/issues/259)) ([90eb4ee](https://github.com/scaleway/scaleway-form/commit/90eb4ee5b078a75373e17872dfa8bdf300fcddb8))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.3.0 ([#263](https://github.com/scaleway/scaleway-form/issues/263)) ([973fd8e](https://github.com/scaleway/scaleway-form/commit/973fd8ee992bb654d30c10779e14961c17f8fb83))
+* **devdeps:** update dependency @rollup/plugin-url to v7 ([#247](https://github.com/scaleway/scaleway-form/issues/247)) ([47ca7ac](https://github.com/scaleway/scaleway-form/commit/47ca7acab812ec74074e6f9cca31e74c3c8ea2aa))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.20 ([#253](https://github.com/scaleway/scaleway-form/issues/253)) ([133be89](https://github.com/scaleway/scaleway-form/commit/133be8990799afdab95aa058255cd60b57e79b1d))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.21 ([#255](https://github.com/scaleway/scaleway-form/issues/255)) ([bb6f0f5](https://github.com/scaleway/scaleway-form/commit/bb6f0f5887f45b0fd6a54c37e8c8abba67a0db59))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.22 ([#267](https://github.com/scaleway/scaleway-form/issues/267)) ([29507db](https://github.com/scaleway/scaleway-form/commit/29507dbfef232a35fbeede29f8267f7d89caf532))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.23 ([#268](https://github.com/scaleway/scaleway-form/issues/268)) ([f68183c](https://github.com/scaleway/scaleway-form/commit/f68183c759aebe339861bb92a83d1fe4116f3b22))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.2.6 ([#256](https://github.com/scaleway/scaleway-form/issues/256)) ([138bbea](https://github.com/scaleway/scaleway-form/commit/138bbeab32f6758b7ae08959567afaba99d3f407))
+* **devdeps:** update dependency @types/react to v17.0.45 ([#264](https://github.com/scaleway/scaleway-form/issues/264)) ([22bfd66](https://github.com/scaleway/scaleway-form/commit/22bfd66bfb4413094dc3bacce1e2ba5afb12838e))
+* **devdeps:** update dependency @types/react-dom to v17.0.16 ([#258](https://github.com/scaleway/scaleway-form/issues/258)) ([d34da3a](https://github.com/scaleway/scaleway-form/commit/d34da3a37b88713c1f94a9313fb7490eac965cb5))
+* **devdeps:** update dependency @types/react-dom to v18.0.3 ([#248](https://github.com/scaleway/scaleway-form/issues/248)) ([8e41e87](https://github.com/scaleway/scaleway-form/commit/8e41e8706c1a382e45d83674aa8bb389fba71ad3))
+* **devdeps:** update dependency husky to v8 ([#266](https://github.com/scaleway/scaleway-form/issues/266)) ([fdee4d3](https://github.com/scaleway/scaleway-form/commit/fdee4d391cab39bcaae3b845c9906151092436a0))
+* **devdeps:** update dependency jest to v28.0.3 ([#250](https://github.com/scaleway/scaleway-form/issues/250)) ([88cfe91](https://github.com/scaleway/scaleway-form/commit/88cfe9134b7f859d163f80c14612572f670ecd12))
+* **devdeps:** update dependency typescript to v4.6.4 ([#249](https://github.com/scaleway/scaleway-form/issues/249)) ([5753375](https://github.com/scaleway/scaleway-form/commit/5753375eb9cdb835a92b9f68499523cb818b4c7b))
+* **devdeps:** update docker/build-push-action action to v3 ([#260](https://github.com/scaleway/scaleway-form/issues/260)) ([b842e29](https://github.com/scaleway/scaleway-form/commit/b842e2960f085b3e85d01aace462dc538531dd57))
+* **devdeps:** update docker/login-action action to v2 ([#261](https://github.com/scaleway/scaleway-form/issues/261)) ([4931916](https://github.com/scaleway/scaleway-form/commit/49319164db750751ca5d0f2466590ad75c7b827f))
+* **devdeps:** update docker/setup-buildx-action action to v2 ([#262](https://github.com/scaleway/scaleway-form/issues/262)) ([90a3fb5](https://github.com/scaleway/scaleway-form/commit/90a3fb57593ad4d8aecd717c0f82f7f5d5d6d3d7))
+* **devdeps:** update node.js to v18.1 ([#254](https://github.com/scaleway/scaleway-form/issues/254)) ([b7303d3](https://github.com/scaleway/scaleway-form/commit/b7303d370ccdbdd768c90fe07ef1a2ef75118c76))
+* **devdeps:** update pnpm to v7 ([#251](https://github.com/scaleway/scaleway-form/issues/251)) ([e5ca476](https://github.com/scaleway/scaleway-form/commit/e5ca476da2e243403be2362d2c7bfc40aab91687))
+* **devdeps:** update pnpm to v7.0.1 ([#265](https://github.com/scaleway/scaleway-form/issues/265)) ([24cc9a6](https://github.com/scaleway/scaleway-form/commit/24cc9a66e6fb23b5d21b76c6300733bd9016be02))
+
+### [1.15.13](https://github.com/scaleway/scaleway-form/compare/v1.15.12...v1.15.13) (2022-04-29)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.145.4 ([#246](https://github.com/scaleway/scaleway-form/issues/246)) ([1f3fda3](https://github.com/scaleway/scaleway-form/commit/1f3fda3b37d722a4e14ffb949b3ce49a96616bf8))
+* **devdeps:** update dependency @testing-library/user-event to v14 ([#174](https://github.com/scaleway/scaleway-form/issues/174)) ([bbf4eae](https://github.com/scaleway/scaleway-form/commit/bbf4eaeba446dda74645bb9951bd2eafb66f40a1))
+
+### [1.15.12](https://github.com/scaleway/scaleway-form/compare/v1.15.11...v1.15.12) (2022-04-29)
+
+
+### :package: Chore
+
+* **deps:** update dependency final-form to v4.20.7 ([#239](https://github.com/scaleway/scaleway-form/issues/239)) ([5ac1a2f](https://github.com/scaleway/scaleway-form/commit/5ac1a2fa58f5df660a4c757e9c48ed9a4b2301cb))
+
+### [1.15.11](https://github.com/scaleway/scaleway-form/compare/v1.15.10...v1.15.11) (2022-04-29)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.145.3 ([#233](https://github.com/scaleway/scaleway-form/issues/233)) ([7d43ed5](https://github.com/scaleway/scaleway-form/commit/7d43ed5bedebc89a0c5f6b9e3040bf354554d39e))
+* **devdeps:** update commitlint monorepo to v16.2.4 ([#245](https://github.com/scaleway/scaleway-form/issues/245)) ([5646ac1](https://github.com/scaleway/scaleway-form/commit/5646ac10e0aa8664870cb6b136d50ebee5ac70b0))
+
+### [1.15.10](https://github.com/scaleway/scaleway-form/compare/v1.15.9...v1.15.10) (2022-04-28)
+
+
+### :package: Chore
+
+* **deps:** pin dependency jest-environment-jsdom to 28.0.2 ([#244](https://github.com/scaleway/scaleway-form/issues/244)) ([5fae70c](https://github.com/scaleway/scaleway-form/commit/5fae70ca79bf7fb1a444f3b2b7b59eee6f00b859))
+* **devdeps:** update actions/checkout action to v3.0.2 ([#230](https://github.com/scaleway/scaleway-form/issues/230)) ([860e403](https://github.com/scaleway/scaleway-form/commit/860e40335c45a3b60823f321f34cd6d996fe064c))
+* **devdeps:** update codecov/codecov-action action to v3.1.0 ([#231](https://github.com/scaleway/scaleway-form/issues/231)) ([5f61bed](https://github.com/scaleway/scaleway-form/commit/5f61bed68e7063bdc5ee8a23c81a9263e5f64278))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.18 ([#238](https://github.com/scaleway/scaleway-form/issues/238)) ([3c2b9c6](https://github.com/scaleway/scaleway-form/commit/3c2b9c6d2aa587d3e42a87b6f8353de8e85a995f))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.19 ([#240](https://github.com/scaleway/scaleway-form/issues/240)) ([ae87f31](https://github.com/scaleway/scaleway-form/commit/ae87f3167496911afe57f05452034fd7e68ad1f6))
+* **devdeps:** update dependency @types/react-dom to v18.0.2 ([#232](https://github.com/scaleway/scaleway-form/issues/232)) ([2ee4b0b](https://github.com/scaleway/scaleway-form/commit/2ee4b0b115d31e7c45368604376cd3237fee45ee))
+* **devdeps:** update dependency babel-loader to v8.2.5 ([#227](https://github.com/scaleway/scaleway-form/issues/227)) ([ed04d15](https://github.com/scaleway/scaleway-form/commit/ed04d1584fb292a530bdd894057a55eea6ce8418))
+* **devdeps:** update dependency eslint to v8.14.0 ([#241](https://github.com/scaleway/scaleway-form/issues/241)) ([11fb7e4](https://github.com/scaleway/scaleway-form/commit/11fb7e446e2b8e04f5df26b06aaad5fc75963620))
+* **devdeps:** update dependency jest to v28 ([#234](https://github.com/scaleway/scaleway-form/issues/234)) ([06173c4](https://github.com/scaleway/scaleway-form/commit/06173c4277e8dc0ebb9fde0fa67b7bb63f868989))
+* **devdeps:** update dependency jest-junit to v13.2.0 ([#236](https://github.com/scaleway/scaleway-form/issues/236)) ([ed318d5](https://github.com/scaleway/scaleway-form/commit/ed318d54475a22ab1275d6a12da587b27900f504))
+* **devdeps:** update dependency lint-staged to v12.4.1 ([#235](https://github.com/scaleway/scaleway-form/issues/235)) ([76addf3](https://github.com/scaleway/scaleway-form/commit/76addf342288ac02edc442c00ae47b58889f157f))
+* **devdeps:** update docker/setup-buildx-action action to v1.7.0 ([#242](https://github.com/scaleway/scaleway-form/issues/242)) ([5a9f450](https://github.com/scaleway/scaleway-form/commit/5a9f45017d8424f4df448b19a4fb4a0766d2d814))
+* **devdeps:** update node.js to v18 ([#228](https://github.com/scaleway/scaleway-form/issues/228)) ([1c5fd7c](https://github.com/scaleway/scaleway-form/commit/1c5fd7c2cdcedb6bf16ce44bd19214cea5a766bb)), closes [#229](https://github.com/scaleway/scaleway-form/issues/229)
+* **devdeps:** update pnpm to v6.32.10 ([#237](https://github.com/scaleway/scaleway-form/issues/237)) ([20cdf9b](https://github.com/scaleway/scaleway-form/commit/20cdf9bc5cb0f7b6cf21bdaf1f55276fd27fd886))
+* **devdeps:** update pnpm to v6.32.11 ([#243](https://github.com/scaleway/scaleway-form/issues/243)) ([aac0ec4](https://github.com/scaleway/scaleway-form/commit/aac0ec4cc1c10e1381461b2292f8ac8331b84296))
+
+### [1.15.9](https://github.com/scaleway/scaleway-form/compare/v1.15.8...v1.15.9) (2022-04-21)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.145.0 ([#224](https://github.com/scaleway/scaleway-form/issues/224)) ([f3675f9](https://github.com/scaleway/scaleway-form/commit/f3675f9954d8fbd70bc080532c0dcd76afe1300c))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v13.2.1 ([#226](https://github.com/scaleway/scaleway-form/issues/226)) ([32f616a](https://github.com/scaleway/scaleway-form/commit/32f616a4424be35fd2229bc362275fa8a785f6f2))
+* **devdeps:** update pnpm to v6.32.9 ([#225](https://github.com/scaleway/scaleway-form/issues/225)) ([4bf6b65](https://github.com/scaleway/scaleway-form/commit/4bf6b6595154732e3837f629cd2e4820946871df))
+
+### [1.15.8](https://github.com/scaleway/scaleway-form/compare/v1.15.7...v1.15.8) (2022-04-19)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.144.4 ([#218](https://github.com/scaleway/scaleway-form/issues/218)) ([91b2093](https://github.com/scaleway/scaleway-form/commit/91b2093e3202eb0027cde68420a99568b042d324))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.17 ([#223](https://github.com/scaleway/scaleway-form/issues/223)) ([c110cc3](https://github.com/scaleway/scaleway-form/commit/c110cc3657a093e5af634c888b8de05b8bb1ab36))
+* **devdeps:** update dependency @types/react-dom to v18.0.1 ([#219](https://github.com/scaleway/scaleway-form/issues/219)) ([7d293af](https://github.com/scaleway/scaleway-form/commit/7d293afc21d607f0506f6da0bab508456e6a5738))
+* **devdeps:** update dependency lint-staged to v12.3.8 ([#220](https://github.com/scaleway/scaleway-form/issues/220)) ([cd0ffd0](https://github.com/scaleway/scaleway-form/commit/cd0ffd01ebcffbebc48680587ef6c85a145285e0))
+* **devdeps:** update dependency rollup to v2.70.2 ([#221](https://github.com/scaleway/scaleway-form/issues/221)) ([57939eb](https://github.com/scaleway/scaleway-form/commit/57939eb7d2ea9428dfcf40eda3842ab6283a7375))
+* **devdeps:** update pnpm to v6.32.8 ([#222](https://github.com/scaleway/scaleway-form/issues/222)) ([3ca377f](https://github.com/scaleway/scaleway-form/commit/3ca377f5c296e78410b4c24ff1a34aa2e2bf629b))
+
+### [1.15.7](https://github.com/scaleway/scaleway-form/compare/v1.15.6...v1.15.7) (2022-04-15)
+
+
+### :package: Chore
+
+* **deps:** update dependency @scaleway/ui to v0.144.2 ([#198](https://github.com/scaleway/scaleway-form/issues/198)) ([206cf9e](https://github.com/scaleway/scaleway-form/commit/206cf9ed6600657e684c41588a2e8aea1eb70c9e))
+* **devdeps:** update actions/cache action to v3.0.2 ([#206](https://github.com/scaleway/scaleway-form/issues/206)) ([c3414fb](https://github.com/scaleway/scaleway-form/commit/c3414fb6998ef8ce43367699f972c6bbe5867f9d))
+* **devdeps:** update actions/checkout action to v3.0.1 ([#215](https://github.com/scaleway/scaleway-form/issues/215)) ([74b8d44](https://github.com/scaleway/scaleway-form/commit/74b8d44fe33a7c2ee12c25366ee3c50886bb4b26))
+* **devdeps:** update actions/setup-node action to v3.1.1 ([#207](https://github.com/scaleway/scaleway-form/issues/207)) ([342e732](https://github.com/scaleway/scaleway-form/commit/342e7322865f71c165d1f4f173f07e6c47a3e4a4))
+* **devdeps:** update babel monorepo to v7.17.9 ([#199](https://github.com/scaleway/scaleway-form/issues/199)) ([95c956b](https://github.com/scaleway/scaleway-form/commit/95c956b4bd07e40902f1c905fb4c8ecd69c4ff61))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.16 ([#190](https://github.com/scaleway/scaleway-form/issues/190)) ([636c9ac](https://github.com/scaleway/scaleway-form/commit/636c9acde31256610b33795d2c8d4141bf005ba0))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.2.3 ([#195](https://github.com/scaleway/scaleway-form/issues/195)) ([a25d375](https://github.com/scaleway/scaleway-form/commit/a25d3750bb12d8115607b1bab68f561a881a1977))
+* **devdeps:** update dependency @scaleway/jest-helpers to v1.2.4 ([#213](https://github.com/scaleway/scaleway-form/issues/213)) ([086312d](https://github.com/scaleway/scaleway-form/commit/086312d60413b0404816bd41630cbb51589f4a19))
+* **devdeps:** update dependency @testing-library/dom to v8.13.0 ([#202](https://github.com/scaleway/scaleway-form/issues/202)) ([65365cd](https://github.com/scaleway/scaleway-form/commit/65365cd84b949c10f93665b6b801f605c51e1604))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.16.4 ([#196](https://github.com/scaleway/scaleway-form/issues/196)) ([0860ed5](https://github.com/scaleway/scaleway-form/commit/0860ed5bcf37fdc577b3add7078a9c37d14379a9))
+* **devdeps:** update dependency @testing-library/react to v12.1.5 ([#211](https://github.com/scaleway/scaleway-form/issues/211)) ([30aa57e](https://github.com/scaleway/scaleway-form/commit/30aa57ea62ee3634bea3d8c8a5237ac785c59970))
+* **devdeps:** update dependency @testing-library/react-hooks to v8 ([#208](https://github.com/scaleway/scaleway-form/issues/208)) ([7c76f82](https://github.com/scaleway/scaleway-form/commit/7c76f824ca744e808d4ea5d7efdc948d14a87528))
+* **devdeps:** update dependency @types/react-dom to v17.0.15 ([#200](https://github.com/scaleway/scaleway-form/issues/200)) ([2f4cc86](https://github.com/scaleway/scaleway-form/commit/2f4cc8661ca6be9c924fd16c416850cd13ac6216))
+* **devdeps:** update dependency @types/react-dom to v18 ([#209](https://github.com/scaleway/scaleway-form/issues/209)) ([c46af29](https://github.com/scaleway/scaleway-form/commit/c46af2902f40470fbf2a6b0f67b4fdd34bbb1fdd))
+* **devdeps:** update dependency eslint to v8.13.0 ([#214](https://github.com/scaleway/scaleway-form/issues/214)) ([675d4e5](https://github.com/scaleway/scaleway-form/commit/675d4e5e50ec09da702fe81590f8e4eb0a46fb3c))
+* **devdeps:** update dependency jest-junit to v13.1.0 ([#204](https://github.com/scaleway/scaleway-form/issues/204)) ([26cbedd](https://github.com/scaleway/scaleway-form/commit/26cbedd8fb88b10b5e548ddae1454490f2772db1))
+* **devdeps:** update dependency rollup-plugin-dts to v4.2.1 ([#201](https://github.com/scaleway/scaleway-form/issues/201)) ([fc17420](https://github.com/scaleway/scaleway-form/commit/fc17420362b608d1a73cdbde67f119144f66d6e4))
+* **devdeps:** update dependency webpack to v5.71.0 ([#197](https://github.com/scaleway/scaleway-form/issues/197)) ([c5427bc](https://github.com/scaleway/scaleway-form/commit/c5427bc1f85f64a6c759b59a6534ead105e7cca8))
+* **devdeps:** update dependency webpack to v5.72.0 ([#210](https://github.com/scaleway/scaleway-form/issues/210)) ([3d87fa3](https://github.com/scaleway/scaleway-form/commit/3d87fa3ee83d31c14465940663dd445ad7b7e734))
+* **devdeps:** update emotion monorepo ([#194](https://github.com/scaleway/scaleway-form/issues/194)) ([b073d47](https://github.com/scaleway/scaleway-form/commit/b073d47d5485fb2f08f88b8ac520ba96ad6251b5))
+* **devdeps:** update node.js to v17.9 ([#212](https://github.com/scaleway/scaleway-form/issues/212)) ([5bd3ea7](https://github.com/scaleway/scaleway-form/commit/5bd3ea71883dfa19d0d4c0f0b6afe8d89d0c3342))
+* **devdeps:** update pnpm to v6.32.6 ([#203](https://github.com/scaleway/scaleway-form/issues/203)) ([cb46a1e](https://github.com/scaleway/scaleway-form/commit/cb46a1e312c4898e6e0671b678803ac5e4eb8e5a))
+* **devdeps:** update pnpm to v6.32.7 ([#216](https://github.com/scaleway/scaleway-form/issues/216)) ([59343fa](https://github.com/scaleway/scaleway-form/commit/59343fa7aba7a5a5072308c46a81cc93228dbc1d))
+* **devdeps:** update storybook monorepo to v6.4.21 ([#205](https://github.com/scaleway/scaleway-form/issues/205)) ([b5a9e62](https://github.com/scaleway/scaleway-form/commit/b5a9e624c9099f9fdf817a7ffb067a28288d02ba))
+* **devdeps:** update storybook monorepo to v6.4.22 ([#217](https://github.com/scaleway/scaleway-form/issues/217)) ([a0f91a4](https://github.com/scaleway/scaleway-form/commit/a0f91a4baccfe0b127dd701ab740578c4a45ca4c))
+
 ### [1.15.6](https://github.com/scaleway/scaleway-form/compare/v1.15.5...v1.15.6) (2022-04-06)
 
 

@@ -2,7 +2,7 @@ name: Teardown Pull Request
 
 on:
   pull_request:
-    types: [ closed ]
+    types: [closed]
 
 jobs:
   teardown:
@@ -10,7 +10,7 @@ jobs:
     env:
       IMAGE_NAME: rg.fr-par.scw.cloud/consolescw/scaleway-form
     steps:
-      - uses: actions/checkout@v3.0.0
+      - uses: actions/checkout@v3.0.2
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v4
       - name: Export custom variables
@@ -22,15 +22,15 @@ jobs:
         uses: philibea/scaleway-containers-deploy@v1.0.7
         id: teardown
         with:
-          type: "teardown"
-          scw_dns: "form.ui.scaleway.com"
+          type: 'teardown'
+          scw_dns: 'form.ui.scaleway.com'
           scw_access_key: ${{ secrets.SCW_ACCESS_KEY }}
           scw_secret_key: ${{ secrets.SCW_SECRET_KEY }}
           scw_containers_namespace_id: ${{ secrets.SCW_CONTAINERS_NAMESPACE_ID }}
           scw_registry: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
 
       - name: Update deployment status
-        uses: bobheadxi/deployments@v1.1.0
+        uses: bobheadxi/deployments@v1.3.0
         with:
           step: delete-env
           token: ${{ secrets.GH_TOKEN }}

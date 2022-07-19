@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`StepperField should render correctly 1`] = `
+exports[`SelectNumberField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-jglfj7-StyledContainer {
+  .cache-1bk0gso {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -24,7 +24,7 @@ exports[`StepperField should render correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable {
+.cache-ydtt7i {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -43,40 +43,39 @@ exports[`StepperField should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #c4c9d6;
+  margin: 0 8px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-ydtt7i[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-ydtt7i[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-ydtt7i:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-h96kyn-sizeStyles {
+  fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
+.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zw5304 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -87,7 +86,7 @@ exports[`StepperField should render correctly 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: calc(100% - 8px);
+  height: 32px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -99,19 +98,19 @@ exports[`StepperField should render correctly 1`] = `
   justify-content: center;
   border-radius: 4px;
   border: 1px solid transparent;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zw5304:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zw5304:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
-.cache-4fk8vx-StyledInput {
+.cache-wiike2 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -125,7 +124,7 @@ exports[`StepperField should render correctly 1`] = `
   text-align: center;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1ef6azp {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -144,58 +143,41 @@ exports[`StepperField should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #4f0599;
+  margin: 0 8px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1ef6azp[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1ef6azp[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
-}
-
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1ef6azp:hover:not([disabled]) {
   background: #eeeeff;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  fill: currentColor;
-  height: 26px;
-  width: 26px;
-  min-width: 26px;
-  min-height: 26px;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-jglfj7-StyledContainer"
+      class="ermgxlz0 cache-1bk0gso"
     >
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-wo41ov-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -205,12 +187,12 @@ exports[`StepperField should render correctly 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zw5304 ermgxlz3"
         role="status"
       >
         <input
           aria-label="Input"
-          class="cache-4fk8vx-StyledInput etyrq8m2"
+          class="cache-wiike2 ermgxlz2"
           name="test"
           style="width: 25px;"
           value="0"
@@ -219,11 +201,11 @@ exports[`StepperField should render correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-nqz10n-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -236,9 +218,9 @@ exports[`StepperField should render correctly 1`] = `
 </DocumentFragment>
 `;
 
-exports[`StepperField should render correctly disabled 1`] = `
+exports[`SelectNumberField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-150nqb-StyledContainer-StyledContainer {
+  .cache-oze4az-StyledContainer {
   background-color: #f6f6f8;
   display: -webkit-box;
   display: -webkit-flex;
@@ -260,17 +242,17 @@ exports[`StepperField should render correctly disabled 1`] = `
   border-radius: 4px;
 }
 
-.cache-150nqb-StyledContainer-StyledContainer>.etyrq8m4,
-.cache-150nqb-StyledContainer-StyledContainer .etyrq8m2,
-.cache-150nqb-StyledContainer-StyledContainer .etyrq8m3 {
+.cache-oze4az-StyledContainer>.ermgxlz4,
+.cache-oze4az-StyledContainer .ermgxlz2,
+.cache-oze4az-StyledContainer .ermgxlz3 {
   background-color: #f6f6f8;
   border: none;
-  color: #d4dae7;
+  color: #c4c9d6;
   opacity: 1;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable {
+.cache-ydtt7i {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -289,40 +271,39 @@ exports[`StepperField should render correctly disabled 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #c4c9d6;
+  margin: 0 8px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-ydtt7i[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-ydtt7i[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-ydtt7i:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-h96kyn-sizeStyles {
+  fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
+.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zw5304 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -333,7 +314,7 @@ exports[`StepperField should render correctly disabled 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: calc(100% - 8px);
+  height: 32px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -345,19 +326,19 @@ exports[`StepperField should render correctly disabled 1`] = `
   justify-content: center;
   border-radius: 4px;
   border: 1px solid transparent;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zw5304:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zw5304:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
-.cache-4fk8vx-StyledInput {
+.cache-wiike2 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -371,34 +352,22 @@ exports[`StepperField should render correctly disabled 1`] = `
   text-align: center;
 }
 
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  fill: currentColor;
-  height: 26px;
-  width: 26px;
-  min-width: 26px;
-  min-height: 26px;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
-}
-
 <form
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-150nqb-StyledContainer-StyledContainer"
+      class="ermgxlz0 cache-oze4az-StyledContainer"
       disabled=""
     >
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-wo41ov-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -408,12 +377,12 @@ exports[`StepperField should render correctly disabled 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zw5304 ermgxlz3"
         role="status"
       >
         <input
           aria-label="Input"
-          class="cache-4fk8vx-StyledInput etyrq8m2"
+          class="cache-wiike2 ermgxlz2"
           disabled=""
           name="test"
           style="width: 25px;"
@@ -423,12 +392,12 @@ exports[`StepperField should render correctly disabled 1`] = `
       <button
         aria-disabled="true"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-nqz10n-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -441,9 +410,9 @@ exports[`StepperField should render correctly disabled 1`] = `
 </DocumentFragment>
 `;
 
-exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
+exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 <DocumentFragment>
-  .cache-jglfj7-StyledContainer {
+  .cache-1bk0gso {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -465,7 +434,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   border-radius: 4px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1ef6azp {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -484,44 +453,39 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #4f0599;
+  margin: 0 8px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1ef6azp[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1ef6azp[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
-}
-
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1ef6azp:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-h96kyn-sizeStyles {
+  fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
+.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zw5304 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -532,7 +496,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: calc(100% - 8px);
+  height: 32px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -544,19 +508,19 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   justify-content: center;
   border-radius: 4px;
   border: 1px solid transparent;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zw5304:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zw5304:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
-.cache-4fk8vx-StyledInput {
+.cache-wiike2 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -570,7 +534,7 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   text-align: center;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable {
+.cache-ydtt7i {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -589,53 +553,40 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #c4c9d6;
+  margin: 0 8px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-ydtt7i[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-ydtt7i[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-ydtt7i:hover:not([disabled]) {
   background: #eeeeff;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  fill: currentColor;
-  height: 26px;
-  width: 26px;
-  min-width: 26px;
-  min-height: 26px;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-jglfj7-StyledContainer"
+      class="ermgxlz0 cache-1bk0gso"
     >
       <button
         aria-disabled="false"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-wo41ov-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -645,27 +596,26 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zw5304 ermgxlz3"
         role="status"
       >
         <input
           aria-label="Input"
-          class="cache-4fk8vx-StyledInput etyrq8m2"
+          class="cache-wiike2 ermgxlz2"
           name="test"
           style="width: 35px;"
-          type="text"
           value="20"
         />
       </div>
       <button
         aria-disabled="true"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-nqz10n-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -678,9 +628,9 @@ exports[`StepperField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 </DocumentFragment>
 `;
 
-exports[`StepperField should trigger events correctly 1`] = `
+exports[`SelectNumberField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-jglfj7-StyledContainer {
+  .cache-1bk0gso {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -702,7 +652,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable {
+.cache-ydtt7i {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -721,40 +671,39 @@ exports[`StepperField should trigger events correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #c4c9d6;
+  margin: 0 8px;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-ydtt7i[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-ydtt7i[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-1uvvtky-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-ydtt7i:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
-  fill: #dce1eb;
+.cache-h96kyn-sizeStyles {
+  fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
 }
 
-.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon.cache-wo41ov-StyledIcon-sizeStyles-StyledIcon {
+.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
   vertical-align: middle;
 }
 
-.cache-h78v76-StyledCenterBox {
+.cache-zw5304 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -765,7 +714,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  height: calc(100% - 8px);
+  height: 32px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -777,19 +726,19 @@ exports[`StepperField should trigger events correctly 1`] = `
   justify-content: center;
   border-radius: 4px;
   border: 1px solid transparent;
-  max-width: calc(100% - 96px);
+  max-width: 100%;
 }
 
-.cache-h78v76-StyledCenterBox:hover:not([disabled], :focus) {
+.cache-zw5304:hover:not([disabled], :focus) {
   border: 1px solid #4f0599;
 }
 
-.cache-h78v76-StyledCenterBox:focus-within:not([disabled]) {
-  box-shadow: 0 0 2px 2px rgba(79,5,153,0.3);
+.cache-zw5304:focus-within:not([disabled]) {
+  box-shadow: 0px 0px 0px 3px #4F059940;
   border: 1px solid #4f0599;
 }
 
-.cache-4fk8vx-StyledInput {
+.cache-wiike2 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -803,7 +752,7 @@ exports[`StepperField should trigger events correctly 1`] = `
   text-align: center;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable {
+.cache-1ef6azp {
   border: 0;
   transition-property: opacity;
   transition-duration: 0.15s;
@@ -822,58 +771,41 @@ exports[`StepperField should trigger events correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: calc(100% - 8px);
   position: relative;
   border-radius: 4px;
-  width: 38px;
-  margin: 0 4px;
+  color: #4f0599;
+  margin: 0 8px;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='true'] {
+.cache-1ef6azp[aria-disabled='true'] {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable[aria-disabled='false'] {
+.cache-1ef6azp[aria-disabled='false'] {
   cursor: pointer;
   touch-action: manipulation;
 }
 
-.cache-16wi5tr-StyledTouchable-StyledTouchable>.etyrq8m5 {
-  fill: #4f0599;
-}
-
-.cache-16wi5tr-StyledTouchable-StyledTouchable:hover:not([disabled]) {
+.cache-1ef6azp:hover:not([disabled]) {
   background: #eeeeff;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  fill: currentColor;
-  height: 26px;
-  width: 26px;
-  min-width: 26px;
-  min-height: 26px;
-}
-
-.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon.cache-nqz10n-StyledIcon-sizeStyles-StyledIcon {
-  vertical-align: middle;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="etyrq8m0 cache-jglfj7-StyledContainer"
+      class="ermgxlz0 cache-1bk0gso"
     >
       <button
         aria-disabled="true"
         aria-label="Minus"
-        class="etyrq8m4 e1kgqxfn0 cache-1uvvtky-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
         disabled=""
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-wo41ov-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -883,12 +815,12 @@ exports[`StepperField should trigger events correctly 1`] = `
       </button>
       <div
         aria-live="assertive"
-        class="cache-h78v76-StyledCenterBox etyrq8m3"
+        class="cache-zw5304 ermgxlz3"
         role="status"
       >
         <input
           aria-label="Input"
-          class="cache-4fk8vx-StyledInput etyrq8m2"
+          class="cache-wiike2 ermgxlz2"
           name="test"
           style="width: 25px;"
           value="0"
@@ -897,11 +829,11 @@ exports[`StepperField should trigger events correctly 1`] = `
       <button
         aria-disabled="false"
         aria-label="Plus"
-        class="etyrq8m4 e1kgqxfn0 cache-16wi5tr-StyledTouchable-StyledTouchable"
+        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
         type="button"
       >
         <svg
-          class="etyrq8m5 etwatq50 cache-nqz10n-StyledIcon-sizeStyles-StyledIcon"
+          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path

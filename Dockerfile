@@ -1,7 +1,7 @@
 ######################################################################
 # This stage install dependencies and build the application          #
 ######################################################################
-FROM node:17.9-alpine as builder
+FROM node:18.6-alpine as builder
 WORKDIR /usr/src/app
 
 COPY package.json pnpm-lock.yaml ./
@@ -16,12 +16,12 @@ RUN pnpm run build:storybook
 ######################################################################
 # This stage download a simple http server and serve the application #
 ######################################################################
-FROM node:17.9-alpine
+FROM node:18.6-alpine
 
 WORKDIR /workspace
 
 COPY --from=builder /usr/src/app/storybook-static .
 
-RUN npm add -g http-server
+RUN npm add -g serve
 
-CMD http-server -g -b -p 80
+CMD serve -l 80

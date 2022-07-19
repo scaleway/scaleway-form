@@ -13,14 +13,7 @@ type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<T, K> &
   Partial<
     Pick<
       ComponentProps<typeof Radio>,
-      | 'disabled'
-      | 'id'
-      | 'onBlur'
-      | 'onChange'
-      | 'onFocus'
-      | 'size'
-      | 'valid'
-      | 'value'
+      'disabled' | 'id' | 'onBlur' | 'onChange' | 'onFocus' | 'size' | 'value'
     >
   > & {
     children?: ReactNode
@@ -42,7 +35,6 @@ const RadioField = ({
   onFocus,
   required,
   size,
-  valid,
   validate,
   value,
 }: RadioFieldProps): JSX.Element => {
@@ -99,7 +91,6 @@ const RadioField = ({
       required={required}
       size={size}
       type={input.type}
-      valid={valid}
       value={input.value}
     >
       {children}

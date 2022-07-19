@@ -1,4 +1,5 @@
 import { fireEvent } from '@testing-library/dom'
+import { act } from '@testing-library/react'
 import React from 'react'
 import RichSelectField from '..'
 import {
@@ -52,8 +53,10 @@ describe('RichSelectField', () => {
         <RichSelectField.Option value="value2" label="Label 2" />
       </RichSelectField>,
     )
-    rendered.getByRole('combobox').focus()
-    rendered.getByRole('combobox').blur()
+    act(() => {
+      rendered.getByRole('combobox').focus()
+      rendered.getByRole('combobox').blur()
+    })
     expect(format).toHaveBeenNthCalledWith(1, '', 'test')
   })
 
@@ -75,9 +78,53 @@ describe('RichSelectField', () => {
         ]}
       />,
     )
-    rendered.getByRole('combobox').focus()
-    rendered.getByRole('combobox').blur()
+    act(() => {
+      rendered.getByRole('combobox').focus()
+      rendered.getByRole('combobox').blur()
+    })
     expect(format).toBeCalledTimes(1)
+  })
+
+  test('should display right value on grouped options', () => {
+    const selectedOption = { label: 'Group Label', value: 'Group Value' }
+    const options = [
+      {
+        label: 'Group',
+        options: [
+          selectedOption,
+          { label: 'Group Label 2', value: 'Group value2' },
+        ],
+      },
+    ]
+
+    return shouldMatchEmotionSnapshotFormWrapper(
+      <RichSelectField name="test" options={options} />,
+      {
+        transform: ({ getByRole, getByTestId, container }) => {
+          const select = getByRole('combobox') as HTMLInputElement
+          act(() => {
+            select.focus()
+          })
+          act(() => {
+            fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          })
+          const option = getByTestId(`option-test-${selectedOption.value}`)
+            .firstChild as HTMLElement
+
+          act(() => {
+            option.click()
+          })
+
+          // react-select works with a hidden input to handle value.
+          const hiddenSelectInput = container.querySelector(
+            'input[type="hidden"]',
+          ) as HTMLInputElement
+
+          const {value} = hiddenSelectInput
+          expect(value).toBe(selectedOption.value)
+        },
+      },
+    )
   })
 
   test('should trigger events', () => {
@@ -99,14 +146,23 @@ describe('RichSelectField', () => {
       {
         transform: node => {
           const select = node.getByRole('combobox')
-          select.focus()
+          act(() => {
+            select.focus()
+          })
           expect(onFocus).toBeCalledTimes(1)
-          fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          act(() => {
+            fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
+          })
           const option = node.getByTestId('option-test-value')
             .firstChild as HTMLElement
-          option.click()
+
+          act(() => {
+            option.click()
+          })
           expect(onChange).toBeCalledTimes(1)
-          select.blur()
+          act(() => {
+            select.blur()
+          })
           expect(onBlur).toBeCalledTimes(1)
         },
       },

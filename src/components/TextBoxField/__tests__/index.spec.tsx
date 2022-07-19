@@ -1,3 +1,4 @@
+import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
 import TextBoxField from '..'
@@ -7,6 +8,27 @@ import mockErrors from '../../../mocks/mockErrors'
 describe('TextBoxField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(<TextBoxField name="test" />))
+
+  test('should render correctly generated', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" generated />,
+    ))
+
+  test('should render correctly random', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" random="random" />,
+    ))
+  test('should render correctly notice', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" notice="notice" />,
+    ))
+
+  test('should render correctly required', () =>
+    shouldMatchEmotionSnapshotFormWrapper(
+      <TextBoxField name="test" required />,
+    ))
+  test('should render correctly id', () =>
+    shouldMatchEmotionSnapshotFormWrapper(<TextBoxField name="test" id="id" />))
 
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
@@ -23,10 +45,12 @@ describe('TextBoxField', () => {
     shouldMatchEmotionSnapshotFormWrapper(
       <TextBoxField name="test" minLength={13} />,
       {
-        transform: node => {
-          const input = node.getByRole('textbox')
-          userEvent.type(input, 'test')
-          input.blur()
+        transform: async node => {
+          await act(async () => {
+            const input = node.getByRole('textbox')
+            await userEvent.type(input, 'test')
+            input.blur()
+          })
           expect(
             node.getByText(
               typeof mockErrors.MIN_LENGTH === 'function'

@@ -1,3 +1,26 @@
+## [1.21.1](https://github.com/scaleway/scaleway-form/compare/v1.21.0...v1.21.1) (2022-07-19)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.5 ([#397](https://github.com/scaleway/scaleway-form/issues/397)) ([de87e01](https://github.com/scaleway/scaleway-form/commit/de87e012b994c8aaccb43e548f50755fcfcb4bf8))
+* **devdeps:** update actions/setup-node action to v3.4.1 ([#399](https://github.com/scaleway/scaleway-form/issues/399)) ([a44ced1](https://github.com/scaleway/scaleway-form/commit/a44ced1f95032f9967938d6a9ab0d57461761c72))
+* **devdeps:** update babel monorepo to v7.18.9 ([#405](https://github.com/scaleway/scaleway-form/issues/405)) ([b92027f](https://github.com/scaleway/scaleway-form/commit/b92027ffa0cf457799cf9b36f8b6a474cd408e29))
+* **devdeps:** update dependency @emotion/jest to v11.9.4 ([#402](https://github.com/scaleway/scaleway-form/issues/402)) ([7ffd555](https://github.com/scaleway/scaleway-form/commit/7ffd555c855dd033af7669707f64f385e7998961))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.43 ([#392](https://github.com/scaleway/scaleway-form/issues/392)) ([533452a](https://github.com/scaleway/scaleway-form/commit/533452a149cab5440b26e1baadaf503a9e258e8f))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.44 ([#407](https://github.com/scaleway/scaleway-form/issues/407)) ([e1ad0a8](https://github.com/scaleway/scaleway-form/commit/e1ad0a8978e3c7aca90f803d20e120d53ed440b2))
+* **devdeps:** update dependency @testing-library/user-event to v14.2.5 ([#403](https://github.com/scaleway/scaleway-form/issues/403)) ([5b89699](https://github.com/scaleway/scaleway-form/commit/5b89699d58cb82859331e3a4d74aca8762a81bd2))
+* **devdeps:** update dependency rollup to v2.76.0 ([#398](https://github.com/scaleway/scaleway-form/issues/398)) ([85f667e](https://github.com/scaleway/scaleway-form/commit/85f667e59a64f4d43f606cf2399898aa3abbfac6))
+* **devdeps:** update jest monorepo to v28.1.3 ([#400](https://github.com/scaleway/scaleway-form/issues/400)) ([a7986e8](https://github.com/scaleway/scaleway-form/commit/a7986e89967e5035b4d0172384a23d90d9d3b929))
+* **devdeps:** update node.js to v18.6 ([#401](https://github.com/scaleway/scaleway-form/issues/401)) ([d3fcf5c](https://github.com/scaleway/scaleway-form/commit/d3fcf5c4ff8afaac795f5b407d2e48f1922b4b6b))
+* **devdeps:** update pnpm to v7.5.1 ([#396](https://github.com/scaleway/scaleway-form/issues/396)) ([fe323b1](https://github.com/scaleway/scaleway-form/commit/fe323b15717de8a91ae921223cfc79937138859e))
+* **devdeps:** update pnpm to v7.5.2 ([#404](https://github.com/scaleway/scaleway-form/issues/404)) ([075c0bf](https://github.com/scaleway/scaleway-form/commit/075c0bf1119efb16a84f4deb8ba5fc82d3923bbd))
+
+
+### :bug: Bug Fixes
+
+* forward menuportaltarget prop for richselectfield ([#408](https://github.com/scaleway/scaleway-form/issues/408)) ([512fcbc](https://github.com/scaleway/scaleway-form/commit/512fcbccf090da685de36dd19a092bc361531c06))
+
 ## [1.21.0](https://github.com/scaleway/scaleway-form/compare/v1.20.4...v1.21.0) (2022-07-12)
 
 

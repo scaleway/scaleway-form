@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/scaleway/scaleway-form/compare/v1.21.1...v1.21.2) (2022-07-19)
+
+
+### :bug: Bug Fixes
+
+* **validators:** min/max should check for equality ([#406](https://github.com/scaleway/scaleway-form/issues/406)) ([4233529](https://github.com/scaleway/scaleway-form/commit/423352951c2b2ddc2c73a5eff347d16614e6442f))
+
 ## [1.21.1](https://github.com/scaleway/scaleway-form/compare/v1.21.0...v1.21.1) (2022-07-19)
 
 

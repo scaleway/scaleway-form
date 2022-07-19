@@ -38,6 +38,7 @@ export type RichSelectFieldProps<
     | 'isLoading'
     | 'isMulti'
     | 'isSearchable'
+    | 'menuPortalTarget'
     | 'onBlur'
     | 'onChange'
     | 'onFocus'
@@ -74,6 +75,7 @@ const RichSelectField = <
   isSearchable,
   label = '',
   maxLength,
+  menuPortalTarget,
   minLength,
   multiple,
   name,
@@ -198,6 +200,7 @@ const RichSelectField = <
       isLoading={isLoading}
       isMulti={input.multiple}
       isSearchable={isSearchable}
+      menuPortalTarget={menuPortalTarget}
       name={name}
       onBlur={event => {
         input.onBlur(event)

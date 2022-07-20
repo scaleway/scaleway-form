@@ -43,7 +43,7 @@ specifiers:
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5
   '@testing-library/react-hooks': 8.0.1
-  '@testing-library/user-event': 14.2.5
+  '@testing-library/user-event': 14.3.0
   '@types/final-form-focus': 1.1.2
   '@types/node': 18.0.0
   '@types/react': 17.0.47
@@ -128,7 +128,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 12.1.5_sfoxds7t5ydpegc3knd667wn6m
   '@testing-library/react-hooks': 8.0.1_nn45z5sr7igu7sfun6tiae5hx4
-  '@testing-library/user-event': 14.2.5_gwcpuyfvwbszhlmedmugzivgzu
+  '@testing-library/user-event': 14.3.0_gwcpuyfvwbszhlmedmugzivgzu
   '@types/final-form-focus': 1.1.2
   '@types/node': 18.0.0
   '@types/react': 17.0.47
@@ -5047,8 +5047,8 @@ packages:
       react-dom: 17.0.2_react@17.0.2
     dev: true
 
-  /@testing-library/user-event/14.2.5_gwcpuyfvwbszhlmedmugzivgzu:
-    resolution: {integrity: sha512-xcSw47H8JidxQPAqPlHp4l51EYJx+2TlHgYBW9i+noNlgUMMrhgtefnrWcpZ1k9ep6SMhJVyx3N7F4tIKTuJ9w==}
+  /@testing-library/user-event/14.3.0_gwcpuyfvwbszhlmedmugzivgzu:
+    resolution: {integrity: sha512-P02xtBBa8yMaLhK8CzJCIns8rqwnF6FxhR9zs810flHOBXUYCFjLd8Io1rQrAkQRWEmW2PGdZIEdMxf/KLsqFA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'

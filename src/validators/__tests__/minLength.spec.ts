@@ -19,6 +19,6 @@ describe('minlength validator', () => {
     const validator = minlength(10)
     expect(validator.validate(fakeString(1), {})).toBe(false)
     expect(validator.validate(fakeString(9), {})).toBe(false)
-    expect(validator.validate(fakeString(10), {})).toBe(false)
+    expect(validator.validate(fakeString(10), {})).toBe(true)
   })
 })

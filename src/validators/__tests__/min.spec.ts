@@ -17,7 +17,7 @@ describe('min validator', () => {
     const validator = min(10)
     expect(validator.validate(1, {})).toBe(false)
     expect(validator.validate(9, {})).toBe(false)
-    expect(validator.validate(10, {})).toBe(false)
+    expect(validator.validate(10, {})).toBe(true)
     expect(validator.validate(-10, {})).toBe(false)
     expect(validator.validate(-11, {})).toBe(false)
   })

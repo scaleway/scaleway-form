@@ -26,6 +26,7 @@ type SelectNumberValueFieldProps<
       | 'text'
       | 'value'
       | 'onChange'
+      | 'className'
     >
   > & {
     name: string
@@ -50,6 +51,7 @@ const SelectNumberField = ({
   text,
   validate,
   value,
+  className,
 }: SelectNumberValueFieldProps) => {
   const validateFn = useValidation<SelectNumberValue>({
     validate,
@@ -88,6 +90,7 @@ const SelectNumberField = ({
       step={step}
       text={text}
       value={input.value}
+      className={className}
     />
   )
 }

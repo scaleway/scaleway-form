@@ -1,3 +1,24 @@
+## [1.22.0](https://github.com/scaleway/scaleway-form/compare/v1.21.2...v1.22.0) (2022-07-26)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.45 ([#411](https://github.com/scaleway/scaleway-form/issues/411)) ([3e83b95](https://github.com/scaleway/scaleway-form/commit/3e83b957d635bb5cd2c66d4345151c7819f875be))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.46 ([#414](https://github.com/scaleway/scaleway-form/issues/414)) ([15041e8](https://github.com/scaleway/scaleway-form/commit/15041e8f4242e8da3d01d9460bf516abfbc7ab8b))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.47 ([#417](https://github.com/scaleway/scaleway-form/issues/417)) ([b968296](https://github.com/scaleway/scaleway-form/commit/b968296597c0d9a60d12b67d735e8fff1b8286e2))
+* **devdeps:** update dependency @testing-library/user-event to v14.3.0 ([#409](https://github.com/scaleway/scaleway-form/issues/409)) ([00c1281](https://github.com/scaleway/scaleway-form/commit/00c12810b0ca4b34c088f5180882c006d852a3b7))
+* **devdeps:** update dependency eslint to v8.20.0 ([#415](https://github.com/scaleway/scaleway-form/issues/415)) ([e17dbfc](https://github.com/scaleway/scaleway-form/commit/e17dbfc551c18ebb6ca3fb813c6d35e22dcc4233))
+* **devdeps:** update dependency eslint-plugin-mdx to v2.0.2 ([#416](https://github.com/scaleway/scaleway-form/issues/416)) ([832d721](https://github.com/scaleway/scaleway-form/commit/832d72138a2935218410cdea324d7a40655a48f4))
+* **devdeps:** update dependency rollup to v2.77.0 ([#412](https://github.com/scaleway/scaleway-form/issues/412)) ([6fb9a49](https://github.com/scaleway/scaleway-form/commit/6fb9a49c0aca53f7890a9fc43bf4770e69d5c1a6))
+* **devdeps:** update dependency rollup-plugin-visualizer to v5.7.1 ([#413](https://github.com/scaleway/scaleway-form/issues/413)) ([34fb220](https://github.com/scaleway/scaleway-form/commit/34fb220e7cb858b6274019f09eee4bc52e45521b))
+* **devdeps:** update docker/build-push-action action to v3.1.0 ([#410](https://github.com/scaleway/scaleway-form/issues/410)) ([45c5833](https://github.com/scaleway/scaleway-form/commit/45c58336a4524aa18409b87403e1cfc06a5d70bb))
+* **devdeps:** update philibea/scaleway-containers-deploy action to v1.0.8 ([#386](https://github.com/scaleway/scaleway-form/issues/386)) ([8498cbd](https://github.com/scaleway/scaleway-form/commit/8498cbd475ad508589e665f8895bce637ac45616))
+
+
+### :gear: Features
+
+* **select:** add class prop ([#418](https://github.com/scaleway/scaleway-form/issues/418)) ([6f1a51c](https://github.com/scaleway/scaleway-form/commit/6f1a51ca4d556f808275e8db0f536d4517586fab))
+
 ## [1.21.2](https://github.com/scaleway/scaleway-form/compare/v1.21.1...v1.21.2) (2022-07-19)
 
 

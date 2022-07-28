@@ -49,7 +49,9 @@ type RequiredErrors = {
     | string
   REGEX:
     | ((
-        params: FormErrorFunctionParams & { regex: (RegExp | RegExp[])[] },
+        params: FormErrorFunctionParams & {
+          regex: (LabeledRegex | LabeledRegex[])[]
+        },
       ) => string)
     | string
   REQUIRED: ((params: FormErrorFunctionParams) => string) | string
@@ -63,13 +65,18 @@ type RequiredErrors = {
 
 export type FormErrors = RequiredErrors
 
+export type LabeledRegex = {
+  value: RegExp
+  label?: string
+}
+
 export type ValidatorProps = {
   required?: boolean
   min?: number
   minLength?: number
   max?: number
   maxLength?: number
-  regex?: (RegExp | RegExp[])[]
+  regex?: LabeledRegex | LabeledRegex[]
   maxDate?: Date
   minDate?: Date
 }

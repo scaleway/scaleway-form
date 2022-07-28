@@ -82,5 +82,5 @@ export const Regex: Story<ComponentProps<typeof TextBoxField>> = args => (
 
 Regex.args = {
   name: 'Regex',
-  regex: [/^[a-zA-Z]*$/],
+  regex: [{ label: 'only letters', value: /^[a-zA-Z]*$/ }],
 }

@@ -11,7 +11,7 @@ import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import { BaseFieldProps, LabeledRegex } from '../../types'
 
 type TextBoxValue = NonNullable<ComponentProps<typeof TextBox>['value']>
 
@@ -49,7 +49,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
     className?: string
     max?: number
     min?: number
-    regex?: (RegExp | RegExp[])[]
+    regex?: LabeledRegex[]
   }
 
 const TextBoxField = forwardRef(

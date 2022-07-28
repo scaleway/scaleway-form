@@ -8,11 +8,11 @@ const mockErrors: FormErrors = {
   MIN_LENGTH: ({ minLength }) =>
     `This field should have a length greater than ${minLength}`,
   REGEX: ({ regex }) =>
-    `This field should match the regex ${regex
+    `This field should match ${regex
       .map(r =>
         Array.isArray(r)
-          ? r.map(nestedRegex => nestedRegex.source).join(' or ')
-          : r.source,
+          ? r.map(nestedRegex => nestedRegex.label).join(' or ')
+          : r.label,
       )
       .join(' and ')}`,
   REQUIRED: 'This field is required',

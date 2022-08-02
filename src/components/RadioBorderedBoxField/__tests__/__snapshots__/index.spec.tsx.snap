@@ -2,14 +2,43 @@
 
 exports[`RadioBorderedBoxField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-5jm5b {
+  .cache-1821gv5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-185n8fb {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
 }
 
-.cache-1mjvknk {
+.cache-1eoy87d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cache-kszmvz {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19,7 +48,6 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 0 8px;
-  margin-bottom: 8px;
 }
 
 .cache-19tfi5p-variantStyles {
@@ -142,71 +170,85 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   fill: #ffffff;
 }
 
-.cache-1xt38yk-variantStyles {
+.cache-1qesfk0 {
   color: #4a4f62;
+  font-size: 16px;
+  font-family: Asap;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="cache-5jm5b e13z6rra3"
+      class="cache-1821gv5 e13z6rra0"
     >
       <div
-        class="cache-1mjvknk e13z6rra2"
+        class="cache-185n8fb e13z6rra4"
       >
-        <label
-          aria-disabled="false"
-          class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
-          for="test-test"
+        <div
+          class="cache-1eoy87d e13z6rra2"
         >
-          <input
-            aria-checked="false"
-            aria-disabled="false"
-            aria-invalid="false"
-            class="cache-dhqfi e1duuirp1"
-            id="test-test"
-            name="test"
-            tabindex="0"
-            type="radio"
-            value="test"
-          />
-          <svg
-            class="cache-jsk10b e1duuirp2"
-            size="24"
-            viewBox="0 0 24 24"
+          <div
+            class="cache-kszmvz e13z6rra3"
           >
-            <g>
-              <circle
-                cx="12"
-                cy="12"
-                r="8"
-                stroke-width="2"
+            <label
+              aria-disabled="false"
+              class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+              for="test-test"
+            >
+              <input
+                aria-checked="false"
+                aria-disabled="false"
+                aria-invalid="false"
+                class="cache-dhqfi e1duuirp1"
+                id="test-test"
+                name="test"
+                tabindex="0"
+                type="radio"
+                value="test"
               />
-              <circle
-                class="cache-1e98oqk e1duuirp4"
-                cx="12"
-                cy="12"
-                r="6"
-              />
-              <circle
-                class="cache-0 e1duuirp3"
-                cx="12"
-                cy="12"
-                r="4"
-              />
-            </g>
-          </svg>
-          Choice 1
-        </label>
-      </div>
-      <div
-        class="e1g1zfwd0 cache-1xt38yk-variantStyles"
-      >
-        Radio field
+              <svg
+                class="cache-jsk10b e1duuirp2"
+                size="24"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke-width="2"
+                  />
+                  <circle
+                    class="cache-1e98oqk e1duuirp4"
+                    cx="12"
+                    cy="12"
+                    r="6"
+                  />
+                  <circle
+                    class="cache-0 e1duuirp3"
+                    cx="12"
+                    cy="12"
+                    r="4"
+                  />
+                </g>
+              </svg>
+              Choice 1
+            </label>
+          </div>
+        </div>
+        <p
+          class="cache-1qesfk0 e1tg3t120"
+        >
+          Radio field
+        </p>
       </div>
     </div>
   </form>
@@ -215,16 +257,44 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
 
 exports[`RadioBorderedBoxField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-mwtskz {
+  .cache-1821gv5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-1l9ijqz {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
   border: 1px solid #4f0599!important;
-  box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1mjvknk {
+.cache-1eoy87d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cache-kszmvz {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -234,7 +304,6 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 0 8px;
-  margin-bottom: 8px;
 }
 
 .cache-19tfi5p-variantStyles {
@@ -357,72 +426,86 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   fill: #ffffff;
 }
 
-.cache-1xt38yk-variantStyles {
+.cache-1qesfk0 {
   color: #4a4f62;
+  font-size: 16px;
+  font-family: Asap;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="cache-mwtskz e13z6rra3"
+      class="cache-1821gv5 e13z6rra0"
     >
       <div
-        class="cache-1mjvknk e13z6rra2"
+        class="cache-1l9ijqz e13z6rra4"
       >
-        <label
-          aria-disabled="false"
-          class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
-          for="test-checked"
+        <div
+          class="cache-1eoy87d e13z6rra2"
         >
-          <input
-            aria-checked="true"
-            aria-disabled="false"
-            aria-invalid="false"
-            checked=""
-            class="cache-dhqfi e1duuirp1"
-            id="test-checked"
-            name="test"
-            tabindex="0"
-            type="radio"
-            value="checked"
-          />
-          <svg
-            class="cache-jsk10b e1duuirp2"
-            size="24"
-            viewBox="0 0 24 24"
+          <div
+            class="cache-kszmvz e13z6rra3"
           >
-            <g>
-              <circle
-                cx="12"
-                cy="12"
-                r="8"
-                stroke-width="2"
+            <label
+              aria-disabled="false"
+              class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+              for="test-checked"
+            >
+              <input
+                aria-checked="true"
+                aria-disabled="false"
+                aria-invalid="false"
+                checked=""
+                class="cache-dhqfi e1duuirp1"
+                id="test-checked"
+                name="test"
+                tabindex="0"
+                type="radio"
+                value="checked"
               />
-              <circle
-                class="cache-1e98oqk e1duuirp4"
-                cx="12"
-                cy="12"
-                r="6"
-              />
-              <circle
-                class="cache-0 e1duuirp3"
-                cx="12"
-                cy="12"
-                r="4"
-              />
-            </g>
-          </svg>
-          Choice 1
-        </label>
-      </div>
-      <div
-        class="e1g1zfwd0 cache-1xt38yk-variantStyles"
-      >
-        Radio field checked
+              <svg
+                class="cache-jsk10b e1duuirp2"
+                size="24"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke-width="2"
+                  />
+                  <circle
+                    class="cache-1e98oqk e1duuirp4"
+                    cx="12"
+                    cy="12"
+                    r="6"
+                  />
+                  <circle
+                    class="cache-0 e1duuirp3"
+                    cx="12"
+                    cy="12"
+                    r="4"
+                  />
+                </g>
+              </svg>
+              Choice 1
+            </label>
+          </div>
+        </div>
+        <p
+          class="cache-1qesfk0 e1tg3t120"
+        >
+          Radio field checked
+        </p>
       </div>
     </div>
   </form>
@@ -431,16 +514,45 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
 
 exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-14tqymt {
+  .cache-1821gv5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-ma7id9 {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
   cursor: not-allowed!important;
   color: #c4c9d6;
 }
 
-.cache-1mjvknk {
+.cache-1eoy87d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cache-kszmvz {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -450,7 +562,6 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 0 8px;
-  margin-bottom: 8px;
 }
 
 .cache-19tfi5p-variantStyles {
@@ -573,73 +684,87 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   fill: #ffffff;
 }
 
-.cache-1xt38yk-variantStyles {
-  color: #4a4f62;
+.cache-1lqm11r {
+  color: #c4c9d6;
+  font-size: 16px;
+  font-family: Asap;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="cache-14tqymt e13z6rra3"
-      disabled=""
+      class="cache-1821gv5 e13z6rra0"
     >
       <div
-        class="cache-1mjvknk e13z6rra2"
+        class="cache-ma7id9 e13z6rra4"
+        disabled=""
       >
-        <label
-          aria-disabled="true"
-          class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
-          for="test-disabled"
+        <div
+          class="cache-1eoy87d e13z6rra2"
         >
-          <input
-            aria-checked="false"
-            aria-disabled="true"
-            aria-invalid="false"
-            class="cache-dhqfi e1duuirp1"
-            disabled=""
-            id="test-disabled"
-            name="test"
-            style="pointer-events: none;"
-            type="radio"
-            value="disabled"
-          />
-          <svg
-            class="cache-jsk10b e1duuirp2"
-            size="24"
-            viewBox="0 0 24 24"
+          <div
+            class="cache-kszmvz e13z6rra3"
           >
-            <g>
-              <circle
-                cx="12"
-                cy="12"
-                r="8"
-                stroke-width="2"
+            <label
+              aria-disabled="true"
+              class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+              for="test-disabled"
+            >
+              <input
+                aria-checked="false"
+                aria-disabled="true"
+                aria-invalid="false"
+                class="cache-dhqfi e1duuirp1"
+                disabled=""
+                id="test-disabled"
+                name="test"
+                style="pointer-events: none;"
+                type="radio"
+                value="disabled"
               />
-              <circle
-                class="cache-1e98oqk e1duuirp4"
-                cx="12"
-                cy="12"
-                r="6"
-              />
-              <circle
-                class="cache-0 e1duuirp3"
-                cx="12"
-                cy="12"
-                r="4"
-              />
-            </g>
-          </svg>
-          Choice 1
-        </label>
-      </div>
-      <div
-        class="e1g1zfwd0 cache-1xt38yk-variantStyles"
-      >
-        Radio field disabled
+              <svg
+                class="cache-jsk10b e1duuirp2"
+                size="24"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke-width="2"
+                  />
+                  <circle
+                    class="cache-1e98oqk e1duuirp4"
+                    cx="12"
+                    cy="12"
+                    r="6"
+                  />
+                  <circle
+                    class="cache-0 e1duuirp3"
+                    cx="12"
+                    cy="12"
+                    r="4"
+                  />
+                </g>
+              </svg>
+              Choice 1
+            </label>
+          </div>
+        </div>
+        <p
+          class="cache-1lqm11r e1tg3t120"
+        >
+          Radio field disabled
+        </p>
       </div>
     </div>
   </form>
@@ -648,16 +773,44 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
 
 exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-1ohchpo {
+  .cache-1821gv5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-10t2vvt {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
   border: 1px solid #dd3252!important;
-  box-shadow: 0px 0px 0px 3px #DD325240;
 }
 
-.cache-1mjvknk {
+.cache-1eoy87d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cache-kszmvz {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -667,7 +820,6 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 0 8px;
-  margin-bottom: 8px;
 }
 
 .cache-19tfi5p-variantStyles {
@@ -790,14 +942,20 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   fill: #ffffff;
 }
 
-.cache-1xt38yk-variantStyles {
+.cache-1qesfk0 {
   color: #4a4f62;
+  font-size: 16px;
+  font-family: Asap;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.cache-ne47lv {
+.cache-bnyspz {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -810,83 +968,88 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   max-height: 5000px;
   opacity: 1;
   overflow: visible;
-  margin-top: 8px;
-  margin-bottom: 8px;
 }
 
-.cache-4136x1 {
+.cache-j5wde4 {
   font-size: 12px;
   color: #a6102d;
-  padding: 0 4px;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="cache-1ohchpo e13z6rra3"
+      class="cache-1821gv5 e13z6rra0"
     >
       <div
-        class="cache-1mjvknk e13z6rra2"
+        class="cache-10t2vvt e13z6rra4"
       >
-        <label
-          aria-disabled="false"
-          class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
-          for="test-checked"
+        <div
+          class="cache-1eoy87d e13z6rra2"
         >
-          <input
-            aria-checked="false"
-            aria-disabled="false"
-            aria-invalid="true"
-            class="cache-dhqfi e1duuirp1"
-            id="test-checked"
-            name="test"
-            tabindex="0"
-            type="radio"
-            value="checked"
-          />
-          <svg
-            class="cache-jsk10b e1duuirp2"
-            size="24"
-            viewBox="0 0 24 24"
+          <div
+            class="cache-kszmvz e13z6rra3"
           >
-            <g>
-              <circle
-                cx="12"
-                cy="12"
-                r="8"
-                stroke-width="2"
+            <label
+              aria-disabled="false"
+              class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+              for="test-checked"
+            >
+              <input
+                aria-checked="false"
+                aria-disabled="false"
+                aria-invalid="true"
+                class="cache-dhqfi e1duuirp1"
+                id="test-checked"
+                name="test"
+                tabindex="0"
+                type="radio"
+                value="checked"
               />
-              <circle
-                class="cache-1e98oqk e1duuirp4"
-                cx="12"
-                cy="12"
-                r="6"
-              />
-              <circle
-                class="cache-0 e1duuirp3"
-                cx="12"
-                cy="12"
-                r="4"
-              />
-            </g>
-          </svg>
-          Choice 1
-        </label>
+              <svg
+                class="cache-jsk10b e1duuirp2"
+                size="24"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke-width="2"
+                  />
+                  <circle
+                    class="cache-1e98oqk e1duuirp4"
+                    cx="12"
+                    cy="12"
+                    r="6"
+                  />
+                  <circle
+                    class="cache-0 e1duuirp3"
+                    cx="12"
+                    cy="12"
+                    r="4"
+                  />
+                </g>
+              </svg>
+              Choice 1
+            </label>
+          </div>
+        </div>
+        <p
+          class="cache-1qesfk0 e1tg3t120"
+        >
+          Radio field error
+        </p>
       </div>
       <div
-        class="e1g1zfwd0 cache-1xt38yk-variantStyles"
+        class="e14o3tsk0 cache-bnyspz"
       >
-        Radio field error
-      </div>
-    </div>
-    <div
-      class="e13z6rra0 e14o3tsk0 cache-ne47lv"
-    >
-      <div
-        class="cache-4136x1 e13z6rra1"
-      >
-        This field is required
+        <div
+          class="cache-j5wde4 e13z6rra1"
+        >
+          This field is required
+        </div>
       </div>
     </div>
     <button
@@ -900,16 +1063,44 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
 
 exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-mwtskz {
+  .cache-1821gv5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cache-1l9ijqz {
   padding: 24px;
   border-radius: 4px;
   border: 1px solid #d4dae7;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
   border: 1px solid #4f0599!important;
-  box-shadow: 0px 0px 0px 3px #4F059940;
 }
 
-.cache-1mjvknk {
+.cache-1eoy87d {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.cache-kszmvz {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -919,7 +1110,6 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 0 8px;
-  margin-bottom: 8px;
 }
 
 .cache-19tfi5p-variantStyles {
@@ -1042,71 +1232,85 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   fill: #ffffff;
 }
 
-.cache-1xt38yk-variantStyles {
+.cache-1qesfk0 {
   color: #4a4f62;
+  font-size: 16px;
+  font-family: Asap;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="cache-mwtskz e13z6rra3"
+      class="cache-1821gv5 e13z6rra0"
     >
       <div
-        class="cache-1mjvknk e13z6rra2"
+        class="cache-1l9ijqz e13z6rra4"
       >
-        <label
-          aria-disabled="false"
-          class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
-          for="test-events"
+        <div
+          class="cache-1eoy87d e13z6rra2"
         >
-          <input
-            aria-checked="true"
-            aria-disabled="false"
-            aria-invalid="false"
-            class="cache-dhqfi e1duuirp1"
-            id="test-events"
-            name="test"
-            tabindex="0"
-            type="radio"
-            value="events"
-          />
-          <svg
-            class="cache-jsk10b e1duuirp2"
-            size="24"
-            viewBox="0 0 24 24"
+          <div
+            class="cache-kszmvz e13z6rra3"
           >
-            <g>
-              <circle
-                cx="12"
-                cy="12"
-                r="8"
-                stroke-width="2"
+            <label
+              aria-disabled="false"
+              class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+              for="test-events"
+            >
+              <input
+                aria-checked="true"
+                aria-disabled="false"
+                aria-invalid="false"
+                class="cache-dhqfi e1duuirp1"
+                id="test-events"
+                name="test"
+                tabindex="0"
+                type="radio"
+                value="events"
               />
-              <circle
-                class="cache-1e98oqk e1duuirp4"
-                cx="12"
-                cy="12"
-                r="6"
-              />
-              <circle
-                class="cache-0 e1duuirp3"
-                cx="12"
-                cy="12"
-                r="4"
-              />
-            </g>
-          </svg>
-          Choice 1
-        </label>
-      </div>
-      <div
-        class="e1g1zfwd0 cache-1xt38yk-variantStyles"
-      >
-        Radio field events
+              <svg
+                class="cache-jsk10b e1duuirp2"
+                size="24"
+                viewBox="0 0 24 24"
+              >
+                <g>
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="8"
+                    stroke-width="2"
+                  />
+                  <circle
+                    class="cache-1e98oqk e1duuirp4"
+                    cx="12"
+                    cy="12"
+                    r="6"
+                  />
+                  <circle
+                    class="cache-0 e1duuirp3"
+                    cx="12"
+                    cy="12"
+                    r="4"
+                  />
+                </g>
+              </svg>
+              Choice 1
+            </label>
+          </div>
+        </div>
+        <p
+          class="cache-1qesfk0 e1tg3t120"
+        >
+          Radio field events
+        </p>
       </div>
     </div>
   </form>

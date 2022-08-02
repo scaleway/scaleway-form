@@ -23,7 +23,6 @@ type RadioBorderedBoxFieldProps<
       | 'badgeVariant'
       | 'disabled'
       | 'labelDescription'
-      | 'size'
       | 'value'
       | 'onChange'
       | 'onBlur'
@@ -49,7 +48,6 @@ const RadioBorderedBoxField = ({
   onChange,
   onFocus,
   required,
-  size,
   validate,
   value,
 }: RadioBorderedBoxFieldProps): JSX.Element => {
@@ -103,7 +101,6 @@ const RadioBorderedBoxField = ({
         input.onFocus(event)
         onFocus?.(event)
       }}
-      size={size}
       disabled={disabled}
       checked={input.checked}
       value={input.value}

@@ -101,7 +101,7 @@ exports[`Submit form is invalid 1`] = `
   padding-top: 2px;
 }
 
-.cache-37jn2g {
+.cache-tervkc {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -144,19 +144,19 @@ exports[`Submit form is invalid 1`] = `
   box-shadow: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-tervkc:hover,
+.cache-tervkc:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-tervkc:hover,
+.cache-tervkc:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-37jn2g:focus {
+.cache-tervkc:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -203,12 +203,12 @@ exports[`Submit form is invalid 1`] = `
     </div>
     <button
       aria-disabled="true"
-      class="em6gco80 cache-37jn2g"
+      class="em6gco80 cache-tervkc"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco81"
+        class="cache-115wth8 em6gco82"
       >
         Test
       </div>
@@ -235,7 +235,7 @@ exports[`Submit form is submitting 1`] = `
   }
 }
 
-.cache-37jn2g {
+.cache-tervkc {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -278,19 +278,19 @@ exports[`Submit form is submitting 1`] = `
   box-shadow: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-tervkc:hover,
+.cache-tervkc:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-37jn2g:hover,
-.cache-37jn2g:focus {
+.cache-tervkc:hover,
+.cache-tervkc:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-37jn2g:focus {
+.cache-tervkc:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -334,12 +334,12 @@ exports[`Submit form is submitting 1`] = `
   >
     <button
       aria-disabled="true"
-      class="em6gco80 cache-37jn2g"
+      class="em6gco80 cache-tervkc"
       disabled=""
       type="submit"
     >
       <div
-        class="cache-i7e9al em6gco82"
+        class="cache-i7e9al em6gco81"
       >
         <svg
           aria-label="Loading"
@@ -375,7 +375,7 @@ exports[`Submit form is submitting 1`] = `
         </svg>
       </div>
       <div
-        class="cache-115wth8 em6gco81"
+        class="cache-115wth8 em6gco82"
       >
         Test
       </div>
@@ -386,7 +386,7 @@ exports[`Submit form is submitting 1`] = `
 
 exports[`Submit renders correctly  1`] = `
 <DocumentFragment>
-  .cache-chamjp {
+  .cache-97ibd5 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -423,19 +423,19 @@ exports[`Submit renders correctly  1`] = `
   color: #ffffff;
 }
 
-.cache-chamjp:hover,
-.cache-chamjp:focus {
+.cache-97ibd5:hover,
+.cache-97ibd5:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-chamjp:hover,
-.cache-chamjp:focus {
+.cache-97ibd5:hover,
+.cache-97ibd5:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-chamjp:focus {
+.cache-97ibd5:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -460,11 +460,11 @@ exports[`Submit renders correctly  1`] = `
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-chamjp"
+      class="em6gco80 cache-97ibd5"
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco81"
+        class="cache-115wth8 em6gco82"
       >
         Test
       </div>
@@ -475,7 +475,7 @@ exports[`Submit renders correctly  1`] = `
 
 exports[`Submit renders correctly with icon and iconPosition  1`] = `
 <DocumentFragment>
-  .cache-chamjp {
+  .cache-97ibd5 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -512,19 +512,19 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
   color: #ffffff;
 }
 
-.cache-chamjp:hover,
-.cache-chamjp:focus {
+.cache-97ibd5:hover,
+.cache-97ibd5:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-chamjp:hover,
-.cache-chamjp:focus {
+.cache-97ibd5:hover,
+.cache-97ibd5:focus {
   color: #ffffff;
   background-color: #149a7b;
 }
 
-.cache-chamjp:focus {
+.cache-97ibd5:focus {
   box-shadow: 0 0 0 2px rgba(20,154,123,0.25);
 }
 
@@ -570,16 +570,16 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
   >
     <button
       aria-disabled="false"
-      class="em6gco80 cache-chamjp"
+      class="em6gco80 cache-97ibd5"
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco81"
+        class="cache-115wth8 em6gco82"
       >
         Test
       </div>
       <div
-        class="cache-14frhxz em6gco82"
+        class="cache-14frhxz em6gco81"
       >
         <svg
           class="sc-ui-icon etwatq50 cache-9f03wb-sizeStyles"

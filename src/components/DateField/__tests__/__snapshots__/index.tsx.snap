@@ -216,7 +216,7 @@ exports[`DateField should render correctly 1`] = `
   height: 48px;
 }
 
-.cache-2f6tjv {
+.cache-yj0l2t {
   margin: 0;
   border: 0;
   width: 1px;
@@ -225,12 +225,8 @@ exports[`DateField should render correctly 1`] = `
   -ms-flex-negative: 0;
   flex-shrink: 0;
   background-color: #e6e9f0;
-}
-
-.cache-2f6tjv.cache-2f6tjv {
+  margin: 0 8px;
   height: 100%;
-  margin-right: 8px;
-  margin-left: 8px;
 }
 
 .cache-1j3zzm7-sizeStyles {
@@ -291,7 +287,7 @@ exports[`DateField should render correctly 1`] = `
             >
               <hr
                 aria-orientation="vertical"
-                class="eoti1h20 cache-2f6tjv"
+                class="e17s8tvr4 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg
@@ -532,7 +528,7 @@ exports[`DateField should render correctly disabled 1`] = `
   height: 48px;
 }
 
-.cache-2f6tjv {
+.cache-yj0l2t {
   margin: 0;
   border: 0;
   width: 1px;
@@ -541,12 +537,8 @@ exports[`DateField should render correctly disabled 1`] = `
   -ms-flex-negative: 0;
   flex-shrink: 0;
   background-color: #e6e9f0;
-}
-
-.cache-2f6tjv.cache-2f6tjv {
+  margin: 0 8px;
   height: 100%;
-  margin-right: 8px;
-  margin-left: 8px;
 }
 
 .cache-1j3zzm7-sizeStyles {
@@ -609,7 +601,7 @@ exports[`DateField should render correctly disabled 1`] = `
             >
               <hr
                 aria-orientation="vertical"
-                class="eoti1h20 cache-2f6tjv"
+                class="e17s8tvr4 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg
@@ -845,7 +837,7 @@ exports[`DateField should trigger events 1`] = `
   height: 48px;
 }
 
-.cache-2f6tjv {
+.cache-yj0l2t {
   margin: 0;
   border: 0;
   width: 1px;
@@ -854,12 +846,8 @@ exports[`DateField should trigger events 1`] = `
   -ms-flex-negative: 0;
   flex-shrink: 0;
   background-color: #e6e9f0;
-}
-
-.cache-2f6tjv.cache-2f6tjv {
+  margin: 0 8px;
   height: 100%;
-  margin-right: 8px;
-  margin-left: 8px;
 }
 
 .cache-1j3zzm7-sizeStyles {
@@ -891,7 +879,7 @@ exports[`DateField should trigger events 1`] = `
         >
           <div
             class=""
-            value="06/26/2022"
+            value="07/31/2022"
           >
             <div
               class="cache-3svqc9"
@@ -904,7 +892,7 @@ exports[`DateField should trigger events 1`] = `
                   class="cache-16jruyc e18bmnpq0"
                   id="date-input"
                   type="text"
-                  value="6/26/2022"
+                  value="7/31/2022"
                 />
               </div>
               <div
@@ -920,7 +908,7 @@ exports[`DateField should trigger events 1`] = `
             >
               <hr
                 aria-orientation="vertical"
-                class="eoti1h20 cache-2f6tjv"
+                class="e17s8tvr4 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg

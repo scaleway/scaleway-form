@@ -1,3 +1,20 @@
+## [1.22.1](https://github.com/scaleway/scaleway-form/compare/v1.22.0...v1.22.1) (2022-08-02)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @types/react to v17.0.48 ([#424](https://github.com/scaleway/scaleway-form/issues/424)) ([9d3689b](https://github.com/scaleway/scaleway-form/commit/9d3689bd29b4dd44fd7ffedfcde8f91134e6de72))
+* **devdeps:** update dependency date-fns to v2.29.1 ([#420](https://github.com/scaleway/scaleway-form/issues/420)) ([56f181c](https://github.com/scaleway/scaleway-form/commit/56f181c84efc83e5ec76f26b772eeb35188a1498))
+* **devdeps:** update dependency rollup to v2.77.2 ([#422](https://github.com/scaleway/scaleway-form/issues/422)) ([4d70a7c](https://github.com/scaleway/scaleway-form/commit/4d70a7c313b3dd17946056bdc548686ee7e0d9b3))
+* **devdeps:** update dependency webpack to v5.74.0 ([#425](https://github.com/scaleway/scaleway-form/issues/425)) ([c54cbfd](https://github.com/scaleway/scaleway-form/commit/c54cbfdb23523dcd4bc7b3ea57c15d78e2927b35))
+* **devdeps:** update node.js to v18.7 ([#421](https://github.com/scaleway/scaleway-form/issues/421)) ([8a58db3](https://github.com/scaleway/scaleway-form/commit/8a58db3b63f23aed38158364d32ad56b2c7dc066))
+* **devdeps:** update pnpm to v7.8.0 ([#419](https://github.com/scaleway/scaleway-form/issues/419)) ([06f12c4](https://github.com/scaleway/scaleway-form/commit/06f12c44a289b0ad5fd6c3a00a39a7c4615d51e5))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update emotion and scw-ui ([b9ca1a4](https://github.com/scaleway/scaleway-form/commit/b9ca1a4be629d4ee3a4325acb133a72b7d276f54))
+
 ## [1.22.0](https://github.com/scaleway/scaleway-form/compare/v1.21.2...v1.22.0) (2022-07-26)
 
 

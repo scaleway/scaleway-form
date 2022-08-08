@@ -208,7 +208,7 @@ exports[`Submit form is invalid 1`] = `
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco82"
+        class="cache-115wth8 em6gco83"
       >
         Test
       </div>
@@ -375,7 +375,7 @@ exports[`Submit form is submitting 1`] = `
         </svg>
       </div>
       <div
-        class="cache-115wth8 em6gco82"
+        class="cache-115wth8 em6gco83"
       >
         Test
       </div>
@@ -464,7 +464,7 @@ exports[`Submit renders correctly  1`] = `
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco82"
+        class="cache-115wth8 em6gco83"
       >
         Test
       </div>
@@ -574,7 +574,7 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco82"
+        class="cache-115wth8 em6gco83"
       >
         Test
       </div>

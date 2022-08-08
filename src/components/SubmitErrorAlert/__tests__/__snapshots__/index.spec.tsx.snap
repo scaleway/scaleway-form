@@ -136,7 +136,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       type="submit"
     >
       <div
-        class="cache-115wth8 em6gco82"
+        class="cache-115wth8 em6gco83"
       >
         Submit
       </div>

@@ -1,3 +1,18 @@
+## [1.22.2](https://github.com/scaleway/scaleway-form/compare/v1.22.1...v1.22.2) (2022-08-08)
+
+
+### :package: Chore
+
+* **deps:** update scw-ui ([#436](https://github.com/scaleway/scaleway-form/issues/436)) ([8602438](https://github.com/scaleway/scaleway-form/commit/86024386c3706eac7a17c8b8f3be362e3aa51528))
+* **devdeps:** update actions/cache action to v3.0.6 ([#430](https://github.com/scaleway/scaleway-form/issues/430)) ([493e548](https://github.com/scaleway/scaleway-form/commit/493e548d16b577f9c01dab6b7f0ce0d45c56c49c))
+* **devdeps:** update babel monorepo to v7.18.10 ([#429](https://github.com/scaleway/scaleway-form/issues/429)) ([18b4a11](https://github.com/scaleway/scaleway-form/commit/18b4a114f85c63d9937fe6f5762d2bc7b312e715))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.48 ([#428](https://github.com/scaleway/scaleway-form/issues/428)) ([3af1051](https://github.com/scaleway/scaleway-form/commit/3af1051f715510fea92c5d74676655297f9d75c1))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.4.49 ([#435](https://github.com/scaleway/scaleway-form/issues/435)) ([6f6befc](https://github.com/scaleway/scaleway-form/commit/6f6befc94cc0cc4af43e25e720979dce7d141dce))
+* **devdeps:** update dependency @testing-library/dom to v8.16.1 ([#432](https://github.com/scaleway/scaleway-form/issues/432)) ([c568452](https://github.com/scaleway/scaleway-form/commit/c568452acd5ceed794e537253f11cfbbe12050d2))
+* **devdeps:** update dependency @testing-library/jest-dom to v5.16.5 ([#433](https://github.com/scaleway/scaleway-form/issues/433)) ([db4fa39](https://github.com/scaleway/scaleway-form/commit/db4fa39c959eaef4e19370106a4659aaf892696d))
+* **devdeps:** update dependency eslint to v8.21.0 ([#434](https://github.com/scaleway/scaleway-form/issues/434)) ([fa356a8](https://github.com/scaleway/scaleway-form/commit/fa356a8d8d872eb7bca285bfef0952293ce629d1))
+* **devdeps:** update docker/build-push-action action to v3.1.1 ([#431](https://github.com/scaleway/scaleway-form/issues/431)) ([eea8445](https://github.com/scaleway/scaleway-form/commit/eea8445b4da4a7417c3c30b157a37a749e524770))
+
 ## [1.22.1](https://github.com/scaleway/scaleway-form/compare/v1.22.0...v1.22.1) (2022-08-02)
 
 

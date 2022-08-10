@@ -1,7 +1,7 @@
 import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import RadioBorderedBoxField from '..'
+import SelectableCardField from '..'
 import {
   mockRandom,
   restoreRandom,
@@ -11,27 +11,22 @@ import {
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 
-describe('RadioBorderedBoxField', () => {
+describe('SelectableCardField', () => {
   beforeAll(mockRandom)
   afterAll(restoreRandom)
 
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <RadioBorderedBoxField name="test" value="test" label="Choice 1">
+      <SelectableCardField name="test" value="test">
         Radio field
-      </RadioBorderedBoxField>,
+      </SelectableCardField>,
     ))
 
   test('should render correctly disabled', () =>
     shouldMatchEmotionSnapshotFormWrapper(
-      <RadioBorderedBoxField
-        name="test"
-        value="disabled"
-        label="Choice 1"
-        disabled
-      >
+      <SelectableCardField name="test" value="disabled" disabled>
         Radio field disabled
-      </RadioBorderedBoxField>,
+      </SelectableCardField>,
       {
         transform: node => {
           const input = node.getByRole('radio')
@@ -43,9 +38,9 @@ describe('RadioBorderedBoxField', () => {
   test('should render correctly checked', () =>
     shouldMatchEmotionSnapshot(
       <Form errors={mockErrors} initialValues={{ test: 'checked' }}>
-        <RadioBorderedBoxField name="test" value="checked" label="Choice 1">
+        <SelectableCardField name="test" value="checked">
           Radio field checked
-        </RadioBorderedBoxField>
+        </SelectableCardField>
       </Form>,
       {
         transform: node => {
@@ -61,16 +56,15 @@ describe('RadioBorderedBoxField', () => {
     const onBlur = jest.fn(() => {})
 
     return shouldMatchEmotionSnapshotFormWrapper(
-      <RadioBorderedBoxField
+      <SelectableCardField
         name="test"
-        label="Choice 1"
         value="events"
         onChange={onChange}
         onFocus={onFocus}
         onBlur={onBlur}
       >
         Radio field events
-      </RadioBorderedBoxField>,
+      </SelectableCardField>,
       {
         transform: node => {
           const input = node.getByRole('radio')
@@ -94,14 +88,9 @@ describe('RadioBorderedBoxField', () => {
   test('should render correctly with errors', () =>
     shouldMatchEmotionSnapshot(
       <Form errors={mockErrors}>
-        <RadioBorderedBoxField
-          name="test"
-          value="checked"
-          label="Choice 1"
-          required
-        >
+        <SelectableCardField name="test" value="checked" required>
           Radio field error
-        </RadioBorderedBoxField>
+        </SelectableCardField>
         <button type="submit">Submit</button>
       </Form>,
       {
@@ -109,8 +98,8 @@ describe('RadioBorderedBoxField', () => {
           await act(async () => {
             await userEvent.click(node.getByRole('button'))
           })
-          const error = node.getByText(mockErrors.REQUIRED as string)
-          expect(error).toBeVisible()
+          const input = node.getByRole('radio')
+          expect(input).toHaveAttribute('aria-invalid', 'true')
         },
       },
     ))

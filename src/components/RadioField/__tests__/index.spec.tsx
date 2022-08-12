@@ -2,6 +2,8 @@ import { act } from '@testing-library/react'
 import React from 'react'
 import RadioField from '..'
 import {
+  mockRandom,
+  restoreRandom,
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
@@ -9,6 +11,9 @@ import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 
 describe('RadioField', () => {
+  beforeAll(mockRandom)
+  afterAll(restoreRandom)
+
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
       <RadioField name="test" value="test">

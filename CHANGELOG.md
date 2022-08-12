@@ -1,3 +1,16 @@
+## [1.23.0](https://github.com/scaleway/scaleway-form/compare/v1.22.2...v1.23.0) (2022-08-12)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.7 ([#439](https://github.com/scaleway/scaleway-form/issues/439)) ([73981a2](https://github.com/scaleway/scaleway-form/commit/73981a2e6f52ba871acb1d7b5ef260823a4a005b))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.0 ([#437](https://github.com/scaleway/scaleway-form/issues/437)) ([96dec84](https://github.com/scaleway/scaleway-form/commit/96dec8466f9efa58d0ff191297b79c9858ea233b))
+
+
+### :gear: Features
+
+* new SelectableCardField ([#438](https://github.com/scaleway/scaleway-form/issues/438)) ([cb3d7a7](https://github.com/scaleway/scaleway-form/commit/cb3d7a7f99799d099106b3dcc9fa9a62098c1ef4))
+
 ## [1.22.2](https://github.com/scaleway/scaleway-form/compare/v1.22.1...v1.22.2) (2022-08-08)
 
 

@@ -1,3 +1,19 @@
+## [1.23.1](https://github.com/scaleway/scaleway-form/compare/v1.23.0...v1.23.1) (2022-08-17)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.1 ([#445](https://github.com/scaleway/scaleway-form/issues/445)) ([42de756](https://github.com/scaleway/scaleway-form/commit/42de756a0a75bcde79cf168b5f929eace2c04645))
+* **devdeps:** update dependency @testing-library/dom to v8.17.1 ([#443](https://github.com/scaleway/scaleway-form/issues/443)) ([6c73bc7](https://github.com/scaleway/scaleway-form/commit/6c73bc72c56b3a22ac5a122f7108867fb7f9f9d1))
+* **devdeps:** update dependency @testing-library/user-event to v14.4.3 ([#444](https://github.com/scaleway/scaleway-form/issues/444)) ([bd005bd](https://github.com/scaleway/scaleway-form/commit/bd005bd25ff477cbc2e4a7352bd2db9f0ce27bf8))
+* **devdeps:** update dependency rollup to v2.78.0 ([#441](https://github.com/scaleway/scaleway-form/issues/441)) ([c605e89](https://github.com/scaleway/scaleway-form/commit/c605e89585bca8ea496dd901ca6207b3f4e36e87))
+* **devdeps:** update pnpm to v7.9.0 ([#440](https://github.com/scaleway/scaleway-form/issues/440)) ([39412d7](https://github.com/scaleway/scaleway-form/commit/39412d72970f5763bd4f1ce46ae08ed9757369eb))
+
+
+### :bug: Bug Fixes
+
+* add export of selectablecardfield ([#446](https://github.com/scaleway/scaleway-form/issues/446)) ([ae8e729](https://github.com/scaleway/scaleway-form/commit/ae8e729a842f55c2839084965ea42e04fa1d2d57))
+
 ## [1.23.0](https://github.com/scaleway/scaleway-form/compare/v1.22.2...v1.23.0) (2022-08-12)
 
 

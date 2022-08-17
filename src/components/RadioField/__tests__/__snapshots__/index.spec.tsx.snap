@@ -128,13 +128,14 @@ exports[`RadioField should render correctly 1`] = `
     <label
       aria-disabled="false"
       class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-test"
     >
       <input
         aria-checked="false"
         aria-disabled="false"
         aria-invalid="false"
         class="cache-dhqfi e1duuirp1"
-        id="id-d9i348"
+        id="test-test"
         name="test"
         tabindex="0"
         type="radio"
@@ -300,6 +301,7 @@ exports[`RadioField should render correctly checked 1`] = `
     <label
       aria-disabled="false"
       class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-checked"
     >
       <input
         aria-checked="true"
@@ -307,7 +309,7 @@ exports[`RadioField should render correctly checked 1`] = `
         aria-invalid="false"
         checked=""
         class="cache-dhqfi e1duuirp1"
-        id="id-d9i348"
+        id="test-checked"
         name="test"
         tabindex="0"
         type="radio"
@@ -473,6 +475,7 @@ exports[`RadioField should render correctly disabled 1`] = `
     <label
       aria-disabled="true"
       class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-disabled"
     >
       <input
         aria-checked="false"
@@ -480,7 +483,7 @@ exports[`RadioField should render correctly disabled 1`] = `
         aria-invalid="false"
         class="cache-dhqfi e1duuirp1"
         disabled=""
-        id="id-d9i348"
+        id="test-disabled"
         name="test"
         style="pointer-events: none;"
         type="radio"
@@ -646,13 +649,14 @@ exports[`RadioField should trigger events correctly 1`] = `
     <label
       aria-disabled="false"
       class="e1duuirp0 e1g1zfwd0 cache-19tfi5p-variantStyles"
+      for="test-events"
     >
       <input
         aria-checked="true"
         aria-disabled="false"
         aria-invalid="false"
         class="cache-dhqfi e1duuirp1"
-        id="id-d9i348"
+        id="test-events"
         name="test"
         tabindex="0"
         type="radio"

@@ -1,3 +1,10 @@
+## [1.23.3](https://github.com/scaleway/scaleway-form/compare/v1.23.2...v1.23.3) (2022-08-17)
+
+
+### :bug: Bug Fixes
+
+* **richSelect:** error when untouched ([#442](https://github.com/scaleway/scaleway-form/issues/442)) ([2472b24](https://github.com/scaleway/scaleway-form/commit/2472b24cd8437fb842741c1e4734d324844fbf24))
+
 ## [1.23.2](https://github.com/scaleway/scaleway-form/compare/v1.23.1...v1.23.2) (2022-08-17)
 
 

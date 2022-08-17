@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/scaleway/scaleway-form/compare/v1.23.1...v1.23.2) (2022-08-17)
+
+
+### :bug: Bug Fixes
+
+* update scaleway ui v0.178.3 ([#447](https://github.com/scaleway/scaleway-form/issues/447)) ([e8f6f66](https://github.com/scaleway/scaleway-form/commit/e8f6f66a96fc251a60c377e79ec50b3eebfb29e7))
+
 ## [1.23.1](https://github.com/scaleway/scaleway-form/compare/v1.23.0...v1.23.1) (2022-08-17)
 
 

@@ -175,7 +175,7 @@ const RichSelectField = <
   const error = useMemo(() => {
     if (errorProp) return errorProp
 
-    return meta.error
+    return meta.error && meta.touched
       ? getFirstError({
           allValues: values,
           label,

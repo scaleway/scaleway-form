@@ -4,6 +4,7 @@ export { default as RadioBorderedBoxField } from './components/RadioBorderedBoxF
 export { default as RadioField } from './components/RadioField'
 export { default as RichSelectField } from './components/RichSelectField'
 export { default as SelectNumberField } from './components/SelectNumberField'
+export { default as SelectableCardField } from './components/SelectableCardField'
 export { default as Submit } from './components/Submit'
 export { default as SubmitErrorAlert } from './components/SubmitErrorAlert'
 export { default as SwitchField } from './components/SwitchField'

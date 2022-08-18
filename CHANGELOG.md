@@ -1,3 +1,15 @@
+## [1.24.0](https://github.com/scaleway/scaleway-form/compare/v1.23.3...v1.24.0) (2022-08-18)
+
+
+### :package: Chore
+
+* **devdeps:** update pnpm to v7.9.3 ([#448](https://github.com/scaleway/scaleway-form/issues/448)) ([929828a](https://github.com/scaleway/scaleway-form/commit/929828a393fe04d325d80613af4cb6e5734faf35))
+
+
+### :gear: Features
+
+* react 18 ([#449](https://github.com/scaleway/scaleway-form/issues/449)) ([c510703](https://github.com/scaleway/scaleway-form/commit/c5107033c4d183167d6ef0e8c961cb10365b1eb0))
+
 ## [1.23.3](https://github.com/scaleway/scaleway-form/compare/v1.23.2...v1.23.3) (2022-08-17)
 
 

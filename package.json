@@ -73,8 +73,8 @@
   "pnpm": {
     "peerDependencyRules": {
       "allowedVersions": {
-        "react": "17",
-        "react-dom": "17"
+        "react": "18",
+        "react-dom": "18"
       }
     }
   },
@@ -115,8 +115,8 @@
   "peerDependencies": {
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "react": "18.x",
+    "react-dom": "18.x"
   },
   "devDependencies": {
     "@babel/core": "7.18.10",
@@ -157,13 +157,12 @@
     "@storybook/theming": "6.4.22",
     "@testing-library/dom": "8.17.1",
     "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "12.1.5",
-    "@testing-library/react-hooks": "8.0.1",
+    "@testing-library/react": "13.3.0",
     "@testing-library/user-event": "14.4.3",
     "@types/final-form-focus": "1.1.2",
     "@types/node": "18.0.0",
-    "@types/react": "17.0.48",
-    "@types/react-dom": "17.0.17",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
     "babel-loader": "8.2.5",
     "babel-plugin-annotate-pure-calls": "0.4.0",
     "cross-env": "7.0.3",
@@ -178,8 +177,8 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "prop-types": "15.8.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "read-pkg": "7.1.0",
     "regenerator-runtime": "0.13.9",
     "rollup": "2.78.0",

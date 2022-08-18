@@ -2,15 +2,16 @@ import { ThemeProvider } from '@emotion/react'
 import makeHelpers from '@scaleway/jest-helpers'
 import { lightTheme } from '@scaleway/ui'
 import { render } from '@testing-library/react'
-import React, { ComponentProps, FC, ReactElement, ReactNode } from 'react'
+import React, { ComponentProps, ReactElement, ReactNode } from 'react'
 import Form from '../components/Form'
 import mockErrors from '../mocks/mockErrors'
 
 interface WrapperProps {
   theme?: typeof lightTheme
+  children: ReactNode
 }
 
-const Wrapper: FC<WrapperProps> = ({ theme = lightTheme, children }) => (
+const Wrapper = ({ theme = lightTheme, children }: WrapperProps) => (
   <ThemeProvider theme={theme}>{children}</ThemeProvider>
 )
 

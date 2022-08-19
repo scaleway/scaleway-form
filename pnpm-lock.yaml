@@ -51,7 +51,7 @@ specifiers:
   babel-plugin-annotate-pure-calls: 0.4.0
   cross-env: 7.0.3
   cz-conventional-changelog: 3.3.0
-  date-fns: 2.29.1
+  date-fns: 2.29.2
   eslint: 8.22.0
   eslint-plugin-mdx: 2.0.2
   final-form: 4.20.7
@@ -135,7 +135,7 @@ devDependencies:
   babel-plugin-annotate-pure-calls: 0.4.0_@babel+core@7.18.10
   cross-env: 7.0.3
   cz-conventional-changelog: 3.3.0
-  date-fns: 2.29.1
+  date-fns: 2.29.2
   eslint: 8.22.0
   eslint-plugin-mdx: 2.0.2_eslint@8.22.0
   husky: 8.0.1
@@ -7896,8 +7896,8 @@ packages:
       whatwg-url: 11.0.0
     dev: true
 
-  /date-fns/2.29.1:
-    resolution: {integrity: sha512-dlLD5rKaKxpFdnjrs+5azHDFOPEu4ANy/LTh04A1DTzMM7qoajmKCBc8pkKRFT41CNzw+4gQh79X5C+Jq27HAw==}
+  /date-fns/2.29.2:
+    resolution: {integrity: sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==}
     engines: {node: '>=0.11'}
 
   /dateformat/3.0.3:
@@ -14142,7 +14142,7 @@ packages:
     dependencies:
       '@popperjs/core': 2.11.5
       classnames: 2.3.1
-      date-fns: 2.29.1
+      date-fns: 2.29.2
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0

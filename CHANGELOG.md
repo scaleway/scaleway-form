@@ -1,3 +1,15 @@
+## [1.25.0](https://github.com/scaleway/scaleway-form/compare/v1.24.0...v1.25.0) (2022-08-19)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency eslint to v8.22.0 ([#450](https://github.com/scaleway/scaleway-form/issues/450)) ([02e77a5](https://github.com/scaleway/scaleway-form/commit/02e77a53a027b11345893429696a9286a7a36ebb))
+
+
+### :gear: Features
+
+* **richSelect:** forward noTopLabel prop ([#451](https://github.com/scaleway/scaleway-form/issues/451)) ([a07811c](https://github.com/scaleway/scaleway-form/commit/a07811c257c3edaa825acec66c0c0997fa7c4dde))
+
 ## [1.24.0](https://github.com/scaleway/scaleway-form/compare/v1.23.3...v1.24.0) (2022-08-18)
 
 

@@ -1,6 +1,6 @@
 import { SelectableCard } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { ComponentProps, ReactNode, useMemo } from 'react'
+import React, { ComponentProps, useMemo } from 'react'
 import { useField, useFormState } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
@@ -26,9 +26,10 @@ type SelectableCardFieldProps<
       | 'showTick'
       | 'type'
       | 'id'
+      | 'children'
+      | 'name'
     >
   > & {
-    children?: ReactNode
     name: string
     required?: boolean
     className?: string

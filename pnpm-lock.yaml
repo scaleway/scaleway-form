@@ -22,7 +22,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.5.3
-  '@scaleway/jest-helpers': 1.2.8
+  '@scaleway/jest-helpers': 2.0.12
   '@scaleway/ui': 0.178.3
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
@@ -107,7 +107,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.78.1
   '@rollup/plugin-url': 7.0.0_rollup@2.78.1
   '@scaleway/eslint-config-react': 3.5.3_4rv7y5c6xz3vfxwhbrcxxi73bq
-  '@scaleway/jest-helpers': 1.2.8_dvp6wxm7rs4sirs67lhxth6k7q
+  '@scaleway/jest-helpers': 2.0.12_dvp6wxm7rs4sirs67lhxth6k7q
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.3
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.3
   '@semantic-release/git': 10.0.1_semantic-release@19.0.3
@@ -2149,16 +2149,6 @@ packages:
       '@emotion/weak-memoize': 0.2.5
     dev: true
 
-  /@emotion/cache/11.10.0:
-    resolution: {integrity: sha512-3FoUWnDbHWg/pXGCvL46jvpOSJP0xvRZLY8khUcUHGOBcp0S/MCIk+osp84/dby2Ctahw/Ev4KTHWkY3i0g39g==}
-    dependencies:
-      '@emotion/memoize': 0.8.0
-      '@emotion/sheet': 1.2.0
-      '@emotion/utils': 1.2.0
-      '@emotion/weak-memoize': 0.3.0
-      stylis: 4.0.13
-    dev: true
-
   /@emotion/cache/11.10.1:
     resolution: {integrity: sha512-uZTj3Yz5D69GE25iFZcIQtibnVCFsc/6+XIozyL3ycgWvEdif2uEw9wlUt6umjLr4Keg9K6xRPHmD8LGi+6p1A==}
     dependencies:
@@ -3318,15 +3308,15 @@ packages:
       - typescript
     dev: true
 
-  /@scaleway/jest-helpers/1.2.8_dvp6wxm7rs4sirs67lhxth6k7q:
-    resolution: {integrity: sha512-rnn3lp5PDIj8ASYfv2NaKL0BaSBTDxOSkyXZ6k3skpum85WnWKCC1MSr4FTsq3JhdEOiaGw4eXokdHX2wu5DqQ==}
+  /@scaleway/jest-helpers/2.0.12_dvp6wxm7rs4sirs67lhxth6k7q:
+    resolution: {integrity: sha512-7CZyOzSyWS5YJa9QBgQzoFtXkAl7onhS+zbt6ZE/RM556PK7Y31WgzTIn86mtX5r8TcxPssY1D76HaE76VIB4g==}
     peerDependencies:
-      react: ^17.0.1 || 18
+      react: ^18.0.0 || 18
     dependencies:
-      '@emotion/cache': 11.10.0
+      '@emotion/cache': 11.10.1
       '@emotion/jest': 11.10.0
       '@emotion/react': 11.10.0_msmmgljd7hl2w2irtggflhmema
-      '@testing-library/react': 12.1.5_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -5013,20 +5003,6 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/12.1.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-OfTXCJUFgjd/digLUuPxa0+/3ZxsQmE7ub9kcbW/wi96Bh3o/p5vrETcBGfP17NWPGqeYYl5LTRpwyGoMC4ysg==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: <18.0.0 || 18
-      react-dom: <18.0.0 || 18
-    dependencies:
-      '@babel/runtime': 7.18.9
-      '@testing-library/dom': 8.17.1
-      '@types/react-dom': 17.0.17
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: true
-
   /@testing-library/react/13.3.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ==}
     engines: {node: '>=12'}
@@ -5304,12 +5280,6 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
 
-  /@types/react-dom/17.0.17:
-    resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
-    dependencies:
-      '@types/react': 17.0.48
-    dev: true
-
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
@@ -5327,14 +5297,6 @@ packages:
     dependencies:
       '@types/react': 18.0.17
     dev: false
-
-  /@types/react/17.0.48:
-    resolution: {integrity: sha512-zJ6IYlJ8cYYxiJfUaZOQee4lh99mFihBoqkOSEGV+dFi9leROW6+PgstzQ+w3gWTnUfskALtQPGHK6dYmPj+2A==}
-    dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.2
-      csstype: 3.1.0
-    dev: true
 
   /@types/react/18.0.17:
     resolution: {integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==}

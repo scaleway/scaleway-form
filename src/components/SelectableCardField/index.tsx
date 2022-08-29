@@ -28,6 +28,7 @@ type SelectableCardFieldProps<
       | 'id'
       | 'children'
       | 'name'
+      | 'tooltip'
     >
   > & {
     name: string
@@ -48,6 +49,7 @@ const SelectableCardField = ({
   onBlur,
   required,
   validate,
+  tooltip,
   id,
 }: SelectableCardFieldProps): JSX.Element => {
   const { values } = useFormState()
@@ -103,6 +105,7 @@ const SelectableCardField = ({
       type={type}
       value={input.value}
       id={id}
+      tooltip={tooltip}
     >
       {children}
     </SelectableCard>

@@ -1,3 +1,17 @@
+## [1.25.2](https://github.com/scaleway/scaleway-form/compare/v1.25.1...v1.25.2) (2022-08-29)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.3 ([#458](https://github.com/scaleway/scaleway-form/issues/458)) ([7b2c4fb](https://github.com/scaleway/scaleway-form/commit/7b2c4fbdd732c9812a4bcf5cf303238d642d6be3))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2 ([#456](https://github.com/scaleway/scaleway-form/issues/456)) ([e2df940](https://github.com/scaleway/scaleway-form/commit/e2df9403265dcf916ca5b3c998d6216ba32a263f))
+* **devdeps:** update node.js to v18.8 ([#459](https://github.com/scaleway/scaleway-form/issues/459)) ([e5889dd](https://github.com/scaleway/scaleway-form/commit/e5889dd626a76badfeb2c83970d0bd2e4cbdd5f7))
+
+
+### :bug: Bug Fixes
+
+* **SelectableCard:** add missing tooltip prop ([#462](https://github.com/scaleway/scaleway-form/issues/462)) ([9a1e0fd](https://github.com/scaleway/scaleway-form/commit/9a1e0fd99eda6d0d6173b1c886b2c58f9a1a7bb7))
+
 ## [1.25.1](https://github.com/scaleway/scaleway-form/compare/v1.25.0...v1.25.1) (2022-08-23)
 
 

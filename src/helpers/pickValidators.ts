@@ -5,11 +5,11 @@ import { ValidatorFn } from '../validators/types'
 const pickValidators = <InputValue = unknown>(args: ValidatorProps) =>
   Object.entries(args)
     .map(([key, value]) =>
-      value === undefined || (key === 'required' && value === false)
-        ? undefined
-        : (validators as Record<string, ValidatorFn>)[
+      value !== undefined
+        ? (validators as Record<string, ValidatorFn>)[
             key as keyof typeof validators
-          ]?.(value),
+          ]?.(value)
+        : undefined,
     )
     .filter(validator => !!validator) as ValidatorObject<InputValue>[]
 

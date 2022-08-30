@@ -1,3 +1,10 @@
+## [1.25.5](https://github.com/scaleway/scaleway-form/compare/v1.25.4...v1.25.5) (2022-08-30)
+
+
+### :bug: Bug Fixes
+
+* required={false} should work ([#464](https://github.com/scaleway/scaleway-form/issues/464)) ([aef10ad](https://github.com/scaleway/scaleway-form/commit/aef10ad95ef2085df3a7988d563118697beab4b6))
+
 ## [1.25.4](https://github.com/scaleway/scaleway-form/compare/v1.25.3...v1.25.4) (2022-08-30)
 
 ## [1.25.3](https://github.com/scaleway/scaleway-form/compare/v1.25.2...v1.25.3) (2022-08-30)

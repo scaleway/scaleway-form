@@ -2,11 +2,7 @@
 
 exports[`SelectableCardField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-1rwssjd-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  .cache-ucq2yp {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -33,49 +29,49 @@ exports[`SelectableCardField should render correctly 1`] = `
   color: #4a4f62;
 }
 
-.cache-1rwssjd-variantStyles[aria-disabled='false'] {
+.cache-ucq2yp[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1rwssjd-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1rwssjd-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1rwssjd-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1rwssjd-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1rwssjd-variantStyles[aria-disabled='true'] {
+.cache-ucq2yp[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1rwssjd-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1rwssjd-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1rwssjd-variantStyles:hover,
-.cache-1rwssjd-variantStyles:focus-within,
-.cache-1rwssjd-variantStyles:active {
+.cache-ucq2yp:hover,
+.cache-ucq2yp:focus-within,
+.cache-ucq2yp:active {
   border: 1px solid #4f0599;
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-1rwssjd-variantStyles input+svg {
+.cache-ucq2yp input+svg {
   display: none;
 }
 
@@ -152,7 +148,8 @@ exports[`SelectableCardField should render correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-1rwssjd-variantStyles"
+      class="ejleepd0 cache-ucq2yp e1duuirp0"
+      data-checked="false"
       for="test-test"
     >
       <input
@@ -200,11 +197,7 @@ exports[`SelectableCardField should render correctly 1`] = `
 
 exports[`SelectableCardField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-17cir7j-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  .cache-1wov7rm {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -231,49 +224,49 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   color: #4f0599;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='false'] {
+.cache-1wov7rm[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] {
+.cache-1wov7rm[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-17cir7j-variantStyles:hover,
-.cache-17cir7j-variantStyles:focus-within,
-.cache-17cir7j-variantStyles:active {
+.cache-1wov7rm:hover,
+.cache-1wov7rm:focus-within,
+.cache-1wov7rm:active {
   border: 1px solid #4f0599;
   box-shadow: none;
 }
 
-.cache-17cir7j-variantStyles input+svg {
+.cache-1wov7rm input+svg {
   display: none;
 }
 
@@ -350,7 +343,8 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   >
     <label
       aria-disabled="false"
-      class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-17cir7j-variantStyles"
+      class="ejleepd0 cache-1wov7rm e1duuirp0"
+      data-checked="true"
       for="test-checked"
     >
       <input
@@ -399,11 +393,7 @@ exports[`SelectableCardField should render correctly checked 1`] = `
 
 exports[`SelectableCardField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-1eoyf0j-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  .cache-11p36ck {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -431,42 +421,42 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   background: #f6f6f8;
 }
 
-.cache-1eoyf0j-variantStyles[aria-disabled='false'] {
+.cache-11p36ck[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1eoyf0j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1eoyf0j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1eoyf0j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1eoyf0j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1eoyf0j-variantStyles[aria-disabled='true'] {
+.cache-11p36ck[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1eoyf0j-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-11p36ck[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1eoyf0j-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-11p36ck[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1eoyf0j-variantStyles input+svg {
+.cache-11p36ck input+svg {
   display: none;
 }
 
@@ -543,7 +533,8 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   >
     <label
       aria-disabled="true"
-      class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-1eoyf0j-variantStyles"
+      class="ejleepd0 cache-11p36ck e1duuirp0"
+      data-checked="false"
       for="test-disabled"
     >
       <input
@@ -592,11 +583,7 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
 
 exports[`SelectableCardField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-10ruvvn-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  .cache-lybs5r {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -623,42 +610,42 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   color: #a6102d;
 }
 
-.cache-10ruvvn-variantStyles[aria-disabled='false'] {
+.cache-lybs5r[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-10ruvvn-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-10ruvvn-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-10ruvvn-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-10ruvvn-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-10ruvvn-variantStyles[aria-disabled='true'] {
+.cache-lybs5r[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-10ruvvn-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-lybs5r[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-10ruvvn-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-lybs5r[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-10ruvvn-variantStyles input+svg {
+.cache-lybs5r input+svg {
   display: none;
 }
 
@@ -735,7 +722,8 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   >
     <label
       aria-disabled="false"
-      class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-10ruvvn-variantStyles"
+      class="ejleepd0 cache-lybs5r e1duuirp0"
+      data-checked="false"
       for="test-checked"
     >
       <input
@@ -788,11 +776,7 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
 
 exports[`SelectableCardField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-17cir7j-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+  .cache-138nad2 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -819,49 +803,49 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   color: #4f0599;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='false'] {
+.cache-138nad2[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-17cir7j-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] {
+.cache-138nad2[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-138nad2[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-17cir7j-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-138nad2[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-17cir7j-variantStyles:hover,
-.cache-17cir7j-variantStyles:focus-within,
-.cache-17cir7j-variantStyles:active {
+.cache-138nad2:hover,
+.cache-138nad2:focus-within,
+.cache-138nad2:active {
   border: 1px solid #4f0599;
   box-shadow: none;
 }
 
-.cache-17cir7j-variantStyles input+svg {
+.cache-138nad2 input+svg {
   display: none;
 }
 
@@ -938,7 +922,8 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-17cir7j-variantStyles"
+      class="ejleepd0 cache-138nad2 e1duuirp0"
+      data-checked="true"
       for="test-events"
     >
       <input

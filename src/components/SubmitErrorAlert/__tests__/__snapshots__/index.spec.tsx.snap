@@ -116,14 +116,17 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   flex: 1;
 }
 
-.cache-o2m43u-bodyA-variantStyles-colorStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-32yyfx {
   color: #4a4f62;
   font-size: 16px;
+  font-family: Asap;
+  font-weight: 400;
+  letter-spacing: 0;
   line-height: 24px;
+  paragraph-spacing: none;
+  text-case: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -142,11 +145,11 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       </div>
     </button>
     <div
-      class="eenhiht2 cache-xc74ft-alertStyles"
+      class="eenhiht3 cache-xc74ft-alertStyles"
     >
       <svg
         aria-hidden="true"
-        class="eenhiht1 etwatq50 cache-1q6mt23-sizeStyles"
+        class="eenhiht2 etwatq50 cache-1q6mt23-sizeStyles"
         viewBox="0 0 24 24"
       >
         <path
@@ -154,10 +157,10 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
         />
       </svg>
       <div
-        class="cache-oaar7r eenhiht0"
+        class="cache-oaar7r eenhiht1"
       >
         <p
-          class="e1g1zfwd0 cache-o2m43u-bodyA-variantStyles-colorStyles"
+          class="eenhiht0 cache-32yyfx e1tg3t120"
         >
           hello
         </p>

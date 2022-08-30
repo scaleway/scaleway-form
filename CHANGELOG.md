@@ -1,3 +1,5 @@
+## [1.25.4](https://github.com/scaleway/scaleway-form/compare/v1.25.3...v1.25.4) (2022-08-30)
+
 ## [1.25.3](https://github.com/scaleway/scaleway-form/compare/v1.25.2...v1.25.3) (2022-08-30)
 
 

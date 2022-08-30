@@ -1,3 +1,16 @@
+## [1.25.3](https://github.com/scaleway/scaleway-form/compare/v1.25.2...v1.25.3) (2022-08-30)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.6 ([#461](https://github.com/scaleway/scaleway-form/issues/461)) ([ecfa00f](https://github.com/scaleway/scaleway-form/commit/ecfa00fca46d3f566655a7f0b95355a29176133c))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2.0.13 ([#463](https://github.com/scaleway/scaleway-form/issues/463)) ([277439c](https://github.com/scaleway/scaleway-form/commit/277439cc9aed8a5b63a28a21c25e3f8fe024cd66))
+
+
+### :bug: Bug Fixes
+
+* require={false} should work ([1a81455](https://github.com/scaleway/scaleway-form/commit/1a81455b51a986ba761022bd7eed3966c30a352e))
+
 ## [1.25.2](https://github.com/scaleway/scaleway-form/compare/v1.25.1...v1.25.2) (2022-08-29)
 
 

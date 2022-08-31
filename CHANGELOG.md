@@ -1,3 +1,121 @@
+## [1.25.5](https://github.com/scaleway/scaleway-form/compare/v1.25.4...v1.25.5) (2022-08-30)
+
+
+### :bug: Bug Fixes
+
+* required={false} should work ([#464](https://github.com/scaleway/scaleway-form/issues/464)) ([aef10ad](https://github.com/scaleway/scaleway-form/commit/aef10ad95ef2085df3a7988d563118697beab4b6))
+
+## [1.25.4](https://github.com/scaleway/scaleway-form/compare/v1.25.3...v1.25.4) (2022-08-30)
+
+## [1.25.3](https://github.com/scaleway/scaleway-form/compare/v1.25.2...v1.25.3) (2022-08-30)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.6 ([#461](https://github.com/scaleway/scaleway-form/issues/461)) ([ecfa00f](https://github.com/scaleway/scaleway-form/commit/ecfa00fca46d3f566655a7f0b95355a29176133c))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2.0.13 ([#463](https://github.com/scaleway/scaleway-form/issues/463)) ([277439c](https://github.com/scaleway/scaleway-form/commit/277439cc9aed8a5b63a28a21c25e3f8fe024cd66))
+
+
+### :bug: Bug Fixes
+
+* require={false} should work ([1a81455](https://github.com/scaleway/scaleway-form/commit/1a81455b51a986ba761022bd7eed3966c30a352e))
+
+## [1.25.2](https://github.com/scaleway/scaleway-form/compare/v1.25.1...v1.25.2) (2022-08-29)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.3 ([#458](https://github.com/scaleway/scaleway-form/issues/458)) ([7b2c4fb](https://github.com/scaleway/scaleway-form/commit/7b2c4fbdd732c9812a4bcf5cf303238d642d6be3))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2 ([#456](https://github.com/scaleway/scaleway-form/issues/456)) ([e2df940](https://github.com/scaleway/scaleway-form/commit/e2df9403265dcf916ca5b3c998d6216ba32a263f))
+* **devdeps:** update node.js to v18.8 ([#459](https://github.com/scaleway/scaleway-form/issues/459)) ([e5889dd](https://github.com/scaleway/scaleway-form/commit/e5889dd626a76badfeb2c83970d0bd2e4cbdd5f7))
+
+
+### :bug: Bug Fixes
+
+* **SelectableCard:** add missing tooltip prop ([#462](https://github.com/scaleway/scaleway-form/issues/462)) ([9a1e0fd](https://github.com/scaleway/scaleway-form/commit/9a1e0fd99eda6d0d6173b1c886b2c58f9a1a7bb7))
+
+## [1.25.1](https://github.com/scaleway/scaleway-form/compare/v1.25.0...v1.25.1) (2022-08-23)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.8 ([#455](https://github.com/scaleway/scaleway-form/issues/455)) ([ab11ac9](https://github.com/scaleway/scaleway-form/commit/ab11ac94d3845a4b3792af2bc5e069656c5bf5f1))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.2 ([#452](https://github.com/scaleway/scaleway-form/issues/452)) ([c2ac805](https://github.com/scaleway/scaleway-form/commit/c2ac805eb1bc68929a534f76f1e0674ca61ba1b5))
+* **devdeps:** update dependency date-fns to v2.29.2 ([#453](https://github.com/scaleway/scaleway-form/issues/453)) ([ea804a4](https://github.com/scaleway/scaleway-form/commit/ea804a4394bd46f8b823093628310ee491a764e8))
+* **devdeps:** update dependency rollup to v2.78.1 ([#454](https://github.com/scaleway/scaleway-form/issues/454)) ([9800f75](https://github.com/scaleway/scaleway-form/commit/9800f7599a2ad084398921e72de081ae9ffa8f43))
+
+
+### :bug: Bug Fixes
+
+* **SelectableCard:** children type ([#457](https://github.com/scaleway/scaleway-form/issues/457)) ([ed7a7ab](https://github.com/scaleway/scaleway-form/commit/ed7a7ab6010d767ff765db79cd8a8e568fcb4ecc))
+
+## [1.25.0](https://github.com/scaleway/scaleway-form/compare/v1.24.0...v1.25.0) (2022-08-19)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency eslint to v8.22.0 ([#450](https://github.com/scaleway/scaleway-form/issues/450)) ([02e77a5](https://github.com/scaleway/scaleway-form/commit/02e77a53a027b11345893429696a9286a7a36ebb))
+
+
+### :gear: Features
+
+* **richSelect:** forward noTopLabel prop ([#451](https://github.com/scaleway/scaleway-form/issues/451)) ([a07811c](https://github.com/scaleway/scaleway-form/commit/a07811c257c3edaa825acec66c0c0997fa7c4dde))
+
+## [1.24.0](https://github.com/scaleway/scaleway-form/compare/v1.23.3...v1.24.0) (2022-08-18)
+
+
+### :package: Chore
+
+* **devdeps:** update pnpm to v7.9.3 ([#448](https://github.com/scaleway/scaleway-form/issues/448)) ([929828a](https://github.com/scaleway/scaleway-form/commit/929828a393fe04d325d80613af4cb6e5734faf35))
+
+
+### :gear: Features
+
+* react 18 ([#449](https://github.com/scaleway/scaleway-form/issues/449)) ([c510703](https://github.com/scaleway/scaleway-form/commit/c5107033c4d183167d6ef0e8c961cb10365b1eb0))
+
+## [1.23.3](https://github.com/scaleway/scaleway-form/compare/v1.23.2...v1.23.3) (2022-08-17)
+
+
+### :bug: Bug Fixes
+
+* **richSelect:** error when untouched ([#442](https://github.com/scaleway/scaleway-form/issues/442)) ([2472b24](https://github.com/scaleway/scaleway-form/commit/2472b24cd8437fb842741c1e4734d324844fbf24))
+
+## [1.23.2](https://github.com/scaleway/scaleway-form/compare/v1.23.1...v1.23.2) (2022-08-17)
+
+
+### :bug: Bug Fixes
+
+* update scaleway ui v0.178.3 ([#447](https://github.com/scaleway/scaleway-form/issues/447)) ([e8f6f66](https://github.com/scaleway/scaleway-form/commit/e8f6f66a96fc251a60c377e79ec50b3eebfb29e7))
+
+## [1.23.1](https://github.com/scaleway/scaleway-form/compare/v1.23.0...v1.23.1) (2022-08-17)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.1 ([#445](https://github.com/scaleway/scaleway-form/issues/445)) ([42de756](https://github.com/scaleway/scaleway-form/commit/42de756a0a75bcde79cf168b5f929eace2c04645))
+* **devdeps:** update dependency @testing-library/dom to v8.17.1 ([#443](https://github.com/scaleway/scaleway-form/issues/443)) ([6c73bc7](https://github.com/scaleway/scaleway-form/commit/6c73bc72c56b3a22ac5a122f7108867fb7f9f9d1))
+* **devdeps:** update dependency @testing-library/user-event to v14.4.3 ([#444](https://github.com/scaleway/scaleway-form/issues/444)) ([bd005bd](https://github.com/scaleway/scaleway-form/commit/bd005bd25ff477cbc2e4a7352bd2db9f0ce27bf8))
+* **devdeps:** update dependency rollup to v2.78.0 ([#441](https://github.com/scaleway/scaleway-form/issues/441)) ([c605e89](https://github.com/scaleway/scaleway-form/commit/c605e89585bca8ea496dd901ca6207b3f4e36e87))
+* **devdeps:** update pnpm to v7.9.0 ([#440](https://github.com/scaleway/scaleway-form/issues/440)) ([39412d7](https://github.com/scaleway/scaleway-form/commit/39412d72970f5763bd4f1ce46ae08ed9757369eb))
+
+
+### :bug: Bug Fixes
+
+* add export of selectablecardfield ([#446](https://github.com/scaleway/scaleway-form/issues/446)) ([ae8e729](https://github.com/scaleway/scaleway-form/commit/ae8e729a842f55c2839084965ea42e04fa1d2d57))
+
+## [1.23.0](https://github.com/scaleway/scaleway-form/compare/v1.22.2...v1.23.0) (2022-08-12)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.7 ([#439](https://github.com/scaleway/scaleway-form/issues/439)) ([73981a2](https://github.com/scaleway/scaleway-form/commit/73981a2e6f52ba871acb1d7b5ef260823a4a005b))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.0 ([#437](https://github.com/scaleway/scaleway-form/issues/437)) ([96dec84](https://github.com/scaleway/scaleway-form/commit/96dec8466f9efa58d0ff191297b79c9858ea233b))
+
+
+### :gear: Features
+
+* new SelectableCardField ([#438](https://github.com/scaleway/scaleway-form/issues/438)) ([cb3d7a7](https://github.com/scaleway/scaleway-form/commit/cb3d7a7f99799d099106b3dcc9fa9a62098c1ef4))
+
 ## [1.22.2](https://github.com/scaleway/scaleway-form/compare/v1.22.1...v1.22.2) (2022-08-08)
 
 

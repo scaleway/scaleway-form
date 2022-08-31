@@ -1,12 +1,12 @@
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import SwitchField from '..'
+import ToggleField from '..'
 import mockErrors from '../../../mocks/mockErrors'
 import Form from '../../Form'
 import Submit from '../../Submit'
 
 export default {
-  component: SwitchField,
+  component: ToggleField,
   decorators: [ChildStory => <Form errors={mockErrors}>{ChildStory()}</Form>],
   parameters: {
     docs: {
@@ -15,11 +15,11 @@ export default {
       },
     },
   },
-  title: 'Components/Fields/SwitchField',
+  title: 'Components/Fields/ToggleField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof SwitchField>> = args => (
-  <SwitchField {...args} />
+const Template: Story<ComponentProps<typeof ToggleField>> = args => (
+  <ToggleField {...args} />
 )
 
 Template.args = {
@@ -55,9 +55,9 @@ Disabled.args = {
   name: 'disabled',
 }
 
-export const Required: Story<ComponentProps<typeof SwitchField>> = args => (
+export const Required: Story<ComponentProps<typeof ToggleField>> = args => (
   <>
-    <SwitchField {...args} />
+    <ToggleField {...args} />
     <div style={{ marginTop: 8 }}>
       <Submit>Submit</Submit>
     </div>

@@ -108,11 +108,11 @@ exports[`TextBoxField should render correctly 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
+          class="cache-16jruyc e18bmnpq1"
           name="test"
           type="text"
           value=""
@@ -122,7 +122,7 @@ exports[`TextBoxField should render correctly 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -243,11 +243,11 @@ exports[`TextBoxField should render correctly disabled 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-4sr5xp e18bmnpq0"
+          class="cache-4sr5xp e18bmnpq1"
           disabled=""
           name="test"
           type="text"
@@ -258,7 +258,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -374,11 +374,11 @@ exports[`TextBoxField should render correctly generated 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
+          class="cache-16jruyc e18bmnpq1"
           name="test"
           type="text"
           value=""
@@ -388,7 +388,7 @@ exports[`TextBoxField should render correctly generated 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -504,11 +504,11 @@ exports[`TextBoxField should render correctly id 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
+          class="cache-16jruyc e18bmnpq1"
           id="id"
           name="test"
           type="text"
@@ -519,7 +519,7 @@ exports[`TextBoxField should render correctly id 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -628,7 +628,7 @@ exports[`TextBoxField should render correctly notice 1`] = `
   padding-top: 2px;
 }
 
-.cache-1rto160 {
+.cache-1wy3rxk {
   color: #b2b6c3;
   font-size: 12px;
   display: -webkit-box;
@@ -639,13 +639,11 @@ exports[`TextBoxField should render correctly notice 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.cache-1rto160.cache-1rto160 {
+  gap: 8px;
   margin-top: 8px;
 }
 
-.cache-da9p0e-sizeStyles {
+.cache-1dyzz17-sizeStyles {
   fill: currentColor;
   height: 20px;
   width: 20px;
@@ -653,9 +651,8 @@ exports[`TextBoxField should render correctly notice 1`] = `
   min-height: 20px;
 }
 
-.cache-da9p0e-sizeStyles.cache-da9p0e-sizeStyles {
+.cache-1dyzz17-sizeStyles.cache-1dyzz17-sizeStyles {
   vertical-align: top;
-  margin-right: 8px;
 }
 
 <form
@@ -665,11 +662,11 @@ exports[`TextBoxField should render correctly notice 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq0"
+          class="cache-16jruyc e18bmnpq1"
           name="test"
           type="text"
           value=""
@@ -679,14 +676,14 @@ exports[`TextBoxField should render correctly notice 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
       <div
-        class="e1qg14600 cache-1rto160"
+        class="e18bmnpq2 cache-1wy3rxk e1qg14600"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-da9p0e-sizeStyles"
+          class="sc-ui-icon etwatq50 cache-1dyzz17-sizeStyles"
           viewBox="0 0 24 24"
         >
           <path
@@ -882,17 +879,17 @@ exports[`TextBoxField should render correctly random 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-z48xia e18bmnpq0"
+          class="cache-z48xia e18bmnpq1"
           name="test"
           type="text"
           value=""
         />
         <div
-          class="cache-zmd8bf-StyledRightElement e18bmnpq4"
+          class="cache-zmd8bf-StyledRightElement e18bmnpq6"
         >
           <button
             aria-disabled="false"
@@ -915,7 +912,7 @@ exports[`TextBoxField should render correctly random 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -1069,17 +1066,17 @@ exports[`TextBoxField should render correctly required 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-t4dkq1 e18bmnpq0"
+          class="cache-t4dkq1 e18bmnpq1"
           name="test"
           type="text"
           value=""
         />
         <div
-          class="cache-h0isfn-StyledRightElement e18bmnpq4"
+          class="cache-h0isfn-StyledRightElement e18bmnpq6"
         >
           <svg
             class="sc-ui-icon etwatq50 cache-en1wqy-sizeStyles"
@@ -1095,7 +1092,7 @@ exports[`TextBoxField should render correctly required 1`] = `
         class="e14o3tsk0 cache-xcx33n"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         />
       </div>
     </div>
@@ -1228,11 +1225,11 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
       minlength="13"
     >
       <div
-        class="cache-bjn8wh e18bmnpq2"
+        class="cache-bjn8wh e18bmnpq4"
       >
         <input
           autocomplete="on"
-          class="cache-1l46zoq e18bmnpq0"
+          class="cache-1l46zoq e18bmnpq1"
           name="test"
           type="text"
           value="test"
@@ -1242,7 +1239,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
         class="e14o3tsk0 cache-9xime5"
       >
         <div
-          class="cache-1rshnsu e18bmnpq1"
+          class="cache-1rshnsu e18bmnpq3"
         >
           This field should have a length greater than 13
         </div>

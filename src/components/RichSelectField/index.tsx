@@ -47,6 +47,7 @@ export type RichSelectFieldProps<
     | 'readOnly'
     | 'required'
     | 'value'
+    | 'noTopLabel'
   > & {
     label?: string
     maxLength?: number
@@ -88,6 +89,7 @@ const RichSelectField = <
   readOnly,
   required,
   value,
+  noTopLabel,
 }: RichSelectFieldProps<T>) => {
   const { values } = useFormState()
   const validate = useValidation({
@@ -175,7 +177,7 @@ const RichSelectField = <
   const error = useMemo(() => {
     if (errorProp) return errorProp
 
-    return meta.error
+    return meta.error && meta.touched
       ? getFirstError({
           allValues: values,
           label,
@@ -218,6 +220,7 @@ const RichSelectField = <
       placeholder={placeholder}
       readOnly={readOnly}
       value={input.value}
+      noTopLabel={noTopLabel}
     >
       {children}
     </RichSelect>

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RadioField should render correctly 1`] = `
+exports[`SelectableCardField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-7cwb2t {
+  .cache-ucq2yp {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -13,41 +13,66 @@ exports[`RadioField should render correctly 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   gap: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
 }
 
-.cache-7cwb2t[aria-disabled='false'] {
+.cache-ucq2yp[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-7cwb2t[aria-disabled='true'] {
+.cache-ucq2yp[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-7cwb2t[aria-disabled='true'] .e1duuirp2 {
+.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-7cwb2t[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
+}
+
+.cache-ucq2yp:hover,
+.cache-ucq2yp:focus-within,
+.cache-ucq2yp:active {
+  border: 1px solid #4f0599;
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-ucq2yp input+svg {
+  display: none;
 }
 
 .cache-dhqfi {
@@ -123,7 +148,7 @@ exports[`RadioField should render correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-7cwb2t e1duuirp0"
+      class="ejleepd0 cache-ucq2yp e1duuirp0"
       data-checked="false"
       for="test-test"
     >
@@ -170,9 +195,9 @@ exports[`RadioField should render correctly 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RadioField should render correctly checked 1`] = `
+exports[`SelectableCardField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-o0ahz {
+  .cache-1wov7rm {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,41 +208,66 @@ exports[`RadioField should render correctly checked 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   gap: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  border: 1px solid #4f0599;
+  color: #4f0599;
 }
 
-.cache-o0ahz[aria-disabled='false'] {
+.cache-1wov7rm[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-o0ahz[aria-disabled='true'] {
+.cache-1wov7rm[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-o0ahz[aria-disabled='true'] .e1duuirp2 {
+.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-o0ahz[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
+}
+
+.cache-1wov7rm:hover,
+.cache-1wov7rm:focus-within,
+.cache-1wov7rm:active {
+  border: 1px solid #4f0599;
+  box-shadow: none;
+}
+
+.cache-1wov7rm input+svg {
+  display: none;
 }
 
 .cache-dhqfi {
@@ -293,7 +343,7 @@ exports[`RadioField should render correctly checked 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-o0ahz e1duuirp0"
+      class="ejleepd0 cache-1wov7rm e1duuirp0"
       data-checked="true"
       for="test-checked"
     >
@@ -341,9 +391,9 @@ exports[`RadioField should render correctly checked 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RadioField should render correctly disabled 1`] = `
+exports[`SelectableCardField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-11xftmf {
+  .cache-11p36ck {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -354,41 +404,60 @@ exports[`RadioField should render correctly disabled 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   gap: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
 }
 
-.cache-11xftmf[aria-disabled='false'] {
+.cache-11p36ck[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-11xftmf[aria-disabled='true'] {
+.cache-11p36ck[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-11xftmf[aria-disabled='true'] .e1duuirp2 {
+.cache-11p36ck[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-11xftmf[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-11p36ck[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
+}
+
+.cache-11p36ck input+svg {
+  display: none;
 }
 
 .cache-dhqfi {
@@ -464,7 +533,7 @@ exports[`RadioField should render correctly disabled 1`] = `
   >
     <label
       aria-disabled="true"
-      class="cache-11xftmf e1duuirp0"
+      class="ejleepd0 cache-11p36ck e1duuirp0"
       data-checked="false"
       for="test-disabled"
     >
@@ -512,9 +581,9 @@ exports[`RadioField should render correctly disabled 1`] = `
 </DocumentFragment>
 `;
 
-exports[`RadioField should trigger events correctly 1`] = `
+exports[`SelectableCardField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-pxuo8u {
+  .cache-lybs5r {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -525,41 +594,59 @@ exports[`RadioField should trigger events correctly 1`] = `
   -ms-flex-align: flex-start;
   align-items: flex-start;
   gap: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  border: 1px solid #a6102d;
+  color: #a6102d;
 }
 
-.cache-pxuo8u[aria-disabled='false'] {
+.cache-lybs5r[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-pxuo8u[aria-disabled='true'] {
+.cache-lybs5r[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-pxuo8u[aria-disabled='true'] .e1duuirp2 {
+.cache-lybs5r[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-pxuo8u[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-lybs5r[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
+}
+
+.cache-lybs5r input+svg {
+  display: none;
 }
 
 .cache-dhqfi {
@@ -635,7 +722,207 @@ exports[`RadioField should trigger events correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-pxuo8u e1duuirp0"
+      class="ejleepd0 cache-lybs5r e1duuirp0"
+      data-checked="false"
+      for="test-checked"
+    >
+      <input
+        aria-checked="false"
+        aria-disabled="false"
+        aria-invalid="true"
+        class="cache-dhqfi e1duuirp1"
+        id="test-checked"
+        name="test"
+        tabindex="0"
+        type="radio"
+        value="checked"
+      />
+      <svg
+        class="cache-jsk10b e1duuirp2"
+        size="24"
+        viewBox="0 0 24 24"
+      >
+        <g>
+          <circle
+            cx="12"
+            cy="12"
+            r="8"
+            stroke-width="2"
+          />
+          <circle
+            class="cache-1e98oqk e1duuirp4"
+            cx="12"
+            cy="12"
+            r="6"
+          />
+          <circle
+            class="cache-0 e1duuirp3"
+            cx="12"
+            cy="12"
+            r="4"
+          />
+        </g>
+      </svg>
+      Radio field error
+    </label>
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`SelectableCardField should trigger events correctly 1`] = `
+<DocumentFragment>
+  .cache-138nad2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  border: 1px solid #4f0599;
+  color: #4f0599;
+}
+
+.cache-138nad2[aria-disabled='false'] {
+  cursor: pointer;
+}
+
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-138nad2[aria-disabled='true'] {
+  cursor: not-allowed;
+  color: #c4c9d6;
+}
+
+.cache-138nad2[aria-disabled='true'] .e1duuirp2 {
+  fill: #c4c9d6;
+}
+
+.cache-138nad2[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+  fill: #f6f6f8;
+}
+
+.cache-138nad2:hover,
+.cache-138nad2:focus-within,
+.cache-138nad2:active {
+  border: 1px solid #4f0599;
+  box-shadow: none;
+}
+
+.cache-138nad2 input+svg {
+  display: none;
+}
+
+.cache-dhqfi {
+  opacity: 0.01;
+  width: px;
+  height: px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+  transform-origin: center;
+  -webkit-transition: 200ms -webkit-transform ease-in-out;
+  transition: 200ms transform ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #390171;
+}
+
+.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+  fill: #a6102d;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 {
+  background-color: #eeeeff;
+  fill: #390171;
+}
+
+.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #eeeeff;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+  background-color: #ffe1e7;
+  fill: #a6102d;
+}
+
+.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+  fill: #ffe1e7;
+}
+
+.cache-jsk10b {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 100%;
+  fill: #b2b6c3;
+}
+
+.cache-jsk10b .e1duuirp4 {
+  fill: #ffffff;
+}
+
+.cache-1e98oqk {
+  fill: #ffffff;
+}
+
+<form
+    novalidate=""
+  >
+    <label
+      aria-disabled="false"
+      class="ejleepd0 cache-138nad2 e1duuirp0"
       data-checked="true"
       for="test-events"
     >

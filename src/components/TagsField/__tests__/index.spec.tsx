@@ -2,7 +2,7 @@ import React from 'react'
 import TagsField from '..'
 import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelpers'
 
-describe('SwitchField', () => {
+describe('ToggleField', () => {
   test('should render correctly', () =>
     shouldMatchEmotionSnapshotFormWrapper(
       <TagsField name="test" placeholder="placeholder" />,

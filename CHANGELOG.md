@@ -1,3 +1,20 @@
+## [1.25.6](https://github.com/scaleway/scaleway-form/compare/v1.25.5...v1.25.6) (2022-08-31)
+
+
+### :package: Chore
+
+* **devdeps:** update jest monorepo to v29 ([#460](https://github.com/scaleway/scaleway-form/issues/460)) ([a803710](https://github.com/scaleway/scaleway-form/commit/a80371023b162ede0376bba07c06030c46c497b9))
+
+
+### :zap: Refactor
+
+* **Toggle:** switch to toggle ([#465](https://github.com/scaleway/scaleway-form/issues/465)) ([9c2a6b0](https://github.com/scaleway/scaleway-form/commit/9c2a6b0fee944fee5a53da3db9ae094fabbdbba8))
+
+
+### :bug: Bug Fixes
+
+* skipping initial button state ([#380](https://github.com/scaleway/scaleway-form/issues/380)) ([db21691](https://github.com/scaleway/scaleway-form/commit/db216913c6e56696521f351354409d2a4417053a))
+
 ## [1.25.5](https://github.com/scaleway/scaleway-form/compare/v1.25.4...v1.25.5) (2022-08-30)
 
 

@@ -248,7 +248,7 @@ exports[`DateField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-1hrj57i e17s8tvr3"
+      class="cache-1hrj57i e17s8tvr4"
     >
       <div
         class="react-datepicker-wrapper"
@@ -264,11 +264,11 @@ exports[`DateField should render correctly 1`] = `
               class="cache-3svqc9"
             >
               <div
-                class="cache-bjn8wh e18bmnpq3"
+                class="cache-bjn8wh e18bmnpq4"
               >
                 <input
                   autocomplete="on"
-                  class="cache-16jruyc e18bmnpq0"
+                  class="cache-16jruyc e18bmnpq1"
                   id="date-input"
                   type="text"
                   value=""
@@ -278,16 +278,16 @@ exports[`DateField should render correctly 1`] = `
                 class="e14o3tsk0 cache-xcx33n"
               >
                 <div
-                  class="cache-1rshnsu e18bmnpq2"
+                  class="cache-1rshnsu e18bmnpq3"
                 />
               </div>
             </div>
             <div
-              class="cache-1y7q7le e17s8tvr1"
+              class="cache-1y7q7le e17s8tvr2"
             >
               <hr
                 aria-orientation="vertical"
-                class="e17s8tvr4 cache-yj0l2t eoti1h20"
+                class="e17s8tvr5 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg
@@ -560,7 +560,7 @@ exports[`DateField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-1hrj57i e17s8tvr3"
+      class="cache-1hrj57i e17s8tvr4"
     >
       <div
         class="react-datepicker-wrapper"
@@ -577,11 +577,11 @@ exports[`DateField should render correctly disabled 1`] = `
               class="cache-3svqc9"
             >
               <div
-                class="cache-bjn8wh e18bmnpq3"
+                class="cache-bjn8wh e18bmnpq4"
               >
                 <input
                   autocomplete="on"
-                  class="cache-4sr5xp e18bmnpq0"
+                  class="cache-4sr5xp e18bmnpq1"
                   disabled=""
                   id="date-input"
                   type="text"
@@ -592,16 +592,16 @@ exports[`DateField should render correctly disabled 1`] = `
                 class="e14o3tsk0 cache-xcx33n"
               >
                 <div
-                  class="cache-1rshnsu e18bmnpq2"
+                  class="cache-1rshnsu e18bmnpq3"
                 />
               </div>
             </div>
             <div
-              class="cache-1y7q7le e17s8tvr1"
+              class="cache-1y7q7le e17s8tvr2"
             >
               <hr
                 aria-orientation="vertical"
-                class="e17s8tvr4 cache-yj0l2t eoti1h20"
+                class="e17s8tvr5 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg
@@ -869,7 +869,7 @@ exports[`DateField should trigger events 1`] = `
     novalidate=""
   >
     <div
-      class="cache-1hrj57i e17s8tvr3"
+      class="cache-1hrj57i e17s8tvr4"
     >
       <div
         class="react-datepicker-wrapper"
@@ -885,11 +885,11 @@ exports[`DateField should trigger events 1`] = `
               class="cache-3svqc9"
             >
               <div
-                class="cache-bjn8wh e18bmnpq3"
+                class="cache-bjn8wh e18bmnpq4"
               >
                 <input
                   autocomplete="on"
-                  class="cache-16jruyc e18bmnpq0"
+                  class="cache-16jruyc e18bmnpq1"
                   id="date-input"
                   type="text"
                   value="7/31/2022"
@@ -899,16 +899,16 @@ exports[`DateField should trigger events 1`] = `
                 class="e14o3tsk0 cache-xcx33n"
               >
                 <div
-                  class="cache-1rshnsu e18bmnpq2"
+                  class="cache-1rshnsu e18bmnpq3"
                 />
               </div>
             </div>
             <div
-              class="cache-1y7q7le e17s8tvr1"
+              class="cache-1y7q7le e17s8tvr2"
             >
               <hr
                 aria-orientation="vertical"
-                class="e17s8tvr4 cache-yj0l2t eoti1h20"
+                class="e17s8tvr5 cache-yj0l2t eoti1h20"
                 role="separator"
               />
               <svg

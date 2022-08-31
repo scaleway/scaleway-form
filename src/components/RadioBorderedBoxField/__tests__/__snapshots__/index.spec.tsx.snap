@@ -16,11 +16,7 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   gap: 8px;
 }
 
-.cache-10w19jr-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-xraa6j {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,44 +43,44 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
   color: #4a4f62;
 }
 
-.cache-10w19jr-variantStyles[aria-disabled='false'] {
+.cache-xraa6j[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-10w19jr-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-xraa6j:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-10w19jr-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-xraa6j:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-10w19jr-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-xraa6j:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-10w19jr-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-xraa6j:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-10w19jr-variantStyles[aria-disabled='true'] {
+.cache-xraa6j[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-10w19jr-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-xraa6j[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-10w19jr-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-xraa6j[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-10w19jr-variantStyles:hover,
-.cache-10w19jr-variantStyles:focus-within,
-.cache-10w19jr-variantStyles:active {
+.cache-xraa6j:hover,
+.cache-xraa6j:focus-within,
+.cache-xraa6j:active {
   border: 1px solid #4f0599;
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
@@ -200,7 +196,8 @@ exports[`RadioBorderedBoxField should render correctly 1`] = `
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-10w19jr-variantStyles"
+        class="ejleepd0 cache-xraa6j e1duuirp0"
+        data-checked="false"
         for="test-test"
       >
         <input
@@ -280,11 +277,7 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   gap: 8px;
 }
 
-.cache-118g57x-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-v9yscr {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -311,44 +304,44 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
   color: #4f0599;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='false'] {
+.cache-v9yscr[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-v9yscr:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-v9yscr:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-v9yscr:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-v9yscr:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] {
+.cache-v9yscr[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-v9yscr[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-v9yscr[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-118g57x-variantStyles:hover,
-.cache-118g57x-variantStyles:focus-within,
-.cache-118g57x-variantStyles:active {
+.cache-v9yscr:hover,
+.cache-v9yscr:focus-within,
+.cache-v9yscr:active {
   border: 1px solid #4f0599;
   box-shadow: none;
 }
@@ -464,7 +457,8 @@ exports[`RadioBorderedBoxField should render correctly checked 1`] = `
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-118g57x-variantStyles"
+        class="ejleepd0 cache-v9yscr e1duuirp0"
+        data-checked="true"
         for="test-checked"
       >
         <input
@@ -545,11 +539,7 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   gap: 8px;
 }
 
-.cache-1ows17w-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-1l9sfa5 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -577,38 +567,38 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
   background: #f6f6f8;
 }
 
-.cache-1ows17w-variantStyles[aria-disabled='false'] {
+.cache-1l9sfa5[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1ows17w-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-1l9sfa5:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1ows17w-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-1l9sfa5:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1ows17w-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-1l9sfa5:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1ows17w-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1l9sfa5:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1ows17w-variantStyles[aria-disabled='true'] {
+.cache-1l9sfa5[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1ows17w-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-1l9sfa5[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1ows17w-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1l9sfa5[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
@@ -723,7 +713,8 @@ exports[`RadioBorderedBoxField should render correctly disabled 1`] = `
     >
       <label
         aria-disabled="true"
-        class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-1ows17w-variantStyles"
+        class="ejleepd0 cache-1l9sfa5 e1duuirp0"
+        data-checked="false"
         for="test-disabled"
       >
         <input
@@ -804,11 +795,7 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   gap: 8px;
 }
 
-.cache-63lxu7-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-fcusmn {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -835,38 +822,38 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
   color: #a6102d;
 }
 
-.cache-63lxu7-variantStyles[aria-disabled='false'] {
+.cache-fcusmn[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-63lxu7-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-fcusmn:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-63lxu7-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-fcusmn:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-63lxu7-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-fcusmn:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-63lxu7-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-fcusmn:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-63lxu7-variantStyles[aria-disabled='true'] {
+.cache-fcusmn[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-63lxu7-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-fcusmn[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-63lxu7-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-fcusmn[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
@@ -1001,7 +988,8 @@ exports[`RadioBorderedBoxField should render correctly with errors 1`] = `
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-63lxu7-variantStyles"
+        class="ejleepd0 cache-fcusmn e1duuirp0"
+        data-checked="false"
         for="test-checked"
       >
         <input
@@ -1095,11 +1083,7 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   gap: 8px;
 }
 
-.cache-118g57x-variantStyles {
-  color: #4a4f62;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0;
+.cache-1hm10q1 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1126,44 +1110,44 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
   color: #4f0599;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='false'] {
+.cache-1hm10q1[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 {
+.cache-1hm10q1:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1+.e1duuirp2 .e1duuirp4 {
+.cache-1hm10q1:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 {
+.cache-1hm10q1:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-118g57x-variantStyles:hover[aria-disabled='false'] .e1duuirp1[aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1hm10q1:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] {
+.cache-1hm10q1[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] .e1duuirp2 {
+.cache-1hm10q1[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-118g57x-variantStyles[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1hm10q1[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-118g57x-variantStyles:hover,
-.cache-118g57x-variantStyles:focus-within,
-.cache-118g57x-variantStyles:active {
+.cache-1hm10q1:hover,
+.cache-1hm10q1:focus-within,
+.cache-1hm10q1:active {
   border: 1px solid #4f0599;
   box-shadow: none;
 }
@@ -1279,7 +1263,8 @@ exports[`RadioBorderedBoxField should trigger events correctly 1`] = `
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 e1duuirp0 e1g1zfwd0 cache-118g57x-variantStyles"
+        class="ejleepd0 cache-1hm10q1 e1duuirp0"
+        data-checked="true"
         for="test-events"
       >
         <input

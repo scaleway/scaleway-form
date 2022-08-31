@@ -20,13 +20,10 @@ type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
     Pick<
       ComponentProps<typeof Checkbox>,
       | 'disabled'
-      | 'id'
       | 'onBlur'
       | 'onChange'
       | 'onFocus'
       | 'progress'
-      | 'readOnly'
-      | 'required'
       | 'size'
       | 'value'
     >
@@ -35,6 +32,7 @@ type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
     label?: string
     className?: string
     children?: ReactNode
+    required?: boolean
   }
 
 const CheckboxField = forwardRef(
@@ -47,7 +45,6 @@ const CheckboxField = forwardRef(
       progress,
       disabled,
       required,
-      id,
       className,
       children,
       onChange,
@@ -55,7 +52,7 @@ const CheckboxField = forwardRef(
       onFocus,
       value,
     }: CheckboxFieldProps,
-    ref: Ref<HTMLInputElement>,
+    ref: Ref<HTMLLabelElement>,
   ): JSX.Element => {
     const { values } = useFormState()
     const { getFirstError } = useErrors()
@@ -102,13 +99,10 @@ const CheckboxField = forwardRef(
           input.onFocus(event)
           onFocus?.(event)
         }}
-        type={input.type}
         size={size}
         progress={progress}
         disabled={disabled}
-        required={required}
         checked={input.checked}
-        id={id}
         error={error}
         ref={ref}
         className={className}

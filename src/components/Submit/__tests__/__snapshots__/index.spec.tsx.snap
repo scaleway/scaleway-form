@@ -6,7 +6,7 @@ exports[`Submit form is invalid 1`] = `
   position: relative;
 }
 
-.cache-16jruyc {
+.cache-1l46zoq {
   -webkit-transition: border-color 0.2s ease,box-shadow 0.2s ease;
   transition: border-color 0.2s ease,box-shadow 0.2s ease;
   -webkit-appearance: none;
@@ -33,55 +33,66 @@ exports[`Submit form is invalid 1`] = `
   padding-right: 20px;
   padding-top: 14px;
   padding: 8px;
+  border-color: #dd3252;
 }
 
-.cache-16jruyc::-webkit-input-placeholder {
+.cache-1l46zoq::-webkit-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc::-moz-placeholder {
+.cache-1l46zoq::-moz-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc:-ms-input-placeholder {
+.cache-1l46zoq:-ms-input-placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc::placeholder {
+.cache-1l46zoq::placeholder {
   color: #b2b6c3;
   opacity: 0;
 }
 
-.cache-16jruyc:hover,
-.cache-16jruyc:focus {
+.cache-1l46zoq:hover,
+.cache-1l46zoq:focus {
   border-color: #4f0599;
 }
 
-.cache-16jruyc:focus {
+.cache-1l46zoq:focus {
   box-shadow: 0px 0px 0px 3px #4F059940;
   border-color: #4f0599;
 }
 
-.cache-16jruyc::-webkit-input-placeholder {
+.cache-1l46zoq::-webkit-input-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc::-moz-placeholder {
+.cache-1l46zoq::-moz-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc:-ms-input-placeholder {
+.cache-1l46zoq:-ms-input-placeholder {
   opacity: 1;
 }
 
-.cache-16jruyc::placeholder {
+.cache-1l46zoq::placeholder {
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-1l46zoq:hover,
+.cache-1l46zoq:focus {
+  border-color: #a6102d;
+}
+
+.cache-1l46zoq:focus {
+  box-shadow: 0px 0px 0px 3px #DD325240;
+  border-color: #a6102d;
+}
+
+.cache-9xime5 {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -89,9 +100,14 @@ exports[`Submit form is invalid 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
+  -webkit-transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  transition: max-height 300ms ease-in,opacity 300ms ease-in;
+  max-height: 56px;
+  opacity: 1;
+  overflow: visible;
 }
 
-.cache-xcx33n.cache-xcx33n {
+.cache-9xime5.cache-9xime5 {
   overflow: hidden;
 }
 
@@ -191,18 +207,20 @@ exports[`Submit form is invalid 1`] = `
       >
         <input
           autocomplete="on"
-          class="cache-16jruyc e18bmnpq1"
+          class="cache-1l46zoq e18bmnpq1"
           name="toto"
           type="text"
           value="4"
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="e14o3tsk0 cache-9xime5"
       >
         <div
           class="cache-1rshnsu e18bmnpq3"
-        />
+        >
+          This field should match the regex ^[a-zA-Z]*$
+        </div>
       </div>
     </div>
     <button

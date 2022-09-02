@@ -66,11 +66,17 @@ const ErrorProvider = ({
   )
 
   const getError = useCallback(
-    ({ meta, errorProp, ...props }: GetErrorProps) => {
+    ({ meta, errorProp, value, ...props }: GetErrorProps) => {
       if (errorProp) return errorProp
 
-      return meta?.touched && meta.error
-        ? getFirstError({ meta, ...props })
+      const hasInitialValueAndNotTouched =
+        value !== undefined &&
+        value !== null &&
+        value !== '' &&
+        meta?.dirty === false
+
+      return meta?.error && (hasInitialValueAndNotTouched || meta.touched)
+        ? getFirstError({ meta, value, ...props })
         : undefined
     },
     [getFirstError],

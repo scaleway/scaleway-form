@@ -879,7 +879,7 @@ exports[`DateField should trigger events 1`] = `
         >
           <div
             class=""
-            value="07/31/2022"
+            value="08/28/2022"
           >
             <div
               class="cache-3svqc9"
@@ -892,7 +892,7 @@ exports[`DateField should trigger events 1`] = `
                   class="cache-16jruyc e18bmnpq1"
                   id="date-input"
                   type="text"
-                  value="7/31/2022"
+                  value="8/28/2022"
                 />
               </div>
               <div

@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/scaleway/scaleway-form/compare/v1.26.0...v1.26.1) (2022-09-02)
+
+
+### :bug: Bug Fixes
+
+* **validation:** min and max length when value is undefined ([#469](https://github.com/scaleway/scaleway-form/issues/469)) ([597bb84](https://github.com/scaleway/scaleway-form/commit/597bb8440df9619d5d8d475b1e8b2a2776ba4546))
+
 ## [1.26.0](https://github.com/scaleway/scaleway-form/compare/v1.25.6...v1.26.0) (2022-09-02)
 
 

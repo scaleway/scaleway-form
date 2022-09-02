@@ -1,7 +1,7 @@
 import { DateInput } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { ComponentProps, useMemo } from 'react'
-import { useField, useFormState } from 'react-final-form'
+import React, { ComponentProps } from 'react'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -55,8 +55,7 @@ const DateField = ({
   onFocus,
   formatOnBlur,
 }: DateFieldProps) => {
-  const { values } = useFormState()
-  const { getFirstError } = useErrors()
+  const { getError } = useErrors()
   const validateFn = useValidation<Date>({
     validate,
     validators: pickValidators<Date>({
@@ -73,21 +72,14 @@ const DateField = ({
     value: inputVal,
   })
 
-  const error = useMemo(
-    () =>
-      meta.error && (!isEmpty(input.value) || meta.touched)
-        ? getFirstError<Date>({
-            allValues: values,
-            label,
-            maxDate,
-            meta: meta as FieldState<Date>,
-            minDate,
-            name,
-            value: input.value,
-          })
-        : undefined,
-    [getFirstError, input.value, label, maxDate, meta, minDate, name, values],
-  )
+  const error = getError({
+    label,
+    maxDate,
+    meta: meta as FieldState<unknown>,
+    minDate,
+    name,
+    value: input.value,
+  })
 
   return (
     <DateInput

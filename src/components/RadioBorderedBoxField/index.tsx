@@ -1,7 +1,7 @@
 import { RadioBorderedBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { ComponentProps, ReactNode, useMemo } from 'react'
-import { useField, useFormState } from 'react-final-form'
+import React, { ComponentProps, ReactNode } from 'react'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -51,8 +51,7 @@ const RadioBorderedBoxField = ({
   validate,
   value,
 }: RadioBorderedBoxFieldProps): JSX.Element => {
-  const { values } = useFormState()
-  const { getFirstError } = useErrors()
+  const { getError } = useErrors()
 
   const validateFn = useValidation<RadioBorderedBoxValue>({
     validate,
@@ -67,19 +66,12 @@ const RadioBorderedBoxField = ({
     value,
   })
 
-  const error = useMemo(
-    () =>
-      meta.error
-        ? getFirstError({
-            allValues: values,
-            label,
-            meta: meta as FieldState<string | number>,
-            name,
-            value: input.value,
-          })
-        : undefined,
-    [getFirstError, input.value, label, meta, name, values],
-  )
+  const error = getError({
+    label,
+    meta: meta as FieldState<unknown>,
+    name,
+    value: input.value,
+  })
 
   return (
     <RadioBorderedBox

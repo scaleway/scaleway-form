@@ -1,13 +1,7 @@
 import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, {
-  ComponentProps,
-  FocusEvent,
-  Ref,
-  forwardRef,
-  useMemo,
-} from 'react'
-import { useField, useFormState } from 'react-final-form'
+import React, { ComponentProps, FocusEvent, Ref, forwardRef } from 'react'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -101,8 +95,7 @@ const TextBoxField = forwardRef(
     }: TextBoxFieldProps,
     ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
-    const { values } = useFormState()
-    const { getFirstError } = useErrors()
+    const { getError } = useErrors()
 
     const validateFn = useValidation<TextBoxValue>({
       validate,
@@ -135,36 +128,17 @@ const TextBoxField = forwardRef(
       value,
     })
 
-    const error = useMemo(
-      () =>
-        meta.error && meta.touched
-          ? getFirstError<string>({
-              allValues: values,
-              label,
-              max,
-              maxLength,
-              meta: meta as FieldState<string>,
-              min,
-              minLength,
-              name,
-              regex,
-              value: input.value,
-            })
-          : undefined,
-      [
-        getFirstError,
-        input.value,
-        label,
-        max,
-        maxLength,
-        meta,
-        min,
-        minLength,
-        name,
-        regex,
-        values,
-      ],
-    )
+    const error = getError({
+      label,
+      max,
+      maxLength,
+      meta: meta as FieldState<unknown>,
+      min,
+      minLength,
+      name,
+      regex,
+      value: input.value,
+    })
 
     return (
       <TextBox

@@ -65,54 +65,53 @@ const Form = <FormValues,>({
   keepDirtyOnReinitialize,
   parseSubmitException,
 }: FormProps<FormValues>): JSX.Element => (
-  <ErrorProvider errors={errors}>
-    <ReactFinalForm
-      initialValues={initialValues}
-      validateOnBlur={validateOnBlur}
-      validate={validate}
-      decorators={[
-        focusOnErrors as unknown as Decorator<FormValues, Partial<FormValues>>,
-      ]}
-      mutators={{
-        ...arrayMutators,
-        ...mutators,
-      }}
-      onSubmit={async (values, form, callback) => {
-        if (onRawSubmit) {
-          return onRawSubmit(values, form, callback)
+  <ReactFinalForm
+    initialValues={initialValues}
+    validateOnBlur={validateOnBlur}
+    validate={validate}
+    decorators={[
+      focusOnErrors as unknown as Decorator<FormValues, Partial<FormValues>>,
+    ]}
+    mutators={{
+      ...arrayMutators,
+      ...mutators,
+    }}
+    onSubmit={async (values, form, callback) => {
+      if (onRawSubmit) {
+        return onRawSubmit(values, form, callback)
+      }
+
+      try {
+        const res = await onSubmit?.(values, form, callback)
+        if (res !== undefined) {
+          await onSubmitError?.(res)
+        } else {
+          await onSubmitSuccess?.(values)
         }
 
-        try {
-          const res = await onSubmit?.(values, form, callback)
-          if (res !== undefined) {
-            await onSubmitError?.(res)
-          } else {
-            await onSubmitSuccess?.(values)
-          }
+        return res
+      } catch (submitError) {
+        await onSubmitError?.(submitError)
 
-          return res
-        } catch (submitError) {
-          await onSubmitError?.(submitError)
-
-          return {
-            [FORM_ERROR]: parseSubmitException
-              ? parseSubmitException(submitError)
-              : submitError,
-          }
+        return {
+          [FORM_ERROR]: parseSubmitException
+            ? parseSubmitException(submitError)
+            : submitError,
         }
-      }}
-      render={
-        render ??
-        (renderProps => (
-          // eslint-disable-next-line @typescript-eslint/no-misused-promises
+      }
+    }}
+    render={
+      render ??
+      (renderProps => (
+        <ErrorProvider errors={errors}>
           <form noValidate name={name} onSubmit={renderProps.handleSubmit}>
             {typeof children === 'function' ? children(renderProps) : children}
           </form>
-        ))
-      }
-      keepDirtyOnReinitialize={keepDirtyOnReinitialize}
-    />
-  </ErrorProvider>
+        </ErrorProvider>
+      ))
+    }
+    keepDirtyOnReinitialize={keepDirtyOnReinitialize}
+  />
 )
 
 export default Form

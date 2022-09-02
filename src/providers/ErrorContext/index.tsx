@@ -6,13 +6,15 @@ import React, {
   useContext,
   useMemo,
 } from 'react'
+import { useFormState } from 'react-final-form'
 import { FormErrorFunctionParams, FormErrors } from '../../types'
+
+type GetErrorProps = Omit<FormErrorFunctionParams, 'allValues'> &
+  AnyObject & { errorProp?: string; additionalErrorChecks?: boolean }
 
 type ErrorContextValue = {
   errors: FormErrors
-  getFirstError: <T = unknown>(
-    params: FormErrorFunctionParams<T> & AnyObject,
-  ) => string
+  getError: (props: GetErrorProps) => string | undefined
 }
 const ErrorContext = createContext({} as ErrorContextValue)
 
@@ -24,15 +26,16 @@ const ErrorProvider = ({
   children,
   errors,
 }: ErrorProviderProps): JSX.Element => {
+  const { values } = useFormState()
+
   const getFirstError = useCallback(
     ({
-      allValues,
       label,
       name,
       value,
       meta,
       ...additionalParams
-    }: FormErrorFunctionParams & AnyObject) => {
+    }: Omit<FormErrorFunctionParams, 'allValues'> & AnyObject) => {
       if (meta?.error && Array.isArray(meta.error)) {
         return (
           meta.error
@@ -40,11 +43,11 @@ const ErrorProvider = ({
               const key = untypedKey as keyof typeof errors
               if (typeof errors[key] === 'function') {
                 return (errors[key] as (params: AnyObject) => string)({
-                  allValues,
                   label,
                   meta,
                   name,
                   value,
+                  values,
                   ...additionalParams,
                 })
               }
@@ -59,16 +62,33 @@ const ErrorProvider = ({
 
       return ''
     },
-    [errors],
+    [errors, values],
+  )
+
+  const getError = useCallback(
+    ({ meta, errorProp, value, ...props }: GetErrorProps) => {
+      if (errorProp) return errorProp
+
+      const hasInitialValueAndNotTouched =
+        value !== undefined &&
+        value !== null &&
+        value !== '' &&
+        meta?.dirty === false
+
+      return meta?.error && (hasInitialValueAndNotTouched || meta.touched)
+        ? getFirstError({ meta, value, ...props })
+        : undefined
+    },
+    [getFirstError],
   )
 
   const value = useMemo(
     () =>
       ({
         errors,
-        getFirstError,
+        getError,
       } as ErrorContextValue),
-    [errors, getFirstError],
+    [errors, getError],
   )
 
   return <ErrorContext.Provider value={value}>{children}</ErrorContext.Provider>

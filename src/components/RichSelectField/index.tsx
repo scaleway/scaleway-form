@@ -7,7 +7,7 @@ import React, {
   useCallback,
   useMemo,
 } from 'react'
-import { useField, useFormState } from 'react-final-form'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -91,7 +91,7 @@ const RichSelectField = <
   value,
   noTopLabel,
 }: RichSelectFieldProps<T>) => {
-  const { values } = useFormState()
+  const { getError } = useErrors()
   const validate = useValidation({
     validators: pickValidators<T>({
       maxLength,
@@ -173,20 +173,13 @@ const RichSelectField = <
     value,
   })
 
-  const { getFirstError } = useErrors()
-  const error = useMemo(() => {
-    if (errorProp) return errorProp
-
-    return meta.error && meta.touched
-      ? getFirstError({
-          allValues: values,
-          label,
-          meta: meta as FieldState<T | undefined>,
-          name,
-          value,
-        })
-      : undefined
-  }, [getFirstError, label, meta, name, value, errorProp, values])
+  const error = getError({
+    errorProp,
+    label,
+    meta: meta as FieldState<unknown>,
+    name,
+    value: input.value,
+  })
 
   return (
     <RichSelect

@@ -1,13 +1,7 @@
 import { Checkbox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, {
-  ComponentProps,
-  ReactNode,
-  Ref,
-  forwardRef,
-  useMemo,
-} from 'react'
-import { useField, useFormState } from 'react-final-form'
+import React, { ComponentProps, ReactNode, Ref, forwardRef } from 'react'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -54,8 +48,7 @@ const CheckboxField = forwardRef(
     }: CheckboxFieldProps,
     ref: Ref<HTMLLabelElement>,
   ): JSX.Element => {
-    const { values } = useFormState()
-    const { getFirstError } = useErrors()
+    const { getError } = useErrors()
 
     const validateFn = useValidation<CheckboxValue>({
       validate,
@@ -70,19 +63,12 @@ const CheckboxField = forwardRef(
       value,
     })
 
-    const error = useMemo(
-      () =>
-        meta.error && meta.touched
-          ? getFirstError({
-              allValues: values,
-              label,
-              meta: meta as FieldState<string | boolean | undefined>,
-              name,
-              value: input.value ?? input.checked,
-            })
-          : undefined,
-      [getFirstError, input.checked, label, meta, name, values, input.value],
-    )
+    const error = getError({
+      label,
+      meta: meta as FieldState<unknown>,
+      name,
+      value: input.value ?? input.checked,
+    })
 
     return (
       <Checkbox

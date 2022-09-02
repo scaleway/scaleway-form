@@ -1,3 +1,15 @@
+## [1.26.0](https://github.com/scaleway/scaleway-form/compare/v1.25.6...v1.26.0) (2022-09-02)
+
+
+### :package: Chore
+
+* upgrade scw-ui ([#467](https://github.com/scaleway/scaleway-form/issues/467)) ([7679b30](https://github.com/scaleway/scaleway-form/commit/7679b300f7896f1f5eb39c4430014adf3665bceb))
+
+
+### :gear: Features
+
+* unify get field error ([#468](https://github.com/scaleway/scaleway-form/issues/468)) ([a33fb40](https://github.com/scaleway/scaleway-form/commit/a33fb405dbf48b72b8812657093e3e9d061b18cf))
+
 ## [1.25.6](https://github.com/scaleway/scaleway-form/compare/v1.25.5...v1.25.6) (2022-08-31)
 
 

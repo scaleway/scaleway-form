@@ -1,16 +1,23 @@
 import { renderHook } from '@testing-library/react'
 import React, { ReactNode } from 'react'
+import { Form as ReactFinalForm } from 'react-final-form'
 import ErrorProvider, { useErrors } from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
 import mockErrors from '../../../mocks/mockErrors'
 
 const HookWrapper = ({ children }: { children: ReactNode }) => (
-  <ErrorProvider errors={mockErrors}>{children}</ErrorProvider>
+  <ReactFinalForm
+    onSubmit={jest.fn()}
+    render={() => <ErrorProvider errors={mockErrors}>{children}</ErrorProvider>}
+  />
 )
 describe('ErrorProvider', () => {
   test('renders correctly ', () =>
     shouldMatchEmotionSnapshot(
-      <ErrorProvider errors={mockErrors}>Test</ErrorProvider>,
+      <ReactFinalForm
+        onSubmit={jest.fn()}
+        render={() => <ErrorProvider errors={mockErrors}>Test</ErrorProvider>}
+      />,
     ))
   test('should use context', () => {
     const { result } = renderHook(() => useErrors(), {
@@ -19,16 +26,14 @@ describe('ErrorProvider', () => {
 
     expect(result.current.errors).toStrictEqual(mockErrors)
     expect(
-      result.current.getFirstError({
-        allValues: {},
+      result.current.getError({
         label: 'test',
         name: 'test',
         value: 'test',
       }),
-    ).toStrictEqual('')
+    ).toStrictEqual(undefined)
     expect(
-      result.current.getFirstError({
-        allValues: {},
+      result.current.getError({
         label: 'test',
         meta: {
           blur: () => {},
@@ -36,6 +41,7 @@ describe('ErrorProvider', () => {
           error: ['REQUIRED'],
           focus: () => {},
           name: 'test',
+          touched: true,
         },
         name: 'test',
         value: '',
@@ -43,7 +49,7 @@ describe('ErrorProvider', () => {
     ).toStrictEqual(mockErrors.REQUIRED)
 
     expect(
-      result.current.getFirstError({
+      result.current.getError({
         allValues: {},
         label: 'test',
         meta: {
@@ -52,6 +58,7 @@ describe('ErrorProvider', () => {
           error: ['MIN_LENGTH'],
           focus: () => {},
           name: 'test',
+          touched: true,
         },
         minLength: 3,
         name: 'test',
@@ -61,7 +68,7 @@ describe('ErrorProvider', () => {
 
     const customErrorString = 'This is an error'
     expect(
-      result.current.getFirstError({
+      result.current.getError({
         allValues: {},
         label: 'test',
         meta: {
@@ -70,6 +77,7 @@ describe('ErrorProvider', () => {
           error: customErrorString,
           focus: () => {},
           name: 'test',
+          touched: true,
         },
         minLength: 3,
         name: 'test',
@@ -79,7 +87,7 @@ describe('ErrorProvider', () => {
 
     // to cover all code branches and default values
     expect(
-      result.current.getFirstError({
+      result.current.getError({
         allValues: {},
         label: 'test',
         meta: {
@@ -93,6 +101,6 @@ describe('ErrorProvider', () => {
         name: 'test',
         value: '',
       }),
-    ).toEqual('')
+    ).toEqual(undefined)
   })
 })

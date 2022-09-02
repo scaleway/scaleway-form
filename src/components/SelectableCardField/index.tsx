@@ -1,7 +1,7 @@
 import { SelectableCard } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, { ComponentProps, useMemo } from 'react'
-import { useField, useFormState } from 'react-final-form'
+import React, { ComponentProps } from 'react'
+import { useField } from 'react-final-form'
 import pickValidators from '../../helpers/pickValidators'
 import useValidation from '../../hooks/useValidation'
 import { useErrors } from '../../providers/ErrorContext'
@@ -52,8 +52,7 @@ const SelectableCardField = ({
   tooltip,
   id,
 }: SelectableCardFieldProps): JSX.Element => {
-  const { values } = useFormState()
-  const { getFirstError } = useErrors()
+  const { getError } = useErrors()
 
   const validateFn = useValidation<SelectableCardValue>({
     validate,
@@ -68,19 +67,12 @@ const SelectableCardField = ({
     value,
   })
 
-  const error = useMemo(
-    () =>
-      meta.error
-        ? getFirstError({
-            allValues: values,
-            label: name,
-            meta: meta as FieldState<string | number>,
-            name,
-            value: input.value,
-          })
-        : undefined,
-    [getFirstError, input.value, meta, name, values],
-  )
+  const error = getError({
+    label: name,
+    meta: meta as FieldState<unknown>,
+    name,
+    value: input.value,
+  })
 
   return (
     <SelectableCard

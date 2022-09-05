@@ -3,7 +3,7 @@ import React from 'react'
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
 const STORY_SORT = {
-  order: ['Introduction', 'Components', 'Labs'],
+  order: ['Components', ['Form', 'Fields', 'SubmitErrorAlert', 'Submit']],
 }
 
 const ENV_PARAMETERS = {
@@ -15,9 +15,9 @@ const ENV_PARAMETERS = {
         disable: true,
       },
     },
-    viewMode: 'canvas',
+    viewMode: 'docs',
     previewTabs: {
-      'storybook/docs/panel': { index: 1 },
+      canvas: { hidden: true },
     },
     viewport: {
       viewports: {},

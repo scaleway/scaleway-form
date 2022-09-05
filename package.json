@@ -143,7 +143,7 @@
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.0.5",
+    "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@storybook/addon-actions": "6.4.22",
@@ -184,7 +184,7 @@
     "rollup": "2.78.1",
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-visualizer": "5.7.1",
-    "semantic-release": "19.0.3",
+    "semantic-release": "19.0.5",
     "typescript": "4.7.4",
     "webpack": "5.74.0"
   },

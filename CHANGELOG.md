@@ -1,3 +1,10 @@
+## [1.26.2](https://github.com/scaleway/scaleway-form/compare/v1.26.1...v1.26.2) (2022-09-05)
+
+
+### :package: Chore
+
+* **deps:** update emotion monorepo to v11.10.4 ([#466](https://github.com/scaleway/scaleway-form/issues/466)) ([9c58835](https://github.com/scaleway/scaleway-form/commit/9c58835257f6a0d8718e3becfa736ffac1926f07))
+
 ## [1.26.1](https://github.com/scaleway/scaleway-form/compare/v1.26.0...v1.26.1) (2022-09-02)
 
 

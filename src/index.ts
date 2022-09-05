@@ -1,6 +1,5 @@
 export { default as CheckboxField } from './components/CheckboxField'
 export { default as Form } from './components/Form'
-export { default as RadioBorderedBoxField } from './components/RadioBorderedBoxField'
 export { default as RadioField } from './components/RadioField'
 export { default as RichSelectField } from './components/RichSelectField'
 export { default as SelectNumberField } from './components/SelectNumberField'

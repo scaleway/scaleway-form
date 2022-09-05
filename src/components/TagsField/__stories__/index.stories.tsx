@@ -13,7 +13,6 @@ export default {
       description: {
         component: 'A tags field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/TagsField',

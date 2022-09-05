@@ -17,7 +17,6 @@ export default {
       description: {
         component: 'A rich select field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/RichSelectField',

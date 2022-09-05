@@ -9,14 +9,6 @@ import Submit from '../../Submit'
 
 export default {
   component: SubmitErrorAlert,
-  parameters: {
-    docs: {
-      description: {
-        component:
-          'This component is used to display error message after a form submission',
-      },
-    },
-  },
   title: 'Components/SubmitErrorAlert',
 } as Meta
 
@@ -29,10 +21,7 @@ const Container = styled.div`
 export const Default: Story<ComponentProps<typeof SubmitErrorAlert>> = ({
   className,
 }) => (
-  <Form
-    errors={mockErrors}
-    onSubmit={() => ({ [FORM_ERROR]: 'An error occured' })}
-  >
+  <Form errors={mockErrors} onSubmit={() => ({ [FORM_ERROR]: 'Not Good' })}>
     <Container>
       <SubmitErrorAlert className={className} />
       <Submit>Click Me</Submit>

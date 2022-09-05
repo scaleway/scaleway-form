@@ -8,14 +8,6 @@ import Submit from '../../Submit'
 export default {
   component: SelectableCardField,
   decorators: [ChildStory => <Form errors={mockErrors}>{ChildStory()}</Form>],
-  parameters: {
-    docs: {
-      description: {
-        component: 'A selectable card field',
-      },
-      source: { excludeDecorators: true },
-    },
-  },
   title: 'Components/Fields/SelectableCardField',
 } as Meta
 

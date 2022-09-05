@@ -13,7 +13,6 @@ export default {
       description: {
         component: 'A checkbox field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/CheckboxField',

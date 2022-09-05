@@ -13,7 +13,6 @@ export default {
       description: {
         component: 'A radio field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/RadioField',

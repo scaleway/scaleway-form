@@ -13,6 +13,7 @@ export default {
       description: {
         component: 'A SelectNumber field',
       },
+      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/SelectNumberField',

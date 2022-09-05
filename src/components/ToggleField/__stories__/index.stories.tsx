@@ -13,6 +13,7 @@ export default {
       description: {
         component: 'A switch field that act like a checkbox',
       },
+      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/ToggleField',

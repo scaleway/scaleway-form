@@ -1,3 +1,10 @@
+## [1.27.0](https://github.com/scaleway/scaleway-form/compare/v1.26.3...v1.27.0) (2022-09-07)
+
+
+### :gear: Features
+
+* export error context ([#481](https://github.com/scaleway/scaleway-form/issues/481)) ([c9ce8bf](https://github.com/scaleway/scaleway-form/commit/c9ce8bfe1058429ebf1b73b2a48aae9b8ed37fbc))
+
 ## [1.26.3](https://github.com/scaleway/scaleway-form/compare/v1.26.2...v1.26.3) (2022-09-07)
 
 

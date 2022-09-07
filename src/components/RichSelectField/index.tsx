@@ -214,6 +214,7 @@ const RichSelectField = <
       readOnly={readOnly}
       value={input.value}
       noTopLabel={noTopLabel}
+      required={required}
     >
       {children}
     </RichSelect>

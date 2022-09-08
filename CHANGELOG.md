@@ -1,3 +1,10 @@
+## [1.29.0](https://github.com/scaleway/scaleway-form/compare/v1.28.0...v1.29.0) (2022-09-08)
+
+
+### :gear: Features
+
+* **submit:** add size props ([#479](https://github.com/scaleway/scaleway-form/issues/479)) ([8217320](https://github.com/scaleway/scaleway-form/commit/82173202505ff8c1f487a6416f80fd64d4331b72))
+
 ## [1.28.0](https://github.com/scaleway/scaleway-form/compare/v1.27.0...v1.28.0) (2022-09-08)
 
 

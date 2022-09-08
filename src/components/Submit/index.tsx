@@ -9,6 +9,7 @@ type SubmitProps = {
   disabled?: boolean
   icon?: ComponentProps<typeof Button>['icon']
   iconPosition?: ComponentProps<typeof Button>['iconPosition']
+  size?: ComponentProps<typeof Button>['size']
   tooltip?: ComponentProps<typeof Button>['tooltip']
   tooltipBaseId?: ComponentProps<typeof Button>['tooltipBaseId']
   variant?: ComponentProps<typeof Button>['variant']
@@ -21,6 +22,7 @@ const Submit = ({
   disabled = false,
   icon,
   iconPosition,
+  size,
   tooltip,
   tooltipBaseId,
   variant = 'success',
@@ -51,9 +53,10 @@ const Submit = ({
       icon={icon}
       iconPosition={iconPosition}
       progress={submitting}
-      type="submit"
+      size={size}
       tooltip={tooltip}
       tooltipBaseId={tooltipBaseId}
+      type="submit"
       variant={variant}
     >
       {children}

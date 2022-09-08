@@ -1,3 +1,10 @@
+## [1.29.1](https://github.com/scaleway/scaleway-form/compare/v1.29.0...v1.29.1) (2022-09-08)
+
+
+### :bug: Bug Fixes
+
+* **RadioBorderedBox:** removal ([#477](https://github.com/scaleway/scaleway-form/issues/477)) ([e066780](https://github.com/scaleway/scaleway-form/commit/e0667808403e82618ee53afedbe0092c9e8e191b))
+
 ## [1.29.0](https://github.com/scaleway/scaleway-form/compare/v1.28.0...v1.29.0) (2022-09-08)
 
 

@@ -30,6 +30,8 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'onBlur'
       | 'onChange'
       | 'onFocus'
+      | 'onKeyDown'
+      | 'onKeyUp'
       | 'placeholder'
       | 'random'
       | 'readOnly'
@@ -80,6 +82,8 @@ const TextBoxField = forwardRef(
       onBlur,
       onChange,
       onFocus,
+      onKeyUp,
+      onKeyDown,
       parse,
       placeholder,
       random,
@@ -173,6 +177,8 @@ const TextBoxField = forwardRef(
           input.onFocus(event)
           onFocus?.(event)
         }}
+        onKeyUp={onKeyUp}
+        onKeyDown={onKeyDown}
         placeholder={placeholder}
         random={random}
         readOnly={readOnly}

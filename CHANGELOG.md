@@ -1,3 +1,41 @@
+## [1.29.0](https://github.com/scaleway/scaleway-form/compare/v1.28.0...v1.29.0) (2022-09-08)
+
+
+### :gear: Features
+
+* **submit:** add size props ([#479](https://github.com/scaleway/scaleway-form/issues/479)) ([8217320](https://github.com/scaleway/scaleway-form/commit/82173202505ff8c1f487a6416f80fd64d4331b72))
+
+## [1.28.0](https://github.com/scaleway/scaleway-form/compare/v1.27.0...v1.28.0) (2022-09-08)
+
+
+### :gear: Features
+
+* **TextBox:** add OnKeyUp & onKeyDown ([#480](https://github.com/scaleway/scaleway-form/issues/480)) ([f5b2fe3](https://github.com/scaleway/scaleway-form/commit/f5b2fe3450bb3ba6d4ef4dd5edf086dfcbf2e1a8))
+
+## [1.27.0](https://github.com/scaleway/scaleway-form/compare/v1.26.3...v1.27.0) (2022-09-07)
+
+
+### :gear: Features
+
+* export error context ([#481](https://github.com/scaleway/scaleway-form/issues/481)) ([c9ce8bf](https://github.com/scaleway/scaleway-form/commit/c9ce8bfe1058429ebf1b73b2a48aae9b8ed37fbc))
+
+## [1.26.3](https://github.com/scaleway/scaleway-form/compare/v1.26.2...v1.26.3) (2022-09-07)
+
+
+### :package: Chore
+
+* **devdeps:** update commitlint monorepo ([#475](https://github.com/scaleway/scaleway-form/issues/475)) ([70fdf28](https://github.com/scaleway/scaleway-form/commit/70fdf28506f072540f80c3c37bd4134ae0505b9e))
+* **devdeps:** update dependency @babel/core to v7.18.13 ([#471](https://github.com/scaleway/scaleway-form/issues/471)) ([709a012](https://github.com/scaleway/scaleway-form/commit/709a01226e40bf38c44469959e4b9c5e49092d83))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.8 ([#470](https://github.com/scaleway/scaleway-form/issues/470)) ([dd89214](https://github.com/scaleway/scaleway-form/commit/dd892143cb8b6c1648b5f8e99b85b257331eb684))
+* **devdeps:** update dependency eslint to v8.23.0 ([#476](https://github.com/scaleway/scaleway-form/issues/476)) ([f51ce73](https://github.com/scaleway/scaleway-form/commit/f51ce73abb4d07171db19fde0a4b336d69c5bd6d))
+* **devdeps:** update dependency jest-junit to v14.0.1 ([#473](https://github.com/scaleway/scaleway-form/issues/473)) ([ffe4bf6](https://github.com/scaleway/scaleway-form/commit/ffe4bf6082bce727f9499b3c53cb603b9c904f7f))
+* **devdeps:** update semantic-release monorepo ([#474](https://github.com/scaleway/scaleway-form/issues/474)) ([b991f6e](https://github.com/scaleway/scaleway-form/commit/b991f6e3f037e14cab152ad3101f82c3ac145caa))
+
+
+### :bug: Bug Fixes
+
+* richselect forward required prop ([#478](https://github.com/scaleway/scaleway-form/issues/478)) ([8654541](https://github.com/scaleway/scaleway-form/commit/86545417bebb63effcd20f48dedb16d62dbf0df7))
+
 ## [1.26.2](https://github.com/scaleway/scaleway-form/compare/v1.26.1...v1.26.2) (2022-09-05)
 
 

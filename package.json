@@ -1,6 +1,6 @@
 {
   "name": "@scaleway/form",
-  "version": "1.26.2",
+  "version": "1.29.0",
   "description": "Scaleway Form",
   "homepage": "https://github.com/scaleway/scaleway-form#readme",
   "repository": {
@@ -190,7 +190,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.18.9",
-    "@scaleway/ui": "0.185.0",
+    "@scaleway/ui": "0.187.0",
     "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

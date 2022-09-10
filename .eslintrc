@@ -4,7 +4,8 @@
     "browser": true
   },
   "extends": [
-    "@scaleway/react/typescript"
+    "@scaleway/react/typescript",
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "project": [

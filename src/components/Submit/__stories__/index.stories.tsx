@@ -11,6 +11,7 @@ export default {
       description: {
         component: 'Default submit button when no one is provided',
       },
+      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Submit',

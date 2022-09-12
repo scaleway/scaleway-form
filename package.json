@@ -185,7 +185,7 @@
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-visualizer": "5.7.1",
     "semantic-release": "19.0.5",
-    "typescript": "4.7.4",
+    "typescript": "4.8.3",
     "webpack": "5.74.0"
   },
   "dependencies": {

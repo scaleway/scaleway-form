@@ -10,7 +10,6 @@ interface WrapperProps {
   theme?: typeof lightTheme
   children: ReactNode
 }
-
 const Wrapper = ({ theme = lightTheme, children }: WrapperProps) => (
   <ThemeProvider theme={theme}>{children}</ThemeProvider>
 )

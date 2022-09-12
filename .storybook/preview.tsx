@@ -1,5 +1,4 @@
 import { SCWUITheme, normalize, lightTheme } from '@scaleway/ui'
-
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
 const STORY_SORT = {
@@ -38,6 +37,8 @@ const ENV_PARAMETERS = {
       storySort: STORY_SORT,
     },
   },
+  visual: {},
+  layout: 'centered',
 }
 export const parameters =
   ENV_PARAMETERS[process.env.STORYBOOK_ENVIRONMENT] || ENV_PARAMETERS.production

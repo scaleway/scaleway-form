@@ -1,6 +1,6 @@
 import { DateInput } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import { ComponentProps } from 'react'
+import { ComponentProps, FocusEvent } from 'react'
 import { useField } from 'react-final-form'
 import { pickValidators } from '../../helpers'
 import { useValidation } from '../../hooks'
@@ -28,8 +28,8 @@ type DateFieldProps = BaseFieldProps<Date> &
     required?: boolean
     locale?: string
     onChange?: (value: string | Date | undefined) => void
-    onBlur?: (event: React.FocusEvent<HTMLElement, Element>) => void
-    onFocus?: (value: React.FocusEvent<HTMLElement, Element>) => void
+    onBlur?: (event: FocusEvent<HTMLElement, Element>) => void
+    onFocus?: (value: FocusEvent<HTMLElement, Element>) => void
   }
 
 const parseDate = (value: Date | string): Date =>
@@ -103,11 +103,11 @@ export const DateField = ({
         newDate.setHours(currentDate.getHours(), currentDate.getMinutes())
         input.onChange(newDate)
       }}
-      onBlur={(e: React.FocusEvent<HTMLElement, Element>) => {
+      onBlur={(e: FocusEvent<HTMLElement, Element>) => {
         input.onBlur(e)
         onBlur?.(e)
       }}
-      onFocus={(e: React.FocusEvent<HTMLElement, Element>) => {
+      onFocus={(e: FocusEvent<HTMLElement, Element>) => {
         input.onFocus(e)
         onFocus?.(e)
       }}

@@ -72,7 +72,7 @@ specifiers:
   regenerator-runtime: 0.13.9
   rollup: 2.78.1
   rollup-plugin-dts: 4.2.2
-  rollup-plugin-visualizer: 5.7.1
+  rollup-plugin-visualizer: 5.8.1
   semantic-release: 19.0.5
   typescript: 4.8.3
   webpack: 5.74.0
@@ -151,7 +151,7 @@ devDependencies:
   regenerator-runtime: 0.13.9
   rollup: 2.78.1
   rollup-plugin-dts: 4.2.2_wolqyj7yoan7276t7qkuwshr3y
-  rollup-plugin-visualizer: 5.7.1_rollup@2.78.1
+  rollup-plugin-visualizer: 5.8.1_rollup@2.78.1
   semantic-release: 19.0.5
   typescript: 4.8.3
   webpack: 5.74.0
@@ -14419,12 +14419,15 @@ packages:
       '@babel/code-frame': 7.18.6
     dev: true
 
-  /rollup-plugin-visualizer/5.7.1_rollup@2.78.1:
-    resolution: {integrity: sha512-E/IgOMnmXKlc6ICyf53ok1b6DxPeNVUs3R0kYYPuDpGfofT4bkiG+KtSMlGjMACFmfwbbqTVDZBIF7sMZVKJbA==}
+  /rollup-plugin-visualizer/5.8.1_rollup@2.78.1:
+    resolution: {integrity: sha512-NBT/xN/LWCwDM2/j5vYmjzpEAKHyclo/8Cv8AfTCwgADAG+tLJDy1vzxMw6NO0dSDjmTeRELD9UU3FwknLv0GQ==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
       rollup: ^2.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
       nanoid: 3.3.4
       open: 8.4.0

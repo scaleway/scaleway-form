@@ -3,7 +3,11 @@ import React from 'react'
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
 const STORY_SORT = {
-  order: ['Components', ['Form', 'Fields', 'SubmitErrorAlert', 'Submit']],
+  order: [
+    'Introduction',
+    'Components',
+    ['Form', 'Fields', 'SubmitErrorAlert', 'Submit'],
+  ],
 }
 
 const ENV_PARAMETERS = {

@@ -1,4 +1,3 @@
-// @ts-ignore
 const path = require('path')
 
 module.exports = {
@@ -11,7 +10,11 @@ module.exports = {
   typescript: {
     reactDocgen: 'react-docgen-typescript',
   },
-  stories: ['../src/**/__stories__/*.stories.tsx', '../src/__stories__/**'],
+  stories: [
+    '../src/__stories__/Introduction.stories.mdx',
+    '../src/**/__stories__/*.stories.tsx',
+    '../src/__stories__/**',
+  ],
   addons: [
     '@storybook/addon-docs',
     '@storybook/addon-links',
@@ -34,17 +37,6 @@ module.exports = {
         'emotion-theming': path.join(cwd, 'node_modules', '@emotion', 'react'),
       }
     }
-
-    // if (config.module?.rules) {
-    //   config.module.rules.push({
-    //     test: /\.(png)$/,
-    //     use: [
-    //       {
-    //         loader: 'file-loader',
-    //       },
-    //     ],
-    //   })
-    // }
 
     return config
   },

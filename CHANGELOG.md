@@ -1,3 +1,18 @@
+## [1.29.2](https://github.com/scaleway/scaleway-form/compare/v1.29.1...v1.29.2) (2022-09-14)
+
+
+### :memo: Documentation
+
+* improve documentation DX ([#472](https://github.com/scaleway/scaleway-form/issues/472)) ([e1a4c20](https://github.com/scaleway/scaleway-form/commit/e1a4c20dc59db12e7a08b95f56ac1d006efde30e))
+
+
+### :package: Chore
+
+* **deps:** add require-from-string ([#496](https://github.com/scaleway/scaleway-form/issues/496)) ([95af3e5](https://github.com/scaleway/scaleway-form/commit/95af3e54b136d2235b8a7d406adc3393097b445e))
+* **devdeps:** update dependency rollup-plugin-visualizer to v5.8.1 ([#492](https://github.com/scaleway/scaleway-form/issues/492)) ([4519c49](https://github.com/scaleway/scaleway-form/commit/4519c494abfdb12cbd2a64e4dc59f73fae8e3f10))
+* **devdeps:** update dependency typescript to v4.8.3 ([#493](https://github.com/scaleway/scaleway-form/issues/493)) ([a733466](https://github.com/scaleway/scaleway-form/commit/a733466b980a5d5f44f40447a45e49252d815e26))
+* **pnpm:** update version ([#489](https://github.com/scaleway/scaleway-form/issues/489)) ([48bcf07](https://github.com/scaleway/scaleway-form/commit/48bcf07db87652a66aff179610cd69e281507b01))
+
 ## [1.29.1](https://github.com/scaleway/scaleway-form/compare/v1.29.0...v1.29.1) (2022-09-08)
 
 

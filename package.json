@@ -181,6 +181,7 @@
     "react-dom": "18.2.0",
     "read-pkg": "7.1.0",
     "regenerator-runtime": "0.13.9",
+    "require-from-string": "2.0.2",
     "rollup": "2.78.1",
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-visualizer": "5.8.1",

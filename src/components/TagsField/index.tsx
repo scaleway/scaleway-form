@@ -1,8 +1,8 @@
 import { Tags } from '@scaleway/ui'
 import React, { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> &
@@ -17,7 +17,7 @@ export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> &
     required?: boolean
   }
 
-const TagsField = ({
+export const TagsField = ({
   className,
   disabled,
   id,
@@ -57,5 +57,3 @@ const TagsField = ({
     />
   )
 }
-
-export default TagsField

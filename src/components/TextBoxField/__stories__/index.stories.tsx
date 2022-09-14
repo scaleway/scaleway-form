@@ -1,9 +1,7 @@
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import TextBoxField from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
-import Submit from '../../Submit'
+import { Form, Submit, TextBoxField } from '../..'
+import { mockErrors } from '../../../mocks/mockErrors'
 
 export default {
   component: TextBoxField,

@@ -1,9 +1,9 @@
 import { renderHook } from '@testing-library/react'
 import React, { ReactNode } from 'react'
 import { Form as ReactFinalForm } from 'react-final-form'
-import ErrorProvider, { useErrors } from '..'
+import { ErrorProvider, useErrors } from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
+import { mockErrors } from '../../../mocks'
 
 const HookWrapper = ({ children }: { children: ReactNode }) => (
   <ReactFinalForm

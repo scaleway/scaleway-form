@@ -1,7 +1,7 @@
 import { fireEvent, waitFor } from '@testing-library/dom'
 import { act } from '@testing-library/react'
 import React from 'react'
-import TimeField from '..'
+import { TimeField } from '..'
 import {
   mockRandom,
   restoreRandom,

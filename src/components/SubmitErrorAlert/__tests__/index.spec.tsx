@@ -2,14 +2,12 @@ import { waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { FORM_ERROR } from 'final-form'
 import React from 'react'
-import SubmitErrorAlert from '..'
+import { Form, Submit, SubmitErrorAlert } from '../..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
-import Submit from '../../Submit'
+import { mockErrors } from '../../../mocks'
 
 describe('SubmitErrorAlert', () => {
   beforeAll(() => {

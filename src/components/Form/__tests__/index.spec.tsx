@@ -1,9 +1,9 @@
 import { waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import Form from '..'
+import { Form } from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
+import { mockErrors } from "../../../mocks"
 
 describe('Form', () => {
   test('renders correctly ', () =>

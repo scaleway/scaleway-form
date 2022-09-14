@@ -1,11 +1,8 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import DateField from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
-import Submit from '../../Submit'
-import TimeField from '../../TimeField'
+import { DateField, Form, Submit, TimeField } from '../..'
+import { mockErrors } from '../../../mocks'
 
 const Container = styled.div`
   margin-bottom: 300px;

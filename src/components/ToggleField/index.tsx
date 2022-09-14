@@ -1,8 +1,8 @@
 import { Toggle } from '@scaleway/ui'
 import React, { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 type ToggleFieldProps<T = unknown, K = unknown> = BaseFieldProps<T, K> &
@@ -20,7 +20,7 @@ type ToggleFieldProps<T = unknown, K = unknown> = BaseFieldProps<T, K> &
     required?: boolean
   }
 
-const ToggleField = ({
+export const ToggleField = ({
   afterSubmit,
   allowNull,
   beforeSubmit,
@@ -87,5 +87,3 @@ const ToggleField = ({
     />
   )
 }
-
-export default ToggleField

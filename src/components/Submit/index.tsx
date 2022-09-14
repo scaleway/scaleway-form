@@ -15,7 +15,7 @@ type SubmitProps = {
   variant?: ComponentProps<typeof Button>['variant']
 }
 
-const Submit = ({
+export const Submit = ({
   action,
   children,
   className,
@@ -63,5 +63,3 @@ const Submit = ({
     </Button>
   )
 }
-
-export default Submit

@@ -7,7 +7,7 @@ import {
   Form as ReactFinalForm,
   FormProps as ReactFinalFormProps,
 } from 'react-final-form'
-import ErrorProvider from '../../providers/ErrorContext'
+import { ErrorProvider } from '../../providers'
 import { FormErrors, OnSubmitErrorFn, OnSubmitSucccessFn } from '../../types'
 
 const focusOnErrors = createDecorator()
@@ -49,7 +49,8 @@ export type FormProps<FormValues = unknown> = {
   mutators?: ReactFinalFormProps<FormValues, Partial<FormValues>>['mutators']
   keepDirtyOnReinitialize?: boolean
 }
-const Form = <FormValues,>({
+
+export const Form = <FormValues,>({
   children,
   onRawSubmit,
   onSubmit,
@@ -113,5 +114,3 @@ const Form = <FormValues,>({
     keepDirtyOnReinitialize={keepDirtyOnReinitialize}
   />
 )
-
-export default Form

@@ -2,8 +2,8 @@ import { Radio } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { ComponentProps, ReactNode } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -23,7 +23,7 @@ type RadioFieldProps<T = RadioValue, K = string> = BaseFieldProps<T, K> &
     required?: boolean
   }
 
-const RadioField = ({
+export const RadioField = ({
   children,
   className,
   disabled,
@@ -89,5 +89,3 @@ const RadioField = ({
     </Radio>
   )
 }
-
-export default RadioField

@@ -13,7 +13,7 @@ type UseValidationResult<FieldValue = unknown> = (
   meta?: FieldState<FieldValue>,
 ) => Array<string> | undefined | unknown
 
-const useValidation = <T = unknown>({
+export const useValidation = <T = unknown>({
   validators,
   validate,
 }: UseValidationParams<T>): UseValidationResult<T> => {
@@ -42,5 +42,3 @@ const useValidation = <T = unknown>({
 
   return fn
 }
-
-export default useValidation

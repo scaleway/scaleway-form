@@ -8,8 +8,8 @@ import React, {
   useMemo,
 } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -57,7 +57,7 @@ export type RichSelectFieldProps<
 
 const identity = <T,>(x: T) => x
 
-const RichSelectField = <
+export const RichSelectField = <
   T extends RichSelectOptionOrGroup = RichSelectOptionOrGroup,
 >({
   animation,
@@ -222,5 +222,3 @@ const RichSelectField = <
 }
 
 RichSelectField.Option = RichSelect.Option
-
-export default RichSelectField

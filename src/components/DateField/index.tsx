@@ -2,8 +2,8 @@ import { DateInput } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -38,7 +38,7 @@ const parseDate = (value: Date | string): Date =>
 const isEmpty = (value?: Date | string): boolean =>
   typeof value === 'string' ? value === '' : value === undefined
 
-const DateField = ({
+export const DateField = ({
   required,
   name,
   label = '',

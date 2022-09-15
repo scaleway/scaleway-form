@@ -1,15 +1,14 @@
 import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import SelectableCardField from '..'
+import { Form, SelectableCardField } from '../..'
 import {
   mockRandom,
   restoreRandom,
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { mockErrors } from '../../../mocks'
 
 describe('SelectableCardField', () => {
   beforeAll(mockRandom)

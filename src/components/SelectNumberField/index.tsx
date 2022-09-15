@@ -1,8 +1,8 @@
 import { SelectNumber } from '@scaleway/ui'
 import React, { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 type SelectNumberValue = NonNullable<
@@ -35,7 +35,7 @@ type SelectNumberValueFieldProps<
     onFocus?: FocusEventHandler<HTMLInputElement>
   }
 
-const SelectNumberField = ({
+export const SelectNumberField = ({
   disabled,
   maxValue,
   minValue,
@@ -94,5 +94,3 @@ const SelectNumberField = ({
     />
   )
 }
-
-export default SelectNumberField

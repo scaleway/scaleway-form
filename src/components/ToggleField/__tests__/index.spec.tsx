@@ -1,5 +1,5 @@
 import React from 'react'
-import ToggleField from '..'
+import { ToggleField } from '..'
 import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelpers'
 
 describe('ToggleField', () => {

@@ -1,9 +1,8 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
 import React from 'react'
-import RichSelectField, { RichSelectFieldProps } from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { Form, RichSelectField, RichSelectFieldProps } from '../..'
+import { mockErrors } from '../../../mocks'
 
 const Container = styled.div`
   min-height: 300px;

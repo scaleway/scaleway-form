@@ -16,13 +16,15 @@ type ErrorContextValue = {
   errors: FormErrors
   getError: (props: GetErrorProps) => string | undefined
 }
-const ErrorContext = createContext({} as ErrorContextValue)
+
+const ErrorContext = createContext<ErrorContextValue | undefined>(undefined)
 
 type ErrorProviderProps = {
   children: ReactNode
   errors: FormErrors
 }
-const ErrorProvider = ({
+
+export const ErrorProvider = ({
   children,
   errors,
 }: ErrorProviderProps): JSX.Element => {
@@ -94,6 +96,12 @@ const ErrorProvider = ({
   return <ErrorContext.Provider value={value}>{children}</ErrorContext.Provider>
 }
 
-export const useErrors = (): ErrorContextValue => useContext(ErrorContext)
+export const useErrors = () => {
+  const context = useContext(ErrorContext)
 
-export default ErrorProvider
+  if (context === undefined) {
+    throw new Error('useErrors must be used within an ErrorProvider ')
+  }
+
+  return context
+}

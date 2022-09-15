@@ -1,15 +1,13 @@
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import Submit from '..'
+import { Form, Submit, TextBoxField } from '../..'
 import {
   mockRandom,
   restoreRandom,
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
-import TextBoxField from '../../TextBoxField'
+import { mockErrors } from '../../../mocks'
 
 const alpha = /^[a-zA-Z]*$/
 

@@ -1,7 +1,7 @@
 import { fireEvent } from '@testing-library/dom'
 import { act } from '@testing-library/react'
 import React from 'react'
-import RichSelectField from '..'
+import { RichSelectField } from '..'
 import {
   mockRandom,
   renderWithWrapper,
@@ -120,7 +120,7 @@ describe('RichSelectField', () => {
             'input[type="hidden"]',
           ) as HTMLInputElement
 
-          const {value} = hiddenSelectInput
+          const { value } = hiddenSelectInput
           expect(value).toBe(selectedOption.value)
         },
       },

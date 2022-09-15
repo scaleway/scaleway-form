@@ -2,13 +2,12 @@ import { waitFor } from '@testing-library/dom'
 import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import CheckboxField from '..'
+import { CheckboxField, Form } from '../..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { mockErrors } from '../../../mocks'
 
 describe('CheckboxField', () => {
   test('should render correctly', () =>

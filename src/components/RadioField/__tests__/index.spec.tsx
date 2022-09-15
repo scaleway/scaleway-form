@@ -1,14 +1,14 @@
 import { act } from '@testing-library/react'
 import React from 'react'
-import RadioField from '..'
+import { RadioField } from '..'
 import {
   mockRandom,
   restoreRandom,
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { mockErrors } from '../../../mocks/mockErrors'
+import { Form } from '../../Form'
 
 describe('RadioField', () => {
   beforeAll(mockRandom)

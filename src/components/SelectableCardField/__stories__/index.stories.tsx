@@ -1,9 +1,7 @@
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import SelectableCardField from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form, { FormProps } from '../../Form'
-import Submit from '../../Submit'
+import { Form, FormProps, SelectableCardField, Submit } from '../..'
+import { mockErrors } from '../../../mocks'
 
 export default {
   component: SelectableCardField,

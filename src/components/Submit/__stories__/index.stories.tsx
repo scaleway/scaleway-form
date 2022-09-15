@@ -1,8 +1,7 @@
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import Submit from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { Form, Submit } from '../..'
+import { mockErrors } from '../../../mocks'
 
 export default {
   component: Submit,

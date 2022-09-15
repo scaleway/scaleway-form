@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react'
 import { ValidatorObject } from '../../types'
-import useValidation from '../useValidation'
+import { useValidation } from '../useValidation'
 
 const fakeValidator = (success?: boolean) =>
   ({

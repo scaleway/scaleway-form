@@ -2,8 +2,8 @@ import { SelectableCard } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -36,7 +36,7 @@ type SelectableCardFieldProps<
     className?: string
   }
 
-const SelectableCardField = ({
+export const SelectableCardField = ({
   name,
   value,
   onChange,
@@ -103,5 +103,3 @@ const SelectableCardField = ({
     </SelectableCard>
   )
 }
-
-export default SelectableCardField

@@ -1,3 +1,30 @@
+## [1.29.3](https://github.com/scaleway/scaleway-form/compare/v1.29.2...v1.29.3) (2022-09-15)
+
+
+### :zap: Refactor
+
+* **named-import:** no default export ([#497](https://github.com/scaleway/scaleway-form/issues/497)) ([d958327](https://github.com/scaleway/scaleway-form/commit/d958327b995f1cddc5c4566b71d2b62a75e35aaf))
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo ([#495](https://github.com/scaleway/scaleway-form/issues/495)) ([815421e](https://github.com/scaleway/scaleway-form/commit/815421ee9beb9c2b3906173e8844f8fdb7161e67))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v14 ([#499](https://github.com/scaleway/scaleway-form/issues/499)) ([97b09d2](https://github.com/scaleway/scaleway-form/commit/97b09d23382effd407655edf22efa53db440cc33))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.14 ([#484](https://github.com/scaleway/scaleway-form/issues/484)) ([7c04a3e](https://github.com/scaleway/scaleway-form/commit/7c04a3ecce06d2dbe955e604fa964d50f042c011))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2.0.17 ([#490](https://github.com/scaleway/scaleway-form/issues/490)) ([1ba4114](https://github.com/scaleway/scaleway-form/commit/1ba41145eb61a82e61a8044604e90fdc5160e7c2))
+* **devdeps:** update dependency @testing-library/react to v13.4.0 ([#488](https://github.com/scaleway/scaleway-form/issues/488)) ([0318a51](https://github.com/scaleway/scaleway-form/commit/0318a51f466f6e0f7143e00173b2a54e6c2acb02))
+* **devdeps:** update dependency @types/react to v18.0.20 ([#485](https://github.com/scaleway/scaleway-form/issues/485)) ([4b90d97](https://github.com/scaleway/scaleway-form/commit/4b90d97473b47db4c738aa868e5a6dec4707b57d))
+* **devdeps:** update dependency eslint to v8.23.1 ([#494](https://github.com/scaleway/scaleway-form/issues/494)) ([22c7f37](https://github.com/scaleway/scaleway-form/commit/22c7f37f04fc4d1a62404715dfaa99b52238f5bc))
+* **devdeps:** update dependency eslint-plugin-mdx to v2.0.4 ([#486](https://github.com/scaleway/scaleway-form/issues/486)) ([60fcb2a](https://github.com/scaleway/scaleway-form/commit/60fcb2a6fcdcd6761e46da397f2fce265e008a1a))
+* **devdeps:** update dependency rollup to v2.79.0 ([#491](https://github.com/scaleway/scaleway-form/issues/491)) ([2024c71](https://github.com/scaleway/scaleway-form/commit/2024c7187cfe427ff2a7efa20715b49f59055787))
+* **devdeps:** update jest monorepo to v29.0.3 ([#487](https://github.com/scaleway/scaleway-form/issues/487)) ([2553c21](https://github.com/scaleway/scaleway-form/commit/2553c2174c632ee7049925c7ee7b9d075b2f5799))
+* **devdeps:** update node.js to v18.9 ([#498](https://github.com/scaleway/scaleway-form/issues/498)) ([edaf5f3](https://github.com/scaleway/scaleway-form/commit/edaf5f38c17cae034d960a9a020d2b70eacf9f9d))
+
+
+### :bug: Bug Fixes
+
+* **text-box:** add resizable props ([#500](https://github.com/scaleway/scaleway-form/issues/500)) ([a2de0b8](https://github.com/scaleway/scaleway-form/commit/a2de0b840c442a58697326d6e3ee51fbe38bb1b3))
+
 ## [1.29.2](https://github.com/scaleway/scaleway-form/compare/v1.29.1...v1.29.2) (2022-09-14)
 
 

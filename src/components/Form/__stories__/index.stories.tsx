@@ -1,13 +1,16 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
 import React from 'react'
-import Form, { FormProps } from '..'
-import mockErrors, { emailRegex } from '../../../mocks/mockErrors'
-import CheckboxField from '../../CheckboxField'
-import RichSelectField from '../../RichSelectField'
-import Submit from '../../Submit'
-import SubmitErrorAlert from '../../SubmitErrorAlert'
-import TextBoxField from '../../TextBoxField'
+import {
+  CheckboxField,
+  Form,
+  FormProps,
+  RichSelectField,
+  Submit,
+  SubmitErrorAlert,
+  TextBoxField,
+} from '../..'
+import { emailRegex, mockErrors } from '../../../mocks/mockErrors'
 
 export default {
   component: Form,

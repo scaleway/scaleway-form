@@ -1,13 +1,12 @@
 import { act, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import React from 'react'
-import SelectNumberField from '..'
+import { Form, SelectNumberField } from '../..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
+import { mockErrors } from '../../../mocks'
 
 describe('SelectNumberField', () => {
   test('should render correctly', () =>

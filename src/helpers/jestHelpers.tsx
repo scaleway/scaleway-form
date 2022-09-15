@@ -3,8 +3,8 @@ import makeHelpers from '@scaleway/jest-helpers'
 import { lightTheme } from '@scaleway/ui'
 import { render } from '@testing-library/react'
 import React, { ComponentProps, ReactElement, ReactNode } from 'react'
-import Form from '../components/Form'
-import mockErrors from '../mocks/mockErrors'
+import { Form } from '../components'
+import { mockErrors } from '../mocks'
 
 interface WrapperProps {
   theme?: typeof lightTheme

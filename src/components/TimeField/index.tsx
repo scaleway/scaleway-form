@@ -1,8 +1,8 @@
 import { TimeInput } from '@scaleway/ui'
 import React, { ComponentProps, useMemo } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 const parseTime = (date?: Date | string): { label: string; value: string } => {
@@ -22,7 +22,7 @@ type TimeFieldProps = BaseFieldProps<Date> &
     name: string
   }
 
-const TimeField = ({
+export const TimeField = ({
   required,
   name,
   schedule,
@@ -106,5 +106,3 @@ const TimeField = ({
     />
   )
 }
-
-export default TimeField

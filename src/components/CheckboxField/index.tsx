@@ -2,8 +2,8 @@ import { Checkbox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { ComponentProps, ReactNode, Ref, forwardRef } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -29,7 +29,7 @@ type CheckboxFieldProps<T = CheckboxValue, K = string> = BaseFieldProps<T, K> &
     required?: boolean
   }
 
-const CheckboxField = forwardRef(
+export const CheckboxField = forwardRef(
   (
     {
       validate,

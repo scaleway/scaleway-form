@@ -1,9 +1,8 @@
 import { Meta, Story } from '@storybook/react'
 import React, { ComponentProps } from 'react'
-import TagsField, { TagsFieldProps } from '..'
-import mockErrors from '../../../mocks/mockErrors'
-import Form from '../../Form'
-import Submit from '../../Submit'
+import { TagsField, TagsFieldProps } from '..'
+import { Form, Submit } from '../..'
+import { mockErrors } from '../../../mocks'
 
 export default {
   component: TagsField,

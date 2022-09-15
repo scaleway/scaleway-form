@@ -2,8 +2,8 @@ import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import React, { ComponentProps, FocusEvent, Ref, forwardRef } from 'react'
 import { useField } from 'react-final-form'
-import pickValidators from '../../helpers/pickValidators'
-import useValidation from '../../hooks/useValidation'
+import { pickValidators } from '../../helpers'
+import { useValidation } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -48,7 +48,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
     regex?: (RegExp | RegExp[])[]
   }
 
-const TextBoxField = forwardRef(
+export const TextBoxField = forwardRef(
   (
     {
       afterSubmit,
@@ -191,5 +191,3 @@ const TextBoxField = forwardRef(
     )
   },
 )
-
-export default TextBoxField

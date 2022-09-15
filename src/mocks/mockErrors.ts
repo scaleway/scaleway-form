@@ -2,7 +2,7 @@ import { FormErrors } from '../types'
 
 export const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
 
-const mockErrors: FormErrors = {
+export const mockErrors: FormErrors = {
   MAX_DATE: ({ maxDate }) => `Date must be lower than ${maxDate?.toString()}`,
   MAX_LENGTH: ({ maxLength }) =>
     `This field should have a length lower than ${maxLength}`,
@@ -28,5 +28,3 @@ const mockErrors: FormErrors = {
   TOO_HIGH: ({ max }) => `This field is too high (maximum is : ${max})`,
   TOO_LOW: 'This field is too low',
 }
-
-export default mockErrors

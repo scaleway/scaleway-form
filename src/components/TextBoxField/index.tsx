@@ -20,6 +20,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'autoSave'
       | 'cols'
       | 'disabled'
+      | 'fillAvailable'
       | 'generated'
       | 'id'
       | 'label'
@@ -36,6 +37,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'random'
       | 'readOnly'
       | 'required'
+      | 'resizable'
       | 'rows'
       | 'type'
       | 'value'
@@ -64,6 +66,7 @@ export const TextBoxField = forwardRef(
       data,
       defaultValue,
       disabled,
+      fillAvailable,
       format,
       formatOnBlur,
       generated,
@@ -82,14 +85,15 @@ export const TextBoxField = forwardRef(
       onBlur,
       onChange,
       onFocus,
-      onKeyUp,
       onKeyDown,
+      onKeyUp,
       parse,
       placeholder,
       random,
       readOnly,
       regex,
       required,
+      resizable,
       rows,
       subscription,
       type,
@@ -155,6 +159,7 @@ export const TextBoxField = forwardRef(
         cols={cols}
         disabled={disabled}
         error={error}
+        fillAvailable={fillAvailable}
         generated={generated}
         id={id}
         label={label}
@@ -184,6 +189,7 @@ export const TextBoxField = forwardRef(
         readOnly={readOnly}
         ref={ref}
         required={required}
+        resizable={resizable}
         rows={rows}
         type={input.type}
         value={input.value}

@@ -19,7 +19,7 @@ specifiers:
   '@nivo/core': 0.79.0
   '@nivo/tooltip': 0.79.0
   '@rollup/plugin-babel': 5.3.1
-  '@rollup/plugin-node-resolve': 13.3.0
+  '@rollup/plugin-node-resolve': 14.1.0
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.5.8
   '@scaleway/jest-helpers': 2.0.17
@@ -105,7 +105,7 @@ devDependencies:
   '@nivo/core': 0.79.0_vcdwbqqj4lpdy45youhd2o3pxm
   '@nivo/tooltip': 0.79.0_zhuuyauhwzzhfusgrzbzttapgm
   '@rollup/plugin-babel': 5.3.1_qjhfxcwn2glzcb5646tzyg45bq
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.0
+  '@rollup/plugin-node-resolve': 14.1.0_rollup@2.79.0
   '@rollup/plugin-url': 7.0.0_rollup@2.79.0
   '@scaleway/eslint-config-react': 3.5.8_irgkl5vooow2ydyo6aokmferha
   '@scaleway/jest-helpers': 2.0.17_u42bonucx6j4jcfa3o2xva7sga
@@ -2927,11 +2927,11 @@ packages:
       rollup: 2.79.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.79.0:
-    resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
+  /@rollup/plugin-node-resolve/14.1.0_rollup@2.79.0:
+    resolution: {integrity: sha512-5G2niJroNCz/1zqwXtk0t9+twOSDlG00k1Wfd7bkbbXmwg8H8dvgHdIWAun53Ps/rckfvOC7scDBjuGFg5OaWw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
-      rollup: ^2.42.0
+      rollup: ^2.78.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.0
       '@types/resolve': 1.17.1
@@ -7443,6 +7443,12 @@ packages:
   /date-fns/2.29.2:
     resolution: {integrity: sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==}
     engines: {node: '>=0.11'}
+    dev: true
+
+  /date-fns/2.29.3:
+    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
+    engines: {node: '>=0.11'}
+    dev: false
 
   /dateformat/3.0.3:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
@@ -10227,7 +10233,7 @@ packages:
     dev: true
 
   /is-module/1.0.0:
-    resolution: {integrity: sha1-Mlj7afeMFNW4FdZkM2tM/7ZEFZE=}
+    resolution: {integrity: sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==}
     dev: true
 
   /is-negative-zero/2.0.2:
@@ -13687,7 +13693,7 @@ packages:
     dependencies:
       '@popperjs/core': 2.11.6
       classnames: 2.3.1
-      date-fns: 2.29.2
+      date-fns: 2.29.3
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0

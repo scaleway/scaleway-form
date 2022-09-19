@@ -22,6 +22,6 @@ WORKDIR /workspace
 
 COPY --from=builder /usr/src/app/storybook-static .
 
-RUN npm add -g serve
+RUN npm add -g http-server
 
-CMD serve -l 80
+CMD http-server -p 8080

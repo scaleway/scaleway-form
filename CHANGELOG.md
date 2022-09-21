@@ -1,3 +1,23 @@
+## [1.29.4](https://github.com/scaleway/scaleway-form/compare/v1.29.3...v1.29.4) (2022-09-21)
+
+
+### :repeat: CI
+
+* change deployment URL ([#503](https://github.com/scaleway/scaleway-form/issues/503)) ([66c28e4](https://github.com/scaleway/scaleway-form/commit/66c28e49f09452cd01ce47d3551f280417e96f8f))
+
+
+### :package: Chore
+
+* **devdeps:** update codecov/codecov-action action to v3.1.1 ([#504](https://github.com/scaleway/scaleway-form/issues/504)) ([1476138](https://github.com/scaleway/scaleway-form/commit/1476138c858e60a4ec7ff6513aa86060fe2112ef))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.5.15 ([#507](https://github.com/scaleway/scaleway-form/issues/507)) ([3c9873c](https://github.com/scaleway/scaleway-form/commit/3c9873c2c7bb32613f2e0c126bcf058a26dbbd83))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2.0.18 ([#505](https://github.com/scaleway/scaleway-form/issues/505)) ([f6931b3](https://github.com/scaleway/scaleway-form/commit/f6931b3ad00ca24217ce3228989adaf86bbc5725))
+* **devdeps:** update storybook monorepo to v6.5.12 ([#291](https://github.com/scaleway/scaleway-form/issues/291)) ([8620386](https://github.com/scaleway/scaleway-form/commit/862038645dabb5e1af967d7cd0027ba3b3885451))
+
+
+### :bug: Bug Fixes
+
+* update scaleway ui ([#508](https://github.com/scaleway/scaleway-form/issues/508)) ([eddb7c8](https://github.com/scaleway/scaleway-form/commit/eddb7c8118728aacc2d7963e5ed721bb2703eeb0))
+
 ## [1.29.3](https://github.com/scaleway/scaleway-form/compare/v1.29.2...v1.29.3) (2022-09-15)
 
 

@@ -28,7 +28,7 @@ describe('SelectableCardField', () => {
       </SelectableCardField>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           expect(input).toBeDisabled()
         },
       },
@@ -43,7 +43,7 @@ describe('SelectableCardField', () => {
       </Form>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           expect(input).toBeChecked()
         },
       },
@@ -66,7 +66,7 @@ describe('SelectableCardField', () => {
       </SelectableCardField>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           act(() => {
             input.focus()
           })
@@ -97,7 +97,7 @@ describe('SelectableCardField', () => {
           await act(async () => {
             await userEvent.click(node.getByRole('button'))
           })
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           expect(input).toHaveAttribute('aria-invalid', 'true')
         },
       },

@@ -18,7 +18,7 @@ describe('CheckboxField', () => {
       <CheckboxField name="test" disabled />,
       {
         transform: node => {
-          const input = node.getByRole('checkbox')
+          const input = node.getByRole('checkbox', { hidden: true })
           expect(input).toBeDisabled()
         },
       },
@@ -29,7 +29,7 @@ describe('CheckboxField', () => {
       <CheckboxField name="checked" />,
       {
         transform: async node => {
-          const input = node.getByRole('checkbox')
+          const input = node.getByRole('checkbox', { hidden: true })
           await waitFor(() => expect(input).toBeChecked())
         },
       },
@@ -48,9 +48,15 @@ describe('CheckboxField', () => {
       </>,
       {
         transform: node => {
-          const inputChecked = node.getByRole('checkbox', { checked: true })
+          const inputChecked = node.getByRole('checkbox', {
+            checked: true,
+            hidden: true,
+          })
           expect(inputChecked).toBeDefined()
-          const inputNotChecked = node.getByRole('checkbox', { checked: false })
+          const inputNotChecked = node.getByRole('checkbox', {
+            checked: false,
+            hidden: true,
+          })
           expect(inputNotChecked).toBeDefined()
         },
       },
@@ -77,7 +83,7 @@ describe('CheckboxField', () => {
       </CheckboxField>,
       {
         transform: node => {
-          const input = node.getByRole('checkbox')
+          const input = node.getByRole('checkbox', { hidden: true })
           act(() => {
             input.focus()
           })
@@ -106,9 +112,9 @@ describe('CheckboxField', () => {
       {
         transform: async node => {
           await act(async () => {
-            await userEvent.click(node.getByRole('checkbox'))
+            await userEvent.click(node.getByRole('checkbox', { hidden: true }))
             // to trigger error
-            await userEvent.click(node.getByRole('checkbox'))
+            await userEvent.click(node.getByRole('checkbox', { hidden: true }))
             await userEvent.click(node.getByText('Focus'))
           })
           const error = node.getByText(mockErrors.REQUIRED as string)

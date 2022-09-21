@@ -46,7 +46,7 @@ export const CheckboxField = forwardRef(
       onFocus,
       value,
     }: CheckboxFieldProps,
-    ref: Ref<HTMLLabelElement>,
+    ref: Ref<HTMLInputElement>,
   ): JSX.Element => {
     const { getError } = useErrors()
 

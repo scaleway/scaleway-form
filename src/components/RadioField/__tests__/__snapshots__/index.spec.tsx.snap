@@ -50,15 +50,13 @@ exports[`RadioField should render correctly 1`] = `
   fill: #f6f6f8;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -68,36 +66,36 @@ exports[`RadioField should render correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -131,7 +129,7 @@ exports[`RadioField should render correctly 1`] = `
         aria-checked="false"
         aria-disabled="false"
         aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
+        class="cache-1pbtiau e1duuirp1"
         id="test-test"
         name="test"
         tabindex="0"
@@ -220,15 +218,13 @@ exports[`RadioField should render correctly checked 1`] = `
   fill: #f6f6f8;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -238,36 +234,36 @@ exports[`RadioField should render correctly checked 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -302,7 +298,7 @@ exports[`RadioField should render correctly checked 1`] = `
         aria-disabled="false"
         aria-invalid="false"
         checked=""
-        class="cache-dhqfi e1duuirp1"
+        class="cache-1pbtiau e1duuirp1"
         id="test-checked"
         name="test"
         tabindex="0"
@@ -391,15 +387,13 @@ exports[`RadioField should render correctly disabled 1`] = `
   fill: #f6f6f8;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -409,36 +403,36 @@ exports[`RadioField should render correctly disabled 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -472,7 +466,7 @@ exports[`RadioField should render correctly disabled 1`] = `
         aria-checked="false"
         aria-disabled="true"
         aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
+        class="cache-1pbtiau e1duuirp1"
         disabled=""
         id="test-disabled"
         name="test"
@@ -562,15 +556,13 @@ exports[`RadioField should trigger events correctly 1`] = `
   fill: #f6f6f8;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -580,36 +572,36 @@ exports[`RadioField should trigger events correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -643,7 +635,7 @@ exports[`RadioField should trigger events correctly 1`] = `
         aria-checked="true"
         aria-disabled="false"
         aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
+        class="cache-1pbtiau e1duuirp1"
         id="test-events"
         name="test"
         tabindex="0"

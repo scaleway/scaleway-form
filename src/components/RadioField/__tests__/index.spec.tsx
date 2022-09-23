@@ -28,7 +28,7 @@ describe('RadioField', () => {
       </RadioField>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           expect(input).toBeDisabled()
         },
       },
@@ -43,7 +43,7 @@ describe('RadioField', () => {
       </Form>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           expect(input).toBeChecked()
         },
       },
@@ -66,7 +66,7 @@ describe('RadioField', () => {
       </RadioField>,
       {
         transform: node => {
-          const input = node.getByRole('radio')
+          const input = node.getByRole('radio', { hidden: true })
           act(() => {
             input.focus()
           })

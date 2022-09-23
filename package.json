@@ -1,6 +1,6 @@
 {
   "name": "@scaleway/form",
-  "version": "1.29.3",
+  "version": "1.29.4",
   "description": "Scaleway Form",
   "homepage": "https://github.com/scaleway/scaleway-form#readme",
   "repository": {
@@ -138,8 +138,8 @@
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "14.1.0",
     "@rollup/plugin-url": "7.0.0",
-    "@scaleway/eslint-config-react": "3.5.14",
-    "@scaleway/jest-helpers": "2.0.17",
+    "@scaleway/eslint-config-react": "3.5.15",
+    "@scaleway/jest-helpers": "2.0.18",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
@@ -191,7 +191,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.19.0",
-    "@scaleway/ui": "0.187.0",
+    "@scaleway/ui": "0.190.3",
     "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

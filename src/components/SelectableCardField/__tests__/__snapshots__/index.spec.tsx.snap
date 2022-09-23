@@ -2,7 +2,55 @@
 
 exports[`SelectableCardField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-ucq2yp {
+  .cache-154x9x5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  cursor: pointer;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
+}
+
+.cache-154x9x5[data-checked='true'] {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5[data-error='true'] {
+  border: 1px solid #a6102d;
+}
+
+.cache-154x9x5[data-disabled='true'] {
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
+  cursor: not-allowed;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-1x5vomj {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -21,69 +69,70 @@ exports[`SelectableCardField should render correctly 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding: 16px;
-  border-radius: 4px;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  border: 1px solid #d4dae7;
-  color: #4a4f62;
 }
 
-.cache-ucq2yp[aria-disabled='false'] {
+.cache-1x5vomj[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
+.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
+.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
+.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-ucq2yp:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-ucq2yp[aria-disabled='true'] {
+.cache-1x5vomj[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 {
+.cache-1x5vomj[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-ucq2yp[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1x5vomj[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-ucq2yp:hover,
-.cache-ucq2yp:focus-within,
-.cache-ucq2yp:active {
-  border: 1px solid #4f0599;
-  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+.cache-1x5vomj[data-checked='true'] {
+  color: #4f0599;
 }
 
-.cache-ucq2yp input+svg {
+.cache-1x5vomj[data-error='true'] {
+  color: #a6102d;
+}
+
+.cache-1x5vomj[aria-disabled='true'] {
+  color: #c4c9d6;
+}
+
+.cache-1x5vomj input+svg {
   display: none;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1x5vomj label {
+  display: none;
+}
+
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -93,36 +142,36 @@ exports[`SelectableCardField should render correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -146,58 +195,114 @@ exports[`SelectableCardField should render correctly 1`] = `
 <form
     novalidate=""
   >
-    <label
-      aria-disabled="false"
-      class="ejleepd0 cache-ucq2yp e1duuirp0"
+    <div
+      class="cache-154x9x5 ejleepd1"
       data-checked="false"
-      for="test-test"
+      data-disabled="false"
+      data-error="false"
     >
-      <input
-        aria-checked="false"
+      <label
         aria-disabled="false"
-        aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
-        id="test-test"
-        name="test"
-        tabindex="0"
-        type="radio"
-        value="test"
-      />
-      <svg
-        class="cache-jsk10b e1duuirp2"
-        size="24"
-        viewBox="0 0 24 24"
+        class="ejleepd0 cache-1x5vomj e1duuirp0"
+        data-checked="false"
+        data-error="false"
+        for="test-test"
       >
-        <g>
-          <circle
-            cx="12"
-            cy="12"
-            r="8"
-            stroke-width="2"
-          />
-          <circle
-            class="cache-1e98oqk e1duuirp4"
-            cx="12"
-            cy="12"
-            r="6"
-          />
-          <circle
-            class="cache-0 e1duuirp3"
-            cx="12"
-            cy="12"
-            r="4"
-          />
-        </g>
-      </svg>
+        <input
+          aria-checked="false"
+          aria-disabled="false"
+          aria-invalid="false"
+          class="cache-1pbtiau e1duuirp1"
+          id="test-test"
+          name="test"
+          tabindex="0"
+          type="radio"
+          value="test"
+        />
+        <svg
+          class="cache-jsk10b e1duuirp2"
+          size="24"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke-width="2"
+            />
+            <circle
+              class="cache-1e98oqk e1duuirp4"
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              class="cache-0 e1duuirp3"
+              cx="12"
+              cy="12"
+              r="4"
+            />
+          </g>
+        </svg>
+      </label>
       Radio field
-    </label>
+    </div>
   </form>
 </DocumentFragment>
 `;
 
 exports[`SelectableCardField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-1wov7rm {
+  .cache-154x9x5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  cursor: pointer;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
+}
+
+.cache-154x9x5[data-checked='true'] {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5[data-error='true'] {
+  border: 1px solid #a6102d;
+}
+
+.cache-154x9x5[data-disabled='true'] {
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
+  cursor: not-allowed;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-olmcrg {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -216,69 +321,70 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding: 16px;
-  border-radius: 4px;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  border: 1px solid #4f0599;
-  color: #4f0599;
 }
 
-.cache-1wov7rm[aria-disabled='false'] {
+.cache-olmcrg[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1wov7rm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1wov7rm[aria-disabled='true'] {
+.cache-olmcrg[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 {
+.cache-olmcrg[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1wov7rm[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-olmcrg[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1wov7rm:hover,
-.cache-1wov7rm:focus-within,
-.cache-1wov7rm:active {
-  border: 1px solid #4f0599;
-  box-shadow: none;
+.cache-olmcrg[data-checked='true'] {
+  color: #4f0599;
 }
 
-.cache-1wov7rm input+svg {
+.cache-olmcrg[data-error='true'] {
+  color: #a6102d;
+}
+
+.cache-olmcrg[aria-disabled='true'] {
+  color: #c4c9d6;
+}
+
+.cache-olmcrg input+svg {
   display: none;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-olmcrg label {
+  display: none;
+}
+
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -288,36 +394,36 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -341,59 +447,115 @@ exports[`SelectableCardField should render correctly checked 1`] = `
 <form
     novalidate=""
   >
-    <label
-      aria-disabled="false"
-      class="ejleepd0 cache-1wov7rm e1duuirp0"
+    <div
+      class="cache-154x9x5 ejleepd1"
       data-checked="true"
-      for="test-checked"
+      data-disabled="false"
+      data-error="false"
     >
-      <input
-        aria-checked="true"
+      <label
         aria-disabled="false"
-        aria-invalid="false"
-        checked=""
-        class="cache-dhqfi e1duuirp1"
-        id="test-checked"
-        name="test"
-        tabindex="0"
-        type="radio"
-        value="checked"
-      />
-      <svg
-        class="cache-jsk10b e1duuirp2"
-        size="24"
-        viewBox="0 0 24 24"
+        class="ejleepd0 cache-olmcrg e1duuirp0"
+        data-checked="true"
+        data-error="false"
+        for="test-checked"
       >
-        <g>
-          <circle
-            cx="12"
-            cy="12"
-            r="8"
-            stroke-width="2"
-          />
-          <circle
-            class="cache-1e98oqk e1duuirp4"
-            cx="12"
-            cy="12"
-            r="6"
-          />
-          <circle
-            class="cache-0 e1duuirp3"
-            cx="12"
-            cy="12"
-            r="4"
-          />
-        </g>
-      </svg>
+        <input
+          aria-checked="true"
+          aria-disabled="false"
+          aria-invalid="false"
+          checked=""
+          class="cache-1pbtiau e1duuirp1"
+          id="test-checked"
+          name="test"
+          tabindex="0"
+          type="radio"
+          value="checked"
+        />
+        <svg
+          class="cache-jsk10b e1duuirp2"
+          size="24"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke-width="2"
+            />
+            <circle
+              class="cache-1e98oqk e1duuirp4"
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              class="cache-0 e1duuirp3"
+              cx="12"
+              cy="12"
+              r="4"
+            />
+          </g>
+        </svg>
+      </label>
       Radio field checked
-    </label>
+    </div>
   </form>
 </DocumentFragment>
 `;
 
 exports[`SelectableCardField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-11p36ck {
+  .cache-154x9x5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  cursor: pointer;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
+}
+
+.cache-154x9x5[data-checked='true'] {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5[data-error='true'] {
+  border: 1px solid #a6102d;
+}
+
+.cache-154x9x5[data-disabled='true'] {
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
+  cursor: not-allowed;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-1agu2jd {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -412,63 +574,70 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding: 16px;
-  border-radius: 4px;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  border: 1px solid #d4dae7;
-  color: #c4c9d6;
-  background: #f6f6f8;
 }
 
-.cache-11p36ck[aria-disabled='false'] {
+.cache-1agu2jd[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
+.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
+.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
+.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-11p36ck:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-11p36ck[aria-disabled='true'] {
+.cache-1agu2jd[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-11p36ck[aria-disabled='true'] .e1duuirp2 {
+.cache-1agu2jd[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-11p36ck[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1agu2jd[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-11p36ck input+svg {
+.cache-1agu2jd[data-checked='true'] {
+  color: #4f0599;
+}
+
+.cache-1agu2jd[data-error='true'] {
+  color: #a6102d;
+}
+
+.cache-1agu2jd[aria-disabled='true'] {
+  color: #c4c9d6;
+}
+
+.cache-1agu2jd input+svg {
   display: none;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1agu2jd label {
+  display: none;
+}
+
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -478,36 +647,36 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -531,59 +700,115 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
 <form
     novalidate=""
   >
-    <label
-      aria-disabled="true"
-      class="ejleepd0 cache-11p36ck e1duuirp0"
+    <div
+      class="cache-154x9x5 ejleepd1"
       data-checked="false"
-      for="test-disabled"
+      data-disabled="true"
+      data-error="false"
     >
-      <input
-        aria-checked="false"
+      <label
         aria-disabled="true"
-        aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
-        disabled=""
-        id="test-disabled"
-        name="test"
-        style="pointer-events: none;"
-        type="radio"
-        value="disabled"
-      />
-      <svg
-        class="cache-jsk10b e1duuirp2"
-        size="24"
-        viewBox="0 0 24 24"
+        class="ejleepd0 cache-1agu2jd e1duuirp0"
+        data-checked="false"
+        data-error="false"
+        for="test-disabled"
       >
-        <g>
-          <circle
-            cx="12"
-            cy="12"
-            r="8"
-            stroke-width="2"
-          />
-          <circle
-            class="cache-1e98oqk e1duuirp4"
-            cx="12"
-            cy="12"
-            r="6"
-          />
-          <circle
-            class="cache-0 e1duuirp3"
-            cx="12"
-            cy="12"
-            r="4"
-          />
-        </g>
-      </svg>
+        <input
+          aria-checked="false"
+          aria-disabled="true"
+          aria-invalid="false"
+          class="cache-1pbtiau e1duuirp1"
+          disabled=""
+          id="test-disabled"
+          name="test"
+          style="pointer-events: none;"
+          type="radio"
+          value="disabled"
+        />
+        <svg
+          class="cache-jsk10b e1duuirp2"
+          size="24"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke-width="2"
+            />
+            <circle
+              class="cache-1e98oqk e1duuirp4"
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              class="cache-0 e1duuirp3"
+              cx="12"
+              cy="12"
+              r="4"
+            />
+          </g>
+        </svg>
+      </label>
       Radio field disabled
-    </label>
+    </div>
   </form>
 </DocumentFragment>
 `;
 
 exports[`SelectableCardField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-lybs5r {
+  .cache-154x9x5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  cursor: pointer;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
+}
+
+.cache-154x9x5[data-checked='true'] {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5[data-error='true'] {
+  border: 1px solid #a6102d;
+}
+
+.cache-154x9x5[data-disabled='true'] {
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
+  cursor: not-allowed;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-olmcrg {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -602,62 +827,70 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding: 16px;
-  border-radius: 4px;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  border: 1px solid #a6102d;
-  color: #a6102d;
 }
 
-.cache-lybs5r[aria-disabled='false'] {
+.cache-olmcrg[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-lybs5r:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-lybs5r[aria-disabled='true'] {
+.cache-olmcrg[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-lybs5r[aria-disabled='true'] .e1duuirp2 {
+.cache-olmcrg[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-lybs5r[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-olmcrg[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-lybs5r input+svg {
+.cache-olmcrg[data-checked='true'] {
+  color: #4f0599;
+}
+
+.cache-olmcrg[data-error='true'] {
+  color: #a6102d;
+}
+
+.cache-olmcrg[aria-disabled='true'] {
+  color: #c4c9d6;
+}
+
+.cache-olmcrg input+svg {
   display: none;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-olmcrg label {
+  display: none;
+}
+
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -667,36 +900,36 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -720,51 +953,59 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
 <form
     novalidate=""
   >
-    <label
-      aria-disabled="false"
-      class="ejleepd0 cache-lybs5r e1duuirp0"
+    <div
+      class="cache-154x9x5 ejleepd1"
       data-checked="false"
-      for="test-checked"
+      data-disabled="false"
+      data-error="true"
     >
-      <input
-        aria-checked="false"
+      <label
         aria-disabled="false"
-        aria-invalid="true"
-        class="cache-dhqfi e1duuirp1"
-        id="test-checked"
-        name="test"
-        tabindex="0"
-        type="radio"
-        value="checked"
-      />
-      <svg
-        class="cache-jsk10b e1duuirp2"
-        size="24"
-        viewBox="0 0 24 24"
+        class="ejleepd0 cache-olmcrg e1duuirp0"
+        data-checked="false"
+        data-error="true"
+        for="test-checked"
       >
-        <g>
-          <circle
-            cx="12"
-            cy="12"
-            r="8"
-            stroke-width="2"
-          />
-          <circle
-            class="cache-1e98oqk e1duuirp4"
-            cx="12"
-            cy="12"
-            r="6"
-          />
-          <circle
-            class="cache-0 e1duuirp3"
-            cx="12"
-            cy="12"
-            r="4"
-          />
-        </g>
-      </svg>
+        <input
+          aria-checked="false"
+          aria-disabled="false"
+          aria-invalid="true"
+          class="cache-1pbtiau e1duuirp1"
+          id="test-checked"
+          name="test"
+          tabindex="0"
+          type="radio"
+          value="checked"
+        />
+        <svg
+          class="cache-jsk10b e1duuirp2"
+          size="24"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke-width="2"
+            />
+            <circle
+              class="cache-1e98oqk e1duuirp4"
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              class="cache-0 e1duuirp3"
+              cx="12"
+              cy="12"
+              r="4"
+            />
+          </g>
+        </svg>
+      </label>
       Radio field error
-    </label>
+    </div>
     <button
       type="submit"
     >
@@ -776,7 +1017,55 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
 
 exports[`SelectableCardField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-138nad2 {
+  .cache-154x9x5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
+  transition: border-color 200ms ease,box-shadow 200ms ease;
+  cursor: pointer;
+  border: 1px solid #d4dae7;
+  color: #4a4f62;
+}
+
+.cache-154x9x5[data-checked='true'] {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5[data-error='true'] {
+  border: 1px solid #a6102d;
+}
+
+.cache-154x9x5[data-disabled='true'] {
+  border: 1px solid #d4dae7;
+  color: #c4c9d6;
+  background: #f6f6f8;
+  cursor: not-allowed;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+  border: 1px solid #4f0599;
+}
+
+.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
+.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+  box-shadow: 0px 4px 16px 4px #EEEEFFCC;
+}
+
+.cache-1kg4xl3 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -795,69 +1084,70 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  padding: 16px;
-  border-radius: 4px;
-  -webkit-transition: border-color 200ms ease,box-shadow 200ms ease;
-  transition: border-color 200ms ease,box-shadow 200ms ease;
-  border: 1px solid #4f0599;
-  color: #4f0599;
 }
 
-.cache-138nad2[aria-disabled='false'] {
+.cache-1kg4xl3[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
+.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
+.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
+.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-138nad2:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-138nad2[aria-disabled='true'] {
+.cache-1kg4xl3[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-138nad2[aria-disabled='true'] .e1duuirp2 {
+.cache-1kg4xl3[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-138nad2[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1kg4xl3[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-138nad2:hover,
-.cache-138nad2:focus-within,
-.cache-138nad2:active {
-  border: 1px solid #4f0599;
-  box-shadow: none;
+.cache-1kg4xl3[data-checked='true'] {
+  color: #4f0599;
 }
 
-.cache-138nad2 input+svg {
+.cache-1kg4xl3[data-error='true'] {
+  color: #a6102d;
+}
+
+.cache-1kg4xl3[aria-disabled='true'] {
+  color: #c4c9d6;
+}
+
+.cache-1kg4xl3 input+svg {
   display: none;
 }
 
-.cache-dhqfi {
-  opacity: 0.01;
-  width: px;
-  height: px;
+.cache-1kg4xl3 label {
+  display: none;
+}
+
+.cache-1pbtiau {
+  visibility: hidden;
   position: absolute;
   cursor: pointer;
 }
 
-.cache-dhqfi+.e1duuirp2 .e1duuirp3 {
+.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -867,36 +1157,36 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-dhqfi[aria-checked='true']+svg .e1duuirp3 {
+.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-dhqfi[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
   fill: #390171;
 }
 
-.cache-dhqfi[aria-invalid='true']+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 {
+.cache-1pbtiau:focus+.e1duuirp2 {
   background-color: #eeeeff;
   fill: #390171;
 }
 
-.cache-dhqfi:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-dhqfi[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -920,51 +1210,59 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
 <form
     novalidate=""
   >
-    <label
-      aria-disabled="false"
-      class="ejleepd0 cache-138nad2 e1duuirp0"
+    <div
+      class="cache-154x9x5 ejleepd1"
       data-checked="true"
-      for="test-events"
+      data-disabled="false"
+      data-error="false"
     >
-      <input
-        aria-checked="true"
+      <label
         aria-disabled="false"
-        aria-invalid="false"
-        class="cache-dhqfi e1duuirp1"
-        id="test-events"
-        name="test"
-        tabindex="0"
-        type="radio"
-        value="events"
-      />
-      <svg
-        class="cache-jsk10b e1duuirp2"
-        size="24"
-        viewBox="0 0 24 24"
+        class="ejleepd0 cache-1kg4xl3 e1duuirp0"
+        data-checked="true"
+        data-error="false"
+        for="test-events"
       >
-        <g>
-          <circle
-            cx="12"
-            cy="12"
-            r="8"
-            stroke-width="2"
-          />
-          <circle
-            class="cache-1e98oqk e1duuirp4"
-            cx="12"
-            cy="12"
-            r="6"
-          />
-          <circle
-            class="cache-0 e1duuirp3"
-            cx="12"
-            cy="12"
-            r="4"
-          />
-        </g>
-      </svg>
+        <input
+          aria-checked="true"
+          aria-disabled="false"
+          aria-invalid="false"
+          class="cache-1pbtiau e1duuirp1"
+          id="test-events"
+          name="test"
+          tabindex="0"
+          type="radio"
+          value="events"
+        />
+        <svg
+          class="cache-jsk10b e1duuirp2"
+          size="24"
+          viewBox="0 0 24 24"
+        >
+          <g>
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke-width="2"
+            />
+            <circle
+              class="cache-1e98oqk e1duuirp4"
+              cx="12"
+              cy="12"
+              r="6"
+            />
+            <circle
+              class="cache-0 e1duuirp3"
+              cx="12"
+              cy="12"
+              r="4"
+            />
+          </g>
+        </svg>
+      </label>
       Radio field events
-    </label>
+    </div>
   </form>
 </DocumentFragment>
 `;

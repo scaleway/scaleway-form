@@ -41,6 +41,7 @@ type TextBoxFieldProps<T = TextBoxValue, K = string> = BaseFieldProps<T, K> &
       | 'rows'
       | 'type'
       | 'value'
+      | 'noTopLabel'
     >
   > & {
     name: string
@@ -81,6 +82,7 @@ export const TextBoxField = forwardRef(
       multiline,
       multiple,
       name,
+      noTopLabel,
       notice,
       onBlur,
       onChange,
@@ -193,6 +195,7 @@ export const TextBoxField = forwardRef(
         rows={rows}
         type={input.type}
         value={input.value}
+        noTopLabel={noTopLabel}
       />
     )
   },

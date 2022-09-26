@@ -1,3 +1,15 @@
+## [1.30.0](https://github.com/scaleway/scaleway-form/compare/v1.29.4...v1.30.0) (2022-09-26)
+
+
+### :repeat: CI
+
+* image names should not start with a dash ([#506](https://github.com/scaleway/scaleway-form/issues/506)) ([61f0fa6](https://github.com/scaleway/scaleway-form/commit/61f0fa65814914c451cee6f85256d6723d993964))
+
+
+### :gear: Features
+
+* add no top label on textbox ([#509](https://github.com/scaleway/scaleway-form/issues/509)) ([1eba299](https://github.com/scaleway/scaleway-form/commit/1eba299d7844c03d8d2629b794eec60f4d345d80))
+
 ## [1.29.4](https://github.com/scaleway/scaleway-form/compare/v1.29.3...v1.29.4) (2022-09-21)
 
 

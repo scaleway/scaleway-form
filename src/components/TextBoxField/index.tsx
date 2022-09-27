@@ -1,9 +1,7 @@
 import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import { ComponentProps, FocusEvent, Ref, forwardRef } from 'react'
-import { useField } from 'react-final-form'
-import { pickValidators } from '../../helpers'
-import { useValidation } from '../../hooks'
+import { useField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -66,7 +64,6 @@ export const TextBoxField = forwardRef(
       beforeSubmit,
       className,
       cols,
-      data,
       defaultValue,
       disabled,
       fillAvailable,
@@ -111,33 +108,26 @@ export const TextBoxField = forwardRef(
   ): JSX.Element => {
     const { getError } = useErrors()
 
-    const validateFn = useValidation<TextBoxValue>({
-      validate,
-      validators: pickValidators({
-        max,
-        maxLength,
-        min,
-        minLength,
-        regex,
-        required,
-      }),
-    })
-
     const { input, meta } = useField(name, {
       afterSubmit,
       allowNull,
       beforeSubmit,
-      data,
       defaultValue,
       format,
       formatOnBlur,
       initialValue,
       isEqual,
+      max,
+      maxLength,
+      min,
+      minLength,
       multiple,
       parse,
+      regex,
+      required,
       subscription,
       type,
-      validate: validateFn,
+      validate,
       validateFields,
       value,
     })

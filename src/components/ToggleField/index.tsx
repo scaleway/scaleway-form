@@ -1,8 +1,6 @@
 import { Toggle } from '@scaleway/ui'
 import { ComponentProps } from 'react'
-import { useField } from 'react-final-form'
-import { pickValidators } from '../../helpers'
-import { useValidation } from '../../hooks'
+import { useField } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 type ToggleFieldProps<T = unknown, K = unknown> = BaseFieldProps<T, K> &
@@ -46,11 +44,6 @@ export const ToggleField = ({
   value,
   labelPosition,
 }: ToggleFieldProps) => {
-  const validateFn = useValidation({
-    validate,
-    validators: pickValidators({ required }),
-  })
-
   const { input } = useField(name, {
     afterSubmit,
     allowNull,
@@ -63,9 +56,10 @@ export const ToggleField = ({
     isEqual,
     multiple,
     parse,
+    required,
     subscription,
     type: 'checkbox',
-    validate: validateFn,
+    validate,
     validateFields,
     value,
   })

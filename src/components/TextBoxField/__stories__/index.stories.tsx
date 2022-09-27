@@ -1,3 +1,4 @@
+import { Checkbox } from '@scaleway/ui'
 import { Meta, Story } from '@storybook/react'
 import { ComponentProps } from 'react'
 import { Form, Submit, TextBoxField } from '../..'
@@ -51,6 +52,31 @@ export const Required: Story<ComponentProps<typeof TextBoxField>> = args => (
 Required.args = {
   name: 'required',
   required: true,
+}
+
+export const DynamicRequired: Story<
+  ComponentProps<typeof TextBoxField>
+> = args => {
+  const [isRequired, setIsRequired] = React.useState(true)
+
+  return (
+    <>
+      <Checkbox
+        checked={isRequired}
+        onChange={() => setIsRequired(!isRequired)}
+      >
+        Is field required?
+      </Checkbox>
+      <TextBoxField {...args} required={isRequired} />
+      <div style={{ marginTop: 8 }}>
+        <Submit>Submit</Submit>
+      </div>
+    </>
+  )
+}
+
+DynamicRequired.args = {
+  name: 'required',
 }
 
 export const MinMaxLength: Story<

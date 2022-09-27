@@ -1,8 +1,6 @@
 import { Tags } from '@scaleway/ui'
 import { ComponentProps } from 'react'
-import { useField } from 'react-final-form'
-import { pickValidators } from '../../helpers'
-import { useValidation } from '../../hooks'
+import { useField } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> &
@@ -29,16 +27,10 @@ export const TagsField = ({
   validate,
   variant,
 }: TagsFieldProps): JSX.Element => {
-  const validateFn = useValidation({
-    validate,
-    validators: pickValidators({
-      required,
-    }),
-  })
-
   const { input } = useField(name, {
+    required,
     type: 'text',
-    validate: validateFn,
+    validate,
   })
 
   return (

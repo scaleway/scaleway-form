@@ -258,6 +258,7 @@ exports[`DateField should render correctly 1`] = `
         >
           <div
             class=""
+            name="test"
             value=""
           >
             <div
@@ -269,7 +270,7 @@ exports[`DateField should render correctly 1`] = `
                 <input
                   autocomplete="on"
                   class="cache-16jruyc e18bmnpq1"
-                  id="date-input"
+                  id="date-input-test"
                   type="text"
                   value=""
                 />
@@ -571,6 +572,7 @@ exports[`DateField should render correctly disabled 1`] = `
           <div
             class=""
             disabled=""
+            name="test"
             value=""
           >
             <div
@@ -583,7 +585,7 @@ exports[`DateField should render correctly disabled 1`] = `
                   autocomplete="on"
                   class="cache-4sr5xp e18bmnpq1"
                   disabled=""
-                  id="date-input"
+                  id="date-input-test"
                   type="text"
                   value=""
                 />
@@ -879,6 +881,7 @@ exports[`DateField should trigger events 1`] = `
         >
           <div
             class=""
+            name="test"
             value="08/28/2022"
           >
             <div
@@ -890,7 +893,7 @@ exports[`DateField should trigger events 1`] = `
                 <input
                   autocomplete="on"
                   class="cache-16jruyc e18bmnpq1"
-                  id="date-input"
+                  id="date-input-test"
                   type="text"
                   value="8/28/2022"
                 />

@@ -2,7 +2,7 @@
 
 exports[`RadioField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-7cwb2t {
+  .cache-1fdj0xh {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -15,48 +15,52 @@ exports[`RadioField should render correctly 1`] = `
   gap: 8px;
 }
 
-.cache-7cwb2t[aria-disabled='false'] {
+.cache-1fdj0xh[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
+.cache-1fdj0xh:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
+.cache-1fdj0xh:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
+.cache-1fdj0xh:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-7cwb2t:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1fdj0xh:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-7cwb2t[aria-disabled='true'] {
+.cache-1fdj0xh[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-7cwb2t[aria-disabled='true'] .e1duuirp2 {
+.cache-1fdj0xh[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-7cwb2t[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1fdj0xh[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -66,36 +70,36 @@ exports[`RadioField should render correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -121,7 +125,7 @@ exports[`RadioField should render correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-7cwb2t e1duuirp0"
+      class="cache-1fdj0xh e1duuirp0"
       data-checked="false"
       for="test-test"
     >
@@ -129,9 +133,10 @@ exports[`RadioField should render correctly 1`] = `
         aria-checked="false"
         aria-disabled="false"
         aria-invalid="false"
-        class="cache-1pbtiau e1duuirp1"
+        class="cache-132gphw e1duuirp1"
         id="test-test"
         name="test"
+        size="24"
         tabindex="0"
         type="radio"
         value="test"
@@ -170,7 +175,7 @@ exports[`RadioField should render correctly 1`] = `
 
 exports[`RadioField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-o0ahz {
+  .cache-1imu6pm {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,48 +188,52 @@ exports[`RadioField should render correctly checked 1`] = `
   gap: 8px;
 }
 
-.cache-o0ahz[aria-disabled='false'] {
+.cache-1imu6pm[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-1imu6pm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-1imu6pm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-1imu6pm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-o0ahz:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1imu6pm:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-o0ahz[aria-disabled='true'] {
+.cache-1imu6pm[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-o0ahz[aria-disabled='true'] .e1duuirp2 {
+.cache-1imu6pm[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-o0ahz[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1imu6pm[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -234,36 +243,36 @@ exports[`RadioField should render correctly checked 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -289,7 +298,7 @@ exports[`RadioField should render correctly checked 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-o0ahz e1duuirp0"
+      class="cache-1imu6pm e1duuirp0"
       data-checked="true"
       for="test-checked"
     >
@@ -298,9 +307,10 @@ exports[`RadioField should render correctly checked 1`] = `
         aria-disabled="false"
         aria-invalid="false"
         checked=""
-        class="cache-1pbtiau e1duuirp1"
+        class="cache-132gphw e1duuirp1"
         id="test-checked"
         name="test"
+        size="24"
         tabindex="0"
         type="radio"
         value="checked"
@@ -339,7 +349,7 @@ exports[`RadioField should render correctly checked 1`] = `
 
 exports[`RadioField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-11xftmf {
+  .cache-1o5kav0 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -352,48 +362,52 @@ exports[`RadioField should render correctly disabled 1`] = `
   gap: 8px;
 }
 
-.cache-11xftmf[aria-disabled='false'] {
+.cache-1o5kav0[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
+.cache-1o5kav0:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
+.cache-1o5kav0:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
+.cache-1o5kav0:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-11xftmf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1o5kav0:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-11xftmf[aria-disabled='true'] {
+.cache-1o5kav0[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-11xftmf[aria-disabled='true'] .e1duuirp2 {
+.cache-1o5kav0[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-11xftmf[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1o5kav0[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -403,36 +417,36 @@ exports[`RadioField should render correctly disabled 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -458,7 +472,7 @@ exports[`RadioField should render correctly disabled 1`] = `
   >
     <label
       aria-disabled="true"
-      class="cache-11xftmf e1duuirp0"
+      class="cache-1o5kav0 e1duuirp0"
       data-checked="false"
       for="test-disabled"
     >
@@ -466,10 +480,11 @@ exports[`RadioField should render correctly disabled 1`] = `
         aria-checked="false"
         aria-disabled="true"
         aria-invalid="false"
-        class="cache-1pbtiau e1duuirp1"
+        class="cache-132gphw e1duuirp1"
         disabled=""
         id="test-disabled"
         name="test"
+        size="24"
         style="pointer-events: none;"
         type="radio"
         value="disabled"
@@ -508,7 +523,7 @@ exports[`RadioField should render correctly disabled 1`] = `
 
 exports[`RadioField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-pxuo8u {
+  .cache-1o6cmnv {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -521,48 +536,52 @@ exports[`RadioField should trigger events correctly 1`] = `
   gap: 8px;
 }
 
-.cache-pxuo8u[aria-disabled='false'] {
+.cache-1o6cmnv[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
+.cache-1o6cmnv:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
+.cache-1o6cmnv:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
+.cache-1o6cmnv:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-pxuo8u:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1o6cmnv:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-pxuo8u[aria-disabled='true'] {
+.cache-1o6cmnv[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-pxuo8u[aria-disabled='true'] .e1duuirp2 {
+.cache-1o6cmnv[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-pxuo8u[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1o6cmnv[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -572,36 +591,36 @@ exports[`RadioField should trigger events correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -627,7 +646,7 @@ exports[`RadioField should trigger events correctly 1`] = `
   >
     <label
       aria-disabled="false"
-      class="cache-pxuo8u e1duuirp0"
+      class="cache-1o6cmnv e1duuirp0"
       data-checked="true"
       for="test-events"
     >
@@ -635,9 +654,10 @@ exports[`RadioField should trigger events correctly 1`] = `
         aria-checked="true"
         aria-disabled="false"
         aria-invalid="false"
-        class="cache-1pbtiau e1duuirp1"
+        class="cache-132gphw e1duuirp1"
         id="test-events"
         name="test"
+        size="24"
         tabindex="0"
         type="radio"
         value="events"

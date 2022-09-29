@@ -30,6 +30,7 @@ type DateFieldProps = BaseFieldProps<Date> &
     onChange?: (value: string | Date | undefined) => void
     onBlur?: (event: FocusEvent<HTMLElement, Element>) => void
     onFocus?: (value: FocusEvent<HTMLElement, Element>) => void
+    autoFocus?: boolean
   }
 
 const parseDate = (value: Date | string): Date =>
@@ -54,6 +55,7 @@ export const DateField = ({
   onBlur,
   onFocus,
   formatOnBlur,
+  autoFocus = false,
 }: DateFieldProps) => {
   const { getError } = useErrors()
   const validateFn = useValidation<Date>({
@@ -91,8 +93,8 @@ export const DateField = ({
       locale={locale}
       required={required}
       value={input.value}
-      onChange={val => {
-        onChange?.(val as string | Date | undefined)
+      onChange={(val: string | Date | undefined) => {
+        onChange?.(val)
         const newDate = parseDate(val as string)
         if (isEmpty(input.value)) {
           input.onChange(newDate)
@@ -115,6 +117,8 @@ export const DateField = ({
       minDate={minDate}
       error={error}
       disabled={disabled}
+      autoFocus={autoFocus}
+      name={input.name}
     />
   )
 }

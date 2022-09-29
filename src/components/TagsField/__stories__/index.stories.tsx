@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import { TagsField, TagsFieldProps } from '..'
 import { Form, Submit } from '../..'
 import { mockErrors } from '../../../mocks'

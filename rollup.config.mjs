@@ -43,12 +43,25 @@ export default [
         plugins: [
           'babel-plugin-annotate-pure-calls',
           '@babel/plugin-transform-runtime',
+          [
+            '@emotion',
+            {
+              sourceMap: false,
+              autoLabel: 'never',
+              labelFormat: '[filename]--[local]',
+            },
+          ],
         ],
         presets: [
           '@babel/preset-typescript',
           ['@babel/env', { loose: true, modules: false, targets }],
-          '@babel/preset-react',
-          ['@emotion/babel-preset-css-prop', { sourceMap: false }],
+          [
+            '@babel/preset-react',
+            {
+              runtime: 'automatic',
+              importSource: '@emotion/react',
+            },
+          ],
         ],
       }),
       nodeResolve({

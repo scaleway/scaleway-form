@@ -1,5 +1,5 @@
 import { SCWUITheme, normalize, lightTheme } from '@scaleway/ui'
-import React from 'react'
+
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
 const STORY_SORT = {

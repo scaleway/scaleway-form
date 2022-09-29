@@ -1,5 +1,4 @@
 import { Alert } from '@scaleway/ui'
-import React from 'react'
 import { FormSpy } from 'react-final-form'
 
 export const SubmitErrorAlert = <FormValues,>({

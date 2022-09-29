@@ -1,6 +1,6 @@
 import { RichSelect } from '@scaleway/ui'
 import { FieldState } from 'final-form'
-import React, {
+import {
   Children,
   ComponentProps,
   ReactElement,

@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react'
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 import { Form as ReactFinalForm } from 'react-final-form'
 import { ErrorProvider, useErrors } from '..'
 import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'

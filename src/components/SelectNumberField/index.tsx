@@ -1,5 +1,5 @@
 import { SelectNumber } from '@scaleway/ui'
-import React, { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
+import { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
 import { useField } from 'react-final-form'
 import { pickValidators } from '../../helpers'
 import { useValidation } from '../../hooks'

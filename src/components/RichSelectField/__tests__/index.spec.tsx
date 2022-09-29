@@ -1,6 +1,5 @@
 import { fireEvent } from '@testing-library/dom'
 import { act } from '@testing-library/react'
-import React from 'react'
 import { RichSelectField } from '..'
 import {
   mockRandom,

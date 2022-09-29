@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
 import { Form, RichSelectField, RichSelectFieldProps } from '../..'
 import { mockErrors } from '../../../mocks'
 

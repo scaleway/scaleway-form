@@ -1,5 +1,5 @@
 import { Tags } from '@scaleway/ui'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import { useField } from 'react-final-form'
 import { pickValidators } from '../../helpers'
 import { useValidation } from '../../hooks'

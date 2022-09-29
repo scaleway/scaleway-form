@@ -1,7 +1,6 @@
 import { waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { FORM_ERROR } from 'final-form'
-import React from 'react'
 import { Form, Submit, SubmitErrorAlert } from '../..'
 import {
   shouldMatchEmotionSnapshot,

@@ -1,12 +1,18 @@
 {
+  "plugins": [
+    "@emotion"
+  ],
   "presets": [
     "@babel/preset-typescript",
-    ["@babel/preset-env", { "shippedProposals": true, "targets": { "node": "current" } }],
-    "@babel/preset-react",
     [
-      "@emotion/babel-preset-css-prop",
+      "@babel/preset-env",
+      { "shippedProposals": true, "targets": { "node": "current" } }
+    ],
+    [
+      "@babel/preset-react",
       {
-        "sourceMap": false
+        "runtime": "automatic",
+        "importSource": "@emotion/react"
       }
     ]
   ]

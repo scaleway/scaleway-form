@@ -1,5 +1,5 @@
 import { TimeInput } from '@scaleway/ui'
-import React, { ComponentProps, useMemo } from 'react'
+import { ComponentProps, useMemo } from 'react'
 import { useField } from 'react-final-form'
 import { pickValidators } from '../../helpers'
 import { useValidation } from '../../hooks'

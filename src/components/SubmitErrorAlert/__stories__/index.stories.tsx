@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
 import { FORM_ERROR } from 'final-form'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import { Form, Submit, SubmitErrorAlert } from '../..'
 import { mockErrors } from '../../../mocks'
 

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { Meta, Story } from '@storybook/react'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import { DateField, Form, Submit, TimeField } from '../..'
 import { mockErrors } from '../../../mocks'
 

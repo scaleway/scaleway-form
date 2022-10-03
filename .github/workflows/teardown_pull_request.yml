@@ -8,7 +8,7 @@ jobs:
   teardown:
     runs-on: ubuntu-20.04
     env:
-      IMAGE_NAME: rg.fr-par.scw.cloud/consolescw/scaleway-form
+      IMAGE_NAME: rg.fr-par.scw.cloud/console-scw/scaleway-form
     steps:
       - uses: actions/checkout@v3.0.2
       - name: Inject slug/short variables

@@ -4,10 +4,6 @@ module.exports = {
   core: {
     builder: 'webpack5',
   },
-  features: {
-    // storyStoreV7: true,
-    previewMdx2: true,
-  },
   tsDocgenLoaderOptions: {
     tsconfigPath: path.resolve(__dirname, '../tsconfig.json'),
   },
@@ -27,35 +23,24 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
   ],
-  // webpackFinal: (config: any) => {
-  //   const cwd = process.cwd()
+  webpackFinal: (config: any) => {
+    const cwd = process.cwd()
 
-  //   if (config.resolve?.alias) {
-  //     config.resolve.alias = {
-  //       ...config.resolve.alias,
-  //       '@emotion/core': path.join(cwd, 'node_modules', '@emotion', 'react'),
-  //       '@emotion/styled': path.join(cwd, 'node_modules', '@emotion', 'styled'),
-  //       '@emotion/styled-base': path.join(
-  //         cwd,
-  //         'node_modules',
-  //         '@emotion',
-  //         'styled',
-  //       ),
-  //       'emotion-theming': path.join(cwd, 'node_modules', '@emotion', 'react'),
-  //     }
-  //   }
+    if (config.resolve?.alias) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        '@emotion/core': path.join(cwd, 'node_modules', '@emotion', 'react'),
+        '@emotion/styled': path.join(cwd, 'node_modules', '@emotion', 'styled'),
+        '@emotion/styled-base': path.join(
+          cwd,
+          'node_modules',
+          '@emotion',
+          'styled',
+        ),
+        'emotion-theming': path.join(cwd, 'node_modules', '@emotion', 'react'),
+      }
+    }
 
-  // if (config.module?.rules) {
-  //   config.module.rules.push({
-  //     test: /\.(png)$/,
-  //     use: [
-  //       {
-  //         loader: 'file-loader',
-  //       },
-  //     ],
-  //   })
-  // }
-
-  //   return config
-  // },
+    return config
+  },
 }

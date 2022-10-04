@@ -29,6 +29,7 @@ describe('DateField', () => {
         onBlur={onBlur}
         onChange={onChange}
         onFocus={onFocus}
+        initialValue={new Date('2022-09-01')}
       />,
       {
         transform: node => {

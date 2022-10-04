@@ -1,3 +1,19 @@
+## [1.31.1](https://github.com/scaleway/scaleway-form/compare/v1.31.0...v1.31.1) (2022-10-04)
+
+
+### :package: Chore
+
+* **devdeps:** pin dependency @storybook/mdx2-csf to 0.0.3 ([#521](https://github.com/scaleway/scaleway-form/issues/521)) ([ef648e9](https://github.com/scaleway/scaleway-form/commit/ef648e9789619e9ec84e1f45d91f772a95ffb462))
+* **devdeps:** update actions/cache action to v3.0.10 ([#519](https://github.com/scaleway/scaleway-form/issues/519)) ([ec510bc](https://github.com/scaleway/scaleway-form/commit/ec510bc93186ac50f054ab852847f47fce4fc33c))
+* **devdeps:** update actions/checkout action to v3.1.0 ([#523](https://github.com/scaleway/scaleway-form/issues/523)) ([35e8357](https://github.com/scaleway/scaleway-form/commit/35e8357d6b03e4ce05dec0aa9f74487cbc1901cf))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.7.4 ([#524](https://github.com/scaleway/scaleway-form/issues/524)) ([304b303](https://github.com/scaleway/scaleway-form/commit/304b303973cfb5cc64c47f245aaec22b7fdb283e))
+* fully use new react runtime ([#482](https://github.com/scaleway/scaleway-form/issues/482)) ([222de69](https://github.com/scaleway/scaleway-form/commit/222de6907a24b146f96c7fc4fa3d2740fa7385d5))
+
+
+### :bug: Bug Fixes
+
+* update scaleway ui v0.198.0 ([#511](https://github.com/scaleway/scaleway-form/issues/511)) ([10ca55b](https://github.com/scaleway/scaleway-form/commit/10ca55b879f4ef748c25faf898f3b8123251ad51))
+
 ## [1.31.0](https://github.com/scaleway/scaleway-form/compare/v1.30.1...v1.31.0) (2022-10-04)
 
 

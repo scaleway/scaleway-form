@@ -1,3 +1,10 @@
+## [1.31.0](https://github.com/scaleway/scaleway-form/compare/v1.30.1...v1.31.0) (2022-10-04)
+
+
+### :gear: Features
+
+* add unit prop ([#522](https://github.com/scaleway/scaleway-form/issues/522)) ([6983f2d](https://github.com/scaleway/scaleway-form/commit/6983f2d361446cee1c849519e14b3af8593070e2))
+
 ## [1.30.1](https://github.com/scaleway/scaleway-form/compare/v1.30.0...v1.30.1) (2022-10-04)
 
 

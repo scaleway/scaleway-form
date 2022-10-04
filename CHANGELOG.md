@@ -1,3 +1,25 @@
+## [1.30.1](https://github.com/scaleway/scaleway-form/compare/v1.30.0...v1.30.1) (2022-10-04)
+
+
+### :package: Chore
+
+* **devdeps:** pin dependency @emotion/babel-plugin to 11.10.2 ([#514](https://github.com/scaleway/scaleway-form/issues/514)) ([09d9803](https://github.com/scaleway/scaleway-form/commit/09d9803504406611f24c668978149103ffbfb147))
+* **devdeps:** update actions/cache action to v3.0.9 ([#517](https://github.com/scaleway/scaleway-form/issues/517)) ([6e31ac4](https://github.com/scaleway/scaleway-form/commit/6e31ac41a38f437bdf67d4d73005f4ff436b5ee3))
+* **devdeps:** update actions/setup-node action to v3.5.0 ([#515](https://github.com/scaleway/scaleway-form/issues/515)) ([c13fe27](https://github.com/scaleway/scaleway-form/commit/c13fe2782dcedf7e8d2675c0de8a96ad8f227c01))
+* **devdeps:** update all devdeps to unlock renovate ([#513](https://github.com/scaleway/scaleway-form/issues/513)) ([85878d2](https://github.com/scaleway/scaleway-form/commit/85878d253fb3361b6db46b1804dda7a4f0fc81b4))
+* **devdeps:** update node.js to v18.10 ([#516](https://github.com/scaleway/scaleway-form/issues/516)) ([361f37d](https://github.com/scaleway/scaleway-form/commit/361f37d7eb6b15e78a05836f833f70acc990e8c6))
+* **devdeps:** update pnpm to 7.12.2 ([#512](https://github.com/scaleway/scaleway-form/issues/512)) ([8406642](https://github.com/scaleway/scaleway-form/commit/84066426e680960731c98895cc4a31c56812ea84))
+
+
+### :repeat: CI
+
+* use new registry ([#518](https://github.com/scaleway/scaleway-form/issues/518)) ([fb84dfc](https://github.com/scaleway/scaleway-form/commit/fb84dfc7aee91d7fa1787f9d0f07dec0a4f2aaaf))
+
+
+### :bug: Bug Fixes
+
+* webpack build stuck ([#520](https://github.com/scaleway/scaleway-form/issues/520)) ([e158a13](https://github.com/scaleway/scaleway-form/commit/e158a13fce5f3244144455b256ac58267a983fce))
+
 ## [1.30.0](https://github.com/scaleway/scaleway-form/compare/v1.29.4...v1.30.0) (2022-09-26)
 
 

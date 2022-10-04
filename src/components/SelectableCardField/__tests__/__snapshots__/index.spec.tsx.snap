@@ -2,7 +2,7 @@
 
 exports[`SelectableCardField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-154x9x5 {
+  .cache-whspdy {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -23,34 +23,34 @@ exports[`SelectableCardField should render correctly 1`] = `
   color: #4a4f62;
 }
 
-.cache-154x9x5[data-checked='true'] {
+.cache-whspdy[data-checked='true'] {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5[data-error='true'] {
+.cache-whspdy[data-error='true'] {
   border: 1px solid #a6102d;
 }
 
-.cache-154x9x5[data-disabled='true'] {
+.cache-whspdy[data-disabled='true'] {
   border: 1px solid #d4dae7;
   color: #c4c9d6;
   background: #f6f6f8;
   cursor: not-allowed;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true']) {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'] {
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-1x5vomj {
+.cache-1w2dg81 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -71,68 +71,72 @@ exports[`SelectableCardField should render correctly 1`] = `
   align-items: start;
 }
 
-.cache-1x5vomj[aria-disabled='false'] {
+.cache-1w2dg81[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
+.cache-1w2dg81:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
+.cache-1w2dg81:hover[aria-disabled='false'] .e1duuirp1[id=test-test]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
+.cache-1w2dg81:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1x5vomj:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1w2dg81:hover[aria-disabled='false'] .e1duuirp1[id=test-test][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1x5vomj[aria-disabled='true'] {
+.cache-1w2dg81[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1x5vomj[aria-disabled='true'] .e1duuirp2 {
+.cache-1w2dg81[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1x5vomj[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1w2dg81[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1x5vomj[data-checked='true'] {
+.cache-1w2dg81[data-checked='true'] {
   color: #4f0599;
 }
 
-.cache-1x5vomj[data-error='true'] {
+.cache-1w2dg81[data-error='true'] {
   color: #a6102d;
 }
 
-.cache-1x5vomj[aria-disabled='true'] {
+.cache-1w2dg81[aria-disabled='true'] {
   color: #c4c9d6;
 }
 
-.cache-1x5vomj input+svg {
+.cache-1w2dg81 input+svg {
   display: none;
 }
 
-.cache-1x5vomj label {
+.cache-1w2dg81 label {
   display: none;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -142,36 +146,36 @@ exports[`SelectableCardField should render correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -196,14 +200,14 @@ exports[`SelectableCardField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-154x9x5 ejleepd1"
+      class="cache-whspdy ejleepd1"
       data-checked="false"
       data-disabled="false"
       data-error="false"
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 cache-1x5vomj e1duuirp0"
+        class="ejleepd0 cache-1w2dg81 e1duuirp0"
         data-checked="false"
         data-error="false"
         for="test-test"
@@ -212,9 +216,10 @@ exports[`SelectableCardField should render correctly 1`] = `
           aria-checked="false"
           aria-disabled="false"
           aria-invalid="false"
-          class="cache-1pbtiau e1duuirp1"
+          class="cache-132gphw e1duuirp1"
           id="test-test"
           name="test"
+          size="24"
           tabindex="0"
           type="radio"
           value="test"
@@ -254,7 +259,7 @@ exports[`SelectableCardField should render correctly 1`] = `
 
 exports[`SelectableCardField should render correctly checked 1`] = `
 <DocumentFragment>
-  .cache-154x9x5 {
+  .cache-whspdy {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -275,34 +280,34 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   color: #4a4f62;
 }
 
-.cache-154x9x5[data-checked='true'] {
+.cache-whspdy[data-checked='true'] {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5[data-error='true'] {
+.cache-whspdy[data-error='true'] {
   border: 1px solid #a6102d;
 }
 
-.cache-154x9x5[data-disabled='true'] {
+.cache-whspdy[data-disabled='true'] {
   border: 1px solid #d4dae7;
   color: #c4c9d6;
   background: #f6f6f8;
   cursor: not-allowed;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true']) {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'] {
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-olmcrg {
+.cache-1ng4vv9 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -323,68 +328,72 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   align-items: start;
 }
 
-.cache-olmcrg[aria-disabled='false'] {
+.cache-1ng4vv9[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-olmcrg[aria-disabled='true'] {
+.cache-1ng4vv9[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-olmcrg[aria-disabled='true'] .e1duuirp2 {
+.cache-1ng4vv9[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-olmcrg[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-olmcrg[data-checked='true'] {
+.cache-1ng4vv9[data-checked='true'] {
   color: #4f0599;
 }
 
-.cache-olmcrg[data-error='true'] {
+.cache-1ng4vv9[data-error='true'] {
   color: #a6102d;
 }
 
-.cache-olmcrg[aria-disabled='true'] {
+.cache-1ng4vv9[aria-disabled='true'] {
   color: #c4c9d6;
 }
 
-.cache-olmcrg input+svg {
+.cache-1ng4vv9 input+svg {
   display: none;
 }
 
-.cache-olmcrg label {
+.cache-1ng4vv9 label {
   display: none;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -394,36 +403,36 @@ exports[`SelectableCardField should render correctly checked 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -448,14 +457,14 @@ exports[`SelectableCardField should render correctly checked 1`] = `
     novalidate=""
   >
     <div
-      class="cache-154x9x5 ejleepd1"
+      class="cache-whspdy ejleepd1"
       data-checked="true"
       data-disabled="false"
       data-error="false"
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 cache-olmcrg e1duuirp0"
+        class="ejleepd0 cache-1ng4vv9 e1duuirp0"
         data-checked="true"
         data-error="false"
         for="test-checked"
@@ -465,9 +474,10 @@ exports[`SelectableCardField should render correctly checked 1`] = `
           aria-disabled="false"
           aria-invalid="false"
           checked=""
-          class="cache-1pbtiau e1duuirp1"
+          class="cache-132gphw e1duuirp1"
           id="test-checked"
           name="test"
+          size="24"
           tabindex="0"
           type="radio"
           value="checked"
@@ -507,7 +517,7 @@ exports[`SelectableCardField should render correctly checked 1`] = `
 
 exports[`SelectableCardField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-154x9x5 {
+  .cache-whspdy {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -528,34 +538,34 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   color: #4a4f62;
 }
 
-.cache-154x9x5[data-checked='true'] {
+.cache-whspdy[data-checked='true'] {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5[data-error='true'] {
+.cache-whspdy[data-error='true'] {
   border: 1px solid #a6102d;
 }
 
-.cache-154x9x5[data-disabled='true'] {
+.cache-whspdy[data-disabled='true'] {
   border: 1px solid #d4dae7;
   color: #c4c9d6;
   background: #f6f6f8;
   cursor: not-allowed;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true']) {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'] {
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-1agu2jd {
+.cache-7co8lf {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -576,68 +586,72 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   align-items: start;
 }
 
-.cache-1agu2jd[aria-disabled='false'] {
+.cache-7co8lf[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
+.cache-7co8lf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
+.cache-7co8lf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
+.cache-7co8lf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1agu2jd:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-7co8lf:hover[aria-disabled='false'] .e1duuirp1[id=test-disabled][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1agu2jd[aria-disabled='true'] {
+.cache-7co8lf[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1agu2jd[aria-disabled='true'] .e1duuirp2 {
+.cache-7co8lf[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1agu2jd[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-7co8lf[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1agu2jd[data-checked='true'] {
+.cache-7co8lf[data-checked='true'] {
   color: #4f0599;
 }
 
-.cache-1agu2jd[data-error='true'] {
+.cache-7co8lf[data-error='true'] {
   color: #a6102d;
 }
 
-.cache-1agu2jd[aria-disabled='true'] {
+.cache-7co8lf[aria-disabled='true'] {
   color: #c4c9d6;
 }
 
-.cache-1agu2jd input+svg {
+.cache-7co8lf input+svg {
   display: none;
 }
 
-.cache-1agu2jd label {
+.cache-7co8lf label {
   display: none;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -647,36 +661,36 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -701,14 +715,14 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="cache-154x9x5 ejleepd1"
+      class="cache-whspdy ejleepd1"
       data-checked="false"
       data-disabled="true"
       data-error="false"
     >
       <label
         aria-disabled="true"
-        class="ejleepd0 cache-1agu2jd e1duuirp0"
+        class="ejleepd0 cache-7co8lf e1duuirp0"
         data-checked="false"
         data-error="false"
         for="test-disabled"
@@ -717,10 +731,11 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
           aria-checked="false"
           aria-disabled="true"
           aria-invalid="false"
-          class="cache-1pbtiau e1duuirp1"
+          class="cache-132gphw e1duuirp1"
           disabled=""
           id="test-disabled"
           name="test"
+          size="24"
           style="pointer-events: none;"
           type="radio"
           value="disabled"
@@ -760,7 +775,7 @@ exports[`SelectableCardField should render correctly disabled 1`] = `
 
 exports[`SelectableCardField should render correctly with errors 1`] = `
 <DocumentFragment>
-  .cache-154x9x5 {
+  .cache-whspdy {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -781,34 +796,34 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   color: #4a4f62;
 }
 
-.cache-154x9x5[data-checked='true'] {
+.cache-whspdy[data-checked='true'] {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5[data-error='true'] {
+.cache-whspdy[data-error='true'] {
   border: 1px solid #a6102d;
 }
 
-.cache-154x9x5[data-disabled='true'] {
+.cache-whspdy[data-disabled='true'] {
   border: 1px solid #d4dae7;
   color: #c4c9d6;
   background: #f6f6f8;
   cursor: not-allowed;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true']) {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'] {
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-olmcrg {
+.cache-1ng4vv9 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -829,68 +844,72 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   align-items: start;
 }
 
-.cache-olmcrg[aria-disabled='false'] {
+.cache-1ng4vv9[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-olmcrg:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9:hover[aria-disabled='false'] .e1duuirp1[id=test-checked][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-olmcrg[aria-disabled='true'] {
+.cache-1ng4vv9[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-olmcrg[aria-disabled='true'] .e1duuirp2 {
+.cache-1ng4vv9[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-olmcrg[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-1ng4vv9[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-olmcrg[data-checked='true'] {
+.cache-1ng4vv9[data-checked='true'] {
   color: #4f0599;
 }
 
-.cache-olmcrg[data-error='true'] {
+.cache-1ng4vv9[data-error='true'] {
   color: #a6102d;
 }
 
-.cache-olmcrg[aria-disabled='true'] {
+.cache-1ng4vv9[aria-disabled='true'] {
   color: #c4c9d6;
 }
 
-.cache-olmcrg input+svg {
+.cache-1ng4vv9 input+svg {
   display: none;
 }
 
-.cache-olmcrg label {
+.cache-1ng4vv9 label {
   display: none;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -900,36 +919,36 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -954,14 +973,14 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
     novalidate=""
   >
     <div
-      class="cache-154x9x5 ejleepd1"
+      class="cache-whspdy ejleepd1"
       data-checked="false"
       data-disabled="false"
       data-error="true"
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 cache-olmcrg e1duuirp0"
+        class="ejleepd0 cache-1ng4vv9 e1duuirp0"
         data-checked="false"
         data-error="true"
         for="test-checked"
@@ -970,9 +989,10 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
           aria-checked="false"
           aria-disabled="false"
           aria-invalid="true"
-          class="cache-1pbtiau e1duuirp1"
+          class="cache-132gphw e1duuirp1"
           id="test-checked"
           name="test"
+          size="24"
           tabindex="0"
           type="radio"
           value="checked"
@@ -1017,7 +1037,7 @@ exports[`SelectableCardField should render correctly with errors 1`] = `
 
 exports[`SelectableCardField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-154x9x5 {
+  .cache-whspdy {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1038,34 +1058,34 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   color: #4a4f62;
 }
 
-.cache-154x9x5[data-checked='true'] {
+.cache-whspdy[data-checked='true'] {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5[data-error='true'] {
+.cache-whspdy[data-error='true'] {
   border: 1px solid #a6102d;
 }
 
-.cache-154x9x5[data-disabled='true'] {
+.cache-whspdy[data-disabled='true'] {
   border: 1px solid #d4dae7;
   color: #c4c9d6;
   background: #f6f6f8;
   cursor: not-allowed;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true']),
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true']) {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true']),
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true']) {
   border: 1px solid #4f0599;
 }
 
-.cache-154x9x5:hover:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:focus-within:not([data-error='true'][data-disabled='true'])[data-cheked='false'],
-.cache-154x9x5:active:not([data-error='true'][data-disabled='true'])[data-cheked='false'] {
+.cache-whspdy:hover:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:focus-within:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'],
+.cache-whspdy:active:not([data-error='true']):not([data-disabled='true'])[data-cheked='false'] {
   box-shadow: 0px 4px 16px 4px #EEEEFFCC;
 }
 
-.cache-1kg4xl3 {
+.cache-zxmmqq {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1086,68 +1106,72 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   align-items: start;
 }
 
-.cache-1kg4xl3[aria-disabled='false'] {
+.cache-zxmmqq[aria-disabled='false'] {
   cursor: pointer;
 }
 
-.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
+.cache-zxmmqq:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
+.cache-zxmmqq:hover[aria-disabled='false'] .e1duuirp1[id=test-events]+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
+.cache-zxmmqq:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1kg4xl3:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
+.cache-zxmmqq:hover[aria-disabled='false'] .e1duuirp1[id=test-events][aria-invalid='true']+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
-.cache-1kg4xl3[aria-disabled='true'] {
+.cache-zxmmqq[aria-disabled='true'] {
   cursor: not-allowed;
   color: #c4c9d6;
 }
 
-.cache-1kg4xl3[aria-disabled='true'] .e1duuirp2 {
+.cache-zxmmqq[aria-disabled='true'] .e1duuirp2 {
   fill: #c4c9d6;
 }
 
-.cache-1kg4xl3[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
+.cache-zxmmqq[aria-disabled='true'] .e1duuirp2 .e1duuirp4 {
   fill: #f6f6f8;
 }
 
-.cache-1kg4xl3[data-checked='true'] {
+.cache-zxmmqq[data-checked='true'] {
   color: #4f0599;
 }
 
-.cache-1kg4xl3[data-error='true'] {
+.cache-zxmmqq[data-error='true'] {
   color: #a6102d;
 }
 
-.cache-1kg4xl3[aria-disabled='true'] {
+.cache-zxmmqq[aria-disabled='true'] {
   color: #c4c9d6;
 }
 
-.cache-1kg4xl3 input+svg {
+.cache-zxmmqq input+svg {
   display: none;
 }
 
-.cache-1kg4xl3 label {
+.cache-zxmmqq label {
   display: none;
 }
 
-.cache-1pbtiau {
-  visibility: hidden;
-  position: absolute;
+.cache-132gphw {
   cursor: pointer;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  opacity: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.cache-1pbtiau+.e1duuirp2 .e1duuirp3 {
+.cache-132gphw+.e1duuirp2 .e1duuirp3 {
   transform-origin: center;
   -webkit-transition: 200ms -webkit-transform ease-in-out;
   transition: 200ms transform ease-in-out;
@@ -1157,36 +1181,36 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
   transform: scale(0);
 }
 
-.cache-1pbtiau[aria-checked='true']+svg .e1duuirp3 {
+.cache-132gphw[aria-checked='true']+svg .e1duuirp3 {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
-.cache-1pbtiau[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
-  fill: #390171;
+.cache-132gphw[aria-checked='true'][aria-disabled='false'][aria-invalid='false']+.e1duuirp2 {
+  fill: #4f0599;
 }
 
-.cache-1pbtiau[aria-invalid='true']+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']+.e1duuirp2 {
   fill: #a6102d;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 {
+.cache-132gphw:focus+.e1duuirp2 {
   background-color: #eeeeff;
-  fill: #390171;
+  fill: #4f0599;
 }
 
-.cache-1pbtiau:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw:focus+.e1duuirp2 .e1duuirp4 {
   fill: #eeeeff;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 {
   background-color: #ffe1e7;
   fill: #a6102d;
 }
 
-.cache-1pbtiau[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
+.cache-132gphw[aria-invalid='true']:focus+.e1duuirp2 .e1duuirp4 {
   fill: #ffe1e7;
 }
 
@@ -1211,14 +1235,14 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
     novalidate=""
   >
     <div
-      class="cache-154x9x5 ejleepd1"
+      class="cache-whspdy ejleepd1"
       data-checked="true"
       data-disabled="false"
       data-error="false"
     >
       <label
         aria-disabled="false"
-        class="ejleepd0 cache-1kg4xl3 e1duuirp0"
+        class="ejleepd0 cache-zxmmqq e1duuirp0"
         data-checked="true"
         data-error="false"
         for="test-events"
@@ -1227,9 +1251,10 @@ exports[`SelectableCardField should trigger events correctly 1`] = `
           aria-checked="true"
           aria-disabled="false"
           aria-invalid="false"
-          class="cache-1pbtiau e1duuirp1"
+          class="cache-132gphw e1duuirp1"
           id="test-events"
           name="test"
+          size="24"
           tabindex="0"
           type="radio"
           value="events"

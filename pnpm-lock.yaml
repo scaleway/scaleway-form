@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 7.0.0
   '@scaleway/eslint-config-react': 3.7.4
   '@scaleway/jest-helpers': 2.0.19
-  '@scaleway/ui': 0.190.3
+  '@scaleway/ui': 0.198.0
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -82,7 +82,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.19.0
-  '@scaleway/ui': 0.190.3_7vzzyfal4q2j3bt5g56moftgv4
+  '@scaleway/ui': 0.198.0_7vzzyfal4q2j3bt5g56moftgv4
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -2360,7 +2360,7 @@ packages:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
       '@types/node': 18.7.23
-      '@types/yargs': 17.0.12
+      '@types/yargs': 17.0.13
       chalk: 4.1.2
     dev: false
 
@@ -3067,8 +3067,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.190.3_7vzzyfal4q2j3bt5g56moftgv4:
-    resolution: {integrity: sha512-SX0FeoEIaJiAOXicHNEBLXxiqmblPLk2Tor5WYiOhIbAII+O3P6EHp6d1SHeDiiYzubxcDmbQgbuU37NjI1/qg==}
+  /@scaleway/ui/0.198.0_7vzzyfal4q2j3bt5g56moftgv4:
+    resolution: {integrity: sha512-zV0LvCOsdmiC8wAPMUbVCDzfeWjbPQ7ekM735OJy8XOERPfJuCWQCLzCLMBDYp6StPsaU6eDFulReYsyrPdCTA==}
     engines: {node: '>=18.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -5037,17 +5037,10 @@ packages:
       '@types/yargs-parser': 21.0.0
     dev: true
 
-  /@types/yargs/17.0.12:
-    resolution: {integrity: sha512-Nz4MPhecOFArtm81gFQvQqdV7XYCrWKx5uUt6GNHredFHn1i2mtWqXTON7EPXMtNi1qjtjEM/VCHDhcHsAMLXQ==}
-    dependencies:
-      '@types/yargs-parser': 21.0.0
-    dev: false
-
   /@types/yargs/17.0.13:
     resolution: {integrity: sha512-9sWaruZk2JGxIQU+IhI1fhPYRcQ0UuTNuKuCW9bR5fp7qi2Llf7WDzNa17Cy7TKnh3cdxDOiyTu6gaLS0eDatg==}
     dependencies:
       '@types/yargs-parser': 21.0.0
-    dev: true
 
   /@typescript-eslint/eslint-plugin/5.39.0_xyciw6oqjoiiono4dhv3uhn5my:
     resolution: {integrity: sha512-xVfKOkBm5iWMNGKQ2fwX5GVgBuHmZBO1tCRwXmY5oAIsPscfwm2UADDuNB8ZVYCtpQvJK4xpjrK7jEhcJ0zY9A==}
@@ -14156,7 +14149,7 @@ packages:
   /react-select/5.4.0_eat7hc23gfabdflnphmz6xfchm:
     resolution: {integrity: sha512-CjE9RFLUvChd5SdlfG4vqxZd55AZJRrLrHzkQyTYeHlpOztqcgnyftYAolJ0SGsBev6zAs6qFrjm6KU3eo2hzg==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || 18
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || 17 || 18
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || 18
     dependencies:
       '@babel/runtime': 7.19.0

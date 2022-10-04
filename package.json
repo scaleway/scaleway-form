@@ -152,6 +152,7 @@
     "@storybook/addon-links": "6.5.12",
     "@storybook/addons": "6.5.12",
     "@storybook/builder-webpack5": "6.5.12",
+    "@storybook/csf": "canary",
     "@storybook/manager-webpack5": "6.5.12",
     "@storybook/mdx2-csf": "0.0.3",
     "@storybook/react": "6.5.12",

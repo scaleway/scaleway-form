@@ -36,6 +36,7 @@ specifiers:
   '@storybook/addon-links': 6.5.12
   '@storybook/addons': 6.5.12
   '@storybook/builder-webpack5': 6.5.12
+  '@storybook/csf': canary
   '@storybook/manager-webpack5': 6.5.12
   '@storybook/mdx2-csf': 0.0.3
   '@storybook/react': 6.5.12
@@ -122,6 +123,7 @@ devDependencies:
   '@storybook/addon-links': 6.5.12_biqbaboplfbrettd7655fr4n2y
   '@storybook/addons': 6.5.12_biqbaboplfbrettd7655fr4n2y
   '@storybook/builder-webpack5': 6.5.12_2arap3zrpdsgaavggmaateumgu
+  '@storybook/csf': 0.0.2--canary.0899bb7.0
   '@storybook/manager-webpack5': 6.5.12_2arap3zrpdsgaavggmaateumgu
   '@storybook/mdx2-csf': 0.0.3
   '@storybook/react': 6.5.12_l7p2wx3dtuqetq5jqhkruwp7a4
@@ -1356,7 +1358,7 @@ packages:
       '@babel/helper-module-imports': 7.18.6
       '@babel/helper-plugin-utils': 7.19.0
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.19.3
-      '@babel/types': 7.19.3
+      '@babel/types': 7.19.0
     dev: true
 
   /@babel/plugin-transform-react-pure-annotations/7.18.6_@babel+core@7.19.3:
@@ -4176,6 +4178,12 @@ packages:
       - supports-color
     dev: true
 
+  /@storybook/csf/0.0.2--canary.0899bb7.0:
+    resolution: {integrity: sha512-R9EryGj3yffdeemH6hJp4XIBNNox8bfN+blCEhENtkGkU/EoXQ9024i2MjHRqMGFQGUapWA3nYJ0+nbsg3iwUw==}
+    dependencies:
+      lodash: 4.17.21
+    dev: true
+
   /@storybook/csf/0.0.2--canary.4566f4d.1:
     resolution: {integrity: sha512-9OVvMVh3t9znYZwb0Svf/YQoxX2gVOeQTGe2bses2yj+a3+OJnCrUF3/hGv6Em7KujtOdL2LL+JnG49oMVGFgQ==}
     dependencies:
@@ -4756,7 +4764,7 @@ packages:
     resolution: {integrity: sha512-PB3ldyrcnAicT35TWPs5IcwKD8S333HMaa2VVv4+wdvebJkjWuW/xESoB8IwRcog8HYVYamb1g/R31Qv5Bx03g==}
     dependencies:
       '@types/eslint': 8.4.1
-      '@types/estree': 1.0.0
+      '@types/estree': 0.0.51
     dev: true
 
   /@types/eslint/8.4.1:

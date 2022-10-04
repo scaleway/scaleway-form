@@ -59,10 +59,6 @@ const adjustedTheme = ancestorTheme =>
 
 export const globalStyles = (theme: Theme) => css`
   ${normalize()}
-
-  body {
-    font-family: ${theme.fonts.sansSerif};
-  }
 `
 
 export const decorators = [

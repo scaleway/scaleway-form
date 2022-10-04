@@ -7,6 +7,9 @@ module.exports = {
   tsDocgenLoaderOptions: {
     tsconfigPath: path.resolve(__dirname, '../tsconfig.json'),
   },
+  features: {
+    previewMdx2: true,
+  },
   typescript: {
     reactDocgen: 'react-docgen-typescript',
   },

@@ -75,6 +75,7 @@ export const ErrorProvider = ({
         value !== undefined &&
         value !== null &&
         value !== '' &&
+        value !== false &&
         meta?.dirty === false
 
       return meta?.error && (hasInitialValueAndNotTouched || meta.touched)

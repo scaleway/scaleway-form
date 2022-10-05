@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import { UseFieldConfig, useField as useFinalFormField } from 'react-final-form'
+import { UseFieldConfig, useField } from 'react-final-form'
 import { pickValidators } from '../helpers'
 import { ValidatorProps } from '../types'
 import { useValidation } from './useValidation'
 
-export const useField = <
+export const useFormField = <
   FieldValue = unknown,
   T extends HTMLElement = HTMLElement,
   InputValue = FieldValue,
@@ -56,11 +56,10 @@ export const useField = <
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const data = useMemo(() => ({ key: Math.random() }), [validateFn])
 
-  return useFinalFormField<FieldValue, T, InputValue>(name, {
+  return useField<FieldValue, T, InputValue>(name, {
     afterSubmit,
     allowNull,
     beforeSubmit,
-    data,
     defaultValue,
     format,
     formatOnBlur,
@@ -73,5 +72,6 @@ export const useField = <
     validate: validateFn,
     validateFields,
     value,
+    data,
   })
 }

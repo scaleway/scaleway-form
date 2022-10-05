@@ -1,7 +1,7 @@
 import { TextBox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import { ComponentProps, FocusEvent, Ref, forwardRef } from 'react'
-import { useField } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -108,7 +108,7 @@ export const TextBoxField = forwardRef(
   ): JSX.Element => {
     const { getError } = useErrors()
 
-    const { input, meta } = useField(name, {
+    const { input, meta } = useFormField(name, {
       afterSubmit,
       allowNull,
       beforeSubmit,

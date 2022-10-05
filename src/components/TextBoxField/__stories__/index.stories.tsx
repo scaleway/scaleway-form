@@ -1,6 +1,6 @@
 import { Checkbox } from '@scaleway/ui'
 import { Meta, Story } from '@storybook/react'
-import { ComponentProps } from 'react'
+import { ComponentProps, useState } from 'react'
 import { Form, Submit, TextBoxField } from '../..'
 import { mockErrors } from '../../../mocks/mockErrors'
 
@@ -57,7 +57,7 @@ Required.args = {
 export const DynamicRequired: Story<
   ComponentProps<typeof TextBoxField>
 > = args => {
-  const [isRequired, setIsRequired] = React.useState(true)
+  const [isRequired, setIsRequired] = useState(true)
 
   return (
     <>

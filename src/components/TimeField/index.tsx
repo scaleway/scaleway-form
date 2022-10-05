@@ -1,6 +1,6 @@
 import { TimeInput } from '@scaleway/ui'
 import { ComponentProps, useMemo } from 'react'
-import { useField } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 const parseTime = (date?: Date | string): { label: string; value: string } => {
@@ -45,7 +45,7 @@ export const TimeField = ({
   isSearchable,
   options,
 }: TimeFieldProps) => {
-  const { input, meta } = useField<Date>(name, {
+  const { input, meta } = useFormField<Date>(name, {
     formatOnBlur,
     initialValue,
     required,

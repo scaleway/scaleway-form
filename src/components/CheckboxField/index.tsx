@@ -1,7 +1,7 @@
 import { Checkbox } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import { ComponentProps, ReactNode, Ref, forwardRef } from 'react'
-import { useField } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -48,7 +48,7 @@ export const CheckboxField = forwardRef(
   ): JSX.Element => {
     const { getError } = useErrors()
 
-    const { input, meta } = useField(name, {
+    const { input, meta } = useFormField(name, {
       required,
       type: 'checkbox',
       validate,

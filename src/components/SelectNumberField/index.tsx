@@ -1,6 +1,6 @@
 import { SelectNumber } from '@scaleway/ui'
 import { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
-import { useField } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { BaseFieldProps } from '../../types'
 
 type SelectNumberValue = NonNullable<
@@ -51,7 +51,7 @@ export const SelectNumberField = ({
   value,
   className,
 }: SelectNumberValueFieldProps) => {
-  const { input } = useField(name, {
+  const { input } = useFormField(name, {
     required,
     type: 'number',
     validate,

@@ -1,15 +1,17 @@
 import { renderHook } from '@testing-library/react'
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import { Form } from '../../components'
 import { mockErrors } from '../../mocks'
-import { useField } from '../useField'
+import { useFormField } from '../useFormField'
 
-describe('useField', () => {
+describe('useFormField', () => {
   test('should render correctly', () => {
     const wrapper = ({ children }: { children: ReactElement }) => (
       <Form errors={mockErrors}>{children}</Form>
     )
-    const { result } = renderHook(() => useField('fieldName', {}), { wrapper })
+    const { result } = renderHook(() => useFormField('fieldName', {}), {
+      wrapper,
+    })
     expect(result.current).toBeDefined()
   })
 })

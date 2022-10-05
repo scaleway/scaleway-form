@@ -7,7 +7,7 @@ import {
   useCallback,
   useMemo,
 } from 'react'
-import { useField } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -155,7 +155,7 @@ export const RichSelectField = <
     [formatProp, multiple, name, options],
   )
 
-  const { input, meta } = useField<T, HTMLElement, RichSelectOption>(name, {
+  const { input, meta } = useFormField<T, HTMLElement, RichSelectOption>(name, {
     format,
     formatOnBlur,
     maxLength,

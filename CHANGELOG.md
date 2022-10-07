@@ -1,3 +1,20 @@
+## [1.32.0](https://github.com/scaleway/scaleway-form/compare/v1.31.1...v1.32.0) (2022-10-07)
+
+
+### :package: Chore
+
+* correct storybook theme ([#525](https://github.com/scaleway/scaleway-form/issues/525)) ([1f71c99](https://github.com/scaleway/scaleway-form/commit/1f71c995b864eaefa9db63c01de77884e3fe4ae5))
+
+
+### :repeat: CI
+
+* use caddy to serve storybook ([#528](https://github.com/scaleway/scaleway-form/issues/528)) ([2f54878](https://github.com/scaleway/scaleway-form/commit/2f54878a7974d060bd3cd71c243a16d3fe402b79))
+
+
+### :gear: Features
+
+* enable dynamic validation ([#510](https://github.com/scaleway/scaleway-form/issues/510)) ([aac01bd](https://github.com/scaleway/scaleway-form/commit/aac01bd03d5cf715d972191793a9d5438fbbbcbe))
+
 ## [1.31.1](https://github.com/scaleway/scaleway-form/compare/v1.31.0...v1.31.1) (2022-10-04)
 
 

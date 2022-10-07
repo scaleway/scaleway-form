@@ -1,3 +1,10 @@
+## [1.32.1](https://github.com/scaleway/scaleway-form/compare/v1.32.0...v1.32.1) (2022-10-07)
+
+
+### :bug: Bug Fixes
+
+* do not display error on checkbox on form load ([#526](https://github.com/scaleway/scaleway-form/issues/526)) ([0bd83ee](https://github.com/scaleway/scaleway-form/commit/0bd83ee83d0c90f32509d4d8b3d9e1bffedb83a1))
+
 ## [1.32.0](https://github.com/scaleway/scaleway-form/compare/v1.31.1...v1.32.0) (2022-10-07)
 
 

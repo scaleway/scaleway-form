@@ -1,9 +1,7 @@
 import { SelectableCard } from '@scaleway/ui'
 import { FieldState } from 'final-form'
 import { ComponentProps } from 'react'
-import { useField } from 'react-final-form'
-import { pickValidators } from '../../helpers'
-import { useValidation } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -56,16 +54,10 @@ export const SelectableCardField = ({
 }: SelectableCardFieldProps): JSX.Element => {
   const { getError } = useErrors()
 
-  const validateFn = useValidation<SelectableCardValue>({
-    validate,
-    validators: pickValidators({
-      required,
-    }),
-  })
-
-  const { input, meta } = useField(name, {
+  const { input, meta } = useFormField(name, {
+    required,
     type: type ?? 'radio',
-    validate: validateFn,
+    validate,
     value,
   })
 

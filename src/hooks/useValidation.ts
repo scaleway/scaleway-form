@@ -16,8 +16,8 @@ type UseValidationResult<FieldValue = unknown> = (
 export const useValidation = <T = unknown>({
   validators,
   validate,
-}: UseValidationParams<T>): UseValidationResult<T> => {
-  const fn = useCallback(
+}: UseValidationParams<T>): UseValidationResult<T> =>
+  useCallback(
     (
       value: T,
       allValues?: AnyObject,
@@ -37,8 +37,5 @@ export const useValidation = <T = unknown>({
 
       return errors.length > 0 ? errors : undefined
     },
-    [validators, validate],
+    [validate, validators],
   )
-
-  return fn
-}

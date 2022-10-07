@@ -7,9 +7,7 @@ import {
   useCallback,
   useMemo,
 } from 'react'
-import { useField } from 'react-final-form'
-import { pickValidators } from '../../helpers'
-import { useValidation } from '../../hooks'
+import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
 import { BaseFieldProps } from '../../types'
 
@@ -92,13 +90,6 @@ export const RichSelectField = <
   noTopLabel,
 }: RichSelectFieldProps<T>) => {
   const { getError } = useErrors()
-  const validate = useValidation({
-    validators: pickValidators<T>({
-      maxLength,
-      minLength: minLength || required ? 1 : undefined,
-      required,
-    }),
-  })
 
   const options = useMemo(
     () =>
@@ -164,12 +155,14 @@ export const RichSelectField = <
     [formatProp, multiple, name, options],
   )
 
-  const { input, meta } = useField<T, HTMLElement, RichSelectOption>(name, {
+  const { input, meta } = useFormField<T, HTMLElement, RichSelectOption>(name, {
     format,
     formatOnBlur,
+    maxLength,
+    minLength: minLength || required ? 1 : undefined,
     multiple,
     parse,
-    validate,
+    required,
     value,
   })
 

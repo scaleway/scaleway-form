@@ -1,9 +1,5 @@
-import styled from '@emotion/styled'
-import { Meta, Story } from '@storybook/react'
-import { FORM_ERROR } from 'final-form'
-import { ComponentProps } from 'react'
-import { Form, Submit, SubmitErrorAlert } from '../..'
-import { mockErrors } from '../../../mocks'
+import { Meta } from '@storybook/react'
+import { SubmitErrorAlert } from '../..'
 
 export default {
   component: SubmitErrorAlert,
@@ -18,22 +14,4 @@ export default {
   title: 'Components/SubmitErrorAlert',
 } as Meta
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-`
-
-export const Default: Story<ComponentProps<typeof SubmitErrorAlert>> = ({
-  className,
-}) => (
-  <Form
-    errors={mockErrors}
-    onSubmit={() => ({ [FORM_ERROR]: 'An error occured' })}
-  >
-    <Container>
-      <SubmitErrorAlert className={className} />
-      <Submit>Click Me</Submit>
-    </Container>
-  </Form>
-)
+export { Playground } from './Playground.stories'

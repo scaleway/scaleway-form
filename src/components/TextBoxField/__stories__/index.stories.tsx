@@ -1,7 +1,5 @@
-import { Checkbox } from '@scaleway/ui'
-import { Meta, Story } from '@storybook/react'
-import { ComponentProps, useState } from 'react'
-import { Form, Submit, TextBoxField } from '../..'
+import { Meta } from '@storybook/react'
+import { Form, TextBoxField } from '../..'
 import { mockErrors } from '../../../mocks/mockErrors'
 
 export default {
@@ -12,100 +10,14 @@ export default {
       description: {
         component: 'A switch field that act like a checkbox',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/TextBoxField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof TextBoxField>> = args => (
-  <TextBoxField {...args} />
-)
-
-Template.args = {
-  name: 'template',
-}
-
-export const Default = Template.bind({})
-
-Default.args = {
-  name: 'default',
-}
-
-export const Disabled = Template.bind({})
-
-Disabled.args = {
-  ...Template.args,
-  disabled: true,
-  name: 'disabled',
-}
-
-export const Required: Story<ComponentProps<typeof TextBoxField>> = args => (
-  <>
-    <TextBoxField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
-)
-
-Required.args = {
-  name: 'required',
-  required: true,
-}
-
-export const DynamicRequired: Story<
-  ComponentProps<typeof TextBoxField>
-> = args => {
-  const [isRequired, setIsRequired] = useState(true)
-
-  return (
-    <>
-      <Checkbox
-        checked={isRequired}
-        onChange={() => setIsRequired(!isRequired)}
-      >
-        Is field required?
-      </Checkbox>
-      <TextBoxField {...args} required={isRequired} />
-      <div style={{ marginTop: 8 }}>
-        <Submit>Submit</Submit>
-      </div>
-    </>
-  )
-}
-
-DynamicRequired.args = {
-  name: 'required',
-}
-
-export const MinMaxLength: Story<
-  ComponentProps<typeof TextBoxField>
-> = args => (
-  <>
-    <TextBoxField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
-)
-
-MinMaxLength.args = {
-  maxLength: 15,
-  minLength: 10,
-  name: 'Min/max length',
-}
-
-export const Regex: Story<ComponentProps<typeof TextBoxField>> = args => (
-  <>
-    <TextBoxField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
-)
-
-Regex.args = {
-  name: 'Regex',
-  regex: [/^[a-zA-Z]*$/],
-}
+export { Playground } from './Playground.stories'
+export { Disabled } from './Disabled.stories'
+export { Required } from './Required.stories'
+export { DynamicRequired } from './DynamicRequired.stories'
+export { MinMaxLength } from './MinMaxLength.stories'
+export { Regex } from './Regex.stories'

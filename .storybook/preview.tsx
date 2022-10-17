@@ -29,6 +29,9 @@ const ENV_PARAMETERS = {
     options: {
       storySort: STORY_SORT,
     },
+    docs: {
+      source: { excludeDecorators: true },
+    },
   },
   production: {
     actions: { argTypesRegex: '^on[A-Z].*' },
@@ -36,6 +39,9 @@ const ENV_PARAMETERS = {
     previewTabs: { canvas: { hidden: true } },
     options: {
       storySort: STORY_SORT,
+    },
+    docs: {
+      source: { excludeDecorators: true },
     },
   },
 }

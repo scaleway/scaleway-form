@@ -1,7 +1,6 @@
 import styled from '@emotion/styled'
-import { Meta, Story } from '@storybook/react'
-import { ComponentProps } from 'react'
-import { Form, Submit, TimeField } from '../..'
+import { Meta } from '@storybook/react'
+import { Form, TimeField } from '../..'
 import { mockErrors } from '../../../mocks'
 
 const Container = styled.div`
@@ -22,44 +21,11 @@ export default {
         component:
           'TimeField is a component used in Form to pick a date. This component is a Wrapper of DateInput https://github.com/scaleway/scaleway-ui/tree/main/src/components/DateInput',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/TimeField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof TimeField>> = args => (
-  <TimeField {...args} />
-)
-
-Template.args = {
-  name: 'template',
-}
-
-export const Default = Template.bind({})
-
-Default.args = {
-  name: 'default',
-}
-
-export const Disabled = Template.bind({})
-
-Disabled.args = {
-  ...Template.args,
-  disabled: true,
-  name: 'disabled',
-}
-
-export const Required: Story<ComponentProps<typeof TimeField>> = args => (
-  <>
-    <TimeField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
-)
-
-Required.args = {
-  name: 'required',
-  required: true,
-}
+export { Playground } from './Playground.stories'
+export { Disabled } from './Disabled.stories'
+export { Required } from './Required.stories'

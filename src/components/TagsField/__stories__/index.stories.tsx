@@ -1,7 +1,6 @@
-import { Meta, Story } from '@storybook/react'
-import { ComponentProps } from 'react'
-import { TagsField, TagsFieldProps } from '..'
-import { Form, Submit } from '../..'
+import { Meta } from '@storybook/react'
+import { TagsField } from '..'
+import { Form } from '../..'
 import { mockErrors } from '../../../mocks'
 
 export default {
@@ -12,52 +11,13 @@ export default {
       description: {
         component: 'A tags field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/TagsField',
 } as Meta
 
-const Template: Story<TagsFieldProps> = args => <TagsField {...args} />
-
-export const Default = Template.bind({})
-
-Default.args = {
-  name: 'default',
-}
-
-export const Placeholder = Template.bind({})
-
-Placeholder.args = {
-  ...Template.args,
-  name: 'placeholder',
-  placeholder: 'Placeholder',
-}
-
-export const Disabled = Template.bind({})
-
-Disabled.args = {
-  ...Template.args,
-  disabled: true,
-  name: 'disabled',
-}
-
-export const DefaultTags = Template.bind({})
-
-DefaultTags.args = {
-  ...Template.args,
-  name: 'defaultTags',
-  tags: ['tag1', 'tag2'],
-}
-
-export const Required: Story<ComponentProps<typeof TagsField>> = args => (
-  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-    <TagsField {...args} />
-    <Submit>Submit</Submit>
-  </div>
-)
-
-Required.args = {
-  name: 'required',
-  required: true,
-}
+export { Playground } from './Playground.stories'
+export { Placeholder } from './Placeholder.stories'
+export { Disabled } from './Disabled.stories'
+export { DefaultTags } from './DefaultTags.stories'
+export { Required } from './Required.stories'

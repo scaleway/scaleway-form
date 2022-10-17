@@ -1,6 +1,5 @@
-import { Meta, Story } from '@storybook/react'
-import { ComponentProps } from 'react'
-import { CheckboxField, Form, FormProps, Submit } from '../..'
+import { Meta } from '@storybook/react'
+import { CheckboxField, Form } from '../..'
 import { mockErrors } from '../../../mocks'
 
 export default {
@@ -11,57 +10,17 @@ export default {
       description: {
         component: 'A checkbox field',
       },
-      source: { excludeDecorators: true },
     },
   },
   title: 'Components/Fields/CheckboxField',
 } as Meta
 
-const Template: Story<ComponentProps<typeof CheckboxField>> = args => (
-  <CheckboxField {...args}>Checkbox</CheckboxField>
-)
+export { Playground } from './Playground.stories'
 
-export const Default = Template.bind({})
+export { Checked } from './Checked.stories'
 
-Default.args = {
-  name: 'default',
-}
+export { BooleanChecked } from './BooleanChecked.stories'
 
-export const Checked: Story<FormProps> = ({ errors }) => (
-  <Form errors={errors} initialValues={{ foo: ['bar'] }}>
-    <CheckboxField name="foo" value="bar">
-      Checked Item
-    </CheckboxField>
-    <CheckboxField name="foo" value="nope">
-      Not Checked Item
-    </CheckboxField>
-  </Form>
-)
+export { Disabled } from './Disabled.stories'
 
-export const BooleanChecked: Story<FormProps> = ({ errors }) => (
-  <Form errors={errors} initialValues={{ foo: true }}>
-    <CheckboxField name="foo">Default Checked Boolean Item</CheckboxField>
-  </Form>
-)
-
-export const Disabled = Template.bind({})
-
-Disabled.args = {
-  ...Template.args,
-  disabled: true,
-  name: 'disabled',
-}
-
-export const Required: Story<ComponentProps<typeof CheckboxField>> = args => (
-  <>
-    <CheckboxField {...args} />
-    <div style={{ marginTop: 8 }}>
-      <Submit>Submit</Submit>
-    </div>
-  </>
-)
-
-Required.args = {
-  name: 'required',
-  required: true,
-}
+export { Required } from './Required.stories'

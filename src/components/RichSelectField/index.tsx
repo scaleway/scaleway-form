@@ -46,6 +46,7 @@ export type RichSelectFieldProps<
     | 'required'
     | 'value'
     | 'noTopLabel'
+    | 'noOptionsMessage'
   > & {
     label?: string
     maxLength?: number
@@ -88,6 +89,7 @@ export const RichSelectField = <
   required,
   value,
   noTopLabel,
+  noOptionsMessage,
 }: RichSelectFieldProps<T>) => {
   const { getError } = useErrors()
 
@@ -208,6 +210,7 @@ export const RichSelectField = <
       value={input.value}
       noTopLabel={noTopLabel}
       required={required}
+      noOptionsMessage={noOptionsMessage}
     >
       {children}
     </RichSelect>

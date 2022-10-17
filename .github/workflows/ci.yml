@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3.1.0
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
       - name: Use Node.js
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: 18
           cache: 'pnpm'
@@ -25,9 +25,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3.1.0
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
       - name: Use Node.js
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: 18
           cache: 'pnpm'
@@ -42,9 +42,9 @@ jobs:
       - uses: actions/checkout@v3.1.0
         with:
           fetch-depth: '0'
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
       - name: Use Node.js
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: ${{ matrix.node }}
           cache: 'pnpm'
@@ -59,9 +59,9 @@ jobs:
     needs: [lint, test]
     steps:
       - uses: actions/checkout@v3.1.0
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
       - name: Use Node.js
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: ${{ matrix.node }}
       - run: pnpm install
@@ -78,9 +78,9 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
       - name: Use Node.js
-        uses: actions/setup-node@v3.5.0
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: 18
       - run: pnpm install

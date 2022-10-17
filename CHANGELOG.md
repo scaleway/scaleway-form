@@ -1,3 +1,25 @@
+## [1.33.0](https://github.com/scaleway/scaleway-form/compare/v1.32.1...v1.33.0) (2022-10-17)
+
+
+### :package: Chore
+
+* **devdeps:** update actions/cache action to v3.0.11 ([#541](https://github.com/scaleway/scaleway-form/issues/541)) ([229ab8e](https://github.com/scaleway/scaleway-form/commit/229ab8e0176f7f9cc44718daaf459dc05dea4602))
+* **devdeps:** update actions/setup-node action to v3.5.1 ([#542](https://github.com/scaleway/scaleway-form/issues/542)) ([02c6fd2](https://github.com/scaleway/scaleway-form/commit/02c6fd2c02a2deee8187f66bb3f392afaf805498))
+* **devdeps:** update babel monorepo to v7.19.4 ([#530](https://github.com/scaleway/scaleway-form/issues/530)) ([dd5c1fe](https://github.com/scaleway/scaleway-form/commit/dd5c1fe8be93618d90d2979389d49cbd5e216e3f))
+* **devdeps:** update dependency @rollup/plugin-babel to v6 ([#529](https://github.com/scaleway/scaleway-form/issues/529)) ([3c023f6](https://github.com/scaleway/scaleway-form/commit/3c023f61a89f9211ffd152155a6e999f12f4b874))
+* **devdeps:** update dependency @rollup/plugin-node-resolve to v15 ([#531](https://github.com/scaleway/scaleway-form/issues/531)) ([9e6e1f2](https://github.com/scaleway/scaleway-form/commit/9e6e1f29f6c71f50576b4bcdec7912cd1679637b))
+* **devdeps:** update dependency @rollup/plugin-url to v8 ([#532](https://github.com/scaleway/scaleway-form/issues/532)) ([79fb3c8](https://github.com/scaleway/scaleway-form/commit/79fb3c8bf18fcebf07cfef6934a0444c4a165a76))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.7.7 ([#540](https://github.com/scaleway/scaleway-form/issues/540)) ([3af1c41](https://github.com/scaleway/scaleway-form/commit/3af1c412d15e19cce5e191eea3e6a9d6180ff2b9))
+* **devdeps:** update docker/build-push-action action to v3.2.0 ([#536](https://github.com/scaleway/scaleway-form/issues/536)) ([cf3bf6a](https://github.com/scaleway/scaleway-form/commit/cf3bf6ad4bfc0561e4062a29ee44415ef020fca8))
+* **devdeps:** update docker/login-action action to v2.1.0 ([#537](https://github.com/scaleway/scaleway-form/issues/537)) ([46eb59a](https://github.com/scaleway/scaleway-form/commit/46eb59a15ba33ba98baa9d3a03ef49a48e18f11b))
+* **devdeps:** update docker/setup-buildx-action action to v2.1.0 ([#538](https://github.com/scaleway/scaleway-form/issues/538)) ([7ed914f](https://github.com/scaleway/scaleway-form/commit/7ed914fa7f503b6859f5f8ca1ad5d90ae7affd4d))
+* **devdeps:** update pnpm/action-setup action to v2.2.3 ([#535](https://github.com/scaleway/scaleway-form/issues/535)) ([0830c29](https://github.com/scaleway/scaleway-form/commit/0830c29b8ffd3cbe587733ac98dca30b30f15358))
+
+
+### :gear: Features
+
+* **RichSelect:** forward noOptionsMessage prop ([#544](https://github.com/scaleway/scaleway-form/issues/544)) ([64c348a](https://github.com/scaleway/scaleway-form/commit/64c348a657508c9902cd0fdf887ea495c7332459))
+
 ## [1.32.1](https://github.com/scaleway/scaleway-form/compare/v1.32.0...v1.32.1) (2022-10-07)
 
 

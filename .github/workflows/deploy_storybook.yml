@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.1.0
       - name: Cache Docker layers
-        uses: actions/cache@v3.0.10
+        uses: actions/cache@v3.0.11
         with:
           path: /tmp/.buildx-cache
           key: ${{ runner.os }}-buildx
@@ -39,15 +39,15 @@ jobs:
           env: ${{ env.BRANCH_SLUG }}
           ref: ${{ github.head_ref }}
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2.0.0
+        uses: docker/setup-buildx-action@v2.2.0
       - name: Login to Registry
-        uses: docker/login-action@v2.0.0
+        uses: docker/login-action@v2.1.0
         with:
           registry: rg.fr-par.scw.cloud/console-scw
           username: nologin
           password: ${{ secrets.SCW_SECRET_KEY }}
       - name: Build
-        uses: docker/build-push-action@v3.1.1
+        uses: docker/build-push-action@v3.2.0
         env:
           IMAGE: ${{ env.IMAGE_NAME }}:${{ env.BRANCH_SLUG }}
         with:

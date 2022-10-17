@@ -138,7 +138,7 @@
     "@rollup/plugin-babel": "6.0.0",
     "@rollup/plugin-node-resolve": "15.0.0",
     "@rollup/plugin-url": "8.0.0",
-    "@scaleway/eslint-config-react": "3.7.4",
+    "@scaleway/eslint-config-react": "3.7.7",
     "@scaleway/jest-helpers": "2.0.19",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",

@@ -1,3 +1,24 @@
+## [1.33.1](https://github.com/scaleway/scaleway-form/compare/v1.33.0...v1.33.1) (2022-10-23)
+
+
+### :zap: Refactor
+
+* improve stories organization ([#534](https://github.com/scaleway/scaleway-form/issues/534)) ([cac7498](https://github.com/scaleway/scaleway-form/commit/cac7498629bf4bfafe57eaf57133cba14660529f))
+
+
+### :package: Chore
+
+* **devdeps:** update dependency rollup to v3 ([#539](https://github.com/scaleway/scaleway-form/issues/539)) ([35a6672](https://github.com/scaleway/scaleway-form/commit/35a66726fa3a05f55c26af4cda1c0467bfc93a82))
+* **devdeps:** update docker/setup-buildx-action action to v2.2.0 ([#545](https://github.com/scaleway/scaleway-form/issues/545)) ([028007b](https://github.com/scaleway/scaleway-form/commit/028007b08f4c395a846269e3c38c353791c221b4))
+* **devdeps:** update docker/setup-buildx-action action to v2.2.1 ([#548](https://github.com/scaleway/scaleway-form/issues/548)) ([06488b4](https://github.com/scaleway/scaleway-form/commit/06488b4e3ebcbff66800b6f9c5e084d5480acc18))
+* **devdeps:** update node.js to v18.11 ([#546](https://github.com/scaleway/scaleway-form/issues/546)) ([ce51510](https://github.com/scaleway/scaleway-form/commit/ce51510ef1bfdba29348214cea0112aa0024c015))
+* **devdeps:** update pnpm/action-setup action to v2.2.4 ([#543](https://github.com/scaleway/scaleway-form/issues/543)) ([56ee6cc](https://github.com/scaleway/scaleway-form/commit/56ee6cce55db8aec641db9eac529f72f26150ebf))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency react-final-form-arrays to v3.1.4 ([#550](https://github.com/scaleway/scaleway-form/issues/550)) ([4e05536](https://github.com/scaleway/scaleway-form/commit/4e055369491191d927fe0e5acd63d35f71480b72))
+
 ## [1.33.0](https://github.com/scaleway/scaleway-form/compare/v1.32.1...v1.33.0) (2022-10-17)
 
 

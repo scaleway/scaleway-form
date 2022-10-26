@@ -1,3 +1,16 @@
+## [1.33.2](https://github.com/scaleway/scaleway-form/compare/v1.33.1...v1.33.2) (2022-10-26)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.7.10 ([#552](https://github.com/scaleway/scaleway-form/issues/552)) ([65d4f87](https://github.com/scaleway/scaleway-form/commit/65d4f876ccbe2fddf3be001c1f96c5117b3fa353))
+* **devdeps:** update devdeps ([#551](https://github.com/scaleway/scaleway-form/issues/551)) ([497ceb7](https://github.com/scaleway/scaleway-form/commit/497ceb7aec287bd8c046cadbab78b25fb5df4d8d))
+
+
+### :bug: Bug Fixes
+
+* fix validation when field is not required ([#554](https://github.com/scaleway/scaleway-form/issues/554)) ([3e16428](https://github.com/scaleway/scaleway-form/commit/3e16428653f7138e8543e54249cddc68a80bc2a1))
+
 ## [1.33.1](https://github.com/scaleway/scaleway-form/compare/v1.33.0...v1.33.1) (2022-10-23)
 
 

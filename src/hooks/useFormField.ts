@@ -36,6 +36,8 @@ export const useFormField = <
     minDate,
   }: UseFieldConfig<FieldValue, InputValue> & ValidatorProps,
 ) => {
+  const serializedRegex = useMemo(() => regex?.toString(), [regex])
+
   const validators = useMemo(
     () =>
       pickValidators<FieldValue>({
@@ -48,7 +50,17 @@ export const useFormField = <
         regex,
         required,
       }),
-    [max, maxLength, min, minLength, regex, required, maxDate, minDate],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [
+      max,
+      maxLength,
+      min,
+      minLength,
+      required,
+      serializedRegex,
+      maxDate,
+      minDate,
+    ],
   )
 
   const validateFn = useValidation({ validate, validators })

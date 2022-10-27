@@ -162,7 +162,7 @@
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
     "@types/final-form-focus": "1.1.2",
-    "@types/node": "18.11.4",
+    "@types/node": "18.11.7",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "babel-loader": "8.2.5",

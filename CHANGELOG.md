@@ -1,3 +1,10 @@
+## [1.33.3](https://github.com/scaleway/scaleway-form/compare/v1.33.2...v1.33.3) (2022-10-27)
+
+
+### :bug: Bug Fixes
+
+* infinite rendering when passing form render props ([#555](https://github.com/scaleway/scaleway-form/issues/555)) ([0a32a10](https://github.com/scaleway/scaleway-form/commit/0a32a102d8b0b00f77b514f3d66e6da088e597c3))
+
 ## [1.33.2](https://github.com/scaleway/scaleway-form/compare/v1.33.1...v1.33.2) (2022-10-26)
 
 

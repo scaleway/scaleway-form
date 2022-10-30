@@ -139,7 +139,7 @@
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-url": "8.0.1",
     "@scaleway/eslint-config-react": "3.7.10",
-    "@scaleway/jest-helpers": "2.0.20",
+    "@scaleway/jest-helpers": "2.0.21",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
@@ -193,7 +193,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.19.4",
-    "@scaleway/ui": "0.198.0",
+    "@scaleway/ui": "0.201.4",
     "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",
     "final-form-focus": "1.1.2",

@@ -89,17 +89,14 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   color: #a6102d;
 }
 
-.cache-1q6mt23-sizeStyles {
+.cache-8vm2et-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 32px;
   width: 32px;
   min-width: 32px;
   min-height: 32px;
   margin-right: 16px;
-}
-
-.cache-1q6mt23-sizeStyles.cache-1q6mt23-sizeStyles {
-  vertical-align: middle;
 }
 
 .cache-oaar7r {
@@ -147,8 +144,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       class="cache-1jd8aud-alertStyles eenhiht3"
     >
       <svg
-        aria-hidden="true"
-        class="eenhiht2 etwatq50 cache-1q6mt23-sizeStyles"
+        class="eenhiht2 cache-8vm2et-sizeStyles etwatq50"
         viewBox="0 0 24 24"
       >
         <path

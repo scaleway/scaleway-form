@@ -92,7 +92,7 @@ exports[`Submit form is invalid 1`] = `
   border-color: #a6102d;
 }
 
-.cache-9xime5 {
+.cache-msb198 {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -105,9 +105,6 @@ exports[`Submit form is invalid 1`] = `
   max-height: 56px;
   opacity: 1;
   overflow: visible;
-}
-
-.cache-9xime5.cache-9xime5 {
   overflow: hidden;
 }
 
@@ -203,7 +200,7 @@ exports[`Submit form is invalid 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -214,10 +211,10 @@ exports[`Submit form is invalid 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-9xime5"
+        class="cache-msb198 e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         >
           This field should match the regex ^[a-zA-Z]*$
         </div>
@@ -579,16 +576,13 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
   pointer-events: none;
 }
 
-.cache-9f03wb-sizeStyles {
+.cache-kv8vgz-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 1em;
   width: 1em;
   min-width: 1em;
   min-height: 1em;
-}
-
-.cache-9f03wb-sizeStyles.cache-9f03wb-sizeStyles {
-  vertical-align: middle;
 }
 
 <form
@@ -608,7 +602,7 @@ exports[`Submit renders correctly with icon and iconPosition  1`] = `
         class="cache-14frhxz em6gco81"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-9f03wb-sizeStyles"
+          class="cache-kv8vgz-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path

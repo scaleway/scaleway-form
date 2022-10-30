@@ -231,7 +231,27 @@ exports[`TimeField should render correctly 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-mgrhbz-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-1wgmtwg-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 24px;
   width: 24px;
@@ -239,12 +259,7 @@ exports[`TimeField should render correctly 1`] = `
   min-height: 24px;
 }
 
-.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -252,9 +267,6 @@ exports[`TimeField should render correctly 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -268,7 +280,7 @@ exports[`TimeField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-"
     >
       <span
@@ -330,22 +342,26 @@ exports[`TimeField should render correctly 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
-              />
-            </svg>
+              <svg
+                class="cache-1wgmtwg-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -584,7 +600,27 @@ exports[`TimeField should render correctly checked without value 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-mgrhbz-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-1wgmtwg-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 24px;
   width: 24px;
@@ -592,12 +628,7 @@ exports[`TimeField should render correctly checked without value 1`] = `
   min-height: 24px;
 }
 
-.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -605,9 +636,6 @@ exports[`TimeField should render correctly checked without value 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -621,7 +649,7 @@ exports[`TimeField should render correctly checked without value 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-"
     >
       <span
@@ -683,22 +711,26 @@ exports[`TimeField should render correctly checked without value 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
-              />
-            </svg>
+              <svg
+                class="cache-1wgmtwg-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -924,7 +956,27 @@ exports[`TimeField should render correctly disabled 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-1itukok-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-1y9qt3p-sizeStyles {
+  vertical-align: middle;
   fill: #c4c9d6;
   height: 24px;
   width: 24px;
@@ -932,12 +984,7 @@ exports[`TimeField should render correctly disabled 1`] = `
   min-height: 24px;
 }
 
-.cache-1itukok-sizeStyles.cache-1itukok-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -945,9 +992,6 @@ exports[`TimeField should render correctly disabled 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -961,7 +1005,7 @@ exports[`TimeField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-1c5bozl-container-StyledContainer"
+      class="e1lzna4r5 cache-1c5bozl-container-StyledContainer"
       data-testid="rich-select-"
     >
       <span
@@ -1024,22 +1068,26 @@ exports[`TimeField should render correctly disabled 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-1itukok-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
-              />
-            </svg>
+              <svg
+                class="cache-1y9qt3p-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -1278,7 +1326,27 @@ exports[`TimeField should trigger events 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-mgrhbz-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-1wgmtwg-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 24px;
   width: 24px;
@@ -1286,12 +1354,7 @@ exports[`TimeField should trigger events 1`] = `
   min-height: 24px;
 }
 
-.cache-mgrhbz-sizeStyles.cache-mgrhbz-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1299,9 +1362,6 @@ exports[`TimeField should trigger events 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -1315,7 +1375,7 @@ exports[`TimeField should trigger events 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-"
     >
       <span
@@ -1379,22 +1439,26 @@ exports[`TimeField should trigger events 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-mgrhbz-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
-              />
-            </svg>
+              <svg
+                class="cache-1wgmtwg-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>

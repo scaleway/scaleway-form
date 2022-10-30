@@ -81,7 +81,7 @@ exports[`TextBoxField should render correctly 1`] = `
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -89,9 +89,6 @@ exports[`TextBoxField should render correctly 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -108,7 +105,7 @@ exports[`TextBoxField should render correctly 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -119,10 +116,10 @@ exports[`TextBoxField should render correctly 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -216,7 +213,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -224,9 +221,6 @@ exports[`TextBoxField should render correctly disabled 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -243,7 +237,7 @@ exports[`TextBoxField should render correctly disabled 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -255,10 +249,10 @@ exports[`TextBoxField should render correctly disabled 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -347,7 +341,7 @@ exports[`TextBoxField should render correctly generated 1`] = `
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -355,9 +349,6 @@ exports[`TextBoxField should render correctly generated 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -374,7 +365,7 @@ exports[`TextBoxField should render correctly generated 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -385,10 +376,10 @@ exports[`TextBoxField should render correctly generated 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -477,7 +468,7 @@ exports[`TextBoxField should render correctly id 1`] = `
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -485,9 +476,6 @@ exports[`TextBoxField should render correctly id 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -504,7 +492,7 @@ exports[`TextBoxField should render correctly id 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -516,10 +504,10 @@ exports[`TextBoxField should render correctly id 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -608,7 +596,7 @@ exports[`TextBoxField should render correctly notice 1`] = `
   opacity: 1;
 }
 
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -616,9 +604,6 @@ exports[`TextBoxField should render correctly notice 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -643,16 +628,13 @@ exports[`TextBoxField should render correctly notice 1`] = `
   margin-top: 8px;
 }
 
-.cache-1dyzz17-sizeStyles {
+.cache-qq4de9-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 20px;
   width: 20px;
   min-width: 20px;
   min-height: 20px;
-}
-
-.cache-1dyzz17-sizeStyles.cache-1dyzz17-sizeStyles {
-  vertical-align: top;
 }
 
 <form
@@ -662,7 +644,7 @@ exports[`TextBoxField should render correctly notice 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -673,17 +655,17 @@ exports[`TextBoxField should render correctly notice 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
       <div
-        class="e18bmnpq2 cache-1wy3rxk e1qg14600"
+        class="e18bmnpq3 cache-1wy3rxk e1qg14600"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-1dyzz17-sizeStyles"
+          class="cache-qq4de9-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -691,7 +673,7 @@ exports[`TextBoxField should render correctly notice 1`] = `
           />
         </svg>
         <div
-          class="ejtitxs0 cache-ykhhhn"
+          class="cache-1xdhyk6 e1kf57p60"
         >
           <p>
             <span>
@@ -817,30 +799,69 @@ exports[`TextBoxField should render correctly random 1`] = `
   box-shadow: none!important;
 }
 
-.cache-1me4bek {
-  border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
+.cache-1co4pee-StyledButton {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 4px;
+  border-width: 0;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-weight: 500;
+  -webkit-transition: color 150ms ease-in-out,background-color 150ms ease-in-out,border-color 150ms ease-in-out;
+  transition: color 150ms ease-in-out,background-color 150ms ease-in-out,border-color 150ms ease-in-out;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  padding: 8px 16px;
   background-color: transparent;
+  color: #4a4f62;
+  width: 32px;
+  height: 32px;
   padding: 0;
-  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 
-.cache-1me4bek[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
+.cache-1co4pee-StyledButton:hover,
+.cache-1co4pee-StyledButton:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.cache-1me4bek[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
+.cache-1co4pee-StyledButton>svg {
+  pointer-events: none;
 }
 
-.cache-9f03wb-sizeStyles {
+.cache-brwenz {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  pointer-events: none;
+}
+
+.cache-kv8vgz-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 1em;
   width: 1em;
@@ -848,11 +869,7 @@ exports[`TextBoxField should render correctly random 1`] = `
   min-height: 1em;
 }
 
-.cache-9f03wb-sizeStyles.cache-9f03wb-sizeStyles {
-  vertical-align: middle;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -860,9 +877,6 @@ exports[`TextBoxField should render correctly random 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -879,7 +893,7 @@ exports[`TextBoxField should render correctly random 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -889,30 +903,34 @@ exports[`TextBoxField should render correctly random 1`] = `
           value=""
         />
         <div
-          class="cache-zmd8bf-StyledRightElement e18bmnpq6"
+          class="cache-zmd8bf-StyledRightElement e18bmnpq7"
         >
           <button
             aria-disabled="false"
-            class="e1kgqxfn0 cache-1me4bek"
+            class="em6gco80 cache-1co4pee-StyledButton"
             title="Randomize"
             type="button"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-9f03wb-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-brwenz em6gco81"
             >
-              <path
-                d="M7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2L8.6,4.5L10,7L7.5,5.6M19.5,15.4L22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4M22,2L20.6,4.5L22,7L19.5,5.6L17,7L18.4,4.5L17,2L19.5,3.4L22,2M13.34,12.78L15.78,10.34L13.66,8.22L11.22,10.66L13.34,12.78M14.37,7.29L16.71,9.63C17.1,10 17.1,10.65 16.71,11.04L5.04,22.71C4.65,23.1 4,23.1 3.63,22.71L1.29,20.37C0.9,20 0.9,19.35 1.29,18.96L12.96,7.29C13.35,6.9 14,6.9 14.37,7.29Z"
-              />
-            </svg>
+              <svg
+                class="cache-kv8vgz-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2L8.6,4.5L10,7L7.5,5.6M19.5,15.4L22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4M22,2L20.6,4.5L22,7L19.5,5.6L17,7L18.4,4.5L17,2L19.5,3.4L22,2M13.34,12.78L15.78,10.34L13.66,8.22L11.22,10.66L13.34,12.78M14.37,7.29L16.71,9.63C17.1,10 17.1,10.65 16.71,11.04L5.04,22.71C4.65,23.1 4,23.1 3.63,22.71L1.29,20.37C0.9,20 0.9,19.35 1.29,18.96L12.96,7.29C13.35,6.9 14,6.9 14.37,7.29Z"
+                />
+              </svg>
+            </div>
           </button>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -1027,19 +1045,16 @@ exports[`TextBoxField should render correctly required 1`] = `
   color: #4a4f62;
 }
 
-.cache-en1wqy-sizeStyles {
-  fill: #cc4e18;
+.cache-7wqnxk-sizeStyles {
+  vertical-align: middle;
+  fill: #a6102d;
   height: 10px;
   width: 10px;
   min-width: 10px;
   min-height: 10px;
 }
 
-.cache-en1wqy-sizeStyles.cache-en1wqy-sizeStyles {
-  vertical-align: middle;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1047,9 +1062,6 @@ exports[`TextBoxField should render correctly required 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -1066,7 +1078,7 @@ exports[`TextBoxField should render correctly required 1`] = `
       class="cache-3svqc9"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -1076,10 +1088,10 @@ exports[`TextBoxField should render correctly required 1`] = `
           value=""
         />
         <div
-          class="cache-h0isfn-StyledRightElement e18bmnpq6"
+          class="cache-h0isfn-StyledRightElement e18bmnpq7"
         >
           <svg
-            class="sc-ui-icon etwatq50 cache-en1wqy-sizeStyles"
+            class="cache-7wqnxk-sizeStyles etwatq50"
             viewBox="0 0 24 24"
           >
             <path
@@ -1089,10 +1101,10 @@ exports[`TextBoxField should render correctly required 1`] = `
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         />
       </div>
     </div>
@@ -1192,7 +1204,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   border-color: #a6102d;
 }
 
-.cache-9xime5 {
+.cache-msb198 {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1205,9 +1217,6 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
   max-height: 56px;
   opacity: 1;
   overflow: visible;
-}
-
-.cache-9xime5.cache-9xime5 {
   overflow: hidden;
 }
 
@@ -1225,7 +1234,7 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
       minlength="13"
     >
       <div
-        class="cache-bjn8wh e18bmnpq4"
+        class="cache-bjn8wh e18bmnpq5"
       >
         <input
           autocomplete="on"
@@ -1236,10 +1245,10 @@ exports[`TextBoxField should render correctly with minLength 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-9xime5"
+        class="cache-msb198 e18bmnpq2"
       >
         <div
-          class="cache-1rshnsu e18bmnpq3"
+          class="cache-1rshnsu e18bmnpq4"
         >
           This field should have a length greater than 13
         </div>

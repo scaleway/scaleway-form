@@ -1,3 +1,11 @@
+## [1.33.4](https://github.com/scaleway/scaleway-form/compare/v1.33.3...v1.33.4) (2022-10-30)
+
+
+### :package: Chore
+
+* **deps:** update emotion monorepo and @scaleway/ui ([#557](https://github.com/scaleway/scaleway-form/issues/557)) ([6d0f8eb](https://github.com/scaleway/scaleway-form/commit/6d0f8eb3e98806512769399adb1036ba3973a2b5))
+* **devdeps:** update node.js to v18.12 ([#556](https://github.com/scaleway/scaleway-form/issues/556)) ([541ef5e](https://github.com/scaleway/scaleway-form/commit/541ef5ec533244dd2fc799f6b008e3e915aeb21d))
+
 ## [1.33.3](https://github.com/scaleway/scaleway-form/compare/v1.33.2...v1.33.3) (2022-10-27)
 
 

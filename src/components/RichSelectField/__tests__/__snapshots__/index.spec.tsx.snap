@@ -228,7 +228,27 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-16s6csf-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 11px;
   width: 11px;
@@ -236,12 +256,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   min-height: 11px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -249,9 +264,6 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -265,7 +277,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -329,14 +341,18 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-16s6csf-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -346,10 +362,10 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
         value="Group Value"
       />
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -570,7 +586,27 @@ exports[`RichSelectField should render correctly 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-16s6csf-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 11px;
   width: 11px;
@@ -578,12 +614,7 @@ exports[`RichSelectField should render correctly 1`] = `
   min-height: 11px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -591,9 +622,6 @@ exports[`RichSelectField should render correctly 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -607,7 +635,7 @@ exports[`RichSelectField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -673,14 +701,18 @@ exports[`RichSelectField should render correctly 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-16s6csf-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -690,10 +722,10 @@ exports[`RichSelectField should render correctly 1`] = `
         value=""
       />
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -900,7 +932,27 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-24eqa0-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-b8lm46-sizeStyles {
+  vertical-align: middle;
   fill: #c4c9d6;
   height: 11px;
   width: 11px;
@@ -908,12 +960,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   min-height: 11px;
 }
 
-.cache-24eqa0-sizeStyles.cache-24eqa0-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -921,9 +968,6 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -937,7 +981,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-1c5bozl-container-StyledContainer"
+      class="e1lzna4r5 cache-1c5bozl-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -1004,22 +1048,26 @@ exports[`RichSelectField should render correctly disabled 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-24eqa0-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-b8lm46-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -1239,7 +1287,27 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-16s6csf-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 11px;
   width: 11px;
@@ -1247,12 +1315,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   min-height: 11px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1260,9 +1323,6 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -1276,7 +1336,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -1342,14 +1402,18 @@ exports[`RichSelectField should render correctly multiple 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-16s6csf-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1360,10 +1424,10 @@ exports[`RichSelectField should render correctly multiple 1`] = `
         />
       </div>
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -1584,7 +1648,27 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-16s6csf-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 11px;
   width: 11px;
@@ -1592,12 +1676,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   min-height: 11px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1605,9 +1684,6 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -1621,7 +1697,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -1687,14 +1763,18 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-16s6csf-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -1704,10 +1784,10 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
         value=""
       />
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>
@@ -1943,7 +2023,27 @@ exports[`RichSelectField should trigger events 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-3wyr3a-sizeStyles {
+.cache-ohcuk5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: normal;
+  -webkit-box-align: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+  -webkit-box-pack: normal;
+  -ms-flex-pack: normal;
+  -webkit-justify-content: normal;
+  justify-content: normal;
+}
+
+.cache-16s6csf-sizeStyles {
+  vertical-align: middle;
   fill: #4a4f62;
   height: 11px;
   width: 11px;
@@ -1951,12 +2051,7 @@ exports[`RichSelectField should trigger events 1`] = `
   min-height: 11px;
 }
 
-.cache-3wyr3a-sizeStyles.cache-3wyr3a-sizeStyles {
-  vertical-align: middle;
-  margin-right: 0;
-}
-
-.cache-xcx33n {
+.cache-9vn1ol {
   -webkit-transition: max-height 300ms ease-out,opacity 300ms ease-out;
   transition: max-height 300ms ease-out,opacity 300ms ease-out;
   max-height: 0;
@@ -1964,9 +2059,6 @@ exports[`RichSelectField should trigger events 1`] = `
   opacity: 0;
   height: auto;
   margin-top: 0;
-}
-
-.cache-xcx33n.cache-xcx33n {
   overflow: hidden;
 }
 
@@ -1980,7 +2072,7 @@ exports[`RichSelectField should trigger events 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r4 cache-124kjsk-container-StyledContainer"
+      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
       data-testid="rich-select-test"
     >
       <span
@@ -2044,14 +2136,18 @@ exports[`RichSelectField should trigger events 1`] = `
             aria-hidden="true"
             class=" cache-tlfecz-indicatorContainer"
           >
-            <svg
-              class="sc-ui-icon etwatq50 cache-3wyr3a-sizeStyles"
-              viewBox="0 0 24 24"
+            <div
+              class="cache-ohcuk5 e1sgck4o0"
             >
-              <path
-                d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
-              />
-            </svg>
+              <svg
+                class="cache-16s6csf-sizeStyles etwatq50"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -2061,10 +2157,10 @@ exports[`RichSelectField should trigger events 1`] = `
         value="value"
       />
       <div
-        class="e14o3tsk0 cache-xcx33n"
+        class="cache-9vn1ol e1lzna4r3"
       >
         <div
-          class="cache-19pioxy e1lzna4r3"
+          class="cache-19pioxy e1lzna4r4"
         />
       </div>
     </div>

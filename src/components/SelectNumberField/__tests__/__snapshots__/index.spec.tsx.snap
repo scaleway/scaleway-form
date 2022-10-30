@@ -2,7 +2,7 @@
 
 exports[`SelectNumberField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-1bk0gso {
+  .cache-8ke8uo {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -24,55 +24,27 @@ exports[`SelectNumberField should render correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-ydtt7i {
+.cache-bkq66r {
+  cursor: pointer;
+  background: none;
   border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
   border-radius: 4px;
   color: #c4c9d6;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-ydtt7i[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-ydtt7i[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-ydtt7i:hover:not([disabled]) {
+.cache-bkq66r:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-h96kyn-sizeStyles {
+.cache-1ok07vq-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
-}
-
-.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
-  vertical-align: middle;
 }
 
 .cache-zw5304 {
@@ -110,7 +82,7 @@ exports[`SelectNumberField should render correctly 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-wiike2 {
+.cache-1vc02dh {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -122,44 +94,26 @@ exports[`SelectNumberField should render correctly 1`] = `
   max-width: 100%;
   font-weight: 500;
   text-align: center;
+  -moz-appearance: textfield;
 }
 
-.cache-1ef6azp {
-  border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
+.cache-1vc02dh::-webkit-outer-spin-button,
+.cache-1vc02dh::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
+}
+
+.cache-1mh6k42 {
+  cursor: pointer;
+  background: none;
+  border: 0;
   border-radius: 4px;
   color: #4f0599;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-1ef6azp[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-1ef6azp[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-1ef6azp:hover:not([disabled]) {
+.cache-1mh6k42:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -167,17 +121,16 @@ exports[`SelectNumberField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="ermgxlz0 cache-1bk0gso"
+      class="cache-8ke8uo ermgxlz0"
     >
       <button
-        aria-disabled="true"
         aria-label="Minus"
-        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
+        class="cache-bkq66r ermgxlz4"
         disabled=""
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -192,20 +145,20 @@ exports[`SelectNumberField should render correctly 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-wiike2 ermgxlz2"
+          class="cache-1vc02dh ermgxlz2"
           name="test"
           style="width: 25px;"
+          type="number"
           value="0"
         />
       </div>
       <button
-        aria-disabled="false"
         aria-label="Plus"
-        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
+        class="cache-1mh6k42 ermgxlz4"
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -220,7 +173,7 @@ exports[`SelectNumberField should render correctly 1`] = `
 
 exports[`SelectNumberField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-oze4az-StyledContainer {
+  .cache-186d4cs-StyledContainer {
   background-color: #f6f6f8;
   display: -webkit-box;
   display: -webkit-flex;
@@ -242,9 +195,9 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   border-radius: 4px;
 }
 
-.cache-oze4az-StyledContainer>.ermgxlz4,
-.cache-oze4az-StyledContainer .ermgxlz2,
-.cache-oze4az-StyledContainer .ermgxlz3 {
+.cache-186d4cs-StyledContainer>.ermgxlz4,
+.cache-186d4cs-StyledContainer .ermgxlz2,
+.cache-186d4cs-StyledContainer .ermgxlz3 {
   background-color: #f6f6f8;
   border: none;
   color: #c4c9d6;
@@ -252,55 +205,27 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   cursor: not-allowed;
 }
 
-.cache-ydtt7i {
+.cache-bkq66r {
+  cursor: pointer;
+  background: none;
   border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
   border-radius: 4px;
   color: #c4c9d6;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-ydtt7i[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-ydtt7i[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-ydtt7i:hover:not([disabled]) {
+.cache-bkq66r:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-h96kyn-sizeStyles {
+.cache-1ok07vq-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
-}
-
-.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
-  vertical-align: middle;
 }
 
 .cache-zw5304 {
@@ -338,7 +263,7 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-wiike2 {
+.cache-1vc02dh {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -350,24 +275,30 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   max-width: 100%;
   font-weight: 500;
   text-align: center;
+  -moz-appearance: textfield;
+}
+
+.cache-1vc02dh::-webkit-outer-spin-button,
+.cache-1vc02dh::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 <form
     novalidate=""
   >
     <div
-      class="ermgxlz0 cache-oze4az-StyledContainer"
+      class="cache-186d4cs-StyledContainer ermgxlz0"
       disabled=""
     >
       <button
-        aria-disabled="true"
         aria-label="Minus"
-        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
+        class="cache-bkq66r ermgxlz4"
         disabled=""
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -382,22 +313,22 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-wiike2 ermgxlz2"
+          class="cache-1vc02dh ermgxlz2"
           disabled=""
           name="test"
           style="width: 25px;"
+          type="number"
           value="0"
         />
       </div>
       <button
-        aria-disabled="true"
         aria-label="Plus"
-        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
+        class="cache-bkq66r ermgxlz4"
         disabled=""
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -412,7 +343,7 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
 
 exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] = `
 <DocumentFragment>
-  .cache-1bk0gso {
+  .cache-8ke8uo {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -434,55 +365,27 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
   border-radius: 4px;
 }
 
-.cache-1ef6azp {
+.cache-1mh6k42 {
+  cursor: pointer;
+  background: none;
   border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
   border-radius: 4px;
   color: #4f0599;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-1ef6azp[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-1ef6azp[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-1ef6azp:hover:not([disabled]) {
+.cache-1mh6k42:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-h96kyn-sizeStyles {
+.cache-1ok07vq-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
-}
-
-.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
-  vertical-align: middle;
 }
 
 .cache-zw5304 {
@@ -520,7 +423,7 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
   border: 1px solid #4f0599;
 }
 
-.cache-wiike2 {
+.cache-1vc02dh {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -532,44 +435,26 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
   max-width: 100%;
   font-weight: 500;
   text-align: center;
+  -moz-appearance: textfield;
 }
 
-.cache-ydtt7i {
-  border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
+.cache-1vc02dh::-webkit-outer-spin-button,
+.cache-1vc02dh::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
+}
+
+.cache-bkq66r {
+  cursor: pointer;
+  background: none;
+  border: 0;
   border-radius: 4px;
   color: #c4c9d6;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-ydtt7i[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-ydtt7i[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-ydtt7i:hover:not([disabled]) {
+.cache-bkq66r:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -577,16 +462,15 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
     novalidate=""
   >
     <div
-      class="ermgxlz0 cache-1bk0gso"
+      class="cache-8ke8uo ermgxlz0"
     >
       <button
-        aria-disabled="false"
         aria-label="Minus"
-        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
+        class="cache-1mh6k42 ermgxlz4"
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -601,21 +485,21 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
       >
         <input
           aria-label="Input"
-          class="cache-wiike2 ermgxlz2"
+          class="cache-1vc02dh ermgxlz2"
           name="test"
           style="width: 35px;"
+          type="number"
           value="20"
         />
       </div>
       <button
-        aria-disabled="true"
         aria-label="Plus"
-        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
+        class="cache-bkq66r ermgxlz4"
         disabled=""
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -630,7 +514,7 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
 
 exports[`SelectNumberField should trigger events correctly 1`] = `
 <DocumentFragment>
-  .cache-1bk0gso {
+  .cache-8ke8uo {
   background-color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -652,55 +536,27 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   border-radius: 4px;
 }
 
-.cache-ydtt7i {
+.cache-bkq66r {
+  cursor: pointer;
+  background: none;
   border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
   border-radius: 4px;
   color: #c4c9d6;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-ydtt7i[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-ydtt7i[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-ydtt7i:hover:not([disabled]) {
+.cache-bkq66r:hover:not([disabled]) {
   background: #eeeeff;
 }
 
-.cache-h96kyn-sizeStyles {
+.cache-1ok07vq-sizeStyles {
+  vertical-align: middle;
   fill: currentColor;
   height: 26px;
   width: 26px;
   min-width: 26px;
   min-height: 26px;
-}
-
-.cache-h96kyn-sizeStyles.cache-h96kyn-sizeStyles {
-  vertical-align: middle;
 }
 
 .cache-zw5304 {
@@ -738,7 +594,7 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-wiike2 {
+.cache-1vc02dh {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
@@ -750,44 +606,26 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   max-width: 100%;
   font-weight: 500;
   text-align: center;
+  -moz-appearance: textfield;
 }
 
-.cache-1ef6azp {
-  border: 0;
-  transition-property: opacity;
-  transition-duration: 0.15s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  padding: 0;
+.cache-1vc02dh::-webkit-outer-spin-button,
+.cache-1vc02dh::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
+}
+
+.cache-1mh6k42 {
+  cursor: pointer;
+  background: none;
+  border: 0;
   border-radius: 4px;
   color: #4f0599;
+  padding: 0;
   margin: 0 8px;
 }
 
-.cache-1ef6azp[aria-disabled='true'] {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.cache-1ef6azp[aria-disabled='false'] {
-  cursor: pointer;
-  touch-action: manipulation;
-}
-
-.cache-1ef6azp:hover:not([disabled]) {
+.cache-1mh6k42:hover:not([disabled]) {
   background: #eeeeff;
 }
 
@@ -795,17 +633,16 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
     novalidate=""
   >
     <div
-      class="ermgxlz0 cache-1bk0gso"
+      class="cache-8ke8uo ermgxlz0"
     >
       <button
-        aria-disabled="true"
         aria-label="Minus"
-        class="ermgxlz4 e1kgqxfn0 cache-ydtt7i"
+        class="cache-bkq66r ermgxlz4"
         disabled=""
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path
@@ -820,20 +657,20 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-wiike2 ermgxlz2"
+          class="cache-1vc02dh ermgxlz2"
           name="test"
           style="width: 25px;"
+          type="number"
           value="0"
         />
       </div>
       <button
-        aria-disabled="false"
         aria-label="Plus"
-        class="ermgxlz4 e1kgqxfn0 cache-1ef6azp"
+        class="cache-1mh6k42 ermgxlz4"
         type="button"
       >
         <svg
-          class="sc-ui-icon etwatq50 cache-h96kyn-sizeStyles"
+          class="cache-1ok07vq-sizeStyles etwatq50"
           viewBox="0 0 24 24"
         >
           <path

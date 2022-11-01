@@ -192,7 +192,7 @@
     "webpack": "5.74.0"
   },
   "dependencies": {
-    "@babel/runtime": "7.19.4",
+    "@babel/runtime": "7.20.0",
     "@scaleway/ui": "0.201.4",
     "final-form": "4.20.7",
     "final-form-arrays": "3.0.2",

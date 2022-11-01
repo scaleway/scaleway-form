@@ -1,3 +1,15 @@
+## [1.33.5](https://github.com/scaleway/scaleway-form/compare/v1.33.4...v1.33.5) (2022-11-01)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @types/react to v18.0.24 ([#553](https://github.com/scaleway/scaleway-form/issues/553)) ([de52f16](https://github.com/scaleway/scaleway-form/commit/de52f16f593ce2ca8167e3a7ec5e4f97a8bff453))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency @babel/runtime to v7.20.0 ([#559](https://github.com/scaleway/scaleway-form/issues/559)) ([5aaafc5](https://github.com/scaleway/scaleway-form/commit/5aaafc5057896d889b85292e138f5f540b4713ff))
+
 ## [1.33.4](https://github.com/scaleway/scaleway-form/compare/v1.33.3...v1.33.4) (2022-10-30)
 
 

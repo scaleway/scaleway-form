@@ -1,3 +1,10 @@
+## [1.33.6](https://github.com/scaleway/scaleway-form/compare/v1.33.5...v1.33.6) (2022-11-02)
+
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency @babel/runtime to v7.20.1 ([#560](https://github.com/scaleway/scaleway-form/issues/560)) ([c585e80](https://github.com/scaleway/scaleway-form/commit/c585e800041670c11046a1743a33f8b1cc67679f))
+
 ## [1.33.5](https://github.com/scaleway/scaleway-form/compare/v1.33.4...v1.33.5) (2022-11-01)
 
 

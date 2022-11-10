@@ -55,6 +55,7 @@ export const SelectableCardField = ({
   const { getError } = useErrors()
 
   const { input, meta } = useFormField(name, {
+    disabled,
     required,
     type: type ?? 'radio',
     validate,

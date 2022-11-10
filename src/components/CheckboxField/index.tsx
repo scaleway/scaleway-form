@@ -49,6 +49,7 @@ export const CheckboxField = forwardRef(
     const { getError } = useErrors()
 
     const { input, meta } = useFormField(name, {
+      disabled,
       required,
       type: 'checkbox',
       validate,

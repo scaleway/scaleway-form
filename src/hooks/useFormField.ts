@@ -12,6 +12,7 @@ export const useFormField = <
   name: string,
   {
     afterSubmit,
+    disabled,
     allowNull,
     beforeSubmit,
     defaultValue,
@@ -34,7 +35,8 @@ export const useFormField = <
     required,
     maxDate,
     minDate,
-  }: UseFieldConfig<FieldValue, InputValue> & ValidatorProps,
+  }: UseFieldConfig<FieldValue, InputValue> &
+    ValidatorProps & { disabled?: boolean },
 ) => {
   const serializedRegex = useMemo(() => regex?.toString(), [regex])
 
@@ -66,7 +68,7 @@ export const useFormField = <
   const validateFn = useValidation({ validate, validators })
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const data = useMemo(() => ({ key: Math.random() }), [validateFn])
+  const data = useMemo(() => ({ key: Math.random() }), [validateFn, disabled])
 
   return useField<FieldValue, T, InputValue>(name, {
     afterSubmit,
@@ -81,7 +83,7 @@ export const useFormField = <
     parse,
     subscription,
     type,
-    validate: validateFn,
+    validate: disabled ? undefined : validateFn,
     validateFields,
     value,
     data,

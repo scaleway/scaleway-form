@@ -113,6 +113,7 @@ export const TextBoxField = forwardRef(
       allowNull,
       beforeSubmit,
       defaultValue,
+      disabled,
       format,
       formatOnBlur,
       initialValue,

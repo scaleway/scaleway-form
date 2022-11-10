@@ -158,6 +158,7 @@ export const RichSelectField = <
   )
 
   const { input, meta } = useFormField<T, HTMLElement, RichSelectOption>(name, {
+    disabled,
     format,
     formatOnBlur,
     maxLength,

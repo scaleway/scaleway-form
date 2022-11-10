@@ -1,4 +1,4 @@
-import { SCWUITheme, normalize, lightTheme } from '@scaleway/ui'
+import { SCWUITheme, normalize, theme } from '@scaleway/ui'
 
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
 
@@ -51,19 +51,19 @@ export const parameters =
 const adjustedTheme = ancestorTheme =>
   ({
     ...ancestorTheme,
-    ...Object.keys(lightTheme).reduce(
+    ...Object.keys(theme).reduce(
       (acc, themeItem) => ({
         ...acc,
         [themeItem]: {
           ...(acc[themeItem] ?? {}),
-          ...lightTheme[themeItem],
+          ...theme[themeItem],
         },
       }),
       ancestorTheme,
     ),
   } as SCWUITheme)
 
-export const globalStyles = (theme: Theme) => css`
+export const globalStyles = (_: Theme) => css`
   ${normalize()}
 `
 

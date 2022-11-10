@@ -58,6 +58,7 @@ export const DateField = ({
   const { getError } = useErrors()
 
   const { input, meta } = useFormField<Date>(name, {
+    disabled,
     formatOnBlur,
     initialValue,
     maxDate,

@@ -46,6 +46,7 @@ export const RadioField = ({
   })
 
   const error = getError({
+    disabled,
     label,
     meta: meta as FieldState<unknown>,
     name,

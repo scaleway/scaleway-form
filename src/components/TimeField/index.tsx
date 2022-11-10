@@ -46,6 +46,7 @@ export const TimeField = ({
   options,
 }: TimeFieldProps) => {
   const { input, meta } = useFormField<Date>(name, {
+    disabled,
     formatOnBlur,
     initialValue,
     required,

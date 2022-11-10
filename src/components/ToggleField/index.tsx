@@ -50,6 +50,7 @@ export const ToggleField = ({
     beforeSubmit,
     data,
     defaultValue,
+    disabled,
     format,
     formatOnBlur,
     initialValue,

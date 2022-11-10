@@ -28,6 +28,7 @@ export const TagsField = ({
   variant,
 }: TagsFieldProps): JSX.Element => {
   const { input } = useFormField(name, {
+    disabled,
     required,
     type: 'text',
     validate,

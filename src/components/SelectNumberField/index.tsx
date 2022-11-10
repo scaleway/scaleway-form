@@ -52,6 +52,7 @@ export const SelectNumberField = ({
   className,
 }: SelectNumberValueFieldProps) => {
   const { input } = useFormField(name, {
+    disabled,
     required,
     type: 'number',
     validate,

@@ -1,3 +1,15 @@
+## [1.34.0](https://github.com/scaleway/scaleway-form/compare/v1.33.6...v1.34.0) (2022-11-10)
+
+
+### :package: Chore
+
+* **devdeps:** update deps ([#561](https://github.com/scaleway/scaleway-form/issues/561)) ([7898c99](https://github.com/scaleway/scaleway-form/commit/7898c99b660f02ec8aa522b39ff9e7971e6c8cea))
+
+
+### :gear: Features
+
+* disable field validation when the field is disabled ([#564](https://github.com/scaleway/scaleway-form/issues/564)) ([b1b8ed1](https://github.com/scaleway/scaleway-form/commit/b1b8ed1d57ce3a9ab9967cb02eeef785eb32e880))
+
 ## [1.33.6](https://github.com/scaleway/scaleway-form/compare/v1.33.5...v1.33.6) (2022-11-02)
 
 

@@ -22,7 +22,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 15.0.1
   '@rollup/plugin-url': 8.0.1
   '@scaleway/eslint-config-react': 3.8.2
-  '@scaleway/jest-helpers': 2.0.21
+  '@scaleway/jest-helpers': 2.0.22
   '@scaleway/ui': 0.201.4
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/commit-analyzer': 9.0.2
@@ -110,7 +110,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.5
   '@rollup/plugin-url': 8.0.1_rollup@3.2.5
   '@scaleway/eslint-config-react': 3.8.2_wyqvi574yv7oiwfeinomdzmc3m
-  '@scaleway/jest-helpers': 2.0.21_ovnpmkgfyand75et73pnqceycy
+  '@scaleway/jest-helpers': 2.0.22_ovnpmkgfyand75et73pnqceycy
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
@@ -123,7 +123,7 @@ devDependencies:
   '@storybook/addon-links': 6.5.13_biqbaboplfbrettd7655fr4n2y
   '@storybook/addons': 6.5.13_biqbaboplfbrettd7655fr4n2y
   '@storybook/builder-webpack5': 6.5.13_lepdvhpfl4ktcue7v6mt34wuv4
-  '@storybook/csf': 0.0.2--canary.57.a8fc7a0.0
+  '@storybook/csf': 0.0.2--canary.58.7052fb8.0
   '@storybook/manager-webpack5': 6.5.13_lepdvhpfl4ktcue7v6mt34wuv4
   '@storybook/mdx2-csf': 0.0.3
   '@storybook/react': 6.5.13_qxd6mi7izznitehrc7yn5jqyd4
@@ -3151,8 +3151,8 @@ packages:
       - typescript
     dev: true
 
-  /@scaleway/jest-helpers/2.0.21_ovnpmkgfyand75et73pnqceycy:
-    resolution: {integrity: sha512-oZ1+ZMnC7pcZ390OY+xGa/9M/diepHlxFyXywDBVckXBZxZwQAHBWivAztDbi/8CyzD5Ep5jg0VgGAyJyky+LQ==}
+  /@scaleway/jest-helpers/2.0.22_ovnpmkgfyand75et73pnqceycy:
+    resolution: {integrity: sha512-hXd9NHhObFE7K/UVQ0pAtZyLEvhFxDJIcz/AfxRE5nx27+jm4TwmcfjjeHWz6tt4LkllUs9touliJFJkLxcACw==}
     peerDependencies:
       react: ^18.0.0 || 18
     dependencies:
@@ -4290,8 +4290,8 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@storybook/csf/0.0.2--canary.57.a8fc7a0.0:
-    resolution: {integrity: sha512-ay4qnB8jIBDFut1p9QSyeQUyXwMhM4y4MaDbq/vktzdisSQ+PBWkuqkZN1RMGvB5HZAJiYdzODIGw71QEd4/GQ==}
+  /@storybook/csf/0.0.2--canary.58.7052fb8.0:
+    resolution: {integrity: sha512-6JnE/+JLJ0P5aQvDYlnTh6ogKRMbOc930oZH6us1WeTdXWLoqiQCITxlN/+LrSrSPw2bDb9G+3POE02h/Eg1Pw==}
     dependencies:
       expect-type: 0.14.2
       lodash: 4.17.21
@@ -6721,7 +6721,7 @@ packages:
       mississippi: 3.0.0
       mkdirp: 0.5.6
       move-concurrently: 1.0.1
-      promise-inflight: 1.0.1_bluebird@3.7.2
+      promise-inflight: 1.0.1
       rimraf: 2.7.1
       ssri: 6.0.2
       unique-filename: 1.1.1
@@ -14038,17 +14038,6 @@ packages:
     peerDependenciesMeta:
       bluebird:
         optional: true
-    dev: true
-
-  /promise-inflight/1.0.1_bluebird@3.7.2:
-    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
-    peerDependencies:
-      bluebird: '*'
-    peerDependenciesMeta:
-      bluebird:
-        optional: true
-    dependencies:
-      bluebird: 3.7.2
     dev: true
 
   /promise.allsettled/1.0.5:

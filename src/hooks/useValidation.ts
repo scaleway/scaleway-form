@@ -27,8 +27,9 @@ export const useValidation = <T = unknown>({
         const validateErr = validate(value, allValues, meta) as
           | unknown
           | undefined
-        if (validateErr !== undefined && validateErr !== true)
+        if (validateErr !== undefined && validateErr !== true) {
           return validateErr
+        }
       }
 
       const errors = validators

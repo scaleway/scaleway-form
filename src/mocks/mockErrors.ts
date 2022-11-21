@@ -13,8 +13,9 @@ export const mockErrors: FormErrors = {
     if (
       (Array.isArray(regex[0]) ? regex[0][0].source : regex[0].source) ===
       emailRegex.source
-    )
+    ) {
       return 'Invalid email'
+    }
 
     return `This field should match the regex ${regex
       .map(r =>

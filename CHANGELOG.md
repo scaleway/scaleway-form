@@ -1,3 +1,20 @@
+## [1.34.1](https://github.com/scaleway/scaleway-form/compare/v1.34.0...v1.34.1) (2022-11-24)
+
+
+### :package: Chore
+
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.10.2 ([#570](https://github.com/scaleway/scaleway-form/issues/570)) ([e2becb4](https://github.com/scaleway/scaleway-form/commit/e2becb4f66dda2283036476e45b869cbedbe07e2))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.8.2 ([#565](https://github.com/scaleway/scaleway-form/issues/565)) ([46ae44f](https://github.com/scaleway/scaleway-form/commit/46ae44fd6a39a2b226b19c9436302e1727654612))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.8.3 ([#567](https://github.com/scaleway/scaleway-form/issues/567)) ([56c700a](https://github.com/scaleway/scaleway-form/commit/56c700aa7b84c3b50202a9017bd41fcff680bfb2))
+* **devdeps:** update dependency @scaleway/jest-helpers to v2.0.22 ([#566](https://github.com/scaleway/scaleway-form/issues/566)) ([f6e20f1](https://github.com/scaleway/scaleway-form/commit/f6e20f1f33dd5f5d076df1f3fc3a43936c72294a))
+* **devdeps:** update dependency jest-junit to v15 ([#569](https://github.com/scaleway/scaleway-form/issues/569)) ([22d66ce](https://github.com/scaleway/scaleway-form/commit/22d66ced8fef74a06573211ff999edf636758c25))
+* **eslint:** update eslint scaleway package ([#568](https://github.com/scaleway/scaleway-form/issues/568)) ([b90e8f8](https://github.com/scaleway/scaleway-form/commit/b90e8f84440719c2d11ba690f58b0fbf20c977cd))
+
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency @scaleway/ui to v0.205.4 ([#563](https://github.com/scaleway/scaleway-form/issues/563)) ([c2e8cc3](https://github.com/scaleway/scaleway-form/commit/c2e8cc3ff3a4ed86850307cfadc3f33de157496e))
+
 ## [1.34.0](https://github.com/scaleway/scaleway-form/compare/v1.33.6...v1.34.0) (2022-11-10)
 
 

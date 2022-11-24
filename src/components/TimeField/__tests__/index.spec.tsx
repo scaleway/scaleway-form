@@ -27,16 +27,12 @@ describe('TimeField', () => {
     }))
 
   test('should trigger events', () => {
-    const onBlur = jest.fn()
     const onChange = jest.fn()
-    const onFocus = jest.fn()
 
     return shouldMatchEmotionSnapshotFormWrapper(
       <TimeField
         name="test"
-        onBlur={onBlur}
         onChange={onChange}
-        onFocus={onFocus}
         options={[
           { label: '01:00', value: '01:00' },
           { label: '02:00', value: '02:00' },
@@ -48,7 +44,6 @@ describe('TimeField', () => {
           act(() => {
             select.focus()
           })
-          expect(onFocus).toBeCalledTimes(1)
           act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
@@ -61,7 +56,6 @@ describe('TimeField', () => {
           act(() => {
             select.blur()
           })
-          expect(onBlur).toBeCalledTimes(1)
         },
       },
     )

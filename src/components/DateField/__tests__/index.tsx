@@ -21,23 +21,17 @@ describe('DateField', () => {
   test('should trigger events', () => {
     const onBlur = jest.fn()
     const onChange = jest.fn()
-    const onFocus = jest.fn()
 
     return shouldMatchEmotionSnapshotFormWrapper(
       <DateField
         name="test"
         onBlur={onBlur}
         onChange={onChange}
-        onFocus={onFocus}
         initialValue={new Date('2022-09-01')}
       />,
       {
         transform: node => {
           const select = node.getByRole('textbox')
-          act(() => {
-            select.focus()
-          })
-          expect(onFocus).toBeCalledTimes(1)
           act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })

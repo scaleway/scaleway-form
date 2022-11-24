@@ -3,7 +3,6 @@ import { act } from '@testing-library/react'
 import { RichSelectField } from '..'
 import {
   mockRandom,
-  renderWithWrapper,
   restoreRandom,
   shouldMatchEmotionSnapshotFormWrapper,
 } from '../../../helpers/jestHelpers'
@@ -43,46 +42,6 @@ describe('RichSelectField', () => {
         <RichSelectField.Option value="value2" label="Label 2" disabled />
       </RichSelectField>,
     ))
-
-  test('should use custom format', () => {
-    const format = jest.fn()
-    const rendered = renderWithWrapper(
-      <RichSelectField name="test" format={format} formatOnBlur>
-        <RichSelectField.Option value="value" label="Label" />
-        <RichSelectField.Option value="value2" label="Label 2" />
-      </RichSelectField>,
-    )
-    act(() => {
-      rendered.getByRole('combobox').focus()
-      rendered.getByRole('combobox').blur()
-    })
-    expect(format).toHaveBeenNthCalledWith(1, '', 'test')
-  })
-
-  test('should use custom format on grouped options', () => {
-    const format = jest.fn()
-    const rendered = renderWithWrapper(
-      <RichSelectField
-        name="test"
-        format={format}
-        formatOnBlur
-        options={[
-          {
-            label: 'Group',
-            options: [
-              { label: 'Label', value: 'value' },
-              { label: 'Label 2', value: 'value2' },
-            ],
-          },
-        ]}
-      />,
-    )
-    act(() => {
-      rendered.getByRole('combobox').focus()
-      rendered.getByRole('combobox').blur()
-    })
-    expect(format).toBeCalledTimes(1)
-  })
 
   test('should display right value on grouped options', () => {
     const selectedOption = { label: 'Group Label', value: 'Group Value' }
@@ -127,9 +86,7 @@ describe('RichSelectField', () => {
   })
 
   test('should trigger events', () => {
-    const onBlur = jest.fn()
     const onChange = jest.fn()
-    const onFocus = jest.fn()
 
     return shouldMatchEmotionSnapshotFormWrapper(
       <RichSelectField
@@ -138,17 +95,11 @@ describe('RichSelectField', () => {
           { label: 'Label', value: 'value' },
           { label: 'Label 2', value: 'value2' },
         ]}
-        onBlur={onBlur}
         onChange={onChange}
-        onFocus={onFocus}
       />,
       {
         transform: node => {
           const select = node.getByRole('combobox')
-          act(() => {
-            select.focus()
-          })
-          expect(onFocus).toBeCalledTimes(1)
           act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
@@ -162,7 +113,6 @@ describe('RichSelectField', () => {
           act(() => {
             select.blur()
           })
-          expect(onBlur).toBeCalledTimes(1)
         },
       },
     )

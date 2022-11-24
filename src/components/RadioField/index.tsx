@@ -75,7 +75,6 @@ export const RadioField = ({
       }}
       required={required}
       size={size}
-      type={input.type}
       value={input.value}
     >
       {children}

@@ -2,14 +2,10 @@
 
 exports[`TimeField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -280,7 +276,7 @@ exports[`TimeField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-"
     >
       <span
@@ -371,14 +367,10 @@ exports[`TimeField should render correctly 1`] = `
 
 exports[`TimeField should render correctly checked without value 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -649,7 +641,7 @@ exports[`TimeField should render correctly checked without value 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-"
     >
       <span
@@ -740,16 +732,12 @@ exports[`TimeField should render correctly checked without value 1`] = `
 
 exports[`TimeField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-1c5bozl-container-StyledContainer {
+  .cache-iwdjsb-container-StyledContainer {
   width: 100%;
   pointer-events: initial;
   pointer-events: none;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-1c5bozl-container-StyledContainer.cache-1c5bozl-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -1005,7 +993,7 @@ exports[`TimeField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-1c5bozl-container-StyledContainer"
+      class=" cache-iwdjsb-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-"
     >
       <span
@@ -1097,14 +1085,10 @@ exports[`TimeField should render correctly disabled 1`] = `
 
 exports[`TimeField should trigger events 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -1375,7 +1359,7 @@ exports[`TimeField should trigger events 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-"
     >
       <span

@@ -2,14 +2,10 @@
 
 exports[`RichSelectField should display right value on grouped options 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -277,12 +273,12 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-8-live-region"
+        id="react-select-6-live-region"
       />
       <span
         aria-atomic="false"
@@ -300,7 +296,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
             aria-live="assertive"
             as="label"
             class="cache-isgbik e1lzna4r2"
-            for=":r6:"
+            for=":r4:"
           >
             Select...
           </label>
@@ -321,7 +317,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
               autocomplete="off"
               autocorrect="off"
               class=""
-              id=":r6:"
+              id=":r4:"
               role="combobox"
               spellcheck="false"
               style="opacity: 0; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
@@ -375,14 +371,10 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
 
 exports[`RichSelectField should render correctly 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -635,7 +627,7 @@ exports[`RichSelectField should render correctly 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
@@ -735,16 +727,12 @@ exports[`RichSelectField should render correctly 1`] = `
 
 exports[`RichSelectField should render correctly disabled 1`] = `
 <DocumentFragment>
-  .cache-1c5bozl-container-StyledContainer {
+  .cache-iwdjsb-container-StyledContainer {
   width: 100%;
   pointer-events: initial;
   pointer-events: none;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-1c5bozl-container-StyledContainer.cache-1c5bozl-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -981,7 +969,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-1c5bozl-container-StyledContainer"
+      class=" cache-iwdjsb-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
@@ -1077,14 +1065,10 @@ exports[`RichSelectField should render correctly disabled 1`] = `
 
 exports[`RichSelectField should render correctly multiple 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -1336,7 +1320,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
@@ -1421,6 +1405,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
         <input
           name="test"
           type="hidden"
+          value=""
         />
       </div>
       <div
@@ -1437,14 +1422,10 @@ exports[`RichSelectField should render correctly multiple 1`] = `
 
 exports[`RichSelectField should render correctly with a disabled option 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -1697,7 +1678,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
@@ -1797,14 +1778,10 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
 
 exports[`RichSelectField should trigger events 1`] = `
 <DocumentFragment>
-  .cache-124kjsk-container-StyledContainer {
+  .cache-1gb28ew-container-StyledContainer {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-}
-
-.cache-124kjsk-container-StyledContainer.cache-124kjsk-container-StyledContainer {
-  margin-top: 0;
 }
 
 .cache-1f43avz-a11yText-A11yText {
@@ -2072,12 +2049,12 @@ exports[`RichSelectField should trigger events 1`] = `
     novalidate=""
   >
     <div
-      class="e1lzna4r5 cache-124kjsk-container-StyledContainer"
+      class=" cache-1gb28ew-container-StyledContainer e1lzna4r5"
       data-testid="rich-select-test"
     >
       <span
         class="cache-1f43avz-a11yText-A11yText"
-        id="react-select-9-live-region"
+        id="react-select-7-live-region"
       />
       <span
         aria-atomic="false"
@@ -2095,7 +2072,7 @@ exports[`RichSelectField should trigger events 1`] = `
             aria-live="assertive"
             as="label"
             class="cache-isgbik e1lzna4r2"
-            for=":r7:"
+            for=":r5:"
           >
             Select...
           </label>
@@ -2116,7 +2093,7 @@ exports[`RichSelectField should trigger events 1`] = `
               autocomplete="off"
               autocorrect="off"
               class=""
-              id=":r7:"
+              id=":r5:"
               role="combobox"
               spellcheck="false"
               style="opacity: 0; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"

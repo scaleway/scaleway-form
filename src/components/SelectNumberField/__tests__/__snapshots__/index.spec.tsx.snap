@@ -82,12 +82,11 @@ exports[`SelectNumberField should render correctly 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-1vc02dh {
+.cache-1afrum9 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
   border: none;
-  text-align: right;
   outline: none;
   position: relative;
   margin-right: 4;
@@ -97,8 +96,8 @@ exports[`SelectNumberField should render correctly 1`] = `
   -moz-appearance: textfield;
 }
 
-.cache-1vc02dh::-webkit-outer-spin-button,
-.cache-1vc02dh::-webkit-inner-spin-button {
+.cache-1afrum9::-webkit-outer-spin-button,
+.cache-1afrum9::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -145,7 +144,7 @@ exports[`SelectNumberField should render correctly 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-1vc02dh ermgxlz2"
+          class="cache-1afrum9 ermgxlz2"
           name="test"
           style="width: 25px;"
           type="number"
@@ -263,12 +262,11 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-1vc02dh {
+.cache-1afrum9 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
   border: none;
-  text-align: right;
   outline: none;
   position: relative;
   margin-right: 4;
@@ -278,8 +276,8 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
   -moz-appearance: textfield;
 }
 
-.cache-1vc02dh::-webkit-outer-spin-button,
-.cache-1vc02dh::-webkit-inner-spin-button {
+.cache-1afrum9::-webkit-outer-spin-button,
+.cache-1afrum9::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -313,7 +311,7 @@ exports[`SelectNumberField should render correctly disabled 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-1vc02dh ermgxlz2"
+          class="cache-1afrum9 ermgxlz2"
           disabled=""
           name="test"
           style="width: 25px;"
@@ -423,12 +421,11 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
   border: 1px solid #4f0599;
 }
 
-.cache-1vc02dh {
+.cache-1afrum9 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
   border: none;
-  text-align: right;
   outline: none;
   position: relative;
   margin-right: 4;
@@ -438,8 +435,8 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
   -moz-appearance: textfield;
 }
 
-.cache-1vc02dh::-webkit-outer-spin-button,
-.cache-1vc02dh::-webkit-inner-spin-button {
+.cache-1afrum9::-webkit-outer-spin-button,
+.cache-1afrum9::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -485,7 +482,7 @@ exports[`SelectNumberField should trigger event onMinCrossed & onMaxCrossed 1`] 
       >
         <input
           aria-label="Input"
-          class="cache-1vc02dh ermgxlz2"
+          class="cache-1afrum9 ermgxlz2"
           name="test"
           style="width: 35px;"
           type="number"
@@ -594,12 +591,11 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   border: 1px solid #4f0599;
 }
 
-.cache-1vc02dh {
+.cache-1afrum9 {
   color: #4a4f62;
   background-color: transparent;
   font-size: 16;
   border: none;
-  text-align: right;
   outline: none;
   position: relative;
   margin-right: 4;
@@ -609,8 +605,8 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
   -moz-appearance: textfield;
 }
 
-.cache-1vc02dh::-webkit-outer-spin-button,
-.cache-1vc02dh::-webkit-inner-spin-button {
+.cache-1afrum9::-webkit-outer-spin-button,
+.cache-1afrum9::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -657,7 +653,7 @@ exports[`SelectNumberField should trigger events correctly 1`] = `
       >
         <input
           aria-label="Input"
-          class="cache-1vc02dh ermgxlz2"
+          class="cache-1afrum9 ermgxlz2"
           name="test"
           style="width: 25px;"
           type="number"

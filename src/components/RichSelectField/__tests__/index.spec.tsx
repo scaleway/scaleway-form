@@ -58,18 +58,18 @@ describe('RichSelectField', () => {
     return shouldMatchEmotionSnapshotFormWrapper(
       <RichSelectField name="test" options={options} />,
       {
-        transform: ({ getByRole, getByTestId, container }) => {
+        transform: async ({ getByRole, getByTestId, container }) => {
           const select = getByRole('combobox') as HTMLInputElement
-          act(() => {
+          await act(() => {
             select.focus()
           })
-          act(() => {
+          await act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
           const option = getByTestId(`option-test-${selectedOption.value}`)
             .firstChild as HTMLElement
 
-          act(() => {
+          await act(() => {
             option.click()
           })
 
@@ -98,19 +98,19 @@ describe('RichSelectField', () => {
         onChange={onChange}
       />,
       {
-        transform: node => {
+        transform: async node => {
           const select = node.getByRole('combobox')
-          act(() => {
+          await act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
           const option = node.getByTestId('option-test-value')
             .firstChild as HTMLElement
 
-          act(() => {
+          await act(() => {
             option.click()
           })
           expect(onChange).toBeCalledTimes(1)
-          act(() => {
+          await act(() => {
             select.blur()
           })
         },

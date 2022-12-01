@@ -30,13 +30,13 @@ describe('DateField', () => {
         initialValue={new Date('2022-09-01')}
       />,
       {
-        transform: node => {
+        transform: async node => {
           const select = node.getByRole('textbox')
-          act(() => {
+          await act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
           const option = node.getAllByRole('option')[0]
-          act(() => {
+          await act(() => {
             option.click()
           })
           expect(onChange).toBeCalledTimes(1)

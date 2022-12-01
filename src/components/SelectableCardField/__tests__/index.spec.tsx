@@ -64,17 +64,17 @@ describe('SelectableCardField', () => {
         Radio field events
       </SelectableCardField>,
       {
-        transform: node => {
+        transform: async node => {
           const input = node.getByRole('radio', { hidden: true })
-          act(() => {
+          await act(() => {
             input.focus()
           })
           expect(onFocus).toBeCalledTimes(1)
-          act(() => {
+          await act(() => {
             input.click()
           })
           expect(onChange).toBeCalledTimes(1)
-          act(() => {
+          await act(() => {
             input.blur()
           })
           expect(onBlur).toBeCalledTimes(1)

@@ -44,17 +44,17 @@ describe('SelectNumberField', () => {
         onBlur={onBlur}
       />,
       {
-        transform: ({ getByLabelText }) => {
+        transform: async ({ getByLabelText }) => {
           const input = getByLabelText('Input')
-          act(() => {
+          await act(() => {
             input.focus()
           })
           expect(onFocus).toBeCalledTimes(1)
-          act(() => {
+          await act(() => {
             input.click()
           })
           expect(onChange).toBeCalledTimes(0)
-          act(() => {
+          await act(() => {
             input.blur()
           })
           expect(onBlur).toBeCalledTimes(1)
@@ -91,7 +91,7 @@ describe('SelectNumberField', () => {
             await userEvent.type(input, '1')
           })
           await waitFor(() => expect(input.value).toBe('1'))
-          act(() => {
+          await act(() => {
             input.blur()
           })
           await waitFor(() => expect(input.value).toBe('5'))
@@ -103,7 +103,7 @@ describe('SelectNumberField', () => {
             await userEvent.type(input, '100')
           })
           await waitFor(() => expect(input.value).toBe('100'))
-          act(() => {
+          await act(() => {
             input.blur()
           })
           await waitFor(() => expect(input.value).toBe('20'))

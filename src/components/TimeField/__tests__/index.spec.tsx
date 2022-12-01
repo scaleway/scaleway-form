@@ -39,21 +39,21 @@ describe('TimeField', () => {
         ]}
       />,
       {
-        transform: node => {
+        transform: async node => {
           const select = node.getByRole('combobox')
-          act(() => {
+          await act(() => {
             select.focus()
           })
-          act(() => {
+          await act(() => {
             fireEvent.keyDown(select, { key: 'ArrowDown', keyCode: 40 })
           })
           const option = node.getByTestId('option--01:00')
             .firstChild as HTMLElement
-          act(() => {
+          await act(() => {
             option.click()
           })
           expect(onChange).toBeCalledTimes(1)
-          act(() => {
+          await act(() => {
             select.blur()
           })
         },

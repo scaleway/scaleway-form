@@ -4,7 +4,7 @@ import { FormProps } from '../..'
 import { Form } from '../../Form'
 
 export const Checked: Story<FormProps> = ({ errors }) => (
-  <Form errors={errors} initialValues={{ foo: ['bar'] }}>
+  <Form onRawSubmit={() => {}} errors={errors} initialValues={{ foo: ['bar'] }}>
     <CheckboxField name="foo" value="bar">
       Checked Item
     </CheckboxField>

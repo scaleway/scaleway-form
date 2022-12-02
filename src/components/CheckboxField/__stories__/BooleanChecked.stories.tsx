@@ -3,7 +3,7 @@ import { CheckboxField } from '..'
 import { Form, FormProps } from '../../Form'
 
 export const BooleanChecked: Story<FormProps> = ({ errors }) => (
-  <Form errors={errors} initialValues={{ foo: true }}>
+  <Form onRawSubmit={() => {}} errors={errors} initialValues={{ foo: true }}>
     <CheckboxField name="foo">Default Checked Boolean Item</CheckboxField>
   </Form>
 )

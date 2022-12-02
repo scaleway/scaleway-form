@@ -6,7 +6,7 @@ import { Form } from '../../Form'
 export const Submitting: Story = () => (
   <Form
     errors={mockErrors}
-    onSubmit={() =>
+    onRawSubmit={() =>
       new Promise(resolve => {
         setTimeout(() => resolve(undefined), 5000)
       })

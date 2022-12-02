@@ -102,7 +102,7 @@ describe('CheckboxField', () => {
 
   test('should render correctly with errors', () =>
     shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors}>
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
         <CheckboxField name="test" required>
           Checkbox field error
         </CheckboxField>

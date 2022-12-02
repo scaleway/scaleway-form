@@ -1,4 +1,4 @@
-import { Decorator, FORM_ERROR } from 'final-form'
+import { Decorator } from 'final-form'
 import arrayMutators from 'final-form-arrays'
 import createDecorator from 'final-form-focus'
 import { ReactNode } from 'react'
@@ -8,7 +8,7 @@ import {
   FormProps as ReactFinalFormProps,
 } from 'react-final-form'
 import { ErrorProvider } from '../../providers'
-import { FormErrors, OnSubmitErrorFn, OnSubmitSucccessFn } from '../../types'
+import { FormErrors } from '../../types'
 
 const focusOnErrors = createDecorator()
 
@@ -20,21 +20,7 @@ export type FormProps<FormValues = unknown> = {
   /**
    * onRawSubmit is the base onSubmit from final-form
    */
-  onRawSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
-  /**
-   * onSubmit acts as onRawSubmit but will call onSubmitSuccess/Error lifecycles
-   * and will parse eexception with parseSubmitException if provided
-   * @deprecated its behavior is inconsistent, favor onRawSubmit
-   */
-  onSubmit?: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
-  onSubmitSuccess?: OnSubmitSucccessFn<FormValues>
-  onSubmitError?: OnSubmitErrorFn
-  /**
-   * parseSubmitException will be invoked on onSubmit throw
-   * It will take the error and must return a readable string or undefined
-   * @deprecated its behavior is inconsistent, favor onRawSubmit
-   */
-  parseSubmitException?: (error: unknown) => string | undefined
+  onRawSubmit: ReactFinalFormProps<FormValues, Partial<FormValues>>['onSubmit']
   initialValues?: Partial<FormValues>
   validateOnBlur?: ReactFinalFormProps<
     FormValues,
@@ -53,9 +39,6 @@ export type FormProps<FormValues = unknown> = {
 export const Form = <FormValues,>({
   children,
   onRawSubmit,
-  onSubmit,
-  onSubmitError,
-  onSubmitSuccess,
   errors,
   initialValues,
   validateOnBlur,
@@ -64,7 +47,6 @@ export const Form = <FormValues,>({
   render,
   mutators,
   keepDirtyOnReinitialize,
-  parseSubmitException,
 }: FormProps<FormValues>): JSX.Element => (
   <ReactFinalForm
     initialValues={initialValues}
@@ -77,30 +59,7 @@ export const Form = <FormValues,>({
       ...arrayMutators,
       ...mutators,
     }}
-    onSubmit={async (values, form, callback) => {
-      if (onRawSubmit) {
-        return onRawSubmit(values, form, callback)
-      }
-
-      try {
-        const res = await onSubmit?.(values, form, callback)
-        if (res !== undefined) {
-          await onSubmitError?.(res)
-        } else {
-          await onSubmitSuccess?.(values)
-        }
-
-        return res
-      } catch (submitError) {
-        await onSubmitError?.(submitError)
-
-        return {
-          [FORM_ERROR]: parseSubmitException
-            ? parseSubmitException(submitError)
-            : submitError,
-        }
-      }
-    }}
+    onSubmit={onRawSubmit}
     render={
       render ??
       (renderProps => (

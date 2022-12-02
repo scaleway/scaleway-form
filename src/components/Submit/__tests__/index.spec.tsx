@@ -23,7 +23,11 @@ describe('Submit', () => {
 
   test('form is invalid', () =>
     shouldMatchEmotionSnapshot(
-      <Form initialValues={{ toto: '4' }} errors={mockErrors}>
+      <Form
+        onRawSubmit={() => {}}
+        initialValues={{ toto: '4' }}
+        errors={mockErrors}
+      >
         <TextBoxField name="toto" regex={[alpha]} />
         <Submit>Test</Submit>
       </Form>,
@@ -34,7 +38,7 @@ describe('Submit', () => {
 
     await shouldMatchEmotionSnapshot(
       <Form
-        onSubmit={() =>
+        onRawSubmit={() =>
           new Promise(resolve => {
             setTimeout(() => resolve(undefined), 5000)
           })

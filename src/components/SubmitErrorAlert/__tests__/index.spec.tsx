@@ -22,14 +22,9 @@ describe('SubmitErrorAlert', () => {
 
   test('should display an alert when submitError is present', async () => {
     const onSubmit = jest.fn(() => ({ [FORM_ERROR]: 'hello' }))
-    const onSubmitError = jest.fn(() => {})
 
     await shouldMatchEmotionSnapshot(
-      <Form
-        errors={mockErrors}
-        onSubmit={onSubmit}
-        onSubmitError={onSubmitError}
-      >
+      <Form errors={mockErrors} onRawSubmit={onSubmit}>
         <Submit>Submit</Submit>
         <SubmitErrorAlert />,
       </Form>,
@@ -38,7 +33,6 @@ describe('SubmitErrorAlert', () => {
           await userEvent.click(
             getByText('Submit').closest('button') as HTMLButtonElement,
           )
-          await waitFor(() => expect(onSubmitError).toBeCalledTimes(1))
           await waitFor(() => expect(getByText('hello')).toBeInTheDocument())
         },
       },

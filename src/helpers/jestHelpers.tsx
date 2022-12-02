@@ -29,7 +29,11 @@ export const shouldMatchEmotionSnapshotFormWrapper = (
   const { initialValues } = formOptions ?? {}
 
   return shouldMatchEmotionSnapshot(
-    <Form errors={mockErrors} initialValues={initialValues}>
+    <Form
+      onRawSubmit={() => {}}
+      errors={mockErrors}
+      initialValues={initialValues}
+    >
       {() => children}
     </Form>,
     options,
@@ -40,7 +44,9 @@ export const renderWithWrapper = (children: ReactElement) =>
   render(children, {
     wrapper: () => (
       <ThemeProvider theme={lightTheme}>
-        <Form errors={mockErrors}>{children}</Form>
+        <Form onRawSubmit={() => {}} errors={mockErrors}>
+          {children}
+        </Form>
       </ThemeProvider>
     ),
   })

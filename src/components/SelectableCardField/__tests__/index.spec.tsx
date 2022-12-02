@@ -35,7 +35,11 @@ describe('SelectableCardField', () => {
 
   test('should render correctly checked', () =>
     shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors} initialValues={{ test: 'checked' }}>
+      <Form
+        onRawSubmit={() => {}}
+        errors={mockErrors}
+        initialValues={{ test: 'checked' }}
+      >
         <SelectableCardField name="test" value="checked">
           Radio field checked
         </SelectableCardField>
@@ -85,7 +89,7 @@ describe('SelectableCardField', () => {
 
   test('should render correctly with errors', () =>
     shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors}>
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
         <SelectableCardField name="test" value="checked" required>
           Radio field error
         </SelectableCardField>

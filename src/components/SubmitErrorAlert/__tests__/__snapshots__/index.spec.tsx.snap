@@ -71,7 +71,27 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   pointer-events: none;
 }
 
-.cache-1jd8aud-alertStyles {
+.cache-h8g6sh-alertStyles {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -84,19 +104,18 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
-  padding: 12px;
+  padding: 16px;
   background-color: #ffe1e7;
   color: #a6102d;
 }
 
-.cache-8vm2et-sizeStyles {
+.cache-bqy7up-sizeStyles {
   vertical-align: middle;
   fill: currentColor;
-  height: 32px;
-  width: 32px;
-  min-width: 32px;
-  min-height: 32px;
-  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
 .cache-oaar7r {
@@ -141,10 +160,10 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       </div>
     </button>
     <div
-      class="cache-1jd8aud-alertStyles eenhiht3"
+      class="cache-h8g6sh-alertStyles eenhiht2"
     >
       <svg
-        class="eenhiht2 cache-8vm2et-sizeStyles etwatq50"
+        class="cache-bqy7up-sizeStyles etwatq50"
         viewBox="0 0 24 24"
       >
         <path

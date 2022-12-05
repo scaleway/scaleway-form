@@ -224,7 +224,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -241,6 +241,10 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-16s6csf-sizeStyles {
@@ -338,7 +342,7 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-16s6csf-sizeStyles etwatq50"
@@ -578,7 +582,7 @@ exports[`RichSelectField should render correctly 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -595,6 +599,10 @@ exports[`RichSelectField should render correctly 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-16s6csf-sizeStyles {
@@ -694,7 +702,7 @@ exports[`RichSelectField should render correctly 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-16s6csf-sizeStyles etwatq50"
@@ -920,7 +928,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -937,6 +945,10 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-b8lm46-sizeStyles {
@@ -1037,7 +1049,7 @@ exports[`RichSelectField should render correctly disabled 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-b8lm46-sizeStyles etwatq50"
@@ -1271,7 +1283,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1288,6 +1300,10 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-16s6csf-sizeStyles {
@@ -1387,7 +1403,7 @@ exports[`RichSelectField should render correctly multiple 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-16s6csf-sizeStyles etwatq50"
@@ -1629,7 +1645,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1646,6 +1662,10 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-16s6csf-sizeStyles {
@@ -1745,7 +1765,7 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-16s6csf-sizeStyles etwatq50"
@@ -2000,7 +2020,7 @@ exports[`RichSelectField should trigger events 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2017,6 +2037,10 @@ exports[`RichSelectField should trigger events 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-16s6csf-sizeStyles {
@@ -2114,7 +2138,7 @@ exports[`RichSelectField should trigger events 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-16s6csf-sizeStyles etwatq50"

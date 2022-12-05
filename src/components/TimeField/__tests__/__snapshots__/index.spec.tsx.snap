@@ -227,7 +227,7 @@ exports[`TimeField should render correctly 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -244,6 +244,10 @@ exports[`TimeField should render correctly 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-1wgmtwg-sizeStyles {
@@ -339,7 +343,7 @@ exports[`TimeField should render correctly 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-1wgmtwg-sizeStyles etwatq50"
@@ -592,7 +596,7 @@ exports[`TimeField should render correctly checked without value 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -609,6 +613,10 @@ exports[`TimeField should render correctly checked without value 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-1wgmtwg-sizeStyles {
@@ -704,7 +712,7 @@ exports[`TimeField should render correctly checked without value 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-1wgmtwg-sizeStyles etwatq50"
@@ -944,7 +952,7 @@ exports[`TimeField should render correctly disabled 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -961,6 +969,10 @@ exports[`TimeField should render correctly disabled 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-1y9qt3p-sizeStyles {
@@ -1057,7 +1069,7 @@ exports[`TimeField should render correctly disabled 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-1y9qt3p-sizeStyles etwatq50"
@@ -1310,7 +1322,7 @@ exports[`TimeField should trigger events 1`] = `
   color: hsl(0, 0%, 60%);
 }
 
-.cache-ohcuk5 {
+.cache-pjzp28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1327,6 +1339,10 @@ exports[`TimeField should trigger events 1`] = `
   -ms-flex-pack: normal;
   -webkit-justify-content: normal;
   justify-content: normal;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .cache-1wgmtwg-sizeStyles {
@@ -1424,7 +1440,7 @@ exports[`TimeField should trigger events 1`] = `
             class=" cache-tlfecz-indicatorContainer"
           >
             <div
-              class="cache-ohcuk5 e1sgck4o0"
+              class="cache-pjzp28 e1sgck4o0"
             >
               <svg
                 class="cache-1wgmtwg-sizeStyles etwatq50"

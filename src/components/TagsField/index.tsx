@@ -40,8 +40,8 @@ export const TagsField = ({
       disabled={disabled}
       id={id}
       name={name}
-      onChange={event => {
-        onChange?.(event)
+      onChange={async event => {
+        await onChange?.(event)
         input.onChange(event)
       }}
       placeholder={placeholder}

@@ -1,3 +1,16 @@
+## [1.35.0](https://github.com/scaleway/scaleway-form/compare/v1.34.1...v1.35.0) (2022-12-05)
+
+
+### :package: Chore
+
+* **devdeps:** update babel monorepo ([#571](https://github.com/scaleway/scaleway-form/issues/571)) ([e6329a6](https://github.com/scaleway/scaleway-form/commit/e6329a6ae148858be4670a2333a84d4803c0c89f))
+* **devDeps:** upgrade deps ([#572](https://github.com/scaleway/scaleway-form/issues/572)) ([42f8f8a](https://github.com/scaleway/scaleway-form/commit/42f8f8a92a3bb73b54262927bb1810325d858ae8))
+
+
+### :gear: Features
+
+* remove old onSubmit way of handling submit ([#574](https://github.com/scaleway/scaleway-form/issues/574)) ([5049d4b](https://github.com/scaleway/scaleway-form/commit/5049d4bf3fa5c20d0c81d20d910b3d079f8f5bda))
+
 ## [1.34.1](https://github.com/scaleway/scaleway-form/compare/v1.34.0...v1.34.1) (2022-11-24)
 
 

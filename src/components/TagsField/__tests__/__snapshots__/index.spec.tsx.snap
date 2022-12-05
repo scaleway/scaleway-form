@@ -167,7 +167,7 @@ exports[`ToggleField should render correctly with default tags 1`] = `
   text-overflow: ellipsis;
 }
 
-.cache-1iwibob-StyledButton {
+.cache-1vxrlm6-StyledButton {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -216,13 +216,13 @@ exports[`ToggleField should render correctly with default tags 1`] = `
   height: fit-content;
 }
 
-.cache-1iwibob-StyledButton:hover,
-.cache-1iwibob-StyledButton:focus {
+.cache-1vxrlm6-StyledButton:hover,
+.cache-1vxrlm6-StyledButton:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.cache-1iwibob-StyledButton>svg {
+.cache-1vxrlm6-StyledButton>svg {
   pointer-events: none;
 }
 
@@ -285,7 +285,7 @@ exports[`ToggleField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 em6gco80 cache-1iwibob-StyledButton"
+          class="e1vt8sjg0 cache-1vxrlm6-StyledButton em6gco80"
           type="button"
         >
           <div
@@ -314,7 +314,7 @@ exports[`ToggleField should render correctly with default tags 1`] = `
         <button
           aria-disabled="false"
           aria-label="Close tag"
-          class="e1vt8sjg0 em6gco80 cache-1iwibob-StyledButton"
+          class="e1vt8sjg0 cache-1vxrlm6-StyledButton em6gco80"
           type="button"
         >
           <div

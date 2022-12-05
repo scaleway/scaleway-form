@@ -11,7 +11,7 @@ export default {
   component: RichSelectField,
   decorators: [
     ChildStory => (
-      <Form errors={mockErrors}>
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
         <Container>{ChildStory()}</Container>
       </Form>
     ),

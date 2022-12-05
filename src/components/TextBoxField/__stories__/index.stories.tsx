@@ -4,7 +4,13 @@ import { mockErrors } from '../../../mocks/mockErrors'
 
 export default {
   component: TextBoxField,
-  decorators: [ChildStory => <Form errors={mockErrors}>{ChildStory()}</Form>],
+  decorators: [
+    ChildStory => (
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
+        {ChildStory()}
+      </Form>
+    ),
+  ],
   parameters: {
     docs: {
       description: {

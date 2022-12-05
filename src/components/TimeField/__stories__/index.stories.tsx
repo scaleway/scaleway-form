@@ -11,7 +11,9 @@ export default {
   decorators: [
     ChildStory => (
       <Container>
-        <Form errors={mockErrors}>{ChildStory()}</Form>
+        <Form onRawSubmit={() => {}} errors={mockErrors}>
+          {ChildStory()}
+        </Form>
       </Container>
     ),
   ],

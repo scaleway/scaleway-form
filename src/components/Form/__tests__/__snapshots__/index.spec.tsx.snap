@@ -20,63 +20,7 @@ exports[`Form renders correctly with node children 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Form renders correctly with onRawSubmit which should take precedence 1`] = `
-<DocumentFragment>
-  <form
-    novalidate=""
-  >
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`Form renders correctly with onSubmit that return {} 1`] = `
-<DocumentFragment>
-  <form
-    novalidate=""
-  >
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`Form renders correctly with onSubmit that return undefined 1`] = `
-<DocumentFragment>
-  <form
-    novalidate=""
-  >
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`Form renders correctly with onSubmit that throw 1`] = `
-<DocumentFragment>
-  <form
-    novalidate=""
-  >
-    <button
-      type="submit"
-    >
-      Submit
-    </button>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`Form renders correctly with parseSubmitException 1`] = `
+exports[`Form renders correctly with onRawSubmit 1`] = `
 <DocumentFragment>
   <form
     novalidate=""

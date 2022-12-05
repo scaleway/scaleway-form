@@ -35,7 +35,11 @@ describe('RadioField', () => {
 
   test('should render correctly checked', () =>
     shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors} initialValues={{ test: 'checked' }}>
+      <Form
+        onRawSubmit={() => {}}
+        errors={mockErrors}
+        initialValues={{ test: 'checked' }}
+      >
         <RadioField name="test" value="checked">
           Radio field checked
         </RadioField>

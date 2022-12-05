@@ -10,7 +10,7 @@ export const Playground: Story<
 > = () => (
   <Form
     errors={mockErrors}
-    onSubmit={() => ({ [FORM_ERROR]: 'An error occured' })}
+    onRawSubmit={() => ({ [FORM_ERROR]: 'An error occured' })}
   >
     <Stack gap={1}>
       <SubmitErrorAlert />

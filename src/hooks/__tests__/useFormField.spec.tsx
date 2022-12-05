@@ -7,7 +7,9 @@ import { useFormField } from '../useFormField'
 describe('useFormField', () => {
   test('should render correctly', () => {
     const wrapper = ({ children }: { children: ReactElement }) => (
-      <Form errors={mockErrors}>{children}</Form>
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
+        {children}
+      </Form>
     )
     const { result } = renderHook(() => useFormField('fieldName', {}), {
       wrapper,

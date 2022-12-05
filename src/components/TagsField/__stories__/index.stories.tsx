@@ -5,7 +5,13 @@ import { mockErrors } from '../../../mocks'
 
 export default {
   component: TagsField,
-  decorators: [ChildStory => <Form errors={mockErrors}>{ChildStory()}</Form>],
+  decorators: [
+    ChildStory => (
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
+        {ChildStory()}
+      </Form>
+    ),
+  ],
   parameters: {
     docs: {
       description: {

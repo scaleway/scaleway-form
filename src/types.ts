@@ -3,28 +3,8 @@ import {
   FieldState,
   FieldSubscription,
   FieldValidator,
-  ValidationErrors,
 } from 'final-form'
 import { UseFieldConfig } from 'react-final-form'
-
-/**
- * Return undefined if all is ok
- */
-export type OnSubmitFn<T = AnyObject> = (
-  values: T,
-) => Promise<undefined | unknown> | (undefined | void)
-
-export type OnSubmitSucccessFn<T = AnyObject> = (
-  values: T,
-) => Promise<void> | void
-export type OnSubmitErrorFn = (error: Error | unknown) => Promise<void> | void
-
-/**
- * Return {} or undefined when form is valid
- */
-export type FormValidateFn<T = AnyObject> = (
-  values: T,
-) => ValidationErrors | Promise<ValidationErrors>
 
 export type FormErrorFunctionParams<InputValue = unknown> = {
   label: string

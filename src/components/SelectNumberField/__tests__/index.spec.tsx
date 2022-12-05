@@ -70,7 +70,7 @@ describe('SelectNumberField', () => {
     const maxValue = 20
 
     return shouldMatchEmotionSnapshot(
-      <Form errors={mockErrors}>
+      <Form onRawSubmit={() => {}} errors={mockErrors}>
         <SelectNumberField
           maxValue={maxValue}
           minValue={minValue}

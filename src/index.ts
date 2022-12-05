@@ -17,7 +17,7 @@ export {
   TimeField,
   ToggleField,
 } from './components'
-export { useValidation } from './hooks'
+export { useValidation, useOnFieldChange } from './hooks'
 export type { BaseFieldProps, FormErrors } from './types'
 export { pickValidators } from './helpers'
 export { useErrors, ErrorProvider } from './providers/ErrorContext'

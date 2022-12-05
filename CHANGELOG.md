@@ -1,3 +1,10 @@
+## [1.35.1](https://github.com/scaleway/scaleway-form/compare/v1.35.0...v1.35.1) (2022-12-05)
+
+
+### :bug: Bug Fixes
+
+* **deps:** update dependency @scaleway/ui to v0.212.0 ([#573](https://github.com/scaleway/scaleway-form/issues/573)) ([ba1ba20](https://github.com/scaleway/scaleway-form/commit/ba1ba20e5aedaa7923547c0b8e7456f510884b22))
+
 ## [1.35.0](https://github.com/scaleway/scaleway-form/compare/v1.34.1...v1.35.0) (2022-12-05)
 
 

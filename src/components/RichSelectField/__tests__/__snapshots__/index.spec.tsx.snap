@@ -247,13 +247,13 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-16s6csf-sizeStyles {
+.cache-1r864qk-sizeStyles {
   vertical-align: middle;
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -345,11 +345,11 @@ exports[`RichSelectField should display right value on grouped options 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-16s6csf-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1r864qk-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>
@@ -605,13 +605,13 @@ exports[`RichSelectField should render correctly 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-16s6csf-sizeStyles {
+.cache-1r864qk-sizeStyles {
   vertical-align: middle;
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -705,11 +705,11 @@ exports[`RichSelectField should render correctly 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-16s6csf-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1r864qk-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>
@@ -951,13 +951,13 @@ exports[`RichSelectField should render correctly disabled 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-b8lm46-sizeStyles {
+.cache-1mgbd44-sizeStyles {
   vertical-align: middle;
   fill: #c4c9d6;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -1052,11 +1052,11 @@ exports[`RichSelectField should render correctly disabled 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-b8lm46-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1mgbd44-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>
@@ -1306,13 +1306,13 @@ exports[`RichSelectField should render correctly multiple 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-16s6csf-sizeStyles {
+.cache-1r864qk-sizeStyles {
   vertical-align: middle;
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -1406,11 +1406,11 @@ exports[`RichSelectField should render correctly multiple 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-16s6csf-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1r864qk-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>
@@ -1668,13 +1668,13 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-16s6csf-sizeStyles {
+.cache-1r864qk-sizeStyles {
   vertical-align: middle;
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -1768,11 +1768,11 @@ exports[`RichSelectField should render correctly with a disabled option 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-16s6csf-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1r864qk-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>
@@ -2043,13 +2043,13 @@ exports[`RichSelectField should trigger events 1`] = `
   flex-wrap: nowrap;
 }
 
-.cache-16s6csf-sizeStyles {
+.cache-1r864qk-sizeStyles {
   vertical-align: middle;
   fill: #4a4f62;
-  height: 11px;
-  width: 11px;
-  min-width: 11px;
-  min-height: 11px;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
 }
 
 .cache-9vn1ol {
@@ -2141,11 +2141,11 @@ exports[`RichSelectField should trigger events 1`] = `
               class="cache-pjzp28 e1sgck4o0"
             >
               <svg
-                class="cache-16s6csf-sizeStyles etwatq50"
-                viewBox="0 0 24 24"
+                class="cache-1r864qk-sizeStyles etwatq50"
+                viewBox="0 0 16 16"
               >
                 <path
-                  d="M9.88,18.29l-9-8.55a2.75,2.75,0,0,1,0-4,3.12,3.12,0,0,1,4.24,0L12,12.25l6.88-6.54a3.12,3.12,0,0,1,4.24,0,2.75,2.75,0,0,1,0,4l-9,8.55a3.12,3.12,0,0,1-4.24,0Z"
+                  d="M8 11c-.28 0-.55-.11-.74-.3L3.3 6.77a1.04 1.04 0 0 1 0-1.47 1.06 1.06 0 0 1 1.49 0L8 8.48l3.2-3.17a1.06 1.06 0 0 1 1.72.33 1.04 1.04 0 0 1-.23 1.14L8.74 10.7c-.2.2-.46.31-.74.31"
                 />
               </svg>
             </div>

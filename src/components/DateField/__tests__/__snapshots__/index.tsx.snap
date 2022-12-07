@@ -252,9 +252,7 @@ exports[`DateField should render correctly 1`] = `
             name="test"
             value=""
           >
-            <div
-              class="cache-3svqc9"
-            >
+            <div>
               <div
                 class="cache-bjn8wh e18bmnpq5"
               >
@@ -557,9 +555,7 @@ exports[`DateField should render correctly disabled 1`] = `
             name="test"
             value=""
           >
-            <div
-              class="cache-3svqc9"
-            >
+            <div>
               <div
                 class="cache-bjn8wh e18bmnpq5"
               >
@@ -857,9 +853,7 @@ exports[`DateField should trigger events 1`] = `
             name="test"
             value="08/28/2022"
           >
-            <div
-              class="cache-3svqc9"
-            >
+            <div>
               <div
                 class="cache-bjn8wh e18bmnpq5"
               >

@@ -23,7 +23,7 @@ specifiers:
   '@rollup/plugin-url': 8.0.1
   '@scaleway/eslint-config-react': 3.10.3
   '@scaleway/jest-helpers': 2.0.22
-  '@scaleway/ui': 0.212.7
+  '@scaleway/ui': 0.212.9
   '@semantic-release/changelog': 6.0.2
   '@semantic-release/commit-analyzer': 9.0.2
   '@semantic-release/git': 10.0.1
@@ -82,7 +82,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.20.6
-  '@scaleway/ui': 0.212.7_mhi3dw3nus7rwpybrnmmfhzmsa
+  '@scaleway/ui': 0.212.9_mhi3dw3nus7rwpybrnmmfhzmsa
   final-form: 4.20.7
   final-form-arrays: 3.0.2_final-form@4.20.7
   final-form-focus: 1.1.2_final-form@4.20.7
@@ -3083,8 +3083,8 @@ packages:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
 
-  /@scaleway/ui/0.212.7_mhi3dw3nus7rwpybrnmmfhzmsa:
-    resolution: {integrity: sha512-D/3o/JZ1SPiOS7Ql78iCEddZG/Wu29N2a3Md53RQ4TrTS7qbqr1EZDQxzwj6h3oRn2JyWNjowZReYX4od19W0g==}
+  /@scaleway/ui/0.212.9_mhi3dw3nus7rwpybrnmmfhzmsa:
+    resolution: {integrity: sha512-BeLf0Jm33UODstTRbErNyeIheXvoOTDnsO+Fz/SQ9g/JhEt8Pd6UN8Ixwcc3LSUDcj7rtWJG/K7MXNKM9nK9gg==}
     engines: {node: '>=18.x', pnpm: '>=7.0.0'}
     os: [darwin, linux]
     peerDependencies:
@@ -3113,7 +3113,7 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       react-flatten-children: 1.1.2
       react-markdown: 5.0.3_fan5qbzahqtxlm5dzefqlqx5ia
-      react-select: 5.6.1_34ch25xmpqfrx6wylcxtcsskau
+      react-select: 5.7.0_34ch25xmpqfrx6wylcxtcsskau
       react-toastify: 9.1.1_biqbaboplfbrettd7655fr4n2y
       react-use-clipboard: 1.0.9_biqbaboplfbrettd7655fr4n2y
       reakit: 1.3.11_biqbaboplfbrettd7655fr4n2y
@@ -14323,8 +14323,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-select/5.6.1_34ch25xmpqfrx6wylcxtcsskau:
-    resolution: {integrity: sha512-dYNRswtxUHW+F1Sc0HnxO5ryecPIAsG0+Cwyq5EIXZJBxCxUG2hFfQz41tc++30/2ISuuPglDikc4hEb4NsiuA==}
+  /react-select/5.7.0_34ch25xmpqfrx6wylcxtcsskau:
+    resolution: {integrity: sha512-lJGiMxCa3cqnUr2Jjtg9YHsaytiZqeNOKeibv6WF5zbK/fPegZ1hg3y/9P1RZVLhqBTs0PfqQLKuAACednYGhQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || 18
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || 18

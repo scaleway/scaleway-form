@@ -196,9 +196,7 @@ exports[`Submit form is invalid 1`] = `
 <form
     novalidate=""
   >
-    <div
-      class="cache-3svqc9"
-    >
+    <div>
       <div
         class="cache-bjn8wh e18bmnpq5"
       >

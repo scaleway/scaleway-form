@@ -1,3 +1,10 @@
+## [1.35.4](https://github.com/scaleway/scaleway-form/compare/v1.35.3...v1.35.4) (2022-12-07)
+
+
+### :bug: Bug Fixes
+
+* bump swui and update tests ([#579](https://github.com/scaleway/scaleway-form/issues/579)) ([1f7ae59](https://github.com/scaleway/scaleway-form/commit/1f7ae59f74077dfbf3c66e915422441d500b433d))
+
 ## [1.35.3](https://github.com/scaleway/scaleway-form/compare/v1.35.2...v1.35.3) (2022-12-06)
 
 

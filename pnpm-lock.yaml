@@ -64,7 +64,7 @@ specifiers:
   jest-environment-jsdom: 29.3.1
   jest-junit: 15.0.0
   lint-staged: 13.0.4
-  prettier: 2.8.0
+  prettier: 2.8.1
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -123,7 +123,7 @@ devDependencies:
   '@storybook/addon-links': 6.5.13_biqbaboplfbrettd7655fr4n2y
   '@storybook/addons': 6.5.13_biqbaboplfbrettd7655fr4n2y
   '@storybook/builder-webpack5': 6.5.13_gpshdmfc4w665ax2rx6w5ydgtu
-  '@storybook/csf': 0.0.2--canary.58.7052fb8.0
+  '@storybook/csf': 0.0.2--canary.60.011a95e.0
   '@storybook/manager-webpack5': 6.5.13_gpshdmfc4w665ax2rx6w5ydgtu
   '@storybook/mdx2-csf': 0.0.3
   '@storybook/react': 6.5.13_rp7jbmq3oi4f26cghyjhig5ify
@@ -148,7 +148,7 @@ devDependencies:
   jest-environment-jsdom: 29.3.1
   jest-junit: 15.0.0
   lint-staged: 13.0.4
-  prettier: 2.8.0
+  prettier: 2.8.1
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -4200,8 +4200,8 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@storybook/csf/0.0.2--canary.58.7052fb8.0:
-    resolution: {integrity: sha512-6JnE/+JLJ0P5aQvDYlnTh6ogKRMbOc930oZH6us1WeTdXWLoqiQCITxlN/+LrSrSPw2bDb9G+3POE02h/Eg1Pw==}
+  /@storybook/csf/0.0.2--canary.60.011a95e.0:
+    resolution: {integrity: sha512-Nd2eHr0uh4Ugonu6/69jlzoQUNbEh327TIW6Bsu6VlDmsAqOA46AlRIlkac7aND41MvP8wxZ7f4NYYXker0HLQ==}
     dependencies:
       expect-type: 0.14.2
       lodash: 4.17.21
@@ -13890,8 +13890,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.8.0:
-    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

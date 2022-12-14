@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Meta } from '@storybook/react'
+import type { Meta } from '@storybook/react'
 import { Form, TimeField } from '../..'
 import { mockErrors } from '../../../mocks'
 

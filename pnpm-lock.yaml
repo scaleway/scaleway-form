@@ -21,7 +21,7 @@ specifiers:
   '@rollup/plugin-babel': 6.0.3
   '@rollup/plugin-node-resolve': 15.0.1
   '@rollup/plugin-url': 8.0.1
-  '@scaleway/eslint-config-react': 3.10.5
+  '@scaleway/eslint-config-react': 3.11.0
   '@scaleway/jest-helpers': 2.0.24
   '@scaleway/ui': 0.212.11
   '@semantic-release/changelog': 6.0.2
@@ -109,7 +109,7 @@ devDependencies:
   '@rollup/plugin-babel': 6.0.3_jq7ejmtxohag7dsrebvugbjt6q
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.5.1
   '@rollup/plugin-url': 8.0.1_rollup@3.5.1
-  '@scaleway/eslint-config-react': 3.10.5_hsf322ms6xhhd4b5ne6lb74y4a
+  '@scaleway/eslint-config-react': 3.11.0_hsf322ms6xhhd4b5ne6lb74y4a
   '@scaleway/jest-helpers': 2.0.24_34ch25xmpqfrx6wylcxtcsskau
   '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.5
@@ -1338,7 +1338,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.20.5
-      '@babel/helper-plugin-utils': 7.19.0
+      '@babel/helper-plugin-utils': 7.20.2
     dev: true
 
   /@babel/plugin-transform-react-jsx-development/7.18.6_@babel+core@7.20.5:
@@ -1348,7 +1348,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.20.5
-      '@babel/plugin-transform-react-jsx': 7.18.6_@babel+core@7.20.5
+      '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.20.5
     dev: true
 
   /@babel/plugin-transform-react-jsx/7.18.6_@babel+core@7.20.5:
@@ -1360,7 +1360,7 @@ packages:
       '@babel/core': 7.20.5
       '@babel/helper-annotate-as-pure': 7.18.6
       '@babel/helper-module-imports': 7.18.6
-      '@babel/helper-plugin-utils': 7.19.0
+      '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.20.5
       '@babel/types': 7.20.5
     dev: true
@@ -1387,7 +1387,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.5
       '@babel/helper-annotate-as-pure': 7.18.6
-      '@babel/helper-plugin-utils': 7.19.0
+      '@babel/helper-plugin-utils': 7.20.2
     dev: true
 
   /@babel/plugin-transform-regenerator/7.18.6_@babel+core@7.20.5:
@@ -1487,7 +1487,7 @@ packages:
     dependencies:
       '@babel/core': 7.20.5
       '@babel/helper-create-class-features-plugin': 7.19.0_@babel+core@7.20.5
-      '@babel/helper-plugin-utils': 7.19.0
+      '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-typescript': 7.18.6_@babel+core@7.20.5
     transitivePeerDependencies:
       - supports-color
@@ -3037,8 +3037,8 @@ packages:
       rollup: 3.5.1
     dev: true
 
-  /@scaleway/eslint-config-react/3.10.5_hsf322ms6xhhd4b5ne6lb74y4a:
-    resolution: {integrity: sha512-bNHaR33njC0CUxYBbFrq//9WoCQozQLXhnW6UQJr+qprqTNV4HKyChEvjOmlRg426PRQMr0doJ4rQqgsbpbI/w==}
+  /@scaleway/eslint-config-react/3.11.0_hsf322ms6xhhd4b5ne6lb74y4a:
+    resolution: {integrity: sha512-Z70b/+GOkp9dfifxHsY4M5E0N3TkkKqfz8lwPtkVy/oFWRqm51JZK+QTsuG2ftwYIc9/Df2HookwWMrOGcSk9w==}
     peerDependencies:
       eslint: '>= 8.5'
     dependencies:

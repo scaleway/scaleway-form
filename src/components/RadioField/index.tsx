@@ -1,9 +1,9 @@
 import { Radio } from '@scaleway/ui'
-import { FieldState } from 'final-form'
-import { ComponentProps, ReactNode } from 'react'
+import type { FieldState } from 'final-form'
+import type { ComponentProps, ReactNode } from 'react'
 import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type RadioValue = NonNullable<ComponentProps<typeof Radio>['value']>
 

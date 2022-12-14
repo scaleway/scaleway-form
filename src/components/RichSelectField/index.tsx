@@ -1,15 +1,10 @@
 import { RichSelect } from '@scaleway/ui'
-import { FieldState } from 'final-form'
-import {
-  Children,
-  ComponentProps,
-  ReactElement,
-  useCallback,
-  useMemo,
-} from 'react'
+import type { FieldState } from 'final-form'
+import type { ComponentProps, ReactElement } from 'react'
+import { Children, useCallback, useMemo } from 'react'
 import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type RichSelectProps = ComponentProps<typeof RichSelect>
 type RichSelectOptionProps = ComponentProps<typeof RichSelect.Option>

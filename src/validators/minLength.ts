@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const minLengthValidator: ValidatorFn<string, number> = minLength => ({
   error: 'MIN_LENGTH',

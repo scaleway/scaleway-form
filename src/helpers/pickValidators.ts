@@ -1,6 +1,6 @@
-import { ValidatorObject, ValidatorProps } from '../types'
+import type { ValidatorObject, ValidatorProps } from '../types'
 import validators from '../validators'
-import { ValidatorFn } from '../validators/types'
+import type { ValidatorFn } from '../validators/types'
 
 export const pickValidators = <InputValue = unknown>(args: ValidatorProps) =>
   Object.entries(args)

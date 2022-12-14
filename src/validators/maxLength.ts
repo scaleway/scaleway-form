@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const maxLengthValidator: ValidatorFn<string, number> = maxLength => ({
   error: 'MAX_LENGTH',

@@ -1,6 +1,6 @@
-import { Story } from '@storybook/react'
+import type { Story } from '@storybook/react'
 import { CheckboxField } from '..'
-import { FormProps } from '../..'
+import type { FormProps } from '../..'
 import { Form } from '../../Form'
 
 export const Checked: Story<FormProps> = ({ errors }) => (

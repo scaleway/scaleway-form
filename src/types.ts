@@ -1,10 +1,10 @@
-import {
+import type {
   AnyObject,
   FieldState,
   FieldSubscription,
   FieldValidator,
 } from 'final-form'
-import { UseFieldConfig } from 'react-final-form'
+import type { UseFieldConfig } from 'react-final-form'
 
 export type FormErrorFunctionParams<InputValue = unknown> = {
   label: string

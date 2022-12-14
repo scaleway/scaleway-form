@@ -1,9 +1,9 @@
 import { SelectableCard } from '@scaleway/ui'
-import { FieldState } from 'final-form'
-import { ComponentProps } from 'react'
+import type { FieldState } from 'final-form'
+import type { ComponentProps } from 'react'
 import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type SelectableCardValue = NonNullable<
   ComponentProps<typeof SelectableCard>['value']

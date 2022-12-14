@@ -1,6 +1,6 @@
 import { Stack } from '@scaleway/ui'
-import { Story } from '@storybook/react'
-import { ComponentProps } from 'react'
+import type { Story } from '@storybook/react'
+import type { ComponentProps } from 'react'
 import { DateField } from '..'
 import { Submit } from '../../Submit'
 import { TimeField } from '../../TimeField'

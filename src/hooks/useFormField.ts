@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
-import { UseFieldConfig, useField } from 'react-final-form'
+import type { UseFieldConfig } from 'react-final-form'
+import { useField } from 'react-final-form'
 import { pickValidators } from '../helpers'
-import { ValidatorProps } from '../types'
+import type { ValidatorProps } from '../types'
 import { useValidation } from './useValidation'
 
 export const useFormField = <

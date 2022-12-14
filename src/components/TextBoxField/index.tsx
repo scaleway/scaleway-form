@@ -1,9 +1,10 @@
 import { TextBox } from '@scaleway/ui'
-import { FieldState } from 'final-form'
-import { ComponentProps, FocusEvent, Ref, forwardRef } from 'react'
+import type { FieldState } from 'final-form'
+import type { ComponentProps, FocusEvent, Ref } from 'react'
+import { forwardRef } from 'react'
 import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type TextBoxValue = NonNullable<ComponentProps<typeof TextBox>['value']>
 

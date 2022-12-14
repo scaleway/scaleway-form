@@ -1,6 +1,6 @@
-import { AnyObject, FieldState, FieldValidator } from 'final-form'
+import type { AnyObject, FieldState, FieldValidator } from 'final-form'
 import { useCallback } from 'react'
-import { ValidatorObject } from '../types'
+import type { ValidatorObject } from '../types'
 
 type UseValidationParams<FieldValue = unknown> = {
   validators: ValidatorObject<FieldValue>[]

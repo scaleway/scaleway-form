@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const minDateValidator: ValidatorFn<Date, Date> = minDate => ({
   error: 'MIN_DATE',

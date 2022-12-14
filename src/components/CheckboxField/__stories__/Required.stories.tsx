@@ -1,6 +1,6 @@
 import { Stack } from '@scaleway/ui'
-import { Story } from '@storybook/react'
-import { ComponentProps } from 'react'
+import type { Story } from '@storybook/react'
+import type { ComponentProps } from 'react'
 import { CheckboxField } from '..'
 import { Submit } from '../../Submit'
 

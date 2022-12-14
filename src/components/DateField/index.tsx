@@ -1,9 +1,9 @@
 import { DateInput } from '@scaleway/ui'
-import { FieldState } from 'final-form'
-import { ComponentProps, FocusEvent } from 'react'
+import type { FieldState } from 'final-form'
+import type { ComponentProps, FocusEvent } from 'react'
 import { useFormField } from '../../hooks'
 import { useErrors } from '../../providers/ErrorContext'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type DateFieldProps = BaseFieldProps<Date> &
   Omit<

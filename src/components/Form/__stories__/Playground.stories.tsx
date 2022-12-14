@@ -1,6 +1,7 @@
 import { Checkbox, Stack } from '@scaleway/ui'
-import { ComponentStory } from '@storybook/react'
-import { ChangeEvent, useState } from 'react'
+import type { ComponentStory } from '@storybook/react'
+import type { ChangeEvent } from 'react'
+import { useState } from 'react'
 import {
   CheckboxField,
   Form,

@@ -9,7 +9,7 @@ export const SubmitErrorAlert = <FormValues,>({
   <FormSpy<FormValues> subscription={{ submitError: true }}>
     {({ submitError }) =>
       submitError ? (
-        <Alert className={className} type="warning">
+        <Alert className={className} variant="warning">
           {submitError}
         </Alert>
       ) : null

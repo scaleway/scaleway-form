@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const requiredValidator: ValidatorFn = required => ({
   error: 'REQUIRED',

@@ -1,7 +1,7 @@
 import { Tags } from '@scaleway/ui'
-import { ComponentProps } from 'react'
+import type { ComponentProps } from 'react'
 import { useFormField } from '../../hooks'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 export type TagsFieldProps<T = unknown, K = string> = BaseFieldProps<T, K> &
   Partial<

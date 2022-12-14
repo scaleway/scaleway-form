@@ -1,7 +1,8 @@
 import { Stack } from '@scaleway/ui'
-import { Story } from '@storybook/react'
+import type { Story } from '@storybook/react'
 import { SelectableCardField } from '..'
-import { Form, FormProps } from '../../Form'
+import type { FormProps } from '../../Form'
+import { Form } from '../../Form'
 
 export const Checked: Story<FormProps> = ({ errors }) => (
   <Form onRawSubmit={() => {}} errors={errors} initialValues={{ foo: 'bar' }}>

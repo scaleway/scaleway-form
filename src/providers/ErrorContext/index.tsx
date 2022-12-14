@@ -1,13 +1,8 @@
-import { AnyObject } from 'final-form'
-import {
-  ReactNode,
-  createContext,
-  useCallback,
-  useContext,
-  useMemo,
-} from 'react'
+import type { AnyObject } from 'final-form'
+import type { ReactNode } from 'react'
+import { createContext, useCallback, useContext, useMemo } from 'react'
 import { useFormState } from 'react-final-form'
-import { FormErrorFunctionParams, FormErrors } from '../../types'
+import type { FormErrorFunctionParams, FormErrors } from '../../types'
 
 type GetErrorProps = Omit<FormErrorFunctionParams, 'allValues'> &
   AnyObject & { errorProp?: string; additionalErrorChecks?: boolean }

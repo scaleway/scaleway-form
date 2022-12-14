@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const validator: ValidatorFn<string, (RegExp | RegExp[])[]> = regexes => ({
   error: 'REGEX',

@@ -1,4 +1,4 @@
-import { ValidatorFn } from './types'
+import type { ValidatorFn } from './types'
 
 const maxValidator: ValidatorFn<number> = max => ({
   error: 'TOO_HIGH',

@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react'
+import type { Meta } from '@storybook/react'
 import { SubmitErrorAlert } from '../..'
 
 export default {

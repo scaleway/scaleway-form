@@ -1,7 +1,8 @@
 import { TimeInput } from '@scaleway/ui'
-import { ComponentProps, useMemo } from 'react'
+import type { ComponentProps } from 'react'
+import { useMemo } from 'react'
 import { useFormField } from '../../hooks'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 const parseTime = (date?: Date | string): { label: string; value: string } => {
   const timeStr =

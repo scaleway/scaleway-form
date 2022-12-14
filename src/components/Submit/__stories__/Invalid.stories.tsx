@@ -1,4 +1,4 @@
-import { Story } from '@storybook/react'
+import type { Story } from '@storybook/react'
 import { Submit } from '..'
 import { mockErrors } from '../../../mocks'
 import { Form } from '../../Form'

@@ -1,14 +1,14 @@
-import { Decorator } from 'final-form'
+import type { Decorator } from 'final-form'
 import arrayMutators from 'final-form-arrays'
 import createDecorator from 'final-form-focus'
-import { ReactNode } from 'react'
-import {
+import type { ReactNode } from 'react'
+import type {
   FormRenderProps,
-  Form as ReactFinalForm,
   FormProps as ReactFinalFormProps,
 } from 'react-final-form'
+import { Form as ReactFinalForm } from 'react-final-form'
 import { ErrorProvider } from '../../providers'
-import { FormErrors } from '../../types'
+import type { FormErrors } from '../../types'
 
 const focusOnErrors = createDecorator()
 

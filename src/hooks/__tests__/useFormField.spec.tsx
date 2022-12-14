@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react'
-import { ReactElement } from 'react'
+import type { ReactElement } from 'react'
 import { Form } from '../../components'
 import { mockErrors } from '../../mocks'
 import { useFormField } from '../useFormField'

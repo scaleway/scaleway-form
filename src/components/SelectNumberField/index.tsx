@@ -1,7 +1,7 @@
 import { SelectNumber } from '@scaleway/ui'
-import { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
+import type { ComponentProps, FocusEvent, FocusEventHandler } from 'react'
 import { useFormField } from '../../hooks'
-import { BaseFieldProps } from '../../types'
+import type { BaseFieldProps } from '../../types'
 
 type SelectNumberValue = NonNullable<
   ComponentProps<typeof SelectNumber>['value']

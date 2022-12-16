@@ -23,6 +23,7 @@ specifiers:
   '@rollup/plugin-url': 8.0.1
   '@scaleway/eslint-config-react': 3.11.0
   '@scaleway/jest-helpers': 2.0.24
+  '@scaleway/tsconfig': ^1.1.0
   '@scaleway/ui': 0.213.3
   '@semantic-release/changelog': 6.0.2
   '@semantic-release/commit-analyzer': 9.0.2
@@ -111,6 +112,7 @@ devDependencies:
   '@rollup/plugin-url': 8.0.1_rollup@3.5.1
   '@scaleway/eslint-config-react': 3.11.0_hsf322ms6xhhd4b5ne6lb74y4a
   '@scaleway/jest-helpers': 2.0.24_34ch25xmpqfrx6wylcxtcsskau
+  '@scaleway/tsconfig': 1.1.0
   '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
   '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
@@ -3082,6 +3084,10 @@ packages:
   /@scaleway/random-name/3.0.2:
     resolution: {integrity: sha512-vEL2RegTjZx/3ZEgVgWvNfxsXUZZ0ieiheNva+mXbHCrWc6f0CvntMezf8dONVajLC4Wi6V7Fo2Y9lhnJbvNow==}
     dev: false
+
+  /@scaleway/tsconfig/1.1.0:
+    resolution: {integrity: sha512-dZyeub6snbFUD0oTTgiUsdHYYOcyZDbQ5lSgAaZBCVS6FxF2R2HiLVwtrD6pw9IebhyPne2z8M4BsZQ4Rg+K1w==}
+    dev: true
 
   /@scaleway/ui/0.213.3_mhi3dw3nus7rwpybrnmmfhzmsa:
     resolution: {integrity: sha512-qiBzFM+rzjkKtoYE8xtDFHPHFtctSJW0Qs5BW6Zusut8ZaKR38HqQ0N2yqwYvrZNrOSCyWPOxCuwbF7ThK+zSw==}

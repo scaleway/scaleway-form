@@ -1,6 +1,7 @@
 import { SCWUITheme, normalize, theme } from '@scaleway/ui'
 
 import { css, ThemeProvider, Global, Theme } from '@emotion/react'
+import { Story } from '@storybook/react'
 
 const STORY_SORT = {
   order: [
@@ -46,17 +47,24 @@ const ENV_PARAMETERS = {
   },
 }
 export const parameters =
-  ENV_PARAMETERS[process.env.STORYBOOK_ENVIRONMENT] || ENV_PARAMETERS.production
+  (process.env?.['STORYBOOK_ENVIRONMENT'] as keyof typeof ENV_PARAMETERS) ||
+  ENV_PARAMETERS.production
 
-const adjustedTheme = ancestorTheme =>
+const adjustedTheme = (ancestorTheme: Theme) =>
   ({
     ...ancestorTheme,
     ...Object.keys(theme).reduce(
       (acc, themeItem) => ({
         ...acc,
         [themeItem]: {
-          ...(acc[themeItem] ?? {}),
-          ...theme[themeItem],
+          ...((acc[themeItem as keyof typeof theme] as Record<
+            string,
+            unknown
+          >) ?? {}),
+          ...(theme[themeItem as keyof typeof theme] as Record<
+            string,
+            unknown
+          >),
         },
       }),
       ancestorTheme,
@@ -68,10 +76,10 @@ export const globalStyles = (_: Theme) => css`
 `
 
 export const decorators = [
-  Story => (
+  (StoryComponent: Story) => (
     <ThemeProvider theme={adjustedTheme}>
       <Global styles={[globalStyles]} />
-      <Story />
+      <StoryComponent />
     </ThemeProvider>
   ),
 ]

@@ -37,7 +37,7 @@ describe('DateField', () => {
           })
           const option = node.getAllByRole('option')[0]
           await act(() => {
-            option.click()
+            option?.click()
           })
           expect(onChange).toBeCalledTimes(1)
           // Blur not working on react-datepicker:

@@ -11,8 +11,9 @@ export const mockErrors: FormErrors = {
     `This field should have a length greater than ${minLength}`,
   REGEX: ({ regex }) => {
     if (
-      (Array.isArray(regex[0]) ? regex[0][0].source : regex[0].source) ===
-      emailRegex.source
+      (Array.isArray(regex[0])
+        ? regex?.[0]?.[0]?.source
+        : regex?.[0]?.source) === emailRegex.source
     ) {
       return 'Invalid email'
     }

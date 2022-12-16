@@ -1,26 +1,19 @@
 {
+  "extends": "@scaleway/tsconfig",
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "strict": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "esModuleInterop": true,
+    "target": "esnext",
+    // For storybook compatibility we use commonjs
+    "module": "commonjs",
+    "jsxImportSource": "@emotion/react",
+
     "noEmit": true,
-    "moduleResolution": "node",
     "skipLibCheck": true,
-    "jsx": "preserve"
   },
   "include": [
-    "./storybook/**/*.ts",
-    "./storybook/**/*.tsx",
     "**/*.ts",
     "**/*.tsx",
-    "emotion.d.ts",
+    ".storybook/**/*.ts",
+    ".storybook/**/*.tsx"
   ],
-  "exclude": [
-    "node_modules",
-    "coverage",
-    "dist"
-  ]
+  "exclude": ["node_modules", "coverage", "dist"]
 }

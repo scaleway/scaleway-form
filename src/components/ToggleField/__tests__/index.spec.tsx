@@ -1,5 +1,5 @@
 import { ToggleField } from '..'
-import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelpers'
+import { shouldMatchEmotionSnapshotFormWrapper } from '../../../../.jest/helpers'
 
 describe('ToggleField', () => {
   test('should render correctly', () =>

@@ -5,7 +5,7 @@ import { Form, Submit, SubmitErrorAlert } from '../..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
-} from '../../../helpers/jestHelpers'
+} from '../../../../.jest/helpers'
 import { mockErrors } from '../../../mocks'
 
 describe('SubmitErrorAlert', () => {

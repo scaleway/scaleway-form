@@ -4,7 +4,7 @@ import { Form, SelectNumberField } from '../..'
 import {
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
-} from '../../../helpers/jestHelpers'
+} from '../../../../.jest/helpers'
 import { mockErrors } from '../../../mocks'
 
 describe('SelectNumberField', () => {

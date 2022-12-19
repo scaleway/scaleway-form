@@ -5,7 +5,7 @@ import {
   mockRandom,
   restoreRandom,
   shouldMatchEmotionSnapshotFormWrapper,
-} from '../../../helpers/jestHelpers'
+} from '../../../../.jest/helpers'
 
 describe('RichSelectField', () => {
   beforeAll(mockRandom)

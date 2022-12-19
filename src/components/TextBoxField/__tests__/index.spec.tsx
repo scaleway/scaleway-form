@@ -1,7 +1,7 @@
 import { act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { TextBoxField } from '..'
-import { shouldMatchEmotionSnapshotFormWrapper } from '../../../helpers/jestHelpers'
+import { shouldMatchEmotionSnapshotFormWrapper } from '../../../../.jest/helpers'
 import { mockErrors } from '../../../mocks'
 
 describe('TextBoxField', () => {

@@ -2,7 +2,7 @@ import { renderHook } from '@testing-library/react'
 import type { ReactNode } from 'react'
 import { Form as ReactFinalForm } from 'react-final-form'
 import { ErrorProvider, useErrors } from '..'
-import { shouldMatchEmotionSnapshot } from '../../../helpers/jestHelpers'
+import { shouldMatchEmotionSnapshot } from '../../../../.jest/helpers'
 import { mockErrors } from '../../../mocks'
 
 const HookWrapper = ({ children }: { children: ReactNode }) => (

@@ -3,54 +3,32 @@
   "env": {
     "browser": true
   },
-  "extends": [
-    "@scaleway/react/typescript",
-    "plugin:react/jsx-runtime"
-  ],
-  "parserOptions": {
-    "project": [
-      "tsconfig.json"
-    ]
-  },
-  "plugins": [
-    "@emotion"
-  ],
-  "rules": {
-    // Import
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "**/__stories__/**/*",
-          "**/__tests__/**/*",
-          "**/jestHelpers.tsx",
-          "rollup.config.mjs"
-        ]
-      }
-    ],
-    // emotion
-    "@emotion/styled-import": "error",
-    "@emotion/no-vanilla": "error",
-    "@emotion/import-from-emotion": "error",
-    "@emotion/syntax-preference": [
-      "error",
-      "string"
-    ]
-  },
   "overrides": [
     {
+      "files": ["*.js", "*.mjs"],
+      "extends": ["@scaleway/react", "@scaleway/react/emotion"],
+      "parser": "@babel/eslint-parser"
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["@scaleway/react/typescript", "@scaleway/react/emotion"],
+      "parserOptions": {
+        "project": ["tsconfig.json"]
+      }
+    },
+    {
+      "files": ["**/__stories__/**/*.{ts,tsx}", "**/__tests__/**/*.{ts,tsx}"],
+      "extends": ["@scaleway/react/typescript"],
+      "parserOptions": {
+        "project": ["tsconfig.json"]
+      },
       "env": {
         "jest": true
       },
-      "files": [
-        "**/__stories__/**/*.{ts,tsx}",
-        "**/__tests__/**/*.{ts,tsx}"
-      ],
       "rules": {
         "no-console": "off",
         "no-alert": "off",
-        "react/prop-types": "off",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
       }
     }
   ]

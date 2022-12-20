@@ -5,7 +5,7 @@ import {
   restoreRandom,
   shouldMatchEmotionSnapshot,
   shouldMatchEmotionSnapshotFormWrapper,
-} from '../../../helpers/jestHelpers'
+} from '../../../../.jest/helpers'
 import { mockErrors } from '../../../mocks/mockErrors'
 import { Form } from '../../Form'
 

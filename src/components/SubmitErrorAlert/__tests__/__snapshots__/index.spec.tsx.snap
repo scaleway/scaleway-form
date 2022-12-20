@@ -71,7 +71,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   pointer-events: none;
 }
 
-.cache-1ehs544-alertStyles {
+.cache-1v4uk27-alertStyles {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -94,8 +94,8 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
   flex-wrap: nowrap;
   border-radius: 4px;
   padding: 16px;
-  background-color: #ffefe6;
-  color: #cc4e18;
+  background-color: #ffe1e7;
+  color: #a6102d;
 }
 
 .cache-bqy7up-sizeStyles {
@@ -149,7 +149,7 @@ exports[`SubmitErrorAlert should display an alert when submitError is present 1`
       </div>
     </button>
     <div
-      class="cache-1ehs544-alertStyles eenhiht2"
+      class="cache-1v4uk27-alertStyles eenhiht2"
     >
       <svg
         class="cache-bqy7up-sizeStyles etwatq50"

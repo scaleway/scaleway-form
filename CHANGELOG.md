@@ -1,3 +1,22 @@
+## [1.35.7](https://github.com/scaleway/scaleway-form/compare/v1.35.6...v1.35.7) (2022-12-21)
+
+
+### :package: Chore
+
+* **devdeps:** pin dependency @scaleway/tsconfig to 1.1.0 ([#590](https://github.com/scaleway/scaleway-form/issues/590)) ([7bbb7e9](https://github.com/scaleway/scaleway-form/commit/7bbb7e904ff14626f8c42b6ec995041bcd7ad8bd))
+* **devdeps:** update actions/checkout action to v3.2.0 ([#593](https://github.com/scaleway/scaleway-form/issues/593)) ([3201f4f](https://github.com/scaleway/scaleway-form/commit/3201f4f96d60c96f0ace76f4329f3a0ac8cbddef))
+* **devdeps:** update dependency @scaleway/eslint-config-react to v3.11.2 ([#588](https://github.com/scaleway/scaleway-form/issues/588)) ([4318688](https://github.com/scaleway/scaleway-form/commit/4318688c11dc236957b258b24b1a0fafbe2eca4f))
+
+
+### :repeat: CI
+
+* update eslint config with latest guidelines ([#592](https://github.com/scaleway/scaleway-form/issues/592)) ([06b4de2](https://github.com/scaleway/scaleway-form/commit/06b4de2403f64f6b43c965ed499891c742823139))
+
+
+### :bug: Bug Fixes
+
+* correct Alert variant on SubmitErrorAlert ([#594](https://github.com/scaleway/scaleway-form/issues/594)) ([d8ff359](https://github.com/scaleway/scaleway-form/commit/d8ff3594fa86a8a83157af5f2903f5ac902dc2e4))
+
 ## [1.35.6](https://github.com/scaleway/scaleway-form/compare/v1.35.5...v1.35.6) (2022-12-14)
 
 

@@ -1,3 +1,10 @@
+## [1.36.0](https://github.com/scaleway/scaleway-form/compare/v1.35.8...v1.36.0) (2022-12-22)
+
+
+### :gear: Features
+
+* **hook:** add useOnFieldChange ([#575](https://github.com/scaleway/scaleway-form/issues/575)) ([e5826fb](https://github.com/scaleway/scaleway-form/commit/e5826fb11918777a8a1f72d147efcd859fb1b3c7))
+
 ## [1.35.8](https://github.com/scaleway/scaleway-form/compare/v1.35.7...v1.35.8) (2022-12-22)
 
 

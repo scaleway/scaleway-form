@@ -24,7 +24,7 @@
     "darwin",
     "linux"
   ],
-  "packageManager": "pnpm@7.17.1",
+  "packageManager": "pnpm@7.19.0",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",

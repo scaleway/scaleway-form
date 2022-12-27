@@ -185,7 +185,7 @@
     "read-pkg": "7.1.0",
     "regenerator-runtime": "0.13.11",
     "require-from-string": "2.0.2",
-    "rollup": "3.5.1",
+    "rollup": "3.8.0",
     "rollup-plugin-dts": "5.0.0",
     "rollup-plugin-visualizer": "5.8.3",
     "semantic-release": "19.0.5",
